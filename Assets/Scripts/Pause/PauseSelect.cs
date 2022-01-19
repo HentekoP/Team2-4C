@@ -24,8 +24,8 @@ public class PauseSelect : MonoBehaviour
         //SEflag = Seselect.GetSEFlag();
         //StageNumber = StageSelect.StageNumber();
 
-        if (SEflag == false)
-        {
+        //if (SEflag == false)
+        //{
             if ((!Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (!Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
             {
                 if (pushFlag == false)
@@ -47,7 +47,7 @@ public class PauseSelect : MonoBehaviour
             {
                 pushFlag = false;
             }
-        }
+        //}
 
         switch (MenuNumber)
         {
@@ -56,7 +56,7 @@ public class PauseSelect : MonoBehaviour
                 if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
                 {
                     pushScene = true;
-                    //StartCoroutine(RetryCoroutine());
+                    StartCoroutine(RetryCoroutine());
                 }
                 //Debug.Log("0");
                 break;
@@ -84,36 +84,17 @@ public class PauseSelect : MonoBehaviour
 
 
 
-    //private IEnumerator RetryCoroutine()    //StageNumberによってロードシーンを管理
-    //{
-        //yield return new WaitForSecondsRealtime(1.5f);
+    private IEnumerator RetryCoroutine()    //StageNumberによってロードシーンを管理
+    {
+        yield return new WaitForSecondsRealtime(1.5f);
 
-        //if (StageNumber == 0)
-        //{
-        //    SceneManager.LoadScene("Stage1");
-        //    pushScene = false;
-        //    MenuNumber = 0;
-        //}
-        //else if (StageNumber == 1)
-        //{
-        //    SceneManager.LoadScene("Stage2");
-        //    pushScene = false;
-        //    MenuNumber = 0;
-        //}
-        //else if (StageNumber == 2)
-        //{
-        //    SceneManager.LoadScene("Stage3");
-        //    pushScene = false;
-        //    MenuNumber = 0;
-        //}
-        //else if (StageNumber == 3)
-        //{
-        //    SceneManager.LoadScene("Stage4");
-        //    pushScene = false;
-        //    MenuNumber = 0;
-        //}
-        //Time.timeScale = 1;
-    //}
+        if (StageNumber == 0)
+        {
+            SceneManager.LoadScene("SampleScene");
+            pushScene = false;
+            MenuNumber = 0;
+        }
+    }
 
     private IEnumerator TitleCoroutine()
     {
