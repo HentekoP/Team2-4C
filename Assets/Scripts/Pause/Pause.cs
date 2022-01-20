@@ -10,65 +10,39 @@ public class Pause : MonoBehaviour
     [SerializeField]
     GameObject pausePanel;
     bool pushFlag = false;
-    bool pushscene;
+    bool pushscene = true;
 
     private void Start()
     {
-        pausePanel.SetActive(false);
+        pausePanel.SetActive(false);    //ポーズ画面を消す
     }
 
     void Update()
     {
-        if (Input.GetButton("A")){
-            Debug.Log("0");
-        }
-        if (Input.GetButton("B"))
-        {
-            Debug.Log("1");
-        }
-        if (Input.GetButton("X"))
-        {
-            Debug.Log("2");
-        }
-        if (Input.GetButton("Y"))
-        {
-            Debug.Log("3");
-        }
-
-        if(Input.GetAxis("Vertical") == 1)
-        {
-            Debug.Log("上");
-        }else if(Input.GetAxis("Vertical") == -1)
-        {
-            Debug.Log("下");
-        }
-
-        if (Input.GetAxis("Vertical2") == 1)
-        {
-            Debug.Log("上");
-        }
-        else if (Input.GetAxis("Vertical2") == -1)
-        {
-            Debug.Log("下");
-        }
-
         if (Input.GetKeyDown(KeyCode.P) || Input.GetButton("Start"))
         {
-            if (Time.timeScale == 1)
+            if (pushFlag == true)
             {
-                Time.timeScale = 0;
-                pausePanel.SetActive(true);
-            }
-            else
-            {
-                pushFlag = true;
-                Time.timeScale = 1;
-                pausePanel.SetActive(false);
+                pushFlag = false;
+                if (Time.timeScale == 1)    //ゲームが動いていたら
+                {
+                    Time.timeScale = 0;     //ゲーム内の時間を止める
+                    pausePanel.SetActive(true); //ポーズ画面を出す
+                    Debug.Log("止まっています");
+                }
+                else //Time.timeScale = 0だったら
+                {
+                    Time.timeScale = 1;     //ゲーム内の時間を進める
+                    pausePanel.SetActive(false);    //ポーズ画面を消す
+                    Debug.Log("動き出しました");
+
+                }
             }
         }
-        else
+        else //Startボタンが押されていないときの処理
         {
-            pushFlag = false;
+            pushFlag = true;
+            Debug.Log("Startボタンが押されていないとき");
         }
     }
 }
