@@ -26,14 +26,14 @@ public class Pause : MonoBehaviour
             }
             else
             {
-                //pushFlag = true;
+                pushFlag = true;
                 Time.timeScale = 1;
                 pausePanel.SetActive(false);
             }
         }
         else
         {
-            //pushFlag = false;
+            pushFlag = false;
         }
     }
 }
