@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class ButtonSelect : MonoBehaviour
 {
-    Button Retry;
-    Button TitleBack;
+    //最初にフォーカスするゲームオブジェクト
+    [SerializeField]
+    private GameObject firstSelect;
 
-    void Start()
+    public void ActivateOrNotActivate(bool flag)
     {
-        //ボタンコンポーネント取得
-        //Retry = GameObject.Find("/pausePanel/Retry").GetComponent<Button>();
-        TitleBack = GameObject.Find("/pausePanel/TitleBack").GetComponent<Button>();
-
-        //最初に選択状態にしたいボタンの設定
-        Retry.Select();
+        for(var i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).GetComponent<Button>().interactable = flag;
+        }
+        if (flag)
+        {
+            EventSystem.current.SetSelectedGameObject(firstSelect);
+        }
     }
 }
