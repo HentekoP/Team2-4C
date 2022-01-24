@@ -3,7 +3,7 @@
 public class Mothers_AI : MonoBehaviour
 {
     int counter = 0;
-    float move = 0.05f;
+    float move = 0.005f;
 
     void Update()
     {
@@ -12,7 +12,7 @@ public class Mothers_AI : MonoBehaviour
         counter++;
 
         //countが100になれば-1を掛けて逆方向に動かす
-        if (counter == 500)
+        if (counter == 200)
         {
             counter = 0;
             move *= -1;
