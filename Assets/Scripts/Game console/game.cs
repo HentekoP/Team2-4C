@@ -6,7 +6,6 @@ public class game : MonoBehaviour
 {
     //ゲームサウンド
     private AudioSource audioSource;
-    public AudioClip sound1;
 
     //ゲームライト
     public GameObject gamelight;
@@ -29,16 +28,17 @@ public class game : MonoBehaviour
             if (gamelight.activeSelf)
             {
                 Debug.Log("ボタンが押されている");
+                audioSource.Stop();
                 //ゲームライト（オフ）
                 gamelight.SetActive(false);
             }
             else
             {
                 Debug.Log("もう一度押された");
-                //ゲームサウンドを鳴らす
-                audioSource.PlayOneShot(sound1);
                 //ゲームライト（オン）
                 gamelight.SetActive(true);
+                //ゲームサウンドを鳴らす
+                audioSource.Play();
             }
         }
     }
