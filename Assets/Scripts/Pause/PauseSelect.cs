@@ -12,7 +12,6 @@ public class PauseSelect : MonoBehaviour
     bool pushFlag = false;
     bool SEflag = false;
     private static bool pushScene = false;
-    int StageNumber = 0;
 
     void Start()
     {
@@ -72,7 +71,6 @@ public class PauseSelect : MonoBehaviour
                 }
                 //Debug.Log("2");
                 break;
-
         }
     }
 

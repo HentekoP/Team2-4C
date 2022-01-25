@@ -12,6 +12,8 @@ public class game : MonoBehaviour
 
     //Pauseから受け取る変数用
     bool getSEFlag;
+    bool pauseflag = true;
+
 
     void Start()
     {
@@ -27,13 +29,31 @@ public class game : MonoBehaviour
         //Pauseスクリプトの値を代入
         getSEFlag = Pause.GetSEflag();
 
-        if(Time.timeScale == 0)
+        if (getSEFlag == false) //もし getSEFlag が false なら
         {
-            audioSource.Stop();
-        }else if(getSEFlag == true && Time.timeScale == 1)
-        {
-            //audioSource.Play();
+            if (pauseflag == true)
+            {
+                pauseflag = false;
+                if (Time.timeScale == 0)
+                {
+                    audioSource.Stop();
+
+                    Debug.Log("音がとまる");
+                }
+            }
         }
+        else　   //もし getSEFlag が true なら
+        {
+            if(pauseflag == false)
+            {
+                pauseflag = true;
+                if(Time.timeScale == 1)
+                {
+                    audioSource.Play();
+                }
+            }
+        }
+        //Bボタンを押した後にポーズすると音が鳴りだしてしまう
 
         if (getSEFlag == true)
         {
