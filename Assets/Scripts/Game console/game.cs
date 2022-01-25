@@ -19,7 +19,7 @@ public class game : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
 
         //ゲームライト（オン）
-        gamelight.SetActive(true);
+        gamelight.SetActive(false);
     }
 
     void Update()
