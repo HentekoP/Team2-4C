@@ -10,6 +10,9 @@ public class game : MonoBehaviour
     //ゲームライト
     public GameObject gamelight;
 
+    //Pauseから受け取る変数用
+    bool pushflag;
+
     void Start()
     {
         //AudioComponentを取得
@@ -21,24 +24,31 @@ public class game : MonoBehaviour
 
     void Update()
     {
-        //もしBボタンが押されたら
-        if (Input.GetKeyDown(KeyCode.JoystickButton1))
+        //Pauseスクリプトから持ってきた値を代入
+        pushflag = Pause.PushFlag();
+
+        //もし pushFlag が true なら
+        if (pushflag == true)
         {
-            //その時ゲームライトが（オン）なら
-            if (gamelight.activeSelf)
+            //もしBボタンが押されたら
+            if (Input.GetKeyDown(KeyCode.JoystickButton1))
             {
-                Debug.Log("ボタンが押されている");
-                audioSource.Stop();
-                //ゲームライト（オフ）
-                gamelight.SetActive(false);
-            }
-            else
-            {
-                Debug.Log("もう一度押された");
-                //ゲームライト（オン）
-                gamelight.SetActive(true);
-                //ゲームサウンドを鳴らす
-                audioSource.Play();
+                //その時ゲームライトが（オン）なら
+                if (gamelight.activeSelf)
+                {
+                    Debug.Log("ボタンが押されている");
+                    audioSource.Stop();
+                    //ゲームライト（オフ）
+                    gamelight.SetActive(false);
+                }
+                else
+                {
+                    Debug.Log("もう一度押された");
+                    //ゲームライト（オン）
+                    gamelight.SetActive(true);
+                    //ゲームサウンドを鳴らす
+                    audioSource.Play();
+                }
             }
         }
     }

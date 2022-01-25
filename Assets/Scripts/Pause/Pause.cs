@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
+    //入れたオブジェクトを消す
     [SerializeField]
     GameObject pausePanel;
-    bool pushFlag = false;
-    bool pushscene = true;
+
+    //スタートボタンを押したかの判定
+    private static bool pushFlag = true;
 
     private void Start()
     {
@@ -19,6 +21,7 @@ public class Pause : MonoBehaviour
 
     void Update()
     {
+        //Pキーか Start ボタンが押されたら
         if (Input.GetKeyDown(KeyCode.P) || Input.GetButton("Start"))
         {
             if (pushFlag == true)
@@ -35,7 +38,6 @@ public class Pause : MonoBehaviour
                     Time.timeScale = 1;     //ゲーム内の時間を進める
                     pausePanel.SetActive(false);    //ポーズ画面を消す
                     Debug.Log("動き出しました");
-
                 }
             }
         }
@@ -45,4 +47,9 @@ public class Pause : MonoBehaviour
             Debug.Log("Startボタンが押されていないとき");
         }
     }
+
+    public static bool PushFlag()
+    {
+        return pushFlag;
+    } 
 }
