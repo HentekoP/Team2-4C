@@ -82,12 +82,9 @@ public class PauseSelect : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1.5f);
 
-        if (StageNumber == 0)
-        {
-            SceneManager.LoadScene("SampleScene");
-            pushScene = false;
-            MenuNumber = 0;
-        }
+        SceneManager.LoadScene("SampleScene");
+        pushScene = false;
+        Time.timeScale = 1;
     }
 
     private IEnumerator TitleCoroutine()
@@ -97,14 +94,12 @@ public class PauseSelect : MonoBehaviour
         SceneManager.LoadScene("Title");
         pushScene = false;
         Time.timeScale = 1;
-        MenuNumber = 0;
     }
 
     private IEnumerator EndCoroutine()
     {
         yield return new WaitForSecondsRealtime(1.5f);
         Application.Quit();
-
     }
 
 
