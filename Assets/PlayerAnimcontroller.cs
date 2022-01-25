@@ -4,6 +4,8 @@ public class PlayerAnimcontroller : MonoBehaviour
 {
     Animator m_player;
 
+    bool getSEFlag;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +15,14 @@ public class PlayerAnimcontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Gamepad.current.bButton.wasPressedThisFrame)
+        getSEFlag = Pause.GetSEflag();
+
+        if (getSEFlag == true)
         {
-            m_player.SetTrigger("Hidee");
+            if (Gamepad.current.bButton.wasPressedThisFrame)
+            {
+                m_player.SetTrigger("Hidee");
+            }
         }
     }
 }

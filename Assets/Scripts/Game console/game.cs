@@ -9,7 +9,7 @@ public class game : MonoBehaviour
     public GameObject gamelight;
 
     //Pauseから受け取る変数用
-    bool pushflag;
+    bool getSEFlag;
 
     void Start()
     {
@@ -22,11 +22,18 @@ public class game : MonoBehaviour
 
     void Update()
     {
-        //Pauseスクリプトから持ってきた値を代入
-        pushflag = Pause.PushFlag();
+        //Pauseスクリプトの値を代入
+        getSEFlag = Pause.GetSEflag();
 
-        //もし pushFlag が true なら
-        if (pushflag == true)
+        if(Time.timeScale == 0)
+        {
+            audioSource.Stop();
+        }else if(getSEFlag == true && Time.timeScale == 1)
+        {
+            //audioSource.Play();
+        }
+
+        if (getSEFlag == true)
         {
             //もしBボタンが押されたら
             if (Input.GetKeyDown(KeyCode.JoystickButton1))
@@ -49,5 +56,7 @@ public class game : MonoBehaviour
                 }
             }
         }
+
+
     }
 }
