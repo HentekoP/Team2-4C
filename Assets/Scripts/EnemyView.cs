@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+
 
 public class EnemyView : MonoBehaviour
 {
+
     Ray ray;
     RaycastHit hit;
     Vector3 direction;   // Rayを飛ばす方向
@@ -21,12 +24,18 @@ public class EnemyView : MonoBehaviour
             Debug.DrawRay(ray.origin, ray.direction * distance, Color.red);  // Rayをシーン上に描画
 
             // Rayが最初に当たった物体を調べる
-            if (Physics.Raycast(ray.origin, ray.direction * distance, out hit))
+            //if (Physics.Raycast(ray.origin, ray.direction * distance, out hit))
+            hit = Physics.RaycastAll(ray).First();
             {
                 if (hit.collider.CompareTag("Player"))
                 {
                     Debug.Log("プレイヤー発見");
                 }
+                //else if (hit.collider.CompareTag("Wall"))
+                //{
+
+                //    Debug.Log("壁がある");
+                //}
                 else
                 {
                     Debug.Log("プレイヤーとの間に壁がある");
