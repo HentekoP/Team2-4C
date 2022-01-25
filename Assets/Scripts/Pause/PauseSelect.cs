@@ -21,39 +21,33 @@ public class PauseSelect : MonoBehaviour
 
     void Update()
     {
-        //SEflag = Seselect.GetSEFlag();
-        //StageNumber = StageSelect.StageNumber();
+        if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1))
+        {
+            if (pushFlag == false)
+            {
+                pushFlag = true;
+                if (++MenuNumber > 2) MenuNumber = 0;   //ポーズメニューのカーソルが一番下から一番上にくるように
+            }
+        }
+        else if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
+        {
+            if (pushFlag == false)
+            {
+                pushFlag = true;
+                if (--MenuNumber < 0) MenuNumber = 2;    //ポーズメニューのカーソルが一番上から一番下にくるように
 
-        //if (SEflag == false)
-        //{
-            if ((!Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (!Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
-            {
-                if (pushFlag == false)
-                {
-                    pushFlag = true;
-                    if (++MenuNumber > 2) MenuNumber = 0;   //ポーズメニューのカーソルが一番下から一番上にくるように
-                }
             }
-            else if ((!Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (!Input.GetButton("A") && Input.GetAxis("Vertical2") == 1))
-            {
-                if (pushFlag == false)
-                {
-                    pushFlag = true;
-                    if (--MenuNumber < 0) MenuNumber = 2;    //ポーズメニューのカーソルが一番上から一番下にくるように
-
-                }
-            }
-            else
-            {
-                pushFlag = false;
-            }
-        //}
+        }
+        else
+        {
+            pushFlag = false;
+        }
 
         switch (MenuNumber)
         {
             case 0:
-                rect.localPosition = new Vector3(-420, 40, 0);
-                if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
+                rect.localPosition = new Vector3(-380, -107, 0);
+                if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
                 {
                     pushScene = true;
                     StartCoroutine(RetryCoroutine());
@@ -61,7 +55,7 @@ public class PauseSelect : MonoBehaviour
                 //Debug.Log("0");
                 break;
             case 1:
-                rect.localPosition = new Vector3(-420, -80, 0);
+                rect.localPosition = new Vector3(0, -107, 0);
                 if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
                 {
                     pushScene = true;
@@ -70,7 +64,7 @@ public class PauseSelect : MonoBehaviour
                 //Debug.Log("1");
                 break;
             case 2:
-                rect.localPosition = new Vector3(-420, -200, 0);
+                rect.localPosition = new Vector3(380, -107, 0);
                 if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
                 {
                     pushScene = true;
