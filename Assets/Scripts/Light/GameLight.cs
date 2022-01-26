@@ -17,7 +17,7 @@ public class GameLight : MonoBehaviour
         blinkLight = this.gameObject.GetComponent<Light>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         blinkLight.intensity = Random.Range(0, maxIntensity);
     }
