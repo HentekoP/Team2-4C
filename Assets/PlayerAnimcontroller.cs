@@ -10,6 +10,7 @@ public class PlayerAnimcontroller : MonoBehaviour
     Animator m_player;
 
     bool getSEFlag;
+    bool pauseflag = true;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,33 @@ public class PlayerAnimcontroller : MonoBehaviour
     void Update()
     {
         getSEFlag = Pause.GetSEflag();
+
+        if (getSEFlag == false) //もし getSEFlag が false なら
+        {
+            if (pauseflag == true)
+            {
+                pauseflag = false;
+                if (Time.timeScale == 0)
+                {
+                    audioSource.Stop();
+
+                    //Debug.Log("音がとまる");
+                }
+            }
+        }
+        else　   //もし getSEFlag が true なら
+        {
+            if (pauseflag == false)
+            {
+                pauseflag = true;
+                if (Time.timeScale == 1)
+                {
+                    audioSource.Play();
+                }
+            }
+        }
+
+
 
         if (getSEFlag == true)
         {
