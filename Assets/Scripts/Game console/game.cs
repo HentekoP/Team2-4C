@@ -11,7 +11,7 @@ public class game : MonoBehaviour
     //Pauseから受け取る変数用
     bool getSEFlag;
     bool pauseflag = true;
-
+    bool Light = false;
 
     void Start()
     {
@@ -38,20 +38,23 @@ public class game : MonoBehaviour
 
                     Debug.Log("音がとまる");
                 }
-            }
         }
+    }
         else　   //もし getSEFlag が true なら
         {
-            if(pauseflag == false)
+            if (pauseflag == false)
             {
                 pauseflag = true;
-                if(Time.timeScale == 1)
+                if (Time.timeScale == 1)
                 {
-                    audioSource.Play();
+                    if(Light == true)
+                    {
+                        audioSource.Play();
+                    }
                 }
             }
         }
-        //Bボタンを押した後にポーズすると音が鳴りだしてしまう
+        //ポーズ画面を閉じると音が鳴りだしてしまう
 
         if (getSEFlag == true)
         {
@@ -61,6 +64,7 @@ public class game : MonoBehaviour
                 //その時ゲームライトが（オン）なら
                 if (gamelight.activeSelf)
                 {
+                    Light = false;
                     Debug.Log("ボタンが押されている");
                     audioSource.Stop();
                     //ゲームライト（オフ）
@@ -68,6 +72,7 @@ public class game : MonoBehaviour
                 }
                 else
                 {
+                    Light = true;
                     Debug.Log("もう一度押された");
                     //ゲームライト（オン）
                     gamelight.SetActive(true);
