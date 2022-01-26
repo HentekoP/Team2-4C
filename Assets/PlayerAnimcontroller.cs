@@ -22,6 +22,7 @@ public class PlayerAnimcontroller : MonoBehaviour
             if (Gamepad.current.bButton.wasPressedThisFrame)
             {
                 m_player.SetTrigger("Hidee");
+
             }
         }
     }
