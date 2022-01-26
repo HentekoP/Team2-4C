@@ -8,8 +8,8 @@ public class game : MonoBehaviour
     //ゲームライト
     public GameObject gamelight;
 
-    //Pauseから受け取る変数用
-    bool getSEFlag;
+
+    bool getSEFlag;     //Pauseから受け取る変数用
     bool pauseflag = true;
     bool Light = false;
 
@@ -36,7 +36,7 @@ public class game : MonoBehaviour
                 {
                     audioSource.Stop();
 
-                    Debug.Log("音がとまる");
+                    //Debug.Log("音がとまる");
                 }
         }
     }
