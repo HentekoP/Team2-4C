@@ -6,7 +6,6 @@ using System.Linq;
 
 public class EnemyView : MonoBehaviour
 {
-
     Ray ray;
     RaycastHit hit;
     Vector3 direction;   // Rayを飛ばす方向
