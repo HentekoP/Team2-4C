@@ -90,10 +90,7 @@ public class game : MonoBehaviour
                     //ゲームサウンドを鳴らす
                     audioSource.Play();
 
-                    while (Light == true)
-                    {
-                        score_num += 1;
-                    }
+
                 }
 
             }
