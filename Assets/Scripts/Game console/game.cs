@@ -14,6 +14,7 @@ public class game : MonoBehaviour
 
 
     bool getSEFlag;     //Pauseから受け取る変数用
+    bool getRuleflag;
     bool pauseflag = true;
     bool Light = false;
 
@@ -33,6 +34,8 @@ public class game : MonoBehaviour
         score_text.text = "Score:" + score_num;
         //Pauseスクリプトの値を代入
         getSEFlag = Pause.GetSEflag();
+
+        getRuleflag = Rule.GetRuleFlag();
 
         if (getSEFlag == false) //もし getSEFlag が false なら
         {
@@ -66,36 +69,36 @@ public class game : MonoBehaviour
         }
 
 
-
-        if (getSEFlag == true)
+        if (getRuleflag == true)
         {
-            //もしBボタンが押されたら
-            if (Input.GetKeyDown(KeyCode.JoystickButton1))
+            if (getSEFlag == true)
             {
-                //その時ゲームライトが（オン）なら
-                if (gamelight.activeSelf)
+                //もしBボタンが押されたら
+                if (Input.GetKeyDown(KeyCode.JoystickButton1))
                 {
-                    Light = false;
-                    Debug.Log("ボタンが押されている");
-                    audioSource.Stop();
-                    //ゲームライト（オフ）
-                    gamelight.SetActive(false);
-                }
-                else
-                {
-                    Light = true;
-                    Debug.Log("もう一度押された");
+                    //その時ゲームライトが（オン）なら
+                    if (gamelight.activeSelf)
+                    {
+                        Light = false;
+                        Debug.Log("ボタンが押されている");
+                        audioSource.Stop();
+                        //ゲームライト（オフ）
+                        gamelight.SetActive(false);
+                    }
+                    else
+                    {
+                        Light = true;
+                        Debug.Log("もう一度押された");
 
-                    //ゲームライト（オン）
-                    gamelight.SetActive(true);
-                    //ゲームサウンドを鳴らす
-                    audioSource.Play();
-                }
+                        //ゲームライト（オン）
+                        gamelight.SetActive(true);
+                        //ゲームサウンドを鳴らす
+                        audioSource.Play();
+                    }
 
+                }
             }
         }
-
-
     }
 
     void FixedUpdate()
