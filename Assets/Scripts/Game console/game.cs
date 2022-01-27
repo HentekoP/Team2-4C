@@ -64,7 +64,8 @@ public class game : MonoBehaviour
                 }
             }
         }
-        //ポーズ画面を閉じると音が鳴りだしてしまう
+
+
 
         if (getSEFlag == true)
         {
@@ -89,13 +90,19 @@ public class game : MonoBehaviour
                     gamelight.SetActive(true);
                     //ゲームサウンドを鳴らす
                     audioSource.Play();
-
-
                 }
 
             }
         }
 
 
+    }
+
+    void FixedUpdate()
+    {
+        if(Light == true)
+        {
+            score_num += 1;
+        }
     }
 }
