@@ -13,9 +13,18 @@ public class PauseSelect : MonoBehaviour
     bool SEflag = false;
     private static bool pushScene = false;
 
+
+    public AudioClip sound1;
+    public AudioSource audioSource1;
+
+    public AudioClip audioClip2;
+    public AudioSource audioSource2;
+
     void Start()
     {
         rect = GetComponent<RectTransform>();
+        audioSource1 = GetComponent<AudioSource>();
+        audioSource2 = gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -26,6 +35,7 @@ public class PauseSelect : MonoBehaviour
             {
                 pushFlag = true;
                 if (++MenuNumber > 2) MenuNumber = 0;   //ポーズメニューのカーソルが一番下から一番上にくるように
+                audioSource1.PlayOneShot(sound1, 0.5f);
             }
         }
         else if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
@@ -34,7 +44,7 @@ public class PauseSelect : MonoBehaviour
             {
                 pushFlag = true;
                 if (--MenuNumber < 0) MenuNumber = 2;    //ポーズメニューのカーソルが一番上から一番下にくるように
-
+                audioSource1.PlayOneShot(sound1, 0.5f);
             }
         }
         else
@@ -50,6 +60,7 @@ public class PauseSelect : MonoBehaviour
                 {
                     pushScene = true;
                     StartCoroutine(RetryCoroutine());
+                    audioSource2.Play();
                 }
                 //Debug.Log("0");
                 break;
@@ -59,6 +70,7 @@ public class PauseSelect : MonoBehaviour
                 {
                     pushScene = true;
                     StartCoroutine(TitleCoroutine());
+                    audioSource2.Play();
                 }
                 //Debug.Log("1");
                 break;
@@ -68,6 +80,7 @@ public class PauseSelect : MonoBehaviour
                 {
                     pushScene = true;
                     StartCoroutine(EndCoroutine());
+                    audioSource2.Play();
                 }
                 //Debug.Log("2");
                 break;
