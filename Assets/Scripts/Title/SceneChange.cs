@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
+    public AudioClip sound;
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -17,6 +20,7 @@ public class SceneChange : MonoBehaviour
         if (Input.anyKeyDown)
         {
             StartCoroutine(ChangeCoroutine());
+            audioSource.PlayOneShot(sound, 0.5f);
         }
     }
 

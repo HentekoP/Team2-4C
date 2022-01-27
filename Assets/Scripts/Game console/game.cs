@@ -86,7 +86,7 @@ public class game : MonoBehaviour
                     if (gamelight.activeSelf)
                     {
                         Light = false;
-                        Debug.Log("ボタンが押されている");
+                        //Debug.Log("ボタンが押されている");
                         audioSource.Stop();
                         //ゲームライト（オフ）
                         gamelight.SetActive(false);
@@ -94,7 +94,7 @@ public class game : MonoBehaviour
                     else
                     {
                         Light = true;
-                        Debug.Log("もう一度押された");
+                        //Debug.Log("もう一度押された");
 
                         //ゲームライト（オン）
                         gamelight.SetActive(true);
