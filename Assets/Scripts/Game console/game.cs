@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class game : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class game : MonoBehaviour
 
     //ゲームライト
     public GameObject gamelight;
+
+    public GameObject score_object = null; // Textオブジェクト
+    public int score_num = 0; // スコア変数
 
 
     bool getSEFlag;     //Pauseから受け取る変数用
@@ -24,6 +28,9 @@ public class game : MonoBehaviour
 
     void Update()
     {
+        Text score_text = score_object.GetComponent<Text>();
+        // テキストの表示を入れ替える
+        score_text.text = "Score:" + score_num;
         //Pauseスクリプトの値を代入
         getSEFlag = Pause.GetSEflag();
 
@@ -38,18 +45,21 @@ public class game : MonoBehaviour
 
                     //Debug.Log("音がとまる");
                 }
+            }
         }
-    }
         else　   //もし getSEFlag が true なら
         {
             if (pauseflag == false)
             {
                 pauseflag = true;
                 if (Time.timeScale == 1)
+
                 {
-                    if(Light == true)
+
+                    if (Light == true)
                     {
                         audioSource.Play();
+
                     }
                 }
             }
@@ -74,11 +84,18 @@ public class game : MonoBehaviour
                 {
                     Light = true;
                     Debug.Log("もう一度押された");
+
                     //ゲームライト（オン）
                     gamelight.SetActive(true);
                     //ゲームサウンドを鳴らす
                     audioSource.Play();
+
+                    while (Light == true)
+                    {
+                        score_num += 1;
+                    }
                 }
+
             }
         }
 
