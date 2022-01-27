@@ -3,13 +3,14 @@ using UnityEngine.InputSystem;
 public class PlayerAnimcontroller : MonoBehaviour
 {
     //ゲームサウンド
-    private AudioSource audioSource;
+    private static AudioSource audioSource;
 
     bool audioflag = true;
 
     Animator m_player;
 
     bool getSEFlag;
+    bool getRuleflag;
     bool pauseflag = true;
 
     // Start is called before the first frame update
@@ -17,7 +18,7 @@ public class PlayerAnimcontroller : MonoBehaviour
     {
         //AudioComponentを取得
         audioSource = GetComponent<AudioSource>();
-
+        audioSource.Stop();
         this.m_player = GetComponent<Animator>();
     }
 
@@ -25,6 +26,7 @@ public class PlayerAnimcontroller : MonoBehaviour
     void Update()
     {
         getSEFlag = Pause.GetSEflag();
+        getRuleflag = Rule.GetRuleFlag();
 
         if (getSEFlag == false) //もし getSEFlag が false なら
         {
@@ -55,28 +57,35 @@ public class PlayerAnimcontroller : MonoBehaviour
         }
 
 
-
-        if (getSEFlag == true)
+        if (getRuleflag == true)
         {
-            if (Gamepad.current.bButton.wasPressedThisFrame)
+            if (getSEFlag == true)
             {
-                m_player.SetTrigger("Hidee");
-
-            }
-
-            if (Input.GetKeyDown(KeyCode.JoystickButton1))
-            {
-                if(audioflag == false)
+                if (Gamepad.current.bButton.wasPressedThisFrame)
                 {
-                    audioSource.Play();
-                    audioflag = true;
+                    m_player.SetTrigger("Hidee");
+
                 }
-                else
+
+                if (Input.GetKeyDown(KeyCode.JoystickButton1))
                 {
-                    audioSource.Stop();
-                    audioflag = false;
+                    if (audioflag == false)
+                    {
+                        audioSource.Play();
+                        audioflag = true;
+                    }
+                    else
+                    {
+                        audioSource.Stop();
+                        audioflag = false;
+                    }
                 }
             }
         }
+    }
+
+    public static AudioSource GetIbikiSE()
+    {
+        return audioSource;
     }
 }
