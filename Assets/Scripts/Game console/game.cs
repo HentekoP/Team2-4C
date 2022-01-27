@@ -11,12 +11,18 @@ public class game : MonoBehaviour
 
     public GameObject score_object = null; // Textオブジェクト
     public int score_num = 0; // スコア変数
+    public static int score_back = 0; //裏スコア
 
 
     bool getSEFlag;     //Pauseから受け取る変数用
     bool getRuleflag;
     bool pauseflag = true;
     bool Light = false;
+
+    public static int getscore()
+    {
+        return score_back;
+    }
 
     void Start()
     {
@@ -106,6 +112,7 @@ public class game : MonoBehaviour
         if(Light == true)
         {
             score_num += 1;
+            score_back += 1;
         }
     }
 }
