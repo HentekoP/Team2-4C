@@ -11,11 +11,18 @@ public class game : MonoBehaviour
 
     public GameObject score_object = null; // Textオブジェクト
     public int score_num = 0; // スコア変数
+    public static int score_back = 0; //裏でのスコア処理
 
 
     bool getSEFlag;     //Pauseから受け取る変数用
     bool pauseflag = true;
     bool Light = false;
+
+    //裏スコアの処理
+    public static int getscore()
+    {
+        return score_back;
+    }
 
     void Start()
     {
@@ -76,7 +83,7 @@ public class game : MonoBehaviour
                 if (gamelight.activeSelf)
                 {
                     Light = false;
-                    Debug.Log("ボタンが押されている");
+                    //Debug.Log("ボタンが押されている");
                     audioSource.Stop();
                     //ゲームライト（オフ）
                     gamelight.SetActive(false);
@@ -84,7 +91,7 @@ public class game : MonoBehaviour
                 else
                 {
                     Light = true;
-                    Debug.Log("もう一度押された");
+                   //Debug.Log("もう一度押された");
 
                     //ゲームライト（オン）
                     gamelight.SetActive(true);
@@ -103,6 +110,7 @@ public class game : MonoBehaviour
         if(Light == true)
         {
             score_num += 1;
+            score_back += 1;
         }
     }
 }
