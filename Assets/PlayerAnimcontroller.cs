@@ -46,7 +46,10 @@ public class PlayerAnimcontroller : MonoBehaviour
                 pauseflag = true;
                 if (Time.timeScale == 1)
                 {
-                    audioSource.Play();
+                    if(audioflag == true)
+                    {
+                        audioSource.Play();
+                    }
                 }
             }
         }
