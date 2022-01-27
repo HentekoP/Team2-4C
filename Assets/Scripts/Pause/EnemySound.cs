@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySound : MonoBehaviour
 {
 
-    private AudioSource audioSource;
+    private static AudioSource audioSource;
 
     bool getSEFlag;     //Pauseから受け取る変数用
     bool pauseflag = true;  //ポーズ状態か管理するためのフラグ
@@ -14,6 +14,8 @@ public class EnemySound : MonoBehaviour
     {
         //AudioComponentを取得
         audioSource = GetComponent<AudioSource>();
+
+        audioSource.Stop();
     }
 
 
@@ -45,5 +47,10 @@ public class EnemySound : MonoBehaviour
                 }
             }
         }
+    }
+
+    public static AudioSource GetEnemySE()
+    {
+        return audioSource;
     }
 }
