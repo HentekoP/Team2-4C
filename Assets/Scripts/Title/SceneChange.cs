@@ -8,6 +8,8 @@ public class SceneChange : MonoBehaviour
     public AudioClip sound;
     AudioSource audioSource;
 
+    bool push = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +19,14 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (push == true)
         {
-            StartCoroutine(ChangeCoroutine());
-            audioSource.PlayOneShot(sound, 0.5f);
+            if (Input.GetButton("B"))
+            {
+                StartCoroutine(ChangeCoroutine());
+                audioSource.PlayOneShot(sound, 0.5f);
+                push = false;
+            }
         }
     }
 
