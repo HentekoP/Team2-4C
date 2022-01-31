@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 
 public class EnemyView : MonoBehaviour
@@ -38,6 +39,8 @@ public class EnemyView : MonoBehaviour
                 else
                 {
                     Debug.Log("プレイヤーとの間に壁がある");
+
+                    SceneManager.LoadScene("Result");
                 }
             }
         }
