@@ -17,8 +17,8 @@ public class PauseSelect : MonoBehaviour
     public AudioClip sound1;
     public AudioSource audioSource1;
 
-    public AudioClip audioClip2;
-    public AudioSource audioSource2;
+    private AudioClip audioClip2;
+    private AudioSource audioSource2;
 
     void Start()
     {
