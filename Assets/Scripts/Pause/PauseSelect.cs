@@ -29,61 +29,67 @@ public class PauseSelect : MonoBehaviour
 
     void Update()
     {
-        if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1))
+        if (pushScene == false)
         {
-            if (pushFlag == false)
+            if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1))
             {
-                pushFlag = true;
-                if (++MenuNumber > 2) MenuNumber = 0;   //ポーズメニューのカーソルが一番下から一番上にくるように
-                audioSource1.PlayOneShot(sound1, 0.5f);
+                if (pushFlag == false)
+                {
+                    pushFlag = true;
+                    if (++MenuNumber > 2) MenuNumber = 0;   //ポーズメニューのカーソルが一番下から一番上にくるように
+                    audioSource1.PlayOneShot(sound1, 0.5f);
+                }
             }
-        }
-        else if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
-        {
-            if (pushFlag == false)
+            else if ((!Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (!Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
             {
-                pushFlag = true;
-                if (--MenuNumber < 0) MenuNumber = 2;    //ポーズメニューのカーソルが一番上から一番下にくるように
-                audioSource1.PlayOneShot(sound1, 0.5f);
+                if (pushFlag == false)
+                {
+                    pushFlag = true;
+                    if (--MenuNumber < 0) MenuNumber = 2;    //ポーズメニューのカーソルが一番上から一番下にくるように
+                    audioSource1.PlayOneShot(sound1, 0.5f);
+                }
             }
-        }
-        else
-        {
-            pushFlag = false;
+            else
+            {
+                pushFlag = false;
+            }
         }
 
-        switch (MenuNumber)
+        if (pushScene == false)
         {
-            case 0:
-                rect.localPosition = new Vector3(-380, -107, 0);
-                if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
-                {
-                    pushScene = true;
-                    StartCoroutine(RetryCoroutine());
-                    audioSource2.Play();
-                }
-                //Debug.Log("0");
-                break;
-            case 1:
-                rect.localPosition = new Vector3(0, -107, 0);
-                if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
-                {
-                    pushScene = true;
-                    StartCoroutine(TitleCoroutine());
-                    audioSource2.Play();
-                }
-                //Debug.Log("1");
-                break;
-            case 2:
-                rect.localPosition = new Vector3(380, -107, 0);
-                if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
-                {
-                    pushScene = true;
-                    StartCoroutine(EndCoroutine());
-                    audioSource2.Play();
-                }
-                //Debug.Log("2");
-                break;
+            switch (MenuNumber)
+            {
+                case 0:
+                    rect.localPosition = new Vector3(-380, -107, 0);
+                    if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Horizontal") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == 1) || (Input.GetButton("A") && Input.GetAxis("Horizontal") == -1) || (Input.GetButton("A") && Input.GetAxis("Horizontal2") == -1))
+                    {
+                        pushScene = true;
+                        StartCoroutine(RetryCoroutine());
+                        audioSource2.Play();
+                    }
+                    //Debug.Log("0");
+                    break;
+                case 1:
+                    rect.localPosition = new Vector3(0, -107, 0);
+                    if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
+                    {
+                        pushScene = true;
+                        StartCoroutine(TitleCoroutine());
+                        audioSource2.Play();
+                    }
+                    //Debug.Log("1");
+                    break;
+                case 2:
+                    rect.localPosition = new Vector3(380, -107, 0);
+                    if (Input.GetButton("A") || (Input.GetButton("A") && Input.GetAxis("Vertical") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == 1) || (Input.GetButton("A") && Input.GetAxis("Vertical") == -1) || (Input.GetButton("A") && Input.GetAxis("Vertical2") == -1))
+                    {
+                        pushScene = true;
+                        StartCoroutine(EndCoroutine());
+                        audioSource2.Play();
+                    }
+                    //Debug.Log("2");
+                    break;
+            }
         }
     }
 
