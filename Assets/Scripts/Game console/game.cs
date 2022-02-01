@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class game : MonoBehaviour
 {
+
+    [SerializeField] GameObject Object;//
     //ゲームサウンド
     private AudioSource audioSource;
 
@@ -17,6 +19,9 @@ public class game : MonoBehaviour
     bool getRuleflag;
     bool pauseflag = true;
     bool Light = false;
+
+
+    bool ActiveFlag = false;//
 
     void Start()
     {
@@ -84,6 +89,9 @@ public class game : MonoBehaviour
                         audioSource.Stop();
                         //ゲームライト（オフ）
                         gamelight.SetActive(false);
+
+                        Object.SetActive(false);//
+                        ActiveFlag = false;//
                     }
                     else
                     {
@@ -94,6 +102,9 @@ public class game : MonoBehaviour
                         gamelight.SetActive(true);
                         //ゲームサウンドを鳴らす
                         audioSource.Play();
+
+                        Object.SetActive(true);//
+                        ActiveFlag = true;//
                     }
 
                 }
