@@ -7,6 +7,7 @@ public class ResultChange : MonoBehaviour
 {
     public AudioClip sound;
     AudioSource audioSource;
+    bool Resultpushflag = true;
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +18,14 @@ public class ResultChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Resultpushflag == true)
         {
-            StartCoroutine(ChangeCoroutine());
-            audioSource.PlayOneShot(sound, 0.5f);
+            if (Input.GetButton("B"))
+            {
+                StartCoroutine(ChangeCoroutine());
+                audioSource.PlayOneShot(sound, 0.5f);
+                Resultpushflag = false;
+            }
         }
     }
 
