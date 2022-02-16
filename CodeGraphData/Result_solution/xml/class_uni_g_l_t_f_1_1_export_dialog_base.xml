@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_export_dialog_base" kind="class" prot="public" abstract="yes">
+    <compoundname>UniGLTF::ExportDialogBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_gltf_export_window" prot="public" virt="non-virtual">UniGLTF.GltfExportWindow</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_exporter_wizard" prot="public" virt="non-virtual">VRM.VRMExporterWizard</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a85e4a25f21cf3fde14de1264eaee5d3a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_exporter_dialog_state" kindref="compound">ExporterDialogState</ref></type>
+        <definition>ExporterDialogState UniGLTF.ExportDialogBase.m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" compoundref="_export_dialog_base_8cs" startline="22" endline="36">UniGLTF.ExportDialogBase.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_export_dialog_base_1aa47a8375f29246e475be40e5847252fb" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+        <definition>Vector2 UniGLTF.ExportDialogBase.m_ScrollPosition</definition>
+        <argsstring></argsstring>
+        <name>m_ScrollPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_exporter_dialog_state" kindref="compound">ExporterDialogState</ref></type>
+        <definition>ExporterDialogState UniGLTF.ExportDialogBase.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a85e4a25f21cf3fde14de1264eaee5d3a" kindref="member">m_state</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" compoundref="_v_r_m_exporter_wizard_8cs" startline="378" endline="419">VRM.VRMExporterWizard.OnBlendShapeGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a475fce4bba90296ff858fd9c60e8751a" compoundref="_v_r_m_exporter_wizard_8cs" startline="204" endline="207">VRM.VRMExporterWizard.OnLayout</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1acc9be28f3798becbb968966de8844b91" compoundref="_gltf_export_window_8cs" startline="47" endline="58">UniGLTF.GltfExportWindow.ValidatorFactory</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3" compoundref="_v_r_m_exporter_wizard_8cs" startline="160" endline="202">VRM.VRMExporterWizard.ValidatorFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ab881e85ee2f607a2134873100fca0d7a" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" kindref="member">BeginVerticalScrollViewFunc</ref></type>
+        <definition>BeginVerticalScrollViewFunc UniGLTF.ExportDialogBase.s_func</definition>
+        <argsstring></argsstring>
+        <name>s_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a0818f687df005ced109fba0a6027094e" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" kindref="member">BeginVerticalScrollViewFunc</ref></type>
+        <definition>BeginVerticalScrollViewFunc UniGLTF.ExportDialogBase.BeginVerticalScrollView</definition>
+        <argsstring></argsstring>
+        <name>BeginVerticalScrollView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_export_dialog_base_1acfb5f4388735985e3d3f9f2f9644d7d1" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract string</type>
+        <definition>abstract string UniGLTF.ExportDialogBase.SaveTitle</definition>
+        <argsstring></argsstring>
+        <name>SaveTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" compoundref="_export_dialog_base_8cs" startline="138" endline="175">UniGLTF.ExportDialogBase.EndGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ad7601f6f420d983c4091a8b1b80b2f8d" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract string</type>
+        <definition>abstract string UniGLTF.ExportDialogBase.SaveName</definition>
+        <argsstring></argsstring>
+        <name>SaveName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" compoundref="_export_dialog_base_8cs" startline="138" endline="175">UniGLTF.ExportDialogBase.EndGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ab09c638680d1b5693fa6bf9ce8ad3aac" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract string[]</type>
+        <definition>abstract string [] UniGLTF.ExportDialogBase.SaveExtensions</definition>
+        <argsstring></argsstring>
+        <name>SaveExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" compoundref="_export_dialog_base_8cs" startline="138" endline="175">UniGLTF.ExportDialogBase.EndGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.ExportDialogBase.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="22" bodyend="36"/>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a48442fff32181f2ba04905ab96399394">UniGLTF.ExportDialogBase.Initialize</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a85e4a25f21cf3fde14de1264eaee5d3a" compoundref="_export_dialog_base_8cs" startline="19">UniGLTF.ExportDialogBase.m_state</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a48442fff32181f2ba04905ab96399394" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UniGLTF.ExportDialogBase.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0">Initialize</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39">Initialize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="38" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" compoundref="_export_dialog_base_8cs" startline="22" endline="36">UniGLTF.ExportDialogBase.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ae819bbf6312326efaea4fd4150274412" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UniGLTF.ExportDialogBase.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a650a185f2d56aba014703b8f3896d749">Clear</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74">Clear</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="50" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1abf60b0061286d35529d430a3483549eb" compoundref="_export_dialog_base_8cs" startline="40" endline="48">UniGLTF.ExportDialogBase.OnDisable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1ac2aba8c2ec3604c0f391ca2c03267f7c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract IEnumerable&lt; <ref refid="namespace_uni_g_l_t_f_1ad523cd213d89e2b4c3c812d438ef4a92" kindref="member">Validator</ref> &gt;</type>
+        <definition>abstract IEnumerable&lt;Validator&gt; UniGLTF.ExportDialogBase.ValidatorFactory</definition>
+        <argsstring>()</argsstring>
+        <name>ValidatorFactory</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1acc9be28f3798becbb968966de8844b91">ValidatorFactory</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3">ValidatorFactory</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="75" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1acf5b8551bbb22d206cbf5411170a091a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool UniGLTF.ExportDialogBase.DoGUI</definition>
+        <argsstring>(bool isValid)</argsstring>
+        <name>DoGUI</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ab919b682e0720d8ed64b34872c93c9c0">DoGUI</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd">DoGUI</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>isValid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="90" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a4ca1823e4b8c7eb79959b6c63ba10f9c" compoundref="_export_dialog_base_8cs" startline="77" endline="88">UniGLTF.ExportDialogBase.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1af439e13d0bf81be018f5f84b95a1b7dc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.ExportDialogBase.OnLayout</definition>
+        <argsstring>()</argsstring>
+        <name>OnLayout</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ae335916f3fdcbca3301032d91435bffb">OnLayout</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a475fce4bba90296ff858fd9c60e8751a">OnLayout</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="92" bodyend="94"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a3e4e91e28cd4bd87b20a0adcb16ecfb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UniGLTF.ExportDialogBase.ExportPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ExportPath</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a66f253df6b227ebe2bdc8d3d032277c6">ExportPath</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee">ExportPath</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="177" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" compoundref="_export_dialog_base_8cs" startline="138" endline="175">UniGLTF.ExportDialogBase.EndGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1abf60b0061286d35529d430a3483549eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.ExportDialogBase.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="40" bodyend="48"/>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ae819bbf6312326efaea4fd4150274412">UniGLTF.ExportDialogBase.Clear</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a4ca1823e4b8c7eb79959b6c63ba10f9c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.ExportDialogBase.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="77" bodyend="88"/>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" compoundref="_export_dialog_base_8cs" startline="96" endline="132">UniGLTF.ExportDialogBase.BeginGUI</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acf5b8551bbb22d206cbf5411170a091a">UniGLTF.ExportDialogBase.DoGUI</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" compoundref="_export_dialog_base_8cs" startline="138" endline="175">UniGLTF.ExportDialogBase.EndGUI</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.ExportDialogBase.BeginGUI</definition>
+        <argsstring>()</argsstring>
+        <name>BeginGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="96" bodyend="132"/>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a0818f687df005ced109fba0a6027094e" compoundref="_export_dialog_base_8cs" startline="58">UniGLTF.ExportDialogBase.BeginVerticalScrollView</references>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1aa47a8375f29246e475be40e5847252fb" compoundref="_export_dialog_base_8cs" startline="70">UniGLTF.ExportDialogBase.m_ScrollPosition</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1af439e13d0bf81be018f5f84b95a1b7dc" compoundref="_export_dialog_base_8cs" startline="92" endline="94">UniGLTF.ExportDialogBase.OnLayout</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a7572f7322f4b367afe1c29914287b3bc" compoundref="_export_dialog_state_8cs" startline="82">UniGLTF.ExporterDialogState.Validations</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ac2aba8c2ec3604c0f391ca2c03267f7c">UniGLTF.ExportDialogBase.ValidatorFactory</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a4ca1823e4b8c7eb79959b6c63ba10f9c" compoundref="_export_dialog_base_8cs" startline="77" endline="88">UniGLTF.ExportDialogBase.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.ExportDialogBase.EndGUI</definition>
+        <argsstring>()</argsstring>
+        <name>EndGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="138" bodyend="175"/>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a3e4e91e28cd4bd87b20a0adcb16ecfb3">UniGLTF.ExportDialogBase.ExportPath</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ab09c638680d1b5693fa6bf9ce8ad3aac" compoundref="_export_dialog_base_8cs" startline="136">UniGLTF.ExportDialogBase.SaveExtensions</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad7601f6f420d983c4091a8b1b80b2f8d" compoundref="_export_dialog_base_8cs" startline="135">UniGLTF.ExportDialogBase.SaveName</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acfb5f4388735985e3d3f9f2f9644d7d1" compoundref="_export_dialog_base_8cs" startline="134">UniGLTF.ExportDialogBase.SaveTitle</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a4ca1823e4b8c7eb79959b6c63ba10f9c" compoundref="_export_dialog_base_8cs" startline="77" endline="88">UniGLTF.ExportDialogBase.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+        <definition>delegate Vector2 UniGLTF.ExportDialogBase.BeginVerticalScrollViewFunc</definition>
+        <argsstring>(Vector2 scrollPosition, bool alwaysShowVertical, GUIStyle verticalScrollbar, GUIStyle background, params GUILayoutOption[] options)</argsstring>
+        <name>BeginVerticalScrollViewFunc</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>scrollPosition</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>alwaysShowVertical</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>verticalScrollbar</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <param>
+          <type>params GUILayoutOption[]</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ヒエラルキーをエクスポートするダイアログ。 </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Root管理(m_state)</para></listitem><listitem><para>Validation管理(Exportボタンを押せるか否か)</para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="657">
+        <label>UniGLTF.ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="658" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="659">
+        <label>UniGLTF.GltfExportWindow</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_window"/>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>EditorWindow</label>
+      </node>
+      <node id="660">
+        <label>VRM.VRMExporterWizard</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard"/>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="663">
+        <label>UnityEngine.Vector2</label>
+        <link refid="struct_unity_engine_1_1_vector2"/>
+      </node>
+      <node id="661">
+        <label>UniGLTF.ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="662" relation="public-inheritance">
+        </childnode>
+        <childnode refid="663" relation="usage">
+          <edgelabel>m_ScrollPosition</edgelabel>
+        </childnode>
+        <childnode refid="664" relation="usage">
+          <edgelabel>m_state</edgelabel>
+          <edgelabel>State</edgelabel>
+        </childnode>
+      </node>
+      <node id="664">
+        <label>UniGLTF.ExporterDialogState</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporter_dialog_state"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>IDisposable</label>
+      </node>
+      <node id="662">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogBase.cs" bodystart="17" bodyend="178"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5cd53abb7d173c2423f3a306183edeb3" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>BeginGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a0818f687df005ced109fba0a6027094e" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>BeginVerticalScrollView</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" prot="public" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>BeginVerticalScrollViewFunc</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ae819bbf6312326efaea4fd4150274412" prot="protected" virt="pure-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>Clear</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acf5b8551bbb22d206cbf5411170a091a" prot="protected" virt="pure-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>DoGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a035f9b3043f752be3a2f6cbe12c8531b" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>EndGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a3e4e91e28cd4bd87b20a0adcb16ecfb3" prot="protected" virt="pure-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>ExportPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a48442fff32181f2ba04905ab96399394" prot="protected" virt="pure-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>Initialize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1aa47a8375f29246e475be40e5847252fb" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>m_ScrollPosition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a85e4a25f21cf3fde14de1264eaee5d3a" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>m_state</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1abf60b0061286d35529d430a3483549eb" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>OnDisable</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" prot="protected" virt="virtual"><scope>UniGLTF::ExportDialogBase</scope><name>OnEnable</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a4ca1823e4b8c7eb79959b6c63ba10f9c" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>OnGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1af439e13d0bf81be018f5f84b95a1b7dc" prot="protected" virt="virtual"><scope>UniGLTF::ExportDialogBase</scope><name>OnLayout</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ab881e85ee2f607a2134873100fca0d7a" prot="private" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>s_func</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ab09c638680d1b5693fa6bf9ce8ad3aac" prot="protected" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>SaveExtensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad7601f6f420d983c4091a8b1b80b2f8d" prot="protected" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>SaveName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acfb5f4388735985e3d3f9f2f9644d7d1" prot="protected" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>SaveTitle</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" prot="protected" virt="non-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>State</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ac2aba8c2ec3604c0f391ca2c03267f7c" prot="protected" virt="pure-virtual"><scope>UniGLTF::ExportDialogBase</scope><name>ValidatorFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

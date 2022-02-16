@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bone_replacer" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBoneReplacer</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bone_replacer_1a06e708f2543c306d8abc55199c884bc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task VRM.FastSpringBoneReplacer.ReplaceAsync</definition>
+        <argsstring>(GameObject gameObject, IAwaitCaller awaitCaller=null, CancellationToken token=default)</argsstring>
+        <name>ReplaceAsync</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>token</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneReplacer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneReplacer.cs" bodystart="19" bodyend="128"/>
+        <references refid="class_v_r_m_1_1_fast_spring_bone_service_1a34733cadebfc8204ba2c5029f52f09a8" compoundref="_fast_spring_bone_service_8cs" startline="20">VRM.FastSpringBoneService.Instance</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>指定されたGameObject内にあるSpringBoneをFastSpringBoneに差し替えるユーティリティ </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneReplacer.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneReplacer.cs" bodystart="17" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bone_replacer_1a06e708f2543c306d8abc55199c884bc7" prot="public" virt="non-virtual"><scope>VRM::FastSpringBoneReplacer</scope><name>ReplaceAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

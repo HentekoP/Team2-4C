@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_internal_t_pose" kind="class" prot="public">
+    <compoundname>UniGLTF::InternalTPose</compoundname>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_internal_t_pose_1_1_t_r_s" prot="private">UniGLTF::InternalTPose::TRS</innerclass>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_internal_t_pose_1ac4f5a1cedc4de60a32c6d7b014f6fb21" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.InternalTPose.BuildMap</definition>
+        <argsstring>(Transform t, Dictionary&lt; string, TRS &gt; map, Transform root=null)</argsstring>
+        <name>BuildMap</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="struct_uni_g_l_t_f_1_1_internal_t_pose_1_1_t_r_s" kindref="compound">TRS</ref> &gt;</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="47" bodyend="60"/>
+        <references refid="struct_uni_g_l_t_f_1_1_internal_t_pose_1_1_t_r_s_1a88bc3e76f38ecb417517f55e0eca1a6b" compoundref="_internal_t_pose_8cs" startline="36" endline="44">UniGLTF.InternalTPose.TRS.From</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a815fa31fda23480b065622bf9ba271f5" compoundref="_internal_t_pose_8cs" startline="77" endline="105">UniGLTF.InternalTPose.TrySampleBindPose</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_internal_t_pose_1a40f7d6fd552bee39aa6b2c15918b198f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.InternalTPose.ApplyMap</definition>
+        <argsstring>(Transform t, Dictionary&lt; string, TRS &gt; map, Transform root=null)</argsstring>
+        <name>ApplyMap</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="struct_uni_g_l_t_f_1_1_internal_t_pose_1_1_t_r_s" kindref="compound">TRS</ref> &gt;</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="62" bodyend="75"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a815fa31fda23480b065622bf9ba271f5" compoundref="_internal_t_pose_8cs" startline="77" endline="105">UniGLTF.InternalTPose.TrySampleBindPose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_internal_t_pose_1a815fa31fda23480b065622bf9ba271f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.InternalTPose.TrySampleBindPose</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>TrySampleBindPose</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="77" bodyend="105"/>
+        <references refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a40f7d6fd552bee39aa6b2c15918b198f" compoundref="_internal_t_pose_8cs" startline="62" endline="75">UniGLTF.InternalTPose.ApplyMap</references>
+        <references refid="class_uni_g_l_t_f_1_1_internal_t_pose_1ac4f5a1cedc4de60a32c6d7b014f6fb21" compoundref="_internal_t_pose_8cs" startline="47" endline="60">UniGLTF.InternalTPose.BuildMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_internal_t_pose_1a0d7f05a37038c3021744541996e7f222" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.InternalTPose.TryMakePoseValid</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>TryMakePoseValid</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="107" bodyend="169"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="21" bodyend="170"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a40f7d6fd552bee39aa6b2c15918b198f" prot="private" virt="non-virtual"><scope>UniGLTF::InternalTPose</scope><name>ApplyMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_internal_t_pose_1ac4f5a1cedc4de60a32c6d7b014f6fb21" prot="private" virt="non-virtual"><scope>UniGLTF::InternalTPose</scope><name>BuildMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a0d7f05a37038c3021744541996e7f222" prot="public" virt="non-virtual"><scope>UniGLTF::InternalTPose</scope><name>TryMakePoseValid</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a815fa31fda23480b065622bf9ba271f5" prot="public" virt="non-virtual"><scope>UniGLTF::InternalTPose</scope><name>TrySampleBindPose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

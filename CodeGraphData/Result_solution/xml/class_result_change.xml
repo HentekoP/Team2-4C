@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_result_change" kind="class" prot="public">
+    <compoundname>ResultChange</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_result_change_1a1c42e6d25489b9a9445599ebdccc9a82" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip ResultChange.sound</definition>
+        <argsstring></argsstring>
+        <name>sound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_result_change_1ad842c2b1fa2fdee427667cb4da461a1c" compoundref="_result_change_8cs" startline="19" endline="30">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_result_change_1ad91cdc451addc09b7d963bfdafcba46a" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ResultChange.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_result_change_1a98dda3b1e8b71706c986780f74d2ad60" compoundref="_result_change_8cs" startline="13" endline="16">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_result_change_1a914b22f0a025b884da317299a74564bf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ResultChange.Resultpushflag</definition>
+        <argsstring></argsstring>
+        <name>Resultpushflag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_result_change_1ad842c2b1fa2fdee427667cb4da461a1c" compoundref="_result_change_8cs" startline="19" endline="30">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_result_change_1a98dda3b1e8b71706c986780f74d2ad60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResultChange.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_result_change_1ad91cdc451addc09b7d963bfdafcba46a" compoundref="_result_change_8cs" startline="9">audioSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_result_change_1ad842c2b1fa2fdee427667cb4da461a1c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResultChange.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="19" bodyend="30"/>
+        <references refid="class_result_change_1a3d0588a25033174145b1e4049d38a45a" compoundref="_result_change_8cs" startline="32" endline="38">ChangeCoroutine</references>
+        <references refid="class_result_change_1a914b22f0a025b884da317299a74564bf" compoundref="_result_change_8cs" startline="10">Resultpushflag</references>
+        <references refid="class_result_change_1a1c42e6d25489b9a9445599ebdccc9a82" compoundref="_result_change_8cs" startline="8">sound</references>
+      </memberdef>
+      <memberdef kind="function" id="class_result_change_1a3d0588a25033174145b1e4049d38a45a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ResultChange.ChangeCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="32" bodyend="38"/>
+        <referencedby refid="class_result_change_1ad842c2b1fa2fdee427667cb4da461a1c" compoundref="_result_change_8cs" startline="19" endline="30">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2111">
+        <label>ResultChange</label>
+        <link refid="class_result_change"/>
+        <childnode refid="2112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2112">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2113">
+        <label>ResultChange</label>
+        <link refid="class_result_change"/>
+        <childnode refid="2114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2114">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Result/ResultChange.cs" bodystart="6" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_result_change_1ad91cdc451addc09b7d963bfdafcba46a" prot="private" virt="non-virtual"><scope>ResultChange</scope><name>audioSource</name></member>
+      <member refid="class_result_change_1a3d0588a25033174145b1e4049d38a45a" prot="private" virt="non-virtual"><scope>ResultChange</scope><name>ChangeCoroutine</name></member>
+      <member refid="class_result_change_1a914b22f0a025b884da317299a74564bf" prot="private" virt="non-virtual"><scope>ResultChange</scope><name>Resultpushflag</name></member>
+      <member refid="class_result_change_1a1c42e6d25489b9a9445599ebdccc9a82" prot="public" virt="non-virtual"><scope>ResultChange</scope><name>sound</name></member>
+      <member refid="class_result_change_1a98dda3b1e8b71706c986780f74d2ad60" prot="private" virt="non-virtual"><scope>ResultChange</scope><name>Start</name></member>
+      <member refid="class_result_change_1ad842c2b1fa2fdee427667cb4da461a1c" prot="private" virt="non-virtual"><scope>ResultChange</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

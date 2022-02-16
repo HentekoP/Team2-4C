@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_default_material_validator" kind="class" prot="public">
+    <compoundname>UniGLTF::DefaultMaterialValidator</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_material_validator" prot="public" virt="non-virtual">UniGLTF.IMaterialValidator</basecompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator" prot="public" virt="non-virtual">VRM.VRMExporterWizard.VRMMaterialValidator</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_default_material_validator_1ab7447ce91acac4003f74282e801bcb6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string UniGLTF.DefaultMaterialValidator.GetGltfMaterialTypeFromUnityShaderName</definition>
+        <argsstring>(string shaderName)</argsstring>
+        <name>GetGltfMaterialTypeFromUnityShaderName</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_material_validator_1ae5a0ab114449f2678f243376abb84b59">GetGltfMaterialTypeFromUnityShaderName</reimplements>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a180ec444957ac2fef6a5658c73e8e7c3">GetGltfMaterialTypeFromUnityShaderName</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+<para>shaderName から <ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> マテリアルタイプ を得る </para>        </briefdescription>
+        <detaileddescription>
+<para>shaderName が エクスポートできるものでないときは null を返す(gltfデフォルトの pbr として処理される) </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shaderName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" bodystart="28" bodyend="39"/>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1aba921c18828b1b86833dab66e1b7f6f5" compoundref="_material_exporter_8cs" startline="215" endline="229">UniGLTF.MaterialExporter.IsUnlit</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_default_material_validator_1a13ec21915d3b08c2ceb0ed5ec1321589" compoundref="_material_validator_8cs" startline="41" endline="68">UniGLTF.DefaultMaterialValidator.EnumerateTextureProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_default_material_validator_1a13ec21915d3b08c2ceb0ed5ec1321589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>IEnumerable&lt;(string propertyName, Texture texture)&gt;</type>
+        <definition>virtual IEnumerable&lt;(string propertyName, Texture texture)&gt; UniGLTF.DefaultMaterialValidator.EnumerateTextureProperties</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>EnumerateTextureProperties</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_material_validator_1ab9c1e4cc79e402f355153769b266b243">EnumerateTextureProperties</reimplements>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a43d52de78d9d3172a9fedd4d07089cb4">EnumerateTextureProperties</reimplementedby>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>テクスチャーを使うプロパティを列挙する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" bodystart="41" bodyend="68"/>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1ae51b6b2a78bfe2e50582c1c421929792" compoundref="_material_exporter_8cs" startline="33">UniGLTF.MaterialExporter.COLOR_TEXTURE_PROP</references>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1abdb3faf6bdd0f37b77e7af574cdd3354" compoundref="_material_exporter_8cs" startline="36">UniGLTF.MaterialExporter.EMISSION_TEX_PROP</references>
+        <references refid="class_uni_g_l_t_f_1_1_default_material_validator_1ab7447ce91acac4003f74282e801bcb6a" compoundref="_material_validator_8cs" startline="28" endline="39">UniGLTF.DefaultMaterialValidator.GetGltfMaterialTypeFromUnityShaderName</references>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1a40a445f58dd4936750504ebefa0a6ef3" compoundref="_material_exporter_8cs" startline="34">UniGLTF.MaterialExporter.METALLIC_TEX_PROP</references>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1a0b0fce4b69418dbb69362587fd89f81a" compoundref="_material_exporter_8cs" startline="35">UniGLTF.MaterialExporter.NORMAL_TEX_PROP</references>
+        <references refid="class_uni_g_l_t_f_1_1_material_exporter_1ad5e11a481fc1a7251703eb72f0011ef8" compoundref="_material_exporter_8cs" startline="37">UniGLTF.MaterialExporter.OCCLUSION_TEX_PROP</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>VRM.VRMExporterWizard.VRMMaterialValidator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator"/>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>UniGLTF.DefaultMaterialValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_default_material_validator"/>
+        <childnode refid="510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="512">
+        <label>UniGLTF.DefaultMaterialValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_default_material_validator"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MaterialValidator.cs" bodystart="26" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_default_material_validator_1a13ec21915d3b08c2ceb0ed5ec1321589" prot="public" virt="virtual"><scope>UniGLTF::DefaultMaterialValidator</scope><name>EnumerateTextureProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_default_material_validator_1ab7447ce91acac4003f74282e801bcb6a" prot="public" virt="virtual"><scope>UniGLTF::DefaultMaterialValidator</scope><name>GetGltfMaterialTypeFromUnityShaderName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

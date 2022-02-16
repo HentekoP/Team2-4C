@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_move" kind="class" prot="public">
+    <compoundname>PlayerMove</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_move_1a9c83259b2bdcb763d591081d2007176b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerMove.mouseY</definition>
+        <argsstring></argsstring>
+        <name>mouseY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_player_move_1ac01691e6dff87aaf9277a3f486015fec" compoundref="_player_move_8cs" startline="14" endline="34">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_move_1af473a40091ae869aca4bdacfa782e21b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerMove.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_move_1ac01691e6dff87aaf9277a3f486015fec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerMove.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" bodystart="14" bodyend="34"/>
+        <references refid="class_player_move_1a9c83259b2bdcb763d591081d2007176b" compoundref="_player_move_8cs" startline="6">mouseY</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1974">
+        <label>PlayerMove</label>
+        <link refid="class_player_move"/>
+        <childnode refid="1975" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1975">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1976">
+        <label>PlayerMove</label>
+        <link refid="class_player_move"/>
+        <childnode refid="1977" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1977">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_3/PlayerMove.cs" bodystart="4" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_player_move_1a9c83259b2bdcb763d591081d2007176b" prot="private" virt="non-virtual"><scope>PlayerMove</scope><name>mouseY</name></member>
+      <member refid="class_player_move_1af473a40091ae869aca4bdacfa782e21b" prot="private" virt="non-virtual"><scope>PlayerMove</scope><name>Start</name></member>
+      <member refid="class_player_move_1ac01691e6dff87aaf9277a3f486015fec" prot="private" virt="non-virtual"><scope>PlayerMove</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

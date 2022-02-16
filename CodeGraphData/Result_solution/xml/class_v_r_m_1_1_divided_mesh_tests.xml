@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_divided_mesh_tests" kind="class" prot="public">
+    <compoundname>VRM::DividedMeshTests</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_divided_mesh_tests_1a8ac96b47bfdb8b614abdb0812d53f165" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string VRM.DividedMeshTests.AliciaPath</definition>
+        <argsstring></argsstring>
+        <name>AliciaPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_divided_mesh_tests_1ad88d3316eed8605c70c1808479cab2d0" compoundref="_vrm_divided_mesh_tests_8cs" startline="64" endline="83">VRM.DividedMeshTests.ExportDividedMeshTest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_divided_mesh_tests_1aecb22cd9c4a5adc95945ac03c8437f47" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject VRM.DividedMeshTests.Load</definition>
+        <argsstring>(byte[] bytes, string path)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" bodystart="22" bodyend="32"/>
+        <referencedby refid="class_v_r_m_1_1_divided_mesh_tests_1ad88d3316eed8605c70c1808479cab2d0" compoundref="_vrm_divided_mesh_tests_8cs" startline="64" endline="83">VRM.DividedMeshTests.ExportDividedMeshTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_divided_mesh_tests_1a249eb91156cd1a07a1cf6e5a6f592ab5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Mesh &gt;</type>
+        <definition>static IEnumerable&lt;Mesh&gt; VRM.DividedMeshTests.GetMeshes</definition>
+        <argsstring>(GameObject gameObject)</argsstring>
+        <name>GetMeshes</name>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" bodystart="34" bodyend="47"/>
+        <referencedby refid="class_v_r_m_1_1_divided_mesh_tests_1ad88d3316eed8605c70c1808479cab2d0" compoundref="_vrm_divided_mesh_tests_8cs" startline="64" endline="83">VRM.DividedMeshTests.ExportDividedMeshTest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_divided_mesh_tests_1ad88d3316eed8605c70c1808479cab2d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.DividedMeshTests.ExportDividedMeshTest</definition>
+        <argsstring>()</argsstring>
+        <name>ExportDividedMeshTest</name>
+        <briefdescription>
+<para>positions: [ {1, 1, 0} {1, 1, 1} {1, 1, 2} {1, 1, 3} {1, 1, 4} {1, 1, 5} ] submesh 0 1 2 submesh 3 4 5 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" bodystart="64" bodyend="83"/>
+        <references refid="class_v_r_m_1_1_divided_mesh_tests_1a8ac96b47bfdb8b614abdb0812d53f165" compoundref="_vrm_divided_mesh_tests_8cs" startline="14">VRM.DividedMeshTests.AliciaPath</references>
+        <references refid="class_v_r_m_1_1_divided_mesh_tests_1a249eb91156cd1a07a1cf6e5a6f592ab5" compoundref="_vrm_divided_mesh_tests_8cs" startline="34" endline="47">VRM.DividedMeshTests.GetMeshes</references>
+        <references refid="class_v_r_m_1_1_divided_mesh_tests_1aecb22cd9c4a5adc95945ac03c8437f47" compoundref="_vrm_divided_mesh_tests_8cs" startline="22" endline="32">VRM.DividedMeshTests.Load</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/VrmDividedMeshTests.cs" bodystart="11" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_divided_mesh_tests_1a8ac96b47bfdb8b614abdb0812d53f165" prot="private" virt="non-virtual"><scope>VRM::DividedMeshTests</scope><name>AliciaPath</name></member>
+      <member refid="class_v_r_m_1_1_divided_mesh_tests_1ad88d3316eed8605c70c1808479cab2d0" prot="public" virt="non-virtual"><scope>VRM::DividedMeshTests</scope><name>ExportDividedMeshTest</name></member>
+      <member refid="class_v_r_m_1_1_divided_mesh_tests_1a249eb91156cd1a07a1cf6e5a6f592ab5" prot="private" virt="non-virtual"><scope>VRM::DividedMeshTests</scope><name>GetMeshes</name></member>
+      <member refid="class_v_r_m_1_1_divided_mesh_tests_1aecb22cd9c4a5adc95945ac03c8437f47" prot="private" virt="non-virtual"><scope>VRM::DividedMeshTests</scope><name>Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

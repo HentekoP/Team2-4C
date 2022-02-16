@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer" kind="class" prot="public">
+    <compoundname>VRM::VRMUnlitTransparentZWriteMaterialImporter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1afe89fad9c376dc13bad6fd9c1dac2a82" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMUnlitTransparentZWriteMaterialImporter.UnlitTransparentZWriteShaderName</definition>
+        <argsstring></argsstring>
+        <name>UnlitTransparentZWriteShaderName</name>
+        <initializer>= &quot;VRM/UnlitTransparentZWrite&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a98b09a13e4ac6f9a6391b1f621092ccf" compoundref="_v_r_m_unlit_transparent_z_write_material_importer_8cs" startline="17" endline="170">VRM.VRMUnlitTransparentZWriteMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a81d530e21345f7f15fd82eee3a0da57f" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMUnlitTransparentZWriteMaterialImporter.UnlitTransparentZWriteMainTexturePropName</definition>
+        <argsstring></argsstring>
+        <name>UnlitTransparentZWriteMainTexturePropName</name>
+        <initializer>= &quot;_MainTex&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a98b09a13e4ac6f9a6391b1f621092ccf" compoundref="_v_r_m_unlit_transparent_z_write_material_importer_8cs" startline="17" endline="170">VRM.VRMUnlitTransparentZWriteMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a98b09a13e4ac6f9a6391b1f621092ccf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMUnlitTransparentZWriteMaterialImporter.TryCreateParam</definition>
+        <argsstring>(GltfData data, glTF_VRM_extensions vrm, int materialIdx, out MaterialDescriptor matDesc)</argsstring>
+        <name>TryCreateParam</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref></type>
+          <declname>vrm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>materialIdx</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_v_r_m_shaders_1_1_material_descriptor" kindref="compound">MaterialDescriptor</ref></type>
+          <declname>matDesc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" bodystart="17" bodyend="170"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1ae7ebc0c6e2c80cb1c4823ee7b4c52db9" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="29">VRM.glTF_VRM_extensions.materialProperties</references>
+        <references refid="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39a960b44c579bc2f6818d2daaf9e4c16f0">VRMShaders.Normal</references>
+        <references refid="class_m_toon_1_1_utils_1a79928c2555c98d133079a29c427662ae" compoundref="_utils_8cs" startline="9">MToon.Utils.ShaderName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_m_toon_texture_importer_1a501f6c30a704ddbf3d539ded493e143c" compoundref="_v_r_m_m_toon_texture_importer_8cs" startline="21" endline="47">VRM.VRMMToonTextureImporter.TryGetTextureFromMaterialProperty</references>
+        <references refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a81d530e21345f7f15fd82eee3a0da57f" compoundref="_v_r_m_unlit_transparent_z_write_material_importer_8cs" startline="15">VRM.VRMUnlitTransparentZWriteMaterialImporter.UnlitTransparentZWriteMainTexturePropName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1afe89fad9c376dc13bad6fd9c1dac2a82" compoundref="_v_r_m_unlit_transparent_z_write_material_importer_8cs" startline="14">VRM.VRMUnlitTransparentZWriteMaterialImporter.UnlitTransparentZWriteShaderName</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator_1add770b541ff28af4a2df415404e4056e" compoundref="_v_r_m_material_descriptor_generator_8cs" startline="17" endline="54">VRM.VRMMaterialDescriptorGenerator.Get</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMUnlitTransparentZWriteMaterialImporter.cs" bodystart="12" bodyend="171"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a98b09a13e4ac6f9a6391b1f621092ccf" prot="public" virt="non-virtual"><scope>VRM::VRMUnlitTransparentZWriteMaterialImporter</scope><name>TryCreateParam</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1a81d530e21345f7f15fd82eee3a0da57f" prot="public" virt="non-virtual"><scope>VRM::VRMUnlitTransparentZWriteMaterialImporter</scope><name>UnlitTransparentZWriteMainTexturePropName</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer_1afe89fad9c376dc13bad6fd9c1dac2a82" prot="public" virt="non-virtual"><scope>VRM::VRMUnlitTransparentZWriteMaterialImporter</scope><name>UnlitTransparentZWriteShaderName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

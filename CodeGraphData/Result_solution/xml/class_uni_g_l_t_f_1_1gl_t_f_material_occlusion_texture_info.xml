@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFMaterialOcclusionTextureInfo</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info" prot="public" virt="non-virtual">UniGLTF.glTFTextureInfo</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info_1ab8465023195f650618b04771c630629c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniGLTF.glTFMaterialOcclusionTextureInfo.strength</definition>
+        <argsstring></argsstring>
+        <name>strength</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad044c0a5f4e6347d46ec88ecd86db3b5" compoundref="_gltf_serializer_8g_8cs" startline="825" endline="856">UniGLTF.GltfSerializer.Serialize_gltf_materials__occlusionTexture</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1064">
+        <label>glTFTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info"/>
+      </node>
+      <node id="1063">
+        <label>UniGLTF.glTFMaterialOcclusionTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info"/>
+        <childnode refid="1064" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1067">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="1066">
+        <label>glTFTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info"/>
+        <childnode refid="1067" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="1065">
+        <label>UniGLTF.glTFMaterialOcclusionTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info"/>
+        <childnode refid="1066" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialOcclusionTextureInfo</scope><name>extensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialOcclusionTextureInfo</scope><name>extras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialOcclusionTextureInfo</scope><name>index</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info_1ab8465023195f650618b04771c630629c" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialOcclusionTextureInfo</scope><name>strength</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialOcclusionTextureInfo</scope><name>texCoord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

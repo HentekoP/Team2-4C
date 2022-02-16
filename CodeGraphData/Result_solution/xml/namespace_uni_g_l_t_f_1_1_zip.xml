@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_uni_g_l_t_f_1_1_zip" kind="namespace">
+    <compoundname>UniGLTF::Zip</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_parse_exception" prot="public">UniGLTF::Zip::ZipParseException</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_e_o_c_d" prot="public">UniGLTF::Zip::EOCD</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header" prot="public">UniGLTF::Zip::CommonHeader</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" prot="public">UniGLTF::Zip::CentralDirectoryFileHeader</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_local_file_header" prot="public">UniGLTF::Zip::LocalFileHeader</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage" prot="public">UniGLTF::Zip::ZipArchiveStorage</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2ab" prot="public" static="no">
+        <name>CompressionMethod</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2aba7bf2d26eab899c413218b729d4d914b7" prot="public">
+          <name>Stored</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2aba1bb54971ab41a5a931b23159019fd73f" prot="public">
+          <name>Shrink</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2abada303eeee971b254d9d92bd64afcb8d4" prot="public">
+          <name>Reduced1</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2abab35e3f6b5cffb919ae4cb62ad91c2ed3" prot="public">
+          <name>Reduced2</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2abaf0e88f2608d0bca9eb141d84dc9fc374" prot="public">
+          <name>Reduced3</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2aba616b13d00a637b792ab89f1e74dc0eab" prot="public">
+          <name>Reduced4</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2aba7d866765aeef64c8c9da6c00d8fa08f8" prot="public">
+          <name>Imploded</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2aba942d4e37dd5607ab68e54755540d4a47" prot="public">
+          <name>Reserved</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2abadf0f5c624593b88a2cb8cf43e1d1cb05" prot="public">
+          <name>Deflated</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="15" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ulink url="https://en.wikipedia.org/wiki/Zip_(file_format)">https://en.wikipedia.org/wiki/Zip_(file_format)</ulink> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

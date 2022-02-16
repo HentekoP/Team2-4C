@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshUtility::BindposeGizmo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1af95634c2ff9b239f4fb620bb79f83ab7" prot="private" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.MeshUtility.BindposeGizmo.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1ac27529d72cead0830a164443f028244d" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] UniGLTF.MeshUtility.BindposeGizmo.m_boneWeights</definition>
+        <argsstring></argsstring>
+        <name>m_boneWeights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a646d7d2f0d4e33e0e7da249a726eb51a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniGLTF.MeshUtility.BindposeGizmo.m_gizmoSize</definition>
+        <argsstring></argsstring>
+        <name>m_gizmoSize</name>
+        <initializer>= 0.02f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1ae3ba61a3401a71936613d4e1e56441b5" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UniGLTF.MeshUtility.BindposeGizmo.m_meshGizmoColor</definition>
+        <argsstring></argsstring>
+        <name>m_meshGizmoColor</name>
+        <initializer>= Color.yellow</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a6d3efee12ca3b33cc20b31bbda7027e6" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color UniGLTF.MeshUtility.BindposeGizmo.m_bindGizmoColor</definition>
+        <argsstring></argsstring>
+        <name>m_bindGizmoColor</name>
+        <initializer>= Color.red</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a5cb0c89bb4b0ac899866872573b3bcb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BindposeGizmo.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1abd04aef38e4785f273c871d3c16a068d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BindposeGizmo.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="115" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>UniGLTF.MeshUtility.BindposeGizmo</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>UniGLTF.MeshUtility.BindposeGizmo</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BindposeGizmo.cs" bodystart="13" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a6d3efee12ca3b33cc20b31bbda7027e6" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>m_bindGizmoColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1ac27529d72cead0830a164443f028244d" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>m_boneWeights</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a646d7d2f0d4e33e0e7da249a726eb51a" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>m_gizmoSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1ae3ba61a3401a71936613d4e1e56441b5" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>m_meshGizmoColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1af95634c2ff9b239f4fb620bb79f83ab7" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>m_target</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1abd04aef38e4785f273c871d3c16a068d" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bindpose_gizmo_1a5cb0c89bb4b0ac899866872573b3bcb2" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BindposeGizmo</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

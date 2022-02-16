@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator" kind="class" prot="public">
+    <compoundname>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_editor_settings_validator_1_1_i_unity_settings_validator" prot="public" virt="non-virtual">UniGLTF.EditorSettingsValidator.IUnitySettingsValidator</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a315244bd4d18d22be5d524eae45799a3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <initializer>=&gt; PlayerSettings.colorSpace == UnityEngine.ColorSpace.Linear</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a1b366802d9f1e52c4037c9fd0c2bc26b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator.HeaderDescription</definition>
+        <argsstring></argsstring>
+        <name>HeaderDescription</name>
+        <initializer>=&gt; Messages.ColorSpace.Msg()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a530037954a6281dfe6c6349e75fd5c92" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator.CurrentValueDescription</definition>
+        <argsstring></argsstring>
+        <name>CurrentValueDescription</name>
+        <initializer>=&gt; PlayerSettings.colorSpace == UnityEngine.ColorSpace.Linear
+            ? Messages.ColorSpaceLinear.Msg() : Messages.ColorSpaceGamma.Msg()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1aedfd7fd13c3fb0db7b03af9d760ed19e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator.RecommendedValueDescription</definition>
+        <argsstring></argsstring>
+        <name>RecommendedValueDescription</name>
+        <initializer>=&gt; Messages.ColorSpaceLinear.Msg()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a616ba9feb63784805ba6e0789bd61170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_editor_settings_validator_1_1_i_unity_settings_validator_1ab3dd42bd8b11a341f9f5ec222f9ae259">Validate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2472">
+        <label>IUnitySettingsValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_editor_settings_validator_1_1_i_unity_settings_validator"/>
+      </node>
+      <node id="2471">
+        <label>UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator"/>
+        <childnode refid="2472" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2474">
+        <label>IUnitySettingsValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_editor_settings_validator_1_1_i_unity_settings_validator"/>
+      </node>
+      <node id="2473">
+        <label>UniGLTF.EditorSettingsValidator.UnityColorSpaceSettingsValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator"/>
+        <childnode refid="2474" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/EditorSettingsValidator/UnityColorSpaceSettingsValidator.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a530037954a6281dfe6c6349e75fd5c92" prot="public" virt="non-virtual"><scope>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</scope><name>CurrentValueDescription</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a1b366802d9f1e52c4037c9fd0c2bc26b" prot="public" virt="non-virtual"><scope>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</scope><name>HeaderDescription</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a315244bd4d18d22be5d524eae45799a3" prot="public" virt="non-virtual"><scope>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</scope><name>IsValid</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1aedfd7fd13c3fb0db7b03af9d760ed19e" prot="public" virt="non-virtual"><scope>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</scope><name>RecommendedValueDescription</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_color_space_settings_validator_1a616ba9feb63784805ba6e0789bd61170" prot="public" virt="non-virtual"><scope>UniGLTF::EditorSettingsValidator::UnityColorSpaceSettingsValidator</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

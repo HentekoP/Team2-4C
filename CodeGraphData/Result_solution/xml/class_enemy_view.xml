@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_enemy_view" kind="class" prot="public">
+    <compoundname>EnemyView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_view_1a108d512a0cd3a3306f5377f3db767310" prot="private" static="no" mutable="no">
+        <type>Ray</type>
+        <definition>Ray EnemyView.ray</definition>
+        <argsstring></argsstring>
+        <name>ray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" compoundref="_enemy_view_8cs" startline="15" endline="47">OnTriggerStay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_view_1a7c1310a1a8ac2fd94a5b593c016885a1" prot="private" static="no" mutable="no">
+        <type>RaycastHit</type>
+        <definition>RaycastHit EnemyView.hit</definition>
+        <argsstring></argsstring>
+        <name>hit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" compoundref="_enemy_view_8cs" startline="15" endline="47">OnTriggerStay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_view_1a1cae489687e5d683cf3887578ad92403" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 EnemyView.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" compoundref="_enemy_view_8cs" startline="15" endline="47">OnTriggerStay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_view_1a9282ba378fbf9f0a75e490c0477dfd86" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyView.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" compoundref="_enemy_view_8cs" startline="15" endline="47">OnTriggerStay</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyView.OnTriggerStay</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerStay</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="15" bodyend="47"/>
+        <references refid="class_enemy_view_1a1cae489687e5d683cf3887578ad92403" compoundref="_enemy_view_8cs" startline="12">direction</references>
+        <references refid="class_enemy_view_1a9282ba378fbf9f0a75e490c0477dfd86" compoundref="_enemy_view_8cs" startline="13">distance</references>
+        <references refid="class_enemy_view_1a7c1310a1a8ac2fd94a5b593c016885a1" compoundref="_enemy_view_8cs" startline="11">hit</references>
+        <references refid="class_enemy_view_1a108d512a0cd3a3306f5377f3db767310" compoundref="_enemy_view_8cs" startline="10">ray</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="614">
+        <label>EnemyView</label>
+        <link refid="class_enemy_view"/>
+        <childnode refid="615" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="618">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="619" relation="public-inheritance">
+        </childnode>
+        <childnode refid="618" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="619">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="616">
+        <label>EnemyView</label>
+        <link refid="class_enemy_view"/>
+        <childnode refid="617" relation="public-inheritance">
+        </childnode>
+        <childnode refid="618" relation="usage">
+          <edgelabel>direction</edgelabel>
+        </childnode>
+      </node>
+      <node id="617">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/EnemyView.cs" bodystart="8" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_enemy_view_1a1cae489687e5d683cf3887578ad92403" prot="private" virt="non-virtual"><scope>EnemyView</scope><name>direction</name></member>
+      <member refid="class_enemy_view_1a9282ba378fbf9f0a75e490c0477dfd86" prot="private" virt="non-virtual"><scope>EnemyView</scope><name>distance</name></member>
+      <member refid="class_enemy_view_1a7c1310a1a8ac2fd94a5b593c016885a1" prot="private" virt="non-virtual"><scope>EnemyView</scope><name>hit</name></member>
+      <member refid="class_enemy_view_1ab6ab34c07856c036f2d92406da8baae8" prot="private" virt="non-virtual"><scope>EnemyView</scope><name>OnTriggerStay</name></member>
+      <member refid="class_enemy_view_1a108d512a0cd3a3306f5377f3db767310" prot="private" virt="non-virtual"><scope>EnemyView</scope><name>ray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

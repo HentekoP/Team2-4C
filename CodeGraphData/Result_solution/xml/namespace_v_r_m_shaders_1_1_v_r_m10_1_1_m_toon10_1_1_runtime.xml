@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime" kind="namespace">
+    <compoundname>VRMShaders::VRM10::MToon10::Runtime</compoundname>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions" prot="public">VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_context" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10Context</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_migrator" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10Migrator</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToonValidator</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_emissive_map_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10EmissiveMapKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_normal_map_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10NormalMapKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_outline_mode_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10OutlineModeKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_parameter_map_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10ParameterMapKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_rim_map_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10RimMapKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_meta" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10Meta</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon10_properties" prot="public">VRMShaders::VRM10::MToon10::Runtime::MToon10Properties</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_unity_alpha_mode_keyword" prot="public">VRMShaders::VRM10::MToon10::Runtime::UnityAlphaModeKeyword</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_unity_render_tag" prot="public">VRMShaders::VRM10::MToon10::Runtime::UnityRenderTag</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a23260ea55e6f06ee3b977123929fe809" prot="public" static="no">
+        <name>MToon10AlphaMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a23260ea55e6f06ee3b977123929fe809afaa90538de35640e4b1e31ccf35b6eb5" prot="public">
+          <name>Opaque</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a23260ea55e6f06ee3b977123929fe809a330be5af6c8bafc8ce5c74fa208c5015" prot="public">
+          <name>Cutout</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a23260ea55e6f06ee3b977123929fe809a3d971943089a3388c01fb297a32d9ba7" prot="public">
+          <name>Transparent</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a9ad5a7aa7d6064c04699373794008c6d" prot="public" static="no">
+        <name>MToon10DoubleSidedMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a9ad5a7aa7d6064c04699373794008c6dad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a9ad5a7aa7d6064c04699373794008c6da521c36a31c2762741cf0f8890cbe05e3" prot="public">
+          <name>On</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10DoubleSidedMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10DoubleSidedMode.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad6543c3b28954bb875a16f79c611be32" prot="public" static="no">
+        <name>MToon10OutlineMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad6543c3b28954bb875a16f79c611be32a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad6543c3b28954bb875a16f79c611be32af5a7924e621e84c9280a9a27e1bcb7f6" prot="public">
+          <name>World</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad6543c3b28954bb875a16f79c611be32a2fc3359e12b2a9104121dcf04246f6a0" prot="public">
+          <name>Screen</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a1925e69f13aeb96e1bf0f046db5acd4e" prot="public" static="no">
+        <name>MToon10TransparentWithZWriteMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a1925e69f13aeb96e1bf0f046db5acd4ead15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a1925e69f13aeb96e1bf0f046db5acd4ea521c36a31c2762741cf0f8890cbe05e3" prot="public">
+          <name>On</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10TransparentWithZWriteMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10TransparentWithZWriteMode.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" prot="public" static="no">
+        <name>MToon10Prop</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a381703914eca90cda09748bc7cc600b7" prot="public">
+          <name>AlphaMode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ac14fd4e6f2c2c85819fc51275a027b0a" prot="public">
+          <name>TransparentWithZWrite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a8d194cd96b47e5d2b054d2bc9a640e2a" prot="public">
+          <name>AlphaCutoff</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a30a245439423dde340e989753ac9714c" prot="public">
+          <name>RenderQueueOffsetNumber</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a54c65daef485e12e23c450d276053134" prot="public">
+          <name>DoubleSided</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a525a4e4e5f3c40482406045d358cb689" prot="public">
+          <name>BaseColorFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a7dccec59fdab0706f6c819485b142434" prot="public">
+          <name>BaseColorTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ad1da4435c427b0fef7c83857bfeebefe" prot="public">
+          <name>ShadeColorFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a0b7f92a92c8987a0f0d4d36d09ad468b" prot="public">
+          <name>ShadeColorTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ab59103e987d5c0e6e17c6c184edf90b2" prot="public">
+          <name>NormalTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5aa6b8c0920890d717ba606983bbb94673" prot="public">
+          <name>NormalTextureScale</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5aa05e2ea53a3e6084a9cb70aaccd34865" prot="public">
+          <name>ShadingShiftFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a8962e2021e0b570d18f8ab767fb45916" prot="public">
+          <name>ShadingShiftTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a920fdcc180fd4e3c8a313dad4f551dea" prot="public">
+          <name>ShadingShiftTextureScale</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a6b1ce8bff1d8992f0d74e492ea11e9f3" prot="public">
+          <name>ShadingToonyFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5adf6c764a60f9030abdaaf11e87deab66" prot="public">
+          <name>GiEqualizationFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5acde63f5a2393224d532b2abb24800bfd" prot="public">
+          <name>EmissiveFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5aa85c2d636409ff353eda995d50004267" prot="public">
+          <name>EmissiveTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a67fdc2f614f156bbcd1ae614d8cb1d18" prot="public">
+          <name>MatcapTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5aa639acf9d486133a3306de863fc870e0" prot="public">
+          <name>ParametricRimColorFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ae80a798bc1188681b4ab9e0eb75e69cf" prot="public">
+          <name>ParametricRimFresnelPowerFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5af52cb34e1f587a3922868f7e48806ace" prot="public">
+          <name>ParametricRimLiftFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a8d6a600cc8bb6a861fb483b4bbe5b865" prot="public">
+          <name>RimMultiplyTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a8d7af221dd819db2311df5509e24d134" prot="public">
+          <name>RimLightingMixFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a206e21d0e0a485238e934d7006bb924e" prot="public">
+          <name>OutlineWidthMode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5afaf15f94a19d496ffb3c7ea5524bf6ab" prot="public">
+          <name>OutlineWidthFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a02e6150b65e9bb63ea19cade34f76d02" prot="public">
+          <name>OutlineWidthMultiplyTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a29df698b45a5e6c6a337291fdda3b990" prot="public">
+          <name>OutlineColorFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5afc59efff14ff30e2e7c1390a84bd7657" prot="public">
+          <name>OutlineLightingMixFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ae30e5b3153a5135953a70b2021008c61" prot="public">
+          <name>UvAnimationMaskTexture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a1f0c2984c4673cbebfc1e845ee24830a" prot="public">
+          <name>UvAnimationScrollXSpeedFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a4a6e6bc514c1a4c8040d8ac5f93a42ee" prot="public">
+          <name>UvAnimationScrollYSpeedFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a2ec3ff866868032102f3c2614be035af" prot="public">
+          <name>UvAnimationRotationSpeedFactor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a93ffd52ec74df02646f5b8c60f5700ef" prot="public">
+          <name>UnityCullMode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a1967c135c9b064db8c08ca7cff3fa5d3" prot="public">
+          <name>UnitySrcBlend</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ae323ffe9a6e5b3be70077e6f1899b001" prot="public">
+          <name>UnityDstBlend</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5ac95ba39ad570296f6ce5dee4f9c508d5" prot="public">
+          <name>UnityZWrite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a5bc27ff7577a3a0290bbe579f5235d0b" prot="public">
+          <name>UnityAlphaToMask</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5a42e2061ae898240054e14caf59d35ce3" prot="public">
+          <name>EditorEditMode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/Properties/MToon10Prop.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/Properties/MToon10Prop.cs" bodystart="3" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ae0bbd50a8cb19ea8d05015e011ce9af5" prot="public" static="no">
+        <name>UnityAlphaToMaskMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ae0bbd50a8cb19ea8d05015e011ce9af5ad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ae0bbd50a8cb19ea8d05015e011ce9af5a521c36a31c2762741cf0f8890cbe05e3" prot="public">
+          <name>On</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityAlphaToMaskMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityAlphaToMaskMode.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a46ca59a6f20d385741e11a4d913356da" prot="public" static="no">
+        <name>UnityCullMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a46ca59a6f20d385741e11a4d913356daad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a46ca59a6f20d385741e11a4d913356daa0557fa923dcee4d0f86b1409f5c2167f" prot="public">
+          <name>Back</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityCullMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityCullMode.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad1b693bf9013fc0a7edf9184052ea295" prot="public" static="no">
+        <name>UnityZWriteMode</name>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad1b693bf9013fc0a7edf9184052ea295ad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1ad1b693bf9013fc0a7edf9184052ea295a521c36a31c2762741cf0f8890cbe05e3" prot="public">
+          <name>On</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityZWriteMode.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/ShaderLabDefinedValues/UnityZWriteMode.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

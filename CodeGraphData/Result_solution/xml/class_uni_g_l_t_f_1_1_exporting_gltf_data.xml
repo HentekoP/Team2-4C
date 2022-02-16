@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_exporting_gltf_data" kind="class" prot="public">
+    <compoundname>UniGLTF::ExportingGltfData</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a94a9218aa5be3782ae3e305217888bc6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+        <definition>glTF UniGLTF.ExportingGltfData.GLTF</definition>
+        <argsstring></argsstring>
+        <name>GLTF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_data_1a2a9f61d962bbb8f51ad99b8c19542e53" compoundref="_gltf_data_8cs" startline="89" endline="92">UniGLTF.GltfData.CreateFromExportForTest</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a841389a13f39d5738e3af71531c80815" compoundref="_exporting_gltf_data_8cs" startline="162" endline="182">UniGLTF.ExportingGltfData.ToGltf</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1abf888a61c38d6dad139d8d8abc15fe1c" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer" kindref="compound">IBytesBuffer</ref></type>
+        <definition>IBytesBuffer UniGLTF.ExportingGltfData._buffer</definition>
+        <argsstring></argsstring>
+        <name>_buffer</name>
+        <initializer>= new <ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1ae9e3c305254305f47909223a700dc92e" compoundref="_exporting_gltf_data_8cs" startline="18" endline="28">UniGLTF.ExportingGltfData.ExportingGltfData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a3e508491c050dbfc28c969a116a07f76" prot="public" static="no" mutable="no">
+        <type>ArraySegment&lt; byte &gt;</type>
+        <definition>ArraySegment&lt;byte&gt; UniGLTF.ExportingGltfData.BinBytes</definition>
+        <argsstring></argsstring>
+        <name>BinBytes</name>
+        <initializer>=&gt; _buffer.Bytes</initializer>
+        <briefdescription>
+<para>bin chunk </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_data_1a2a9f61d962bbb8f51ad99b8c19542e53" compoundref="_gltf_data_8cs" startline="89" endline="92">UniGLTF.GltfData.CreateFromExportForTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1af52184eca750efdbe7a08b64d2980625" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>UniGLTF.ExportingGltfData.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> 形式で出力する？ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gltfPath</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1ae9e3c305254305f47909223a700dc92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.ExportingGltfData.ExportingGltfData</definition>
+        <argsstring>(int reserved=default)</argsstring>
+        <name>ExportingGltfData</name>
+        <param>
+          <type>int</type>
+          <declname>reserved</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="18" bodyend="28"/>
+        <references refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1abf888a61c38d6dad139d8d8abc15fe1c" compoundref="_exporting_gltf_data_8cs" startline="10">UniGLTF.ExportingGltfData._buffer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a5ecc99542717d1dff505f14455a9a5b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view" kindref="compound">glTFBufferView</ref></type>
+        <definition>glTFBufferView UniGLTF.ExportingGltfData.ExtendBufferAndGetView&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; T &gt; segment, glBufferTarget target)</argsstring>
+        <name>ExtendBufferAndGetView&lt; T &gt;</name>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>segment</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1aade6301e95c02855c9f65641162b674a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendBufferAndGetViewIndex&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; T &gt; array, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendBufferAndGetViewIndex&lt; T &gt;</name>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1aebc508d1ea0c0ef8aaeb66474497d6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendBufferAndGetViewIndex&lt; T &gt;</definition>
+        <argsstring>(T[] array, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendBufferAndGetViewIndex&lt; T &gt;</name>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a036db6982042704827d4d1bc7941fd16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendBufferAndGetAccessorIndex&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; T &gt; array, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendBufferAndGetAccessorIndex&lt; T &gt;</name>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="59" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a244eae3d96dd8ccf1f93448e0a5af218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendBufferAndGetAccessorIndex&lt; T &gt;</definition>
+        <argsstring>(T[] array, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendBufferAndGetAccessorIndex&lt; T &gt;</name>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1ad01f2d8d39e72256d51e29c6774cd03c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</definition>
+        <argsstring>(int accessorCount, T[] sparseValues, int[] sparseIndices, int sparseViewIndex, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</name>
+        <param>
+          <type>int</type>
+          <declname>accessorCount</declname>
+        </param>
+        <param>
+          <type>T[]</type>
+          <declname>sparseValues</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>sparseIndices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sparseViewIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+<para>sparseValues は間引かれた配列 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="93" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a5266452068f2a39d0f52b50b554489da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.ExportingGltfData.ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</definition>
+        <argsstring>(int accessorCount, ArraySegment&lt; T &gt; sparseValues, int[] sparseIndices, int sparseIndicesViewIndex, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</name>
+        <param>
+          <type>int</type>
+          <declname>accessorCount</declname>
+        </param>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>sparseValues</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>sparseIndices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sparseIndicesViewIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="104" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a4905cd6629a2153ba019c5060375d6c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] UniGLTF.ExportingGltfData.ToGlbBytes</definition>
+        <argsstring>()</argsstring>
+        <name>ToGlbBytes</name>
+        <briefdescription>
+<para>GLBバイト列 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="145" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a841389a13f39d5738e3af71531c80815" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer" kindref="compound">glTFBuffer</ref></type>
+        <definition>glTFBuffer UniGLTF.ExportingGltfData.ToGltf</definition>
+        <argsstring>(string gltfPath)</argsstring>
+        <name>ToGltf</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1af52184eca750efdbe7a08b64d2980625" kindref="member">string</ref></type>
+          <declname>gltfPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="162" bodyend="182"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a67ebec5b377b835fcda8dafafb9f5ca1" compoundref="gl_t_f_8cs" startline="30">UniGLTF.glTF.buffers</references>
+        <references refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a94a9218aa5be3782ae3e305217888bc6" compoundref="_exporting_gltf_data_8cs" startline="10">UniGLTF.ExportingGltfData.GLTF</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="671">
+        <label>UniGLTF.ExportingGltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporting_gltf_data"/>
+        <childnode refid="672" relation="usage">
+          <edgelabel>_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="672">
+        <label>UniGLTF.IBytesBuffer</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ExportingGltfData.cs" bodystart="8" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1abf888a61c38d6dad139d8d8abc15fe1c" prot="protected" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>_buffer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a3e508491c050dbfc28c969a116a07f76" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>BinBytes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1ae9e3c305254305f47909223a700dc92e" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExportingGltfData</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a036db6982042704827d4d1bc7941fd16" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendBufferAndGetAccessorIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a244eae3d96dd8ccf1f93448e0a5af218" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendBufferAndGetAccessorIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a5ecc99542717d1dff505f14455a9a5b8" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendBufferAndGetView&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1aade6301e95c02855c9f65641162b674a" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendBufferAndGetViewIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1aebc508d1ea0c0ef8aaeb66474497d6da" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendBufferAndGetViewIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1ad01f2d8d39e72256d51e29c6774cd03c" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a5266452068f2a39d0f52b50b554489da" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ExtendSparseBufferAndGetAccessorIndex&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a94a9218aa5be3782ae3e305217888bc6" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>GLTF</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1af52184eca750efdbe7a08b64d2980625" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>string</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a4905cd6629a2153ba019c5060375d6c7" prot="public" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ToGlbBytes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_exporting_gltf_data_1a841389a13f39d5738e3af71531c80815" prot="private" virt="non-virtual"><scope>UniGLTF::ExportingGltfData</scope><name>ToGltf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_fast_spring_bone_scheduler_8cs" kind="file">
+    <compoundname>FastSpringBoneScheduler.cs</compoundname>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler" prot="public">VRM::FastSpringBones::Components::FastSpringBoneScheduler</innerclass>
+    <innernamespace refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_components">VRM::FastSpringBones::Components</innernamespace>
+    <innernamespace refid="namespace_unity_1_1_jobs">Unity::Jobs</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Unity.Jobs;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.Profiling;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>VRM.FastSpringBones.Registries;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>VRM.FastSpringBones.Schedulers;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM.FastSpringBones.Components</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[DefaultExecutionOrder(11000)]</highlight></codeline>
+<codeline lineno="14" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler" kindref="compound">FastSpringBoneScheduler</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a9fd085a9f29ac306788b65e0ce819a29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a9fd085a9f29ac306788b65e0ce819a29" kindref="member">showGizmos</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1aa3657e39979f535dd882a0e7459c0ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>CustomSampler<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1aa3657e39979f535dd882a0e7459c0ec6" kindref="member">_updateSampler</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a2b1667e42952f2a0233f219c7dca113a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler" kindref="compound">PullTransformJobScheduler</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a2b1667e42952f2a0233f219c7dca113a" kindref="member">_pullTransformJobScheduler</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1adc71952f93644f961736d67057d4e861" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler" kindref="compound">PushTransformJobScheduler</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1adc71952f93644f961736d67057d4e861" kindref="member">_pushTransformJobScheduler</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a7475d6f7bd78f59a09595416fab2f17e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler" kindref="compound">UpdateSpringBoneJobScheduler</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a7475d6f7bd78f59a09595416fab2f17e" kindref="member">_updateSpringBoneJobScheduler</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1acc10c12cf3a86fa2ee8587358aa863d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_root_bone_registry" kindref="compound">RootBoneRegistry</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1acc10c12cf3a86fa2ee8587358aa863d4" kindref="member">_rootBoneRegistry</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a837756cd16c5d2283cfca19787d42283" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_collider_group_registry" kindref="compound">ColliderGroupRegistry</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a837756cd16c5d2283cfca19787d42283" kindref="member">_colliderGroupRegistry</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1ac6d910a235132913c045eef7eccfbefa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>JobHandle<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1ac6d910a235132913c045eef7eccfbefa" kindref="member">_prevJobHandle</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a973e3f64ea1da21c06f0744443edea5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ShowGizmos<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/>showGizmos;<sp/>set<sp/>=&gt;<sp/>showGizmos<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a5b6133bc13483d7606e0c6afdaa39ea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a5b6133bc13483d7606e0c6afdaa39ea9" kindref="member">Initialize</ref>(</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_root_bone_registry" kindref="compound">RootBoneRegistry</ref><sp/>rootBoneRegistry,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref><sp/>transformRegistry,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_collider_group_registry" kindref="compound">ColliderGroupRegistry</ref><sp/>colliderGroupRegistry)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rootBoneRegistry<sp/>=<sp/>rootBoneRegistry;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_colliderGroupRegistry<sp/>=<sp/>colliderGroupRegistry;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_updateSampler<sp/>=<sp/>CustomSampler.Create(</highlight><highlight class="stringliteral">&quot;FastSpringBone(Update)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pullTransformJobScheduler<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler" kindref="compound">PullTransformJobScheduler</ref>(transformRegistry);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pushTransformJobScheduler<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler" kindref="compound">PushTransformJobScheduler</ref>(transformRegistry);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_updateSpringBoneJobScheduler<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler" kindref="compound">UpdateSpringBoneJobScheduler</ref>(_rootBoneRegistry);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rootBoneRegistry.SubscribeOnValueChanged(OnRootBoneChanged);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a8c57632208047e14d0ea11c9deb64710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a8c57632208047e14d0ea11c9deb64710" kindref="member">OnDestroy</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rootBoneRegistry.UnSubscribeOnValueChanged(OnRootBoneChanged);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prevJobHandle.Complete();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pullTransformJobScheduler.Dispose();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pushTransformJobScheduler.Dispose();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_updateSpringBoneJobScheduler.Dispose();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a6c23defdf6ef2589113a882ef88da85d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a6c23defdf6ef2589113a882ef88da85d" kindref="member">OnRootBoneChanged</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prevJobHandle.Complete();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UNITY_EDITOR</highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDrawGizmos()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ShowGizmos)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prevJobHandle.Complete();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>Color.blue;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>rootBoneWrapper<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>_rootBoneRegistry.Items)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rootBoneWrapper.Value.DrawGizmos();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>Color.yellow;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>colliderGroup<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>_colliderGroupRegistry.Items)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>colliderGroup.DrawGizmos();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a48f75523ef3c24299e56c77448eddacd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_scheduler_1a48f75523ef3c24299e56c77448eddacd" kindref="member">LateUpdate</ref>()</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_updateSampler.Begin();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prevJobHandle.Complete();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tempJobHandle<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">(JobHandle);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempJobHandle<sp/>=<sp/>_pullTransformJobScheduler.Schedule(tempJobHandle);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempJobHandle<sp/>=<sp/>_updateSpringBoneJobScheduler.Schedule(tempJobHandle);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempJobHandle<sp/>=<sp/>_pushTransformJobScheduler.Schedule(tempJobHandle);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prevJobHandle<sp/>=<sp/>tempJobHandle;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_updateSampler.End();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneScheduler.cs"/>
+  </compounddef>
+</doxygen>

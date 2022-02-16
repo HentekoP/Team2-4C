@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_validation_context" kind="struct" prot="public">
+    <compoundname>UniGLTF::ValidationContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_validation_context_1a988ef533ec528b40fc0cfb36aa0d734d" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type UniGLTF.ValidationContext.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Messageの発生個所にジャンプするための情報 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_validation_context_1abdd9f43634fe55e051dca1c6bde835ea" prot="public" static="no" mutable="no">
+        <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref></type>
+        <definition>UnityEngine.Object UniGLTF.ValidationContext.Context</definition>
+        <argsstring></argsstring>
+        <name>Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_validation_context_1a0261d90c0138b506ed65826e2aaca7cc" prot="public" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action UniGLTF.ValidationContext.Extended</definition>
+        <argsstring></argsstring>
+        <name>Extended</name>
+        <briefdescription>
+<para>DrawGUIから呼び出す。追加のGUIボタンなどを実装する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_validation_context_1abce209a4ad70dc8d45e67ec07f7969fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_validation_context" kindref="compound">ValidationContext</ref></type>
+        <definition>static ValidationContext UniGLTF.ValidationContext.Create&lt; T &gt;</definition>
+        <argsstring>(T c)</argsstring>
+        <name>Create&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_validation_context_1a00808b23039b25f81e445e93aa10fa3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_validation_context" kindref="compound">ValidationContext</ref></type>
+        <definition>static ValidationContext UniGLTF.ValidationContext.Create</definition>
+        <argsstring>(Action extended)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>Action</type>
+          <declname>extended</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="51" bodyend="57"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_humanoid_validator_1aea9bffffae200e67af98daaf0a7ffcdf" compoundref="_humanoid_validator_8cs" startline="119" endline="182">UniGLTF.HumanoidValidator.Validate_TPose</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2574">
+        <label>UnityEngine</label>
+      </node>
+      <node id="2573">
+        <label>UniGLTF.ValidationContext</label>
+        <link refid="struct_uni_g_l_t_f_1_1_validation_context"/>
+        <childnode refid="2574" relation="usage">
+          <edgelabel>Context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="29" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_validation_context_1abdd9f43634fe55e051dca1c6bde835ea" prot="public" virt="non-virtual"><scope>UniGLTF::ValidationContext</scope><name>Context</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_validation_context_1a00808b23039b25f81e445e93aa10fa3b" prot="public" virt="non-virtual"><scope>UniGLTF::ValidationContext</scope><name>Create</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_validation_context_1abce209a4ad70dc8d45e67ec07f7969fb" prot="public" virt="non-virtual"><scope>UniGLTF::ValidationContext</scope><name>Create&lt; T &gt;</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_validation_context_1a0261d90c0138b506ed65826e2aaca7cc" prot="public" virt="non-virtual"><scope>UniGLTF::ValidationContext</scope><name>Extended</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_validation_context_1a988ef533ec528b40fc0cfb36aa0d734d" prot="public" virt="non-virtual"><scope>UniGLTF::ValidationContext</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

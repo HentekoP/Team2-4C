@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_m_toon" kind="namespace">
+    <compoundname>MToon</compoundname>
+    <innerclass refid="struct_m_toon_1_1_render_queue_requirement" prot="public">MToon::RenderQueueRequirement</innerclass>
+    <innerclass refid="class_m_toon_1_1_m_toon_definition" prot="public">MToon::MToonDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_meta_definition" prot="public">MToon::MetaDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_rendering_definition" prot="public">MToon::RenderingDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_color_definition" prot="public">MToon::ColorDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_lighting_definition" prot="public">MToon::LightingDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_lit_and_shade_mixing_definition" prot="public">MToon::LitAndShadeMixingDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_lighting_influence_definition" prot="public">MToon::LightingInfluenceDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_emission_definition" prot="public">MToon::EmissionDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_mat_cap_definition" prot="public">MToon::MatCapDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_rim_definition" prot="public">MToon::RimDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_normal_definition" prot="public">MToon::NormalDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_outline_definition" prot="public">MToon::OutlineDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_texture_uv_coords_definition" prot="public">MToon::TextureUvCoordsDefinition</innerclass>
+    <innerclass refid="class_m_toon_1_1_utils" prot="public">MToon::Utils</innerclass>
+    <innerclass refid="class_m_toon_1_1_editor_utils" prot="public">MToon::EditorUtils</innerclass>
+    <innerclass refid="class_m_toon_1_1_m_toon_inspector" prot="public">MToon::MToonInspector</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_m_toon_1a8eb1b292a62bc35d5e336fc48ead500f" prot="public" static="no">
+        <name>DebugMode</name>
+        <enumvalue id="namespace_m_toon_1a8eb1b292a62bc35d5e336fc48ead500fa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a8eb1b292a62bc35d5e336fc48ead500fa960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
+          <name>Normal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a8eb1b292a62bc35d5e336fc48ead500fa753187c830fd0ac0c62d3ffdde56fd80" prot="public">
+          <name>LitShadeRate</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_m_toon_1a19a63ba346598a9b32c04f9f3b885bdb" prot="public" static="no">
+        <name>OutlineColorMode</name>
+        <enumvalue id="namespace_m_toon_1a19a63ba346598a9b32c04f9f3b885bdba7549af950ee01aa2709a9eeb7de767bf" prot="public">
+          <name>FixedColor</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a19a63ba346598a9b32c04f9f3b885bdba60e9394148483db567f8b144825d8a34" prot="public">
+          <name>MixedLighting</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_m_toon_1a42c364b6c78d3bd523034ff9b48ee004" prot="public" static="no">
+        <name>OutlineWidthMode</name>
+        <enumvalue id="namespace_m_toon_1a42c364b6c78d3bd523034ff9b48ee004a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a42c364b6c78d3bd523034ff9b48ee004ad183e83124f62b3728e265670c6c122a" prot="public">
+          <name>WorldCoordinates</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a42c364b6c78d3bd523034ff9b48ee004a954054e19a72dabaede09c65d007f5ff" prot="public">
+          <name>ScreenCoordinates</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_m_toon_1a7c2d419d4fc6cc1a03f4c70bac859b3a" prot="public" static="no">
+        <name>RenderMode</name>
+        <enumvalue id="namespace_m_toon_1a7c2d419d4fc6cc1a03f4c70bac859b3aafaa90538de35640e4b1e31ccf35b6eb5" prot="public">
+          <name>Opaque</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a7c2d419d4fc6cc1a03f4c70bac859b3aa330be5af6c8bafc8ce5c74fa208c5015" prot="public">
+          <name>Cutout</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a7c2d419d4fc6cc1a03f4c70bac859b3aa3d971943089a3388c01fb297a32d9ba7" prot="public">
+          <name>Transparent</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a7c2d419d4fc6cc1a03f4c70bac859b3aac14fd4e6f2c2c85819fc51275a027b0a" prot="public">
+          <name>TransparentWithZWrite</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_m_toon_1a8027612e1cce1bb8ede1c6a9612ef77d" prot="public" static="no">
+        <name>CullMode</name>
+        <enumvalue id="namespace_m_toon_1a8027612e1cce1bb8ede1c6a9612ef77dad15305d7a4e34e02489c74a5ef542f36" prot="public">
+          <name>Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a8027612e1cce1bb8ede1c6a9612ef77da5835bab1ade0060909e31a06af2e2cde" prot="public">
+          <name>Front</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a8027612e1cce1bb8ede1c6a9612ef77da0557fa923dcee4d0f86b1409f5c2167f" prot="public">
+          <name>Back</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_m_toon_1a886b48e447837ec1f7162c2c946f3cd4" prot="public" static="no">
+        <name>EditorRotationUnit</name>
+        <enumvalue id="namespace_m_toon_1a886b48e447837ec1f7162c2c946f3cd4a28d89eee8752bd81e3e355c469a6e67a" prot="public">
+          <name>Rounds</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a886b48e447837ec1f7162c2c946f3cd4a9ef125630442bb42e2e367e0cf70d892" prot="public">
+          <name>Degrees</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_m_toon_1a886b48e447837ec1f7162c2c946f3cd4a682f5298cdcce11e567b7f833843d3be" prot="public">
+          <name>Radians</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Editor/EditorEnums.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Editor/EditorEnums.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/MToon/MToon/Scripts/Enums.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

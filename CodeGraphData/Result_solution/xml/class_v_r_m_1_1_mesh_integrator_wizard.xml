@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_mesh_integrator_wizard" kind="class" prot="public">
+    <compoundname>VRM::MeshIntegratorWizard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableWizard</basecompoundref>
+    <innerclass refid="struct_v_r_m_1_1_mesh_integrator_wizard_1_1_material_key" prot="private">VRM::MeshIntegratorWizard::MaterialKey</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_mesh_integrator_wizard_1_1_material_list" prot="private">VRM::MeshIntegratorWizard::MaterialList</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_wizard_1ae4c3c18f1edec8d0b478d55883be7b50" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.MeshIntegratorWizard.MENU_KEY</definition>
+        <argsstring></argsstring>
+        <name>MENU_KEY</name>
+        <initializer>= &quot;Assets/UnityEditorScripts/<ref refid="class_v_r_m_1_1_mesh_integrator_wizard" kindref="compound">MeshIntegratorWizard</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_wizard_1a031ccf74469555604fbde1693c3c9b28" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VRM.MeshIntegratorWizard.m_root</definition>
+        <argsstring></argsstring>
+        <name>m_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" compoundref="_mesh_integrator_wizard_8cs" startline="145" endline="154">VRM.MeshIntegratorWizard.Integrate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a11d8037a542cb016de71b285d73a4bb9" compoundref="_mesh_integrator_wizard_8cs" startline="69" endline="73">VRM.MeshIntegratorWizard.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" compoundref="_mesh_integrator_wizard_8cs" startline="117" endline="138">VRM.MeshIntegratorWizard.OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_wizard_1acc1edcce62232b15accff27338bbaf49" prot="private" static="no" mutable="no">
+        <type>Material[]</type>
+        <definition>Material [] VRM.MeshIntegratorWizard.m_uniqueMaterials</definition>
+        <argsstring></argsstring>
+        <name>m_uniqueMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" compoundref="_mesh_integrator_wizard_8cs" startline="117" endline="138">VRM.MeshIntegratorWizard.OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_wizard_1aecbfba581d77c18b7b4d4f05348a9444" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_mesh_integrator_wizard_1_1_material_list" kindref="compound">MaterialList</ref>[]</type>
+        <definition>MaterialList [] VRM.MeshIntegratorWizard.m_duplicateMaterials</definition>
+        <argsstring></argsstring>
+        <name>m_duplicateMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" compoundref="_mesh_integrator_wizard_8cs" startline="117" endline="138">VRM.MeshIntegratorWizard.OnValidate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_wizard_1a101d3bb9d616e7d479fdf38ac9e0ff3d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result" kindref="compound">MeshIntegrationResult</ref>[]</type>
+        <definition>MeshIntegrationResult [] VRM.MeshIntegratorWizard.integrationResults</definition>
+        <argsstring></argsstring>
+        <name>integrationResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" compoundref="_mesh_integrator_wizard_8cs" startline="145" endline="154">VRM.MeshIntegratorWizard.Integrate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a9e128a51ef592bfcf921d9e8caf284c6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.MeshIntegratorWizard.CreateWizard</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWizard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a9844b2260bd7f97b67984567838d1e63" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object VRM.MeshIntegratorWizard.GetPropertyValue</definition>
+        <argsstring>(Shader shader, int i, Material m)</argsstring>
+        <name>GetPropertyValue</name>
+        <param>
+          <type>Shader</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="75" bodyend="96"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1aa0b32963b5448d45a74cf63475ff748a" compoundref="_mesh_integrator_wizard_8cs" startline="98" endline="115">VRM.MeshIntegratorWizard.GetMaterialKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1aa0b32963b5448d45a74cf63475ff748a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_mesh_integrator_wizard_1_1_material_key" kindref="compound">MaterialKey</ref></type>
+        <definition>static MaterialKey VRM.MeshIntegratorWizard.GetMaterialKey</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>GetMaterialKey</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="98" bodyend="115"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a9844b2260bd7f97b67984567838d1e63" compoundref="_mesh_integrator_wizard_8cs" startline="75" endline="96">VRM.MeshIntegratorWizard.GetPropertyValue</references>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" compoundref="_mesh_integrator_wizard_8cs" startline="117" endline="138">VRM.MeshIntegratorWizard.OnValidate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a11d8037a542cb016de71b285d73a4bb9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="69" bodyend="73"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a031ccf74469555604fbde1693c3c9b28" compoundref="_mesh_integrator_wizard_8cs" startline="16">VRM.MeshIntegratorWizard.m_root</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" compoundref="_mesh_integrator_wizard_8cs" startline="117" endline="138">VRM.MeshIntegratorWizard.OnValidate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="117" bodyend="138"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1aa0b32963b5448d45a74cf63475ff748a" compoundref="_mesh_integrator_wizard_8cs" startline="98" endline="115">VRM.MeshIntegratorWizard.GetMaterialKey</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1aecbfba581d77c18b7b4d4f05348a9444" compoundref="_mesh_integrator_wizard_8cs" startline="58">VRM.MeshIntegratorWizard.m_duplicateMaterials</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a031ccf74469555604fbde1693c3c9b28" compoundref="_mesh_integrator_wizard_8cs" startline="16">VRM.MeshIntegratorWizard.m_root</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1acc1edcce62232b15accff27338bbaf49" compoundref="_mesh_integrator_wizard_8cs" startline="19">VRM.MeshIntegratorWizard.m_uniqueMaterials</references>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a11d8037a542cb016de71b285d73a4bb9" compoundref="_mesh_integrator_wizard_8cs" startline="69" endline="73">VRM.MeshIntegratorWizard.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a84c232b917c5a39a3f5da77f12d0e749" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.OnWizardUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="140" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.Integrate</definition>
+        <argsstring>()</argsstring>
+        <name>Integrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="145" bodyend="154"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a101d3bb9d616e7d479fdf38ac9e0ff3d" compoundref="_mesh_integrator_wizard_8cs" startline="61">VRM.MeshIntegratorWizard.integrationResults</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1a031ccf74469555604fbde1693c3c9b28" compoundref="_mesh_integrator_wizard_8cs" startline="16">VRM.MeshIntegratorWizard.m_root</references>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1ad652508c83d731ae3e28190cdfa3cbc2" compoundref="_mesh_integrator_wizard_8cs" startline="156" endline="162">VRM.MeshIntegratorWizard.OnWizardCreate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_wizard_1a0bc819d8925af6cd6223ec45e6849e60" compoundref="_mesh_integrator_wizard_8cs" startline="164" endline="168">VRM.MeshIntegratorWizard.OnWizardOtherButton</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1ad652508c83d731ae3e28190cdfa3cbc2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.OnWizardCreate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="156" bodyend="162"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" compoundref="_mesh_integrator_wizard_8cs" startline="145" endline="154">VRM.MeshIntegratorWizard.Integrate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_wizard_1a0bc819d8925af6cd6223ec45e6849e60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.MeshIntegratorWizard.OnWizardOtherButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardOtherButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="164" bodyend="168"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" compoundref="_mesh_integrator_wizard_8cs" startline="145" endline="154">VRM.MeshIntegratorWizard.Integrate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1727">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="1726">
+        <label>VRM.MeshIntegratorWizard</label>
+        <link refid="class_v_r_m_1_1_mesh_integrator_wizard"/>
+        <childnode refid="1727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1729">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="1730">
+        <label>VRM.MeshIntegratorWizard.MaterialList</label>
+        <link refid="struct_v_r_m_1_1_mesh_integrator_wizard_1_1_material_list"/>
+      </node>
+      <node id="1731">
+        <label>UniGLTF.MeshUtility.MeshIntegrationResult</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result"/>
+      </node>
+      <node id="1728">
+        <label>VRM.MeshIntegratorWizard</label>
+        <link refid="class_v_r_m_1_1_mesh_integrator_wizard"/>
+        <childnode refid="1729" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1730" relation="usage">
+          <edgelabel>m_duplicateMaterials</edgelabel>
+        </childnode>
+        <childnode refid="1731" relation="usage">
+          <edgelabel>integrationResults</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorWizard.cs" bodystart="11" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a9e128a51ef592bfcf921d9e8caf284c6" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>CreateWizard</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1aa0b32963b5448d45a74cf63475ff748a" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>GetMaterialKey</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a9844b2260bd7f97b67984567838d1e63" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>GetPropertyValue</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1abde8a3b357f3568e24c3370b555a118a" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>Integrate</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a101d3bb9d616e7d479fdf38ac9e0ff3d" prot="public" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>integrationResults</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1aecbfba581d77c18b7b4d4f05348a9444" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>m_duplicateMaterials</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a031ccf74469555604fbde1693c3c9b28" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>m_root</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1acc1edcce62232b15accff27338bbaf49" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>m_uniqueMaterials</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1ae4c3c18f1edec8d0b478d55883be7b50" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>MENU_KEY</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a11d8037a542cb016de71b285d73a4bb9" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a34ac94f3e39f3fc2ef235805998f1274" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>OnValidate</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1ad652508c83d731ae3e28190cdfa3cbc2" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>OnWizardCreate</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a0bc819d8925af6cd6223ec45e6849e60" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>OnWizardOtherButton</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_wizard_1a84c232b917c5a39a3f5da77f12d0e749" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorWizard</scope><name>OnWizardUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

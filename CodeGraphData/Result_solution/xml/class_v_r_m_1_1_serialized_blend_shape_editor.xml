@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_serialized_blend_shape_editor" kind="class" prot="public">
+    <compoundname>VRM::SerializedBlendShapeEditor</compoundname>
+    <innerclass refid="struct_v_r_m_1_1_serialized_blend_shape_editor_1_1_draw_result" prot="public">VRM::SerializedBlendShapeEditor::DrawResult</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a9959b075cf91afa0adc13ebd0585fbc6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.SerializedBlendShapeEditor.m_targetObject</definition>
+        <argsstring></argsstring>
+        <name>m_targetObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a50eea0d718c6cdb4d022281a21250b57" prot="private" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject VRM.SerializedBlendShapeEditor.m_serializedObject</definition>
+        <argsstring></argsstring>
+        <name>m_serializedObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a460adaa5c2bdad4ea386125d65e38c4a" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_thumbnail</definition>
+        <argsstring></argsstring>
+        <name>m_thumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a7b70b67ffd4d1f69c32c656548a90cd7" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_blendShapeNameProp</definition>
+        <argsstring></argsstring>
+        <name>m_blendShapeNameProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a7a2424d1f137764db42d8bbfc9382b50" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_presetProp</definition>
+        <argsstring></argsstring>
+        <name>m_presetProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a389f78617efa7b32face68c0b059e63b" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_isBinaryProp</definition>
+        <argsstring></argsstring>
+        <name>m_isBinaryProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a55cc089b4956e4eaeae2306a5a70c79c" prot="private" static="no" mutable="no">
+        <type>ReorderableList</type>
+        <definition>ReorderableList VRM.SerializedBlendShapeEditor.m_ValuesList</definition>
+        <argsstring></argsstring>
+        <name>m_ValuesList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a2f7691c19adc9807f56bf2c9fb3410" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_valuesProp</definition>
+        <argsstring></argsstring>
+        <name>m_valuesProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a1e487da4c8cdae857324b20ae4953f65" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.SerializedBlendShapeEditor.MaterialValueBindingHeight</definition>
+        <argsstring></argsstring>
+        <name>MaterialValueBindingHeight</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a95eedbb3127d71208c9637bb7fe58367" prot="private" static="no" mutable="no">
+        <type>ReorderableList</type>
+        <definition>ReorderableList VRM.SerializedBlendShapeEditor.m_MaterialValuesList</definition>
+        <argsstring></argsstring>
+        <name>m_MaterialValuesList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a0c2eece6f83239e5ced84e9d96e93ac8" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.SerializedBlendShapeEditor.m_materialsProp</definition>
+        <argsstring></argsstring>
+        <name>m_materialsProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a93c033158c7f54edd74e6406b245cfef" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.SerializedBlendShapeEditor.m_changed</definition>
+        <argsstring></argsstring>
+        <name>m_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="181" endline="224">VRM.SerializedBlendShapeEditor.ClipGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a5355aa96d1b0498245dbf2a9e289104d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VRM.SerializedBlendShapeEditor.m_mode</definition>
+        <argsstring></argsstring>
+        <name>m_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1aeb546d19c88a82dca15517caed7773d0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_mesh_preview_item" kindref="compound">MeshPreviewItem</ref>[]</type>
+        <definition>MeshPreviewItem [] VRM.SerializedBlendShapeEditor.m_items</definition>
+        <argsstring></argsstring>
+        <name>m_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a2c25e000eae1e2fa9e8f7637e9c0b13b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="227" endline="264">VRM.SerializedBlendShapeEditor.BlendShapeBindsGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1ac1ec6b3ba6ed10c7618109a5ae26adbc" prot="private" static="no" mutable="no">
+        <type>List&lt; bool &gt;</type>
+        <definition>List&lt;bool&gt; VRM.SerializedBlendShapeEditor.m_meshFolds</definition>
+        <argsstring></argsstring>
+        <name>m_meshFolds</name>
+        <initializer>= new List&lt;bool&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="226" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="226" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a2c25e000eae1e2fa9e8f7637e9c0b13b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="227" endline="264">VRM.SerializedBlendShapeEditor.BlendShapeBindsGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1aa6b94c3b9785a392bb9aa3fc42a6e73c" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int VRM.SerializedBlendShapeEditor.BlendShapeBindingHeight</definition>
+        <argsstring></argsstring>
+        <name>BlendShapeBindingHeight</name>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a6808832d14d5e66b9f96418ebbb1d6" prot="private" static="yes" mutable="no">
+        <type>string[]</type>
+        <definition>string [] VRM.SerializedBlendShapeEditor.MODES</definition>
+        <argsstring></argsstring>
+        <name>MODES</name>
+        <initializer>= new[]{
+            &quot;BlendShape&quot;,
+            &quot;<ref refid="namespace_v_r_m_1ac95af66edb0dae797f74b2aad2e34882abe06c6a41b8206dda31c77aaf4bedf65" kindref="member">BlendShape</ref> List&quot;,
+            &quot;Material List&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1ad82015f41e67d31d56a7a9be52006b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</definition>
+        <argsstring>(SerializedObject serializedObject, PreviewSceneManager previewSceneManager)</argsstring>
+        <name>SerializedBlendShapeEditor</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>previewSceneManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a3e2b206c53c74b4371f765d56e274d77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</definition>
+        <argsstring>(BlendShapeClip blendShapeClip, PreviewSceneManager previewSceneManager)</argsstring>
+        <name>SerializedBlendShapeEditor</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>blendShapeClip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>previewSceneManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</definition>
+        <argsstring>(SerializedObject serializedObject, BlendShapeClip targetObject, PreviewSceneManager previewSceneManager)</argsstring>
+        <name>SerializedBlendShapeEditor</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>targetObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>previewSceneManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="63" bodyend="108"/>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1aa6b94c3b9785a392bb9aa3fc42a6e73c" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="25">VRM.SerializedBlendShapeEditor.BlendShapeBindingHeight</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" compoundref="_blend_shape_clip_editor_helper_8cs" startline="13" endline="53">VRM.BlendShapeClipEditorHelper.DrawBlendShapeBinding</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" compoundref="_blend_shape_clip_editor_helper_8cs" startline="58" endline="130">VRM.BlendShapeClipEditorHelper.DrawMaterialValueBinding</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7b70b67ffd4d1f69c32c656548a90cd7" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="18">VRM.SerializedBlendShapeEditor.m_blendShapeNameProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a93c033158c7f54edd74e6406b245cfef" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="41">VRM.SerializedBlendShapeEditor.m_changed</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a389f78617efa7b32face68c0b059e63b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="21">VRM.SerializedBlendShapeEditor.m_isBinaryProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1aeb546d19c88a82dca15517caed7773d0" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="50">VRM.SerializedBlendShapeEditor.m_items</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a0c2eece6f83239e5ced84e9d96e93ac8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="35">VRM.SerializedBlendShapeEditor.m_materialsProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a95eedbb3127d71208c9637bb7fe58367" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="33">VRM.SerializedBlendShapeEditor.m_MaterialValuesList</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7a2424d1f137764db42d8bbfc9382b50" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="19">VRM.SerializedBlendShapeEditor.m_presetProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a55cc089b4956e4eaeae2306a5a70c79c" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="26">VRM.SerializedBlendShapeEditor.m_ValuesList</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a2f7691c19adc9807f56bf2c9fb3410" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="28">VRM.SerializedBlendShapeEditor.m_valuesProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a1e487da4c8cdae857324b20ae4953f65" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="32">VRM.SerializedBlendShapeEditor.MaterialValueBindingHeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_serialized_blend_shape_editor_1_1_draw_result" kindref="compound">DrawResult</ref></type>
+        <definition>DrawResult VRM.SerializedBlendShapeEditor.Draw</definition>
+        <argsstring>()</argsstring>
+        <name>Draw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="119" bodyend="179"/>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="181" endline="224">VRM.SerializedBlendShapeEditor.ClipGUI</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7b70b67ffd4d1f69c32c656548a90cd7" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="18">VRM.SerializedBlendShapeEditor.m_blendShapeNameProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a93c033158c7f54edd74e6406b245cfef" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="41">VRM.SerializedBlendShapeEditor.m_changed</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a389f78617efa7b32face68c0b059e63b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="21">VRM.SerializedBlendShapeEditor.m_isBinaryProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a5355aa96d1b0498245dbf2a9e289104d" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="43">VRM.SerializedBlendShapeEditor.m_mode</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7a2424d1f137764db42d8bbfc9382b50" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="19">VRM.SerializedBlendShapeEditor.m_presetProp</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9959b075cf91afa0adc13ebd0585fbc6" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="12">VRM.SerializedBlendShapeEditor.m_targetObject</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a6808832d14d5e66b9f96418ebbb1d6" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="44">VRM.SerializedBlendShapeEditor.MODES</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.SerializedBlendShapeEditor.ClipGUI</definition>
+        <argsstring>()</argsstring>
+        <name>ClipGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="181" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="181" bodyend="224"/>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a2c25e000eae1e2fa9e8f7637e9c0b13b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="227" endline="264">VRM.SerializedBlendShapeEditor.BlendShapeBindsGUI</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a8cafa84e7ac4499d753597073b6e013b" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="266" endline="307">VRM.SerializedBlendShapeEditor.GetBindings</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a93c033158c7f54edd74e6406b245cfef" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="41">VRM.SerializedBlendShapeEditor.m_changed</references>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="119" endline="179">VRM.SerializedBlendShapeEditor.Draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a2c25e000eae1e2fa9e8f7637e9c0b13b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.SerializedBlendShapeEditor.BlendShapeBindsGUI</definition>
+        <argsstring>()</argsstring>
+        <name>BlendShapeBindsGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="227" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="227" bodyend="264"/>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1aeb546d19c88a82dca15517caed7773d0" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="50">VRM.SerializedBlendShapeEditor.m_items</references>
+        <references refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac1ec6b3ba6ed10c7618109a5ae26adbc" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="226">VRM.SerializedBlendShapeEditor.m_meshFolds</references>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="181" endline="224">VRM.SerializedBlendShapeEditor.ClipGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_serialized_blend_shape_editor_1a8cafa84e7ac4499d753597073b6e013b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>[]</type>
+        <definition>BlendShapeBinding [] VRM.SerializedBlendShapeEditor.GetBindings</definition>
+        <argsstring>(out string _maxWeightName)</argsstring>
+        <name>GetBindings</name>
+        <param>
+          <type>out string</type>
+          <declname>_maxWeightName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="266" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="266" bodyend="307"/>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="181" endline="224">VRM.SerializedBlendShapeEditor.ClipGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2195">
+        <label>IEquatable&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="2193">
+        <label>UnityEngine.Vector4</label>
+        <link refid="struct_unity_engine_1_1_vector4"/>
+      </node>
+      <node id="2198">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="2188">
+        <label>VRM.MeshPreviewItem</label>
+        <link refid="class_v_r_m_1_1_mesh_preview_item"/>
+      </node>
+      <node id="2189">
+        <label>VRM.BlendShapeClip</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip"/>
+        <childnode refid="2190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2191" relation="usage">
+          <edgelabel>MaterialValues</edgelabel>
+        </childnode>
+        <childnode refid="2194" relation="usage">
+          <edgelabel>Values</edgelabel>
+        </childnode>
+        <childnode refid="2196" relation="usage">
+          <edgelabel>Key</edgelabel>
+        </childnode>
+      </node>
+      <node id="2194">
+        <label>VRM.BlendShapeBinding</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_binding"/>
+        <childnode refid="2195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2192">
+        <label>IEquatable&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="2197">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="2190">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2196">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="2197" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>VRM.MaterialValueBinding</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding"/>
+        <childnode refid="2192" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2193" relation="usage">
+          <edgelabel>TargetValue</edgelabel>
+          <edgelabel>BaseValue</edgelabel>
+        </childnode>
+      </node>
+      <node id="2187">
+        <label>VRM.SerializedBlendShapeEditor</label>
+        <link refid="class_v_r_m_1_1_serialized_blend_shape_editor"/>
+        <childnode refid="2188" relation="usage">
+          <edgelabel>m_items</edgelabel>
+        </childnode>
+        <childnode refid="2189" relation="usage">
+          <edgelabel>m_targetObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/SerializedBlendShapeClipEditor.cs" bodystart="10" bodyend="308"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1aa6b94c3b9785a392bb9aa3fc42a6e73c" prot="public" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>BlendShapeBindingHeight</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a2c25e000eae1e2fa9e8f7637e9c0b13b" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>BlendShapeBindsGUI</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a49e86d434d1b889b3bcb3aa8bf35dcb2" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>ClipGUI</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1afdc47aa5d8e33a4763b70e8cd94cb8b8" prot="public" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>Draw</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a8cafa84e7ac4499d753597073b6e013b" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>GetBindings</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7b70b67ffd4d1f69c32c656548a90cd7" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_blendShapeNameProp</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a93c033158c7f54edd74e6406b245cfef" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_changed</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a389f78617efa7b32face68c0b059e63b" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_isBinaryProp</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1aeb546d19c88a82dca15517caed7773d0" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_items</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a0c2eece6f83239e5ced84e9d96e93ac8" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_materialsProp</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a95eedbb3127d71208c9637bb7fe58367" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_MaterialValuesList</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac1ec6b3ba6ed10c7618109a5ae26adbc" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_meshFolds</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a5355aa96d1b0498245dbf2a9e289104d" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_mode</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a7a2424d1f137764db42d8bbfc9382b50" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_presetProp</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a50eea0d718c6cdb4d022281a21250b57" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_serializedObject</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9959b075cf91afa0adc13ebd0585fbc6" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_targetObject</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a460adaa5c2bdad4ea386125d65e38c4a" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_thumbnail</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a55cc089b4956e4eaeae2306a5a70c79c" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_ValuesList</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a2f7691c19adc9807f56bf2c9fb3410" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>m_valuesProp</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a1e487da4c8cdae857324b20ae4953f65" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>MaterialValueBindingHeight</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a9a6808832d14d5e66b9f96418ebbb1d6" prot="private" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>MODES</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ad82015f41e67d31d56a7a9be52006b1e" prot="public" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>SerializedBlendShapeEditor</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1a3e2b206c53c74b4371f765d56e274d77" prot="public" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>SerializedBlendShapeEditor</name></member>
+      <member refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" prot="public" virt="non-virtual"><scope>VRM::SerializedBlendShapeEditor</scope><name>SerializedBlendShapeEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

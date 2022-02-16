@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_material_factory" kind="class" prot="public">
+    <compoundname>VRMShaders::MaterialFactory</compoundname>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" prot="public" virt="non-virtual">VRMShaders.IResponsibilityForDestroyObjects</basecompoundref>
+    <innerclass refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info" prot="public">VRMShaders::MaterialFactory::MaterialLoadInfo</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_material_factory_1a9358b2861be78581ca66117b0853de8f" prot="private" static="no" mutable="no">
+        <type>readonly IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Material &gt;</type>
+        <definition>readonly IReadOnlyDictionary&lt;SubAssetKey, Material&gt; VRMShaders.MaterialFactory.m_externalMap</definition>
+        <argsstring></argsstring>
+        <name>m_externalMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a0aaf264cfb7377abb4c11a5a4c1f25c9" compoundref="_material_factory_8cs" startline="102" endline="173">VRMShaders.MaterialFactory.LoadAsync</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1afa2405461f61b90a4c1ab16d467714e8" compoundref="_material_factory_8cs" startline="15" endline="18">VRMShaders.MaterialFactory.MaterialFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info" kindref="compound">MaterialLoadInfo</ref> &gt;</type>
+        <definition>List&lt;MaterialLoadInfo&gt; VRMShaders.MaterialFactory.m_materials</definition>
+        <argsstring></argsstring>
+        <name>m_materials</name>
+        <initializer>= new List&lt;<ref refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info" kindref="compound">MaterialLoadInfo</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a16c045643fa9a3b809c7d6a9a67b1b2f" compoundref="_material_factory_8cs" startline="57" endline="70">VRMShaders.MaterialFactory.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a4ae921e42c843fd84db881635154b82e" compoundref="_material_factory_8cs" startline="95" endline="100">VRMShaders.MaterialFactory.GetMaterial</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a2eab12b224430f0a61b3a190231ed485" compoundref="_material_factory_8cs" startline="82" endline="93">VRMShaders.MaterialFactory.TransferOwnership</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_material_factory_1a7cf6cb73a8c684a3b63a668d1f1cc217" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; VRMShaders.MaterialFactory.s_fallbackShaders</definition>
+        <argsstring></argsstring>
+        <name>s_fallbackShaders</name>
+        <initializer>= new Dictionary&lt;string, string&gt;
+        {
+            {&quot;VRM/UnlitTexture&quot;, &quot;Unlit/Texture&quot;},
+            {&quot;VRM/UnlitTransparent&quot;, &quot;Unlit/Transparent&quot;},
+            {&quot;VRM/UnlitCutout&quot;, &quot;Unlit/Transparent Cutout&quot;},
+            {&quot;UniGLTF/StandardVColor&quot;, UniGLTF.UniUnlit.UniUnlitUtil.ShaderName},
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a0aaf264cfb7377abb4c11a5a4c1f25c9" compoundref="_material_factory_8cs" startline="102" endline="173">VRMShaders.MaterialFactory.LoadAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_material_factory_1a0a33029c9e1475d701f5ec44c14be888" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; <ref refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info" kindref="compound">MaterialLoadInfo</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;MaterialLoadInfo&gt; VRMShaders.MaterialFactory.Materials</definition>
+        <argsstring></argsstring>
+        <name>Materials</name>
+        <initializer>=&gt; <ref refid="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" kindref="member">m_materials</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1afa2405461f61b90a4c1ab16d467714e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.MaterialFactory.MaterialFactory</definition>
+        <argsstring>(IReadOnlyDictionary&lt; SubAssetKey, Material &gt; externalMaterialMap)</argsstring>
+        <name>MaterialFactory</name>
+        <param>
+          <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Material &gt;</type>
+          <declname>externalMaterialMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a9358b2861be78581ca66117b0853de8f" compoundref="_material_factory_8cs" startline="13">VRMShaders.MaterialFactory.m_externalMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1a16c045643fa9a3b809c7d6a9a67b1b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.MaterialFactory.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="57" bodyend="70"/>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" compoundref="_material_factory_8cs" startline="45">VRMShaders.MaterialFactory.m_materials</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1a2eab12b224430f0a61b3a190231ed485" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.MaterialFactory.TransferOwnership</definition>
+        <argsstring>(TakeResponsibilityForDestroyObjectFunc take)</argsstring>
+        <name>TransferOwnership</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a">TransferOwnership</reimplements>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" kindref="member">TakeResponsibilityForDestroyObjectFunc</ref></type>
+          <declname>take</declname>
+        </param>
+        <briefdescription>
+<para>所有権(Dispose権)を移譲する </para>        </briefdescription>
+        <detaileddescription>
+<para>所有権を移動する関数。</para><para><itemizedlist>
+<listitem><para>所有権が移動する。return true =&gt; ImporterContext.Dispose の対象から外れる</para></listitem><listitem><para>所有権が移動しない。return false =&gt; Importer.Context.Dispose でDestroyされる</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>take</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="82" bodyend="93"/>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" compoundref="_material_factory_8cs" startline="45">VRMShaders.MaterialFactory.m_materials</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1a4ae921e42c843fd84db881635154b82e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>Material VRMShaders.MaterialFactory.GetMaterial</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetMaterial</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="95" bodyend="100"/>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" compoundref="_material_factory_8cs" startline="45">VRMShaders.MaterialFactory.m_materials</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1a0aaf264cfb7377abb4c11a5a4c1f25c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Material &gt;</type>
+        <definition>async Task&lt;Material&gt; VRMShaders.MaterialFactory.LoadAsync</definition>
+        <argsstring>(MaterialDescriptor matDesc, GetTextureAsyncFunc getTexture, IAwaitCaller awaitCaller)</argsstring>
+        <name>LoadAsync</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_material_descriptor" kindref="compound">MaterialDescriptor</ref></type>
+          <declname>matDesc</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1ade73f71ac08877d7152845866580bfd6" kindref="member">GetTextureAsyncFunc</ref></type>
+          <declname>getTexture</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="102" bodyend="173"/>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a9358b2861be78581ca66117b0853de8f" compoundref="_material_factory_8cs" startline="13">VRMShaders.MaterialFactory.m_externalMap</references>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1a7cf6cb73a8c684a3b63a668d1f1cc217" compoundref="_material_factory_8cs" startline="21">VRMShaders.MaterialFactory.s_fallbackShaders</references>
+        <references refid="class_v_r_m_shaders_1_1_material_factory_1aceab02f1dadc11fdaed9bb7a9bbf4498" compoundref="_material_factory_8cs" startline="175" endline="179">VRMShaders.MaterialFactory.SetTextureOffsetAndScale</references>
+        <references refid="struct_v_r_m_shaders_1_1_material_descriptor_1a9558a70635d4c477f899a417e7dd725c" compoundref="_material_descriptor_8cs" startline="18">VRMShaders.MaterialDescriptor.SubAssetKey</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1a65af9dcc6948bab9ab22d1214c7b75a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.MaterialFactory.Remove</definition>
+        <argsstring>(Material material)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_material_factory_1aceab02f1dadc11fdaed9bb7a9bbf4498" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.MaterialFactory.SetTextureOffsetAndScale</definition>
+        <argsstring>(Material material, string propertyName, Vector2 offset, Vector2 scale)</argsstring>
+        <name>SetTextureOffsetAndScale</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="175" bodyend="179"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_material_factory_1a0aaf264cfb7377abb4c11a5a4c1f25c9" compoundref="_material_factory_8cs" startline="102" endline="173">VRMShaders.MaterialFactory.LoadAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1638">
+        <label>IDisposable</label>
+      </node>
+      <node id="1636">
+        <label>VRMShaders.MaterialFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_material_factory"/>
+        <childnode refid="1637" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1637">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="1638" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1641">
+        <label>IDisposable</label>
+      </node>
+      <node id="1639">
+        <label>VRMShaders.MaterialFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_material_factory"/>
+        <childnode refid="1640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="1641" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="11" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a16c045643fa9a3b809c7d6a9a67b1b2f" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a4ae921e42c843fd84db881635154b82e" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>GetMaterial</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a0aaf264cfb7377abb4c11a5a4c1f25c9" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>LoadAsync</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a9358b2861be78581ca66117b0853de8f" prot="private" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>m_externalMap</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a45b78cbbc9fb37c88a2b82db473f812a" prot="private" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>m_materials</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1afa2405461f61b90a4c1ab16d467714e8" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>MaterialFactory</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a0a33029c9e1475d701f5ec44c14be888" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>Materials</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a65af9dcc6948bab9ab22d1214c7b75a0" prot="private" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>Remove</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a7cf6cb73a8c684a3b63a668d1f1cc217" prot="private" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>s_fallbackShaders</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1aceab02f1dadc11fdaed9bb7a9bbf4498" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>SetTextureOffsetAndScale</name></member>
+      <member refid="class_v_r_m_shaders_1_1_material_factory_1a2eab12b224430f0a61b3a190231ed485" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory</scope><name>TransferOwnership</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

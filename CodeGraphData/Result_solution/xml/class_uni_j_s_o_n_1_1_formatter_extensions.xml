@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_formatter_extensions" kind="class" prot="public">
+    <compoundname>UniJSON::FormatterExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_formatter_extensions_1ab5c1e5ffcdad7d5ea3b433981079cb7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArraySegment&lt; Byte &gt;</type>
+        <definition>static ArraySegment&lt;Byte&gt; UniJSON.FormatterExtensions.GetStoreBytes</definition>
+        <argsstring>(this IFormatter f)</argsstring>
+        <name>GetStoreBytes</name>
+        <param>
+          <type>this <ref refid="interface_uni_j_s_o_n_1_1_i_formatter" kindref="compound">IFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_formatter_extensions_1ae018cdf67bc3cc4469906480955b1228" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.FormatterExtensions.Key</definition>
+        <argsstring>(this IFormatter f, string x)</argsstring>
+        <name>Key</name>
+        <param>
+          <type>this <ref refid="interface_uni_j_s_o_n_1_1_i_formatter" kindref="compound">IFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_formatter_extensions_1a3c7ab0bde51f06c3548c30e347667148" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.FormatterExtensions.Value</definition>
+        <argsstring>(this IFormatter f, IEnumerable&lt; byte &gt; raw, int count)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>this <ref refid="interface_uni_j_s_o_n_1_1_i_formatter" kindref="compound">IFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; byte &gt;</type>
+          <declname>raw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_formatter_extensions_1a898c26138fb8be9fb0dd0c16040cbb39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.FormatterExtensions.Value</definition>
+        <argsstring>(this IFormatter f, Byte[] bytes)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>this <ref refid="interface_uni_j_s_o_n_1_1_i_formatter" kindref="compound">IFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_formatter_extensions_1a7f5afcdc3fb1dafec254a8798a067669" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MethodInfo</type>
+        <definition>static MethodInfo UniJSON.FormatterExtensions.GetMethod&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T &gt;&gt; expression)</argsstring>
+        <name>GetMethod&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T &gt;&gt;</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/FormatterExtensions.cs" bodystart="10" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_formatter_extensions_1a7f5afcdc3fb1dafec254a8798a067669" prot="private" virt="non-virtual"><scope>UniJSON::FormatterExtensions</scope><name>GetMethod&lt; T &gt;</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_formatter_extensions_1ab5c1e5ffcdad7d5ea3b433981079cb7b" prot="public" virt="non-virtual"><scope>UniJSON::FormatterExtensions</scope><name>GetStoreBytes</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_formatter_extensions_1ae018cdf67bc3cc4469906480955b1228" prot="public" virt="non-virtual"><scope>UniJSON::FormatterExtensions</scope><name>Key</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_formatter_extensions_1a3c7ab0bde51f06c3548c30e347667148" prot="public" virt="non-virtual"><scope>UniJSON::FormatterExtensions</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_formatter_extensions_1a898c26138fb8be9fb0dd0c16040cbb39" prot="public" virt="non-virtual"><scope>UniJSON::FormatterExtensions</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

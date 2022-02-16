@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_json_string" kind="class" prot="public">
+    <compoundname>UniJSON::JsonString</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a76db58b35adb8a16deac7651f689500e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonString.Escape</definition>
+        <argsstring>(String s, IStore w)</argsstring>
+        <name>Escape</name>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98" kindref="member">String</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="11" bodyend="57"/>
+        <references refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98">UniJSON.String</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1a28c8f3841470ecc8455aa15c36a84b73" compoundref="_json_string_8cs" startline="135" endline="140">UniJSON.JsonString.Escape</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1a93842ee4875bfe2a9cbdc75f9a4e7bea" compoundref="_json_string_8cs" startline="142" endline="147">UniJSON.JsonString.Quote</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a722b9d71c75e8f5232104bc33df75806" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonString.Escape</definition>
+        <argsstring>(Utf8String s, IStore w)</argsstring>
+        <name>Escape</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="59" bodyend="133"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1a18d917e7c8b0c47eeaf2c4e0ec3078c0" compoundref="_utf8_string_8cs" startline="243">UniJSON.Utf8String.IsEmpty</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a28c8f3841470ecc8455aa15c36a84b73" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniJSON.JsonString.Escape</definition>
+        <argsstring>(String s)</argsstring>
+        <name>Escape</name>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98" kindref="member">String</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="135" bodyend="140"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a76db58b35adb8a16deac7651f689500e" compoundref="_json_string_8cs" startline="11" endline="57">UniJSON.JsonString.Escape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a93842ee4875bfe2a9cbdc75f9a4e7bea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonString.Quote</definition>
+        <argsstring>(String s, IStore w)</argsstring>
+        <name>Quote</name>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98" kindref="member">String</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="142" bodyend="147"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a76db58b35adb8a16deac7651f689500e" compoundref="_json_string_8cs" startline="11" endline="57">UniJSON.JsonString.Escape</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_value_1a3e139b9e090e345b8204c0ddc5336722" compoundref="_json_value_8cs" startline="49" endline="52">UniJSON.JsonValue.Key</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1a77f08055f592e2bce508b4f8bb161e0f" compoundref="_json_string_8cs" startline="161" endline="166">UniJSON.JsonString.Quote</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1ae65ee78726dea7a4d47814bf02059ca1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonString.Quote</definition>
+        <argsstring>(Utf8String s, IStore w)</argsstring>
+        <name>Quote</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="149" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="149" bodyend="154"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a76db58b35adb8a16deac7651f689500e" compoundref="_json_string_8cs" startline="11" endline="57">UniJSON.JsonString.Escape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a77f08055f592e2bce508b4f8bb161e0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniJSON.JsonString.Quote</definition>
+        <argsstring>(string s)</argsstring>
+        <name>Quote</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Added " and Escape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="161" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="161" bodyend="166"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a93842ee4875bfe2a9cbdc75f9a4e7bea" compoundref="_json_string_8cs" startline="142" endline="147">UniJSON.JsonString.Quote</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a521a98cfbdbca6a14e2ea6e5239f7db6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>static Utf8String UniJSON.JsonString.Quote</definition>
+        <argsstring>(Utf8String s)</argsstring>
+        <name>Quote</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="168" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="168" bodyend="173"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1a69cb51d1624010da473b9004fc3813cd" compoundref="_utf8_string_8cs" startline="13">UniJSON.Utf8String.ByteLength</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a93842ee4875bfe2a9cbdc75f9a4e7bea" compoundref="_json_string_8cs" startline="142" endline="147">UniJSON.JsonString.Quote</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniJSON.JsonString.Unescape</definition>
+        <argsstring>(string src, IStore w)</argsstring>
+        <name>Unescape</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="214" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="214" bodyend="286"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1ae57f31eb35865f4ca87c7a539d465b7f" compoundref="_json_string_8cs" startline="177" endline="212">UniJSON.JsonString.CheckHex</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1ab446b6c30b9e22be1a754fdd0e9c2c6d" compoundref="_json_string_8cs" startline="398" endline="403">UniJSON.JsonString.Unescape</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1ab5d690e955587b8fd237e0dfdee4455d" compoundref="_json_string_8cs" startline="405" endline="408">UniJSON.JsonString.Unquote</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1a230d630f59e386f3e47baba2e75a80e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniJSON.JsonString.Unescape</definition>
+        <argsstring>(Utf8String s, IStore w)</argsstring>
+        <name>Unescape</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="288" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="288" bodyend="396"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1ae57f31eb35865f4ca87c7a539d465b7f" compoundref="_json_string_8cs" startline="177" endline="212">UniJSON.JsonString.CheckHex</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1ab446b6c30b9e22be1a754fdd0e9c2c6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniJSON.JsonString.Unescape</definition>
+        <argsstring>(string src)</argsstring>
+        <name>Unescape</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="398" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="398" bodyend="403"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" compoundref="_json_string_8cs" startline="214" endline="286">UniJSON.JsonString.Unescape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1ab5d690e955587b8fd237e0dfdee4455d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniJSON.JsonString.Unquote</definition>
+        <argsstring>(string src, IStore w)</argsstring>
+        <name>Unquote</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="405" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="405" bodyend="408"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" compoundref="_json_string_8cs" startline="214" endline="286">UniJSON.JsonString.Unescape</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1acfd2d85b1d18e7a3bda1409c467d7f85" compoundref="_json_string_8cs" startline="415" endline="429">UniJSON.JsonString.Unquote</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1aaeeb88d1737f54161f67fa3acbfe7505" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniJSON.JsonString.Unquote</definition>
+        <argsstring>(Utf8String src, IStore w)</argsstring>
+        <name>Unquote</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="410" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="410" bodyend="413"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1a69cb51d1624010da473b9004fc3813cd" compoundref="_utf8_string_8cs" startline="13">UniJSON.Utf8String.ByteLength</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1a770482f35720556c3c4ea7f862253273" compoundref="_utf8_string_8cs" startline="304" endline="307">UniJSON.Utf8String.Subbytes</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" compoundref="_json_string_8cs" startline="214" endline="286">UniJSON.JsonString.Unescape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1acfd2d85b1d18e7a3bda1409c467d7f85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniJSON.JsonString.Unquote</definition>
+        <argsstring>(string src)</argsstring>
+        <name>Unquote</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="415" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="415" bodyend="429"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1ab5d690e955587b8fd237e0dfdee4455d" compoundref="_json_string_8cs" startline="405" endline="408">UniJSON.JsonString.Unquote</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1ad7cc9cac168c7dbe4a19dcc90363590a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>static Utf8String UniJSON.JsonString.Unquote</definition>
+        <argsstring>(Utf8String src)</argsstring>
+        <name>Unquote</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="431" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="431" bodyend="444"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1a69cb51d1624010da473b9004fc3813cd" compoundref="_utf8_string_8cs" startline="13">UniJSON.Utf8String.ByteLength</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_string_1ab5d690e955587b8fd237e0dfdee4455d" compoundref="_json_string_8cs" startline="405" endline="408">UniJSON.JsonString.Unquote</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_string_1ae57f31eb35865f4ca87c7a539d465b7f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>static byte UniJSON.JsonString.CheckHex</definition>
+        <argsstring>(int b)</argsstring>
+        <name>CheckHex</name>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="177" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="177" bodyend="212"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" compoundref="_json_string_8cs" startline="214" endline="286">UniJSON.JsonString.Unescape</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonString.cs" bodystart="8" bodyend="446"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1ae57f31eb35865f4ca87c7a539d465b7f" prot="private" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>CheckHex</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a76db58b35adb8a16deac7651f689500e" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Escape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a722b9d71c75e8f5232104bc33df75806" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Escape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a28c8f3841470ecc8455aa15c36a84b73" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Escape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a93842ee4875bfe2a9cbdc75f9a4e7bea" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Quote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1ae65ee78726dea7a4d47814bf02059ca1" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Quote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a77f08055f592e2bce508b4f8bb161e0f" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Quote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a521a98cfbdbca6a14e2ea6e5239f7db6" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Quote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a3d9e013a3d61c0a39d13a5ee01ffa9af" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unescape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1a230d630f59e386f3e47baba2e75a80e7" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unescape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1ab446b6c30b9e22be1a754fdd0e9c2c6d" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unescape</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1ab5d690e955587b8fd237e0dfdee4455d" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unquote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1aaeeb88d1737f54161f67fa3acbfe7505" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unquote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1acfd2d85b1d18e7a3bda1409c467d7f85" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unquote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_string_1ad7cc9cac168c7dbe4a19dcc90363590a" prot="public" virt="non-virtual"><scope>UniJSON::JsonString</scope><name>Unquote</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

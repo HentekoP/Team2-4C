@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_j_s_o_n_1_1_utf8_iterator" kind="struct" prot="public">
+    <compoundname>UniJSON::Utf8Iterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerator&lt; Byte &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a8c20d0ad4c5b6ee884cf8a0379956ea2" prot="public" static="no" mutable="no">
+        <type>Byte[]</type>
+        <definition>Byte [] UniJSON.Utf8Iterator.m_bytes</definition>
+        <argsstring></argsstring>
+        <name>m_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" compoundref="_utf8_iterator_8cs" startline="16" endline="23">UniJSON.Utf8Iterator.Utf8Iterator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a640c3b2e7c638b397cfce89930f8ffd8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.m_offset</definition>
+        <argsstring></argsstring>
+        <name>m_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" compoundref="_utf8_iterator_8cs" startline="16" endline="23">UniJSON.Utf8Iterator.Utf8Iterator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a62277f338f568ff62d549b332f4d1edb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.m_start</definition>
+        <argsstring></argsstring>
+        <name>m_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" compoundref="_utf8_iterator_8cs" startline="181" endline="192">UniJSON.Utf8Iterator.MoveNext</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" compoundref="_utf8_iterator_8cs" startline="16" endline="23">UniJSON.Utf8Iterator.Utf8Iterator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5dec63be771b4570026ab451e21f4d9a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.m_position</definition>
+        <argsstring></argsstring>
+        <name>m_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" compoundref="_utf8_iterator_8cs" startline="181" endline="192">UniJSON.Utf8Iterator.MoveNext</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a13dfff58a5b3291541850dcc3f4f90d4" compoundref="_utf8_iterator_8cs" startline="194" endline="197">UniJSON.Utf8Iterator.Reset</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" compoundref="_utf8_iterator_8cs" startline="16" endline="23">UniJSON.Utf8Iterator.Utf8Iterator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae109ee0037e86f0a96f35f2bedc31018" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.m_end</definition>
+        <argsstring></argsstring>
+        <name>m_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" compoundref="_utf8_iterator_8cs" startline="181" endline="192">UniJSON.Utf8Iterator.MoveNext</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" compoundref="_utf8_iterator_8cs" startline="16" endline="23">UniJSON.Utf8Iterator.Utf8Iterator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae7d1516c8e756061b762d3b6e4247b6c" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask1</definition>
+        <argsstring></argsstring>
+        <name>Mask1</name>
+        <initializer>= 0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a8cf2c8260cbd6e3ca1bcf3abdb69c8c9" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask2</definition>
+        <argsstring></argsstring>
+        <name>Mask2</name>
+        <initializer>= 0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1aef43400e81342a83916f7bf5f29d9528" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask3</definition>
+        <argsstring></argsstring>
+        <name>Mask3</name>
+        <initializer>= 0x07</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a859ea8336bd875af17d639d930a9c2ad" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask4</definition>
+        <argsstring></argsstring>
+        <name>Mask4</name>
+        <initializer>= 0x0F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a9729f056fa586162baa58a2c1c633ef1" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask5</definition>
+        <argsstring></argsstring>
+        <name>Mask5</name>
+        <initializer>= 0x1F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a47172fc137e63493be507ec98921c6ca" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask6</definition>
+        <argsstring></argsstring>
+        <name>Mask6</name>
+        <initializer>= 0x3F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="88" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a7537379626bc4331bf4fe5cbbd8e5f14" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask7</definition>
+        <argsstring></argsstring>
+        <name>Mask7</name>
+        <initializer>= 0x7F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a2d6e036334ef93c9a489db43362ade6d" compoundref="_utf8_iterator_8cs" startline="97" endline="111">UniJSON.Utf8Iterator.ByteLengthFromChar</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5b3f22bb98b48a3233c51919bb77bdcc" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Mask11</definition>
+        <argsstring></argsstring>
+        <name>Mask11</name>
+        <initializer>= 0x07FF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="90" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a2d6e036334ef93c9a489db43362ade6d" compoundref="_utf8_iterator_8cs" startline="97" endline="111">UniJSON.Utf8Iterator.ByteLengthFromChar</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a0e380962da53968bcee41c827d31a5d9" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Head1</definition>
+        <argsstring></argsstring>
+        <name>Head1</name>
+        <initializer>= 0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="92" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1ac3f6c91ba4de1a00bdf5bdc548cee162" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Head2</definition>
+        <argsstring></argsstring>
+        <name>Head2</name>
+        <initializer>= 0xC0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="93" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a41f0c5f46a14fdf9ed35946095008daf" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Head3</definition>
+        <argsstring></argsstring>
+        <name>Head3</name>
+        <initializer>= 0xE0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="94" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_string_1a9dc1b373c9e22e5a63560d9b27ff2770" compoundref="_utf8_string_8cs" startline="73" endline="103">UniJSON.Utf8String.From</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a681a5adffda6a37db1d287c2cb26b50b" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint UniJSON.Utf8Iterator.Head4</definition>
+        <argsstring></argsstring>
+        <name>Head4</name>
+        <initializer>= 0xF0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a4ee2575939846a01d187d9d72cf856f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.BytePosition</definition>
+        <argsstring></argsstring>
+        <name>BytePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1abfd4ddb5d2958a305221db1ce06b6aee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniJSON.Utf8Iterator.CurrentByteLength</definition>
+        <argsstring></argsstring>
+        <name>CurrentByteLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" compoundref="_utf8_iterator_8cs" startline="181" endline="192">UniJSON.Utf8Iterator.MoveNext</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a25a150fd381af61cd1e19c6bbe34315c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte UniJSON.Utf8Iterator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae4bab23abc54effddc18db9d8937577e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>object IEnumerator.</type>
+        <definition>object IEnumerator. UniJSON.Utf8Iterator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a212773861963d85273a8f00a31847902" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte UniJSON.Utf8Iterator.Second</definition>
+        <argsstring></argsstring>
+        <name>Second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a9c71f8581f45657abdf85df2fbc94544" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte UniJSON.Utf8Iterator.Third</definition>
+        <argsstring></argsstring>
+        <name>Third</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a4fb822d5c0e8422c6ff86b1017be4e0f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte UniJSON.Utf8Iterator.Fourth</definition>
+        <argsstring></argsstring>
+        <name>Fourth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1ac1a3321ae1a516e0c896d9c644ee03f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint UniJSON.Utf8Iterator.Unicode</definition>
+        <argsstring></argsstring>
+        <name>Unicode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1adf085de63ed679cbc26fe22555c75438" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>char</type>
+        <definition>char UniJSON.Utf8Iterator.Char</definition>
+        <argsstring></argsstring>
+        <name>Char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.Utf8Iterator.Utf8Iterator</definition>
+        <argsstring>(ArraySegment&lt; Byte &gt; range, int start=0)</argsstring>
+        <name>Utf8Iterator</name>
+        <param>
+          <type>ArraySegment&lt; Byte &gt;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="16" bodyend="23"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a8c20d0ad4c5b6ee884cf8a0379956ea2" compoundref="_utf8_iterator_8cs" startline="10">UniJSON.Utf8Iterator.m_bytes</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae109ee0037e86f0a96f35f2bedc31018" compoundref="_utf8_iterator_8cs" startline="14">UniJSON.Utf8Iterator.m_end</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a640c3b2e7c638b397cfce89930f8ffd8" compoundref="_utf8_iterator_8cs" startline="11">UniJSON.Utf8Iterator.m_offset</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5dec63be771b4570026ab451e21f4d9a" compoundref="_utf8_iterator_8cs" startline="13">UniJSON.Utf8Iterator.m_position</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a62277f338f568ff62d549b332f4d1edb" compoundref="_utf8_iterator_8cs" startline="12">UniJSON.Utf8Iterator.m_start</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1aed340a806ef317c9dad761b246beb0e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.Utf8Iterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="177" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="177" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniJSON.Utf8Iterator.MoveNext</definition>
+        <argsstring>()</argsstring>
+        <name>MoveNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="181" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="181" bodyend="192"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1abfd4ddb5d2958a305221db1ce06b6aee" compoundref="_utf8_iterator_8cs" startline="31">UniJSON.Utf8Iterator.CurrentByteLength</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae109ee0037e86f0a96f35f2bedc31018" compoundref="_utf8_iterator_8cs" startline="14">UniJSON.Utf8Iterator.m_end</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5dec63be771b4570026ab451e21f4d9a" compoundref="_utf8_iterator_8cs" startline="13">UniJSON.Utf8Iterator.m_position</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a62277f338f568ff62d549b332f4d1edb" compoundref="_utf8_iterator_8cs" startline="12">UniJSON.Utf8Iterator.m_start</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a13dfff58a5b3291541850dcc3f4f90d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.Utf8Iterator.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="194" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="194" bodyend="197"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5dec63be771b4570026ab451e21f4d9a" compoundref="_utf8_iterator_8cs" startline="13">UniJSON.Utf8Iterator.m_position</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_utf8_iterator_1a2d6e036334ef93c9a489db43362ade6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniJSON.Utf8Iterator.ByteLengthFromChar</definition>
+        <argsstring>(char c)</argsstring>
+        <name>ByteLengthFromChar</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="97" bodyend="111"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5b3f22bb98b48a3233c51919bb77bdcc" compoundref="_utf8_iterator_8cs" startline="90">UniJSON.Utf8Iterator.Mask11</references>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a7537379626bc4331bf4fe5cbbd8e5f14" compoundref="_utf8_iterator_8cs" startline="89">UniJSON.Utf8Iterator.Mask7</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2536">
+        <label>UniJSON.Utf8Iterator</label>
+        <link refid="struct_uni_j_s_o_n_1_1_utf8_iterator"/>
+        <childnode refid="2537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2537">
+        <label>IEnumerator&lt; Byte &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2538">
+        <label>UniJSON.Utf8Iterator</label>
+        <link refid="struct_uni_j_s_o_n_1_1_utf8_iterator"/>
+        <childnode refid="2539" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2539">
+        <label>IEnumerator&lt; Byte &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8Iterator.cs" bodystart="8" bodyend="198"/>
+    <listofallmembers>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a2d6e036334ef93c9a489db43362ade6d" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>ByteLengthFromChar</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a4ee2575939846a01d187d9d72cf856f3" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>BytePosition</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1adf085de63ed679cbc26fe22555c75438" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Char</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a25a150fd381af61cd1e19c6bbe34315c" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Current</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae4bab23abc54effddc18db9d8937577e" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Current</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1abfd4ddb5d2958a305221db1ce06b6aee" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>CurrentByteLength</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1aed340a806ef317c9dad761b246beb0e4" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Dispose</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a4fb822d5c0e8422c6ff86b1017be4e0f" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Fourth</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a0e380962da53968bcee41c827d31a5d9" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Head1</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ac3f6c91ba4de1a00bdf5bdc548cee162" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Head2</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a41f0c5f46a14fdf9ed35946095008daf" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Head3</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a681a5adffda6a37db1d287c2cb26b50b" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Head4</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a8c20d0ad4c5b6ee884cf8a0379956ea2" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>m_bytes</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae109ee0037e86f0a96f35f2bedc31018" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>m_end</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a640c3b2e7c638b397cfce89930f8ffd8" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>m_offset</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5dec63be771b4570026ab451e21f4d9a" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>m_position</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a62277f338f568ff62d549b332f4d1edb" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>m_start</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ae7d1516c8e756061b762d3b6e4247b6c" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask1</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a5b3f22bb98b48a3233c51919bb77bdcc" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask11</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a8cf2c8260cbd6e3ca1bcf3abdb69c8c9" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask2</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1aef43400e81342a83916f7bf5f29d9528" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask3</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a859ea8336bd875af17d639d930a9c2ad" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask4</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a9729f056fa586162baa58a2c1c633ef1" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask5</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a47172fc137e63493be507ec98921c6ca" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask6</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a7537379626bc4331bf4fe5cbbd8e5f14" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Mask7</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a3e2786ae696771db9415ad63a98f4d8b" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>MoveNext</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a13dfff58a5b3291541850dcc3f4f90d4" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Reset</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a212773861963d85273a8f00a31847902" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Second</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a9c71f8581f45657abdf85df2fbc94544" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Third</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1ac1a3321ae1a516e0c896d9c644ee03f7" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Unicode</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_utf8_iterator_1a24580b7c411edf3d59fa32a47c29dd75" prot="public" virt="non-virtual"><scope>UniJSON::Utf8Iterator</scope><name>Utf8Iterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

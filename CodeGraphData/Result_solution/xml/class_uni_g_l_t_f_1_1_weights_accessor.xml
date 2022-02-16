@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_weights_accessor" kind="class" prot="public">
+    <compoundname>UniGLTF::WeightsAccessor</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_weights_accessor_1ae39553c062a5087453e37dce8ff674d6" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.WeightsAccessor.Getter</definition>
+        <argsstring></argsstring>
+        <name>Getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_weights_accessor_1aa7c35530c1ac21a8fe56700f5455c7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.WeightsAccessor.delegate</definition>
+        <argsstring>(float x, float y, float z, float w) Getter(int index)</argsstring>
+        <name>delegate</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>WEIGHTS_0 の byte4 もしくは ushort4 もしくは float4 に対するアクセスを提供する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_weights_accessor_1a473ed48f7715c15b34d0ad950124614d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.WeightsAccessor.GetAccessor</definition>
+        <argsstring>(GltfData data, int accessorIndex)</argsstring>
+        <name>GetAccessor</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accessorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" bodystart="13" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs" bodystart="6" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_weights_accessor_1aa7c35530c1ac21a8fe56700f5455c7ab" prot="public" virt="non-virtual"><scope>UniGLTF::WeightsAccessor</scope><name>delegate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_weights_accessor_1a473ed48f7715c15b34d0ad950124614d" prot="private" virt="non-virtual"><scope>UniGLTF::WeightsAccessor</scope><name>GetAccessor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_weights_accessor_1ae39553c062a5087453e37dce8ff674d6" prot="public" virt="non-virtual"><scope>UniGLTF::WeightsAccessor</scope><name>Getter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

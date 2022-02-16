@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_remap_editor_material" kind="class" prot="public">
+    <compoundname>UniGLTF::RemapEditorMaterial</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_remap_editor_base" prot="public" virt="non-virtual">UniGLTF.RemapEditorBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_remap_editor_material_1a83afeefcf65281e3feae09080204dd5d" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.RemapEditorMaterial.s_foldMaterials</definition>
+        <argsstring></argsstring>
+        <name>s_foldMaterials</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a1a31486ca1809b30b37e19c702fc5a23" compoundref="_remap_editor_material_8cs" startline="28" endline="64">UniGLTF.RemapEditorMaterial.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_remap_editor_material_1aac5ae6c7709fb3190eaf90421acd78a5" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.RemapEditorMaterial.s_foldTextures</definition>
+        <argsstring></argsstring>
+        <name>s_foldTextures</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a1a31486ca1809b30b37e19c702fc5a23" compoundref="_remap_editor_material_8cs" startline="28" endline="64">UniGLTF.RemapEditorMaterial.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_material_1a875b9801e40f396a3083bdba8fb99640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.RemapEditorMaterial.RemapEditorMaterial</definition>
+        <argsstring>(IEnumerable&lt; SubAssetKey &gt; keys, EditorMapGetterFunc getter, EditorMapSetterFunc setter)</argsstring>
+        <name>RemapEditorMaterial</name>
+        <param>
+          <type>IEnumerable&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref> &gt;</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1acb58a0e53ba3fba2380e5506e0f0c687" kindref="member">EditorMapGetterFunc</ref></type>
+          <declname>getter</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a2d1321507ed6d63153519fbd1036ac12" kindref="member">EditorMapSetterFunc</ref></type>
+          <declname>setter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="25" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_material_1a1a31486ca1809b30b37e19c702fc5a23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RemapEditorMaterial.OnGUI</definition>
+        <argsstring>(ScriptedImporter importer, GltfData data, ITextureDescriptorGenerator textureDescriptorGenerator, Func&lt; string, string &gt; textureDir, Func&lt; string, string &gt; materialDir)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>importer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" kindref="compound">ITextureDescriptorGenerator</ref></type>
+          <declname>textureDescriptorGenerator</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string &gt;</type>
+          <declname>textureDir</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string &gt;</type>
+          <declname>materialDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="28" bodyend="64"/>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a2f459363d8d28d32ffb91dfd24d0dce7" compoundref="_remap_editor_base_8cs" startline="82" endline="96">UniGLTF.RemapEditorBase.CanExtract</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aa756aaec03e862417ea506d4ccfb1ebe" compoundref="_remap_editor_base_8cs" startline="177" endline="197">UniGLTF.RemapEditorBase.ClearExternalObjects</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a882770c0759095b8f29b8f9ddfc41801" compoundref="_remap_editor_material_8cs" startline="66" endline="103">UniGLTF.RemapEditorMaterial.ExtractMaterialsAndTextures</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a83afeefcf65281e3feae09080204dd5d" compoundref="_remap_editor_material_8cs" startline="22">UniGLTF.RemapEditorMaterial.s_foldMaterials</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_material_1aac5ae6c7709fb3190eaf90421acd78a5" compoundref="_remap_editor_material_8cs" startline="23">UniGLTF.RemapEditorMaterial.s_foldTextures</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_material_1a882770c0759095b8f29b8f9ddfc41801" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RemapEditorMaterial.ExtractMaterialsAndTextures</definition>
+        <argsstring>(ScriptedImporter self, GltfData data, ITextureDescriptorGenerator textureDescriptorGenerator, Func&lt; string, string &gt; textureDir, Func&lt; string, string &gt; materialDir)</argsstring>
+        <name>ExtractMaterialsAndTextures</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>self</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" kindref="compound">ITextureDescriptorGenerator</ref></type>
+          <declname>textureDescriptorGenerator</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string &gt;</type>
+          <declname>textureDir</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string &gt;</type>
+          <declname>materialDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="66" bodyend="103"/>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a7476c98e519c607f1988b65895ebbc24" compoundref="_remap_editor_material_8cs" startline="105" endline="127">UniGLTF.RemapEditorMaterial.ExtractMaterials</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a1a31486ca1809b30b37e19c702fc5a23" compoundref="_remap_editor_material_8cs" startline="28" endline="64">UniGLTF.RemapEditorMaterial.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_material_1a7476c98e519c607f1988b65895ebbc24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.RemapEditorMaterial.ExtractMaterials</definition>
+        <argsstring>(ScriptedImporter importer, Func&lt; string, string &gt; materialDir)</argsstring>
+        <name>ExtractMaterials</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>importer</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string &gt;</type>
+          <declname>materialDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="105" bodyend="127"/>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1fca58f839eeeabcf941fbaabaafda7c" compoundref="_remap_editor_base_8cs" startline="156" endline="175">UniGLTF.RemapEditorBase.ExtractSubAsset</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a882770c0759095b8f29b8f9ddfc41801" compoundref="_remap_editor_material_8cs" startline="66" endline="103">UniGLTF.RemapEditorMaterial.ExtractMaterialsAndTextures</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Material, Texture の Remap, Extract </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2087">
+        <label>UniGLTF.RemapEditorMaterial</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_material"/>
+        <childnode refid="2088" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2088">
+        <label>RemapEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2091">
+        <label>VRMShaders.SubAssetKey</label>
+        <link refid="struct_v_r_m_shaders_1_1_sub_asset_key"/>
+        <childnode refid="2092" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2089">
+        <label>UniGLTF.RemapEditorMaterial</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_material"/>
+        <childnode refid="2090" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2090">
+        <label>RemapEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_base"/>
+        <childnode refid="2091" relation="usage">
+          <edgelabel>m_keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="2092">
+        <label>IEquatable&lt; SubAssetKey &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorMaterial.cs" bodystart="20" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a2f459363d8d28d32ffb91dfd24d0dce7" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>CanExtract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aa756aaec03e862417ea506d4ccfb1ebe" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>ClearExternalObjects</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aec5d91fdda23abb7123c479f52273321" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>DrawRemapGUI&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a7476c98e519c607f1988b65895ebbc24" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>ExtractMaterials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a882770c0759095b8f29b8f9ddfc41801" prot="private" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>ExtractMaterialsAndTextures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1fca58f839eeeabcf941fbaabaafda7c" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>ExtractSubAsset</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aed4e5bd4696fac335b08d278d7dc1e6a" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>GetAndCreateFolder</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1ab5b2e891faf4bb03bd01df9dd57512a0" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>HasKeys</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a1a31486ca1809b30b37e19c702fc5a23" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>OnGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1e6eb4aa196c430e301113447f3ba7bf" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>RemapEditorBase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a875b9801e40f396a3083bdba8fb99640" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>RemapEditorMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1a83afeefcf65281e3feae09080204dd5d" prot="private" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>s_foldMaterials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_material_1aac5ae6c7709fb3190eaf90421acd78a5" prot="private" virt="non-virtual"><scope>UniGLTF::RemapEditorMaterial</scope><name>s_foldTextures</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

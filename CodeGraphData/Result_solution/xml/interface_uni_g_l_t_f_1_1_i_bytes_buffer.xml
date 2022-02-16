@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_g_l_t_f_1_1_i_bytes_buffer" kind="interface" prot="public">
+    <compoundname>UniGLTF::IBytesBuffer</compoundname>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_array_byte_buffer" prot="public" virt="non-virtual">UniGLTF.ArrayByteBuffer</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_array_segment_byte_buffer" prot="public" virt="non-virtual">UniGLTF.ArraySegmentByteBuffer</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_uri_byte_buffer" prot="public" virt="non-virtual">UniGLTF.UriByteBuffer</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a83d16a21325cef0fc1d99e79269965ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UniGLTF.IBytesBuffer.Uri</definition>
+        <argsstring></argsstring>
+        <name>Uri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a8da69825e5e59f095fb5e972e2068116" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ArraySegment&lt; Byte &gt;</type>
+        <definition>ArraySegment&lt;Byte&gt; UniGLTF.IBytesBuffer.Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1adbfef276ce00de42311383acf40105f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view" kindref="compound">glTFBufferView</ref></type>
+        <definition>glTFBufferView UniGLTF.IBytesBuffer.Extend&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; T &gt; array, glBufferTarget target=glBufferTarget.NONE)</argsstring>
+        <name>Extend&lt; T &gt;</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_array_segment_byte_buffer_1a5f8c484598b78779e367de57e0500b1e">Extend&lt; T &gt;</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_array_byte_buffer_1a370239074b78427a0a63b6d2458b44eb">Extend&lt; T &gt;</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_uri_byte_buffer_1a6ffc76df7fb59b68329532fcc5f81d29">Extend&lt; T &gt;</reimplementedby>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" kindref="member">glBufferTarget</ref></type>
+          <declname>target</declname>
+          <defval>glBufferTarget.NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a253ced2facdc0eff507b2dae5f9a1ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.IBytesBuffer.ExtendCapacity</definition>
+        <argsstring>(int capacity)</argsstring>
+        <name>ExtendCapacity</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_array_segment_byte_buffer_1a08403d5dd97fd80454a2a747cdb43e45">ExtendCapacity</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_uri_byte_buffer_1a8b4d5e80a58624e2e729e653746b22b5">ExtendCapacity</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_array_byte_buffer_1af23e68c24f89ec3af48ff782ed723fd9">ExtendCapacity</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1255">
+        <label>UniGLTF.ArraySegmentByteBuffer</label>
+        <link refid="class_uni_g_l_t_f_1_1_array_segment_byte_buffer"/>
+        <childnode refid="1253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1253">
+        <label>UniGLTF.IBytesBuffer</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer"/>
+      </node>
+      <node id="1254">
+        <label>UniGLTF.ArrayByteBuffer</label>
+        <link refid="class_uni_g_l_t_f_1_1_array_byte_buffer"/>
+        <childnode refid="1253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>UniGLTF.UriByteBuffer</label>
+        <link refid="class_uni_g_l_t_f_1_1_uri_byte_buffer"/>
+        <childnode refid="1253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IBytesBuffer.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a8da69825e5e59f095fb5e972e2068116" prot="public" virt="non-virtual"><scope>UniGLTF::IBytesBuffer</scope><name>Bytes</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1adbfef276ce00de42311383acf40105f3" prot="public" virt="non-virtual"><scope>UniGLTF::IBytesBuffer</scope><name>Extend&lt; T &gt;</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a253ced2facdc0eff507b2dae5f9a1ea7" prot="public" virt="non-virtual"><scope>UniGLTF::IBytesBuffer</scope><name>ExtendCapacity</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer_1a83d16a21325cef0fc1d99e79269965ee" prot="public" virt="non-virtual"><scope>UniGLTF::IBytesBuffer</scope><name>Uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

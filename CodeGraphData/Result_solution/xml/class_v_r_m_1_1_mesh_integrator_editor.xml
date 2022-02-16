@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_mesh_integrator_editor" kind="class" prot="public">
+    <compoundname>VRM::MeshIntegratorEditor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_mesh_integrator_editor_1a8beb92d7d1273ef4475c1b4f67621f33" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.MeshIntegratorEditor.ASSET_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>ASSET_SUFFIX</name>
+        <initializer>= &quot;.mesh.asset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a4295f20a340e7e4a7d9a4533a16e24d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.MeshIntegratorEditor.IntegrateValidation</definition>
+        <argsstring>()</argsstring>
+        <name>IntegrateValidation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a17e79850c78d536dcd280e68caae3e97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.MeshIntegratorEditor.Integrate</definition>
+        <argsstring>()</argsstring>
+        <name>Integrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a79dca6edf7e1ed2d4740261402b3f019" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result" kindref="compound">MeshIntegrationResult</ref> &gt;</type>
+        <definition>static List&lt;MeshIntegrationResult&gt; VRM.MeshIntegratorEditor.Integrate</definition>
+        <argsstring>(GameObject prefab)</argsstring>
+        <name>Integrate</name>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="45" bodyend="97"/>
+        <references refid="class_v_r_m_1_1_mesh_integrator_editor_1ab3743dcb3de329bdd410c47e4a7857ee" compoundref="_mesh_integrator_editor_8cs" startline="99" endline="114">VRM.MeshIntegratorEditor.BackupVrmPrefab</references>
+        <references refid="class_v_r_m_1_1_mesh_integrator_editor_1a4fa3ac4cecbb90de0ffd11d98e199be2" compoundref="_mesh_integrator_editor_8cs" startline="147" endline="156">VRM.MeshIntegratorEditor.SaveMeshAsset</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1ab3743dcb3de329bdd410c47e4a7857ee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.MeshIntegratorEditor.BackupVrmPrefab</definition>
+        <argsstring>(GameObject rootPrefab)</argsstring>
+        <name>BackupVrmPrefab</name>
+        <param>
+          <type>GameObject</type>
+          <declname>rootPrefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="99" bodyend="114"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_editor_1a79dca6edf7e1ed2d4740261402b3f019" compoundref="_mesh_integrator_editor_8cs" startline="45" endline="97">VRM.MeshIntegratorEditor.Integrate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a3b5e2cb4671876756c6905d104533f8a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T VRM.MeshIntegratorEditor.BackupAsset&lt; T &gt;</definition>
+        <argsstring>(T asset, GameObject rootPrefab)</argsstring>
+        <name>BackupAsset&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>rootPrefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="116" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a7bb28b0ddbda4a1e61ac0d0fbebbcfed" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.MeshIntegratorEditor.GetRootPrefabPath</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>GetRootPrefabPath</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="130" bodyend="145"/>
+        <references refid="class_v_r_m_1_1_skinned_mesh_utility_1a547517b3268337517f620b23edc151ec" compoundref="_skinned_mesh_utility_8cs" startline="13" endline="20">VRM.SkinnedMeshUtility.GetPrefab</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_mesh_integrator_editor_1a4fa3ac4cecbb90de0ffd11d98e199be2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.MeshIntegratorEditor.SaveMeshAsset</definition>
+        <argsstring>(Mesh mesh, GameObject go, string name)</argsstring>
+        <name>SaveMeshAsset</name>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="147" bodyend="156"/>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_editor_1a79dca6edf7e1ed2d4740261402b3f019" compoundref="_mesh_integrator_editor_8cs" startline="45" endline="97">VRM.MeshIntegratorEditor.Integrate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>複数のメッシュをまとめて、BlendShapeClipに変更を反映する </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/MeshIntegratorEditor.cs" bodystart="18" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a8beb92d7d1273ef4475c1b4f67621f33" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>ASSET_SUFFIX</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a3b5e2cb4671876756c6905d104533f8a" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>BackupAsset&lt; T &gt;</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1ab3743dcb3de329bdd410c47e4a7857ee" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>BackupVrmPrefab</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a7bb28b0ddbda4a1e61ac0d0fbebbcfed" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>GetRootPrefabPath</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a17e79850c78d536dcd280e68caae3e97" prot="public" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>Integrate</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a79dca6edf7e1ed2d4740261402b3f019" prot="public" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>Integrate</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a4295f20a340e7e4a7d9a4533a16e24d4" prot="public" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>IntegrateValidation</name></member>
+      <member refid="class_v_r_m_1_1_mesh_integrator_editor_1a4fa3ac4cecbb90de0ffd11d98e199be2" prot="private" virt="non-virtual"><scope>VRM::MeshIntegratorEditor</scope><name>SaveMeshAsset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

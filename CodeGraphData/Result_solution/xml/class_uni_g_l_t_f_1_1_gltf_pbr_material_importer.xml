@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfPbrMaterialImporter</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cd" prot="private" static="no">
+        <name>BlendMode</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cdafaa90538de35640e4b1e31ccf35b6eb5" prot="public">
+          <name>Opaque</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cda330be5af6c8bafc8ce5c74fa208c5015" prot="public">
+          <name>Cutout</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cda04e0385c10aefee8e4681617d2f3ef40" prot="public">
+          <name>Fade</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cda3d971943089a3388c01fb297a32d9ba7" prot="public">
+          <name>Transparent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a6ec890ca7b3136f66b4544c71034793f" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UniGLTF.GltfPbrMaterialImporter.SrcBlend</definition>
+        <argsstring></argsstring>
+        <name>SrcBlend</name>
+        <initializer>= Shader.PropertyToID(&quot;_SrcBlend&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" compoundref="_gltf_pbr_material_importer_8cs" startline="57" endline="215">UniGLTF.GltfPbrMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a98362d4b119ad9e795fb331608fde63c" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UniGLTF.GltfPbrMaterialImporter.DstBlend</definition>
+        <argsstring></argsstring>
+        <name>DstBlend</name>
+        <initializer>= Shader.PropertyToID(&quot;_DstBlend&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" compoundref="_gltf_pbr_material_importer_8cs" startline="57" endline="215">UniGLTF.GltfPbrMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a5c079f851989593d946905962bd54fbb" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UniGLTF.GltfPbrMaterialImporter.ZWrite</definition>
+        <argsstring></argsstring>
+        <name>ZWrite</name>
+        <initializer>= Shader.PropertyToID(&quot;_ZWrite&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" compoundref="_gltf_pbr_material_importer_8cs" startline="57" endline="215">UniGLTF.GltfPbrMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1ae78e74c1cc6093e34103a0480f7a84e4" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int UniGLTF.GltfPbrMaterialImporter.Cutoff</definition>
+        <argsstring></argsstring>
+        <name>Cutoff</name>
+        <initializer>= Shader.PropertyToID(&quot;_Cutoff&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" compoundref="_gltf_pbr_material_importer_8cs" startline="57" endline="215">UniGLTF.GltfPbrMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a347ecbf48a77b11b561afb99a9d5d0ce" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.GltfPbrMaterialImporter.ShaderName</definition>
+        <argsstring></argsstring>
+        <name>ShaderName</name>
+        <initializer>= &quot;Standard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1af41bd943e58552a109411141d1dba432" compoundref="_gltf_material_descriptor_generator_8cs" startline="14" endline="32">UniGLTF.GltfMaterialDescriptorGenerator.Get</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator_1acd596e15cb2d477bc99dff0f6831c22b" compoundref="_gltf_u_r_p_material_descriptor_generator_8cs" startline="15" endline="33">UniGLTF.GltfUrpMaterialDescriptorGenerator.Get</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" compoundref="_gltf_pbr_material_importer_8cs" startline="57" endline="215">UniGLTF.GltfPbrMaterialImporter.TryCreateParam</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.GltfPbrMaterialImporter.TryCreateParam</definition>
+        <argsstring>(GltfData data, int i, out MaterialDescriptor matDesc)</argsstring>
+        <name>TryCreateParam</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_v_r_m_shaders_1_1_material_descriptor" kindref="compound">MaterialDescriptor</ref></type>
+          <declname>matDesc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="57" bodyend="215"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1ae78e74c1cc6093e34103a0480f7a84e4" compoundref="_gltf_pbr_material_importer_8cs" startline="46">UniGLTF.GltfPbrMaterialImporter.Cutoff</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a98362d4b119ad9e795fb331608fde63c" compoundref="_gltf_pbr_material_importer_8cs" startline="44">UniGLTF.GltfPbrMaterialImporter.DstBlend</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1a62736a89c628744090b17caa31213701" compoundref="_gltf_material_descriptor_generator_8cs" startline="34" endline="41">UniGLTF.GltfMaterialDescriptorGenerator.GetMaterialName</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_data_1ac72961bc6d7297b1a15a707cc553b1eb" compoundref="_gltf_data_8cs" startline="39">UniGLTF.GltfData.GLTF</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a96111f7da4ecfb03d5f6d5e1b2056b89" compoundref="gl_t_f_8cs" startline="70">UniGLTF.glTF.materials</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a347ecbf48a77b11b561afb99a9d5d0ce" compoundref="_gltf_pbr_material_importer_8cs" startline="47">UniGLTF.GltfPbrMaterialImporter.ShaderName</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a6ec890ca7b3136f66b4544c71034793f" compoundref="_gltf_pbr_material_importer_8cs" startline="43">UniGLTF.GltfPbrMaterialImporter.SrcBlend</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_texture_importer_1ad16b68ed7a237de58778cc6d3b14fb45" compoundref="_gltf_pbr_texture_importer_8cs" startline="60" endline="76">UniGLTF.GltfPbrTextureImporter.StandardTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a5c079f851989593d946905962bd54fbb" compoundref="_gltf_pbr_material_importer_8cs" startline="45">UniGLTF.GltfPbrMaterialImporter.ZWrite</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1af41bd943e58552a109411141d1dba432" compoundref="_gltf_material_descriptor_generator_8cs" startline="14" endline="32">UniGLTF.GltfMaterialDescriptorGenerator.Get</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator_1add770b541ff28af4a2df415404e4056e" compoundref="_v_r_m_material_descriptor_generator_8cs" startline="17" endline="54">VRM.VRMMaterialDescriptorGenerator.Get</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Gltf から MaterialImportParam に変換する </para>    </briefdescription>
+    <detaileddescription>
+<para>StandardShader variables</para><para>_Color _MainTex _Cutoff _Glossiness _Metallic _MetallicGlossMap _BumpScale _BumpMap _Parallax _ParallaxMap _OcclusionStrength _OcclusionMap _EmissionColor _EmissionMap _DetailMask _DetailAlbedoMap _DetailNormalMapScale _DetailNormalMap _UVSec _EmissionScaleUI _EmissionColorUI _Mode _SrcBlend _DstBlend _ZWrite</para>    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/GltfPbrMaterialImporter.cs" bodystart="41" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a9fc2aad51236d7b3d20494b6c774e8cd" prot="private" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>BlendMode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1ae78e74c1cc6093e34103a0480f7a84e4" prot="private" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>Cutoff</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a98362d4b119ad9e795fb331608fde63c" prot="private" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>DstBlend</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a347ecbf48a77b11b561afb99a9d5d0ce" prot="public" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>ShaderName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a6ec890ca7b3136f66b4544c71034793f" prot="private" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>SrcBlend</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a37251f5c3bb898af9f0ada7915352fe3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>TryCreateParam</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer_1a5c079f851989593d946905962bd54fbb" prot="private" virt="non-virtual"><scope>UniGLTF::GltfPbrMaterialImporter</scope><name>ZWrite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

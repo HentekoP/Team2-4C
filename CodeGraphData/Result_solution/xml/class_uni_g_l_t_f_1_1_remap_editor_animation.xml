@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_remap_editor_animation" kind="class" prot="public">
+    <compoundname>UniGLTF::RemapEditorAnimation</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_remap_editor_base" prot="public" virt="non-virtual">UniGLTF.RemapEditorBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_animation_1a1850faf0656bb72f4273fba5a41c5b40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.RemapEditorAnimation.RemapEditorAnimation</definition>
+        <argsstring>(IEnumerable&lt; SubAssetKey &gt; keys, EditorMapGetterFunc getter, EditorMapSetterFunc setter)</argsstring>
+        <name>RemapEditorAnimation</name>
+        <param>
+          <type>IEnumerable&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref> &gt;</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1acb58a0e53ba3fba2380e5506e0f0c687" kindref="member">EditorMapGetterFunc</ref></type>
+          <declname>getter</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a2d1321507ed6d63153519fbd1036ac12" kindref="member">EditorMapSetterFunc</ref></type>
+          <declname>setter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_animation_1a4771d3e12499cf8c18d1e75c3b427869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RemapEditorAnimation.OnGUI</definition>
+        <argsstring>(ScriptedImporter importer, GltfData data)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>importer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" bodystart="19" bodyend="45"/>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a2f459363d8d28d32ffb91dfd24d0dce7" compoundref="_remap_editor_base_8cs" startline="82" endline="96">UniGLTF.RemapEditorBase.CanExtract</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aa756aaec03e862417ea506d4ccfb1ebe" compoundref="_remap_editor_base_8cs" startline="177" endline="197">UniGLTF.RemapEditorBase.ClearExternalObjects</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_animation_1aa4aecc2d2b832dd36b14c969eb7dbc82" compoundref="_remap_editor_animation_8cs" startline="47" endline="64">UniGLTF.RemapEditorAnimation.Extract</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1ab5b2e891faf4bb03bd01df9dd57512a0" compoundref="_remap_editor_base_8cs" startline="65">UniGLTF.RemapEditorBase.HasKeys</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_remap_editor_animation_1aa4aecc2d2b832dd36b14c969eb7dbc82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.RemapEditorAnimation.Extract</definition>
+        <argsstring>(ScriptedImporter importer, GltfData data)</argsstring>
+        <name>Extract</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>importer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" bodystart="47" bodyend="64"/>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1fca58f839eeeabcf941fbaabaafda7c" compoundref="_remap_editor_base_8cs" startline="156" endline="175">UniGLTF.RemapEditorBase.ExtractSubAsset</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aed4e5bd4696fac335b08d278d7dc1e6a" compoundref="_remap_editor_base_8cs" startline="140" endline="148">UniGLTF.RemapEditorBase.GetAndCreateFolder</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_remap_editor_animation_1a4771d3e12499cf8c18d1e75c3b427869" compoundref="_remap_editor_animation_8cs" startline="19" endline="45">UniGLTF.RemapEditorAnimation.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2075">
+        <label>UniGLTF.RemapEditorAnimation</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_animation"/>
+        <childnode refid="2076" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2076">
+        <label>RemapEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2079">
+        <label>VRMShaders.SubAssetKey</label>
+        <link refid="struct_v_r_m_shaders_1_1_sub_asset_key"/>
+        <childnode refid="2080" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2077">
+        <label>UniGLTF.RemapEditorAnimation</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_animation"/>
+        <childnode refid="2078" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2078">
+        <label>RemapEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_base"/>
+        <childnode refid="2079" relation="usage">
+          <edgelabel>m_keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="2080">
+        <label>IEquatable&lt; SubAssetKey &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorAnimation.cs" bodystart="14" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a2f459363d8d28d32ffb91dfd24d0dce7" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>CanExtract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aa756aaec03e862417ea506d4ccfb1ebe" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>ClearExternalObjects</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aec5d91fdda23abb7123c479f52273321" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>DrawRemapGUI&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_animation_1aa4aecc2d2b832dd36b14c969eb7dbc82" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>Extract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1fca58f839eeeabcf941fbaabaafda7c" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>ExtractSubAsset</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1aed4e5bd4696fac335b08d278d7dc1e6a" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>GetAndCreateFolder</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1ab5b2e891faf4bb03bd01df9dd57512a0" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>HasKeys</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_animation_1a4771d3e12499cf8c18d1e75c3b427869" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>OnGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_animation_1a1850faf0656bb72f4273fba5a41c5b40" prot="public" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>RemapEditorAnimation</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_editor_base_1a1e6eb4aa196c430e301113447f3ba7bf" prot="protected" virt="non-virtual"><scope>UniGLTF::RemapEditorAnimation</scope><name>RemapEditorBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

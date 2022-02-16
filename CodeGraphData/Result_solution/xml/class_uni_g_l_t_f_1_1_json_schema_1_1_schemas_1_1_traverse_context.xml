@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::Schemas::TraverseContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1ae8fe3789f19c861db8eeac933e82c78c" prot="public" static="no" mutable="no">
+        <type>readonly TextWriter</type>
+        <definition>readonly TextWriter UniGLTF.JsonSchema.Schemas.TraverseContext.Writer</definition>
+        <argsstring></argsstring>
+        <name>Writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1a170da57947a9c4293c1a45c2e39cf2dc" prot="public" static="no" mutable="no">
+        <type>readonly HashSet&lt; string &gt;</type>
+        <definition>readonly HashSet&lt;string&gt; UniGLTF.JsonSchema.Schemas.TraverseContext.Used</definition>
+        <argsstring></argsstring>
+        <name>Used</name>
+        <initializer>= new HashSet&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_dictionary_json_schema_1af309896b13278191b2f7463871f14d2f" compoundref="_dictionary_json_schema_8cs" startline="36" endline="70">UniGLTF.JsonSchema.Schemas.DictionaryJsonSchema.GenerateDeserializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_array_json_schema_1a94f35de475ace6c9753ddbb8f3b14549" compoundref="_array_json_schema_8cs" startline="49" endline="106">UniGLTF.JsonSchema.Schemas.ArrayJsonSchema.GenerateDeserializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_object_json_schema_1a58a2ad86851d05465e4b7e0afd0b5480" compoundref="_object_json_schema_8cs" startline="58" endline="108">UniGLTF.JsonSchema.Schemas.ObjectJsonSchema.GenerateDeserializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_dictionary_json_schema_1a92f89146e6963858619000c9ddfe5d02" compoundref="_dictionary_json_schema_8cs" startline="72" endline="104">UniGLTF.JsonSchema.Schemas.DictionaryJsonSchema.GenerateSerializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_array_json_schema_1ab99403e50f5990bda794c4039811fd5b" compoundref="_array_json_schema_8cs" startline="118" endline="149">UniGLTF.JsonSchema.Schemas.ArrayJsonSchema.GenerateSerializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_object_json_schema_1a344aad276c473ba3ddaf0fd62e177b57" compoundref="_object_json_schema_8cs" startline="125" endline="168">UniGLTF.JsonSchema.Schemas.ObjectJsonSchema.GenerateSerializer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1ad1c711163f8f09ffdf95ba5b6dccd2f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JsonSchema.Schemas.TraverseContext.TraverseContext</definition>
+        <argsstring>(TextWriter writer)</argsstring>
+        <name>TraverseContext</name>
+        <param>
+          <type>TextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1a7c61155e04af7a40b3122d0c6625f83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.Schemas.TraverseContext.Write</definition>
+        <argsstring>(string s)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/TraverseContext.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1ad1c711163f8f09ffdf95ba5b6dccd2f5" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::TraverseContext</scope><name>TraverseContext</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1a170da57947a9c4293c1a45c2e39cf2dc" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::TraverseContext</scope><name>Used</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1a7c61155e04af7a40b3122d0c6625f83d" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::TraverseContext</scope><name>Write</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context_1ae8fe3789f19c861db8eeac933e82c78c" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::TraverseContext</scope><name>Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

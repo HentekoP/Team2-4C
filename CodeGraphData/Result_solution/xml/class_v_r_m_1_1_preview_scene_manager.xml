@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_preview_scene_manager" kind="class" prot="public">
+    <compoundname>VRM::PreviewSceneManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1ac4532795dc070116b4ca600666fadeea" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VRM.PreviewSceneManager.Prefab</definition>
+        <argsstring></argsstring>
+        <name>Prefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1a7cd1d54a3ad3b1aa3ff1564622af25d8" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.PreviewSceneManager.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="195" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="195" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1a25f176b28598e54e207c0be68f919b5f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_mesh_preview_item" kindref="compound">MeshPreviewItem</ref>[]</type>
+        <definition>MeshPreviewItem [] VRM.PreviewSceneManager.m_meshes</definition>
+        <argsstring></argsstring>
+        <name>m_meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="137" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1a0e9aa5f6b16eede0fd7fab522df7f12c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_mesh_preview_item" kindref="compound">MeshPreviewItem</ref>[]</type>
+        <definition>MeshPreviewItem [] VRM.PreviewSceneManager.m_blendShapeMeshes</definition>
+        <argsstring></argsstring>
+        <name>m_blendShapeMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="138" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1ac2511a0751a19e7e05d27c6e887414de" compoundref="_preview_scene_manager_8cs" startline="173" endline="182">VRM.PreviewSceneManager.GetBlendShapeNames</referencedby>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1ab190fd3fa2cea7ef7c2d2c4e8fd6822c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_v_r_m_1_1_material_item" kindref="compound">MaterialItem</ref> &gt;</type>
+        <definition>Dictionary&lt;string, MaterialItem&gt; VRM.PreviewSceneManager.m_materialMap</definition>
+        <argsstring></argsstring>
+        <name>m_materialMap</name>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_v_r_m_1_1_material_item" kindref="compound">MaterialItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="159" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1ace08416fe186a12675c4aa904a216e3d" compoundref="_preview_scene_manager_8cs" startline="73" endline="79">VRM.PreviewSceneManager.Clean</referencedby>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1ac941a360936d7e4c7a94d5865a581ad2" compoundref="_preview_scene_manager_8cs" startline="184" endline="193">VRM.PreviewSceneManager.GetMaterialItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1ad54cc6fa88066e0d12c2deb63761f343" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.m_rendererPathList</definition>
+        <argsstring></argsstring>
+        <name>m_rendererPathList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="161" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="161" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_scene_manager_1a7d55085ae4e65d94d66653e6b8be5173" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.m_skinnedMeshRendererPathList</definition>
+        <argsstring></argsstring>
+        <name>m_skinnedMeshRendererPathList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="167" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="167" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_scene_manager_1a39401612219c5e1d5160b20557503c5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_v_r_m_1_1_mesh_preview_item" kindref="compound">MeshPreviewItem</ref> &gt;</type>
+        <definition>IEnumerable&lt;MeshPreviewItem&gt; VRM.PreviewSceneManager.EnumRenderItems</definition>
+        <argsstring></argsstring>
+        <name>EnumRenderItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="140" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1a16d02bb0cd36ca8664dba18001455749" compoundref="_preview_face_renderer_8cs" startline="93" endline="126">VRM.PreviewFaceRenderer.Render</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_scene_manager_1a8b680ac32f1ddfb73b5dfad758142d86" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.MaterialNames</definition>
+        <argsstring></argsstring>
+        <name>MaterialNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="153" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="154" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" compoundref="_preview_scene_manager_8cs" startline="81" endline="135">VRM.PreviewSceneManager.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_scene_manager_1afef53004c17516e8101cc57bc5ae4f83" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.RendererPathList</definition>
+        <argsstring></argsstring>
+        <name>RendererPathList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_scene_manager_1acde7b5bd7b60d432473984b9037f6a0f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.SkinnedMeshRendererPathList</definition>
+        <argsstring></argsstring>
+        <name>SkinnedMeshRendererPathList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="168" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_scene_manager_1aae74f20fe7351b984afc8b09b267e56d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 VRM.PreviewSceneManager.TargetPosition</definition>
+        <argsstring></argsstring>
+        <name>TargetPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="196" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_scene_manager_1ace08416fe186a12675c4aa904a216e3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.PreviewSceneManager.Clean</definition>
+        <argsstring>()</argsstring>
+        <name>Clean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="73" bodyend="79"/>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1ab190fd3fa2cea7ef7c2d2c4e8fd6822c" compoundref="_preview_scene_manager_8cs" startline="159">VRM.PreviewSceneManager.m_materialMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_scene_manager_1ac2511a0751a19e7e05d27c6e887414de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] VRM.PreviewSceneManager.GetBlendShapeNames</definition>
+        <argsstring>(int blendShapeMeshIndex)</argsstring>
+        <name>GetBlendShapeNames</name>
+        <param>
+          <type>int</type>
+          <declname>blendShapeMeshIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="173" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="173" bodyend="182"/>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a0e9aa5f6b16eede0fd7fab522df7f12c" compoundref="_preview_scene_manager_8cs" startline="138">VRM.PreviewSceneManager.m_blendShapeMeshes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_scene_manager_1ac941a360936d7e4c7a94d5865a581ad2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_material_item" kindref="compound">MaterialItem</ref></type>
+        <definition>MaterialItem VRM.PreviewSceneManager.GetMaterialItem</definition>
+        <argsstring>(string materialName)</argsstring>
+        <name>GetMaterialItem</name>
+        <param>
+          <type>string</type>
+          <declname>materialName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="184" bodyend="193"/>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1ab190fd3fa2cea7ef7c2d2c4e8fd6822c" compoundref="_preview_scene_manager_8cs" startline="159">VRM.PreviewSceneManager.m_materialMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_scene_manager_1ab9b2f3b234281ab0768e31a197530fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.PreviewSceneManager.SetupCamera</definition>
+        <argsstring>(Camera camera, Vector3 target, float yaw, float pitch, Vector3 position)</argsstring>
+        <name>SetupCamera</name>
+        <param>
+          <type>Camera</type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>カメラパラメーターを決める </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>camera</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="279" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="279" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.PreviewSceneManager.Initialize</definition>
+        <argsstring>(GameObject prefab)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="81" bodyend="135"/>
+        <references refid="class_v_r_m_1_1_mesh_preview_item_1abc25109711ebdeb52d2679c41f9625e6" compoundref="_mesh_preview_item_8cs" startline="190" endline="234">VRM.MeshPreviewItem.Create</references>
+        <references refid="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a96e89a298e0a9f469b9ae458d6afae9f">VRM.head</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a0e9aa5f6b16eede0fd7fab522df7f12c" compoundref="_preview_scene_manager_8cs" startline="138">VRM.PreviewSceneManager.m_blendShapeMeshes</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a25f176b28598e54e207c0be68f919b5f" compoundref="_preview_scene_manager_8cs" startline="137">VRM.PreviewSceneManager.m_meshes</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1ad54cc6fa88066e0d12c2deb63761f343" compoundref="_preview_scene_manager_8cs" startline="161">VRM.PreviewSceneManager.m_rendererPathList</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a7d55085ae4e65d94d66653e6b8be5173" compoundref="_preview_scene_manager_8cs" startline="167">VRM.PreviewSceneManager.m_skinnedMeshRendererPathList</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a7cd1d54a3ad3b1aa3ff1564622af25d8" compoundref="_preview_scene_manager_8cs" startline="195">VRM.PreviewSceneManager.m_target</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a8b680ac32f1ddfb73b5dfad758142d86" compoundref="_preview_scene_manager_8cs" startline="154">VRM.PreviewSceneManager.MaterialNames</references>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1ac4532795dc070116b4ca600666fadeea" compoundref="_preview_scene_manager_8cs" startline="20">VRM.PreviewSceneManager.Prefab</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>プレビュー向けのシーンを管理する </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2018">
+        <label>VRM.PreviewSceneManager</label>
+        <link refid="class_v_r_m_1_1_preview_scene_manager"/>
+        <childnode refid="2019" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2019">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2020">
+        <label>VRM.PreviewSceneManager</label>
+        <link refid="class_v_r_m_1_1_preview_scene_manager"/>
+        <childnode refid="2021" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2022" relation="usage">
+          <edgelabel>m_meshes</edgelabel>
+          <edgelabel>m_blendShapeMeshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2022">
+        <label>VRM.MeshPreviewItem</label>
+        <link refid="class_v_r_m_1_1_mesh_preview_item"/>
+      </node>
+      <node id="2021">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/PreviewSceneManager.cs" bodystart="18" bodyend="305"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ace08416fe186a12675c4aa904a216e3d" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>Clean</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a39401612219c5e1d5160b20557503c5f" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>EnumRenderItems</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ac2511a0751a19e7e05d27c6e887414de" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>GetBlendShapeNames</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ac941a360936d7e4c7a94d5865a581ad2" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>GetMaterialItem</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1aefca40008b4a7dc9dc96f1635bfabc3f" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>Initialize</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a0e9aa5f6b16eede0fd7fab522df7f12c" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_blendShapeMeshes</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ab190fd3fa2cea7ef7c2d2c4e8fd6822c" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_materialMap</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a25f176b28598e54e207c0be68f919b5f" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_meshes</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ad54cc6fa88066e0d12c2deb63761f343" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_rendererPathList</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a7d55085ae4e65d94d66653e6b8be5173" prot="private" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_skinnedMeshRendererPathList</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a7cd1d54a3ad3b1aa3ff1564622af25d8" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1a8b680ac32f1ddfb73b5dfad758142d86" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>MaterialNames</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ac4532795dc070116b4ca600666fadeea" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>Prefab</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1afef53004c17516e8101cc57bc5ae4f83" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>RendererPathList</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1ab9b2f3b234281ab0768e31a197530fa8" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>SetupCamera</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1acde7b5bd7b60d432473984b9037f6a0f" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>SkinnedMeshRendererPathList</name></member>
+      <member refid="class_v_r_m_1_1_preview_scene_manager_1aae74f20fe7351b984afc8b09b267e56d" prot="public" virt="non-virtual"><scope>VRM::PreviewSceneManager</scope><name>TargetPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

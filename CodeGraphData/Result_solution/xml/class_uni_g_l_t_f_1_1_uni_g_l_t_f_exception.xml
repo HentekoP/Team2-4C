@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception" kind="class" prot="public">
+    <compoundname>UniGLTF::UniGLTFException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_glb_parse_exception" prot="public" virt="non-virtual">UniGLTF.GlbParseException</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_not_supported_exception" prot="public" virt="non-virtual">UniGLTF.UniGLTFNotSupportedException</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception_1ab6703b0ea529abe1ac7fa68403f86e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.UniGLTFException.UniGLTFException</definition>
+        <argsstring>(string fmt, params object[] args)</argsstring>
+        <name>UniGLTFException</name>
+        <param>
+          <type>string</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception_1a1294bd53f233e9b471490570a125fa5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.UniGLTFException.UniGLTFException</definition>
+        <argsstring>(string msg)</argsstring>
+        <name>UniGLTFException</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2452">
+        <label>Exception</label>
+      </node>
+      <node id="2453">
+        <label>UniGLTF.GlbParseException</label>
+        <link refid="class_uni_g_l_t_f_1_1_glb_parse_exception"/>
+        <childnode refid="2451" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2454">
+        <label>UniGLTF.UniGLTFNotSupportedException</label>
+        <link refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_not_supported_exception"/>
+        <childnode refid="2451" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2451">
+        <label>UniGLTF.UniGLTFException</label>
+        <link refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception"/>
+        <childnode refid="2452" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2456">
+        <label>Exception</label>
+      </node>
+      <node id="2455">
+        <label>UniGLTF.UniGLTFException</label>
+        <link refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception"/>
+        <childnode refid="2456" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/UniGLTFException.cs" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception_1ab6703b0ea529abe1ac7fa68403f86e58" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFException</scope><name>UniGLTFException</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception_1a1294bd53f233e9b471490570a125fa5a" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFException</scope><name>UniGLTFException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_light" kind="class" prot="public">
+    <compoundname>GameLight</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_light_1a8116bebe8bf954e5b628547cbae07cb1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameLight.maxIntensity</definition>
+        <argsstring></argsstring>
+        <name>maxIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_game_light_1a8268de3c9dadfdba9f850316b2fa787a" compoundref="_game_light_8cs" startline="20" endline="23">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_light_1a4bbe73727acd5ddab73d0035df089fc7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameLight.blinkSpeed</definition>
+        <argsstring></argsstring>
+        <name>blinkSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_light_1a4c9a5e32310f7becbfe697f0c4a56a22" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light GameLight.blinkLight</definition>
+        <argsstring></argsstring>
+        <name>blinkLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_game_light_1a7775de87d5c35dcb71052622060459a1" compoundref="_game_light_8cs" startline="15" endline="18">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_light_1afc20368697da4e0fb2407877ca5f6ae1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameLight.flashAdjustValue</definition>
+        <argsstring></argsstring>
+        <name>flashAdjustValue</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_light_1a7775de87d5c35dcb71052622060459a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameLight.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_game_light_1a4c9a5e32310f7becbfe697f0c4a56a22" compoundref="_game_light_8cs" startline="11">blinkLight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_light_1a8268de3c9dadfdba9f850316b2fa787a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameLight.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="20" bodyend="23"/>
+        <references refid="class_game_light_1a8116bebe8bf954e5b628547cbae07cb1" compoundref="_game_light_8cs" startline="7">maxIntensity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="773">
+        <label>GameLight</label>
+        <link refid="class_game_light"/>
+        <childnode refid="774" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="775">
+        <label>GameLight</label>
+        <link refid="class_game_light"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="776">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/GameLight.cs" bodystart="5" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_game_light_1a4c9a5e32310f7becbfe697f0c4a56a22" prot="private" virt="non-virtual"><scope>GameLight</scope><name>blinkLight</name></member>
+      <member refid="class_game_light_1a4bbe73727acd5ddab73d0035df089fc7" prot="private" virt="non-virtual"><scope>GameLight</scope><name>blinkSpeed</name></member>
+      <member refid="class_game_light_1a8268de3c9dadfdba9f850316b2fa787a" prot="private" virt="non-virtual"><scope>GameLight</scope><name>FixedUpdate</name></member>
+      <member refid="class_game_light_1afc20368697da4e0fb2407877ca5f6ae1" prot="private" virt="non-virtual"><scope>GameLight</scope><name>flashAdjustValue</name></member>
+      <member refid="class_game_light_1a8116bebe8bf954e5b628547cbae07cb1" prot="private" virt="non-virtual"><scope>GameLight</scope><name>maxIntensity</name></member>
+      <member refid="class_game_light_1a7775de87d5c35dcb71052622060459a1" prot="private" virt="non-virtual"><scope>GameLight</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

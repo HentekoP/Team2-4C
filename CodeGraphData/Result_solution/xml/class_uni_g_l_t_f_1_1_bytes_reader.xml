@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_bytes_reader" kind="class" prot="public">
+    <compoundname>UniGLTF::BytesReader</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" prot="private" static="no" mutable="no">
+        <type>Byte[]</type>
+        <definition>Byte [] UniGLTF.BytesReader.m_bytes</definition>
+        <argsstring></argsstring>
+        <name>m_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1aaf547adcff1d59e7221796ee355a5e18" compoundref="_bytes_reader_8cs" startline="13" endline="17">UniGLTF.BytesReader.BytesReader</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1aa91614c19d9e5dd75648dd089ea53aac" compoundref="_bytes_reader_8cs" startline="50" endline="55">UniGLTF.BytesReader.ReadInt16</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a818b49be3ac77712c745ffc7fd838326" compoundref="_bytes_reader_8cs" startline="57" endline="62">UniGLTF.BytesReader.ReadInt32</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1ab947dcb04bbf286c8464bf30dd90f638" compoundref="_bytes_reader_8cs" startline="45" endline="48">UniGLTF.BytesReader.ReadInt8</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a0bbbc6f9adfb79893bef6c6760d21886" compoundref="_bytes_reader_8cs" startline="26" endline="31">UniGLTF.BytesReader.ReadSingle</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a2a0862fd973f30502e35014468700081" compoundref="_bytes_reader_8cs" startline="19" endline="24">UniGLTF.BytesReader.ReadString</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a17ce9a658fcb224f80d5769c81b0a2b4" compoundref="_bytes_reader_8cs" startline="71" endline="80">UniGLTF.BytesReader.ReadStruct&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a738f4d7b59e567b55188a6016f8ba06a" compoundref="_bytes_reader_8cs" startline="64" endline="69">UniGLTF.BytesReader.ReadToArray&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a1b9b10e179cb8168646a01aef85f831e" compoundref="_bytes_reader_8cs" startline="38" endline="43">UniGLTF.BytesReader.ReadUInt16</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1ae262bb572b8c0d881f71cb3fd3b05d42" compoundref="_bytes_reader_8cs" startline="33" endline="36">UniGLTF.BytesReader.ReadUInt8</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.BytesReader.m_pos</definition>
+        <argsstring></argsstring>
+        <name>m_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1aaf547adcff1d59e7221796ee355a5e18" compoundref="_bytes_reader_8cs" startline="13" endline="17">UniGLTF.BytesReader.BytesReader</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1aa91614c19d9e5dd75648dd089ea53aac" compoundref="_bytes_reader_8cs" startline="50" endline="55">UniGLTF.BytesReader.ReadInt16</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a818b49be3ac77712c745ffc7fd838326" compoundref="_bytes_reader_8cs" startline="57" endline="62">UniGLTF.BytesReader.ReadInt32</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1ab947dcb04bbf286c8464bf30dd90f638" compoundref="_bytes_reader_8cs" startline="45" endline="48">UniGLTF.BytesReader.ReadInt8</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a0bbbc6f9adfb79893bef6c6760d21886" compoundref="_bytes_reader_8cs" startline="26" endline="31">UniGLTF.BytesReader.ReadSingle</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a2a0862fd973f30502e35014468700081" compoundref="_bytes_reader_8cs" startline="19" endline="24">UniGLTF.BytesReader.ReadString</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a17ce9a658fcb224f80d5769c81b0a2b4" compoundref="_bytes_reader_8cs" startline="71" endline="80">UniGLTF.BytesReader.ReadStruct&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a738f4d7b59e567b55188a6016f8ba06a" compoundref="_bytes_reader_8cs" startline="64" endline="69">UniGLTF.BytesReader.ReadToArray&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1a1b9b10e179cb8168646a01aef85f831e" compoundref="_bytes_reader_8cs" startline="38" endline="43">UniGLTF.BytesReader.ReadUInt16</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bytes_reader_1ae262bb572b8c0d881f71cb3fd3b05d42" compoundref="_bytes_reader_8cs" startline="33" endline="36">UniGLTF.BytesReader.ReadUInt8</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1aaf547adcff1d59e7221796ee355a5e18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.BytesReader.BytesReader</definition>
+        <argsstring>(Byte[] bytes, int pos=0)</argsstring>
+        <name>BytesReader</name>
+        <param>
+          <type>Byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a2a0862fd973f30502e35014468700081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.BytesReader.ReadString</definition>
+        <argsstring>(int count, Encoding encoding)</argsstring>
+        <name>ReadString</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>Encoding</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="19" bodyend="24"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a0bbbc6f9adfb79893bef6c6760d21886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UniGLTF.BytesReader.ReadSingle</definition>
+        <argsstring>()</argsstring>
+        <name>ReadSingle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="26" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1ae262bb572b8c0d881f71cb3fd3b05d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>byte UniGLTF.BytesReader.ReadUInt8</definition>
+        <argsstring>()</argsstring>
+        <name>ReadUInt8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="33" bodyend="36"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a1b9b10e179cb8168646a01aef85f831e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.BytesReader.ReadUInt16</definition>
+        <argsstring>()</argsstring>
+        <name>ReadUInt16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="38" bodyend="43"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1ab947dcb04bbf286c8464bf30dd90f638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sbyte</type>
+        <definition>sbyte UniGLTF.BytesReader.ReadInt8</definition>
+        <argsstring>()</argsstring>
+        <name>ReadInt8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="45" bodyend="48"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1aa91614c19d9e5dd75648dd089ea53aac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int16</type>
+        <definition>Int16 UniGLTF.BytesReader.ReadInt16</definition>
+        <argsstring>()</argsstring>
+        <name>ReadInt16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="50" bodyend="55"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a818b49be3ac77712c745ffc7fd838326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.BytesReader.ReadInt32</definition>
+        <argsstring>()</argsstring>
+        <name>ReadInt32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="57" bodyend="62"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a738f4d7b59e567b55188a6016f8ba06a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.BytesReader.ReadToArray&lt; T &gt;</definition>
+        <argsstring>(T[] dst)</argsstring>
+        <name>ReadToArray&lt; T &gt;</name>
+        <param>
+          <type>T[]</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="64" bodyend="69"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bytes_reader_1a17ce9a658fcb224f80d5769c81b0a2b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T UniGLTF.BytesReader.ReadStruct&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ReadStruct&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="71" bodyend="80"/>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" compoundref="_bytes_reader_8cs" startline="10">UniGLTF.BytesReader.m_bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" compoundref="_bytes_reader_8cs" startline="11">UniGLTF.BytesReader.m_pos</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/BytesReader.cs" bodystart="8" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1aaf547adcff1d59e7221796ee355a5e18" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>BytesReader</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8200263c0eefa5a34e2b09117a516845" prot="private" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>m_bytes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a8a02c07297d0600a32903fff0b0520b2" prot="private" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>m_pos</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1aa91614c19d9e5dd75648dd089ea53aac" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadInt16</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a818b49be3ac77712c745ffc7fd838326" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadInt32</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1ab947dcb04bbf286c8464bf30dd90f638" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadInt8</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a0bbbc6f9adfb79893bef6c6760d21886" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadSingle</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a2a0862fd973f30502e35014468700081" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a17ce9a658fcb224f80d5769c81b0a2b4" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadStruct&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a738f4d7b59e567b55188a6016f8ba06a" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadToArray&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1a1b9b10e179cb8168646a01aef85f831e" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadUInt16</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bytes_reader_1ae262bb572b8c0d881f71cb3fd3b05d42" prot="public" virt="non-virtual"><scope>UniGLTF::BytesReader</scope><name>ReadUInt8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

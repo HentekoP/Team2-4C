@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor" kind="class" prot="public">
+    <compoundname>VRM::VRMSpringBoneColliderGroupEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a416ed24a1c9e4a3bc939d3b2ffbcf8da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group" kindref="compound">VRMSpringBoneColliderGroup</ref></type>
+        <definition>VRMSpringBoneColliderGroup VRM.VRMSpringBoneColliderGroupEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1afff9998cab6edf00f64237e7fd0b630d" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="14" endline="17">VRM.VRMSpringBoneColliderGroupEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a9366f8d72357dbf3b0c79023603a3501" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="44" endline="53">VRM.VRMSpringBoneColliderGroupEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1af01788383a22d38b18073380fb7d1ec8" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="19" endline="42">VRM.VRMSpringBoneColliderGroupEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1afff9998cab6edf00f64237e7fd0b630d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBoneColliderGroupEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a416ed24a1c9e4a3bc939d3b2ffbcf8da" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="12">VRM.VRMSpringBoneColliderGroupEditor.m_target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1af01788383a22d38b18073380fb7d1ec8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBoneColliderGroupEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="19" bodyend="42"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_1a2505210b3621d8310eb33cf634db0d28" compoundref="_v_r_m_spring_bone_collider_group_8cs" startline="24">VRM.VRMSpringBoneColliderGroup.Colliders</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a416ed24a1c9e4a3bc939d3b2ffbcf8da" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="12">VRM.VRMSpringBoneColliderGroupEditor.m_target</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a9366f8d72357dbf3b0c79023603a3501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMSpringBoneColliderGroupEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="44" bodyend="53"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a416ed24a1c9e4a3bc939d3b2ffbcf8da" compoundref="_v_r_m_spring_bone_collider_group_editor_8cs" startline="12">VRM.VRMSpringBoneColliderGroupEditor.m_target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_1a3ee217c1afbc730c0a86e9f55e57eb87" compoundref="_v_r_m_spring_bone_collider_group_8cs" startline="50" endline="60">VRM.VRMSpringBoneColliderGroup.Validate</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a9bcaf2dcab143c239ce89e802e9ac3d0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSpringBoneColliderGroupEditor.InvertOffsetX</definition>
+        <argsstring>(MenuCommand command)</argsstring>
+        <name>InvertOffsetX</name>
+        <param>
+          <type>MenuCommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="56" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a0a8134489552c9cc85a37ca15337c4af" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSpringBoneColliderGroupEditor.SortByRadius</definition>
+        <argsstring>(MenuCommand command)</argsstring>
+        <name>SortByRadius</name>
+        <param>
+          <type>MenuCommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1aa54313d9ff5bc7206f8b824a28fe8a9e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSpringBoneColliderGroupEditor.SortByOffsetY</definition>
+        <argsstring>(MenuCommand command)</argsstring>
+        <name>SortByOffsetY</name>
+        <param>
+          <type>MenuCommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="83" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2937">
+        <label>Editor</label>
+      </node>
+      <node id="2936">
+        <label>VRM.VRMSpringBoneColliderGroupEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor"/>
+        <childnode refid="2937" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2943">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2944" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2943" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2944">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2939">
+        <label>Editor</label>
+      </node>
+      <node id="2938">
+        <label>VRM.VRMSpringBoneColliderGroupEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor"/>
+        <childnode refid="2939" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2940" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="2940">
+        <label>VRM.VRMSpringBoneColliderGroup</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group"/>
+        <childnode refid="2941" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2942" relation="usage">
+          <edgelabel>Colliders</edgelabel>
+        </childnode>
+      </node>
+      <node id="2942">
+        <label>VRM.VRMSpringBoneColliderGroup.SphereCollider</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_1_1_sphere_collider"/>
+        <childnode refid="2943" relation="usage">
+          <edgelabel>Offset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2941">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SpringBone/VRMSpringBoneColliderGroupEditor.cs" bodystart="10" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a9bcaf2dcab143c239ce89e802e9ac3d0" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>InvertOffsetX</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a416ed24a1c9e4a3bc939d3b2ffbcf8da" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1afff9998cab6edf00f64237e7fd0b630d" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a9366f8d72357dbf3b0c79023603a3501" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1af01788383a22d38b18073380fb7d1ec8" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1aa54313d9ff5bc7206f8b824a28fe8a9e" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>SortByOffsetY</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor_1a0a8134489552c9cc85a37ca15337c4af" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBoneColliderGroupEditor</scope><name>SortByRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

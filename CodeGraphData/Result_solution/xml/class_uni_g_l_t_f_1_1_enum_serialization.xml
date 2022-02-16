@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_enum_serialization" kind="class" prot="public">
+    <compoundname>UniGLTF::EnumSerialization</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_value_serialization" prot="public" virt="non-virtual">UniGLTF.IValueSerialization</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_enum_serialization_1a5d9372f0ad21b1b5bfae45b182795724" prot="private" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type UniGLTF.EnumSerialization.m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_enum_serialization_1a91f7e93e004b7d5e978c750a236a4c81" compoundref="_enum_serialization_8cs" startline="27" endline="31">UniGLTF.EnumSerialization.EnumSerialization</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_enum_serialization_1ae39f498c2d0d673c34bbbf80c47ab7e5" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4" kindref="member">EnumSerializationType</ref></type>
+        <definition>EnumSerializationType UniGLTF.EnumSerialization.m_serializationType</definition>
+        <argsstring></argsstring>
+        <name>m_serializationType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_enum_serialization_1a91f7e93e004b7d5e978c750a236a4c81" compoundref="_enum_serialization_8cs" startline="27" endline="31">UniGLTF.EnumSerialization.EnumSerialization</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_enum_serialization_1ab2c32d772778413b23a1adb59279c99c" compoundref="_enum_serialization_8cs" startline="38" endline="55">UniGLTF.EnumSerialization.GenerateDeserializerCall</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_enum_serialization_1a2a77bedd4c04813278a6e0d1b54756ee" compoundref="_enum_serialization_8cs" startline="67" endline="83">UniGLTF.EnumSerialization.GenerateSerializerCall</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_enum_serialization_1ac6cbf80302c7f48fe81464ae42229f46" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Type</type>
+        <definition>Type UniGLTF.EnumSerialization.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_enum_serialization_1a739cd9af6e002a2886db9d72d199b8f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.EnumSerialization.IsInline</definition>
+        <argsstring></argsstring>
+        <name>IsInline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1a11a1f094d33b04d6c5617e606091ac50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.EnumSerialization.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1a91f7e93e004b7d5e978c750a236a4c81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.EnumSerialization.EnumSerialization</definition>
+        <argsstring>(Type t, EnumSerializationType serializationType)</argsstring>
+        <name>EnumSerialization</name>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4" kindref="member">EnumSerializationType</ref></type>
+          <declname>serializationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="27" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_enum_serialization_1ae39f498c2d0d673c34bbbf80c47ab7e5" compoundref="_enum_serialization_8cs" startline="9">UniGLTF.EnumSerialization.m_serializationType</references>
+        <references refid="class_uni_g_l_t_f_1_1_enum_serialization_1a5d9372f0ad21b1b5bfae45b182795724" compoundref="_enum_serialization_8cs" startline="8">UniGLTF.EnumSerialization.m_type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1a9270fcfe2c710352105f260196148525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.EnumSerialization.GenerateDeserializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateDeserializer</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1aab343e00232c0301e0c694bac9b73f20">GenerateDeserializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1ab2c32d772778413b23a1adb59279c99c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.EnumSerialization.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a4b965870b38d47575dc1f6ca8e3282f3">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="38" bodyend="55"/>
+        <references refid="class_uni_g_l_t_f_1_1_enum_serialization_1ae39f498c2d0d673c34bbbf80c47ab7e5" compoundref="_enum_serialization_8cs" startline="9">UniGLTF.EnumSerialization.m_serializationType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1aadaf5d125fe3bc7afcfdc8b59b5a61cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.EnumSerialization.CreateSerializationCondition</definition>
+        <argsstring>(string argName, JsonSchemaAttribute t)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a5191c72a7766a97422946c4335278f13">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_attribute" kindref="compound">JsonSchemaAttribute</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1a2186d50d059f381aee4bd20091e131ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.EnumSerialization.GenerateSerializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateSerializer</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a87333ad21bcea28437505254b5946309">GenerateSerializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_enum_serialization_1a2a77bedd4c04813278a6e0d1b54756ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.EnumSerialization.GenerateSerializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateSerializerCall</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1ac8230c1cbee994c736b2c5ccba84c284">GenerateSerializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="67" bodyend="83"/>
+        <references refid="class_uni_g_l_t_f_1_1_enum_serialization_1ae39f498c2d0d673c34bbbf80c47ab7e5" compoundref="_enum_serialization_8cs" startline="9">UniGLTF.EnumSerialization.m_serializationType</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="632">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="631">
+        <label>UniGLTF.EnumSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_enum_serialization"/>
+        <childnode refid="632" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="634">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="633">
+        <label>UniGLTF.EnumSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_enum_serialization"/>
+        <childnode refid="634" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/EnumSerialization.cs" bodystart="6" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1aadaf5d125fe3bc7afcfdc8b59b5a61cf" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a91f7e93e004b7d5e978c750a236a4c81" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>EnumSerialization</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a9270fcfe2c710352105f260196148525" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1ab2c32d772778413b23a1adb59279c99c" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a2186d50d059f381aee4bd20091e131ee" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a2a77bedd4c04813278a6e0d1b54756ee" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a739cd9af6e002a2886db9d72d199b8f8" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1ae39f498c2d0d673c34bbbf80c47ab7e5" prot="private" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>m_serializationType</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a5d9372f0ad21b1b5bfae45b182795724" prot="private" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>m_type</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1a11a1f094d33b04d6c5617e606091ac50" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_enum_serialization_1ac6cbf80302c7f48fe81464ae42229f46" prot="public" virt="non-virtual"><scope>UniGLTF::EnumSerialization</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

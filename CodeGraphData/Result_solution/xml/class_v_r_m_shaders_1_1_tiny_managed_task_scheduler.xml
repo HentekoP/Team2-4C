@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler" kind="class" prot="package">
+    <compoundname>VRMShaders::TinyManagedTaskScheduler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a7d50b296c14f8d802825c92e7d2fad63" prot="private" static="no" mutable="no">
+        <type>readonly ConcurrentQueue&lt;(Action, Func&lt; bool &gt;)&gt;</type>
+        <definition>readonly ConcurrentQueue&lt;(Action, Func&lt;bool&gt;)&gt; VRMShaders.TinyManagedTaskScheduler._continuationQueue</definition>
+        <argsstring></argsstring>
+        <name>_continuationQueue</name>
+        <initializer>=
+            new ConcurrentQueue&lt;(Action, Func&lt;bool&gt;)&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1add8838904c304cfa6fc6deea11e9d834" compoundref="_tiny_managed_task_scheduler_8cs" startline="13" endline="33">VRMShaders.TinyManagedTaskScheduler.ManagedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a5ed15d81a246a374886e90273e92771e" prot="private" static="no" mutable="no">
+        <type>readonly ConcurrentQueue&lt;(Action, Func&lt; bool &gt;)&gt;</type>
+        <definition>readonly ConcurrentQueue&lt;(Action, Func&lt;bool&gt;)&gt; VRMShaders.TinyManagedTaskScheduler._temporaryQueue</definition>
+        <argsstring></argsstring>
+        <name>_temporaryQueue</name>
+        <initializer>=
+            new ConcurrentQueue&lt;(Action, Func&lt;bool&gt;)&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1add8838904c304cfa6fc6deea11e9d834" compoundref="_tiny_managed_task_scheduler_8cs" startline="13" endline="33">VRMShaders.TinyManagedTaskScheduler.ManagedUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1add8838904c304cfa6fc6deea11e9d834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TinyManagedTaskScheduler.ManagedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>ManagedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" bodystart="13" bodyend="33"/>
+        <references refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a7d50b296c14f8d802825c92e7d2fad63" compoundref="_tiny_managed_task_scheduler_8cs" startline="8">VRMShaders.TinyManagedTaskScheduler._continuationQueue</references>
+        <references refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a5ed15d81a246a374886e90273e92771e" compoundref="_tiny_managed_task_scheduler_8cs" startline="10">VRMShaders.TinyManagedTaskScheduler._temporaryQueue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a92e4d0d2dfb0629234b0820626561f78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TinyManagedTaskScheduler.Enqueue</definition>
+        <argsstring>(Action continuation, Func&lt; bool &gt; canExecute)</argsstring>
+        <name>Enqueue</name>
+        <param>
+          <type>Action</type>
+          <declname>continuation</declname>
+        </param>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>canExecute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/TinyManagedTaskScheduler.cs" bodystart="6" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a7d50b296c14f8d802825c92e7d2fad63" prot="private" virt="non-virtual"><scope>VRMShaders::TinyManagedTaskScheduler</scope><name>_continuationQueue</name></member>
+      <member refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a5ed15d81a246a374886e90273e92771e" prot="private" virt="non-virtual"><scope>VRMShaders::TinyManagedTaskScheduler</scope><name>_temporaryQueue</name></member>
+      <member refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1a92e4d0d2dfb0629234b0820626561f78" prot="public" virt="non-virtual"><scope>VRMShaders::TinyManagedTaskScheduler</scope><name>Enqueue</name></member>
+      <member refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler_1add8838904c304cfa6fc6deea11e9d834" prot="public" virt="non-virtual"><scope>VRMShaders::TinyManagedTaskScheduler</scope><name>ManagedUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

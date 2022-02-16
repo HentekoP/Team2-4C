@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_texture_converter" kind="class" prot="public">
+    <compoundname>VRMShaders::TextureConverter</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_converter_1a11fc68de774a0b5a397918f65f78deb4" prot="public" static="yes" mutable="no">
+        <type>readonly TextureFormat</type>
+        <definition>readonly TextureFormat VRMShaders.TextureConverter.WithAlphaFormat</definition>
+        <argsstring></argsstring>
+        <name>WithAlphaFormat</name>
+        <initializer>= TextureFormat.ARGB32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_converter_1a92ea6befd84d461420b10ea81794a291" compoundref="_texture_converter_8cs" startline="12" endline="26">VRMShaders.TextureConverter.CreateEmptyTextureWithSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_converter_1aeea46f2cf48d35dd4a53ab93f7a32ba6" prot="public" static="yes" mutable="no">
+        <type>readonly TextureFormat</type>
+        <definition>readonly TextureFormat VRMShaders.TextureConverter.WithoutAlphaFormat</definition>
+        <argsstring></argsstring>
+        <name>WithoutAlphaFormat</name>
+        <initializer>= TextureFormat.RGB24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_converter_1a92ea6befd84d461420b10ea81794a291" compoundref="_texture_converter_8cs" startline="12" endline="26">VRMShaders.TextureConverter.CreateEmptyTextureWithSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_converter_1a92ea6befd84d461420b10ea81794a291" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D VRMShaders.TextureConverter.CreateEmptyTextureWithSettings</definition>
+        <argsstring>(Texture src, ColorSpace dstColorSpace, bool dstNeedsAlpha)</argsstring>
+        <name>CreateEmptyTextureWithSettings</name>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>dstColorSpace</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dstNeedsAlpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" bodystart="12" bodyend="26"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_converter_1a11fc68de774a0b5a397918f65f78deb4" compoundref="_texture_converter_8cs" startline="9">VRMShaders.TextureConverter.WithAlphaFormat</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_converter_1aeea46f2cf48d35dd4a53ab93f7a32ba6" compoundref="_texture_converter_8cs" startline="10">VRMShaders.TextureConverter.WithoutAlphaFormat</references>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_converter_1a80dc7a407be6c421e472c76421a0e131" compoundref="_texture_converter_8cs" startline="28" endline="68">VRMShaders.TextureConverter.CopyTexture</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_converter_1a80dc7a407be6c421e472c76421a0e131" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D VRMShaders.TextureConverter.CopyTexture</definition>
+        <argsstring>(Texture src, ColorSpace dstColorSpace, bool dstNeedsAlpha, Material material)</argsstring>
+        <name>CopyTexture</name>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>dstColorSpace</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dstNeedsAlpha</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" bodystart="28" bodyend="68"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_converter_1a92ea6befd84d461420b10ea81794a291" compoundref="_texture_converter_8cs" startline="12" endline="26">VRMShaders.TextureConverter.CreateEmptyTextureWithSettings</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Converter/TextureConverter.cs" bodystart="7" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_texture_converter_1a80dc7a407be6c421e472c76421a0e131" prot="public" virt="non-virtual"><scope>VRMShaders::TextureConverter</scope><name>CopyTexture</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_converter_1a92ea6befd84d461420b10ea81794a291" prot="public" virt="non-virtual"><scope>VRMShaders::TextureConverter</scope><name>CreateEmptyTextureWithSettings</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_converter_1a11fc68de774a0b5a397918f65f78deb4" prot="public" virt="non-virtual"><scope>VRMShaders::TextureConverter</scope><name>WithAlphaFormat</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_converter_1aeea46f2cf48d35dd4a53ab93f7a32ba6" prot="public" virt="non-virtual"><scope>VRMShaders::TextureConverter</scope><name>WithoutAlphaFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

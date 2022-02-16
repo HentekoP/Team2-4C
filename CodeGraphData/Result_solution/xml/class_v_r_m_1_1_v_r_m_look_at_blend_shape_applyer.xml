@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer" kind="class" prot="public">
+    <compoundname>VRM::VRMLookAtBlendShapeApplyer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_v_r_m_1_1_i_v_r_m_component" prot="public" virt="non-virtual">VRM.IVRMComponent</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a095e6fb3dd16c32c2d3a209fa2630051" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMLookAtBlendShapeApplyer.DrawGizmo</definition>
+        <argsstring></argsstring>
+        <name>DrawGizmo</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a812feed8b25011b0e25583f87911c96d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBlendShapeApplyer.Horizontal</definition>
+        <argsstring></argsstring>
+        <name>Horizontal</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 1.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a94602a926b67937e07a0ceaa52811d25" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBlendShapeApplyer.VerticalDown</definition>
+        <argsstring></argsstring>
+        <name>VerticalDown</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 1.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1aa0affab72ca7d906f59eab63cd98b8f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBlendShapeApplyer.VerticalUp</definition>
+        <argsstring></argsstring>
+        <name>VerticalUp</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 1.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a284a82bd89549e91a6bfa099f07412e0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMLookAtBlendShapeApplyer.m_notSetValueApply</definition>
+        <argsstring></argsstring>
+        <name>m_notSetValueApply</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>v0.56 からデフォルト値を true に変更 </para>        </briefdescription>
+        <detaileddescription>
+<para>true の場合: BlendShapeProxy.AccumulateValue を使う(推奨) 別途 BlendShapeProxy.Apply を別の場所で呼び出す必要があります false の場合: BlendShapeProxy.ImmediatelySetValueを使う 目をテクスチャUVのOffset値の変更で表現するモデルの場合に、 Material.SetVector(&quot;_MainTex_ST&quot;, new Vector4(1, 1, 横の移動値, 0)) Material.SetVector(&quot;_MainTex_ST&quot;, new Vector4(1, 1, 0, 縦の移動値)) と連続で呼ばれることで、横の移動値が打ち消されてしまいます。 BlendShapeProxy.AccumulateValue はこの値を加算して new Vector4(1, 1, 横の移動値, 縦の移動値) となるように扱えます。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1abb1e9859bb57702e91e2097645219d09" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="59" endline="88">VRM.VRMLookAtBlendShapeApplyer.ApplyRotations</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1ab83bdc952dc84f118cbc966451fd1bb8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_look_at_head" kindref="compound">VRMLookAtHead</ref></type>
+        <definition>VRMLookAtHead VRM.VRMLookAtBlendShapeApplyer.m_head</definition>
+        <argsstring></argsstring>
+        <name>m_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1af337fe11ed03b982a08924cfc7947fdf" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="47" endline="57">VRM.VRMLookAtBlendShapeApplyer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1aa6f3fd236c7d860c579b8fb4db5a9647" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref></type>
+        <definition>VRMBlendShapeProxy VRM.VRMLookAtBlendShapeApplyer.m_proxy</definition>
+        <argsstring></argsstring>
+        <name>m_proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1af337fe11ed03b982a08924cfc7947fdf" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="47" endline="57">VRM.VRMLookAtBlendShapeApplyer.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a258de88acb37edfe762391e6f83733d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBlendShapeApplyer.OnImported</definition>
+        <argsstring>(VRMImporterContext context)</argsstring>
+        <name>OnImported</name>
+        <reimplements refid="interface_v_r_m_1_1_i_v_r_m_component_1a7953a45813e1a5eb4f81135cea68dd26">OnImported</reimplements>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Serializableな値を初期化する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imported</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1af337fe11ed03b982a08924cfc7947fdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBlendShapeApplyer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="47" bodyend="57"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1abb1e9859bb57702e91e2097645219d09" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="59" endline="88">VRM.VRMLookAtBlendShapeApplyer.ApplyRotations</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1ab83bdc952dc84f118cbc966451fd1bb8" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="44">VRM.VRMLookAtBlendShapeApplyer.m_head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1aa6f3fd236c7d860c579b8fb4db5a9647" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="45">VRM.VRMLookAtBlendShapeApplyer.m_proxy</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1abb1e9859bb57702e91e2097645219d09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBlendShapeApplyer.ApplyRotations</definition>
+        <argsstring>(float yaw, float pitch)</argsstring>
+        <name>ApplyRotations</name>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="59" bodyend="88"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a284a82bd89549e91a6bfa099f07412e0" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="34">VRM.VRMLookAtBlendShapeApplyer.m_notSetValueApply</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1af337fe11ed03b982a08924cfc7947fdf" compoundref="_v_r_m_look_at_blend_shape_applyer_8cs" startline="47" endline="57">VRM.VRMLookAtBlendShapeApplyer.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2800">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2798">
+        <label>VRM.VRMLookAtBlendShapeApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer"/>
+        <childnode refid="2799" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2800" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2799">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2814">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="2813">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="2814" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2812">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="2813" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2806">
+        <label>IEquatable&lt; CurveMapper &gt;</label>
+      </node>
+      <node id="2803">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2804">
+        <label>VRM.VRMLookAtHead</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head"/>
+        <childnode refid="2802" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2803" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2816">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2801">
+        <label>VRM.VRMLookAtBlendShapeApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer"/>
+        <childnode refid="2802" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2803" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2804" relation="usage">
+          <edgelabel>m_head</edgelabel>
+        </childnode>
+        <childnode refid="2805" relation="usage">
+          <edgelabel>Horizontal</edgelabel>
+          <edgelabel>VerticalUp</edgelabel>
+          <edgelabel>VerticalDown</edgelabel>
+        </childnode>
+        <childnode refid="2807" relation="usage">
+          <edgelabel>m_proxy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2809">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="2810" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2808">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="2809" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="2812" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="2802">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2805">
+        <label>VRM.CurveMapper</label>
+        <link refid="class_v_r_m_1_1_curve_mapper"/>
+        <childnode refid="2806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2807">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="2802" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2803" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2808" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="2815" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="2811">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="2810">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="2811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2815">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="2816" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBlendShapeApplyer.cs" bodystart="7" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1abb1e9859bb57702e91e2097645219d09" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>ApplyRotations</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a095e6fb3dd16c32c2d3a209fa2630051" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>DrawGizmo</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a812feed8b25011b0e25583f87911c96d" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>Horizontal</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1ab83bdc952dc84f118cbc966451fd1bb8" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>m_head</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a284a82bd89549e91a6bfa099f07412e0" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>m_notSetValueApply</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1aa6f3fd236c7d860c579b8fb4db5a9647" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>m_proxy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a258de88acb37edfe762391e6f83733d6" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>OnImported</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1af337fe11ed03b982a08924cfc7947fdf" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>Start</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a94602a926b67937e07a0ceaa52811d25" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>VerticalDown</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1aa0affab72ca7d906f59eab63cd98b8f8" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBlendShapeApplyer</scope><name>VerticalUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

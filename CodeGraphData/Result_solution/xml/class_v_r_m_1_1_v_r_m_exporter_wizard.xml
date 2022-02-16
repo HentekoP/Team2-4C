@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_exporter_wizard" kind="class" prot="public">
+    <compoundname>VRM::VRMExporterWizard</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_export_dialog_base" prot="public" virt="non-virtual">UniGLTF.ExportDialogBase</basecompoundref>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator" prot="private">VRM::VRMExporterWizard::VRMMaterialValidator</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3" prot="private" static="no">
+        <name>Tabs</name>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3ab6755d218d5f4e1cef9cce9cc39aeda9" prot="public">
+          <name>Meta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3a710fdb6adb881b408116ef95335e1961" prot="public">
+          <name>Mesh</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3abe06c6a41b8206dda31c77aaf4bedf65" prot="public">
+          <name>BlendShape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3a49ac55f5083b43d472b454fe85149051" prot="public">
+          <name>ExportSettings</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91" prot="private" static="no">
+        <name>BlendShapeTabMessages</name>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91af680f84659b25dcef6066a71d3602647" prot="public">
+          <name>CANNOT_MANIPULATE_PREFAB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91afdb8adc1a0fe8d157f3ec7e5f785926f" prot="public">
+          <name>SCENE_MESSAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91a395c58dafaa0f2a5db79c461df19857c" prot="public">
+          <name>APPLY_BLENDSHAPECLIP_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91a452b15d7e372f9bd78685c92c102bc9e" prot="public">
+          <name>CLEAR_BLENDSHAPE_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="357" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="356" bodyend="373"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a50ea96fa7ff7342c50e5e4f93ae5ce24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3" kindref="member">Tabs</ref></type>
+        <definition>Tabs VRM.VRMExporterWizard._tab</definition>
+        <argsstring></argsstring>
+        <name>_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_export_settings" kindref="compound">VRMExportSettings</ref></type>
+        <definition>VRMExportSettings VRM.VRMExporterWizard.m_settings</definition>
+        <argsstring></argsstring>
+        <name>m_settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee" compoundref="_v_r_m_exporter_wizard_8cs" startline="297" endline="308">VRM.VRMExporterWizard.ExportPath</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a475fce4bba90296ff858fd9c60e8751a" compoundref="_v_r_m_exporter_wizard_8cs" startline="204" endline="207">VRM.VRMExporterWizard.OnLayout</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a2325e752b76e346ed05132c5142dada0" prot="private" static="no" mutable="no">
+        <type>Editor</type>
+        <definition>Editor VRM.VRMExporterWizard.m_settingsInspector</definition>
+        <argsstring></argsstring>
+        <name>m_settingsInspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7c0eae75a1ac399e9ef755eadbe60757" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_validator" kindref="compound">MeshExportValidator</ref></type>
+        <definition>MeshExportValidator VRM.VRMExporterWizard.m_meshes</definition>
+        <argsstring></argsstring>
+        <name>m_meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a84182098b660578ba32926f111be3b8e" prot="private" static="no" mutable="no">
+        <type>Editor</type>
+        <definition>Editor VRM.VRMExporterWizard.m_meshesInspector</definition>
+        <argsstring></argsstring>
+        <name>m_meshesInspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1aff25fa1a189cc8765368a629374084da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+        <definition>VRMMetaObject VRM.VRMExporterWizard.m_meta</definition>
+        <argsstring></argsstring>
+        <name>m_meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+        <definition>VRMMetaObject VRM.VRMExporterWizard.m_tmpMeta</definition>
+        <argsstring></argsstring>
+        <name>m_tmpMeta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee" compoundref="_v_r_m_exporter_wizard_8cs" startline="297" endline="308">VRM.VRMExporterWizard.ExportPath</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3" compoundref="_v_r_m_exporter_wizard_8cs" startline="160" endline="202">VRM.VRMExporterWizard.ValidatorFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a8d0274913dbae6ec56b5f52afacae09e" prot="private" static="no" mutable="no">
+        <type>Editor</type>
+        <definition>Editor VRM.VRMExporterWizard.m_metaEditor</definition>
+        <argsstring></argsstring>
+        <name>m_metaEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1aa0c5503b36cb16f8f8a4201a691ed496" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_merger" kindref="compound">BlendShapeMerger</ref></type>
+        <definition>BlendShapeMerger VRM.VRMExporterWizard.m_merger</definition>
+        <argsstring></argsstring>
+        <name>m_merger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="375" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="375" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" compoundref="_v_r_m_exporter_wizard_8cs" startline="378" endline="419">VRM.VRMExporterWizard.OnBlendShapeGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a6e009cf3fcb2b83b42511b8259d0a13e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VRM.VRMExporterWizard.m_selected</definition>
+        <argsstring></argsstring>
+        <name>m_selected</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="377" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="377" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" compoundref="_v_r_m_exporter_wizard_8cs" startline="378" endline="419">VRM.VRMExporterWizard.OnBlendShapeGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+        <definition>VRMMetaObject VRM.VRMExporterWizard.Meta</definition>
+        <argsstring></argsstring>
+        <name>Meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" compoundref="_v_r_m_exporter_wizard_8cs" startline="100" endline="122">VRM.VRMExporterWizard.Clear</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee" compoundref="_v_r_m_exporter_wizard_8cs" startline="297" endline="308">VRM.VRMExporterWizard.ExportPath</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" compoundref="_v_r_m_exporter_wizard_8cs" startline="62" endline="98">VRM.VRMExporterWizard.Initialize</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3" compoundref="_v_r_m_exporter_wizard_8cs" startline="160" endline="202">VRM.VRMExporterWizard.ValidatorFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ad6d8757a7b857abe89db399a93be4108" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMExporterWizard.s_foldT</definition>
+        <argsstring></argsstring>
+        <name>s_foldT</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="209" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="209" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7fdce9bdfdfcfb06dbf63a00bbbb01f6" prot="protected" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string VRM.VRMExporterWizard.SaveTitle</definition>
+        <argsstring></argsstring>
+        <name>SaveTitle</name>
+        <initializer>=&gt; &quot;Save vrm0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="293" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a6888752f4912973c2e0a65502c42c3a0" prot="protected" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string VRM.VRMExporterWizard.SaveName</definition>
+        <argsstring></argsstring>
+        <name>SaveName</name>
+        <initializer>=&gt; $&quot;{State.ExportRoot.name}.vrm&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="294" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae448080726730391ec8ab63e7168a17a" prot="protected" static="no" mutable="no">
+        <type>override string[]</type>
+        <definition>override string [] VRM.VRMExporterWizard.SaveExtensions</definition>
+        <argsstring></argsstring>
+        <name>SaveExtensions</name>
+        <initializer>=&gt; new string[] { &quot;vrm&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="295" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1af9dd256c35da6bed6f0460de413d7c4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMExporterWizard.OpenExportMenu</definition>
+        <argsstring>()</argsstring>
+        <name>OpenExportMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMExporterWizard.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a48442fff32181f2ba04905ab96399394">Initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="62" bodyend="98"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7c0eae75a1ac399e9ef755eadbe60757" compoundref="_v_r_m_exporter_wizard_8cs" startline="36">VRM.VRMExporterWizard.m_meshes</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a84182098b660578ba32926f111be3b8e" compoundref="_v_r_m_exporter_wizard_8cs" startline="37">VRM.VRMExporterWizard.m_meshesInspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" compoundref="_v_r_m_exporter_wizard_8cs" startline="32">VRM.VRMExporterWizard.m_settings</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a2325e752b76e346ed05132c5142dada0" compoundref="_v_r_m_exporter_wizard_8cs" startline="33">VRM.VRMExporterWizard.m_settingsInspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" compoundref="_v_r_m_exporter_wizard_8cs" startline="58">VRM.VRMExporterWizard.m_tmpMeta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" compoundref="_v_r_m_exporter_wizard_8cs" startline="42">VRM.VRMExporterWizard.Meta</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMExporterWizard.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ae819bbf6312326efaea4fd4150274412">Clear</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="100" bodyend="122"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7c0eae75a1ac399e9ef755eadbe60757" compoundref="_v_r_m_exporter_wizard_8cs" startline="36">VRM.VRMExporterWizard.m_meshes</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a84182098b660578ba32926f111be3b8e" compoundref="_v_r_m_exporter_wizard_8cs" startline="37">VRM.VRMExporterWizard.m_meshesInspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a8d0274913dbae6ec56b5f52afacae09e" compoundref="_v_r_m_exporter_wizard_8cs" startline="59">VRM.VRMExporterWizard.m_metaEditor</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" compoundref="_v_r_m_exporter_wizard_8cs" startline="32">VRM.VRMExporterWizard.m_settings</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a2325e752b76e346ed05132c5142dada0" compoundref="_v_r_m_exporter_wizard_8cs" startline="33">VRM.VRMExporterWizard.m_settingsInspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" compoundref="_v_r_m_exporter_wizard_8cs" startline="58">VRM.VRMExporterWizard.m_tmpMeta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" compoundref="_v_r_m_exporter_wizard_8cs" startline="42">VRM.VRMExporterWizard.Meta</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override IEnumerable&lt; Validator &gt;</type>
+        <definition>override IEnumerable&lt;Validator&gt; VRM.VRMExporterWizard.ValidatorFactory</definition>
+        <argsstring>()</argsstring>
+        <name>ValidatorFactory</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ac2aba8c2ec3604c0f391ca2c03267f7c">ValidatorFactory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="160" bodyend="202"/>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" compoundref="_v_r_m_exporter_wizard_8cs" startline="58">VRM.VRMExporterWizard.m_tmpMeta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" compoundref="_v_r_m_exporter_wizard_8cs" startline="42">VRM.VRMExporterWizard.Meta</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_validator_1aa57dfa8bf2e853cfa38e82105b949390" compoundref="_v_r_m_spring_bone_validator_8cs" startline="11" endline="111">VRM.VRMSpringBoneValidator.Validate</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_validator_1a3464e620850c6bce6e76a47346677509" compoundref="_v_r_m_exporter_vaildator_8cs" startline="19" endline="40">VRM.VRMExporterValidator.Validate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a475fce4bba90296ff858fd9c60e8751a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMExporterWizard.OnLayout</definition>
+        <argsstring>()</argsstring>
+        <name>OnLayout</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1af439e13d0bf81be018f5f84b95a1b7dc">OnLayout</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="204" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="204" bodyend="207"/>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" compoundref="_v_r_m_exporter_wizard_8cs" startline="32">VRM.VRMExporterWizard.m_settings</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool VRM.VRMExporterWizard.DoGUI</definition>
+        <argsstring>(bool isValid)</argsstring>
+        <name>DoGUI</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acf5b8551bbb22d206cbf5411170a091a">DoGUI</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isValid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="211" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="211" bodyend="291"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a50ea96fa7ff7342c50e5e4f93ae5ce24" compoundref="_v_r_m_exporter_wizard_8cs" startline="29">VRM.VRMExporterWizard._tab</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</references>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7c0eae75a1ac399e9ef755eadbe60757" compoundref="_v_r_m_exporter_wizard_8cs" startline="36">VRM.VRMExporterWizard.m_meshes</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a992b8303a7889aa7e51782e46147a0ea" compoundref="_mesh_export_validator_8cs" startline="30">UniGLTF.MeshExportValidator.Meshes</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ad6d8757a7b857abe89db399a93be4108" compoundref="_v_r_m_exporter_wizard_8cs" startline="209">VRM.VRMExporterWizard.s_foldT</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <references refid="class_uni_g_l_t_f_1_1_internal_t_pose_1a0d7f05a37038c3021744541996e7f222" compoundref="_internal_t_pose_8cs" startline="107" endline="169">UniGLTF.InternalTPose.TryMakePoseValid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMExporterWizard.ExportPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ExportPath</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a3e4e91e28cd4bd87b20a0adcb16ecfb3">ExportPath</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="297" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="297" bodyend="308"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" compoundref="_v_r_m_exporter_wizard_8cs" startline="32">VRM.VRMExporterWizard.m_settings</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" compoundref="_v_r_m_exporter_wizard_8cs" startline="58">VRM.VRMExporterWizard.m_tmpMeta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" compoundref="_v_r_m_exporter_wizard_8cs" startline="42">VRM.VRMExporterWizard.Meta</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.VRMExporterWizard.DrawWizardGUI</definition>
+        <argsstring>()</argsstring>
+        <name>DrawWizardGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="310" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="310" bodyend="354"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a50ea96fa7ff7342c50e5e4f93ae5ce24" compoundref="_v_r_m_exporter_wizard_8cs" startline="29">VRM.VRMExporterWizard._tab</references>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1aff25fa1a189cc8765368a629374084da" compoundref="_v_r_m_exporter_wizard_8cs" startline="40">VRM.VRMExporterWizard.m_meta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a8d0274913dbae6ec56b5f52afacae09e" compoundref="_v_r_m_exporter_wizard_8cs" startline="59">VRM.VRMExporterWizard.m_metaEditor</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" compoundref="_v_r_m_exporter_wizard_8cs" startline="58">VRM.VRMExporterWizard.m_tmpMeta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" compoundref="_v_r_m_exporter_wizard_8cs" startline="42">VRM.VRMExporterWizard.Meta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" compoundref="_v_r_m_exporter_wizard_8cs" startline="378" endline="419">VRM.VRMExporterWizard.OnBlendShapeGUI</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMExporterWizard.OnBlendShapeGUI</definition>
+        <argsstring>(VRMBlendShapeProxy proxy)</argsstring>
+        <name>OnBlendShapeGUI</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref></type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="378" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="378" bodyend="419"/>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1aa0c5503b36cb16f8f8a4201a691ed496" compoundref="_v_r_m_exporter_wizard_8cs" startline="375">VRM.VRMExporterWizard.m_merger</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a6e009cf3fcb2b83b42511b8259d0a13e" compoundref="_v_r_m_exporter_wizard_8cs" startline="377">VRM.VRMExporterWizard.m_selected</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" compoundref="_v_r_m_exporter_wizard_8cs" startline="310" endline="354">VRM.VRMExporterWizard.DrawWizardGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2701">
+        <label>ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="2702" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2702">
+        <label>EditorWindow</label>
+      </node>
+      <node id="2700">
+        <label>VRM.VRMExporterWizard</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard"/>
+        <childnode refid="2701" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2715">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="2706">
+        <label>UnityEngine.Vector2</label>
+        <link refid="struct_unity_engine_1_1_vector2"/>
+      </node>
+      <node id="2707">
+        <label>UniGLTF.ExporterDialogState</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporter_dialog_state"/>
+        <childnode refid="2708" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2720">
+        <label>UniGLTF.MeshExportValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_validator"/>
+        <childnode refid="2717" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2721" relation="usage">
+          <edgelabel>Meshes</edgelabel>
+        </childnode>
+        <childnode refid="2724" relation="usage">
+          <edgelabel>MaterialValidator</edgelabel>
+        </childnode>
+      </node>
+      <node id="2704">
+        <label>ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="2705" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2706" relation="usage">
+          <edgelabel>m_ScrollPosition</edgelabel>
+        </childnode>
+        <childnode refid="2707" relation="usage">
+          <edgelabel>m_state</edgelabel>
+          <edgelabel>State</edgelabel>
+        </childnode>
+      </node>
+      <node id="2714">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="2715" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2708">
+        <label>IDisposable</label>
+      </node>
+      <node id="2713">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="2714" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2716">
+        <label>VRM.VRMExportSettings</label>
+        <link refid="class_v_r_m_1_1_v_r_m_export_settings"/>
+        <childnode refid="2717" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2718" relation="usage">
+          <edgelabel>MeshExportSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2724">
+        <label>UniGLTF.IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+      <node id="2705">
+        <label>EditorWindow</label>
+      </node>
+      <node id="2703">
+        <label>VRM.VRMExporterWizard</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard"/>
+        <childnode refid="2704" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2709" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="2716" relation="usage">
+          <edgelabel>m_settings</edgelabel>
+        </childnode>
+        <childnode refid="2719" relation="usage">
+          <edgelabel>m_meta</edgelabel>
+          <edgelabel>m_tmpMeta</edgelabel>
+        </childnode>
+        <childnode refid="2720" relation="usage">
+          <edgelabel>m_meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2722">
+        <label>IReadOnlyList&lt; MeshExportInfo &gt;</label>
+      </node>
+      <node id="2719">
+        <label>VRM.VRMMetaObject</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_object"/>
+        <childnode refid="2717" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2717">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2710">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="2711" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2709">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="2710" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="2713" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="2723">
+        <label>UniGLTF.MeshExportInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_info"/>
+      </node>
+      <node id="2721">
+        <label>UniGLTF.MeshExportList</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_list"/>
+        <childnode refid="2722" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2723" relation="usage">
+          <edgelabel>this[int index]</edgelabel>
+        </childnode>
+      </node>
+      <node id="2712">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="2711">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="2712" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2718">
+        <label>UniGLTF.GltfExportSettings</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="12" bodyend="420"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a50ea96fa7ff7342c50e5e4f93ae5ce24" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>_tab</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" prot="public" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>BeginVerticalScrollViewFunc</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a674f70ab72f7c2a943c7e34ce4753f91" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>BlendShapeTabMessages</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ac60a150170f9f2073cb9bb8a04a1eb74" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>Clear</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>DoGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af8a69606d804c89f9aad4b93c2527386" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>DrawWizardGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a266619cc2b2851392d3da54916bd23ee" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>ExportPath</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a9f8f50f23647183c2011d6bcd6a7fa39" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>Initialize</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1aa0c5503b36cb16f8f8a4201a691ed496" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_merger</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7c0eae75a1ac399e9ef755eadbe60757" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_meshes</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a84182098b660578ba32926f111be3b8e" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_meshesInspector</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1aff25fa1a189cc8765368a629374084da" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_meta</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a8d0274913dbae6ec56b5f52afacae09e" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_metaEditor</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a6e009cf3fcb2b83b42511b8259d0a13e" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_selected</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ab6ae58ac5b9e15b50e371cf8fc53bd8f" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_settings</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a2325e752b76e346ed05132c5142dada0" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_settingsInspector</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a44e109c479b0f8271bf582a395badb71" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>m_tmpMeta</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a47fe3b2296b563a76ff4fdeeccc278b0" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>Meta</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a3926719091456cd5bf1d16988a5732d6" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>OnBlendShapeGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a475fce4bba90296ff858fd9c60e8751a" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>OnLayout</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1af9dd256c35da6bed6f0460de413d7c4f" prot="public" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>OpenExportMenu</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ad6d8757a7b857abe89db399a93be4108" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>s_foldT</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae448080726730391ec8ab63e7168a17a" prot="protected" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>SaveExtensions</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a6888752f4912973c2e0a65502c42c3a0" prot="protected" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>SaveName</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a7fdce9bdfdfcfb06dbf63a00bbbb01f6" prot="protected" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>SaveTitle</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" prot="protected" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>State</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1ae3119b85cd8af328c09930ce61d66ff3" prot="private" virt="non-virtual"><scope>VRM::VRMExporterWizard</scope><name>Tabs</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a046662520095f3a969234ded8e250cb3" prot="protected" virt="virtual"><scope>VRM::VRMExporterWizard</scope><name>ValidatorFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

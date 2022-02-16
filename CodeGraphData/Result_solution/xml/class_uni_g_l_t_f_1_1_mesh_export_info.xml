@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_export_info" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshExportInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.MeshExportInfo.Mesh</definition>
+        <argsstring></argsstring>
+        <name>Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" compoundref="_mesh_export_info_8cs" startline="17" endline="20">UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a9ca20d72495a1dd92d21872435785ecb" prot="public" static="no" mutable="no">
+        <type>Material[]</type>
+        <definition>Material [] UniGLTF.MeshExportInfo.Materials</definition>
+        <argsstring></argsstring>
+        <name>Materials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" compoundref="_mesh_export_info_8cs" startline="17" endline="20">UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ad580742f670b16f84ba1f106210896bd" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt;(Renderer, Transform[] UniqueBones)&gt;</type>
+        <definition>IReadOnlyList&lt;(Renderer, Transform[] UniqueBones)&gt; UniGLTF.MeshExportInfo.Renderers</definition>
+        <argsstring></argsstring>
+        <name>Renderers</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0415ca35b07610880ec0b0aa3688e110" kindref="member">_renderers</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a73b976c6de219042c6c13e1397b1d116" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.IsRendererActive</definition>
+        <argsstring></argsstring>
+        <name>IsRendererActive</name>
+        <initializer>=&gt; Renderers.Any(x =&gt; x.Item1.EnableForExport())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="100" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ae741fe580014199cc9c4276b86c236e6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.Skinned</definition>
+        <argsstring></argsstring>
+        <name>Skinned</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1aaa089bac27f0b08fe9d8ce0a6d568f35" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.HasNormal</definition>
+        <argsstring></argsstring>
+        <name>HasNormal</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref> != null &amp;&amp; Mesh.normals != null &amp;&amp; Mesh.normals.Length == Mesh.vertexCount</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="144" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="144" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ad6cd2ed80c063f7a0dc0a9b314ced24f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.HasUV</definition>
+        <argsstring></argsstring>
+        <name>HasUV</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref> != null &amp;&amp; Mesh.uv != null &amp;&amp; Mesh.uv.Length == Mesh.vertexCount</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="145" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ab65eb934433790479a1b581230760574" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.HasVertexColor</definition>
+        <argsstring></argsstring>
+        <name>HasVertexColor</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref> != null &amp;&amp; Mesh.colors != null &amp;&amp; Mesh.colors.Length == Mesh.vertexCount
+            &amp;&amp; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" kindref="member">VertexColor</ref> == VertexColorState.ExistsAndIsUsed
+            || <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" kindref="member">VertexColor</ref> == VertexColorState.ExistsAndMixed</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="147" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a0683ccf0906f0548d0c4e80cd59ade3f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.HasSkinning</definition>
+        <argsstring></argsstring>
+        <name>HasSkinning</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref> != null &amp;&amp; Mesh.boneWeights != null &amp;&amp; Mesh.boneWeights.Length == Mesh.vertexCount</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="152" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="152" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414" kindref="member">VertexColorState</ref></type>
+        <definition>VertexColorState UniGLTF.MeshExportInfo.VertexColor</definition>
+        <argsstring></argsstring>
+        <name>VertexColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="154" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="154" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ab68db583a792c6019a23835c9fdc875e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.VertexCount</definition>
+        <argsstring></argsstring>
+        <name>VertexCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="156" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a19e490c0bd78c478c3a6c3f48ea343bd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.ExportVertexSize</definition>
+        <argsstring></argsstring>
+        <name>ExportVertexSize</name>
+        <briefdescription>
+<para>Position, UV, Normal [Color] [SkinningWeight] </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="163" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="163" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a572409920962420a78c5a939ae43298f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.IndexCount</definition>
+        <argsstring></argsstring>
+        <name>IndexCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="167" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="167" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a686594876302f153685057b9811a548b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.IndicesSize</definition>
+        <argsstring></argsstring>
+        <name>IndicesSize</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a572409920962420a78c5a939ae43298f" kindref="member">IndexCount</ref> * 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="170" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ad7503f1e570798e2d100efaaad252a9e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.ExportBlendShapeVertexSize</definition>
+        <argsstring></argsstring>
+        <name>ExportBlendShapeVertexSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="174" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="174" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e05e560359b642cdcf9b853e049bafb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.TotalBlendShapeCount</definition>
+        <argsstring></argsstring>
+        <name>TotalBlendShapeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="176" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="176" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e56edf51da36177f19ab62f982c6d41" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.ExportBlendShapeCount</definition>
+        <argsstring></argsstring>
+        <name>ExportBlendShapeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="178" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="178" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a3326acb9ecd1ca8d92bd9f6b6840bf46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.ExportByteSize</definition>
+        <argsstring></argsstring>
+        <name>ExportByteSize</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a19e490c0bd78c478c3a6c3f48ea343bd" kindref="member">ExportVertexSize</ref> * <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab68db583a792c6019a23835c9fdc875e" kindref="member">VertexCount</ref> + <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a686594876302f153685057b9811a548b" kindref="member">IndicesSize</ref> + <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e56edf51da36177f19ab62f982c6d41" kindref="member">ExportBlendShapeCount</ref> * <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad7503f1e570798e2d100efaaad252a9e" kindref="member">ExportBlendShapeVertexSize</ref> * <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab68db583a792c6019a23835c9fdc875e" kindref="member">VertexCount</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="182" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1aa731916589bbdc09016df900190da762" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.MeshExportInfo.Summary</definition>
+        <argsstring></argsstring>
+        <name>Summary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="184" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" compoundref="_mesh_export_info_8cs" startline="285" endline="373">UniGLTF.MeshExportInfo.CalcMeshSize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a6925e5de0314dd0cd909f7595571ac63" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.CanExport</definition>
+        <argsstring></argsstring>
+        <name>CanExport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a0415ca35b07610880ec0b0aa3688e110" prot="private" static="no" mutable="no">
+        <type>List&lt;(Renderer, Transform[] UniqueBones)&gt;</type>
+        <definition>List&lt;(Renderer, Transform[] UniqueBones)&gt; UniGLTF.MeshExportInfo._renderers</definition>
+        <argsstring></argsstring>
+        <name>_renderers</name>
+        <briefdescription>
+<para>ひとつの Mesh を複数の Renderer が共有することがありうる </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a58e47003229c64027e86b7a710e143f5" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] UniGLTF.MeshExportInfo.JointIndexMap</definition>
+        <argsstring></argsstring>
+        <name>JointIndexMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="104" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a3775cff204ec786bbd6262b9762929d3" compoundref="_mesh_export_info_8cs" startline="129" endline="140">UniGLTF.MeshExportInfo.GetBindPoses</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1af516f2e6997dacceb353e59263f37c6c" compoundref="_mesh_export_info_8cs" startline="112" endline="127">UniGLTF.MeshExportInfo.GetJointIndex</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a62e9be5c0c540a43f0a07caab1bb3959" compoundref="_mesh_export_info_8cs" startline="227" endline="266">UniGLTF.MeshExportInfo.PushRenderer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</definition>
+        <argsstring>(MeshExportInfo other)</argsstring>
+        <name>IsSameMeshAndMaterials</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_info" kindref="compound">MeshExportInfo</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a9ca20d72495a1dd92d21872435785ecb" compoundref="_mesh_export_info_8cs" startline="15">UniGLTF.MeshExportInfo.Materials</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" compoundref="_mesh_export_info_8cs" startline="14">UniGLTF.MeshExportInfo.Mesh</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad361fb3f3dfe80d150d22d9cd1bfff81" compoundref="_mesh_export_info_8cs" startline="33" endline="52">UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab8b4d6cea3bebe3383e3ef539eb98e5b" compoundref="_mesh_export_info_8cs" startline="54" endline="67">UniGLTF.MeshExportInfo.TryGetSameMeshIndex</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1aaaea8f8b941d5784468f9141878ffc13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</definition>
+        <argsstring>(Mesh mesh, Material[] materials)</argsstring>
+        <name>IsSameMeshAndMaterials</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>Material[]</type>
+          <declname>materials</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="22" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a9ca20d72495a1dd92d21872435785ecb" compoundref="_mesh_export_info_8cs" startline="15">UniGLTF.MeshExportInfo.Materials</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" compoundref="_mesh_export_info_8cs" startline="14">UniGLTF.MeshExportInfo.Mesh</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ad361fb3f3dfe80d150d22d9cd1bfff81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</definition>
+        <argsstring>(Renderer r)</argsstring>
+        <name>IsSameMeshAndMaterials</name>
+        <param>
+          <type>Renderer</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="33" bodyend="52"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" compoundref="_mesh_export_info_8cs" startline="17" endline="20">UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1af516f2e6997dacceb353e59263f37c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportInfo.GetJointIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetJointIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> は　skinning の boneList の重複を許可しない (unity は ok) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="112" bodyend="127"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a58e47003229c64027e86b7a710e143f5" compoundref="_mesh_export_info_8cs" startline="104">UniGLTF.MeshExportInfo.JointIndexMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a3775cff204ec786bbd6262b9762929d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Matrix4x4 &gt;</type>
+        <definition>IEnumerable&lt;Matrix4x4&gt; UniGLTF.MeshExportInfo.GetBindPoses</definition>
+        <argsstring>()</argsstring>
+        <name>GetBindPoses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="129" bodyend="140"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a58e47003229c64027e86b7a710e143f5" compoundref="_mesh_export_info_8cs" startline="104">UniGLTF.MeshExportInfo.JointIndexMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.MeshExportInfo.MeshExportInfo</definition>
+        <argsstring>(Renderer renderer, GltfExportSettings settings)</argsstring>
+        <name>MeshExportInfo</name>
+        <param>
+          <type>Renderer</type>
+          <declname>renderer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="187" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="187" bodyend="225"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0415ca35b07610880ec0b0aa3688e110" compoundref="_mesh_export_info_8cs" startline="97">UniGLTF.MeshExportInfo._renderers</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a9ca20d72495a1dd92d21872435785ecb" compoundref="_mesh_export_info_8cs" startline="15">UniGLTF.MeshExportInfo.Materials</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" compoundref="_mesh_export_info_8cs" startline="14">UniGLTF.MeshExportInfo.Mesh</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a62e9be5c0c540a43f0a07caab1bb3959" compoundref="_mesh_export_info_8cs" startline="227" endline="266">UniGLTF.MeshExportInfo.PushRenderer</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ae741fe580014199cc9c4276b86c236e6" compoundref="_mesh_export_info_8cs" startline="103">UniGLTF.MeshExportInfo.Skinned</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aa731916589bbdc09016df900190da762" compoundref="_mesh_export_info_8cs" startline="184">UniGLTF.MeshExportInfo.Summary</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" compoundref="_mesh_export_info_8cs" startline="154">UniGLTF.MeshExportInfo.VertexColor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a62e9be5c0c540a43f0a07caab1bb3959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportInfo.PushRenderer</definition>
+        <argsstring>(Renderer renderer)</argsstring>
+        <name>PushRenderer</name>
+        <param>
+          <type>Renderer</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="227" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="227" bodyend="266"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a58e47003229c64027e86b7a710e143f5" compoundref="_mesh_export_info_8cs" startline="104">UniGLTF.MeshExportInfo.JointIndexMap</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" compoundref="_mesh_export_info_8cs" startline="187" endline="225">UniGLTF.MeshExportInfo.MeshExportInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a85569056228804a7e7b8ae25912475fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportInfo.CalcMeshSize</definition>
+        <argsstring>(GameObject root, Renderer renderer, GltfExportSettings settings, IBlendShapeExportFilter blendShapeFilter)</argsstring>
+        <name>CalcMeshSize</name>
+        <param>
+          <type>GameObject</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>Renderer</type>
+          <declname>renderer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" kindref="compound">IBlendShapeExportFilter</ref></type>
+          <declname>blendShapeFilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="274" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="274" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportInfo.CalcMeshSize</definition>
+        <argsstring>(string relativePath, GltfExportSettings settings, IBlendShapeExportFilter blendShapeFilter)</argsstring>
+        <name>CalcMeshSize</name>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" kindref="compound">IBlendShapeExportFilter</ref></type>
+          <declname>blendShapeFilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="285" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="285" bodyend="373"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e56edf51da36177f19ab62f982c6d41" compoundref="_mesh_export_info_8cs" startline="178">UniGLTF.MeshExportInfo.ExportBlendShapeCount</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad7503f1e570798e2d100efaaad252a9e" compoundref="_mesh_export_info_8cs" startline="174">UniGLTF.MeshExportInfo.ExportBlendShapeVertexSize</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a19e490c0bd78c478c3a6c3f48ea343bd" compoundref="_mesh_export_info_8cs" startline="163">UniGLTF.MeshExportInfo.ExportVertexSize</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aaa089bac27f0b08fe9d8ce0a6d568f35" compoundref="_mesh_export_info_8cs" startline="144">UniGLTF.MeshExportInfo.HasNormal</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0683ccf0906f0548d0c4e80cd59ade3f" compoundref="_mesh_export_info_8cs" startline="152">UniGLTF.MeshExportInfo.HasSkinning</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad6cd2ed80c063f7a0dc0a9b314ced24f" compoundref="_mesh_export_info_8cs" startline="145">UniGLTF.MeshExportInfo.HasUV</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab65eb934433790479a1b581230760574" compoundref="_mesh_export_info_8cs" startline="147">UniGLTF.MeshExportInfo.HasVertexColor</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a572409920962420a78c5a939ae43298f" compoundref="_mesh_export_info_8cs" startline="167">UniGLTF.MeshExportInfo.IndexCount</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a73b976c6de219042c6c13e1397b1d116" compoundref="_mesh_export_info_8cs" startline="100">UniGLTF.MeshExportInfo.IsRendererActive</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" compoundref="_mesh_export_info_8cs" startline="14">UniGLTF.MeshExportInfo.Mesh</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aa731916589bbdc09016df900190da762" compoundref="_mesh_export_info_8cs" startline="184">UniGLTF.MeshExportInfo.Summary</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e05e560359b642cdcf9b853e049bafb" compoundref="_mesh_export_info_8cs" startline="176">UniGLTF.MeshExportInfo.TotalBlendShapeCount</references>
+        <references refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter_1a571e09e1da7cf9e9f45c8bfa249505ba">UniGLTF.IBlendShapeExportFilter.UseBlendShape</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" compoundref="_mesh_export_info_8cs" startline="154">UniGLTF.MeshExportInfo.VertexColor</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab68db583a792c6019a23835c9fdc875e" compoundref="_mesh_export_info_8cs" startline="156">UniGLTF.MeshExportInfo.VertexCount</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1ab8b4d6cea3bebe3383e3ef539eb98e5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshExportInfo.TryGetSameMeshIndex</definition>
+        <argsstring>(IReadOnlyList&lt; MeshExportInfo &gt; meshWithRenderers, Mesh mesh, Material[] materials, out int meshIndex)</argsstring>
+        <name>TryGetSameMeshIndex</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info" kindref="compound">MeshExportInfo</ref> &gt;</type>
+          <declname>meshWithRenderers</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" kindref="member">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>Material[]</type>
+          <declname>materials</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>meshIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="54" bodyend="67"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" compoundref="_mesh_export_info_8cs" startline="17" endline="20">UniGLTF.MeshExportInfo.IsSameMeshAndMaterials</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1aeebefa8b7ee1f9bddff32a05f668b609" compoundref="gltf_exporter_8cs" startline="159" endline="232">UniGLTF.gltfExporter.ExportNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_info_1a449bafe63035fea768994124b852ace6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshExportInfo.TryGetMeshInfo</definition>
+        <argsstring>()</argsstring>
+        <name>TryGetMeshInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="268" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="268" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportInfo.cs" bodystart="11" bodyend="374"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0415ca35b07610880ec0b0aa3688e110" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>_renderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a85569056228804a7e7b8ae25912475fa" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>CalcMeshSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a346996e3000dd57ea9c7cac8d2dce2e8" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>CalcMeshSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6925e5de0314dd0cd909f7595571ac63" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>CanExport</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e56edf51da36177f19ab62f982c6d41" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>ExportBlendShapeCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad7503f1e570798e2d100efaaad252a9e" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>ExportBlendShapeVertexSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a3326acb9ecd1ca8d92bd9f6b6840bf46" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>ExportByteSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a19e490c0bd78c478c3a6c3f48ea343bd" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>ExportVertexSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a3775cff204ec786bbd6262b9762929d3" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>GetBindPoses</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1af516f2e6997dacceb353e59263f37c6c" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>GetJointIndex</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aaa089bac27f0b08fe9d8ce0a6d568f35" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>HasNormal</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0683ccf0906f0548d0c4e80cd59ade3f" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>HasSkinning</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad6cd2ed80c063f7a0dc0a9b314ced24f" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>HasUV</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab65eb934433790479a1b581230760574" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>HasVertexColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a572409920962420a78c5a939ae43298f" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IndexCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a686594876302f153685057b9811a548b" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IndicesSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a73b976c6de219042c6c13e1397b1d116" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IsRendererActive</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a7b70d940192ecbc83861f731238b3472" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IsSameMeshAndMaterials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aaaea8f8b941d5784468f9141878ffc13" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IsSameMeshAndMaterials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad361fb3f3dfe80d150d22d9cd1bfff81" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>IsSameMeshAndMaterials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a58e47003229c64027e86b7a710e143f5" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>JointIndexMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a9ca20d72495a1dd92d21872435785ecb" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>Materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e4ea156106530b2aff768967f04fa8c" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>Mesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ac49cf44302ec8d664787c7a5b25afc57" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>MeshExportInfo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a62e9be5c0c540a43f0a07caab1bb3959" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>PushRenderer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ad580742f670b16f84ba1f106210896bd" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>Renderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ae741fe580014199cc9c4276b86c236e6" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>Skinned</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1aa731916589bbdc09016df900190da762" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>Summary</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a6e05e560359b642cdcf9b853e049bafb" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>TotalBlendShapeCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a449bafe63035fea768994124b852ace6" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>TryGetMeshInfo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab8b4d6cea3bebe3383e3ef539eb98e5b" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>TryGetSameMeshIndex</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1a0dcf0287403de78d7825dbb368f4465d" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>VertexColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab68db583a792c6019a23835c9fdc875e" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportInfo</scope><name>VertexCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

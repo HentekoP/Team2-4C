@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_spring_bone" kind="class" prot="public">
+    <compoundname>VRM::VRMSpringBone</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider" prot="public">VRM::VRMSpringBone::SphereCollider</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone_1_1_v_r_m_spring_bone_logic" prot="private">VRM::VRMSpringBone::VRMSpringBoneLogic</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_v_r_m_1_1_v_r_m_spring_bone_1a27d63ec27d7fb31c56c986411ce5532e" prot="public" static="no">
+        <name>SpringBoneUpdateType</name>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_spring_bone_1a27d63ec27d7fb31c56c986411ce5532ea2609005edfde618c70f2140bb3e9b7c2" prot="public">
+          <name>LateUpdate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_v_r_m_1_1_v_r_m_spring_bone_1a27d63ec27d7fb31c56c986411ce5532ea9c1ca4069e206318b33ef896d3dd204e" prot="public">
+          <name>FixedUpdate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1af9f2c173e8e35ff922679efa54fb8449" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string VRM.VRMSpringBone.m_comment</definition>
+        <argsstring></argsstring>
+        <name>m_comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a52f9772ed36bdd3bb965e44f1e543c9c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMSpringBone.m_stiffnessForce</definition>
+        <argsstring></argsstring>
+        <name>m_stiffnessForce</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a085f37ff958b9932f25b7fa64078bf1e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMSpringBone.m_gravityPower</definition>
+        <argsstring></argsstring>
+        <name>m_gravityPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a64e37a649ca59ec97bb9ca8a7aea2136" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 VRM.VRMSpringBone.m_gravityDir</definition>
+        <argsstring></argsstring>
+        <name>m_gravityDir</name>
+        <initializer>= new <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>(0, -1.0f, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a29ce9d186e27619d8debf283a76a9ea9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMSpringBone.m_dragForce</definition>
+        <argsstring></argsstring>
+        <name>m_dragForce</name>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1ab32dbb873141e0e32e3dd769136b62d4" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.VRMSpringBone.m_center</definition>
+        <argsstring></argsstring>
+        <name>m_center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" compoundref="_v_r_m_spring_bone_8cs" startline="323" endline="331">VRM.VRMSpringBone.OnDrawGizmos</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a3ec61e23c5f91efd46d9752d43fd51c5" prot="public" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; VRM.VRMSpringBone.RootBones</definition>
+        <argsstring></argsstring>
+        <name>RootBones</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a8675f2498a8c716755c2abe3a072b56f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMSpringBone.m_hitRadius</definition>
+        <argsstring></argsstring>
+        <name>m_hitRadius</name>
+        <initializer>= 0.02f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a938c52f948106a443ada8c7006805dae" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group" kindref="compound">VRMSpringBoneColliderGroup</ref>[]</type>
+        <definition>VRMSpringBoneColliderGroup [] VRM.VRMSpringBone.ColliderGroups</definition>
+        <argsstring></argsstring>
+        <name>ColliderGroups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1ac587f42fa72bdad708915aa8be24cd2b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_spring_bone_1a27d63ec27d7fb31c56c986411ce5532e" kindref="member">SpringBoneUpdateType</ref></type>
+        <definition>SpringBoneUpdateType VRM.VRMSpringBone.m_updateType</definition>
+        <argsstring></argsstring>
+        <name>m_updateType</name>
+        <initializer>= SpringBoneUpdateType.LateUpdate</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a5315288d6ceb136e06f23a5282ecc808" compoundref="_v_r_m_spring_bone_8cs" startline="260" endline="266">VRM.VRMSpringBone.FixedUpdate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a74dfc2dcee65e32831484d72cec6c3c2" compoundref="_v_r_m_spring_bone_8cs" startline="252" endline="258">VRM.VRMSpringBone.LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a1a9cbd6bcd84e3e7ff3ad7c93a59e30c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMSpringBone.m_drawGizmo</definition>
+        <argsstring></argsstring>
+        <name>m_drawGizmo</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" compoundref="_v_r_m_spring_bone_8cs" startline="323" endline="331">VRM.VRMSpringBone.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a062b9ec3c3bcd925bb509f8515393422" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color VRM.VRMSpringBone.m_gizmoColor</definition>
+        <argsstring></argsstring>
+        <name>m_gizmoColor</name>
+        <initializer>= Color.yellow</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" compoundref="_v_r_m_spring_bone_8cs" startline="323" endline="331">VRM.VRMSpringBone.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1abc5d92b0d53aa4f3fbae1e44d381b388" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Transform, Quaternion &gt;</type>
+        <definition>Dictionary&lt;Transform, Quaternion&gt; VRM.VRMSpringBone.m_initialLocalRotationMap</definition>
+        <argsstring></argsstring>
+        <name>m_initialLocalRotationMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a413974a34da09d1e45b4d37e4b912eec" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_v_r_m_1_1_v_r_m_spring_bone_1_1_v_r_m_spring_bone_logic" kindref="compound">VRMSpringBoneLogic</ref> &gt;</type>
+        <definition>List&lt;VRMSpringBoneLogic&gt; VRM.VRMSpringBone.m_verlet</definition>
+        <argsstring></argsstring>
+        <name>m_verlet</name>
+        <initializer>= new List&lt;<ref refid="class_v_r_m_1_1_v_r_m_spring_bone_1_1_v_r_m_spring_bone_logic" kindref="compound">VRMSpringBoneLogic</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="178" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="178" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" compoundref="_v_r_m_spring_bone_8cs" startline="323" endline="331">VRM.VRMSpringBone.OnDrawGizmos</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1aaf0cac7c3c7a6673047e7b1c74796f16" compoundref="_v_r_m_spring_bone_8cs" startline="213" endline="216">VRM.VRMSpringBone.SetLocalRotationsIdentity</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_spring_bone_1a62fc7a716a50071e4be9606a3986e04e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider" kindref="compound">SphereCollider</ref> &gt;</type>
+        <definition>List&lt;SphereCollider&gt; VRM.VRMSpringBone.m_colliders</definition>
+        <argsstring></argsstring>
+        <name>m_colliders</name>
+        <initializer>= new List&lt;<ref refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider" kindref="compound">SphereCollider</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="283" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="283" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a86a82ce6777204ce94ea141b83841882" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="180" bodyend="183"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a21db44166c5f42ec3e9cee70b1a46734" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.SetupRecursive</definition>
+        <argsstring>(Transform center, Transform parent)</argsstring>
+        <name>SetupRecursive</name>
+        <param>
+          <type>Transform</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="223" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="223" bodyend="250"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a8a357e2443512ea33475421f1b3b76ed" compoundref="_v_r_m_spring_bone_8cs" startline="218" endline="221">VRM.VRMSpringBone.GetChildren</references>
+        <references refid="struct_unity_engine_1_1_vector3_1ad4d9171899b7fceadc63c4d04da5734d" compoundref="_unity_engine_compatibility_8cs" startline="19">UnityEngine.Vector3.x</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a7e4565013600fd46a0c50ef86a19e926" compoundref="_unity_engine_compatibility_8cs" startline="20">UnityEngine.Vector3.y</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a8ea2682142b822ddcab52c868796fd3e" compoundref="_unity_engine_compatibility_8cs" startline="21">UnityEngine.Vector3.z</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a74dfc2dcee65e32831484d72cec6c3c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="252" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="252" bodyend="258"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1ac587f42fa72bdad708915aa8be24cd2b" compoundref="_v_r_m_spring_bone_8cs" startline="53">VRM.VRMSpringBone.m_updateType</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a5315288d6ceb136e06f23a5282ecc808" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="260" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="260" bodyend="266"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1ac587f42fa72bdad708915aa8be24cd2b" compoundref="_v_r_m_spring_bone_8cs" startline="53">VRM.VRMSpringBone.m_updateType</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.UpdateProcess</definition>
+        <argsstring>(float deltaTime)</argsstring>
+        <name>UpdateProcess</name>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="284" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="284" bodyend="321"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a938c52f948106a443ada8c7006805dae" compoundref="_v_r_m_spring_bone_8cs" startline="45">VRM.VRMSpringBone.ColliderGroups</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab32dbb873141e0e32e3dd769136b62d4" compoundref="_v_r_m_spring_bone_8cs" startline="34">VRM.VRMSpringBone.m_center</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a62fc7a716a50071e4be9606a3986e04e" compoundref="_v_r_m_spring_bone_8cs" startline="283">VRM.VRMSpringBone.m_colliders</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a29ce9d186e27619d8debf283a76a9ea9" compoundref="_v_r_m_spring_bone_8cs" startline="32">VRM.VRMSpringBone.m_dragForce</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a64e37a649ca59ec97bb9ca8a7aea2136" compoundref="_v_r_m_spring_bone_8cs" startline="30">VRM.VRMSpringBone.m_gravityDir</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a085f37ff958b9932f25b7fa64078bf1e" compoundref="_v_r_m_spring_bone_8cs" startline="28">VRM.VRMSpringBone.m_gravityPower</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a8675f2498a8c716755c2abe3a072b56f" compoundref="_v_r_m_spring_bone_8cs" startline="42">VRM.VRMSpringBone.m_hitRadius</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a52f9772ed36bdd3bb965e44f1e543c9c" compoundref="_v_r_m_spring_bone_8cs" startline="26">VRM.VRMSpringBone.m_stiffnessForce</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a413974a34da09d1e45b4d37e4b912eec" compoundref="_v_r_m_spring_bone_8cs" startline="178">VRM.VRMSpringBone.m_verlet</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a3ec61e23c5f91efd46d9752d43fd51c5" compoundref="_v_r_m_spring_bone_8cs" startline="36">VRM.VRMSpringBone.RootBones</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" compoundref="_v_r_m_spring_bone_8cs" startline="186" endline="211">VRM.VRMSpringBone.Setup</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a5315288d6ceb136e06f23a5282ecc808" compoundref="_v_r_m_spring_bone_8cs" startline="260" endline="266">VRM.VRMSpringBone.FixedUpdate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a74dfc2dcee65e32831484d72cec6c3c2" compoundref="_v_r_m_spring_bone_8cs" startline="252" endline="258">VRM.VRMSpringBone.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="323" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="323" bodyend="331"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab32dbb873141e0e32e3dd769136b62d4" compoundref="_v_r_m_spring_bone_8cs" startline="34">VRM.VRMSpringBone.m_center</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a1a9cbd6bcd84e3e7ff3ad7c93a59e30c" compoundref="_v_r_m_spring_bone_8cs" startline="19">VRM.VRMSpringBone.m_drawGizmo</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a062b9ec3c3bcd925bb509f8515393422" compoundref="_v_r_m_spring_bone_8cs" startline="21">VRM.VRMSpringBone.m_gizmoColor</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a413974a34da09d1e45b4d37e4b912eec" compoundref="_v_r_m_spring_bone_8cs" startline="178">VRM.VRMSpringBone.m_verlet</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.Setup</definition>
+        <argsstring>(bool force=false)</argsstring>
+        <name>Setup</name>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="186" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="186" bodyend="211"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab32dbb873141e0e32e3dd769136b62d4" compoundref="_v_r_m_spring_bone_8cs" startline="34">VRM.VRMSpringBone.m_center</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1abc5d92b0d53aa4f3fbae1e44d381b388" compoundref="_v_r_m_spring_bone_8cs" startline="37">VRM.VRMSpringBone.m_initialLocalRotationMap</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a3ec61e23c5f91efd46d9752d43fd51c5" compoundref="_v_r_m_spring_bone_8cs" startline="36">VRM.VRMSpringBone.RootBones</references>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a21db44166c5f42ec3e9cee70b1a46734" compoundref="_v_r_m_spring_bone_8cs" startline="223" endline="250">VRM.VRMSpringBone.SetupRecursive</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a86a82ce6777204ce94ea141b83841882" compoundref="_v_r_m_spring_bone_8cs" startline="180" endline="183">VRM.VRMSpringBone.Awake</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" compoundref="_v_r_m_spring_bone_8cs" startline="284" endline="321">VRM.VRMSpringBone.UpdateProcess</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1aaf0cac7c3c7a6673047e7b1c74796f16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMSpringBone.SetLocalRotationsIdentity</definition>
+        <argsstring>()</argsstring>
+        <name>SetLocalRotationsIdentity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="213" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="213" bodyend="216"/>
+        <references refid="class_v_r_m_1_1_v_r_m_spring_bone_1a413974a34da09d1e45b4d37e4b912eec" compoundref="_v_r_m_spring_bone_8cs" startline="178">VRM.VRMSpringBone.m_verlet</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_spring_bone_1a8a357e2443512ea33475421f1b3b76ed" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Transform &gt;</type>
+        <definition>static IEnumerable&lt;Transform&gt; VRM.VRMSpringBone.GetChildren</definition>
+        <argsstring>(Transform parent)</argsstring>
+        <name>GetChildren</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="218" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="218" bodyend="221"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_spring_bone_1a21db44166c5f42ec3e9cee70b1a46734" compoundref="_v_r_m_spring_bone_8cs" startline="223" endline="250">VRM.VRMSpringBone.SetupRecursive</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The base algorithm is <ulink url="http://rocketjump.skr.jp/unity3d/109/">http://rocketjump.skr.jp/unity3d/109/</ulink> of  DefaultExecutionOrder(11000) means calculate springbone after FinalIK( VRIK ) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2921">
+        <label>VRM.VRMSpringBone</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone"/>
+        <childnode refid="2922" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2922">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2925">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2926" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2925" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2926">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2923">
+        <label>VRM.VRMSpringBone</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone"/>
+        <childnode refid="2924" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2925" relation="usage">
+          <edgelabel>m_gravityDir</edgelabel>
+        </childnode>
+        <childnode refid="2927" relation="usage">
+          <edgelabel>ColliderGroups</edgelabel>
+        </childnode>
+      </node>
+      <node id="2927">
+        <label>VRM.VRMSpringBoneColliderGroup</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group"/>
+        <childnode refid="2924" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2928" relation="usage">
+          <edgelabel>Colliders</edgelabel>
+        </childnode>
+      </node>
+      <node id="2928">
+        <label>VRM.VRMSpringBoneColliderGroup.SphereCollider</label>
+        <link refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_1_1_sphere_collider"/>
+        <childnode refid="2925" relation="usage">
+          <edgelabel>Offset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2924">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="14" bodyend="332"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a86a82ce6777204ce94ea141b83841882" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>Awake</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a938c52f948106a443ada8c7006805dae" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>ColliderGroups</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a5315288d6ceb136e06f23a5282ecc808" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>FixedUpdate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a8a357e2443512ea33475421f1b3b76ed" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>GetChildren</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a74dfc2dcee65e32831484d72cec6c3c2" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>LateUpdate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab32dbb873141e0e32e3dd769136b62d4" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_center</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a62fc7a716a50071e4be9606a3986e04e" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_colliders</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1af9f2c173e8e35ff922679efa54fb8449" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_comment</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a29ce9d186e27619d8debf283a76a9ea9" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_dragForce</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a1a9cbd6bcd84e3e7ff3ad7c93a59e30c" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_drawGizmo</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a062b9ec3c3bcd925bb509f8515393422" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_gizmoColor</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a64e37a649ca59ec97bb9ca8a7aea2136" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_gravityDir</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a085f37ff958b9932f25b7fa64078bf1e" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_gravityPower</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a8675f2498a8c716755c2abe3a072b56f" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_hitRadius</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1abc5d92b0d53aa4f3fbae1e44d381b388" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_initialLocalRotationMap</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a52f9772ed36bdd3bb965e44f1e543c9c" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_stiffnessForce</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1ac587f42fa72bdad708915aa8be24cd2b" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_updateType</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a413974a34da09d1e45b4d37e4b912eec" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>m_verlet</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1ab2f19fcacd2e2fa654d81d4181665625" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a3ec61e23c5f91efd46d9752d43fd51c5" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>RootBones</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1aaf0cac7c3c7a6673047e7b1c74796f16" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>SetLocalRotationsIdentity</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a0ca8231e9468bc85027252fc3c6df8a6" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>Setup</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a21db44166c5f42ec3e9cee70b1a46734" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>SetupRecursive</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a27d63ec27d7fb31c56c986411ce5532e" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>SpringBoneUpdateType</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_spring_bone_1a2ad83c0cda6764b43524c87e05833542" prot="private" virt="non-virtual"><scope>VRM::VRMSpringBone</scope><name>UpdateProcess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

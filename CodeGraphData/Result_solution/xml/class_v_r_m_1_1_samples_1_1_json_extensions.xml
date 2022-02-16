@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_samples_1_1_json_extensions" kind="class" prot="public">
+    <compoundname>VRM::Samples::JsonExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_samples_1_1_json_extensions_1a8b4870b05ebb16b0a0320973faea4843" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.Samples.JsonExtensions.SetValue&lt; T &gt;</definition>
+        <argsstring>(this JsonNode node, string key, T value, Action&lt; JsonFormatter, T &gt; serialize)</argsstring>
+        <name>SetValue&lt; T &gt;</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref>, T &gt;</type>
+          <declname>serialize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_samples_1_1_json_extensions_1a27fc00d557014b33a7911e448a4ae2ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.Samples.JsonExtensions.ToJson</definition>
+        <argsstring>(this glTF self)</argsstring>
+        <name>ToJson</name>
+        <param>
+          <type>this <ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/SampleTests/VRMImportExportTests.cs" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_samples_1_1_json_extensions_1a8b4870b05ebb16b0a0320973faea4843" prot="public" virt="non-virtual"><scope>VRM::Samples::JsonExtensions</scope><name>SetValue&lt; T &gt;</name></member>
+      <member refid="class_v_r_m_1_1_samples_1_1_json_extensions_1a27fc00d557014b33a7911e448a4ae2ce" prot="public" virt="non-virtual"><scope>VRM::Samples::JsonExtensions</scope><name>ToJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

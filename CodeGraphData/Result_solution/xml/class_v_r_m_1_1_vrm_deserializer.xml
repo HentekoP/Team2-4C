@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_vrm_deserializer" kind="class" prot="public">
+    <compoundname>VRM::VrmDeserializer</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref></type>
+        <definition>static glTF_VRM_extensions VRM.VrmDeserializer.Deserialize</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="14" bodyend="64"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1abe5e526bdc578bcd0efcb2237998edd9" compoundref="_v_r_m_deserializer_8g_8cs" startline="599" endline="614">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ad0a2bbfe43f169be8bbeea34d9ff8dab" compoundref="_v_r_m_deserializer_8g_8cs" startline="143" endline="198">VRM.VrmDeserializer.Deserialize_vrm_humanoid</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ad7855927995f9d357289c1f22ce5d549" compoundref="_v_r_m_deserializer_8g_8cs" startline="971" endline="979">VRM.VrmDeserializer.Deserialize_vrm_materialProperties</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ab467fdfef23b74e54dfc0178b557489e" compoundref="_v_r_m_deserializer_8g_8cs" startline="66" endline="141">VRM.VrmDeserializer.Deserialize_vrm_meta</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a798a6c3eefa27c7cbc375f785eb50972" compoundref="_v_r_m_deserializer_8g_8cs" startline="745" endline="765">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ab467fdfef23b74e54dfc0178b557489e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___meta" kindref="compound">glTF_VRM_Meta</ref></type>
+        <definition>static glTF_VRM_Meta VRM.VrmDeserializer.Deserialize_vrm_meta</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_meta</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="66" bodyend="141"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ad0a2bbfe43f169be8bbeea34d9ff8dab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kindref="compound">glTF_VRM_Humanoid</ref></type>
+        <definition>static glTF_VRM_Humanoid VRM.VrmDeserializer.Deserialize_vrm_humanoid</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="143" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="143" bodyend="198"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1adf9504ed659a68c6369a87addc7a3193" compoundref="_v_r_m_deserializer_8g_8cs" startline="200" endline="208">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1adf9504ed659a68c6369a87addc7a3193" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">VRM.glTF_VRM_HumanoidBone</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_HumanoidBone&gt; VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid_humanBones</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="200" bodyend="208"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" compoundref="_v_r_m_deserializer_8g_8cs" startline="209" endline="254">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1ad0a2bbfe43f169be8bbeea34d9ff8dab" compoundref="_v_r_m_deserializer_8g_8cs" startline="143" endline="198">VRM.VrmDeserializer.Deserialize_vrm_humanoid</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">glTF_VRM_HumanoidBone</ref></type>
+        <definition>static glTF_VRM_HumanoidBone VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid_humanBones_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="209" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="209" bodyend="254"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aa748608115e1efb7462f611a36b22bd1" compoundref="_v_r_m_deserializer_8g_8cs" startline="310" endline="335">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__center</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aa5243286f1837e6e1b7da1f2ed991a4e" compoundref="_v_r_m_deserializer_8g_8cs" startline="283" endline="308">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__max</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aac863d72008086e7084a27e8b19579cc" compoundref="_v_r_m_deserializer_8g_8cs" startline="256" endline="281">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__min</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1adf9504ed659a68c6369a87addc7a3193" compoundref="_v_r_m_deserializer_8g_8cs" startline="200" endline="208">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aac863d72008086e7084a27e8b19579cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__min</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid_humanBones__min</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="256" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="256" bodyend="281"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" compoundref="_v_r_m_deserializer_8g_8cs" startline="209" endline="254">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aa5243286f1837e6e1b7da1f2ed991a4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__max</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid_humanBones__max</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="283" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="283" bodyend="308"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" compoundref="_v_r_m_deserializer_8g_8cs" startline="209" endline="254">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aa748608115e1efb7462f611a36b22bd1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones__center</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_humanoid_humanBones__center</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="310" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="310" bodyend="335"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" compoundref="_v_r_m_deserializer_8g_8cs" startline="209" endline="254">VRM.VrmDeserializer.Deserialize_vrm_humanoid_humanBones_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson" kindref="compound">glTF_VRM_Firstperson</ref></type>
+        <definition>static glTF_VRM_Firstperson VRM.VrmDeserializer.Deserialize_vrm_firstPerson</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="337" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="337" bodyend="387"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1afbea7b0188cfa11b7cecb70062f2c83c" compoundref="_v_r_m_deserializer_8g_8cs" startline="389" endline="414">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_firstPersonBoneOffset</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1af06b4bd6ba2dab3b12f2291307a92001" compoundref="_v_r_m_deserializer_8g_8cs" startline="447" endline="472">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalInner</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a017cd0a95dc94fc142d908486a0242b0" compoundref="_v_r_m_deserializer_8g_8cs" startline="485" endline="510">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalOuter</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a6c862461aa0a88df87a7bf9854b435fb" compoundref="_v_r_m_deserializer_8g_8cs" startline="523" endline="548">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalDown</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a1d60b4a67483075e24d944a9e6fbb00e" compoundref="_v_r_m_deserializer_8g_8cs" startline="561" endline="586">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalUp</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a7d5e1ab97f52ac963259a156d0dd620f" compoundref="_v_r_m_deserializer_8g_8cs" startline="416" endline="424">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_meshAnnotations</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1afbea7b0188cfa11b7cecb70062f2c83c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_firstPerson_firstPersonBoneOffset</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_firstPersonBoneOffset</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="389" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="389" bodyend="414"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a7d5e1ab97f52ac963259a156d0dd620f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation" kindref="compound">VRM.glTF_VRM_MeshAnnotation</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_MeshAnnotation&gt; VRM.VrmDeserializer.Deserialize_vrm_firstPerson_meshAnnotations</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_meshAnnotations</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="416" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="416" bodyend="424"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a6c67f239741c6a4c679d86d06b95a853" compoundref="_v_r_m_deserializer_8g_8cs" startline="425" endline="445">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_meshAnnotations_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a6c67f239741c6a4c679d86d06b95a853" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation" kindref="compound">glTF_VRM_MeshAnnotation</ref></type>
+        <definition>static glTF_VRM_MeshAnnotation VRM.VrmDeserializer.Deserialize_vrm_firstPerson_meshAnnotations_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_meshAnnotations_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="425" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="425" bodyend="445"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7d5e1ab97f52ac963259a156d0dd620f" compoundref="_v_r_m_deserializer_8g_8cs" startline="416" endline="424">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_meshAnnotations</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1af06b4bd6ba2dab3b12f2291307a92001" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+        <definition>static glTF_VRM_DegreeMap VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalInner</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtHorizontalInner</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="447" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="447" bodyend="472"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1af1441a5cb297c41b2c397e8365c45c6b" compoundref="_v_r_m_deserializer_8g_8cs" startline="474" endline="483">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalInner_curve</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1af1441a5cb297c41b2c397e8365c45c6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalInner_curve</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtHorizontalInner_curve</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="474" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="474" bodyend="483"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1af06b4bd6ba2dab3b12f2291307a92001" compoundref="_v_r_m_deserializer_8g_8cs" startline="447" endline="472">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalInner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a017cd0a95dc94fc142d908486a0242b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+        <definition>static glTF_VRM_DegreeMap VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalOuter</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtHorizontalOuter</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="485" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="485" bodyend="510"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ad25c6ab00144f6b5b0f4ec22c3692dcf" compoundref="_v_r_m_deserializer_8g_8cs" startline="512" endline="521">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalOuter_curve</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ad25c6ab00144f6b5b0f4ec22c3692dcf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalOuter_curve</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtHorizontalOuter_curve</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="512" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="512" bodyend="521"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a017cd0a95dc94fc142d908486a0242b0" compoundref="_v_r_m_deserializer_8g_8cs" startline="485" endline="510">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtHorizontalOuter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a6c862461aa0a88df87a7bf9854b435fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+        <definition>static glTF_VRM_DegreeMap VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalDown</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtVerticalDown</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="523" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="523" bodyend="548"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ac34a46f015d34d22d628f178b5fb7e5d" compoundref="_v_r_m_deserializer_8g_8cs" startline="550" endline="559">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalDown_curve</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ac34a46f015d34d22d628f178b5fb7e5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalDown_curve</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtVerticalDown_curve</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="550" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="550" bodyend="559"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a6c862461aa0a88df87a7bf9854b435fb" compoundref="_v_r_m_deserializer_8g_8cs" startline="523" endline="548">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalDown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a1d60b4a67483075e24d944a9e6fbb00e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+        <definition>static glTF_VRM_DegreeMap VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalUp</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtVerticalUp</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="561" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="561" bodyend="586"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a8424d6e4f91c47a3cb886df8cc51e15e" compoundref="_v_r_m_deserializer_8g_8cs" startline="588" endline="597">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalUp_curve</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" compoundref="_v_r_m_deserializer_8g_8cs" startline="337" endline="387">VRM.VrmDeserializer.Deserialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a8424d6e4f91c47a3cb886df8cc51e15e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalUp_curve</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_firstPerson_lookAtVerticalUp_curve</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="588" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="588" bodyend="597"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a1d60b4a67483075e24d944a9e6fbb00e" compoundref="_v_r_m_deserializer_8g_8cs" startline="561" endline="586">VRM.VrmDeserializer.Deserialize_vrm_firstPerson_lookAtVerticalUp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1abe5e526bdc578bcd0efcb2237998edd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master" kindref="compound">glTF_VRM_BlendShapeMaster</ref></type>
+        <definition>static glTF_VRM_BlendShapeMaster VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="599" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="599" bodyend="614"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a410a2420b89b3f183ec3a83515df8d25" compoundref="_v_r_m_deserializer_8g_8cs" startline="616" endline="624">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a410a2420b89b3f183ec3a83515df8d25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">VRM.glTF_VRM_BlendShapeGroup</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_BlendShapeGroup&gt; VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="616" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="616" bodyend="624"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a53018e6bc7763bdecab87684ad9bfd76" compoundref="_v_r_m_deserializer_8g_8cs" startline="625" endline="660">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1abe5e526bdc578bcd0efcb2237998edd9" compoundref="_v_r_m_deserializer_8g_8cs" startline="599" endline="614">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a53018e6bc7763bdecab87684ad9bfd76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">glTF_VRM_BlendShapeGroup</ref></type>
+        <definition>static glTF_VRM_BlendShapeGroup VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="625" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="625" bodyend="660"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ae53b9c84b091e103fdfd829b4333554d" compoundref="_v_r_m_deserializer_8g_8cs" startline="662" endline="670">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a95c045c5aeefdaafaa81c0cea6efeadc" compoundref="_v_r_m_deserializer_8g_8cs" startline="698" endline="706">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a410a2420b89b3f183ec3a83515df8d25" compoundref="_v_r_m_deserializer_8g_8cs" startline="616" endline="624">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ae53b9c84b091e103fdfd829b4333554d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">VRM.glTF_VRM_BlendShapeBind</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_BlendShapeBind&gt; VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="662" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="662" bodyend="670"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1af4edba5c3334221b11716080ce1c780b" compoundref="_v_r_m_deserializer_8g_8cs" startline="671" endline="696">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a53018e6bc7763bdecab87684ad9bfd76" compoundref="_v_r_m_deserializer_8g_8cs" startline="625" endline="660">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1af4edba5c3334221b11716080ce1c780b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">glTF_VRM_BlendShapeBind</ref></type>
+        <definition>static glTF_VRM_BlendShapeBind VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="671" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="671" bodyend="696"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1ae53b9c84b091e103fdfd829b4333554d" compoundref="_v_r_m_deserializer_8g_8cs" startline="662" endline="670">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a95c045c5aeefdaafaa81c0cea6efeadc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind" kindref="compound">VRM.glTF_VRM_MaterialValueBind</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_MaterialValueBind&gt; VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="698" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="698" bodyend="706"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a131dca7578f2b3fae5f622519a5dd8db" compoundref="_v_r_m_deserializer_8g_8cs" startline="707" endline="732">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a53018e6bc7763bdecab87684ad9bfd76" compoundref="_v_r_m_deserializer_8g_8cs" startline="625" endline="660">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a131dca7578f2b3fae5f622519a5dd8db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind" kindref="compound">glTF_VRM_MaterialValueBind</ref></type>
+        <definition>static glTF_VRM_MaterialValueBind VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="707" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="707" bodyend="732"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a65338393b10bd5b5dbbc1c13f726175b" compoundref="_v_r_m_deserializer_8g_8cs" startline="734" endline="743">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a95c045c5aeefdaafaa81c0cea6efeadc" compoundref="_v_r_m_deserializer_8g_8cs" startline="698" endline="706">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a65338393b10bd5b5dbbc1c13f726175b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="734" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="734" bodyend="743"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a131dca7578f2b3fae5f622519a5dd8db" compoundref="_v_r_m_deserializer_8g_8cs" startline="707" endline="732">VRM.VrmDeserializer.Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a798a6c3eefa27c7cbc375f785eb50972" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation" kindref="compound">glTF_VRM_SecondaryAnimation</ref></type>
+        <definition>static glTF_VRM_SecondaryAnimation VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="745" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="745" bodyend="765"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a5bede3fd04d83144b90f3ebc6b0d6ff9" compoundref="_v_r_m_deserializer_8g_8cs" startline="767" endline="775">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ace2ab75195c839f93b861c37b703548c" compoundref="_v_r_m_deserializer_8g_8cs" startline="882" endline="890">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a5bede3fd04d83144b90f3ebc6b0d6ff9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group" kindref="compound">VRM.glTF_VRM_SecondaryAnimationGroup</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_SecondaryAnimationGroup&gt; VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_boneGroups</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="767" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="767" bodyend="775"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" compoundref="_v_r_m_deserializer_8g_8cs" startline="776" endline="831">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a798a6c3eefa27c7cbc375f785eb50972" compoundref="_v_r_m_deserializer_8g_8cs" startline="745" endline="765">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group" kindref="compound">glTF_VRM_SecondaryAnimationGroup</ref></type>
+        <definition>static glTF_VRM_SecondaryAnimationGroup VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_boneGroups_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="776" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="776" bodyend="831"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a4c2ad5e76fb25a0d6c3736fb158e6107" compoundref="_v_r_m_deserializer_8g_8cs" startline="860" endline="869">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__bones</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a426bbeaee82cd2ad8bb85f0293e8fed9" compoundref="_v_r_m_deserializer_8g_8cs" startline="871" endline="880">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__colliderGroups</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a7e3e4fc2b2e71d17bc5f8ad1207c6ed0" compoundref="_v_r_m_deserializer_8g_8cs" startline="833" endline="858">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__gravityDir</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a5bede3fd04d83144b90f3ebc6b0d6ff9" compoundref="_v_r_m_deserializer_8g_8cs" startline="767" endline="775">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a7e3e4fc2b2e71d17bc5f8ad1207c6ed0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__gravityDir</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_boneGroups__gravityDir</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="833" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="833" bodyend="858"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" compoundref="_v_r_m_deserializer_8g_8cs" startline="776" endline="831">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a4c2ad5e76fb25a0d6c3736fb158e6107" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int32[]</type>
+        <definition>static Int32 [] VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__bones</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_boneGroups__bones</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="860" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="860" bodyend="869"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" compoundref="_v_r_m_deserializer_8g_8cs" startline="776" endline="831">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a426bbeaee82cd2ad8bb85f0293e8fed9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int32[]</type>
+        <definition>static Int32 [] VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups__colliderGroups</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_boneGroups__colliderGroups</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="871" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="871" bodyend="880"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" compoundref="_v_r_m_deserializer_8g_8cs" startline="776" endline="831">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_boneGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ace2ab75195c839f93b861c37b703548c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group" kindref="compound">VRM.glTF_VRM_SecondaryAnimationColliderGroup</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_SecondaryAnimationColliderGroup&gt; VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_colliderGroups</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="882" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="882" bodyend="890"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a779300ee9943b4377f5f86660d8287ed" compoundref="_v_r_m_deserializer_8g_8cs" startline="891" endline="911">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a798a6c3eefa27c7cbc375f785eb50972" compoundref="_v_r_m_deserializer_8g_8cs" startline="745" endline="765">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a779300ee9943b4377f5f86660d8287ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group" kindref="compound">glTF_VRM_SecondaryAnimationColliderGroup</ref></type>
+        <definition>static glTF_VRM_SecondaryAnimationColliderGroup VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_colliderGroups_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="891" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="891" bodyend="911"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1afb5d81430dff67c2a8eb828a3f044e4b" compoundref="_v_r_m_deserializer_8g_8cs" startline="913" endline="921">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1ace2ab75195c839f93b861c37b703548c" compoundref="_v_r_m_deserializer_8g_8cs" startline="882" endline="890">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1afb5d81430dff67c2a8eb828a3f044e4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" kindref="compound">VRM.glTF_VRM_SecondaryAnimationCollider</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_SecondaryAnimationCollider&gt; VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="913" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="913" bodyend="921"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a04e782944c7bce65fd71e8c010a2d7fb" compoundref="_v_r_m_deserializer_8g_8cs" startline="922" endline="942">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a779300ee9943b4377f5f86660d8287ed" compoundref="_v_r_m_deserializer_8g_8cs" startline="891" endline="911">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a04e782944c7bce65fd71e8c010a2d7fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" kindref="compound">glTF_VRM_SecondaryAnimationCollider</ref></type>
+        <definition>static glTF_VRM_SecondaryAnimationCollider VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="922" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="922" bodyend="942"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a830fcb89c81ef1788b19c0d3735ec816" compoundref="_v_r_m_deserializer_8g_8cs" startline="944" endline="969">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1afb5d81430dff67c2a8eb828a3f044e4b" compoundref="_v_r_m_deserializer_8g_8cs" startline="913" endline="921">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a830fcb89c81ef1788b19c0d3735ec816" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="944" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="944" bodyend="969"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a04e782944c7bce65fd71e8c010a2d7fb" compoundref="_v_r_m_deserializer_8g_8cs" startline="922" endline="942">VRM.VrmDeserializer.Deserialize_vrm_secondaryAnimation_colliderGroups__colliders_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ad7855927995f9d357289c1f22ce5d549" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material" kindref="compound">VRM.glTF_VRM_Material</ref> &gt;</type>
+        <definition>static List&lt;VRM.glTF_VRM_Material&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="971" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="971" bodyend="979"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" compoundref="_v_r_m_deserializer_8g_8cs" startline="14" endline="64">VRM.VrmDeserializer.Deserialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material" kindref="compound">glTF_VRM_Material</ref></type>
+        <definition>static glTF_VRM_Material VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties_LIST</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="980" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="980" bodyend="1030"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aae7d92f0abc1c242c5bcce61b4d0ae85" compoundref="_v_r_m_deserializer_8g_8cs" startline="1033" endline="1041">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__floatProperties</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1a15a769fa53be60392dc51e52fe51dada" compoundref="_v_r_m_deserializer_8g_8cs" startline="1077" endline="1085">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__keywordMap</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1afcdd62d78c2eae8185b34fdc55483be8" compoundref="_v_r_m_deserializer_8g_8cs" startline="1088" endline="1096">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__tagMap</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ab66a4d66a687cd0cd6ff9224b7e14d1a" compoundref="_v_r_m_deserializer_8g_8cs" startline="1066" endline="1074">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__textureProperties</references>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1aff8ac229526529e70caeee67d8f6b956" compoundref="_v_r_m_deserializer_8g_8cs" startline="1044" endline="1052">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__vectorProperties</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1ad7855927995f9d357289c1f22ce5d549" compoundref="_v_r_m_deserializer_8g_8cs" startline="971" endline="979">VRM.VrmDeserializer.Deserialize_vrm_materialProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aae7d92f0abc1c242c5bcce61b4d0ae85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; String, Single &gt;</type>
+        <definition>static Dictionary&lt;String, Single&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties__floatProperties</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__floatProperties</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1033" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1033" bodyend="1041"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1aff8ac229526529e70caeee67d8f6b956" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; String, Single[]&gt;</type>
+        <definition>static Dictionary&lt;String, Single[]&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties__vectorProperties</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__vectorProperties</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1044" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1044" bodyend="1052"/>
+        <references refid="class_v_r_m_1_1_vrm_deserializer_1ae2a5c5b89bbc440813e5f0991ccc713a" compoundref="_v_r_m_deserializer_8g_8cs" startline="1054" endline="1063">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__vectorProperties_DICT</references>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ae2a5c5b89bbc440813e5f0991ccc713a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Single[]</type>
+        <definition>static Single [] VRM.VrmDeserializer.Deserialize_vrm_materialProperties__vectorProperties_DICT</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__vectorProperties_DICT</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1054" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1054" bodyend="1063"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1aff8ac229526529e70caeee67d8f6b956" compoundref="_v_r_m_deserializer_8g_8cs" startline="1044" endline="1052">VRM.VrmDeserializer.Deserialize_vrm_materialProperties__vectorProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1ab66a4d66a687cd0cd6ff9224b7e14d1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; String, Int32 &gt;</type>
+        <definition>static Dictionary&lt;String, Int32&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties__textureProperties</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__textureProperties</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1066" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1066" bodyend="1074"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1a15a769fa53be60392dc51e52fe51dada" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; String, Boolean &gt;</type>
+        <definition>static Dictionary&lt;String, Boolean&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties__keywordMap</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__keywordMap</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1077" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1077" bodyend="1085"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_vrm_deserializer_1afcdd62d78c2eae8185b34fdc55483be8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; String, String &gt;</type>
+        <definition>static Dictionary&lt;String, String&gt; VRM.VrmDeserializer.Deserialize_vrm_materialProperties__tagMap</definition>
+        <argsstring>(JsonNode parsed)</argsstring>
+        <name>Deserialize_vrm_materialProperties__tagMap</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>parsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="1088" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="1088" bodyend="1096"/>
+        <referencedby refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" compoundref="_v_r_m_deserializer_8g_8cs" startline="980" endline="1030">VRM.VrmDeserializer.Deserialize_vrm_materialProperties_LIST</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMDeserializer.g.cs" bodystart="10" bodyend="1098"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a9e12fc31f8f62ddbef715d992fef4609" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1abe5e526bdc578bcd0efcb2237998edd9" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a410a2420b89b3f183ec3a83515df8d25" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ae53b9c84b091e103fdfd829b4333554d" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1af4edba5c3334221b11716080ce1c780b" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__binds_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a95c045c5aeefdaafaa81c0cea6efeadc" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a65338393b10bd5b5dbbc1c13f726175b" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a131dca7578f2b3fae5f622519a5dd8db" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a53018e6bc7763bdecab87684ad9bfd76" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_blendShapeMaster_blendShapeGroups_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a8df0ed9ff7c82c355abe68d234a1db4f" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1afbea7b0188cfa11b7cecb70062f2c83c" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_firstPersonBoneOffset</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1af06b4bd6ba2dab3b12f2291307a92001" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtHorizontalInner</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1af1441a5cb297c41b2c397e8365c45c6b" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtHorizontalInner_curve</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a017cd0a95dc94fc142d908486a0242b0" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtHorizontalOuter</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ad25c6ab00144f6b5b0f4ec22c3692dcf" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtHorizontalOuter_curve</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a6c862461aa0a88df87a7bf9854b435fb" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtVerticalDown</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ac34a46f015d34d22d628f178b5fb7e5d" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtVerticalDown_curve</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a1d60b4a67483075e24d944a9e6fbb00e" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtVerticalUp</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a8424d6e4f91c47a3cb886df8cc51e15e" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_lookAtVerticalUp_curve</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a7d5e1ab97f52ac963259a156d0dd620f" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_meshAnnotations</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a6c67f239741c6a4c679d86d06b95a853" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_firstPerson_meshAnnotations_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ad0a2bbfe43f169be8bbeea34d9ff8dab" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1adf9504ed659a68c6369a87addc7a3193" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid_humanBones</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aa748608115e1efb7462f611a36b22bd1" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid_humanBones__center</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aa5243286f1837e6e1b7da1f2ed991a4e" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid_humanBones__max</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aac863d72008086e7084a27e8b19579cc" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid_humanBones__min</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a5b90ad39632bf2571750b624186cdcc3" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_humanoid_humanBones_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ad7855927995f9d357289c1f22ce5d549" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aae7d92f0abc1c242c5bcce61b4d0ae85" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__floatProperties</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a15a769fa53be60392dc51e52fe51dada" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__keywordMap</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1afcdd62d78c2eae8185b34fdc55483be8" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__tagMap</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ab66a4d66a687cd0cd6ff9224b7e14d1a" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__textureProperties</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aff8ac229526529e70caeee67d8f6b956" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__vectorProperties</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ae2a5c5b89bbc440813e5f0991ccc713a" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties__vectorProperties_DICT</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a7f079fbac81338f0bb817fc9641a3eb3" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_materialProperties_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ab467fdfef23b74e54dfc0178b557489e" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_meta</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a798a6c3eefa27c7cbc375f785eb50972" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a5bede3fd04d83144b90f3ebc6b0d6ff9" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_boneGroups</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a4c2ad5e76fb25a0d6c3736fb158e6107" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_boneGroups__bones</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a426bbeaee82cd2ad8bb85f0293e8fed9" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_boneGroups__colliderGroups</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a7e3e4fc2b2e71d17bc5f8ad1207c6ed0" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_boneGroups__gravityDir</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1aadbe658a605d83cdb4c6aa09de9bd22f" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_boneGroups_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1ace2ab75195c839f93b861c37b703548c" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_colliderGroups</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1afb5d81430dff67c2a8eb828a3f044e4b" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a830fcb89c81ef1788b19c0d3735ec816" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a04e782944c7bce65fd71e8c010a2d7fb" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_colliderGroups__colliders_LIST</name></member>
+      <member refid="class_v_r_m_1_1_vrm_deserializer_1a779300ee9943b4377f5f86660d8287ed" prot="public" virt="non-virtual"><scope>VRM::VrmDeserializer</scope><name>Deserialize_vrm_secondaryAnimation_colliderGroups_LIST</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

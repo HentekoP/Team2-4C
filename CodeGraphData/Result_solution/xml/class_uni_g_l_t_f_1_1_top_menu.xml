@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_top_menu" kind="class" prot="public">
+    <compoundname>UniGLTF::TopMenu</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_top_menu_1a6c3b52cc8b3df8e180a2af9efa8d0132" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.TopMenu.UserGltfMenuPrefix</definition>
+        <argsstring></argsstring>
+        <name>UserGltfMenuPrefix</name>
+        <initializer>= <ref refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version_1a4b83993bf732d6ce2ab8604626df8645" kindref="member">UniGLTFVersion.MENU</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_top_menu_1a33dda9272987273a794eb81d00073e4a" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.TopMenu.UserMeshUtilityPrefix</definition>
+        <argsstring></argsstring>
+        <name>UserMeshUtilityPrefix</name>
+        <initializer>= <ref refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version_1a4b83993bf732d6ce2ab8604626df8645" kindref="member">UniGLTFVersion.MENU</ref> + &quot;/Mesh Utility&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_top_menu_1a6c75ad71531bc375cff1054846f9c54b" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.TopMenu.DevelopmentMenuPrefix</definition>
+        <argsstring></argsstring>
+        <name>DevelopmentMenuPrefix</name>
+        <initializer>= <ref refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version_1a4b83993bf732d6ce2ab8604626df8645" kindref="member">UniGLTFVersion.MENU</ref> + &quot;/Development&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1a6c5831fe4725860922c9ef5a8d31be62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.TopMenu.ShowVersionValidation</definition>
+        <argsstring>()</argsstring>
+        <name>ShowVersionValidation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1a04aa4b6d409dc29039444bec48669bdc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TopMenu.ShowVersion</definition>
+        <argsstring>()</argsstring>
+        <name>ShowVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1a5ffc484676d294ead94c3d0c6d2fea3e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TopMenu.ExportGameObjectToGltf</definition>
+        <argsstring>()</argsstring>
+        <name>ExportGameObjectToGltf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1a5ec27570ec1cfd04b525bb20bc14289f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TopMenu.ImportGltfFile</definition>
+        <argsstring>()</argsstring>
+        <name>ImportGltfFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1afd00c2ba1c4108d960a07804dafe9136" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TopMenu.OpenMeshProcessingWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OpenMeshProcessingWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_top_menu_1a8f1d8195fbb9ec24bd96fc7f3bcdfb1f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TopMenu.MeshUtilityDocs</definition>
+        <argsstring>()</argsstring>
+        <name>MeshUtilityDocs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>機能をどのようにトップメニューに表示するかどうかだけを記述する. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/TopMenu.cs" bodystart="10" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a6c75ad71531bc375cff1054846f9c54b" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>DevelopmentMenuPrefix</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a5ffc484676d294ead94c3d0c6d2fea3e" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>ExportGameObjectToGltf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a5ec27570ec1cfd04b525bb20bc14289f" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>ImportGltfFile</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a8f1d8195fbb9ec24bd96fc7f3bcdfb1f" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>MeshUtilityDocs</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1afd00c2ba1c4108d960a07804dafe9136" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>OpenMeshProcessingWindow</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a04aa4b6d409dc29039444bec48669bdc" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>ShowVersion</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a6c5831fe4725860922c9ef5a8d31be62" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>ShowVersionValidation</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a6c3b52cc8b3df8e180a2af9efa8d0132" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>UserGltfMenuPrefix</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_top_menu_1a33dda9272987273a794eb81d00073e4a" prot="private" virt="non-virtual"><scope>UniGLTF::TopMenu</scope><name>UserMeshUtilityPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

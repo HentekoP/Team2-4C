@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bvh" kind="class" prot="public">
+    <compoundname>UniHumanoid::Bvh</compoundname>
+    <innerclass refid="struct_uni_humanoid_1_1_bvh_1_1_path_with_property" prot="public">UniHumanoid::Bvh::PathWithProperty</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+        <definition>BvhNode UniHumanoid.Bvh.Root</definition>
+        <argsstring></argsstring>
+        <name>Root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="184" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" compoundref="_bvh_8cs" startline="299" endline="312">UniHumanoid.Bvh.Bvh</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad9a20b823c9a3a608a90a07347464754" compoundref="_skeleton_estimator_8cs" startline="230" endline="235">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a0694c235e05066b9d0cb549c9c09d463" compoundref="_bvh_8cs" startline="273" endline="288">UniHumanoid.Bvh.GetChannel</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1afc6edf6895cd8a5894fb0869f7b449c9" compoundref="_bvh_8cs" startline="260" endline="271">UniHumanoid.Bvh.GetParent</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a55dcd49bafe63754d9099503872ddee8" compoundref="_bvh_8cs" startline="214" endline="241">UniHumanoid.Bvh.TryGetPathWithPropertyFromChannel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_1ab5449359daa7abe2842792d93ee070c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan UniHumanoid.Bvh.FrameTime</definition>
+        <argsstring></argsstring>
+        <name>FrameTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="189" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="190" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a293860a34054a4b610dedc76293e97b5" compoundref="_bvh_animation_clip_8cs" startline="46" endline="59">UniHumanoid.BvhAnimation.CurveSet.AddCurve</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" compoundref="_bvh_8cs" startline="299" endline="312">UniHumanoid.Bvh.Bvh</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_1a1f1480967c030cc279b7d3eaa46b92f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref>[]</type>
+        <definition>ChannelCurve [] UniHumanoid.Bvh.Channels</definition>
+        <argsstring></argsstring>
+        <name>Channels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="195" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="196" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" compoundref="_bvh_8cs" startline="299" endline="312">UniHumanoid.Bvh.Bvh</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a0694c235e05066b9d0cb549c9c09d463" compoundref="_bvh_8cs" startline="273" endline="288">UniHumanoid.Bvh.GetChannel</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a919e4dff0d1c8682090e40e7a3a36167" compoundref="_bvh_8cs" startline="314" endline="325">UniHumanoid.Bvh.ParseFrame</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_1a846424d66040e40ebf04c94a7d6dc14c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.Bvh.FrameCount</definition>
+        <argsstring></argsstring>
+        <name>FrameCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="202" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_1a4b075018887ce7db9f2d3c17dcebf4df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.Bvh.m_frames</definition>
+        <argsstring></argsstring>
+        <name>m_frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="201" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="201" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" compoundref="_bvh_8cs" startline="299" endline="312">UniHumanoid.Bvh.Bvh</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1ab1115dc99a0516f227401ceef29e7aa4" compoundref="_bvh_8cs" startline="290" endline="297">UniHumanoid.Bvh.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1a55dcd49bafe63754d9099503872ddee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniHumanoid.Bvh.TryGetPathWithPropertyFromChannel</definition>
+        <argsstring>(ChannelCurve channel, out PathWithProperty pathWithProp)</argsstring>
+        <name>TryGetPathWithPropertyFromChannel</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_uni_humanoid_1_1_bvh_1_1_path_with_property" kindref="compound">PathWithProperty</ref></type>
+          <declname>pathWithProp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="214" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="214" bodyend="241"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a738a12e3e9035eafcd6ed2dc52c920c0" compoundref="_bvh_8cs" startline="243" endline="258">UniHumanoid.Bvh.GetPath</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+        <references refid="class_uni_humanoid_1_1_bvh_node_1a30fe3ff2f399df952fdd13a78ea26761" compoundref="_bvh_8cs" startline="136" endline="147">UniHumanoid.BvhNode.Traverse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1a738a12e3e9035eafcd6ed2dc52c920c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniHumanoid.Bvh.GetPath</definition>
+        <argsstring>(BvhNode node)</argsstring>
+        <name>GetPath</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="243" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="243" bodyend="258"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1afc6edf6895cd8a5894fb0869f7b449c9" compoundref="_bvh_8cs" startline="260" endline="271">UniHumanoid.Bvh.GetParent</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a55dcd49bafe63754d9099503872ddee8" compoundref="_bvh_8cs" startline="214" endline="241">UniHumanoid.Bvh.TryGetPathWithPropertyFromChannel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1a0694c235e05066b9d0cb549c9c09d463" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.Bvh.GetChannel</definition>
+        <argsstring>(BvhNode target, Channel channel)</argsstring>
+        <name>GetChannel</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_humanoid_1a52e4ea72771751458548dd721f6fc27e" kindref="member">Channel</ref></type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="273" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="273" bodyend="288"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a1f1480967c030cc279b7d3eaa46b92f7" compoundref="_bvh_8cs" startline="196">UniHumanoid.Bvh.Channels</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+        <references refid="class_uni_humanoid_1_1_bvh_node_1a30fe3ff2f399df952fdd13a78ea26761" compoundref="_bvh_8cs" startline="136" endline="147">UniHumanoid.BvhNode.Traverse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1ab1115dc99a0516f227401ceef29e7aa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniHumanoid.Bvh.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="290" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="290" bodyend="297"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b075018887ce7db9f2d3c17dcebf4df" compoundref="_bvh_8cs" startline="201">UniHumanoid.Bvh.m_frames</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.Bvh.Bvh</definition>
+        <argsstring>(BvhNode root, int frames, float seconds)</argsstring>
+        <name>Bvh</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frames</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="299" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="299" bodyend="312"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a1f1480967c030cc279b7d3eaa46b92f7" compoundref="_bvh_8cs" startline="196">UniHumanoid.Bvh.Channels</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1ab5449359daa7abe2842792d93ee070c2" compoundref="_bvh_8cs" startline="190">UniHumanoid.Bvh.FrameTime</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b075018887ce7db9f2d3c17dcebf4df" compoundref="_bvh_8cs" startline="201">UniHumanoid.Bvh.m_frames</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1af56493b791fcfed8779b609eb22cc262" compoundref="_bvh_8cs" startline="327" endline="372">UniHumanoid.Bvh.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1a919e4dff0d1c8682090e40e7a3a36167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.Bvh.ParseFrame</definition>
+        <argsstring>(int frame, string line)</argsstring>
+        <name>ParseFrame</name>
+        <param>
+          <type>int</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="314" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="314" bodyend="325"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a1f1480967c030cc279b7d3eaa46b92f7" compoundref="_bvh_8cs" startline="196">UniHumanoid.Bvh.Channels</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1afc6edf6895cd8a5894fb0869f7b449c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+        <definition>BvhNode UniHumanoid.Bvh.GetParent</definition>
+        <argsstring>(BvhNode node)</argsstring>
+        <name>GetParent</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="260" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="260" bodyend="271"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+        <references refid="class_uni_humanoid_1_1_bvh_node_1a30fe3ff2f399df952fdd13a78ea26761" compoundref="_bvh_8cs" startline="136" endline="147">UniHumanoid.BvhNode.Traverse</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1a738a12e3e9035eafcd6ed2dc52c920c0" compoundref="_bvh_8cs" startline="243" endline="258">UniHumanoid.Bvh.GetPath</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1af56493b791fcfed8779b609eb22cc262" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_bvh" kindref="compound">Bvh</ref></type>
+        <definition>static Bvh UniHumanoid.Bvh.Parse</definition>
+        <argsstring>(string src)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="327" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="327" bodyend="372"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" compoundref="_bvh_8cs" startline="299" endline="312">UniHumanoid.Bvh.Bvh</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1aee0fe51496f4501e7f131c744aab4e99" compoundref="_bvh_8cs" startline="374" endline="443">UniHumanoid.Bvh.ParseNode</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_1aee0fe51496f4501e7f131c744aab4e99" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+        <definition>static BvhNode UniHumanoid.Bvh.ParseNode</definition>
+        <argsstring>(StringReader r, int level=0)</argsstring>
+        <name>ParseNode</name>
+        <param>
+          <type>StringReader</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="374" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="374" bodyend="443"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_1af56493b791fcfed8779b609eb22cc262" compoundref="_bvh_8cs" startline="327" endline="372">UniHumanoid.Bvh.Parse</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="182" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="181" bodyend="444"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_1ab43a8c94a1747993de6676aa494f75b6" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>Bvh</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a1f1480967c030cc279b7d3eaa46b92f7" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>Channels</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a846424d66040e40ebf04c94a7d6dc14c" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>FrameCount</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1ab5449359daa7abe2842792d93ee070c2" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>FrameTime</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a0694c235e05066b9d0cb549c9c09d463" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>GetChannel</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1afc6edf6895cd8a5894fb0869f7b449c9" prot="private" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>GetParent</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a738a12e3e9035eafcd6ed2dc52c920c0" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>GetPath</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a4b075018887ce7db9f2d3c17dcebf4df" prot="private" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>m_frames</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1af56493b791fcfed8779b609eb22cc262" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a919e4dff0d1c8682090e40e7a3a36167" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>ParseFrame</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1aee0fe51496f4501e7f131c744aab4e99" prot="private" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>ParseNode</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>Root</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1ab1115dc99a0516f227401ceef29e7aa4" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>ToString</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_1a55dcd49bafe63754d9099503872ddee8" prot="public" virt="non-virtual"><scope>UniHumanoid::Bvh</scope><name>TryGetPathWithPropertyFromChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

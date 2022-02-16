@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_mesh" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFMesh</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7195ff35f7ad0d64f1c75dbe6f248b3f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.glTFMesh.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1aa4a54cf1b6ca3ae0fdd47df97e2310c9" compoundref="gl_t_f_mesh_8cs" startline="121" endline="124">UniGLTF.glTFMesh.glTFMesh</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a386e33fd500442ef461af3c1279c3867" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" kindref="compound">glTFPrimitives</ref> &gt;</type>
+        <definition>List&lt;glTFPrimitives&gt; UniGLTF.glTFMesh.primitives</definition>
+        <argsstring></argsstring>
+        <name>primitives</name>
+        <initializer>= new List&lt;<ref refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" kindref="compound">glTFPrimitives</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="106" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="106" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf__mesh__extras__target_names_1a8be75fdb1d8656de9445d579bd6fe8fa" compoundref="gltf__mesh__extras__target_names_8cs" startline="34" endline="78">UniGLTF.gltf_mesh_extras_targetNames.TryGet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7d7006f932e5d36fb50b3d5bcbbc39ec" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] UniGLTF.glTFMesh.weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="109" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a1f0b8a9ae09ab1425682dbf1adca8aba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFMesh.extras</definition>
+        <argsstring></argsstring>
+        <name>extras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="112" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf__mesh__extras__target_names_1a8be75fdb1d8656de9445d579bd6fe8fa" compoundref="gltf__mesh__extras__target_names_8cs" startline="34" endline="78">UniGLTF.gltf_mesh_extras_targetNames.TryGet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a98605aa2137bc03f6e834d7673ac2947" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFMesh.extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="115" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a11ebab5dcf12a141a9d811d8b103d631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.glTFMesh.glTFMesh</definition>
+        <argsstring>()</argsstring>
+        <name>glTFMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_mesh_1aa4a54cf1b6ca3ae0fdd47df97e2310c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.glTFMesh.glTFMesh</definition>
+        <argsstring>(string _name)</argsstring>
+        <name>glTFMesh</name>
+        <param>
+          <type>string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="121" bodyend="124"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7195ff35f7ad0d64f1c75dbe6f248b3f" compoundref="gl_t_f_mesh_8cs" startline="103">UniGLTF.glTFMesh.name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1070">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="1069">
+        <label>UniGLTF.glTFMesh</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_mesh"/>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMesh.cs" bodystart="101" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a98605aa2137bc03f6e834d7673ac2947" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>extensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a1f0b8a9ae09ab1425682dbf1adca8aba" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>extras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a11ebab5dcf12a141a9d811d8b103d631" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>glTFMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1aa4a54cf1b6ca3ae0fdd47df97e2310c9" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>glTFMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7195ff35f7ad0d64f1c75dbe6f248b3f" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>name</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a386e33fd500442ef461af3c1279c3867" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>primitives</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7d7006f932e5d36fb50b3d5bcbbc39ec" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMesh</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

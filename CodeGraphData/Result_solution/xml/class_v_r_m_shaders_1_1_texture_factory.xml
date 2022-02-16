@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_texture_factory" kind="class" prot="public">
+    <compoundname>VRMShaders::TextureFactory</compoundname>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" prot="public" virt="non-virtual">VRMShaders.IResponsibilityForDestroyObjects</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_factory_1a1c6610fb77c72f436970d55890dd3a37" prot="private" static="no" mutable="no">
+        <type>readonly IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+        <definition>readonly IReadOnlyDictionary&lt;SubAssetKey, Texture&gt; VRMShaders.TextureFactory._externalMap</definition>
+        <argsstring></argsstring>
+        <name>_externalMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1a8ba84a286bec09aeab6903c15b4d079d" compoundref="_texture_factory_8cs" startline="59" endline="145">VRMShaders.TextureFactory.GetTextureAsync</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1adc243b1f6cc680eca6085e602b687bd4" compoundref="_texture_factory_8cs" startline="27" endline="35">VRMShaders.TextureFactory.TextureFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_factory_1ac9a12633a258beff23464aca15f4ff24" prot="private" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool VRMShaders.TextureFactory._isLegacySquaredRoughness</definition>
+        <argsstring></argsstring>
+        <name>_isLegacySquaredRoughness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1a8ba84a286bec09aeab6903c15b4d079d" compoundref="_texture_factory_8cs" startline="59" endline="145">VRMShaders.TextureFactory.GetTextureAsync</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1adc243b1f6cc680eca6085e602b687bd4" compoundref="_texture_factory_8cs" startline="27" endline="35">VRMShaders.TextureFactory.TextureFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_factory_1a785cc9a5eb28bea858bb36c0a1cda88b" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+        <definition>readonly Dictionary&lt;SubAssetKey, Texture&gt; VRMShaders.TextureFactory._textureCache</definition>
+        <argsstring></argsstring>
+        <name>_textureCache</name>
+        <initializer>= new Dictionary&lt;<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1a8ba84a286bec09aeab6903c15b4d079d" compoundref="_texture_factory_8cs" startline="59" endline="145">VRMShaders.TextureFactory.GetTextureAsync</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1ab73259d6f0b69342fa592d73697649e8" compoundref="_texture_factory_8cs" startline="46" endline="53">VRMShaders.TextureFactory.TransferOwnership</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_shaders_1_1_texture_factory_1a70a155ad3fc364d95194ddfe03ed081a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_deserializer" kindref="compound">ITextureDeserializer</ref></type>
+        <definition>ITextureDeserializer VRMShaders.TextureFactory.TextureDeserializer</definition>
+        <argsstring></argsstring>
+        <name>TextureDeserializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_factory_1adc243b1f6cc680eca6085e602b687bd4" compoundref="_texture_factory_8cs" startline="27" endline="35">VRMShaders.TextureFactory.TextureFactory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_factory_1a1c927c1f83d147a55253acba8a6e116c" prot="public" static="no" mutable="no">
+        <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+        <definition>IReadOnlyDictionary&lt;SubAssetKey, Texture&gt; VRMShaders.TextureFactory.ConvertedTextures</definition>
+        <argsstring></argsstring>
+        <name>ConvertedTextures</name>
+        <initializer>=&gt; <ref refid="class_v_r_m_shaders_1_1_texture_factory_1a785cc9a5eb28bea858bb36c0a1cda88b" kindref="member">_textureCache</ref></initializer>
+        <briefdescription>
+<para>Importer が動的に生成した Texture </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_factory_1ab38733bcaedccc50ae950d6517a94799" prot="public" static="no" mutable="no">
+        <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+        <definition>IReadOnlyDictionary&lt;SubAssetKey, Texture&gt; VRMShaders.TextureFactory.ExternalTextures</definition>
+        <argsstring></argsstring>
+        <name>ExternalTextures</name>
+        <initializer>=&gt; <ref refid="class_v_r_m_shaders_1_1_texture_factory_1a1c6610fb77c72f436970d55890dd3a37" kindref="member">_externalMap</ref></initializer>
+        <briefdescription>
+<para>外部から渡された、すでに存在する Texture (ex. Extracted Editor Asset) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_factory_1adc243b1f6cc680eca6085e602b687bd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.TextureFactory.TextureFactory</definition>
+        <argsstring>(ITextureDeserializer textureDeserializer, IReadOnlyDictionary&lt; SubAssetKey, Texture &gt; externalTextures, bool isLegacySquaredRoughness)</argsstring>
+        <name>TextureFactory</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_deserializer" kindref="compound">ITextureDeserializer</ref></type>
+          <declname>textureDeserializer</declname>
+        </param>
+        <param>
+          <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+          <declname>externalTextures</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isLegacySquaredRoughness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="27" bodyend="35"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1a1c6610fb77c72f436970d55890dd3a37" compoundref="_texture_factory_8cs" startline="11">VRMShaders.TextureFactory._externalMap</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1ac9a12633a258beff23464aca15f4ff24" compoundref="_texture_factory_8cs" startline="12">VRMShaders.TextureFactory._isLegacySquaredRoughness</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1a70a155ad3fc364d95194ddfe03ed081a" compoundref="_texture_factory_8cs" startline="15">VRMShaders.TextureFactory.TextureDeserializer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_factory_1acca0f24a068cd977f4aca654d158fe7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TextureFactory.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_factory_1ab73259d6f0b69342fa592d73697649e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TextureFactory.TransferOwnership</definition>
+        <argsstring>(TakeResponsibilityForDestroyObjectFunc take)</argsstring>
+        <name>TransferOwnership</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a">TransferOwnership</reimplements>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" kindref="member">TakeResponsibilityForDestroyObjectFunc</ref></type>
+          <declname>take</declname>
+        </param>
+        <briefdescription>
+<para>所有権(Dispose権)を移譲する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>take</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="46" bodyend="53"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1a785cc9a5eb28bea858bb36c0a1cda88b" compoundref="_texture_factory_8cs" startline="13">VRMShaders.TextureFactory._textureCache</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_factory_1a8ba84a286bec09aeab6903c15b4d079d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Texture &gt;</type>
+        <definition>async Task&lt;Texture&gt; VRMShaders.TextureFactory.GetTextureAsync</definition>
+        <argsstring>(TextureDescriptor texDesc, IAwaitCaller awaitCaller)</argsstring>
+        <name>GetTextureAsync</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref></type>
+          <declname>texDesc</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <briefdescription>
+<para>テクスチャ生成情報を基に、テクスチャ生成を行う。 <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref> が同じ場合はキャッシュを返す。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="59" bodyend="145"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1a1c6610fb77c72f436970d55890dd3a37" compoundref="_texture_factory_8cs" startline="11">VRMShaders.TextureFactory._externalMap</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1ac9a12633a258beff23464aca15f4ff24" compoundref="_texture_factory_8cs" startline="12">VRMShaders.TextureFactory._isLegacySquaredRoughness</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_factory_1a785cc9a5eb28bea858bb36c0a1cda88b" compoundref="_texture_factory_8cs" startline="13">VRMShaders.TextureFactory._textureCache</references>
+        <references refid="struct_v_r_m_shaders_1_1_texture_descriptor_1a1d5d7abd35934e8f4f0952cfbaa20649" compoundref="_texture_descriptor_8cs" startline="35">VRMShaders.TextureDescriptor.Index0</references>
+        <references refid="struct_v_r_m_shaders_1_1_texture_descriptor_1a5c41207cabec24c9492f73716725590b" compoundref="_texture_descriptor_8cs" startline="36">VRMShaders.TextureDescriptor.Index1</references>
+        <references refid="struct_v_r_m_shaders_1_1_texture_descriptor_1a4c54f061d45b09f423a5ff23ec75bdc3" compoundref="_texture_descriptor_8cs" startline="27">VRMShaders.TextureDescriptor.Sampler</references>
+        <references refid="struct_v_r_m_shaders_1_1_texture_descriptor_1a3287b05fd8bfaf85c0a463de13256b0b" compoundref="_texture_descriptor_8cs" startline="29">VRMShaders.TextureDescriptor.TextureType</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2358">
+        <label>IDisposable</label>
+      </node>
+      <node id="2356">
+        <label>VRMShaders.TextureFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_factory"/>
+        <childnode refid="2357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2357">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2358" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2361">
+        <label>IDisposable</label>
+      </node>
+      <node id="2359">
+        <label>VRMShaders.TextureFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_factory"/>
+        <childnode refid="2360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2360">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2361" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureFactory.cs" bodystart="9" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1a1c6610fb77c72f436970d55890dd3a37" prot="private" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>_externalMap</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1ac9a12633a258beff23464aca15f4ff24" prot="private" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>_isLegacySquaredRoughness</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1a785cc9a5eb28bea858bb36c0a1cda88b" prot="private" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>_textureCache</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1a1c927c1f83d147a55253acba8a6e116c" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>ConvertedTextures</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1acca0f24a068cd977f4aca654d158fe7c" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1ab38733bcaedccc50ae950d6517a94799" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>ExternalTextures</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1a8ba84a286bec09aeab6903c15b4d079d" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>GetTextureAsync</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1a70a155ad3fc364d95194ddfe03ed081a" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>TextureDeserializer</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1adc243b1f6cc680eca6085e602b687bd4" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>TextureFactory</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_factory_1ab73259d6f0b69342fa592d73697649e8" prot="public" virt="non-virtual"><scope>VRMShaders::TextureFactory</scope><name>TransferOwnership</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

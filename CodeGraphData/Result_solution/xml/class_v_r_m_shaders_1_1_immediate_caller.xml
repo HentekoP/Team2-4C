@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_immediate_caller" kind="class" prot="public">
+    <compoundname>VRMShaders::ImmediateCaller</compoundname>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_await_caller" prot="public" virt="non-virtual">VRMShaders.IAwaitCaller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_immediate_caller_1a8fb5fc4c6727c7bbaebfc6d0f90be159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task VRMShaders.ImmediateCaller.NextFrame</definition>
+        <argsstring>()</argsstring>
+        <name>NextFrame</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1a7142ea2566964c6bdc118cb8de5ba741">NextFrame</reimplements>
+        <briefdescription>
+<para>フレームレートを維持するために１フレーム待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_immediate_caller_1a48aea7e4f9a36b401fcc467c452b5ded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task VRMShaders.ImmediateCaller.Run</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>Run</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1a9f2343d8aedbab0280dce09597da9503">Run</reimplements>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>非同期に実行して、終了を待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_immediate_caller_1a0441c26e33bd06add2275ca17f820f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; VRMShaders.ImmediateCaller.Run&lt; T &gt;</definition>
+        <argsstring>(Func&lt; T &gt; action)</argsstring>
+        <name>Run&lt; T &gt;</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1ab23412ff0964c8a29c5d085e16bb1e9c">Run&lt; T &gt;</reimplements>
+        <param>
+          <type>Func&lt; T &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>非同期に実行して、終了を待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>同期実行 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1279">
+        <label>IAwaitCaller</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_await_caller"/>
+      </node>
+      <node id="1278">
+        <label>VRMShaders.ImmediateCaller</label>
+        <link refid="class_v_r_m_shaders_1_1_immediate_caller"/>
+        <childnode refid="1279" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1281">
+        <label>IAwaitCaller</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_await_caller"/>
+      </node>
+      <node id="1280">
+        <label>VRMShaders.ImmediateCaller</label>
+        <link refid="class_v_r_m_shaders_1_1_immediate_caller"/>
+        <childnode refid="1281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/ImmediateCaller.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_immediate_caller_1a8fb5fc4c6727c7bbaebfc6d0f90be159" prot="public" virt="non-virtual"><scope>VRMShaders::ImmediateCaller</scope><name>NextFrame</name></member>
+      <member refid="class_v_r_m_shaders_1_1_immediate_caller_1a48aea7e4f9a36b401fcc467c452b5ded" prot="public" virt="non-virtual"><scope>VRMShaders::ImmediateCaller</scope><name>Run</name></member>
+      <member refid="class_v_r_m_shaders_1_1_immediate_caller_1a0441c26e33bd06add2275ca17f820f15" prot="public" virt="non-virtual"><scope>VRMShaders::ImmediateCaller</scope><name>Run&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

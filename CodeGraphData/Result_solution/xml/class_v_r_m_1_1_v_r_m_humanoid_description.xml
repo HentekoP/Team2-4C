@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_humanoid_description" kind="class" prot="public">
+    <compoundname>VRM::VRMHumanoidDescription</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_humanoid_description_1a6010b24b917ae76f0eef654f51a6bf07" prot="public" static="no" mutable="no">
+        <type>Avatar</type>
+        <definition>Avatar VRM.VRMHumanoidDescription.Avatar</definition>
+        <argsstring></argsstring>
+        <name>Avatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a04735c6c9884b5cf7a5e419da3629eed" compoundref="_v_r_m_humanoid_description_8cs" startline="14" endline="31">VRM.VRMHumanoidDescription.GetDescription</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a006917cbb93609d08696675dc242546a" compoundref="_v_r_m_humanoid_description_8cs" startline="33" endline="39">VRM.VRMHumanoidDescription.OnValidate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a98d2273e4db7ba79efb58a5c38da1e17" compoundref="_v_r_m_humanoid_description_8cs" startline="41" endline="54">VRM.VRMHumanoidDescription.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_humanoid_description_1a59e9603d8ea392c324d4db841b6cec13" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">UniHumanoid.AvatarDescription</ref></type>
+        <definition>UniHumanoid.AvatarDescription VRM.VRMHumanoidDescription.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a04735c6c9884b5cf7a5e419da3629eed" compoundref="_v_r_m_humanoid_description_8cs" startline="14" endline="31">VRM.VRMHumanoidDescription.GetDescription</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_description_1a04735c6c9884b5cf7a5e419da3629eed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">UniHumanoid.AvatarDescription</ref></type>
+        <definition>UniHumanoid.AvatarDescription VRM.VRMHumanoidDescription.GetDescription</definition>
+        <argsstring>(out bool isCreated)</argsstring>
+        <name>GetDescription</name>
+        <param>
+          <type>out bool</type>
+          <declname>isCreated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="14" bodyend="31"/>
+        <references refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a6010b24b917ae76f0eef654f51a6bf07" compoundref="_v_r_m_humanoid_description_8cs" startline="9">VRM.VRMHumanoidDescription.Avatar</references>
+        <references refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a59e9603d8ea392c324d4db841b6cec13" compoundref="_v_r_m_humanoid_description_8cs" startline="12">VRM.VRMHumanoidDescription.Description</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_description_1a006917cbb93609d08696675dc242546a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMHumanoidDescription.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="33" bodyend="39"/>
+        <references refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a6010b24b917ae76f0eef654f51a6bf07" compoundref="_v_r_m_humanoid_description_8cs" startline="9">VRM.VRMHumanoidDescription.Avatar</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_description_1a98d2273e4db7ba79efb58a5c38da1e17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMHumanoidDescription.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="41" bodyend="54"/>
+        <references refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a6010b24b917ae76f0eef654f51a6bf07" compoundref="_v_r_m_humanoid_description_8cs" startline="9">VRM.VRMHumanoidDescription.Avatar</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2757">
+        <label>VRM.VRMHumanoidDescription</label>
+        <link refid="class_v_r_m_1_1_v_r_m_humanoid_description"/>
+        <childnode refid="2758" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2758">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2759">
+        <label>VRM.VRMHumanoidDescription</label>
+        <link refid="class_v_r_m_1_1_v_r_m_humanoid_description"/>
+        <childnode refid="2760" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2761" relation="usage">
+          <edgelabel>Description</edgelabel>
+        </childnode>
+      </node>
+      <node id="2761">
+        <label>UniHumanoid</label>
+      </node>
+      <node id="2760">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Humanoid/VRMHumanoidDescription.cs" bodystart="6" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a6010b24b917ae76f0eef654f51a6bf07" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidDescription</scope><name>Avatar</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a59e9603d8ea392c324d4db841b6cec13" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidDescription</scope><name>Description</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a04735c6c9884b5cf7a5e419da3629eed" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidDescription</scope><name>GetDescription</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a006917cbb93609d08696675dc242546a" prot="private" virt="non-virtual"><scope>VRM::VRMHumanoidDescription</scope><name>OnValidate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_description_1a98d2273e4db7ba79efb58a5c38da1e17" prot="private" virt="non-virtual"><scope>VRM::VRMHumanoidDescription</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders" kind="class" prot="public">
+    <compoundname>UniGLTF::ShaderPropExporter::PreExportShaders</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.ShaderPropExporter.PreExportShaders.GLTF_FOLDER</definition>
+        <argsstring></argsstring>
+        <name>GLTF_FOLDER</name>
+        <initializer>= &quot;GLTF&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.ShaderPropExporter.PreExportShaders.VRM_TARGET_FOLDER</definition>
+        <argsstring></argsstring>
+        <name>VRM_TARGET_FOLDER</name>
+        <initializer>= &quot;VRM&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/VRM/PreExportShaders_VRM.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/VRM/PreExportShaders_VRM.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1ae8e116b8f559a0980c387c5a067bd166" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>[]</type>
+        <definition>SupportedShader [] UniGLTF.ShaderPropExporter.PreExportShaders.SupportedShaders</definition>
+        <argsstring></argsstring>
+        <name>SupportedShaders</name>
+        <initializer>= new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>[]
+        {
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;Standard&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;Unlit/<ref refid="namespace_uni_g_l_t_f_1_1_shader_prop_exporter_1a8226cdbccaa33e8456d7f01c3e424e3eacb5feb1b7314637725a2e73bdc9f7295" kindref="member">Color</ref>&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;Unlit/Texture&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;Unlit/Transparent&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;Unlit/Transparent Cutout&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" kindref="member">GLTF_FOLDER</ref>, &quot;UniGLTF/UniUnlit&quot;),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1acbb75fe40b23b8b921513ff569b00a89" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>[]</type>
+        <definition>SupportedShader [] UniGLTF.ShaderPropExporter.PreExportShaders.VRMSupportedShaders</definition>
+        <argsstring></argsstring>
+        <name>VRMSupportedShaders</name>
+        <initializer>= new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>[]
+        {
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" kindref="member">VRM_TARGET_FOLDER</ref>, &quot;VRM/MToon&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" kindref="member">VRM_TARGET_FOLDER</ref>, &quot;VRM/UnlitTexture&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" kindref="member">VRM_TARGET_FOLDER</ref>, &quot;VRM/UnlitCutout&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" kindref="member">VRM_TARGET_FOLDER</ref>, &quot;VRM/UnlitTransparent&quot;),
+            new <ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref>(<ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" kindref="member">VRM_TARGET_FOLDER</ref>, &quot;VRM/UnlitTransparentZWrite&quot;),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/VRM/PreExportShaders_VRM.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/VRM/PreExportShaders_VRM.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1994">
+        <label>UniGLTF.ShaderPropExporter.SupportedShader</label>
+        <link refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader"/>
+      </node>
+      <node id="1993">
+        <label>UniGLTF.ShaderPropExporter.PreExportShaders</label>
+        <link refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders"/>
+        <childnode refid="1994" relation="usage">
+          <edgelabel>VRMSupportedShaders</edgelabel>
+          <edgelabel>SupportedShaders</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Runtime/GLTF/PreExportShaders_GLTF.cs" bodystart="3" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a263efb858a4f5289d4bcdb39048f343f" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropExporter::PreExportShaders</scope><name>GLTF_FOLDER</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1ae8e116b8f559a0980c387c5a067bd166" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropExporter::PreExportShaders</scope><name>SupportedShaders</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1a2e2028d785efb714a57fdde6e401c859" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropExporter::PreExportShaders</scope><name>VRM_TARGET_FOLDER</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_export_shaders_1acbb75fe40b23b8b921513ff569b00a89" prot="public" virt="non-virtual"><scope>UniGLTF::ShaderPropExporter::PreExportShaders</scope><name>VRMSupportedShaders</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

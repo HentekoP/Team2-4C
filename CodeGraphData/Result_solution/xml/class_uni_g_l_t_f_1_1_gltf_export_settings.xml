@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_export_settings" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfExportSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1a7be97fc090608d0d61449d1fb96e23b3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505df" kindref="member">Axes</ref></type>
+        <definition>Axes UniGLTF.GltfExportSettings.InverseAxis</definition>
+        <argsstring></argsstring>
+        <name>InverseAxis</name>
+        <initializer>= Axes.Z</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a41d6f9fb13062df3f2a18d17f92c8c7e" compoundref="_v_r_m_exporter_8cs" startline="28" endline="36">VRM.VRMExporter.VRMExporter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1a1c862434c8f3a2e2eeef4fd602550fcd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.DivideVertexBuffer</definition>
+        <argsstring></argsstring>
+        <name>DivideVertexBuffer</name>
+        <briefdescription>
+<para><ulink url="https://github.com/vrm-c/UniVRM/issues/800">https://github.com/vrm-c/UniVRM/issues/800</ulink> </para>        </briefdescription>
+        <detaileddescription>
+<para>VertexBuffer を共有バッファ方式にする UniVRM-0.71.0 までの挙動 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1ab6f36a46883d0ca8643d834dbca2780e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.UseSparseAccessorForMorphTarget</definition>
+        <argsstring></argsstring>
+        <name>UseSparseAccessorForMorphTarget</name>
+        <briefdescription>
+<para>MorphTarget に Sparse Accessor を使う </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1a2f354e575a4592e63da55058a2a7b66f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.ExportOnlyBlendShapePosition</definition>
+        <argsstring></argsstring>
+        <name>ExportOnlyBlendShapePosition</name>
+        <briefdescription>
+<para>MorphTarget を Position だけにする(normal とか捨てる) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1a9696174a6642b04c3974f2053bb1e370" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.ExportTangents</definition>
+        <argsstring></argsstring>
+        <name>ExportTangents</name>
+        <briefdescription>
+<para>tangent を出力する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1a3fb82b7ba2486f85b1161342c26d0376" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.UseEmissiveMultiplier</definition>
+        <argsstring></argsstring>
+        <name>UseEmissiveMultiplier</name>
+        <briefdescription>
+<para>VRMC_materials_hdr_emissiveMultiplier </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1aa65ec63195f24f456958ebce8c0d15bf" compoundref="_material_exporter_8cs" startline="19" endline="31">UniGLTF.MaterialExporter.ExportMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_settings_1abfb7adbf1e481a2e7489f568ffc48db6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.GltfExportSettings.KeepVertexColor</definition>
+        <argsstring></argsstring>
+        <name>KeepVertexColor</name>
+        <briefdescription>
+<para>Keep VertexColor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfExportSettings.cs" bodystart="8" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a1c862434c8f3a2e2eeef4fd602550fcd" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>DivideVertexBuffer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a2f354e575a4592e63da55058a2a7b66f" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>ExportOnlyBlendShapePosition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a9696174a6642b04c3974f2053bb1e370" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>ExportTangents</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a7be97fc090608d0d61449d1fb96e23b3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>InverseAxis</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1abfb7adbf1e481a2e7489f568ffc48db6" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>KeepVertexColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a3fb82b7ba2486f85b1161342c26d0376" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>UseEmissiveMultiplier</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1ab6f36a46883d0ca8643d834dbca2780e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportSettings</scope><name>UseSparseAccessorForMorphTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

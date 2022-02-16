@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests" kind="class" prot="public">
+    <compoundname>UniGLTF::UniGLTFTests</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1_1_cant_construct" prot="private">UniGLTF::UniGLTFTests::CantConstruct</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1_1_dummy" prot="private">UniGLTF::UniGLTFTests::Dummy</innerclass>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad7e386eb89eabc524907334136665961" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject UniGLTF.UniGLTFTests.CreateSimpleScene</definition>
+        <argsstring>()</argsstring>
+        <name>CreateSimpleScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="65" bodyend="74"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aba8791a08c273501967d597c23d714cd" compoundref="_uni_g_l_t_f_tests_8cs" startline="295" endline="369">UniGLTF.UniGLTFTests.GlTFToJsonTest</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a301e7cdfb91d087b8ca4810ca4d53a54" compoundref="_uni_g_l_t_f_tests_8cs" startline="98" endline="126">UniGLTF.UniGLTFTests.UniGLTFSimpleSceneTest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a4b5b91b633b5b29b999d2b484a4330a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.AssertAreEqual</definition>
+        <argsstring>(Transform go, Transform other)</argsstring>
+        <name>AssertAreEqual</name>
+        <param>
+          <type>Transform</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="76" bodyend="95"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a301e7cdfb91d087b8ca4810ca4d53a54" compoundref="_uni_g_l_t_f_tests_8cs" startline="98" endline="126">UniGLTF.UniGLTFTests.UniGLTFSimpleSceneTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ac830b901adbcd4c1626250d7f78e7436" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.BufferTest</definition>
+        <argsstring>(int init, params int[] size)</argsstring>
+        <name>BufferTest</name>
+        <param>
+          <type>int</type>
+          <declname>init</declname>
+        </param>
+        <param>
+          <type>params int[]</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="128" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a301e7cdfb91d087b8ca4810ca4d53a54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.UniGLTFSimpleSceneTest</definition>
+        <argsstring>()</argsstring>
+        <name>UniGLTFSimpleSceneTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="98" bodyend="126"/>
+        <references refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a4b5b91b633b5b29b999d2b484a4330a1" compoundref="_uni_g_l_t_f_tests_8cs" startline="76" endline="95">UniGLTF.UniGLTFTests.AssertAreEqual</references>
+        <references refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad7e386eb89eabc524907334136665961" compoundref="_uni_g_l_t_f_tests_8cs" startline="65" endline="74">UniGLTF.UniGLTFTests.CreateSimpleScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aa9196ac20b36245d1191ac9f5cc32aca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.BufferTest</definition>
+        <argsstring>()</argsstring>
+        <name>BufferTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="151" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="151" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a09b479b2fe0b0c42645d9efd605a6bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.UnityPathTest</definition>
+        <argsstring>()</argsstring>
+        <name>UnityPathTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="164" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a2543c29a7fe1b6b535469f5fdd6cdd09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.VersionChecker</definition>
+        <argsstring>()</argsstring>
+        <name>VersionChecker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="186" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="186" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a4e750eff5770beed55aad3a5ce5f26cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.MeshTest</definition>
+        <argsstring>()</argsstring>
+        <name>MeshTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="197" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a145efc51068bb8ec554dbf6b9f0b1752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.PrimitiveTest</definition>
+        <argsstring>()</argsstring>
+        <name>PrimitiveTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="220" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="220" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a9afab65645a33aa4faccfc02b9185a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.AttributesTest</definition>
+        <argsstring>()</argsstring>
+        <name>AttributesTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="238" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="238" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a53ba3011c4b933eeb9e0e8b561507580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.TextureInfoTest</definition>
+        <argsstring>()</argsstring>
+        <name>TextureInfoTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="251" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="251" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae8c5cd7626119aa00463d4ddac72a885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.TextureInfoTestError</definition>
+        <argsstring>()</argsstring>
+        <name>TextureInfoTestError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="264" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="264" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a831534e16e2ec4f246f01ff4dfc6dc50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.MaterialTest</definition>
+        <argsstring>()</argsstring>
+        <name>MaterialTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="270" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="270" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a26afc0097c1f0d7b3205e9df3436396d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.MaterialAlphaTest</definition>
+        <argsstring>()</argsstring>
+        <name>MaterialAlphaTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="284" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="284" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aba8791a08c273501967d597c23d714cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.GlTFToJsonTest</definition>
+        <argsstring>()</argsstring>
+        <name>GlTFToJsonTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="295" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="295" bodyend="369"/>
+        <references refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad7e386eb89eabc524907334136665961" compoundref="_uni_g_l_t_f_tests_8cs" startline="65" endline="74">UniGLTF.UniGLTFTests.CreateSimpleScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1afc4f9eebb498057c404c3cf962786253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.MaterialTestError</definition>
+        <argsstring>()</argsstring>
+        <name>MaterialTestError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="371" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="371" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a2d81655ef071f936e8a2ba1642c8a375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.NodeTest</definition>
+        <argsstring>()</argsstring>
+        <name>NodeTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="381" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="381" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae5f435fed5e584f8f100654c7bdae6be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.NodeMeshTest</definition>
+        <argsstring>()</argsstring>
+        <name>NodeMeshTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="396" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="396" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae1cbf2e673371cd78d0e6ae5390a13a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.NodeTestError</definition>
+        <argsstring>()</argsstring>
+        <name>NodeTestError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="408" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="408" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1acc16ac1c072a98d64e6166a7f1c36b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.SkinTest</definition>
+        <argsstring>()</argsstring>
+        <name>SkinTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="418" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="418" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aaed811f3f3b130e256f9a1f8635fa443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.SkinTestEmptyName</definition>
+        <argsstring>()</argsstring>
+        <name>SkinTestEmptyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="433" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="433" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aca618449308373a4ca2f48997a569814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.SkinTestErrorNull</definition>
+        <argsstring>()</argsstring>
+        <name>SkinTestErrorNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="449" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="449" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a147db2ce0eb594e9229e231836b24854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.SkinTestError</definition>
+        <argsstring>()</argsstring>
+        <name>SkinTestError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="459" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="459" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a101e60d43db596a49b5186eb315bb1b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.AssetsTest</definition>
+        <argsstring>()</argsstring>
+        <name>AssetsTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="469" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="469" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a21c54de321d3ed09044e5bbe48bbad02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.AssetsTestError</definition>
+        <argsstring>()</argsstring>
+        <name>AssetsTestError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="482" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="482" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad8e02a085f3571c20ee8d94ce7f5e121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.GLTFTest</definition>
+        <argsstring>()</argsstring>
+        <name>GLTFTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="492" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="492" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aaa69d32abc12ee44efbf5dd9534dd782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.SameMeshButDifferentMaterialExport</definition>
+        <argsstring>()</argsstring>
+        <name>SameMeshButDifferentMaterialExport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="504" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="504" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a28c1b38f6eba285f3e405186752c2c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.MeshHasNoRendererTest</definition>
+        <argsstring>()</argsstring>
+        <name>MeshHasNoRendererTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="598" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="598" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae330587444122751812074d8bd7909ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.ExportingNullMeshTest</definition>
+        <argsstring>()</argsstring>
+        <name>ExportingNullMeshTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="646" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="646" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a3391d233204c82ad3e4653abac657c81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.UniGLTFTests.JsonUtilityTest</definition>
+        <argsstring>()</argsstring>
+        <name>JsonUtilityTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="734" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="734" bodyend="739"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/UniGLTFTests.cs" bodystart="63" bodyend="740"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a4b5b91b633b5b29b999d2b484a4330a1" prot="private" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>AssertAreEqual</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a101e60d43db596a49b5186eb315bb1b9" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>AssetsTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a21c54de321d3ed09044e5bbe48bbad02" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>AssetsTestError</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a9afab65645a33aa4faccfc02b9185a11" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>AttributesTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ac830b901adbcd4c1626250d7f78e7436" prot="private" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>BufferTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aa9196ac20b36245d1191ac9f5cc32aca" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>BufferTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad7e386eb89eabc524907334136665961" prot="private" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>CreateSimpleScene</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae330587444122751812074d8bd7909ca" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>ExportingNullMeshTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ad8e02a085f3571c20ee8d94ce7f5e121" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>GLTFTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aba8791a08c273501967d597c23d714cd" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>GlTFToJsonTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a3391d233204c82ad3e4653abac657c81" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>JsonUtilityTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a26afc0097c1f0d7b3205e9df3436396d" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>MaterialAlphaTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a831534e16e2ec4f246f01ff4dfc6dc50" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>MaterialTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1afc4f9eebb498057c404c3cf962786253" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>MaterialTestError</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a28c1b38f6eba285f3e405186752c2c3e" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>MeshHasNoRendererTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a4e750eff5770beed55aad3a5ce5f26cb" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>MeshTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae5f435fed5e584f8f100654c7bdae6be" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>NodeMeshTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a2d81655ef071f936e8a2ba1642c8a375" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>NodeTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae1cbf2e673371cd78d0e6ae5390a13a4" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>NodeTestError</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a145efc51068bb8ec554dbf6b9f0b1752" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>PrimitiveTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aaa69d32abc12ee44efbf5dd9534dd782" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>SameMeshButDifferentMaterialExport</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1acc16ac1c072a98d64e6166a7f1c36b30" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>SkinTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aaed811f3f3b130e256f9a1f8635fa443" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>SkinTestEmptyName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a147db2ce0eb594e9229e231836b24854" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>SkinTestError</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1aca618449308373a4ca2f48997a569814" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>SkinTestErrorNull</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a53ba3011c4b933eeb9e0e8b561507580" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>TextureInfoTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1ae8c5cd7626119aa00463d4ddac72a885" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>TextureInfoTestError</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a301e7cdfb91d087b8ca4810ca4d53a54" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>UniGLTFSimpleSceneTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a09b479b2fe0b0c42645d9efd605a6bc7" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>UnityPathTest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests_1a2543c29a7fe1b6b535469f5fdd6cdd09" prot="public" virt="non-virtual"><scope>UniGLTF::UniGLTFTests</scope><name>VersionChecker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_export_progress" kind="struct" prot="public">
+    <compoundname>UniGLTF::ExportProgress</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_export_progress_1af33e227d430e07c7a0d23ed5f1959cb1" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.ExportProgress.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_export_progress_1aaf21e526c7d95dfa3a8fe9bcfe226db2" compoundref="_progress_info_8cs" startline="11" endline="16">UniGLTF.ExportProgress.ExportProgress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_export_progress_1a27db0d9cc8c9c43b3651f49224115843" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.ExportProgress.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_export_progress_1aaf21e526c7d95dfa3a8fe9bcfe226db2" compoundref="_progress_info_8cs" startline="11" endline="16">UniGLTF.ExportProgress.ExportProgress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_export_progress_1ac53fdb4afaf4f5140b73414f0c226c26" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float UniGLTF.ExportProgress.Progress</definition>
+        <argsstring></argsstring>
+        <name>Progress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_export_progress_1aaf21e526c7d95dfa3a8fe9bcfe226db2" compoundref="_progress_info_8cs" startline="11" endline="16">UniGLTF.ExportProgress.ExportProgress</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_export_progress_1aaf21e526c7d95dfa3a8fe9bcfe226db2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.ExportProgress.ExportProgress</definition>
+        <argsstring>(string title, string message, float progress)</argsstring>
+        <name>ExportProgress</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" bodystart="11" bodyend="16"/>
+        <references refid="struct_uni_g_l_t_f_1_1_export_progress_1a27db0d9cc8c9c43b3651f49224115843" compoundref="_progress_info_8cs" startline="8">UniGLTF.ExportProgress.Message</references>
+        <references refid="struct_uni_g_l_t_f_1_1_export_progress_1ac53fdb4afaf4f5140b73414f0c226c26" compoundref="_progress_info_8cs" startline="9">UniGLTF.ExportProgress.Progress</references>
+        <references refid="struct_uni_g_l_t_f_1_1_export_progress_1af33e227d430e07c7a0d23ed5f1959cb1" compoundref="_progress_info_8cs" startline="7">UniGLTF.ExportProgress.Title</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ProgressInfo.cs" bodystart="5" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_export_progress_1aaf21e526c7d95dfa3a8fe9bcfe226db2" prot="public" virt="non-virtual"><scope>UniGLTF::ExportProgress</scope><name>ExportProgress</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_export_progress_1a27db0d9cc8c9c43b3651f49224115843" prot="public" virt="non-virtual"><scope>UniGLTF::ExportProgress</scope><name>Message</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_export_progress_1ac53fdb4afaf4f5140b73414f0c226c26" prot="public" virt="non-virtual"><scope>UniGLTF::ExportProgress</scope><name>Progress</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_export_progress_1af33e227d430e07c7a0d23ed5f1959cb1" prot="public" virt="non-virtual"><scope>UniGLTF::ExportProgress</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_swing_object_8cs" kind="file">
+    <compoundname>SwingObject.cs</compoundname>
+    <innerclass refid="class_swing_object" prot="public">SwingObject</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_swing_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_swing_object" kindref="compound">SwingObject</ref><sp/>:<sp/>MonoBehaviour<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" kindref="member">max</ref><sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="7" refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" kindref="member">count</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>for<sp/>initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_swing_object_1a5c33b4cc05ad2c8218798b8bf1628f2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_swing_object_1a5c33b4cc05ad2c8218798b8bf1628f2d" kindref="member">Start</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" kindref="member">Update</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" kindref="member">count</ref><sp/>+=<sp/>Time.deltaTime<sp/>*<sp/>10f;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" kindref="member">count</ref><sp/>&gt;<sp/>360)<sp/><ref refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" kindref="member">count</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>x<sp/>=<sp/>Mathf.Sin(<ref refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" kindref="member">count</ref><sp/>*<sp/>Mathf.PI<sp/>/<sp/>180)<sp/>*<sp/><ref refid="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" kindref="member">max</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.position<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>(x,<sp/>this.transform.position.y,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.position.z);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_skeleton_mesh_utility" kind="class" prot="public">
+    <compoundname>UniHumanoid::SkeletonMeshUtility</compoundname>
+    <innerclass refid="struct_uni_humanoid_1_1_skeleton_mesh_utility_1_1_bone_head_tail" prot="private">UniHumanoid::SkeletonMeshUtility::BoneHeadTail</innerclass>
+    <innerclass refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder" prot="private">UniHumanoid::SkeletonMeshUtility::MeshBuilder</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1a3c7554bf7ed5fdbee80cf6dad60ee1d4" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton_mesh_utility_1_1_bone_head_tail" kindref="compound">BoneHeadTail</ref>[]</type>
+        <definition>BoneHeadTail [] UniHumanoid.SkeletonMeshUtility.Bones</definition>
+        <argsstring></argsstring>
+        <name>Bones</name>
+        <initializer>= new <ref refid="struct_uni_humanoid_1_1_skeleton_mesh_utility_1_1_bone_head_tail" kindref="compound">BoneHeadTail</ref>[]
+        {
+            new <ref refid="struct_uni_humanoid_1_1_skeleton_mesh_utility_1_1_bone_head_tail" kindref="compound">BoneHeadTail</ref>(HumanBodyBones.Hips, HumanBodyBones.Spine, 0.1f, 0.06f),
+            new BoneHeadTail(HumanBodyBones.Spine, HumanBodyBones.Chest),
+            new BoneHeadTail(HumanBodyBones.Chest, HumanBodyBones.Neck, 0.1f, 0.06f),
+            new BoneHeadTail(HumanBodyBones.Neck, HumanBodyBones.Head, 0.03f, 0.03f),
+            new BoneHeadTail(HumanBodyBones.Head, new Vector3(0, 0.1f, 0), 0.1f, 0.1f),
+
+            new BoneHeadTail(HumanBodyBones.LeftShoulder, HumanBodyBones.LeftUpperArm),
+            new BoneHeadTail(HumanBodyBones.LeftUpperArm, HumanBodyBones.LeftLowerArm),
+            new BoneHeadTail(HumanBodyBones.LeftLowerArm, HumanBodyBones.LeftHand),
+            new BoneHeadTail(HumanBodyBones.LeftHand, new Vector3(-0.1f, 0, 0)),
+
+            new BoneHeadTail(HumanBodyBones.LeftUpperLeg, HumanBodyBones.LeftLowerLeg),
+            new BoneHeadTail(HumanBodyBones.LeftLowerLeg, HumanBodyBones.LeftFoot),
+            new BoneHeadTail(HumanBodyBones.LeftFoot, HumanBodyBones.LeftToes),
+            new BoneHeadTail(HumanBodyBones.LeftToes, new Vector3(0, 0, 0.1f)),
+
+            new BoneHeadTail(HumanBodyBones.RightShoulder, HumanBodyBones.RightUpperArm),
+            new BoneHeadTail(HumanBodyBones.RightUpperArm, HumanBodyBones.RightLowerArm),
+            new BoneHeadTail(HumanBodyBones.RightLowerArm, HumanBodyBones.RightHand),
+            new BoneHeadTail(HumanBodyBones.RightHand, new Vector3(0.1f, 0, 0)),
+
+            new BoneHeadTail(HumanBodyBones.RightUpperLeg, HumanBodyBones.RightLowerLeg),
+            new BoneHeadTail(HumanBodyBones.RightLowerLeg, HumanBodyBones.RightFoot),
+            new BoneHeadTail(HumanBodyBones.RightFoot, HumanBodyBones.RightToes),
+            new BoneHeadTail(HumanBodyBones.RightToes, new Vector3(0, 0, 0.1f)),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="158" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="158" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1a29d00dbfaa82be93e22165208fc48264" compoundref="_skeleton_mesh_utility_8cs" startline="187" endline="230">UniHumanoid.SkeletonMeshUtility.CreateRenderer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1a29d00dbfaa82be93e22165208fc48264" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SkinnedMeshRenderer</type>
+        <definition>static SkinnedMeshRenderer UniHumanoid.SkeletonMeshUtility.CreateRenderer</definition>
+        <argsstring>(Animator animator)</argsstring>
+        <name>CreateRenderer</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="187" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="187" bodyend="230"/>
+        <references refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1a3c7554bf7ed5fdbee80cf6dad60ee1d4" compoundref="_skeleton_mesh_utility_8cs" startline="158">UniHumanoid.SkeletonMeshUtility.Bones</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2231">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2232" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2231" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2232">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2230">
+        <label>UniHumanoid.SkeletonMeshUtility.BoneHeadTail</label>
+        <link refid="struct_uni_humanoid_1_1_skeleton_mesh_utility_1_1_bone_head_tail"/>
+        <childnode refid="2231" relation="usage">
+          <edgelabel>TailOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2229">
+        <label>UniHumanoid.SkeletonMeshUtility</label>
+        <link refid="class_uni_humanoid_1_1_skeleton_mesh_utility"/>
+        <childnode refid="2230" relation="usage">
+          <edgelabel>Bones</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="9" bodyend="231"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1a3c7554bf7ed5fdbee80cf6dad60ee1d4" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility</scope><name>Bones</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1a29d00dbfaa82be93e22165208fc48264" prot="public" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility</scope><name>CreateRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

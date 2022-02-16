@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_animation_target" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFAnimationTarget</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a551c3048d21f2d8bcfb99cb12a99f285" prot="public" static="no">
+        <name>Interpolations</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a551c3048d21f2d8bcfb99cb12a99f285aaac544aacc3615aada24897a215f5046" prot="public">
+          <name>LINEAR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a551c3048d21f2d8bcfb99cb12a99f285a522f694f92e679d874a1cc2b2616c3d7" prot="public">
+          <name>STEP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a551c3048d21f2d8bcfb99cb12a99f285adbec938b5d93ee323a15ef285cab513a" prot="public">
+          <name>CUBICSPLINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7e" prot="public" static="no">
+        <name>AnimationPropertys</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7ea6dd08874f83507e9c7b23f1a46b7fa7c" prot="public">
+          <name>Translation</name>
+          <initializer>= AnimationProperties.Translation</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7ea3eb273d852a55da6752a79738961c74f" prot="public">
+          <name>EulerRotation</name>
+          <initializer>= AnimationProperties.EulerRotation</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7eaf1a42bd417390fc63b030a519624607a" prot="public">
+          <name>Rotation</name>
+          <initializer>= AnimationProperties.Rotation</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7ea85a7cd587d6142dbfc1a4de05af7b75d" prot="public">
+          <name>Scale</name>
+          <initializer>= AnimationProperties.Scale</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7ea8c489d0946f66d17d73f26366a4bf620" prot="public">
+          <name>Weight</name>
+          <initializer>= AnimationProperties.Weight</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7eabe06c6a41b8206dda31c77aaf4bedf65" prot="public">
+          <name>BlendShape</name>
+          <initializer>= AnimationProperties.BlendShape</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7ea997ca4ce119685f40f03a9a8a6c5346e" prot="public">
+          <name>NotImplemented</name>
+          <initializer>= AnimationProperties.NotImplemented</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" prot="public" static="no">
+        <name>AnimationProperties</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7a6dd08874f83507e9c7b23f1a46b7fa7c" prot="public">
+          <name>Translation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7a3eb273d852a55da6752a79738961c74f" prot="public">
+          <name>EulerRotation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7af1a42bd417390fc63b030a519624607a" prot="public">
+          <name>Rotation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7a85a7cd587d6142dbfc1a4de05af7b75d" prot="public">
+          <name>Scale</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7a8c489d0946f66d17d73f26366a4bf620" prot="public">
+          <name>Weight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7abe06c6a41b8206dda31c77aaf4bedf65" prot="public">
+          <name>BlendShape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7a997ca4ce119685f40f03a9a8a6c5346e" prot="public">
+          <name>NotImplemented</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="59" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3b920e3a5bae4211f431a04acddc3381" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.glTFAnimationTarget.node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" compoundref="_gltf_serializer_8g_8cs" startline="1444" endline="1470">UniGLTF.GltfSerializer.Serialize_gltf_animations__channels__target</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0f67ddd4930b2f7da25431e0cb4895fe" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.glTFAnimationTarget.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" compoundref="_gltf_serializer_8g_8cs" startline="1444" endline="1470">UniGLTF.GltfSerializer.Serialize_gltf_animations__channels__target</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ae5250ec233b22ee7d3f6518f12f9a85e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFAnimationTarget.extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" compoundref="_gltf_serializer_8g_8cs" startline="1444" endline="1470">UniGLTF.GltfSerializer.Serialize_gltf_animations__channels__target</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0e2ffed683fe4433e055456c5e50e8e8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFAnimationTarget.extras</definition>
+        <argsstring></argsstring>
+        <name>extras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" compoundref="_gltf_serializer_8g_8cs" startline="1444" endline="1470">UniGLTF.GltfSerializer.Serialize_gltf_animations__channels__target</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a53c175c5f4d3e342e7d42b388b32fd8c" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.PATH_TRANSLATION</definition>
+        <argsstring></argsstring>
+        <name>PATH_TRANSLATION</name>
+        <initializer>= &quot;translation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" compoundref="gl_t_f_animation_8cs" startline="94" endline="108">UniGLTF.glTFAnimationTarget.GetAnimationProperty</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" compoundref="gl_t_f_animation_8cs" startline="77" endline="92">UniGLTF.glTFAnimationTarget.GetPathName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1af5d0bdf0091aca593cccffe067964330" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.PATH_EULER_ROTATION</definition>
+        <argsstring></argsstring>
+        <name>PATH_EULER_ROTATION</name>
+        <initializer>= &quot;rotation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a02efa23d396de04abb8579a8a8909aef" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.PATH_ROTATION</definition>
+        <argsstring></argsstring>
+        <name>PATH_ROTATION</name>
+        <initializer>= &quot;rotation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" compoundref="gl_t_f_animation_8cs" startline="94" endline="108">UniGLTF.glTFAnimationTarget.GetAnimationProperty</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" compoundref="gl_t_f_animation_8cs" startline="77" endline="92">UniGLTF.glTFAnimationTarget.GetPathName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ad05ebecd2e759d8014471423e3193ed7" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.PATH_SCALE</definition>
+        <argsstring></argsstring>
+        <name>PATH_SCALE</name>
+        <initializer>= &quot;scale&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" compoundref="gl_t_f_animation_8cs" startline="94" endline="108">UniGLTF.glTFAnimationTarget.GetAnimationProperty</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" compoundref="gl_t_f_animation_8cs" startline="77" endline="92">UniGLTF.glTFAnimationTarget.GetPathName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a27fcb5c5fe7123093c0e3edd98401e92" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.PATH_WEIGHT</definition>
+        <argsstring></argsstring>
+        <name>PATH_WEIGHT</name>
+        <initializer>= &quot;weights&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" compoundref="gl_t_f_animation_8cs" startline="94" endline="108">UniGLTF.glTFAnimationTarget.GetAnimationProperty</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" compoundref="gl_t_f_animation_8cs" startline="77" endline="92">UniGLTF.glTFAnimationTarget.GetPathName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a68d412d97762985ac3f009a114f34999" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.glTFAnimationTarget.NOT_IMPLEMENTED</definition>
+        <argsstring></argsstring>
+        <name>NOT_IMPLEMENTED</name>
+        <initializer>= &quot;NotImplemented&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a8f0b51305b12720f8f0ccd891fd05480" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" kindref="member">AnimationProperties</ref></type>
+        <definition>static AnimationProperties UniGLTF.glTFAnimationTarget.AnimationPropertysToAnimationProperties</definition>
+        <argsstring>(AnimationPropertys property)</argsstring>
+        <name>AnimationPropertysToAnimationProperties</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7e" kindref="member">AnimationPropertys</ref></type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="50" bodyend="57"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a8536e961109c4272824eb11034bb3e90" compoundref="gl_t_f_animation_8cs" startline="182" endline="185">UniGLTF.glTFAnimation.AddChannelAndGetSampler</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3494f721ceaa3d4ac6228f93e6aeabac" compoundref="gl_t_f_animation_8cs" startline="111" endline="114">UniGLTF.glTFAnimationTarget.GetElementCount</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a670297350e7040b742a28993d6ef31e2" compoundref="gl_t_f_animation_8cs" startline="72" endline="75">UniGLTF.glTFAnimationTarget.GetPathName</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a670297350e7040b742a28993d6ef31e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.glTFAnimationTarget.GetPathName</definition>
+        <argsstring>(AnimationPropertys property)</argsstring>
+        <name>GetPathName</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7e" kindref="member">AnimationPropertys</ref></type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="72" bodyend="75"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a8f0b51305b12720f8f0ccd891fd05480" compoundref="gl_t_f_animation_8cs" startline="50" endline="57">UniGLTF.glTFAnimationTarget.AnimationPropertysToAnimationProperties</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.glTFAnimationTarget.GetPathName</definition>
+        <argsstring>(AnimationProperties property)</argsstring>
+        <name>GetPathName</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" kindref="member">AnimationProperties</ref></type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="77" bodyend="92"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a02efa23d396de04abb8579a8a8909aef" compoundref="gl_t_f_animation_8cs" startline="31">UniGLTF.glTFAnimationTarget.PATH_ROTATION</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ad05ebecd2e759d8014471423e3193ed7" compoundref="gl_t_f_animation_8cs" startline="32">UniGLTF.glTFAnimationTarget.PATH_SCALE</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a53c175c5f4d3e342e7d42b388b32fd8c" compoundref="gl_t_f_animation_8cs" startline="29">UniGLTF.glTFAnimationTarget.PATH_TRANSLATION</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a27fcb5c5fe7123093c0e3edd98401e92" compoundref="gl_t_f_animation_8cs" startline="33">UniGLTF.glTFAnimationTarget.PATH_WEIGHT</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" kindref="member">AnimationProperties</ref></type>
+        <definition>static AnimationProperties UniGLTF.glTFAnimationTarget.GetAnimationProperty</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetAnimationProperty</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="94" bodyend="108"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a02efa23d396de04abb8579a8a8909aef" compoundref="gl_t_f_animation_8cs" startline="31">UniGLTF.glTFAnimationTarget.PATH_ROTATION</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ad05ebecd2e759d8014471423e3193ed7" compoundref="gl_t_f_animation_8cs" startline="32">UniGLTF.glTFAnimationTarget.PATH_SCALE</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a53c175c5f4d3e342e7d42b388b32fd8c" compoundref="gl_t_f_animation_8cs" startline="29">UniGLTF.glTFAnimationTarget.PATH_TRANSLATION</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a27fcb5c5fe7123093c0e3edd98401e92" compoundref="gl_t_f_animation_8cs" startline="33">UniGLTF.glTFAnimationTarget.PATH_WEIGHT</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a35cdc0762868e2879872ec5a0c3a0fc8" compoundref="gl_t_f_animation_8cs" startline="129" endline="132">UniGLTF.glTFAnimationTarget.GetElementCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3494f721ceaa3d4ac6228f93e6aeabac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.glTFAnimationTarget.GetElementCount</definition>
+        <argsstring>(AnimationPropertys property)</argsstring>
+        <name>GetElementCount</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7e" kindref="member">AnimationPropertys</ref></type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="111" bodyend="114"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a8f0b51305b12720f8f0ccd891fd05480" compoundref="gl_t_f_animation_8cs" startline="50" endline="57">UniGLTF.glTFAnimationTarget.AnimationPropertysToAnimationProperties</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a35cdc0762868e2879872ec5a0c3a0fc8" compoundref="gl_t_f_animation_8cs" startline="129" endline="132">UniGLTF.glTFAnimationTarget.GetElementCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a6db631102987850f31569b7a33c264bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.glTFAnimationTarget.GetElementCount</definition>
+        <argsstring>(AnimationProperties property)</argsstring>
+        <name>GetElementCount</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" kindref="member">AnimationProperties</ref></type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="116" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a35cdc0762868e2879872ec5a0c3a0fc8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.glTFAnimationTarget.GetElementCount</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetElementCount</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="129" bodyend="132"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" compoundref="gl_t_f_animation_8cs" startline="94" endline="108">UniGLTF.glTFAnimationTarget.GetAnimationProperty</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3494f721ceaa3d4ac6228f93e6aeabac" compoundref="gl_t_f_animation_8cs" startline="111" endline="114">UniGLTF.glTFAnimationTarget.GetElementCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="938">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="937">
+        <label>UniGLTF.glTFAnimationTarget</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target"/>
+        <childnode refid="938" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFAnimation.cs" bodystart="10" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a7880c023ed7de1a58ad1c8c67fa9f9b7" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>AnimationProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a52ad25508e8d75573f47a4463c720e7e" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>AnimationPropertys</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a8f0b51305b12720f8f0ccd891fd05480" prot="package" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>AnimationPropertysToAnimationProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ae5250ec233b22ee7d3f6518f12f9a85e" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>extensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0e2ffed683fe4433e055456c5e50e8e8" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>extras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a992a276222f1bced6247992b2972904b" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetAnimationProperty</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3494f721ceaa3d4ac6228f93e6aeabac" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetElementCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a6db631102987850f31569b7a33c264bc" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetElementCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a35cdc0762868e2879872ec5a0c3a0fc8" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetElementCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a670297350e7040b742a28993d6ef31e2" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetPathName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a030eacb8a0c3f091772df4739c84adc8" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>GetPathName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a551c3048d21f2d8bcfb99cb12a99f285" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>Interpolations</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3b920e3a5bae4211f431a04acddc3381" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>node</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a68d412d97762985ac3f009a114f34999" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>NOT_IMPLEMENTED</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0f67ddd4930b2f7da25431e0cb4895fe" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>path</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1af5d0bdf0091aca593cccffe067964330" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>PATH_EULER_ROTATION</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a02efa23d396de04abb8579a8a8909aef" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>PATH_ROTATION</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ad05ebecd2e759d8014471423e3193ed7" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>PATH_SCALE</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a53c175c5f4d3e342e7d42b388b32fd8c" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>PATH_TRANSLATION</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a27fcb5c5fe7123093c0e3edd98401e92" prot="public" virt="non-virtual"><scope>UniGLTF::glTFAnimationTarget</scope><name>PATH_WEIGHT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,848 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_json_formatter" kind="class" prot="public">
+    <compoundname>UniJSON::JsonFormatter</compoundname>
+    <basecompoundref refid="interface_uni_j_s_o_n_1_1_i_formatter" prot="public" virt="non-virtual">UniJSON.IFormatter</basecompoundref>
+    <innerclass refid="class_uni_j_s_o_n_1_1_json_formatter_1_1_context" prot="private">UniJSON::JsonFormatter::Context</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_j_s_o_n_1_1_json_formatter_1a6842ff6bf5f8d90e31e8c841e94acd65" prot="private" static="no">
+        <name>Current</name>
+        <enumvalue id="class_uni_j_s_o_n_1_1_json_formatter_1a6842ff6bf5f8d90e31e8c841e94acd65aea2adde5c377cb5e09d14b71935c6f32" prot="public">
+          <name>ROOT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_j_s_o_n_1_1_json_formatter_1a6842ff6bf5f8d90e31e8c841e94acd65acb4fb1757fb37c43cded35d3eb857c43" prot="public">
+          <name>ARRAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_j_s_o_n_1_1_json_formatter_1a6842ff6bf5f8d90e31e8c841e94acd65a8eee8e217391199668cbac89472ace53" prot="public">
+          <name>OBJECT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1a4bda1ea2e4dfc05403e6775dce2e8947" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+        <definition>IStore UniJSON.JsonFormatter.m_w</definition>
+        <argsstring></argsstring>
+        <name>m_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" compoundref="_json_formatter_8cs" startline="190" endline="198">UniJSON.JsonFormatter._Value</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a9ddfbfae0f1567d4a245ba3503af9a53" compoundref="_json_formatter_8cs" startline="73" endline="76">UniJSON.JsonFormatter.GetStore</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a4ded0994bf09cdd947fe306ea98e57f6" compoundref="_json_formatter_8cs" startline="59" endline="65">UniJSON.JsonFormatter.JsonFormatter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1a2526199149994a8cc4186335a6901b22" prot="private" static="no" mutable="no">
+        <type>Stack&lt; <ref refid="class_uni_j_s_o_n_1_1_json_formatter_1_1_context" kindref="compound">Context</ref> &gt;</type>
+        <definition>Stack&lt;Context&gt; UniJSON.JsonFormatter.m_stack</definition>
+        <argsstring></argsstring>
+        <name>m_stack</name>
+        <initializer>= new Stack&lt;<ref refid="class_uni_j_s_o_n_1_1_json_formatter_1_1_context" kindref="compound">Context</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1aa38c063e4f0b91e49c4d0debe2d93b0a" compoundref="_json_formatter_8cs" startline="146" endline="154">UniJSON.JsonFormatter.EndList</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1ac88dff02e200ad3a4eac75780229eb68" compoundref="_json_formatter_8cs" startline="163" endline="172">UniJSON.JsonFormatter.EndMap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1a27635b69c252dd4cfd1ff2e90125964f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniJSON.JsonFormatter.m_indent</definition>
+        <argsstring></argsstring>
+        <name>m_indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a2a982a9e67f25dbbb93f3f4975217c15" compoundref="_json_formatter_8cs" startline="40" endline="50">UniJSON.JsonFormatter.Indent</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a4ded0994bf09cdd947fe306ea98e57f6" compoundref="_json_formatter_8cs" startline="59" endline="65">UniJSON.JsonFormatter.JsonFormatter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1ae6549b51d64e33be0261ec25a39fe5fa" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniJSON.JsonFormatter.m_colon</definition>
+        <argsstring></argsstring>
+        <name>m_colon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a4ded0994bf09cdd947fe306ea98e57f6" compoundref="_json_formatter_8cs" startline="59" endline="65">UniJSON.JsonFormatter.JsonFormatter</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a7f834e29152bee413f7b823e894b30eb" compoundref="_json_formatter_8cs" startline="174" endline="178">UniJSON.JsonFormatter.Key</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_j_s_o_n_1_1_json_formatter_1ae87a418a4c85dab2d083cf5ec532ec08" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+        <definition>IStore UniJSON.JsonFormatter.Store</definition>
+        <argsstring></argsstring>
+        <name>Store</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1a54e491637e886a7461e9fac0a8d1c9ac" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>Utf8String UniJSON.JsonFormatter.s_null</definition>
+        <argsstring></argsstring>
+        <name>s_null</name>
+        <initializer>= <ref refid="struct_uni_j_s_o_n_1_1_utf8_string_1ae65d658c0d967188ef35565f732e1ff4" kindref="member">Utf8String.From</ref>(&quot;null&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1ab0fc5ac99021221eec60d74a0a065533" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>Utf8String UniJSON.JsonFormatter.s_true</definition>
+        <argsstring></argsstring>
+        <name>s_true</name>
+        <initializer>= <ref refid="struct_uni_j_s_o_n_1_1_utf8_string_1ae65d658c0d967188ef35565f732e1ff4" kindref="member">Utf8String.From</ref>(&quot;true&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_json_formatter_1a44dbe0f45b5a09b423b67456ea6eabcf" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>Utf8String UniJSON.JsonFormatter.s_false</definition>
+        <argsstring></argsstring>
+        <name>s_false</name>
+        <initializer>= <ref refid="struct_uni_j_s_o_n_1_1_utf8_string_1ae65d658c0d967188ef35565f732e1ff4" kindref="member">Utf8String.From</ref>(&quot;false&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="201" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a2a982a9e67f25dbbb93f3f4975217c15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Indent</definition>
+        <argsstring>()</argsstring>
+        <name>Indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="40" bodyend="50"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a27635b69c252dd4cfd1ff2e90125964f" compoundref="_json_formatter_8cs" startline="39">UniJSON.JsonFormatter.m_indent</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" compoundref="_json_formatter_8cs" startline="190" endline="198">UniJSON.JsonFormatter._Value</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1ac88dff02e200ad3a4eac75780229eb68" compoundref="_json_formatter_8cs" startline="163" endline="172">UniJSON.JsonFormatter.EndMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter._Value</definition>
+        <argsstring>(Utf8String key, bool isKey)</argsstring>
+        <name>_Value</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="190" bodyend="198"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a2a982a9e67f25dbbb93f3f4975217c15" compoundref="_json_formatter_8cs" startline="40" endline="50">UniJSON.JsonFormatter.Indent</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a4bda1ea2e4dfc05403e6775dce2e8947" compoundref="_json_formatter_8cs" startline="12">UniJSON.JsonFormatter.m_w</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a7f834e29152bee413f7b823e894b30eb" compoundref="_json_formatter_8cs" startline="174" endline="178">UniJSON.JsonFormatter.Key</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1af8507c65fb463686bdb004b046401f4d" compoundref="_json_formatter_8cs" startline="185" endline="188">UniJSON.JsonFormatter.Value</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1af11a09313f7d423c01f719ad4d176a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.JsonFormatter.JsonFormatter</definition>
+        <argsstring>(int indent=0)</argsstring>
+        <name>JsonFormatter</name>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a4ded0994bf09cdd947fe306ea98e57f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.JsonFormatter.JsonFormatter</definition>
+        <argsstring>(IStore w, int indent=0)</argsstring>
+        <name>JsonFormatter</name>
+        <param>
+          <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="59" bodyend="65"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1ae6549b51d64e33be0261ec25a39fe5fa" compoundref="_json_formatter_8cs" startline="52">UniJSON.JsonFormatter.m_colon</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a27635b69c252dd4cfd1ff2e90125964f" compoundref="_json_formatter_8cs" startline="39">UniJSON.JsonFormatter.m_indent</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a4bda1ea2e4dfc05403e6775dce2e8947" compoundref="_json_formatter_8cs" startline="12">UniJSON.JsonFormatter.m_w</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a2becdea0f15b66b1a97bf36bf27fab45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniJSON.JsonFormatter.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a9ddfbfae0f1567d4a245ba3503af9a53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref></type>
+        <definition>IStore UniJSON.JsonFormatter.GetStore</definition>
+        <argsstring>()</argsstring>
+        <name>GetStore</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a57fef74788a6f6fea5bd4ff83f1cf8ed">GetStore</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="73" bodyend="76"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a4bda1ea2e4dfc05403e6775dce2e8947" compoundref="_json_formatter_8cs" startline="12">UniJSON.JsonFormatter.m_w</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1af3731a56b6b4a8a891812bc5a9b9c3f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a19a3deafaa51c6d82774a68933d8403b">Clear</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1aa0389a5d6f39aac5b9eaa921994deb1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Null</definition>
+        <argsstring>()</argsstring>
+        <name>Null</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a32364b56b42ecde87544ff7918ea1d98">Null</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="133" bodyend="137"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a582f1f4653348d8655604db51de0b4cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.BeginList</definition>
+        <argsstring>(int _=0)</argsstring>
+        <name>BeginList</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a34deea15b5d07df8631a9a7fa135b80e">BeginList</reimplements>
+        <param>
+          <type>int</type>
+          <declname>_</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="139" bodyend="144"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1aa38c063e4f0b91e49c4d0debe2d93b0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.EndList</definition>
+        <argsstring>()</argsstring>
+        <name>EndList</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1aaf03e9d4b3dd0b8a9a54560ea973811a">EndList</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="146" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="146" bodyend="154"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a2526199149994a8cc4186335a6901b22" compoundref="_json_formatter_8cs" startline="37">UniJSON.JsonFormatter.m_stack</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1aec52e490ee23789b1fb926469ae2eb83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.BeginMap</definition>
+        <argsstring>(int _=0)</argsstring>
+        <name>BeginMap</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a8151ae476713418314654a2eaf2a901e">BeginMap</reimplements>
+        <param>
+          <type>int</type>
+          <declname>_</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="156" bodyend="161"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1ac88dff02e200ad3a4eac75780229eb68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.EndMap</definition>
+        <argsstring>()</argsstring>
+        <name>EndMap</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a638f0486d829a74d701063ed95b65651">EndMap</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="163" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="163" bodyend="172"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a2a982a9e67f25dbbb93f3f4975217c15" compoundref="_json_formatter_8cs" startline="40" endline="50">UniJSON.JsonFormatter.Indent</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a2526199149994a8cc4186335a6901b22" compoundref="_json_formatter_8cs" startline="37">UniJSON.JsonFormatter.m_stack</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a7f834e29152bee413f7b823e894b30eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Key</definition>
+        <argsstring>(Utf8String key)</argsstring>
+        <name>Key</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a1bcd5cc22955d25c8b70be7c29eb77c4">Key</reimplements>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="174" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="174" bodyend="178"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" compoundref="_json_formatter_8cs" startline="190" endline="198">UniJSON.JsonFormatter._Value</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1ae6549b51d64e33be0261ec25a39fe5fa" compoundref="_json_formatter_8cs" startline="52">UniJSON.JsonFormatter.m_colon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a1e74a0817da17468286f4c9c31ae9567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(string x)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>string</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="180" bodyend="183"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ae65d658c0d967188ef35565f732e1ff4" compoundref="_utf8_string_8cs" startline="68" endline="71">UniJSON.Utf8String.From</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a56060d05a0096896f2b3d8be8fd18673" compoundref="_gltf_json_util_8cs" startline="99" endline="175">UniGLTF.GltfJsonUtil.CopyJson</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a7ecbbb31eea8a1960fe53418572fcd3b" compoundref="_json_formatter_8cs" startline="276" endline="279">UniJSON.JsonFormatter.Value</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1af8507c65fb463686bdb004b046401f4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Utf8String key)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368">Value</reimplements>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="185" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="185" bodyend="188"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" compoundref="_json_formatter_8cs" startline="190" endline="198">UniJSON.JsonFormatter._Value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a129dce2af6493bb835b800bbfed00f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Boolean x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a392aeca87708ea973fb184b535e50719">Value</reimplements>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27226c864bac7454a8504f8edb15d95b" kindref="member">Boolean</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="202" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="202" bodyend="206"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a2a39770793025831c26d610dc511babe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(SByte x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1ab9203dcd5fc5b714e829a66c5dade396">Value</reimplements>
+        <param>
+          <type>SByte</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="208" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="208" bodyend="212"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1ae73aae206da6e7ce29a242d2d13c39c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Int16 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a3ded3f348b8f13b345bb30223c0675f0">Value</reimplements>
+        <param>
+          <type>Int16</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="213" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="213" bodyend="217"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a4bd092ca61b899a1a1c8d5456aad1d38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Int32 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6f07982d1d416316e9ccf63e9a812462">Value</reimplements>
+        <param>
+          <type>Int32</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="218" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="218" bodyend="222"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a3557d956fe0ef2c3faa5a84bd79bbb9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Int64 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a441b5cb99f13df85734d1eba0bfe6f91">Value</reimplements>
+        <param>
+          <type>Int64</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="223" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="223" bodyend="227"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a995640b9662ec7e46389a7f5d7c34c00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Byte x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a0c15fbf04e81f445377992e3b9eb3f78">Value</reimplements>
+        <param>
+          <type>Byte</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="229" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="229" bodyend="233"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a663d73a473d2696c5d54193157f717ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(UInt16 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a962abcfb039346ebd9d3aa94f7e4adab">Value</reimplements>
+        <param>
+          <type>UInt16</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="234" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="234" bodyend="238"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a4df3a645ba051bb4decf039caf9c47bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(UInt32 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a800fd5dc49fdb96c8ca1ca0b3fcadbae">Value</reimplements>
+        <param>
+          <type>UInt32</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="239" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="239" bodyend="243"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a6c52c8a806c57d3d1326a78f5797db62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(UInt64 x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a743e248e012f9b225b378277d98a9283">Value</reimplements>
+        <param>
+          <type>UInt64</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="244" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="244" bodyend="248"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a818b00fe72b45bb4ec2cbd881a557d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Single x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a96b978bf08d9faa721d0c0560805e02c">Value</reimplements>
+        <param>
+          <type>Single</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="250" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="250" bodyend="254"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a9bc53dc8edfd9b5fd27fb75996d3b953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(Double x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a4da1f2e9a9a1c8fd66be61ae4c60e03c">Value</reimplements>
+        <param>
+          <type>Double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="255" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="255" bodyend="259"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1af60ec9cbcf72da6a8e0530ee7883cd6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(ArraySegment&lt; Byte &gt; x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a11617d50cf203a6f4f36ad2819718f8c">Value</reimplements>
+        <param>
+          <type>ArraySegment&lt; Byte &gt;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="261" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="261" bodyend="267"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1aa4584a6daceb39a6034170c24d999600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Raw</definition>
+        <argsstring>(ArraySegment&lt; Byte &gt; x)</argsstring>
+        <name>Raw</name>
+        <param>
+          <type>ArraySegment&lt; Byte &gt;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="269" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="269" bodyend="273"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a7ecbbb31eea8a1960fe53418572fcd3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(DateTimeOffset x)</argsstring>
+        <name>Value</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_formatter_1a03f9b8e59d4c39041833b2af9f1bd567">Value</reimplements>
+        <param>
+          <type>DateTimeOffset</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="276" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="276" bodyend="279"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a1e74a0817da17468286f4c9c31ae9567" compoundref="_json_formatter_8cs" startline="180" endline="183">UniJSON.JsonFormatter.Value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a51d944a57b2265adde45e739401d7fda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.Value</definition>
+        <argsstring>(JsonNode node)</argsstring>
+        <name>Value</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="281" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="281" bodyend="285"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" compoundref="_json_formatter_8cs" startline="85" endline="130">UniJSON.JsonFormatter.CommaCheck</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonFormatter.CommaCheck</definition>
+        <argsstring>(bool isKey=false)</argsstring>
+        <name>CommaCheck</name>
+        <param>
+          <type>bool</type>
+          <declname>isKey</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="85" bodyend="130"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" compoundref="_json_formatter_8cs" startline="190" endline="198">UniJSON.JsonFormatter._Value</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a582f1f4653348d8655604db51de0b4cb" compoundref="_json_formatter_8cs" startline="139" endline="144">UniJSON.JsonFormatter.BeginList</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1aec52e490ee23789b1fb926469ae2eb83" compoundref="_json_formatter_8cs" startline="156" endline="161">UniJSON.JsonFormatter.BeginMap</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1aa0389a5d6f39aac5b9eaa921994deb1f" compoundref="_json_formatter_8cs" startline="133" endline="137">UniJSON.JsonFormatter.Null</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1aa4584a6daceb39a6034170c24d999600" compoundref="_json_formatter_8cs" startline="269" endline="273">UniJSON.JsonFormatter.Raw</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_formatter_1a129dce2af6493bb835b800bbfed00f59" compoundref="_json_formatter_8cs" startline="202" endline="206">UniJSON.JsonFormatter.Value</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1490">
+        <label>IFormatter</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_formatter"/>
+      </node>
+      <node id="1489">
+        <label>UniJSON.JsonFormatter</label>
+        <link refid="class_uni_j_s_o_n_1_1_json_formatter"/>
+        <childnode refid="1490" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1494">
+        <label>UniJSON.Utf8String</label>
+        <link refid="struct_uni_j_s_o_n_1_1_utf8_string"/>
+        <childnode refid="1495" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1496" relation="usage">
+          <edgelabel>Encoding</edgelabel>
+        </childnode>
+      </node>
+      <node id="1495">
+        <label>IComparable&lt; Utf8String &gt;</label>
+      </node>
+      <node id="1493">
+        <label>UniJSON.IStore</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_store"/>
+      </node>
+      <node id="1492">
+        <label>IFormatter</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_formatter"/>
+      </node>
+      <node id="1491">
+        <label>UniJSON.JsonFormatter</label>
+        <link refid="class_uni_j_s_o_n_1_1_json_formatter"/>
+        <childnode refid="1492" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1493" relation="usage">
+          <edgelabel>m_w</edgelabel>
+        </childnode>
+        <childnode refid="1494" relation="usage">
+          <edgelabel>s_false</edgelabel>
+          <edgelabel>s_null</edgelabel>
+          <edgelabel>s_true</edgelabel>
+        </childnode>
+      </node>
+      <node id="1496">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonFormatter.cs" bodystart="10" bodyend="286"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a5394b7ab27c7c0dadb2524d440ff0001" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>_Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a582f1f4653348d8655604db51de0b4cb" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>BeginList</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1aec52e490ee23789b1fb926469ae2eb83" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>BeginMap</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1af3731a56b6b4a8a891812bc5a9b9c3f6" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Clear</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a0ddb68286be706caed98a337c03bd9fd" prot="protected" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>CommaCheck</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a6842ff6bf5f8d90e31e8c841e94acd65" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Current</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1aa38c063e4f0b91e49c4d0debe2d93b0a" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>EndList</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1ac88dff02e200ad3a4eac75780229eb68" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>EndMap</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a9ddfbfae0f1567d4a245ba3503af9a53" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>GetStore</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a2a982a9e67f25dbbb93f3f4975217c15" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Indent</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1af11a09313f7d423c01f719ad4d176a3b" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>JsonFormatter</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a4ded0994bf09cdd947fe306ea98e57f6" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>JsonFormatter</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a7f834e29152bee413f7b823e894b30eb" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Key</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1ae6549b51d64e33be0261ec25a39fe5fa" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>m_colon</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a27635b69c252dd4cfd1ff2e90125964f" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>m_indent</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a2526199149994a8cc4186335a6901b22" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>m_stack</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a4bda1ea2e4dfc05403e6775dce2e8947" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>m_w</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1aa0389a5d6f39aac5b9eaa921994deb1f" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Null</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1aa4584a6daceb39a6034170c24d999600" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Raw</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a44dbe0f45b5a09b423b67456ea6eabcf" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>s_false</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a54e491637e886a7461e9fac0a8d1c9ac" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>s_null</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1ab0fc5ac99021221eec60d74a0a065533" prot="private" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>s_true</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1ae87a418a4c85dab2d083cf5ec532ec08" prot="protected" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Store</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a2becdea0f15b66b1a97bf36bf27fab45" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>ToString</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a1e74a0817da17468286f4c9c31ae9567" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1af8507c65fb463686bdb004b046401f4d" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a129dce2af6493bb835b800bbfed00f59" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a2a39770793025831c26d610dc511babe" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1ae73aae206da6e7ce29a242d2d13c39c9" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a4bd092ca61b899a1a1c8d5456aad1d38" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a3557d956fe0ef2c3faa5a84bd79bbb9d" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a995640b9662ec7e46389a7f5d7c34c00" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a663d73a473d2696c5d54193157f717ff" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a4df3a645ba051bb4decf039caf9c47bd" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a6c52c8a806c57d3d1326a78f5797db62" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a818b00fe72b45bb4ec2cbd881a557d28" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a9bc53dc8edfd9b5fd27fb75996d3b953" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1af60ec9cbcf72da6a8e0530ee7883cd6a" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a7ecbbb31eea8a1960fe53418572fcd3b" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_formatter_1a51d944a57b2265adde45e739401d7fda" prot="public" virt="non-virtual"><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_formatter_1a9c5eba17425b164bb9f8955513a5f824" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IFormatter."><scope>UniJSON::JsonFormatter</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

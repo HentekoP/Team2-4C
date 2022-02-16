@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points" kind="struct" prot="public">
+    <compoundname>VRM::FastSpringBones::Blittables::BlittablePoints</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1a93eb46390b48887253c71a11d41ca93e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_point" kindref="compound">BlittablePoint</ref> *</type>
+        <definition>readonly BlittablePoint* VRM.FastSpringBones.Blittables.BlittablePoints._points</definition>
+        <argsstring></argsstring>
+        <name>_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1aba020b4b6ed8d51b9378c0cc5918b25f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int VRM.FastSpringBones.Blittables.BlittablePoints.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1ab681b0b2c2ebbe00f761e16a999951ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_point" kindref="compound">BlittablePoint</ref></type>
+        <definition>BlittablePoint VRM.FastSpringBones.Blittables.BlittablePoints.this[int i]</definition>
+        <argsstring></argsstring>
+        <name>this[int i]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1a64daa8823eea1394d10e2e89b6a429c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.FastSpringBones.Blittables.BlittablePoints.BlittablePoints</definition>
+        <argsstring>(BlittablePoint *points, int count)</argsstring>
+        <name>BlittablePoints</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_point" kindref="compound">BlittablePoint</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BlittablePointのポインタの配列 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="270">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="271">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="273">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroups</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups"/>
+        <childnode refid="274" relation="usage">
+          <edgelabel>_data</edgelabel>
+          <edgelabel>this[int i]</edgelabel>
+        </childnode>
+      </node>
+      <node id="268">
+        <label>VRM.FastSpringBones.Blittables.BlittablePoints</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_points</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>VRM.FastSpringBones.Blittables.BlittablePoint</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_point"/>
+        <childnode refid="270" relation="usage">
+          <edgelabel>_prevPosition</edgelabel>
+          <edgelabel>_boneAxis</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>_center</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>_blittableColliderGroups</edgelabel>
+        </childnode>
+      </node>
+      <node id="274">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroup</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group"/>
+      </node>
+      <node id="272">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="270" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittablePoints.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1a93eb46390b48887253c71a11d41ca93e" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittablePoints</scope><name>_points</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1a64daa8823eea1394d10e2e89b6a429c0" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittablePoints</scope><name>BlittablePoints</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1aba020b4b6ed8d51b9378c0cc5918b25f" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittablePoints</scope><name>Count</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points_1ab681b0b2c2ebbe00f761e16a999951ac" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittablePoints</scope><name>this[int i]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_uni_g_l_t_f" kind="namespace">
+    <compoundname>UniGLTF</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_pin" prot="public">UniGLTF::Pin</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4" prot="public">UniGLTF::Pin&lt; T &gt;</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_extensions" prot="public">UniGLTF::ArrayExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_list_extensions" prot="public">UniGLTF::ListExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_segment_extensions" prot="public">UniGLTF::ArraySegmentExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_color_conversion_extensions" prot="public">UniGLTF::ColorConversionExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_extensions" prot="public">UniGLTF::glTFExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_numerics_extensions" prot="public">UniGLTF::NumericsExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_string_extensions" prot="public">UniGLTF::StringExtensions</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_pos_rot" prot="public">UniGLTF::PosRot</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_blend_shape" prot="public">UniGLTF::BlendShape</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_unity_extensions" prot="public">UniGLTF::UnityExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_segment_byte_buffer" prot="public">UniGLTF::ArraySegmentByteBuffer</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_glb_header" prot="public">UniGLTF::GlbHeader</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_glb_chunk" prot="public">UniGLTF::GlbChunk</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_glb" prot="public">UniGLTF::Glb</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_component_type_extensions" prot="public">UniGLTF::glComponentTypeExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gltf_scene" prot="public">UniGLTF::gltfScene</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f" prot="public">UniGLTF::glTF</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target" prot="public">UniGLTF::glTFAnimationTarget</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel" prot="public">UniGLTF::glTFAnimationChannel</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler" prot="public">UniGLTF::glTFAnimationSampler</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_animation" prot="public">UniGLTF::glTFAnimation</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_assets" prot="public">UniGLTF::glTFAssets</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_buffer" prot="public">UniGLTF::glTFBuffer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view" prot="public">UniGLTF::glTFBufferView</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices" prot="public">UniGLTF::glTFSparseIndices</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values" prot="public">UniGLTF::glTFSparseValues</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_sparse" prot="public">UniGLTF::glTFSparse</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_accessor" prot="public">UniGLTF::glTFAccessor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic" prot="public">UniGLTF::glTFOrthographic</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_perspective" prot="public">UniGLTF::glTFPerspective</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_camera" prot="public">UniGLTF::glTFCamera</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_deserializer" prot="public">UniGLTF::GltfDeserializer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info" prot="public">UniGLTF::glTFTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info" prot="public">UniGLTF::glTFMaterialBaseColorTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material_metallic_roughness_texture_info" prot="public">UniGLTF::glTFMaterialMetallicRoughnessTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material_normal_texture_info" prot="public">UniGLTF::glTFMaterialNormalTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info" prot="public">UniGLTF::glTFMaterialOcclusionTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material_emissive_texture_info" prot="public">UniGLTF::glTFMaterialEmissiveTextureInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness" prot="public">UniGLTF::glTFPbrMetallicRoughness</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_material" prot="public">UniGLTF::glTFMaterial</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_attributes" prot="public">UniGLTF::glTFAttributes</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gltf_morph_target" prot="public">UniGLTF::gltfMorphTarget</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" prot="public">UniGLTF::glTFPrimitives</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_mesh" prot="public">UniGLTF::glTFMesh</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_node" prot="public">UniGLTF::glTFNode</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_serializer" prot="public">UniGLTF::GltfSerializer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_skin" prot="public">UniGLTF::glTFSkin</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler" prot="public">UniGLTF::glTFTextureSampler</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_image" prot="public">UniGLTF::glTFImage</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_texture" prot="public">UniGLTF::glTFTexture</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer" prot="public">UniGLTF::IBytesBuffer</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_storage" prot="public">UniGLTF::IStorage</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute" prot="public">UniGLTF::BaseJsonSchemaAttribute</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_json_schema_attribute" prot="public">UniGLTF::JsonSchemaAttribute</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_item_json_schema_attribute" prot="public">UniGLTF::ItemJsonSchemaAttribute</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gltf__mesh__extras__target_names" prot="public">UniGLTF::gltf_mesh_extras_targetNames</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_extension" prot="public">UniGLTF::glTFExtension</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export" prot="public">UniGLTF::glTFExtensionExport</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_extension_import" prot="public">UniGLTF::glTFExtensionImport</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_extension_formatter_extensions" prot="public">UniGLTF::GltfExtensionFormatterExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__materials__unlit" prot="public">UniGLTF::glTF_KHR_materials_unlit</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__texture__basisu" prot="public">UniGLTF::glTF_KHR_texture_basisu</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__texture__transform" prot="public">UniGLTF::glTF_KHR_texture_transform</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_animation_curve_data" prot="public">UniGLTF::AnimationCurveData</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_animation_exporter" prot="public">UniGLTF::AnimationExporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_animation_importer_util" prot="public">UniGLTF::AnimationImporterUtil</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_animation_keyframe_data" prot="public">UniGLTF::AnimationKeyframeData</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_byte_buffer" prot="public">UniGLTF::ArrayByteBuffer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_pin" prot="public">UniGLTF::ArrayPin</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_pin_3_01_t_01_4" prot="public">UniGLTF::ArrayPin&lt; T &gt;</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_pin_extensions" prot="public">UniGLTF::ArrayPinExtensions</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" prot="public">UniGLTF::IAxisInverter</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_reverse_z" prot="public">UniGLTF::ReverseZ</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_reverse_x" prot="public">UniGLTF::ReverseX</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_axises_extensions" prot="public">UniGLTF::AxisesExtensions</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_byte4" prot="public">UniGLTF::Byte4</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_bytes_reader" prot="public">UniGLTF::BytesReader</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" prot="public">UniGLTF::ExportingGltfData</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_file_system_storage" prot="public">UniGLTF::FileSystemStorage</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1glb_importer" prot="public">UniGLTF::glbImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_data" prot="public">UniGLTF::GltfData</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1gltf_exporter" prot="public">UniGLTF::gltfExporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_export_settings" prot="public">UniGLTF::GltfExportSettings</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_json_util" prot="public">UniGLTF::GltfJsonUtil</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_importer_context" prot="public">UniGLTF::ImporterContext</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_importer_context_extensions" prot="public">UniGLTF::ImporterContextExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_importer_context_speed_log" prot="public">UniGLTF::ImporterContextSpeedLog</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_migration_flags" prot="public">UniGLTF::MigrationFlags</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mono_behaviour_comparator" prot="public">UniGLTF::MonoBehaviourComparator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_node_importer" prot="public">UniGLTF::NodeImporter</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_export_progress" prot="public">UniGLTF::ExportProgress</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_null_progress" prot="public">UniGLTF::NullProgress</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_safe_marshal_copy" prot="public">UniGLTF::SafeMarshalCopy</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_skin_joints" prot="public">UniGLTF::SkinJoints</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_bit_writer" prot="public">UniGLTF::BitWriter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_key_value_pari_extensions" prot="public">UniGLTF::KeyValuePariExtensions</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_span_like_3_01_t_01_4" prot="public">UniGLTF::SpanLike&lt; T &gt;</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_span_like" prot="public">UniGLTF::SpanLike</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_unity_path" prot="public">UniGLTF::UnityPath</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uri_byte_buffer" prot="public">UniGLTF::UriByteBuffer</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_u_short4" prot="public">UniGLTF::UShort4</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator" prot="public">UniGLTF::GltfMaterialDescriptorGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_pbr_material_importer" prot="public">UniGLTF::GltfPbrMaterialImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_unlit_material_importer" prot="public">UniGLTF::GltfUnlitMaterialImporter</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator" prot="public">UniGLTF::IMaterialDescriptorGenerator</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_material_exporter" prot="public">UniGLTF::IMaterialExporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_material_exporter" prot="public">UniGLTF::MaterialExporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_material_importer_param_extensions" prot="public">UniGLTF::MaterialImporterParamExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_texture_transform" prot="public">UniGLTF::TextureTransform</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_pbr_urp_material_importer" prot="public">UniGLTF::GltfPbrUrpMaterialImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator" prot="public">UniGLTF::GltfUrpMaterialDescriptorGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_blend_shape_exporter" prot="public">UniGLTF::BlendShapeExporter</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" prot="public">UniGLTF::IBlendShapeExportFilter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter" prot="public">UniGLTF::DefualtBlendShapeExportFilter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_joints_accessor" prot="public">UniGLTF::JointsAccessor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_context" prot="package">UniGLTF::MeshContext</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer" prot="public">UniGLTF::MeshExporter_DividedVertexBuffer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer" prot="public">UniGLTF::MeshExporter_SharedVertexBuffer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_info" prot="public">UniGLTF::MeshExportInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_list" prot="public">UniGLTF::MeshExportList</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_util" prot="public">UniGLTF::MeshExportUtil</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_importer" prot="public">UniGLTF::MeshImporter</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_mesh_vertex" prot="package">UniGLTF::MeshVertex</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_with_materials" prot="public">UniGLTF::MeshWithMaterials</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_primitive_extensions" prot="package">UniGLTF::PrimitiveExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_vertex_color_utility" prot="public">UniGLTF::VertexColorUtility</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_weights_accessor" prot="public">UniGLTF::WeightsAccessor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser" prot="public">UniGLTF::AutoGltfFileParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_binary_parser" prot="public">UniGLTF::GlbBinaryParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_file_parser" prot="public">UniGLTF::GlbFileParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_low_level_parser" prot="public">UniGLTF::GlbLowLevelParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_file_with_resource_files_parser" prot="public">UniGLTF::GltfFileWithResourceFilesParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser" prot="public">UniGLTF::ZipArchivedGltfFileParser</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_pbr_texture_importer" prot="public">UniGLTF::GltfPbrTextureImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator" prot="public">UniGLTF::GltfTextureDescriptorGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_texture_exporter" prot="public">UniGLTF::GltfTextureExporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_texture_importer" prot="public">UniGLTF::GltfTextureImporter</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" prot="public">UniGLTF::ITextureDescriptorGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_texture_sampler_util" prot="public">UniGLTF::TextureSamplerUtil</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance" prot="public">UniGLTF::RuntimeGltfInstance</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_exception" prot="public">UniGLTF::UniGLTFException</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_not_supported_exception" prot="public">UniGLTF::UniGLTFNotSupportedException</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_parse_exception" prot="public">UniGLTF::GlbParseException</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version" prot="public">UniGLTF::UniGLTFVersion</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_cache_enum" prot="public">UniGLTF::CacheEnum</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_validation_context" prot="public">UniGLTF::ValidationContext</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_validation" prot="public">UniGLTF::Validation</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_serialized_property_editor" prot="public">UniGLTF::SerializedPropertyEditor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_top_menu" prot="public">UniGLTF::TopMenu</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_top_menu_implementation" prot="public">UniGLTF::TopMenuImplementation</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_editor_progress" prot="public">UniGLTF::EditorProgress</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_export_dialog_base" prot="public">UniGLTF::ExportDialogBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_exporter_dialog_state" prot="public">UniGLTF::ExporterDialogState</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_export_window" prot="public">UniGLTF::GltfExportWindow</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_internal_t_pose" prot="public">UniGLTF::InternalTPose</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_material_validator" prot="public">UniGLTF::IMaterialValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_default_material_validator" prot="public">UniGLTF::DefaultMaterialValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_validator" prot="public">UniGLTF::MeshExportValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_validator_editor" prot="public">UniGLTF::MeshExportValidatorEditor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_save_file_dialog" prot="public">UniGLTF::SaveFileDialog</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_bone_info" prot="public">UniGLTF::BoneInfo</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_bone_info_drawer" prot="public">UniGLTF::BoneInfoDrawer</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_bone_selector" prot="public">UniGLTF::BoneSelector</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_enabled_scope" prot="public">UniGLTF::EnabledScope</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_scripted_importer" prot="public">UniGLTF::GlbScriptedImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_editor" prot="public">UniGLTF::GlbScriptedImporterEditor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer" prot="public">UniGLTF::GltfScriptedImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base" prot="public">UniGLTF::GltfScriptedImporterBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_editor" prot="public">UniGLTF::GltfScriptedImporterEditor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_remap_editor_animation" prot="public">UniGLTF::RemapEditorAnimation</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_remap_editor_base" prot="public">UniGLTF::RemapEditorBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_remap_editor_material" prot="public">UniGLTF::RemapEditorMaterial</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base" prot="public">UniGLTF::RemapScriptedImporterEditorBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_scripted_importer_axes_extensions" prot="public">UniGLTF::ScriptedImporterAxesExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_texture_extractor" prot="public">UniGLTF::TextureExtractor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer" prot="public">UniGLTF::ZipArchivedGltfScriptedImporter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor" prot="public">UniGLTF::ZipArchivedGltfScriptedImporterEditor</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_array_serialization" prot="public">UniGLTF::ArraySerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_collection_serialization_base" prot="public">UniGLTF::CollectionSerializationBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_deserializer_generator" prot="public">UniGLTF::DeserializerGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_enum_serialization" prot="public">UniGLTF::EnumSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_extension_serialization" prot="public">UniGLTF::ExtensionSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_field_serialization_info" prot="public">UniGLTF::FieldSerializationInfo</innerclass>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_value_serialization" prot="public">UniGLTF::IValueSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_list_serialization" prot="public">UniGLTF::ListSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_object_serialization" prot="public">UniGLTF::ObjectSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_primitive_serialization_base" prot="public">UniGLTF::PrimitiveSerializationBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_number_serialization_base" prot="public">UniGLTF::NumberSerializationBase</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_int8_serialization" prot="public">UniGLTF::Int8Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_int16_serialization" prot="public">UniGLTF::Int16Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_int32_serialization" prot="public">UniGLTF::Int32Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_int64_serialization" prot="public">UniGLTF::Int64Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_u_int8_serialization" prot="public">UniGLTF::UInt8Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_u_int16_serialization" prot="public">UniGLTF::UInt16Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_u_int32_serialization" prot="public">UniGLTF::UInt32Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_u_int64_serialization" prot="public">UniGLTF::UInt64Serialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_single_serialization" prot="public">UniGLTF::SingleSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_double_serialization" prot="public">UniGLTF::DoubleSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_boolean_serialization" prot="public">UniGLTF::BooleanSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_string_serialization" prot="public">UniGLTF::StringSerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_serializer_generator" prot="public">UniGLTF::SerializerGenerator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization" prot="public">UniGLTF::StringKeyDictionarySerialization</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_preference" prot="public">UniGLTF::UniGLTFPreference</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_hierarchy_validator" prot="public">UniGLTF::HierarchyValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_humanoid_validator" prot="public">UniGLTF::HumanoidValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_name_validator" prot="public">UniGLTF::NameValidator</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_validation_extensions" prot="public">UniGLTF::ValidationExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_asset_tests" prot="public">UniGLTF::AssetTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_cache_enum_test" prot="public">UniGLTF::CacheEnumTest</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_editor_texture_serializer_tests" prot="public">UniGLTF::EditorTextureSerializerTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_parser_tests" prot="public">UniGLTF::GlbParserTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_json_util_tests" prot="public">UniGLTF::GltfJsonUtilTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_gltf_load_tests" prot="public">UniGLTF::GltfLoadTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_json_deserialize_tests" prot="public">UniGLTF::JsonDeserializeTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_m17_n_test" prot="public">UniGLTF::M17NTest</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_material_tests" prot="public">UniGLTF::MaterialTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_matrix_tests" prot="public">UniGLTF::MatrixTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_export_validator_tests" prot="public">UniGLTF::MeshExportValidatorTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_tests" prot="public">UniGLTF::MeshTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_numeric_tests" prot="public">UniGLTF::NumericTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_span_like_tests" prot="public">UniGLTF::SpanLikeTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_texture_enumerate_tests" prot="public">UniGLTF::TextureEnumerateTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_texture_tests" prot="public">UniGLTF::TextureTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_to_json_extensions" prot="public">UniGLTF::ToJsonExtensions</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_tests" prot="public">UniGLTF::UniGLTFTests</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_shader_prop_menu" prot="public">UniGLTF::ShaderPropMenu</innerclass>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_animation">UniGLTF::Animation</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_editor_settings_validator">UniGLTF::EditorSettingsValidator</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_extensions">UniGLTF::Extensions</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_json_schema">UniGLTF::JsonSchema</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_m17_n">UniGLTF::M17N</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_mesh_utility">UniGLTF::MeshUtility</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_samples">UniGLTF::Samples</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_shader_prop_exporter">UniGLTF::ShaderPropExporter</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_uni_unlit">UniGLTF::UniUnlit</innernamespace>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_zip">UniGLTF::Zip</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a0c7b14d73205c7af0d8ad736fa2f9d07" prot="public" static="no">
+        <name>GlbChunkType</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a0c7b14d73205c7af0d8ad736fa2f9d07a0ecd11c1d7a287401d148a23bbd7a2f8" prot="public">
+          <name>JSON</name>
+          <initializer>= 0x4E4F534A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a0c7b14d73205c7af0d8ad736fa2f9d07a35d3245a21b0942070419ef6602d239e" prot="public">
+          <name>BIN</name>
+          <initializer>= 0x004E4942</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077" prot="public" static="no">
+        <name>glComponentType</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077ae409eb2ba6eb6801f52763ae370c350e" prot="public">
+          <name>BYTE</name>
+          <initializer>= 5120</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077a9c0389cdb943fd7826de2b12b7aad11a" prot="public">
+          <name>UNSIGNED_BYTE</name>
+          <initializer>= 5121</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077aa35c2b02966b1563e5bf7b81b8b0cf77" prot="public">
+          <name>SHORT</name>
+          <initializer>= 5122</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077a765ef1b950ba8455b8992510ffa56895" prot="public">
+          <name>UNSIGNED_SHORT</name>
+          <initializer>= 5123</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077a9ba5b3da1d35e22e1680ddbe52d36ed5" prot="public">
+          <name>UNSIGNED_INT</name>
+          <initializer>= 5125</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077ae738c26bf4ce1037fa81b039a915cbf6" prot="public">
+          <name>FLOAT</name>
+          <initializer>= 5126</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bf" prot="public" static="no">
+        <name>glBufferTarget</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bfab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bfa77852f5d7968aa8e2907d2bcfddee859" prot="public">
+          <name>ARRAY_BUFFER</name>
+          <initializer>= 34962</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a758e325ac3e3beb816c748d4255472bfa32d7037a746773d0f5c21a231ea4b0f9" prot="public">
+          <name>ELEMENT_ARRAY_BUFFER</name>
+          <initializer>= 34963</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14b" prot="public" static="no">
+        <name>glFilter</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14bab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14baad135772d7cf93dd0ccf9d2474b34e6a" prot="public">
+          <name>NEAREST</name>
+          <initializer>= 9728</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14baaac544aacc3615aada24897a215f5046" prot="public">
+          <name>LINEAR</name>
+          <initializer>= 9729</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14ba1fbb2c20778f4e3e3ea0ec17ebd5dce3" prot="public">
+          <name>NEAREST_MIPMAP_NEAREST</name>
+          <initializer>= 9984</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14ba4502b1444d65ae5c38b2ec088ec493b6" prot="public">
+          <name>LINEAR_MIPMAP_NEAREST</name>
+          <initializer>= 9985</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14ba65706de8e74692e0dcd9cd776d668bab" prot="public">
+          <name>NEAREST_MIPMAP_LINEAR</name>
+          <initializer>= 9986</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abb37423ca13161875283cb2202f2c14bab127db2c1e3a1fa7097b0cc774cbcd24" prot="public">
+          <name>LINEAR_MIPMAP_LINEAR</name>
+          <initializer>= 9987</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" bodystart="44" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a250aae59729c59a97d04c0385397a7b5" prot="public" static="no">
+        <name>glWrap</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a250aae59729c59a97d04c0385397a7b5ab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a250aae59729c59a97d04c0385397a7b5aca305cdc5d749d643055111218063f26" prot="public">
+          <name>CLAMP_TO_EDGE</name>
+          <initializer>= 33071</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a250aae59729c59a97d04c0385397a7b5a5be68175be14dfaa080165456c2e9555" prot="public">
+          <name>REPEAT</name>
+          <initializer>= 10497</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a250aae59729c59a97d04c0385397a7b5acf6164235e7bfffb5c4c7c4b685f660a" prot="public">
+          <name>MIRRORED_REPEAT</name>
+          <initializer>= 33648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glEnum.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a33c524a00fa508742ee181c78eda2fbc" prot="public" static="no">
+        <name>ProjectionType</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a33c524a00fa508742ee181c78eda2fbcaa80420eef88d11f77532f1b9cb467fa3" prot="public">
+          <name>Perspective</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a33c524a00fa508742ee181c78eda2fbca03424250432f2aa71de95579d2c0eaeb" prot="public">
+          <name>Orthographic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFCamera.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFCamera.cs" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4" prot="public" static="no">
+        <name>EnumSerializationType</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4ae133ed01fcfff31df1fc91108cb6c2ce" prot="public">
+          <name>AsInt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4a59b32120176d6ccbe414a455587cbcd3" prot="public">
+          <name>AsString</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4a2a1b8235e9a9c9f8ee209acaab4c1afd" prot="public">
+          <name>AsLowerString</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a966c45716f7761ed3d3e2d22c3a667e4aa213fc2d020ccc030dbf36ebc6057a3e" prot="public">
+          <name>AsUpperString</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505df" prot="public" static="no">
+        <name>Axes</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505dfa21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505dfa02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a1b8788d0a0196e1e9e967a0ae43cf3a1" prot="public" static="no">
+        <name>glTFBlendMode</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a1b8788d0a0196e1e9e967a0ae43cf3a1af05b252996befbe2cb461cc80c9ccbed" prot="public">
+          <name>OPAQUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a1b8788d0a0196e1e9e967a0ae43cf3a1a0a9501840acacfc8efe7522f5340000c" prot="public">
+          <name>MASK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a1b8788d0a0196e1e9e967a0ae43cf3a1af58072a9536aaeef0196115e445fa4d8" prot="public">
+          <name>BLEND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/MaterialExporter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/MaterialExporter.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0a" prot="public" static="no">
+        <name>RenderPipelineTypes</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0aaad5498e6d582df4ed3a50bbf5214d110" prot="public">
+          <name>BuiltinRenderPipeline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0aac4a1e5d97dbbb57009d187ea7eb4bf14" prot="public">
+          <name>UniversalRenderPipeline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>TODO: HDRP ? TODO: UserCustom ? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/RenderPipelineTypes.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/RenderPipelineTypes.cs" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414" prot="public" static="no">
+        <name>VertexColorState</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414abde904fc072d53d72af4446576f58c86" prot="public">
+          <name>ExistsAndIsUsed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414ab5f281e3afa2bfe15262fbf0ae364d05" prot="public">
+          <name>ExistsButNotUsed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a25ebd6a63c9cf62054ae36608c407414acbe3da6953ab2c8c5fd0d0a055fc7d7f" prot="public">
+          <name>ExistsAndMixed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Mesh に頂点カラーが含まれているか。 含まれている場合にマテリアルは Unlit.VColorMultiply になっているか？ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/VertexColorState.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/VertexColorState.cs" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a751a062eab07cb08209713a9a5caa7c9" prot="public" static="no">
+        <name>ErrorLevels</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a751a062eab07cb08209713a9a5caa7c9a4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <briefdescription>
+<para>Exportできる。お知らせ </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a751a062eab07cb08209713a9a5caa7c9a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+<para>Exportできる。不具合の可能性 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a751a062eab07cb08209713a9a5caa7c9a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+<para>Exportするために修正が必用 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a751a062eab07cb08209713a9a5caa7c9a278d01e5af56273bae1bb99a98b370cd" prot="public">
+          <name>Critical</name>
+          <briefdescription>
+<para>Exportの前提を満たさない </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Validation/Validation.cs" bodystart="6" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a2d3297aa1db48a8f9c9a6012868f0c3a" prot="public" static="no">
+        <name>EnableTPose</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a2d3297aa1db48a8f9c9a6012868f0c3aa61340cb10258cd6fc2ff994d12745125" prot="public">
+          <name>ENALBE_TPOSE_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a2d3297aa1db48a8f9c9a6012868f0c3aa6c7162c3f62cfdfbefd97ff88f9953c3" prot="public">
+          <name>DISABLE_TPOSE_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/InternalTPose.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_uni_g_l_t_f_1a21e0d3e48307457fe0256b8a7dcce23a" prot="public" static="no">
+        <name>ScriptedImporterAxes</name>
+        <enumvalue id="namespace_uni_g_l_t_f_1a21e0d3e48307457fe0256b8a7dcce23aa7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a21e0d3e48307457fe0256b8a7dcce23aa21c2e59531c8710156d34a3c30ac81d5" prot="public">
+          <name>Z</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_uni_g_l_t_f_1a21e0d3e48307457fe0256b8a7dcce23aa02129bb861061d1a052c592e2dc6b383" prot="public">
+          <name>X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>ScriptedImporter の Inspector 用の Axes 設定 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ScriptedImporterAxes.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ScriptedImporterAxes.cs" bodystart="6" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_uni_g_l_t_f_1ad523cd213d89e2b4c3c812d438ef4a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate IEnumerable&lt; <ref refid="struct_uni_g_l_t_f_1_1_validation" kindref="compound">Validation</ref> &gt;</type>
+        <definition>delegate IEnumerable&lt;Validation&gt; UniGLTF.Validator</definition>
+        <argsstring>(GameObject root)</argsstring>
+        <name>Validator</name>
+        <param>
+          <type>GameObject</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/ExportDialogState.cs" line="8" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_editor_settings_validator_window_1adf8fa29764313937b22627a632b6fdc2" compoundref="_unity_editor_settings_validator_window_8cs" startline="32" endline="96">UniGLTF.EditorSettingsValidator.UnityEditorSettingsValidatorWindow.OnGUI</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_editor_settings_validator_1_1_unity_editor_settings_validator_window_1a42f92b45901f6a8b00e9856634b65d67" compoundref="_unity_editor_settings_validator_window_8cs" startline="18" endline="25">UniGLTF.EditorSettingsValidator.UnityEditorSettingsValidatorWindow.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_uni_g_l_t_f_1acb58a0e53ba3fba2380e5506e0f0c687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Dictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref> &gt;</type>
+        <definition>delegate Dictionary&lt;SubAssetKey, UnityEngine.Object&gt; UniGLTF.EditorMapGetterFunc</definition>
+        <argsstring>()</argsstring>
+        <name>EditorMapGetterFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorBase.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_uni_g_l_t_f_1a2d1321507ed6d63153519fbd1036ac12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void UniGLTF.EditorMapSetterFunc</definition>
+        <argsstring>(Dictionary&lt; SubAssetKey, UnityEngine.Object &gt; editorMap)</argsstring>
+        <name>EditorMapSetterFunc</name>
+        <param>
+          <type>Dictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref> &gt;</type>
+          <declname>editorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/RemapEditorBase.cs" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ulink url="https://gist.github.com/szimek/763999">https://gist.github.com/szimek/763999</ulink> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

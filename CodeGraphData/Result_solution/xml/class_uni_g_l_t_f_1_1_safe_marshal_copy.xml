@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_safe_marshal_copy" kind="class" prot="public">
+    <compoundname>UniGLTF::SafeMarshalCopy</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_safe_marshal_copy_1ab6820feac70c3800acbe64c8b0d9711c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.SafeMarshalCopy.CopyBytesToArray&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; src, T[] dst)</argsstring>
+        <name>CopyBytesToArray&lt; T &gt;</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>T[]</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+<para>bytes から T[] へのコピー </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" bodystart="22" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_safe_marshal_copy_1af27583f81c8c1d8728496060ed491305" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.SafeMarshalCopy.CopyArrayToToBytes&lt; T &gt;</definition>
+        <argsstring>(T[] src, ArraySegment&lt; byte &gt; dst)</argsstring>
+        <name>CopyArrayToToBytes&lt; T &gt;</name>
+        <param>
+          <type>T[]</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+<para>T[] から bytes へのコピー </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" bodystart="51" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Marshal.Copy </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>ptr to bytes</para></listitem><listitem><para>bytes to ptr の両方向がある。 ptr になったら範囲は分からん。 ptr にする前に範囲チェックするのを明確にするのがこの Utility の意図である。</para></listitem></itemizedlist>
+</para><para>Marshal.Copy を使わずにこの関数を使うべし</para>    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SafeMarshalCopy.cs" bodystart="17" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_safe_marshal_copy_1af27583f81c8c1d8728496060ed491305" prot="public" virt="non-virtual"><scope>UniGLTF::SafeMarshalCopy</scope><name>CopyArrayToToBytes&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_safe_marshal_copy_1ab6820feac70c3800acbe64c8b0d9711c" prot="public" virt="non-virtual"><scope>UniGLTF::SafeMarshalCopy</scope><name>CopyBytesToArray&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

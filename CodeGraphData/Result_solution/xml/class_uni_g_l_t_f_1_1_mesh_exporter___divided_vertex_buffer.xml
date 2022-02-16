@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshExporter_DividedVertexBuffer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer_1a586405ea329695888400f2d802315b06" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.MeshExporter_DividedVertexBuffer.glTFMesh</definition>
+        <argsstring></argsstring>
+        <name>glTFMesh</name>
+        <briefdescription>
+<para>Divide vertex buffer(Position, Normal, UV, VertexColor, Skinning and BlendShapes) by submesh usage, then export </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gltf</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gltfBuffer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unityMesh</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unityMaterials</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axisInverter</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer_1aa9e409bf9f77685753f3d73925b355b6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>static Dictionary&lt;int, int&gt; UniGLTF.MeshExporter_DividedVertexBuffer.Export</definition>
+        <argsstring>(ExportingGltfData data, MeshExportInfo unityMesh, List&lt; Material &gt; unityMaterials, IAxisInverter axisInverter, GltfExportSettings settings)</argsstring>
+        <name>Export</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_info" kindref="compound">MeshExportInfo</ref></type>
+          <declname>unityMesh</declname>
+        </param>
+        <param>
+          <type>List&lt; Material &gt;</type>
+          <declname>unityMaterials</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>axisInverter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" bodystart="20" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_DividedVertexBuffer.cs" bodystart="8" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer_1aa9e409bf9f77685753f3d73925b355b6" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExporter_DividedVertexBuffer</scope><name>Export</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___divided_vertex_buffer_1a586405ea329695888400f2d802315b06" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExporter_DividedVertexBuffer</scope><name>glTFMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

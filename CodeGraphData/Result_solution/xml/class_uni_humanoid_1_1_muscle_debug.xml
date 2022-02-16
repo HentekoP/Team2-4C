@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_muscle_debug" kind="class" prot="public">
+    <compoundname>UniHumanoid::MuscleDebug</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_uni_humanoid_1_1_muscle_debug_1_1_muscle" prot="public">UniHumanoid::MuscleDebug::Muscle</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_muscle_debug_1ae0b69f2c80d134827a9eb84d37e3a082" prot="private" static="no" mutable="no">
+        <type>HumanPoseHandler</type>
+        <definition>HumanPoseHandler UniHumanoid.MuscleDebug.m_handler</definition>
+        <argsstring></argsstring>
+        <name>m_handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a10e84f906502516ebe2da59a5574316c" compoundref="_muscle_debug_8cs" startline="46" endline="67">UniHumanoid.MuscleDebug.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_muscle_debug_1a684fb9096e9ec72224f1db98cf192828" prot="public" static="no" mutable="no">
+        <type>HumanPose</type>
+        <definition>HumanPose UniHumanoid.MuscleDebug.m_pose</definition>
+        <argsstring></argsstring>
+        <name>m_pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a74b1372a2d7ea2b2f014579c05fb0602" compoundref="_muscle_debug_8cs" startline="73" endline="83">UniHumanoid.MuscleDebug.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_muscle_debug_1ae010431863dcf8ebe61429012433b842" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniHumanoid.MuscleDebug.BodyPosition</definition>
+        <argsstring></argsstring>
+        <name>BodyPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a74b1372a2d7ea2b2f014579c05fb0602" compoundref="_muscle_debug_8cs" startline="73" endline="83">UniHumanoid.MuscleDebug.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_muscle_debug_1aa4cb681f2c93915e32604dabf61bd364" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_uni_humanoid_1_1_muscle_debug_1_1_muscle" kindref="compound">Muscle</ref>[]</type>
+        <definition>Muscle [] UniHumanoid.MuscleDebug.Muscles</definition>
+        <argsstring></argsstring>
+        <name>Muscles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a10e84f906502516ebe2da59a5574316c" compoundref="_muscle_debug_8cs" startline="46" endline="67">UniHumanoid.MuscleDebug.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a74b1372a2d7ea2b2f014579c05fb0602" compoundref="_muscle_debug_8cs" startline="73" endline="83">UniHumanoid.MuscleDebug.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_muscle_debug_1a6f880dd0d741dec219835337aa8f9e08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Avatar</type>
+        <definition>Avatar UniHumanoid.MuscleDebug.GetAvatar</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="13" bodyend="28"/>
+        <referencedby refid="class_uni_humanoid_1_1_muscle_debug_1a10e84f906502516ebe2da59a5574316c" compoundref="_muscle_debug_8cs" startline="46" endline="67">UniHumanoid.MuscleDebug.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_muscle_debug_1a10e84f906502516ebe2da59a5574316c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.MuscleDebug.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="46" bodyend="67"/>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1a6f880dd0d741dec219835337aa8f9e08" compoundref="_muscle_debug_8cs" startline="13" endline="28">UniHumanoid.MuscleDebug.GetAvatar</references>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1ae0b69f2c80d134827a9eb84d37e3a082" compoundref="_muscle_debug_8cs" startline="30">UniHumanoid.MuscleDebug.m_handler</references>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1aa4cb681f2c93915e32604dabf61bd364" compoundref="_muscle_debug_8cs" startline="44">UniHumanoid.MuscleDebug.Muscles</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_muscle_debug_1a366815018b1e43801b5aadd9dc8cc9a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.MuscleDebug.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_muscle_debug_1a74b1372a2d7ea2b2f014579c05fb0602" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.MuscleDebug.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="73" bodyend="83"/>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1ae010431863dcf8ebe61429012433b842" compoundref="_muscle_debug_8cs" startline="42">UniHumanoid.MuscleDebug.BodyPosition</references>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1a684fb9096e9ec72224f1db98cf192828" compoundref="_muscle_debug_8cs" startline="32">UniHumanoid.MuscleDebug.m_pose</references>
+        <references refid="class_uni_humanoid_1_1_muscle_debug_1aa4cb681f2c93915e32604dabf61bd364" compoundref="_muscle_debug_8cs" startline="44">UniHumanoid.MuscleDebug.Muscles</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1825">
+        <label>UniHumanoid.MuscleDebug</label>
+        <link refid="class_uni_humanoid_1_1_muscle_debug"/>
+        <childnode refid="1826" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1826">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1829">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1830" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1829" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1830">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1827">
+        <label>UniHumanoid.MuscleDebug</label>
+        <link refid="class_uni_humanoid_1_1_muscle_debug"/>
+        <childnode refid="1828" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1829" relation="usage">
+          <edgelabel>BodyPosition</edgelabel>
+        </childnode>
+        <childnode refid="1831" relation="usage">
+          <edgelabel>Muscles</edgelabel>
+        </childnode>
+      </node>
+      <node id="1828">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1831">
+        <label>UniHumanoid.MuscleDebug.Muscle</label>
+        <link refid="struct_uni_humanoid_1_1_muscle_debug_1_1_muscle"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/MuscleDebug.cs" bodystart="11" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1ae010431863dcf8ebe61429012433b842" prot="public" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>BodyPosition</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1a6f880dd0d741dec219835337aa8f9e08" prot="private" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>GetAvatar</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1ae0b69f2c80d134827a9eb84d37e3a082" prot="private" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>m_handler</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1a684fb9096e9ec72224f1db98cf192828" prot="public" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>m_pose</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1aa4cb681f2c93915e32604dabf61bd364" prot="public" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>Muscles</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1a366815018b1e43801b5aadd9dc8cc9a1" prot="private" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>OnDisable</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1a10e84f906502516ebe2da59a5574316c" prot="private" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>OnEnable</name></member>
+      <member refid="class_uni_humanoid_1_1_muscle_debug_1a74b1372a2d7ea2b2f014579c05fb0602" prot="private" virt="non-virtual"><scope>UniHumanoid::MuscleDebug</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_v_r_m_meta_object_8cs" kind="file">
+    <compoundname>VRMMetaObject.cs</compoundname>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta_object" prot="public">VRM::VRMMetaObject</innerclass>
+    <innernamespace refid="namespace_v_r_m">VRM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniGLTF;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_v_r_m_1_1_v_r_m_meta_object" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="11" refid="class_v_r_m_1_1_v_r_m_meta_object_1a7213897647bf827e74b6181ef48cb710" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a7213897647bf827e74b6181ef48cb710" kindref="member">ExporterVersion</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Info</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="15" refid="class_v_r_m_1_1_v_r_m_meta_object_1adc82333df222de6abe7742ea63eda1e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1adc82333df222de6abe7742ea63eda1e2" kindref="member">Title</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="18" refid="class_v_r_m_1_1_v_r_m_meta_object_1a73a98e925761ec9c63ef44138fb4a331" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a73a98e925761ec9c63ef44138fb4a331" kindref="member">Version</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="21" refid="class_v_r_m_1_1_v_r_m_meta_object_1a1b71a1b99fd454f150a27b854b42dd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a1b71a1b99fd454f150a27b854b42dd1a" kindref="member">Author</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="24" refid="class_v_r_m_1_1_v_r_m_meta_object_1acfd1d256023e8bd3126077cc199a43f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1acfd1d256023e8bd3126077cc199a43f3" kindref="member">ContactInformation</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="27" refid="class_v_r_m_1_1_v_r_m_meta_object_1a55202b0a315fc01d4c80615686e857b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a55202b0a315fc01d4c80615686e857b8" kindref="member">Reference</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="30" refid="class_v_r_m_1_1_v_r_m_meta_object_1a2fd441a53d3582a80a7bb22f5f38ada6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Texture2D<sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a2fd441a53d3582a80a7bb22f5f38ada6" kindref="member">Thumbnail</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Permission</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>Tooltip(</highlight><highlight class="stringliteral">&quot;A<sp/>person<sp/>who<sp/>can<sp/>perform<sp/>with<sp/>this<sp/>avatar&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="35" refid="class_v_r_m_1_1_v_r_m_meta_object_1af8f34a2a7cf26bc5ee333e070a4bf28c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_1ac7dfc97aa943125e489eedf49ec4e30d" kindref="member">AllowedUser</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1af8f34a2a7cf26bc5ee333e070a4bf28c" kindref="member">AllowedUser</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>Tooltip(</highlight><highlight class="stringliteral">&quot;Violent<sp/>acts<sp/>using<sp/>this<sp/>avatar&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="38" refid="class_v_r_m_1_1_v_r_m_meta_object_1aa95f3bb974a417408ff213bc458056c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837" kindref="member">UssageLicense</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1aa95f3bb974a417408ff213bc458056c8" kindref="member">ViolentUssage</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>Tooltip(</highlight><highlight class="stringliteral">&quot;Sexuality<sp/>acts<sp/>using<sp/>this<sp/>avatar&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="41" refid="class_v_r_m_1_1_v_r_m_meta_object_1a72eca8165345fda9f8c5cd03087e03ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837" kindref="member">UssageLicense</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a72eca8165345fda9f8c5cd03087e03ae" kindref="member">SexualUssage</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>Tooltip(</highlight><highlight class="stringliteral">&quot;For<sp/>commercial<sp/>use&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="44" refid="class_v_r_m_1_1_v_r_m_meta_object_1abec1244432b86ef729c32dc31dd60510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837" kindref="member">UssageLicense</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1abec1244432b86ef729c32dc31dd60510" kindref="member">CommercialUssage</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>Tooltip(</highlight><highlight class="stringliteral">&quot;Other<sp/>License<sp/>Url&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="47" refid="class_v_r_m_1_1_v_r_m_meta_object_1a32f4fbac8b1c403846d50df9a06fc19e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a32f4fbac8b1c403846d50df9a06fc19e" kindref="member">OtherPermissionUrl</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Distribution<sp/>License</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="52" refid="class_v_r_m_1_1_v_r_m_meta_object_1a51f28db63b302aed4cd78ba95337b49a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2" kindref="member">LicenseType</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a51f28db63b302aed4cd78ba95337b49a" kindref="member">LicenseType</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="55" refid="class_v_r_m_1_1_v_r_m_meta_object_1a9c815599dd6b960ad59dabefba7a8222" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a9c815599dd6b960ad59dabefba7a8222" kindref="member">OtherLicenseUrl</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>bool<sp/>Equals(VRMMetaObject<sp/>other)</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Author<sp/>==<sp/>other.Author</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>Title<sp/>==<sp/>other.Title</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>UniGLTF.MonoBehaviourComparator.AssetAreEquals(Thumbnail,<sp/>other.Thumbnail)</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_v_r_m_1_1_v_r_m_meta_object_1a67758ca943a3b176d69158c2bc968478" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IEnumerable&lt;Validation&gt;<sp/><ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a67758ca943a3b176d69158c2bc968478" kindref="member">Validate</ref>(GameObject<sp/>_)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.IsNullOrEmpty(<ref refid="class_v_r_m_1_1_v_r_m_meta_object_1adc82333df222de6abe7742ea63eda1e2" kindref="member">Title</ref>))</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Validation.Error(</highlight><highlight class="stringliteral">&quot;Require<sp/>Title.<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.IsNullOrEmpty(<ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a73a98e925761ec9c63ef44138fb4a331" kindref="member">Version</ref>))</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Validation.Error(</highlight><highlight class="stringliteral">&quot;Require<sp/>Version.<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.IsNullOrEmpty(<ref refid="class_v_r_m_1_1_v_r_m_meta_object_1a1b71a1b99fd454f150a27b854b42dd1a" kindref="member">Author</ref>))</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Validation.Error(</highlight><highlight class="stringliteral">&quot;Require<sp/>Author.<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Meta/VRMMetaObject.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_rotate" kind="class" prot="public">
+    <compoundname>CameraRotate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_rotate_1afa292558358cc891c7481d2bc5ec7891" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraRotate.mouseX</definition>
+        <argsstring></argsstring>
+        <name>mouseX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_camera_rotate_1a964302dcd87b795bb39a752ef933810b" compoundref="_camera_rotate_8cs" startline="14" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_rotate_1a8049de9b3dab810aa2717f21456b3ac3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraRotate.mouseY</definition>
+        <argsstring></argsstring>
+        <name>mouseY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_camera_rotate_1a964302dcd87b795bb39a752ef933810b" compoundref="_camera_rotate_8cs" startline="14" endline="19">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_rotate_1aa6233efa15101639182d42f56071db7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraRotate.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_rotate_1a964302dcd87b795bb39a752ef933810b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraRotate.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" bodystart="14" bodyend="19"/>
+        <references refid="class_camera_rotate_1afa292558358cc891c7481d2bc5ec7891" compoundref="_camera_rotate_8cs" startline="6">mouseX</references>
+        <references refid="class_camera_rotate_1a8049de9b3dab810aa2717f21456b3ac3" compoundref="_camera_rotate_8cs" startline="6">mouseY</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="443">
+        <label>CameraRotate</label>
+        <link refid="class_camera_rotate"/>
+        <childnode refid="444" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="445">
+        <label>CameraRotate</label>
+        <link refid="class_camera_rotate"/>
+        <childnode refid="446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_1/CameraRotate.cs" bodystart="4" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_camera_rotate_1afa292558358cc891c7481d2bc5ec7891" prot="private" virt="non-virtual"><scope>CameraRotate</scope><name>mouseX</name></member>
+      <member refid="class_camera_rotate_1a8049de9b3dab810aa2717f21456b3ac3" prot="private" virt="non-virtual"><scope>CameraRotate</scope><name>mouseY</name></member>
+      <member refid="class_camera_rotate_1aa6233efa15101639182d42f56071db7e" prot="private" virt="non-virtual"><scope>CameraRotate</scope><name>Start</name></member>
+      <member refid="class_camera_rotate_1a964302dcd87b795bb39a752ef933810b" prot="private" virt="non-virtual"><scope>CameraRotate</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

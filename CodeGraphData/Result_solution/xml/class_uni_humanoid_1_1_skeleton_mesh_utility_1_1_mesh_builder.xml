@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder" kind="class" prot="private">
+    <compoundname>UniHumanoid::SkeletonMeshUtility::MeshBuilder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ae555754949b05bf483cd67c00e749519" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref> &gt;</type>
+        <definition>List&lt;Vector3&gt; UniHumanoid.SkeletonMeshUtility.MeshBuilder.m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <initializer>= new List&lt;<ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a80a243a0eaf479f7547bf23843c31807" compoundref="_skeleton_mesh_utility_8cs" startline="119" endline="128">UniHumanoid.SkeletonMeshUtility.MeshBuilder.CreateMesh</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a9729ac3109d21b8a6cc871522f937045" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; UniHumanoid.SkeletonMeshUtility.MeshBuilder.m_indices</definition>
+        <argsstring></argsstring>
+        <name>m_indices</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70f6fcaedd05294c31324a28e7264d4a" prot="private" static="no" mutable="no">
+        <type>List&lt; BoneWeight &gt;</type>
+        <definition>List&lt;BoneWeight&gt; UniHumanoid.SkeletonMeshUtility.MeshBuilder.m_boneWeights</definition>
+        <argsstring></argsstring>
+        <name>m_boneWeights</name>
+        <initializer>= new List&lt;BoneWeight&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a9590533e5d7e5c9e0fe9573b9ebb68b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddBone</definition>
+        <argsstring>(Vector3 head, Vector3 tail, int boneIndex, float xWidth, float zWidth)</argsstring>
+        <name>AddBone</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>head</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>tail</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>xWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="17" bodyend="37"/>
+        <references refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70cbdb25d44abebabfde9413b6c4c143" compoundref="_skeleton_mesh_utility_8cs" startline="39" endline="77">UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddBox</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a80a243a0eaf479f7547bf23843c31807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>Mesh UniHumanoid.SkeletonMeshUtility.MeshBuilder.CreateMesh</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="119" bodyend="128"/>
+        <references refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ae555754949b05bf483cd67c00e749519" compoundref="_skeleton_mesh_utility_8cs" startline="13">UniHumanoid.SkeletonMeshUtility.MeshBuilder.m_positions</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70cbdb25d44abebabfde9413b6c4c143" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddBox</definition>
+        <argsstring>(Vector3 center, Vector3 xaxis, Vector3 yaxis, Vector3 zaxis, int boneIndex)</argsstring>
+        <name>AddBox</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>xaxis</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>yaxis</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>zaxis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="39" bodyend="77"/>
+        <references refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ac4241d54465210ff83362c66e2d39d0c" compoundref="_skeleton_mesh_utility_8cs" startline="79" endline="117">UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddQuad</references>
+        <referencedby refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a9590533e5d7e5c9e0fe9573b9ebb68b8" compoundref="_skeleton_mesh_utility_8cs" startline="17" endline="37">UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddBone</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ac4241d54465210ff83362c66e2d39d0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddQuad</definition>
+        <argsstring>(Vector3 v0, Vector3 v1, Vector3 v2, Vector3 v3, int boneIndex, bool reverse=false)</argsstring>
+        <name>AddQuad</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reverse</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="79" bodyend="117"/>
+        <referencedby refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70cbdb25d44abebabfde9413b6c4c143" compoundref="_skeleton_mesh_utility_8cs" startline="39" endline="77">UniHumanoid.SkeletonMeshUtility.MeshBuilder.AddBox</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonMeshUtility.cs" bodystart="11" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a9590533e5d7e5c9e0fe9573b9ebb68b8" prot="public" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>AddBone</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70cbdb25d44abebabfde9413b6c4c143" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>AddBox</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ac4241d54465210ff83362c66e2d39d0c" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>AddQuad</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a80a243a0eaf479f7547bf23843c31807" prot="public" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>CreateMesh</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a70f6fcaedd05294c31324a28e7264d4a" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>m_boneWeights</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1a9729ac3109d21b8a6cc871522f937045" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>m_indices</name></member>
+      <member refid="class_uni_humanoid_1_1_skeleton_mesh_utility_1_1_mesh_builder_1ae555754949b05bf483cd67c00e749519" prot="private" virt="non-virtual"><scope>UniHumanoid::SkeletonMeshUtility::MeshBuilder</scope><name>m_positions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

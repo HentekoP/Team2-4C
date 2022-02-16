@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator" kind="class" prot="private">
+    <compoundname>VRM::VRMExporterWizard::VRMMaterialValidator</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_default_material_validator" prot="public" virt="non-virtual">UniGLTF.DefaultMaterialValidator</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a180ec444957ac2fef6a5658c73e8e7c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string VRM.VRMExporterWizard.VRMMaterialValidator.GetGltfMaterialTypeFromUnityShaderName</definition>
+        <argsstring>(string shaderName)</argsstring>
+        <name>GetGltfMaterialTypeFromUnityShaderName</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_default_material_validator_1ab7447ce91acac4003f74282e801bcb6a">GetGltfMaterialTypeFromUnityShaderName</reimplements>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+<para>shaderName から glTF マテリアルタイプ を得る </para>        </briefdescription>
+        <detaileddescription>
+<para>shaderName が エクスポートできるものでないときは null を返す(gltfデフォルトの pbr として処理される) </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shaderName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="129" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a43d52de78d9d3172a9fedd4d07089cb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override IEnumerable&lt;(string propertyName, Texture texture)&gt;</type>
+        <definition>override IEnumerable&lt;(string propertyName, Texture texture)&gt; VRM.VRMExporterWizard.VRMMaterialValidator.EnumerateTextureProperties</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>EnumerateTextureProperties</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_default_material_validator_1a13ec21915d3b08c2ceb0ed5ec1321589">EnumerateTextureProperties</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>テクスチャーを使うプロパティを列挙する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="139" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>VRM0 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2866">
+        <label>VRM.VRMExporterWizard.VRMMaterialValidator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator"/>
+        <childnode refid="2867" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2867">
+        <label>DefaultMaterialValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_default_material_validator"/>
+        <childnode refid="2868" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2868">
+        <label>IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2869">
+        <label>VRM.VRMExporterWizard.VRMMaterialValidator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator"/>
+        <childnode refid="2870" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2870">
+        <label>DefaultMaterialValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_default_material_validator"/>
+        <childnode refid="2871" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2871">
+        <label>IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExporterWizard.cs" bodystart="127" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a43d52de78d9d3172a9fedd4d07089cb4" prot="public" virt="virtual"><scope>VRM::VRMExporterWizard::VRMMaterialValidator</scope><name>EnumerateTextureProperties</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1_1_v_r_m_material_validator_1a180ec444957ac2fef6a5658c73e8e7c3" prot="public" virt="virtual"><scope>VRM::VRMExporterWizard::VRMMaterialValidator</scope><name>GetGltfMaterialTypeFromUnityShaderName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_runtime_gltf_instance" kind="class" prot="public">
+    <compoundname>UniGLTF::RuntimeGltfInstance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" prot="public" virt="non-virtual">VRMShaders.IResponsibilityForDestroyObjects</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a761138b1832451c35ff156948f63cb09" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.RuntimeGltfInstance.Root</definition>
+        <argsstring></argsstring>
+        <name>Root</name>
+        <initializer>=&gt; (this != null) ? this.gameObject : null</initializer>
+        <briefdescription>
+<para>this is <ref refid="namespace_uni_g_l_t_f" kindref="compound">UniGLTF</ref> root gameObject </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a64f96b0181039ca45f3fac32bc9c3b41" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; Transform &gt;</type>
+        <definition>IReadOnlyList&lt;Transform&gt; UniGLTF.RuntimeGltfInstance.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aae527f5948f43b16fc7c3fa7c4876592" kindref="member">_nodes</ref></initializer>
+        <briefdescription>
+<para>Transforms with gltf node index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a17ada5cee702e78a3064b3e78f9e0d5d" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt;(<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref>)&gt;</type>
+        <definition>IReadOnlyList&lt;(SubAssetKey, UnityEngine.Object)&gt; UniGLTF.RuntimeGltfInstance.RuntimeResources</definition>
+        <argsstring></argsstring>
+        <name>RuntimeResources</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad82cc40519bc78cad915a909099720b5" kindref="member">_resources</ref></initializer>
+        <briefdescription>
+<para>Runtime resources. ex. Material, Texture, AnimationClip, Mesh. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad88dfd2c802105c23741042cc9d09624" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; Material &gt;</type>
+        <definition>IReadOnlyList&lt;Material&gt; UniGLTF.RuntimeGltfInstance.Materials</definition>
+        <argsstring></argsstring>
+        <name>Materials</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1afd3a3414964cc4e870b2e7b88fd812f9" kindref="member">_materials</ref></initializer>
+        <briefdescription>
+<para>Materials. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad70986f5b01c0d3d1bd9ec467694d3ff" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; Texture &gt;</type>
+        <definition>IReadOnlyList&lt;Texture&gt; UniGLTF.RuntimeGltfInstance.Textures</definition>
+        <argsstring></argsstring>
+        <name>Textures</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aea35fd0591ed2d2ba817a9cd04283ddb" kindref="member">_textures</ref></initializer>
+        <briefdescription>
+<para>Textures. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a0819bba970c7b88be07909821cacc5a0" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; AnimationClip &gt;</type>
+        <definition>IReadOnlyList&lt;AnimationClip&gt; UniGLTF.RuntimeGltfInstance.AnimationClips</definition>
+        <argsstring></argsstring>
+        <name>AnimationClips</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a77891130d6aafaa472ce87adf87e054f" kindref="member">_animationClips</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_uni_g_l_t_f_1_1_animation" kindref="compound">Animation</ref> Clips. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a5096ebfb5041e22589cc6a1ce6e22c88" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; Mesh &gt;</type>
+        <definition>IReadOnlyList&lt;Mesh&gt; UniGLTF.RuntimeGltfInstance.Meshes</definition>
+        <argsstring></argsstring>
+        <name>Meshes</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aaeadfa8d172ea76ba7e52a2cc3ec29c2" kindref="member">_meshes</ref></initializer>
+        <briefdescription>
+<para>Meshes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a14473ec55e27dea06f0aa4b41eadd3ee" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; Renderer &gt;</type>
+        <definition>IReadOnlyList&lt;Renderer&gt; UniGLTF.RuntimeGltfInstance.Renderers</definition>
+        <argsstring></argsstring>
+        <name>Renderers</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1a3b3d011e3442ffb87f618853c81f2a" kindref="member">_renderers</ref></initializer>
+        <briefdescription>
+<para>Renderers. ex. MeshRenderer, SkinnedMeshRenderer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a5800b7b1c9d1ad8c14c208afb7fd4467" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; MeshRenderer &gt;</type>
+        <definition>IReadOnlyList&lt;MeshRenderer&gt; UniGLTF.RuntimeGltfInstance.MeshRenderers</definition>
+        <argsstring></argsstring>
+        <name>MeshRenderers</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c21155fd0f44eb91ff3b0dcea5d3136" kindref="member">_meshRenderers</ref></initializer>
+        <briefdescription>
+<para>Mesh Renderers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab7ff4db5c165b7c11a18082d7fa9122c" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; SkinnedMeshRenderer &gt;</type>
+        <definition>IReadOnlyList&lt;SkinnedMeshRenderer&gt; UniGLTF.RuntimeGltfInstance.SkinnedMeshRenderers</definition>
+        <argsstring></argsstring>
+        <name>SkinnedMeshRenderers</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a4719dc72f8537a42b46a53b1a6f797d1" kindref="member">_skinnedMeshRenderers</ref></initializer>
+        <briefdescription>
+<para>Skinned Mesh Renderers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a90b4fdfee7102abf2aa465288d9b86a6" compoundref="_runtime_gltf_instance_8cs" startline="154" endline="160">UniGLTF.RuntimeGltfInstance.EnableUpdateWhenOffscreen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a615c9c911db1e407209ecc9349fa76aa" prot="public" static="no" mutable="no">
+        <type>IList&lt; Renderer &gt;</type>
+        <definition>IList&lt;Renderer&gt; UniGLTF.RuntimeGltfInstance.VisibleRenderers</definition>
+        <argsstring></argsstring>
+        <name>VisibleRenderers</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a12a95af371b3c8ae786ea95043e58e6d" kindref="member">_visibleRenderers</ref></initializer>
+        <briefdescription>
+<para>ShowMeshes の対象になる Renderer。 Destroy対象とは無関係なので、自由に操作して OK。 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Renderer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab03fe9176387c0252ea7b8645e02305c" compoundref="_runtime_gltf_instance_8cs" startline="146" endline="152">UniGLTF.RuntimeGltfInstance.ShowMeshes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aae527f5948f43b16fc7c3fa7c4876592" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Transform &gt;</type>
+        <definition>readonly List&lt;Transform&gt; UniGLTF.RuntimeGltfInstance._nodes</definition>
+        <argsstring></argsstring>
+        <name>_nodes</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad82cc40519bc78cad915a909099720b5" prot="private" static="no" mutable="no">
+        <type>readonly List&lt;(<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref>)&gt;</type>
+        <definition>readonly List&lt;(SubAssetKey, UnityEngine.Object)&gt; UniGLTF.RuntimeGltfInstance._resources</definition>
+        <argsstring></argsstring>
+        <name>_resources</name>
+        <initializer>= new List&lt;(<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref>)&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a761e56b87a8f67a02b8245ea4431e90a" compoundref="_runtime_gltf_instance_8cs" startline="162" endline="169">UniGLTF.RuntimeGltfInstance.OnDestroy</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c3e55783624e0dbb1a124025c0430ab" compoundref="_runtime_gltf_instance_8cs" startline="171" endline="178">UniGLTF.RuntimeGltfInstance.TransferOwnership</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1afd3a3414964cc4e870b2e7b88fd812f9" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Material &gt;</type>
+        <definition>readonly List&lt;Material&gt; UniGLTF.RuntimeGltfInstance._materials</definition>
+        <argsstring></argsstring>
+        <name>_materials</name>
+        <initializer>= new List&lt;Material&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aea35fd0591ed2d2ba817a9cd04283ddb" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Texture &gt;</type>
+        <definition>readonly List&lt;Texture&gt; UniGLTF.RuntimeGltfInstance._textures</definition>
+        <argsstring></argsstring>
+        <name>_textures</name>
+        <initializer>= new List&lt;Texture&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a77891130d6aafaa472ce87adf87e054f" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; AnimationClip &gt;</type>
+        <definition>readonly List&lt;AnimationClip&gt; UniGLTF.RuntimeGltfInstance._animationClips</definition>
+        <argsstring></argsstring>
+        <name>_animationClips</name>
+        <initializer>= new List&lt;AnimationClip&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aaeadfa8d172ea76ba7e52a2cc3ec29c2" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Mesh &gt;</type>
+        <definition>readonly List&lt;Mesh&gt; UniGLTF.RuntimeGltfInstance._meshes</definition>
+        <argsstring></argsstring>
+        <name>_meshes</name>
+        <initializer>= new List&lt;Mesh&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1a3b3d011e3442ffb87f618853c81f2a" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Renderer &gt;</type>
+        <definition>readonly List&lt;Renderer&gt; UniGLTF.RuntimeGltfInstance._renderers</definition>
+        <argsstring></argsstring>
+        <name>_renderers</name>
+        <initializer>= new List&lt;Renderer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c21155fd0f44eb91ff3b0dcea5d3136" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; MeshRenderer &gt;</type>
+        <definition>readonly List&lt;MeshRenderer&gt; UniGLTF.RuntimeGltfInstance._meshRenderers</definition>
+        <argsstring></argsstring>
+        <name>_meshRenderers</name>
+        <initializer>= new List&lt;MeshRenderer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a4719dc72f8537a42b46a53b1a6f797d1" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; SkinnedMeshRenderer &gt;</type>
+        <definition>readonly List&lt;SkinnedMeshRenderer&gt; UniGLTF.RuntimeGltfInstance._skinnedMeshRenderers</definition>
+        <argsstring></argsstring>
+        <name>_skinnedMeshRenderers</name>
+        <initializer>= new List&lt;SkinnedMeshRenderer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a12a95af371b3c8ae786ea95043e58e6d" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; Renderer &gt;</type>
+        <definition>readonly List&lt;Renderer&gt; UniGLTF.RuntimeGltfInstance._visibleRenderers</definition>
+        <argsstring></argsstring>
+        <name>_visibleRenderers</name>
+        <initializer>= new List&lt;Renderer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ae1e6dbfeaae781513f2b7960e36c8d79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance" kindref="compound">RuntimeGltfInstance</ref></type>
+        <definition>static RuntimeGltfInstance UniGLTF.RuntimeGltfInstance.AttachTo</definition>
+        <argsstring>(GameObject go, ImporterContext context)</argsstring>
+        <name>AttachTo</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_importer_context" kindref="compound">ImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="87" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a74fb5df699f9b98e26969db9b45470fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.AddRenderer</definition>
+        <argsstring>(Renderer renderer)</argsstring>
+        <name>AddRenderer</name>
+        <param>
+          <type>Renderer</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="129" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab03fe9176387c0252ea7b8645e02305c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.ShowMeshes</definition>
+        <argsstring>()</argsstring>
+        <name>ShowMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="146" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="146" bodyend="152"/>
+        <references refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a615c9c911db1e407209ecc9349fa76aa" compoundref="_runtime_gltf_instance_8cs" startline="73">UniGLTF.RuntimeGltfInstance.VisibleRenderers</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a90b4fdfee7102abf2aa465288d9b86a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.EnableUpdateWhenOffscreen</definition>
+        <argsstring>()</argsstring>
+        <name>EnableUpdateWhenOffscreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="154" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="154" bodyend="160"/>
+        <references refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab7ff4db5c165b7c11a18082d7fa9122c" compoundref="_runtime_gltf_instance_8cs" startline="65">UniGLTF.RuntimeGltfInstance.SkinnedMeshRenderers</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c3e55783624e0dbb1a124025c0430ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.TransferOwnership</definition>
+        <argsstring>(TakeResponsibilityForDestroyObjectFunc take)</argsstring>
+        <name>TransferOwnership</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a">TransferOwnership</reimplements>
+        <param>
+          <type>TakeResponsibilityForDestroyObjectFunc</type>
+          <declname>take</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="171" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="171" bodyend="178"/>
+        <references refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad82cc40519bc78cad915a909099720b5" compoundref="_runtime_gltf_instance_8cs" startline="76">UniGLTF.RuntimeGltfInstance._resources</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a6b2c592a875f0c538c6896f312db976c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="180" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a761e56b87a8f67a02b8245ea4431e90a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.RuntimeGltfInstance.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="162" bodyend="169"/>
+        <references refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad82cc40519bc78cad915a909099720b5" compoundref="_runtime_gltf_instance_8cs" startline="76">UniGLTF.RuntimeGltfInstance._resources</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1_importer_context" kindref="compound">ImporterContext</ref> の Load 結果の GltfModel </para>    </briefdescription>
+    <detaileddescription>
+<para>Runtime でモデルを Destory したときに関連リソース(Texture, Material...などの UnityEngine.Object)を自動的に Destroy する。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2149">
+        <label>IDisposable</label>
+      </node>
+      <node id="2148">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2146">
+        <label>UniGLTF.RuntimeGltfInstance</label>
+        <link refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance"/>
+        <childnode refid="2147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2147">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2153">
+        <label>IDisposable</label>
+      </node>
+      <node id="2152">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2150">
+        <label>UniGLTF.RuntimeGltfInstance</label>
+        <link refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance"/>
+        <childnode refid="2151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2151">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/RuntimeGltfInstance.cs" bodystart="13" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a77891130d6aafaa472ce87adf87e054f" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_animationClips</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1afd3a3414964cc4e870b2e7b88fd812f9" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aaeadfa8d172ea76ba7e52a2cc3ec29c2" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c21155fd0f44eb91ff3b0dcea5d3136" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_meshRenderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aae527f5948f43b16fc7c3fa7c4876592" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1a3b3d011e3442ffb87f618853c81f2a" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_renderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad82cc40519bc78cad915a909099720b5" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_resources</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a4719dc72f8537a42b46a53b1a6f797d1" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_skinnedMeshRenderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1aea35fd0591ed2d2ba817a9cd04283ddb" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_textures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a12a95af371b3c8ae786ea95043e58e6d" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>_visibleRenderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a74fb5df699f9b98e26969db9b45470fc" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>AddRenderer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a0819bba970c7b88be07909821cacc5a0" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>AnimationClips</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ae1e6dbfeaae781513f2b7960e36c8d79" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>AttachTo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a6b2c592a875f0c538c6896f312db976c" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Dispose</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a90b4fdfee7102abf2aa465288d9b86a6" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>EnableUpdateWhenOffscreen</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad88dfd2c802105c23741042cc9d09624" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a5096ebfb5041e22589cc6a1ce6e22c88" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a5800b7b1c9d1ad8c14c208afb7fd4467" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>MeshRenderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a64f96b0181039ca45f3fac32bc9c3b41" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a761e56b87a8f67a02b8245ea4431e90a" prot="private" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>OnDestroy</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a14473ec55e27dea06f0aa4b41eadd3ee" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Renderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a761138b1832451c35ff156948f63cb09" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Root</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a17ada5cee702e78a3064b3e78f9e0d5d" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>RuntimeResources</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab03fe9176387c0252ea7b8645e02305c" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>ShowMeshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ab7ff4db5c165b7c11a18082d7fa9122c" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>SkinnedMeshRenderers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1ad70986f5b01c0d3d1bd9ec467694d3ff" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>Textures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c3e55783624e0dbb1a124025c0430ab" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>TransferOwnership</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a615c9c911db1e407209ecc9349fa76aa" prot="public" virt="non-virtual"><scope>UniGLTF::RuntimeGltfInstance</scope><name>VisibleRenderers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

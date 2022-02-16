@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_export_validator" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshExportValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902" prot="public" static="no">
+        <name>Messages</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902af8657348a9535b3bff50dfd9cc77a27e" prot="public">
+          <name>MATERIALS_LESS_THAN_SUBMESH_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902ae98852e1198e9fb029fa33ca3940d562" prot="public">
+          <name>MATERIALS_GREATER_THAN_SUBMESH_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902ab90d928044645ad36f201b32e88df341" prot="public">
+          <name>MATERIALS_CONTAINS_NULL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902a6998bde02f4e76277d9f618a345db3ac" prot="public">
+          <name>UNKNOWN_SHADER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a992b8303a7889aa7e51782e46147a0ea" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_list" kindref="compound">MeshExportList</ref></type>
+        <definition>MeshExportList UniGLTF.MeshExportValidator.Meshes</definition>
+        <argsstring></argsstring>
+        <name>Meshes</name>
+        <initializer>= new <ref refid="class_uni_g_l_t_f_1_1_mesh_export_list" kindref="compound">MeshExportList</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_wizard_1a77a55860a0395bbe70d3634de7671cbd" compoundref="_v_r_m_exporter_wizard_8cs" startline="211" endline="291">VRM.VRMExporterWizard.DoGUI</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_validator_editor_1ac50a724e550d95998a8abf38a0c2d99f" compoundref="_mesh_export_validator_editor_8cs" startline="18" endline="26">UniGLTF.MeshExportValidatorEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a10161841d7ad272521d2d3c5e00e1edb" compoundref="_mesh_export_validator_8cs" startline="34" endline="45">UniGLTF.MeshExportValidator.SetRoot</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a6a16133034645e5416a8786d2fa4ad15" compoundref="_mesh_export_validator_8cs" startline="57" endline="124">UniGLTF.MeshExportValidator.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a31b6b60ea1c301aa47bc0188ea4b1e60" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.MeshExportValidator.ExpectedExportByteSize</definition>
+        <argsstring></argsstring>
+        <name>ExpectedExportByteSize</name>
+        <initializer>=&gt; Meshes.Where(x =&gt; x.IsRendererActive).Sum(x =&gt; x.ExportByteSize)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1af43ddebbf96416bd8396186aa3d20256" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_material_validator" kindref="compound">IMaterialValidator</ref></type>
+        <definition>IMaterialValidator UniGLTF.MeshExportValidator.MaterialValidator</definition>
+        <argsstring></argsstring>
+        <name>MaterialValidator</name>
+        <initializer>= new <ref refid="class_uni_g_l_t_f_1_1_default_material_validator" kindref="compound">DefaultMaterialValidator</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a7875c9f8b11db7f00a0020ac920713c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh UniGLTF.MeshExportValidator.GetMesh</definition>
+        <argsstring>(Renderer r)</argsstring>
+        <name>GetMesh</name>
+        <param>
+          <type>Renderer</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="13" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a10161841d7ad272521d2d3c5e00e1edb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportValidator.SetRoot</definition>
+        <argsstring>(GameObject ExportRoot, GltfExportSettings settings, IBlendShapeExportFilter blendShapeFilter)</argsstring>
+        <name>SetRoot</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ExportRoot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" kindref="compound">IBlendShapeExportFilter</ref></type>
+          <declname>blendShapeFilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="34" bodyend="45"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a992b8303a7889aa7e51782e46147a0ea" compoundref="_mesh_export_validator_8cs" startline="30">UniGLTF.MeshExportValidator.Meshes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_validator_1a6a16133034645e5416a8786d2fa4ad15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_uni_g_l_t_f_1_1_validation" kindref="compound">Validation</ref> &gt;</type>
+        <definition>IEnumerable&lt;Validation&gt; UniGLTF.MeshExportValidator.Validate</definition>
+        <argsstring>(GameObject ExportRoot)</argsstring>
+        <name>Validate</name>
+        <param>
+          <type>GameObject</type>
+          <declname>ExportRoot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="57" bodyend="124"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_list_1a1889e5973ec3f5cf1bd41b73411c1c63" compoundref="_mesh_export_info_8cs" startline="394" endline="397">UniGLTF.MeshExportList.GetUniqueMaterials</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a992b8303a7889aa7e51782e46147a0ea" compoundref="_mesh_export_validator_8cs" startline="30">UniGLTF.MeshExportValidator.Meshes</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1694">
+        <label>UniGLTF.MeshExportValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_validator"/>
+        <childnode refid="1695" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1695">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1696">
+        <label>UniGLTF.MeshExportValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_validator"/>
+        <childnode refid="1697" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1698" relation="usage">
+          <edgelabel>Meshes</edgelabel>
+        </childnode>
+        <childnode refid="1701" relation="usage">
+          <edgelabel>MaterialValidator</edgelabel>
+        </childnode>
+      </node>
+      <node id="1701">
+        <label>UniGLTF.IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+      <node id="1699">
+        <label>IReadOnlyList&lt; MeshExportInfo &gt;</label>
+      </node>
+      <node id="1697">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1700">
+        <label>UniGLTF.MeshExportInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_info"/>
+      </node>
+      <node id="1698">
+        <label>UniGLTF.MeshExportList</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_list"/>
+        <childnode refid="1699" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1700" relation="usage">
+          <edgelabel>this[int index]</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/MeshExportValidator.cs" bodystart="11" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a31b6b60ea1c301aa47bc0188ea4b1e60" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>ExpectedExportByteSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a7875c9f8b11db7f00a0020ac920713c7" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>GetMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1af43ddebbf96416bd8396186aa3d20256" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>MaterialValidator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a992b8303a7889aa7e51782e46147a0ea" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>Meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a4b0ae8082a512c8262ce09064a4a8902" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>Messages</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a10161841d7ad272521d2d3c5e00e1edb" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>SetRoot</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_validator_1a6a16133034645e5416a8786d2fa4ad15" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportValidator</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

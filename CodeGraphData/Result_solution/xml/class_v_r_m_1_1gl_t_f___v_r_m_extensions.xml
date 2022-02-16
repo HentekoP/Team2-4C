@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1gl_t_f___v_r_m_extensions" kind="class" prot="public">
+    <compoundname>VRM::glTF_VRMExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a9aee01a9732c9b8fd7772206e6dbfe35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">glTF_VRM_BlendShapeBind</ref></type>
+        <definition>static glTF_VRM_BlendShapeBind VRM.glTF_VRMExtensions.Cerate</definition>
+        <argsstring>(Transform root, BlendShapeBinding binding, gltfExporter exporter)</argsstring>
+        <name>Cerate</name>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_exporter" kindref="compound">gltfExporter</ref></type>
+          <declname>exporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a4c450f88843d6744cff3beaeb66aab71" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="19" endline="82">VRM.glTF_VRMExtensions.Create</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a4c450f88843d6744cff3beaeb66aab71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">glTF_VRM_BlendShapeBind</ref></type>
+        <definition>static glTF_VRM_BlendShapeBind VRM.glTF_VRMExtensions.Create</definition>
+        <argsstring>(Transform root, BlendShapeBinding binding, gltfExporter exporter)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_exporter" kindref="compound">gltfExporter</ref></type>
+          <declname>exporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="19" bodyend="82"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_binding_1a2431228c318b5fb716ab474413932957" compoundref="_blend_shape_clip_8cs" startline="11">VRM.BlendShapeBinding.Index</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a64bb6e7c492d75fae88124de14dd83ca" compoundref="gltf_exporter_8cs" startline="32">UniGLTF.gltfExporter.MeshBlendShapeIndexMap</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_binding_1a1d3c0abddb62a50fd71c69e62c0ca080" compoundref="_blend_shape_clip_8cs" startline="10">VRM.BlendShapeBinding.RelativePath</references>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a9aee01a9732c9b8fd7772206e6dbfe35" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="13" endline="17">VRM.glTF_VRMExtensions.Cerate</referencedby>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="90" endline="126">VRM.glTF_VRMExtensions.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a92e377dc11992cc1cee0cc6159e0aa62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.glTF_VRMExtensions.Add</definition>
+        <argsstring>(this glTF_VRM_BlendShapeMaster master, BlendShapeClip clip, gltfExporter exporter)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master" kindref="compound">glTF_VRM_BlendShapeMaster</ref></type>
+          <declname>master</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_exporter" kindref="compound">gltfExporter</ref></type>
+          <declname>exporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">glTF_VRM_BlendShapeGroup</ref></type>
+        <definition>static glTF_VRM_BlendShapeGroup VRM.glTF_VRMExtensions.Serialize</definition>
+        <argsstring>(this BlendShapeClip clip, gltfExporter exporter)</argsstring>
+        <name>Serialize</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_exporter" kindref="compound">gltfExporter</ref></type>
+          <declname>exporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="90" bodyend="126"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" compoundref="gltf_exporter_8cs" startline="18">UniGLTF.gltfExporter.Copy</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a4c450f88843d6744cff3beaeb66aab71" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="19" endline="82">VRM.glTF_VRMExtensions.Create</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_1ae1142e74019dd9e098eaf08877e7c440" compoundref="_blend_shape_clip_8cs" startline="138">VRM.BlendShapeClip.MaterialValues</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_1ae2667219f340f4806ffe86cc4f1cfadb" compoundref="_blend_shape_clip_8cs" startline="131">VRM.BlendShapeClip.Values</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a2c363c6a49ecacdc8040cb6bdd70d3e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.glTF_VRMExtensions.Apply</definition>
+        <argsstring>(this glTF_VRM_DegreeMap map, CurveMapper mapper)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+          <declname>mapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/glTF_VRMExtensions.cs" bodystart="10" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a92e377dc11992cc1cee0cc6159e0aa62" prot="public" virt="non-virtual"><scope>VRM::glTF_VRMExtensions</scope><name>Add</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a2c363c6a49ecacdc8040cb6bdd70d3e2" prot="public" virt="non-virtual"><scope>VRM::glTF_VRMExtensions</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a9aee01a9732c9b8fd7772206e6dbfe35" prot="public" virt="non-virtual"><scope>VRM::glTF_VRMExtensions</scope><name>Cerate</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a4c450f88843d6744cff3beaeb66aab71" prot="public" virt="non-virtual"><scope>VRM::glTF_VRMExtensions</scope><name>Create</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" prot="public" virt="non-virtual"><scope>VRM::glTF_VRMExtensions</scope><name>Serialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

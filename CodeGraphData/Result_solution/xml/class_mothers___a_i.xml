@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mothers___a_i" kind="class" prot="public">
+    <compoundname>Mothers_AI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mothers___a_i_1a7c9e7f9231f05198f97ce3190923cdf8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mothers_AI.counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_mothers___a_i_1ac20d04cc3f3c9e61548e87e9eb67aef1" compoundref="_mothers___a_i_8cs" startline="8" endline="20">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mothers___a_i_1a8aa8dfd2c699f3715a146a15138c727e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Mothers_AI.move</definition>
+        <argsstring></argsstring>
+        <name>move</name>
+        <initializer>= 0.005f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_mothers___a_i_1ac20d04cc3f3c9e61548e87e9eb67aef1" compoundref="_mothers___a_i_8cs" startline="8" endline="20">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mothers___a_i_1ac20d04cc3f3c9e61548e87e9eb67aef1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mothers_AI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" bodystart="8" bodyend="20"/>
+        <references refid="class_mothers___a_i_1a7c9e7f9231f05198f97ce3190923cdf8" compoundref="_mothers___a_i_8cs" startline="5">counter</references>
+        <references refid="class_mothers___a_i_1a8aa8dfd2c699f3715a146a15138c727e" compoundref="_mothers___a_i_8cs" startline="6">move</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1767">
+        <label>Mothers_AI</label>
+        <link refid="class_mothers___a_i"/>
+        <childnode refid="1768" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1768">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1769">
+        <label>Mothers_AI</label>
+        <link refid="class_mothers___a_i"/>
+        <childnode refid="1770" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1770">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Mothers_AI.cs" bodystart="3" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_mothers___a_i_1a7c9e7f9231f05198f97ce3190923cdf8" prot="private" virt="non-virtual"><scope>Mothers_AI</scope><name>counter</name></member>
+      <member refid="class_mothers___a_i_1a8aa8dfd2c699f3715a146a15138c727e" prot="private" virt="non-virtual"><scope>Mothers_AI</scope><name>move</name></member>
+      <member refid="class_mothers___a_i_1ac20d04cc3f3c9e61548e87e9eb67aef1" prot="private" virt="non-virtual"><scope>Mothers_AI</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_human_pose_transfer" kind="class" prot="public">
+    <compoundname>UniHumanoid::HumanPoseTransfer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5" prot="public" static="no">
+        <name>HumanPoseTransferSourceType</name>
+        <enumvalue id="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5ae78fe245e96ebe8d6de3dfc2f73f3d37" prot="public">
+          <name>HumanPoseTransfer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5af5862914fe7435436dff0ca9de667f89" prot="public">
+          <name>HumanPoseClip</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1aeebc6d29f98744dbe72f6f1ee6d6a588" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5" kindref="member">HumanPoseTransferSourceType</ref></type>
+        <definition>HumanPoseTransferSourceType UniHumanoid.HumanPoseTransfer.SourceType</definition>
+        <argsstring></argsstring>
+        <name>SourceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" prot="public" static="no" mutable="no">
+        <type>Avatar</type>
+        <definition>Avatar UniHumanoid.HumanPoseTransfer.Avatar</definition>
+        <argsstring></argsstring>
+        <name>Avatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a73cbd13da7b38f13862e8311f9960567" compoundref="_human_pose_transfer_8cs" startline="22" endline="28">UniHumanoid.HumanPoseTransfer.CreatePose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aa77bca10422445f4f8937b9934fbba3a" compoundref="_human_pose_transfer_8cs" startline="69" endline="78">UniHumanoid.HumanPoseTransfer.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a749d299e8d4bbda25d6c7f84bf10b9f5" compoundref="_human_pose_transfer_8cs" startline="46" endline="53">UniHumanoid.HumanPoseTransfer.Reset</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a7237107da6f4aa907f0852216781eb81" compoundref="_human_pose_transfer_8cs" startline="29" endline="32">UniHumanoid.HumanPoseTransfer.SetPose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1affe46d14728b77c6a1e77f7363665940" compoundref="_human_pose_transfer_8cs" startline="62" endline="66">UniHumanoid.HumanPoseTransfer.SetTPose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a9cf2b6afaff9c8e54939207b0f3a83c4" compoundref="_human_pose_transfer_8cs" startline="80" endline="87">UniHumanoid.HumanPoseTransfer.Setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1a33f217c2a19724ca5f57000cad9fa5b5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_human_pose_transfer" kindref="compound">HumanPoseTransfer</ref></type>
+        <definition>HumanPoseTransfer UniHumanoid.HumanPoseTransfer.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1a7c71215dbc875ca9473b9e8f99553ee6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_human_pose_clip" kindref="compound">HumanPoseClip</ref></type>
+        <definition>HumanPoseClip UniHumanoid.HumanPoseTransfer.PoseClip</definition>
+        <argsstring></argsstring>
+        <name>PoseClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" compoundref="_human_pose_transfer_8cs" startline="93" endline="114">UniHumanoid.HumanPoseTransfer.GetPose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1a861be339e7583560883fd2805f153b85" prot="private" static="no" mutable="no">
+        <type>HumanPoseHandler</type>
+        <definition>HumanPoseHandler UniHumanoid.HumanPoseTransfer.m_handler</definition>
+        <argsstring></argsstring>
+        <name>m_handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" compoundref="_human_pose_transfer_8cs" startline="93" endline="114">UniHumanoid.HumanPoseTransfer.GetPose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a9cf2b6afaff9c8e54939207b0f3a83c4" compoundref="_human_pose_transfer_8cs" startline="80" endline="87">UniHumanoid.HumanPoseTransfer.Setup</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1a52bd92d157629d2e9151db2ae30e11e7" prot="private" static="no" mutable="no">
+        <type>HumanPose</type>
+        <definition>HumanPose UniHumanoid.HumanPoseTransfer.m_pose</definition>
+        <argsstring></argsstring>
+        <name>m_pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" compoundref="_human_pose_transfer_8cs" startline="93" endline="114">UniHumanoid.HumanPoseTransfer.GetPose</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_pose_transfer_1adb167f745ab745e0e6206e6fb75ce9ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HumanPoseTransfer.m_lastFrameCount</definition>
+        <argsstring></argsstring>
+        <name>m_lastFrameCount</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="91" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" compoundref="_human_pose_transfer_8cs" startline="93" endline="114">UniHumanoid.HumanPoseTransfer.GetPose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a73cbd13da7b38f13862e8311f9960567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HumanPose</type>
+        <definition>HumanPose UniHumanoid.HumanPoseTransfer.CreatePose</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="22" bodyend="28"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a7237107da6f4aa907f0852216781eb81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.SetPose</definition>
+        <argsstring>(HumanPose pose)</argsstring>
+        <name>SetPose</name>
+        <param>
+          <type>HumanPose</type>
+          <declname>pose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="29" bodyend="32"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1aa77bca10422445f4f8937b9934fbba3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="69" bodyend="78"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9cf2b6afaff9c8e54939207b0f3a83c4" compoundref="_human_pose_transfer_8cs" startline="80" endline="87">UniHumanoid.HumanPoseTransfer.Setup</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a9cf2b6afaff9c8e54939207b0f3a83c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="80" bodyend="87"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a861be339e7583560883fd2805f153b85" compoundref="_human_pose_transfer_8cs" startline="68">UniHumanoid.HumanPoseTransfer.m_handler</references>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1aa77bca10422445f4f8937b9934fbba3a" compoundref="_human_pose_transfer_8cs" startline="69" endline="78">UniHumanoid.HumanPoseTransfer.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniHumanoid.HumanPoseTransfer.GetPose</definition>
+        <argsstring>(int frameCount, ref HumanPose pose)</argsstring>
+        <name>GetPose</name>
+        <param>
+          <type>int</type>
+          <declname>frameCount</declname>
+        </param>
+        <param>
+          <type>ref HumanPose</type>
+          <declname>pose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="93" bodyend="114"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a861be339e7583560883fd2805f153b85" compoundref="_human_pose_transfer_8cs" startline="68">UniHumanoid.HumanPoseTransfer.m_handler</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1adb167f745ab745e0e6206e6fb75ce9ae" compoundref="_human_pose_transfer_8cs" startline="91">UniHumanoid.HumanPoseTransfer.m_lastFrameCount</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a52bd92d157629d2e9151db2ae30e11e7" compoundref="_human_pose_transfer_8cs" startline="89">UniHumanoid.HumanPoseTransfer.m_pose</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a7c71215dbc875ca9473b9e8f99553ee6" compoundref="_human_pose_transfer_8cs" startline="59">UniHumanoid.HumanPoseTransfer.PoseClip</references>
+        <referencedby refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" compoundref="_human_pose_transfer_8cs" startline="116" endline="141">UniHumanoid.HumanPoseTransfer.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a62d86871206e52aa42cae4049a84197a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.HumanPoseTransfer.SetPose</definition>
+        <argsstring>(Avatar avatar, Transform transform, HumanPose pose)</argsstring>
+        <name>SetPose</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" kindref="member">Avatar</ref></type>
+          <declname>avatar</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <type>HumanPose</type>
+          <declname>pose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a456e285d4915636bfdaaffe1bae34962" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.HumanPoseTransfer.SetTPose</definition>
+        <argsstring>(Avatar avatar, Transform transform)</argsstring>
+        <name>SetTPose</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" kindref="member">Avatar</ref></type>
+          <declname>avatar</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="38" bodyend="43"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_clip_1a1b9f12dd5d2ed60efc6d6bb0ddbacd79" compoundref="_human_pose_clip_8cs" startline="8">UniHumanoid.HumanPoseClip.TPoseResourcePath</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a749d299e8d4bbda25d6c7f84bf10b9f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="46" bodyend="53"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1affe46d14728b77c6a1e77f7363665940" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.SetTPose</definition>
+        <argsstring>()</argsstring>
+        <name>SetTPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="62" bodyend="66"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" compoundref="_human_pose_transfer_8cs" startline="19">UniHumanoid.HumanPoseTransfer.Avatar</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanPoseTransfer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="116" bodyend="141"/>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" compoundref="_human_pose_transfer_8cs" startline="93" endline="114">UniHumanoid.HumanPoseTransfer.GetPose</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a861be339e7583560883fd2805f153b85" compoundref="_human_pose_transfer_8cs" startline="68">UniHumanoid.HumanPoseTransfer.m_handler</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a52bd92d157629d2e9151db2ae30e11e7" compoundref="_human_pose_transfer_8cs" startline="89">UniHumanoid.HumanPoseTransfer.m_pose</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a7c71215dbc875ca9473b9e8f99553ee6" compoundref="_human_pose_transfer_8cs" startline="59">UniHumanoid.HumanPoseTransfer.PoseClip</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1a33f217c2a19724ca5f57000cad9fa5b5" compoundref="_human_pose_transfer_8cs" startline="56">UniHumanoid.HumanPoseTransfer.Source</references>
+        <references refid="class_uni_humanoid_1_1_human_pose_transfer_1aeebc6d29f98744dbe72f6f1ee6d6a588" compoundref="_human_pose_transfer_8cs" startline="16">UniHumanoid.HumanPoseTransfer.SourceType</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1224">
+        <label>UniHumanoid.HumanPoseTransfer</label>
+        <link refid="class_uni_humanoid_1_1_human_pose_transfer"/>
+        <childnode refid="1225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1230">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1231" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1228">
+        <label>UniHumanoid.HumanPoseClip</label>
+        <link refid="class_uni_humanoid_1_1_human_pose_clip"/>
+        <childnode refid="1229" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>bodyPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>UniHumanoid.HumanPoseTransfer</label>
+        <link refid="class_uni_humanoid_1_1_human_pose_transfer"/>
+        <childnode refid="1227" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1226" relation="usage">
+          <edgelabel>Source</edgelabel>
+        </childnode>
+        <childnode refid="1228" relation="usage">
+          <edgelabel>PoseClip</edgelabel>
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1227">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseTransfer.cs" bodystart="6" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a9976829051c62d441b4cb19d9953db4a" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>Avatar</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a73cbd13da7b38f13862e8311f9960567" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>CreatePose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1aed07af240b61336e63f4f614c1127b31" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>GetPose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1acdcb3a81d436324e830d8399c70c13e5" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>HumanPoseTransferSourceType</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a861be339e7583560883fd2805f153b85" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>m_handler</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1adb167f745ab745e0e6206e6fb75ce9ae" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>m_lastFrameCount</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a52bd92d157629d2e9151db2ae30e11e7" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>m_pose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1aa77bca10422445f4f8937b9934fbba3a" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>OnEnable</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a7c71215dbc875ca9473b9e8f99553ee6" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>PoseClip</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a749d299e8d4bbda25d6c7f84bf10b9f5" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>Reset</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a7237107da6f4aa907f0852216781eb81" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>SetPose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a62d86871206e52aa42cae4049a84197a" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>SetPose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a456e285d4915636bfdaaffe1bae34962" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>SetTPose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1affe46d14728b77c6a1e77f7363665940" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>SetTPose</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a9cf2b6afaff9c8e54939207b0f3a83c4" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>Setup</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a33f217c2a19724ca5f57000cad9fa5b5" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>Source</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1aeebc6d29f98744dbe72f6f1ee6d6a588" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>SourceType</name></member>
+      <member refid="class_uni_humanoid_1_1_human_pose_transfer_1a6f8a1219b651a93ed9c3c1cc759867ab" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanPoseTransfer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

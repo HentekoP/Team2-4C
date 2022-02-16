@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_tree_value_exception" kind="class" prot="public">
+    <compoundname>UniJSON::TreeValueException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArgumentException</basecompoundref>
+    <derivedcompoundref refid="class_uni_j_s_o_n_1_1_deserialization_exception" prot="public" virt="non-virtual">UniJSON.DeserializationException</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_j_s_o_n_1_1_formatter_exception" prot="public" virt="non-virtual">UniJSON.FormatterException</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_j_s_o_n_1_1_parser_exception" prot="public" virt="non-virtual">UniJSON.ParserException</derivedcompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_tree_value_exception_1ad74d323da8e4e21f02e4d7524de7a9fc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.TreeValueException.TreeValueException</definition>
+        <argsstring>(string msg)</argsstring>
+        <name>TreeValueException</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Exceptions.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Exceptions.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2407">
+        <label>UniJSON.FormatterException</label>
+        <link refid="class_uni_j_s_o_n_1_1_formatter_exception"/>
+        <childnode refid="2404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>UniJSON.DeserializationException</label>
+        <link refid="class_uni_j_s_o_n_1_1_deserialization_exception"/>
+        <childnode refid="2404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2408">
+        <label>UniJSON.ParserException</label>
+        <link refid="class_uni_j_s_o_n_1_1_parser_exception"/>
+        <childnode refid="2404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2405">
+        <label>ArgumentException</label>
+      </node>
+      <node id="2404">
+        <label>UniJSON.TreeValueException</label>
+        <link refid="class_uni_j_s_o_n_1_1_tree_value_exception"/>
+        <childnode refid="2405" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2410">
+        <label>ArgumentException</label>
+      </node>
+      <node id="2409">
+        <label>UniJSON.TreeValueException</label>
+        <link refid="class_uni_j_s_o_n_1_1_tree_value_exception"/>
+        <childnode refid="2410" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Exceptions.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Exceptions.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_tree_value_exception_1ad74d323da8e4e21f02e4d7524de7a9fc" prot="protected" virt="non-virtual"><scope>UniJSON::TreeValueException</scope><name>TreeValueException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

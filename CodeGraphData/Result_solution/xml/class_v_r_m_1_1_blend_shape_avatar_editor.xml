@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_avatar_editor" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeAvatarEditor</compoundname>
+    <basecompoundref refid="class_v_r_m_1_1_preview_editor" prot="public" virt="non-virtual">VRM.PreviewEditor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_editor_1ab9196ad6bf90bbdee5acecb3c21cb6a3" prot="private" static="no" mutable="no">
+        <type>ReorderableList</type>
+        <definition>ReorderableList VRM.BlendShapeAvatarEditor.m_clipList</definition>
+        <argsstring></argsstring>
+        <name>m_clipList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" compoundref="_blend_shape_avatar_editor_8cs" startline="58" endline="113">VRM.BlendShapeAvatarEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_editor_1ad271a846853590cc3a91ce5ad8ba5072" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_selector" kindref="compound">BlendShapeClipSelector</ref></type>
+        <definition>BlendShapeClipSelector VRM.BlendShapeAvatarEditor.m_selector</definition>
+        <argsstring></argsstring>
+        <name>m_selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" compoundref="_blend_shape_avatar_editor_8cs" startline="58" endline="113">VRM.BlendShapeAvatarEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a16d13a82ecf8c0d1813046261a20c0f6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_serialized_blend_shape_editor" kindref="compound">SerializedBlendShapeEditor</ref></type>
+        <definition>SerializedBlendShapeEditor VRM.BlendShapeAvatarEditor.m_clipEditor</definition>
+        <argsstring></argsstring>
+        <name>m_clipEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad38158b0a09c3d679878fd1dbbb04189" compoundref="_blend_shape_avatar_editor_8cs" startline="121" endline="157">VRM.BlendShapeAvatarEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a0dca98ab6d05d306553a9cdfb4955e27" compoundref="_blend_shape_avatar_editor_8cs" startline="35" endline="56">VRM.BlendShapeAvatarEditor.OnSelected</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a68541105dcef64149c6bd7ad49d495bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VRM.BlendShapeAvatarEditor.m_mode</definition>
+        <argsstring></argsstring>
+        <name>m_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="115" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad38158b0a09c3d679878fd1dbbb04189" compoundref="_blend_shape_avatar_editor_8cs" startline="121" endline="157">VRM.BlendShapeAvatarEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a105f7bbed184a8316a5634ad13901112" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] VRM.BlendShapeAvatarEditor.MODES</definition>
+        <argsstring></argsstring>
+        <name>MODES</name>
+        <initializer>= new string[]{
+            &quot;Editor&quot;,
+            &quot;List&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="116" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad38158b0a09c3d679878fd1dbbb04189" compoundref="_blend_shape_avatar_editor_8cs" startline="121" endline="157">VRM.BlendShapeAvatarEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a9480cf043bb8dee06595138f8d9bd6d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override PreviewSceneManager.BakeValue</type>
+        <definition>override PreviewSceneManager.BakeValue VRM.BlendShapeAvatarEditor.GetBakeValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetBakeValue</name>
+        <reimplements refid="class_v_r_m_1_1_preview_editor_1ab1772e6e18620f06e5880a9f09164e7f">GetBakeValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.BlendShapeAvatarEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <reimplements refid="class_v_r_m_1_1_preview_editor_1a52b6d668741a64cb464abc866e65b854">OnEnable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="58" bodyend="113"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_drawer_1a2dbde6f7aa59a39de28db8de19a059f4" compoundref="_blend_shape_clip_drawer_8cs" startline="17">VRM.BlendShapeClipDrawer.Height</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ab9196ad6bf90bbdee5acecb3c21cb6a3" compoundref="_blend_shape_avatar_editor_8cs" startline="16">VRM.BlendShapeAvatarEditor.m_clipList</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad271a846853590cc3a91ce5ad8ba5072" compoundref="_blend_shape_avatar_editor_8cs" startline="18">VRM.BlendShapeAvatarEditor.m_selector</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a0dca98ab6d05d306553a9cdfb4955e27" compoundref="_blend_shape_avatar_editor_8cs" startline="35" endline="56">VRM.BlendShapeAvatarEditor.OnSelected</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_selector_1a3c5a5637b757c3423fe3ae744e2e07de" compoundref="_blend_shape_clip_selector_8cs" startline="15">VRM.BlendShapeClipSelector.Selected</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_editor_1a0dca98ab6d05d306553a9cdfb4955e27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeAvatarEditor.OnSelected</definition>
+        <argsstring>(BlendShapeClip clip)</argsstring>
+        <name>OnSelected</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="35" bodyend="56"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a16d13a82ecf8c0d1813046261a20c0f6" compoundref="_blend_shape_avatar_editor_8cs" startline="20">VRM.BlendShapeAvatarEditor.m_clipEditor</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" compoundref="_blend_shape_avatar_editor_8cs" startline="58" endline="113">VRM.BlendShapeAvatarEditor.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_editor_1ad38158b0a09c3d679878fd1dbbb04189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.BlendShapeAvatarEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="121" bodyend="157"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a16d13a82ecf8c0d1813046261a20c0f6" compoundref="_blend_shape_avatar_editor_8cs" startline="20">VRM.BlendShapeAvatarEditor.m_clipEditor</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a68541105dcef64149c6bd7ad49d495bb" compoundref="_blend_shape_avatar_editor_8cs" startline="115">VRM.BlendShapeAvatarEditor.m_mode</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a105f7bbed184a8316a5634ad13901112" compoundref="_blend_shape_avatar_editor_8cs" startline="116">VRM.BlendShapeAvatarEditor.MODES</references>
+        <references refid="class_v_r_m_1_1_preview_editor_1a7aa7b0d5d02d44393825b49c1c5bfa81" compoundref="_preview_editor_8cs" startline="140" endline="148">VRM.PreviewEditor.Separator</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>Editor</label>
+      </node>
+      <node id="97">
+        <label>VRM.BlendShapeAvatarEditor</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar_editor"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>PreviewEditor</label>
+        <link refid="class_v_r_m_1_1_preview_editor"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="107">
+        <label>VRM.PreviewSceneManager</label>
+        <link refid="class_v_r_m_1_1_preview_scene_manager"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>m_meshes</edgelabel>
+          <edgelabel>m_blendShapeMeshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="117">
+        <label>IEquatable&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="105">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="115">
+        <label>UnityEngine.Vector4</label>
+        <link refid="struct_unity_engine_1_1_vector4"/>
+      </node>
+      <node id="106">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="120">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="102">
+        <label>Editor</label>
+      </node>
+      <node id="109">
+        <label>VRM.MeshPreviewItem</label>
+        <link refid="class_v_r_m_1_1_mesh_preview_item"/>
+      </node>
+      <node id="111">
+        <label>VRM.BlendShapeClip</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>MaterialValues</edgelabel>
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>Values</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>Key</edgelabel>
+        </childnode>
+      </node>
+      <node id="116">
+        <label>VRM.BlendShapeBinding</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_binding"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>IDisposable</label>
+      </node>
+      <node id="114">
+        <label>IEquatable&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="100">
+        <label>VRM.BlendShapeAvatarEditor</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar_editor"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>m_clipEditor</edgelabel>
+        </childnode>
+        <childnode refid="121" relation="usage">
+          <edgelabel>m_selector</edgelabel>
+        </childnode>
+      </node>
+      <node id="103">
+        <label>VRM.PreviewFaceRenderer</label>
+        <link refid="class_v_r_m_1_1_preview_face_renderer"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="112">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="101">
+        <label>PreviewEditor</label>
+        <link refid="class_v_r_m_1_1_preview_editor"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>m_renderer</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>m_scene</edgelabel>
+        </childnode>
+      </node>
+      <node id="108">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="118">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>VRM.BlendShapeClipSelector</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip_selector"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>m_avatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="122">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>VRM.MaterialValueBinding</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+        <childnode refid="115" relation="usage">
+          <edgelabel>TargetValue</edgelabel>
+          <edgelabel>BaseValue</edgelabel>
+        </childnode>
+      </node>
+      <node id="110">
+        <label>VRM.SerializedBlendShapeEditor</label>
+        <link refid="class_v_r_m_1_1_serialized_blend_shape_editor"/>
+        <childnode refid="109" relation="usage">
+          <edgelabel>m_items</edgelabel>
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>m_targetObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeAvatarEditor.cs" bodystart="14" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_preview_editor_1a3718457970406c8e9cbe17a07aa86e8a" prot="protected" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>Bake</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a9480cf043bb8dee06595138f8d9bd6d0" prot="protected" virt="virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>GetBakeValue</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a961658900e817e5ff002bf40dfc6ac2d" prot="protected" virt="virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>GetPrefab</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a97c7ec5758bf15b48cbb9bf9a403bfb3" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>HasPreviewGUI</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a16d13a82ecf8c0d1813046261a20c0f6" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>m_clipEditor</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ab9196ad6bf90bbdee5acecb3c21cb6a3" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>m_clipList</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a68541105dcef64149c6bd7ad49d495bb" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>m_mode</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad271a846853590cc3a91ce5ad8ba5072" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>m_selector</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a105f7bbed184a8316a5634ad13901112" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>MODES</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a166255b527ebf402a9eb2c1a6870ab6b" prot="protected" virt="virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnDestroy</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1afc5296f5a966f1634876811ca0881a00" prot="protected" virt="virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnDisable</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" prot="protected" virt="virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1ad38158b0a09c3d679878fd1dbbb04189" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a933591be38bc62d1e9499ce960b648aa" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnPreviewGUI</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a0dca98ab6d05d306553a9cdfb4955e27" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>OnSelected</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a9d7929073ebb3760dc10d5b2578aa5ea" prot="protected" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>Prefab</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a67cf21d1811968cdb7c31e70daf1bcdc" prot="protected" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>PreviewSceneManager</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a1236a4e06509099ceafe7f74e92ba62c" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>PreviewTexture</name></member>
+      <member refid="class_v_r_m_1_1_preview_editor_1a7aa7b0d5d02d44393825b49c1c5bfa81" prot="protected" virt="non-virtual"><scope>VRM::BlendShapeAvatarEditor</scope><name>Separator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

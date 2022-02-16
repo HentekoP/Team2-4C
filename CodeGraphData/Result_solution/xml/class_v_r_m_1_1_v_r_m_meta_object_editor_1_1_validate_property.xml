@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property" kind="class" prot="private">
+    <compoundname>VRM::VRMMetaObjectEditor::ValidateProperty</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4d8b83ab1f70925567cd9338e73d564b" prot="public" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.VRMMetaObjectEditor.ValidateProperty.m_prop</definition>
+        <argsstring></argsstring>
+        <name>m_prop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a57934f6ba6d308591a75a8eabb958bc7" compoundref="_v_r_m_meta_object_editor_8cs" startline="25" endline="35">VRM.VRMMetaObjectEditor.ValidateProperty.OnGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a8d3f22b25b5abd6ff310af00e65d2f5a" compoundref="_v_r_m_meta_object_editor_8cs" startline="19" endline="23">VRM.VRMMetaObjectEditor.ValidateProperty.ValidateProperty</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a6da2dad5aa5019fec004a84497a8db0a" prot="private" static="no" mutable="no">
+        <type>Validator</type>
+        <definition>Validator VRM.VRMMetaObjectEditor.ValidateProperty.m_validator</definition>
+        <argsstring></argsstring>
+        <name>m_validator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a57934f6ba6d308591a75a8eabb958bc7" compoundref="_v_r_m_meta_object_editor_8cs" startline="25" endline="35">VRM.VRMMetaObjectEditor.ValidateProperty.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4fd338018d52a666fd2b63c4d2572052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMMetaObjectEditor.ValidateProperty.delegate</definition>
+        <argsstring>(string, MessageType) Validator(SerializedProperty prop)</argsstring>
+        <name>delegate</name>
+        <param>
+          <type>string</type>
+        </param>
+        <param>
+          <type>MessageType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a8d3f22b25b5abd6ff310af00e65d2f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMMetaObjectEditor.ValidateProperty.ValidateProperty</definition>
+        <argsstring>(SerializedProperty prop, Validator validator)</argsstring>
+        <name>ValidateProperty</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>Validator</type>
+          <declname>validator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" bodystart="19" bodyend="23"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4d8b83ab1f70925567cd9338e73d564b" compoundref="_v_r_m_meta_object_editor_8cs" startline="14">VRM.VRMMetaObjectEditor.ValidateProperty.m_prop</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a57934f6ba6d308591a75a8eabb958bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMMetaObjectEditor.ValidateProperty.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" bodystart="25" bodyend="35"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4d8b83ab1f70925567cd9338e73d564b" compoundref="_v_r_m_meta_object_editor_8cs" startline="14">VRM.VRMMetaObjectEditor.ValidateProperty.m_prop</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a6da2dad5aa5019fec004a84497a8db0a" compoundref="_v_r_m_meta_object_editor_8cs" startline="17">VRM.VRMMetaObjectEditor.ValidateProperty.m_validator</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaObjectEditor.cs" bodystart="12" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4fd338018d52a666fd2b63c4d2572052" prot="public" virt="non-virtual"><scope>VRM::VRMMetaObjectEditor::ValidateProperty</scope><name>delegate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a4d8b83ab1f70925567cd9338e73d564b" prot="public" virt="non-virtual"><scope>VRM::VRMMetaObjectEditor::ValidateProperty</scope><name>m_prop</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a6da2dad5aa5019fec004a84497a8db0a" prot="private" virt="non-virtual"><scope>VRM::VRMMetaObjectEditor::ValidateProperty</scope><name>m_validator</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a57934f6ba6d308591a75a8eabb958bc7" prot="public" virt="non-virtual"><scope>VRM::VRMMetaObjectEditor::ValidateProperty</scope><name>OnGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1_1_validate_property_1a8d3f22b25b5abd6ff310af00e65d2f5a" prot="public" virt="non-virtual"><scope>VRM::VRMMetaObjectEditor::ValidateProperty</scope><name>ValidateProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

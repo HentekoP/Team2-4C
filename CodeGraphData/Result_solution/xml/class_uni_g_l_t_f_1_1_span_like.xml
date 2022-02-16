@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_span_like" kind="class" prot="public">
+    <compoundname>UniGLTF::SpanLike</compoundname>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_span_like_1_1_get_set_3_01_t_01_4" prot="private">UniGLTF::SpanLike::GetSet&lt; T &gt;</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_span_like_1a1b5f43df672ccc53a608c1bac6eda7d6" prot="public" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Type, object &gt;</type>
+        <definition>readonly Dictionary&lt;Type, object&gt; UniGLTF.SpanLike.Map</definition>
+        <argsstring></argsstring>
+        <name>Map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" line="296" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" bodystart="296" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_span_like_1a15521da0b545f1656ff691071a606bdd" compoundref="_span_like_8cs" startline="468" endline="476">UniGLTF.SpanLike.Wrap&lt; T &gt;</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_span_like_1a15521da0b545f1656ff691071a606bdd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_span_like" kindref="compound">SpanLike</ref>&lt; T &gt;</type>
+        <definition>static SpanLike&lt;T&gt; UniGLTF.SpanLike.Wrap&lt; T &gt;</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; bytes)</argsstring>
+        <name>Wrap&lt; T &gt;</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" line="468" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" bodystart="468" bodyend="476"/>
+        <references refid="class_uni_g_l_t_f_1_1_span_like_1a1b5f43df672ccc53a608c1bac6eda7d6" compoundref="_span_like_8cs" startline="296">UniGLTF.SpanLike.Map</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_span_like_1abed6d76a53e34b83a6468f64567f5292" compoundref="_span_like_8cs" startline="485" endline="490">UniGLTF.SpanLike.CopyFrom&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_span_like_1a59bb58e0c95106a98b35799bd0e39019" compoundref="_span_like_8cs" startline="478" endline="483">UniGLTF.SpanLike.Create&lt; T &gt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_span_like_1a59bb58e0c95106a98b35799bd0e39019" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_span_like" kindref="compound">SpanLike</ref>&lt; T &gt;</type>
+        <definition>static SpanLike&lt;T&gt; UniGLTF.SpanLike.Create&lt; T &gt;</definition>
+        <argsstring>(int itemCount)</argsstring>
+        <name>Create&lt; T &gt;</name>
+        <param>
+          <type>int</type>
+          <declname>itemCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" line="478" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" bodystart="478" bodyend="483"/>
+        <references refid="class_uni_g_l_t_f_1_1_span_like_1a15521da0b545f1656ff691071a606bdd" compoundref="_span_like_8cs" startline="468" endline="476">UniGLTF.SpanLike.Wrap&lt; T &gt;</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_span_like_1abed6d76a53e34b83a6468f64567f5292" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_span_like" kindref="compound">SpanLike</ref>&lt; T &gt;</type>
+        <definition>static SpanLike&lt;T&gt; UniGLTF.SpanLike.CopyFrom&lt; T &gt;</definition>
+        <argsstring>(T[] src)</argsstring>
+        <name>CopyFrom&lt; T &gt;</name>
+        <param>
+          <type>T[]</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" line="485" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" bodystart="485" bodyend="490"/>
+        <references refid="class_uni_g_l_t_f_1_1_span_like_1a15521da0b545f1656ff691071a606bdd" compoundref="_span_like_8cs" startline="468" endline="476">UniGLTF.SpanLike.Wrap&lt; T &gt;</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" line="289" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/SpanLike.cs" bodystart="288" bodyend="491"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_span_like_1abed6d76a53e34b83a6468f64567f5292" prot="public" virt="non-virtual"><scope>UniGLTF::SpanLike</scope><name>CopyFrom&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_span_like_1a59bb58e0c95106a98b35799bd0e39019" prot="public" virt="non-virtual"><scope>UniGLTF::SpanLike</scope><name>Create&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_span_like_1a1b5f43df672ccc53a608c1bac6eda7d6" prot="public" virt="non-virtual"><scope>UniGLTF::SpanLike</scope><name>Map</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_span_like_1a15521da0b545f1656ff691071a606bdd" prot="public" virt="non-virtual"><scope>UniGLTF::SpanLike</scope><name>Wrap&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

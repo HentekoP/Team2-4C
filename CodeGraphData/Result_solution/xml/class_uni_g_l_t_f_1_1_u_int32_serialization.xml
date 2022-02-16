@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_u_int32_serialization" kind="class" prot="public">
+    <compoundname>UniGLTF::UInt32Serialization</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_number_serialization_base" prot="public" virt="non-virtual">UniGLTF.NumberSerializationBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_u_int32_serialization_1a7cd5593cb86b89e556b6c2648ca65bfc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override Type</type>
+        <definition>override Type UniGLTF.UInt32Serialization.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" line="155" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_u_int32_serialization_1afa3cb11c7013a799eed74f9ba910b8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.UInt32Serialization.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1ad5e2e0987be8ca11da7e52aae358de88">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" line="160" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2429">
+        <label>PrimitiveSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_primitive_serialization_base"/>
+        <childnode refid="2430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2427">
+        <label>UniGLTF.UInt32Serialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_u_int32_serialization"/>
+        <childnode refid="2428" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2430">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="2428">
+        <label>NumberSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_number_serialization_base"/>
+        <childnode refid="2429" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2433">
+        <label>PrimitiveSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_primitive_serialization_base"/>
+        <childnode refid="2434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2431">
+        <label>UniGLTF.UInt32Serialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_u_int32_serialization"/>
+        <childnode refid="2432" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2434">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="2432">
+        <label>NumberSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_number_serialization_base"/>
+        <childnode refid="2433" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" line="154" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/PrimitiveSerialization.cs" bodystart="153" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_number_serialization_base_1a47c015c577248ff174cf2996dbbcbc4c" prot="public" virt="virtual"><scope>UniGLTF::UInt32Serialization</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1a8fa6a4d93caeeae42d8cb27e94ae978d" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_u_int32_serialization_1afa3cb11c7013a799eed74f9ba910b8d2" prot="public" virt="virtual"><scope>UniGLTF::UInt32Serialization</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1a20f577bb4f09ea163f9618f0875269d6" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1af2db1dd38a41ebac724c27d04a0c3a55" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1a830463f323da5204f0f205e829494a5e" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_primitive_serialization_base_1a30d39789d31f4fee3981dbd45f683976" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_u_int32_serialization_1a7cd5593cb86b89e556b6c2648ca65bfc" prot="public" virt="non-virtual"><scope>UniGLTF::UInt32Serialization</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

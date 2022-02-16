@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_joints_accessor" kind="class" prot="public">
+    <compoundname>UniGLTF::JointsAccessor</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_joints_accessor_1ae499b868d1a8f7ad4596ea702ebff4cd" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.JointsAccessor.Getter</definition>
+        <argsstring></argsstring>
+        <name>Getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_joints_accessor_1a28b01f1fa5fef6fa2d4e096e9c462c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JointsAccessor.delegate</definition>
+        <argsstring>(ushort x, ushort y, ushort z, ushort w) Getter(int index)</argsstring>
+        <name>delegate</name>
+        <param>
+          <type>ushort</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_joints_accessor_1a62834c39f6b9dda3006865153daf503c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.JointsAccessor.GetAccessor</definition>
+        <argsstring>(GltfData data, int accessorIndex)</argsstring>
+        <name>GetAccessor</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accessorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" bodystart="12" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>JOINTS_0 の byte4 もしくは ushort4 に対するアクセスを提供する </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/JointsAccessor.cs" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_joints_accessor_1a28b01f1fa5fef6fa2d4e096e9c462c5d" prot="public" virt="non-virtual"><scope>UniGLTF::JointsAccessor</scope><name>delegate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_joints_accessor_1a62834c39f6b9dda3006865153daf503c" prot="private" virt="non-virtual"><scope>UniGLTF::JointsAccessor</scope><name>GetAccessor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_joints_accessor_1ae499b868d1a8f7ad4596ea702ebff4cd" prot="public" virt="non-virtual"><scope>UniGLTF::JointsAccessor</scope><name>Getter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_hand_pose_modifier" kind="class" prot="public">
+    <compoundname>UniHumanoid::HandPoseModifier</compoundname>
+    <basecompoundref refid="interface_uni_humanoid_1_1_i_pose_modifier" prot="public" virt="non-virtual">UniHumanoid.IPoseModifier</basecompoundref>
+    <innerclass refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" prot="public">UniHumanoid::HandPoseModifier::HandPose</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_hand_pose_modifier_1a323304f6228611e6a508408bcc2c7693" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPose</ref></type>
+        <definition>HandPose UniHumanoid.HandPoseModifier.LeftHandPose</definition>
+        <argsstring></argsstring>
+        <name>LeftHandPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1aee47465a0421b7ec659c0ff5d16bb7d2" compoundref="_hand_pose_8cs" startline="134" endline="183">UniHumanoid.HandPoseModifier.Modify</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_hand_pose_modifier_1a040bbe2c5c0ed708e662f11f5a9b83e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPose</ref></type>
+        <definition>HandPose UniHumanoid.HandPoseModifier.RightHandPose</definition>
+        <argsstring></argsstring>
+        <name>RightHandPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1aee47465a0421b7ec659c0ff5d16bb7d2" compoundref="_hand_pose_8cs" startline="134" endline="183">UniHumanoid.HandPoseModifier.Modify</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a9c4f958b5d85b2a9f1e6fc5365d490e7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftThumb1Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftThumb1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a36a6cd6edebde2498aae2e83e55c79f1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftThumb2Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftThumb2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ac4a20596536999f5c5a1992bffc7d096" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftThumb3Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftThumb3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a4fcadb71961fd41d15a50ad2f96f1773" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftIndex1Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftIndex1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a081d4938d5be67098c8d2251e0f57ba6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftIndex2Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftIndex2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1aacc9201588684b9920236fc48d2eef8f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftIndex3Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftIndex3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a77a6cb6f358ad36fc37b23bc33690921" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftMiddle1Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddle1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a9956db0abc1cb55127a3a9a02b0c5fbf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftMiddle2Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddle2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1add3c8729f2e3e379ef6a6584b91f5e29" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftMiddle3Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddle3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a8e02d5dd481f551b2b215b30e60e15f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftRing1Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftRing1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1aa04b11363bc2ec108ae15365c6ec92bc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftRing2Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftRing2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a914d4e040689bbf6d920341af52cb93e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftRing3Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftRing3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a27a458c6787f896c4f14cd8da36ebbbb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftLittle1Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftLittle1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a2d45e202a619b332a4aaca1916861ef5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftLittle2Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftLittle2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a0ec9fb7da71fa5869bd7496239b5be9e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftLittle3Stretched</definition>
+        <argsstring></argsstring>
+        <name>LeftLittle3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a80cec9864418231c3eacbaf1bf33f9b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftThumbSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftThumbSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ad93d46473229e4c96978e4ebc379a9e4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftIndexSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftIndexSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a92eecb37f778bc6d04cd7772c049093a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftMiddleSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddleSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a558e3a6821f22c7121cc315782cdfe35" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftRingSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftRingSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a40e223856d3de3628b8e05efcb2971df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.LeftLittleSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftLittleSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ab404c0a3154446386b136a00b14a5ea1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightThumb1Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightThumb1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1aad2422ff945f15e7608bc4a1f146fb11" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightThumb2Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightThumb2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a25f381448797d06f0897097aeb9ef6a5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightThumb3Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightThumb3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a08e3fd51179a2552e67d8907047302ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightIndex1Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightIndex1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ad4376439aea2139429396529c8b05a17" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightIndex2Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightIndex2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a5e6f16661b5bfa1ca5b1aef567325cdf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightIndex3Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightIndex3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a5c985d6c5ab62f9e917a041bfc7151d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightMiddle1Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightMiddle1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1af728eaf1d20a7e07cdf772c955f25d28" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightMiddle2Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightMiddle2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a1b5de1d2e91559829ecd88e22caad17d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightMiddle3Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightMiddle3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a4cefa921083ecbf07b86aa9ab5ff85db" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightRing1Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightRing1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ade592d7048cbe1d3f7dbedb506be03ed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightRing2Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightRing2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a3d933408fd4c00c24519e50b380016fc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightRing3Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightRing3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a77872769a768a84218661a9b422b8a63" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightLittle1Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightLittle1Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a20ac09cf65dea13f0d0c72f5eb5f2a44" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightLittle2Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightLittle2Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a0510ad7182f7477fee4b976ae053cc30" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightLittle3Stretched</definition>
+        <argsstring></argsstring>
+        <name>RightLittle3Stretched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a77b4ae32ce36f5af63964031f176f1ca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightThumbSpread</definition>
+        <argsstring></argsstring>
+        <name>RightThumbSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a682a87982a5f10d8cc610e15a7359b4b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightIndexSpread</definition>
+        <argsstring></argsstring>
+        <name>RightIndexSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1a3ca37a5277d35774a9d1a999db848434" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightMiddleSpread</definition>
+        <argsstring></argsstring>
+        <name>RightMiddleSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ac48a65e26746a0ec0aeb266e688b4d89" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightRingSpread</definition>
+        <argsstring></argsstring>
+        <name>RightRingSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_pose_modifier_1ace50f915a667a00d867fe6c66028633c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniHumanoid.HandPoseModifier.RightLittleSpread</definition>
+        <argsstring></argsstring>
+        <name>RightLittleSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" compoundref="_hand_pose_8cs" startline="89" endline="132">UniHumanoid.HandPoseModifier.HandPoseModifier</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.HandPoseModifier.HandPoseModifier</definition>
+        <argsstring>()</argsstring>
+        <name>HandPoseModifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="89" bodyend="132"/>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a4fcadb71961fd41d15a50ad2f96f1773" compoundref="_hand_pose_8cs" startline="50">UniHumanoid.HandPoseModifier.LeftIndex1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a081d4938d5be67098c8d2251e0f57ba6" compoundref="_hand_pose_8cs" startline="51">UniHumanoid.HandPoseModifier.LeftIndex2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1aacc9201588684b9920236fc48d2eef8f" compoundref="_hand_pose_8cs" startline="52">UniHumanoid.HandPoseModifier.LeftIndex3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ad93d46473229e4c96978e4ebc379a9e4" compoundref="_hand_pose_8cs" startline="63">UniHumanoid.HandPoseModifier.LeftIndexSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a27a458c6787f896c4f14cd8da36ebbbb" compoundref="_hand_pose_8cs" startline="59">UniHumanoid.HandPoseModifier.LeftLittle1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a2d45e202a619b332a4aaca1916861ef5" compoundref="_hand_pose_8cs" startline="60">UniHumanoid.HandPoseModifier.LeftLittle2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a0ec9fb7da71fa5869bd7496239b5be9e" compoundref="_hand_pose_8cs" startline="61">UniHumanoid.HandPoseModifier.LeftLittle3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a40e223856d3de3628b8e05efcb2971df" compoundref="_hand_pose_8cs" startline="66">UniHumanoid.HandPoseModifier.LeftLittleSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77a6cb6f358ad36fc37b23bc33690921" compoundref="_hand_pose_8cs" startline="53">UniHumanoid.HandPoseModifier.LeftMiddle1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a9956db0abc1cb55127a3a9a02b0c5fbf" compoundref="_hand_pose_8cs" startline="54">UniHumanoid.HandPoseModifier.LeftMiddle2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1add3c8729f2e3e379ef6a6584b91f5e29" compoundref="_hand_pose_8cs" startline="55">UniHumanoid.HandPoseModifier.LeftMiddle3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a92eecb37f778bc6d04cd7772c049093a" compoundref="_hand_pose_8cs" startline="64">UniHumanoid.HandPoseModifier.LeftMiddleSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a8e02d5dd481f551b2b215b30e60e15f9" compoundref="_hand_pose_8cs" startline="56">UniHumanoid.HandPoseModifier.LeftRing1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1aa04b11363bc2ec108ae15365c6ec92bc" compoundref="_hand_pose_8cs" startline="57">UniHumanoid.HandPoseModifier.LeftRing2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a914d4e040689bbf6d920341af52cb93e" compoundref="_hand_pose_8cs" startline="58">UniHumanoid.HandPoseModifier.LeftRing3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a558e3a6821f22c7121cc315782cdfe35" compoundref="_hand_pose_8cs" startline="65">UniHumanoid.HandPoseModifier.LeftRingSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a9c4f958b5d85b2a9f1e6fc5365d490e7" compoundref="_hand_pose_8cs" startline="47">UniHumanoid.HandPoseModifier.LeftThumb1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a36a6cd6edebde2498aae2e83e55c79f1" compoundref="_hand_pose_8cs" startline="48">UniHumanoid.HandPoseModifier.LeftThumb2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ac4a20596536999f5c5a1992bffc7d096" compoundref="_hand_pose_8cs" startline="49">UniHumanoid.HandPoseModifier.LeftThumb3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a80cec9864418231c3eacbaf1bf33f9b7" compoundref="_hand_pose_8cs" startline="62">UniHumanoid.HandPoseModifier.LeftThumbSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a08e3fd51179a2552e67d8907047302ae" compoundref="_hand_pose_8cs" startline="71">UniHumanoid.HandPoseModifier.RightIndex1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ad4376439aea2139429396529c8b05a17" compoundref="_hand_pose_8cs" startline="72">UniHumanoid.HandPoseModifier.RightIndex2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a5e6f16661b5bfa1ca5b1aef567325cdf" compoundref="_hand_pose_8cs" startline="73">UniHumanoid.HandPoseModifier.RightIndex3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a682a87982a5f10d8cc610e15a7359b4b" compoundref="_hand_pose_8cs" startline="84">UniHumanoid.HandPoseModifier.RightIndexSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77872769a768a84218661a9b422b8a63" compoundref="_hand_pose_8cs" startline="80">UniHumanoid.HandPoseModifier.RightLittle1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a20ac09cf65dea13f0d0c72f5eb5f2a44" compoundref="_hand_pose_8cs" startline="81">UniHumanoid.HandPoseModifier.RightLittle2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a0510ad7182f7477fee4b976ae053cc30" compoundref="_hand_pose_8cs" startline="82">UniHumanoid.HandPoseModifier.RightLittle3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ace50f915a667a00d867fe6c66028633c" compoundref="_hand_pose_8cs" startline="87">UniHumanoid.HandPoseModifier.RightLittleSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a5c985d6c5ab62f9e917a041bfc7151d8" compoundref="_hand_pose_8cs" startline="74">UniHumanoid.HandPoseModifier.RightMiddle1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1af728eaf1d20a7e07cdf772c955f25d28" compoundref="_hand_pose_8cs" startline="75">UniHumanoid.HandPoseModifier.RightMiddle2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a1b5de1d2e91559829ecd88e22caad17d" compoundref="_hand_pose_8cs" startline="76">UniHumanoid.HandPoseModifier.RightMiddle3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a3ca37a5277d35774a9d1a999db848434" compoundref="_hand_pose_8cs" startline="85">UniHumanoid.HandPoseModifier.RightMiddleSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a4cefa921083ecbf07b86aa9ab5ff85db" compoundref="_hand_pose_8cs" startline="77">UniHumanoid.HandPoseModifier.RightRing1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ade592d7048cbe1d3f7dbedb506be03ed" compoundref="_hand_pose_8cs" startline="78">UniHumanoid.HandPoseModifier.RightRing2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a3d933408fd4c00c24519e50b380016fc" compoundref="_hand_pose_8cs" startline="79">UniHumanoid.HandPoseModifier.RightRing3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ac48a65e26746a0ec0aeb266e688b4d89" compoundref="_hand_pose_8cs" startline="86">UniHumanoid.HandPoseModifier.RightRingSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1ab404c0a3154446386b136a00b14a5ea1" compoundref="_hand_pose_8cs" startline="68">UniHumanoid.HandPoseModifier.RightThumb1Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1aad2422ff945f15e7608bc4a1f146fb11" compoundref="_hand_pose_8cs" startline="69">UniHumanoid.HandPoseModifier.RightThumb2Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a25f381448797d06f0897097aeb9ef6a5" compoundref="_hand_pose_8cs" startline="70">UniHumanoid.HandPoseModifier.RightThumb3Stretched</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77b4ae32ce36f5af63964031f176f1ca" compoundref="_hand_pose_8cs" startline="83">UniHumanoid.HandPoseModifier.RightThumbSpread</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_pose_modifier_1aee47465a0421b7ec659c0ff5d16bb7d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HandPoseModifier.Modify</definition>
+        <argsstring>(ref HumanPose pose)</argsstring>
+        <name>Modify</name>
+        <reimplements refid="interface_uni_humanoid_1_1_i_pose_modifier_1a29b0bd26ccd567025c1f6aabd5ed80ba">Modify</reimplements>
+        <param>
+          <type>ref HumanPose</type>
+          <declname>pose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="134" bodyend="183"/>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a323304f6228611e6a508408bcc2c7693" compoundref="_hand_pose_8cs" startline="37">UniHumanoid.HandPoseModifier.LeftHandPose</references>
+        <references refid="class_uni_humanoid_1_1_hand_pose_modifier_1a040bbe2c5c0ed708e662f11f5a9b83e0" compoundref="_hand_pose_8cs" startline="42">UniHumanoid.HandPoseModifier.RightHandPose</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1180">
+        <label>UniHumanoid.HandPoseModifier</label>
+        <link refid="class_uni_humanoid_1_1_hand_pose_modifier"/>
+        <childnode refid="1181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>IPoseModifier</label>
+        <link refid="interface_uni_humanoid_1_1_i_pose_modifier"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1182">
+        <label>UniHumanoid.HandPoseModifier</label>
+        <link refid="class_uni_humanoid_1_1_hand_pose_modifier"/>
+        <childnode refid="1183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>IPoseModifier</label>
+        <link refid="interface_uni_humanoid_1_1_i_pose_modifier"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandPose.cs" bodystart="7" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a7325b3916ed1b47b15509ddf0cf855f6" prot="public" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>HandPoseModifier</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a323304f6228611e6a508408bcc2c7693" prot="public" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftHandPose</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a4fcadb71961fd41d15a50ad2f96f1773" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftIndex1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a081d4938d5be67098c8d2251e0f57ba6" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftIndex2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1aacc9201588684b9920236fc48d2eef8f" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftIndex3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ad93d46473229e4c96978e4ebc379a9e4" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftIndexSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a27a458c6787f896c4f14cd8da36ebbbb" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftLittle1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a2d45e202a619b332a4aaca1916861ef5" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftLittle2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a0ec9fb7da71fa5869bd7496239b5be9e" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftLittle3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a40e223856d3de3628b8e05efcb2971df" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftLittleSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77a6cb6f358ad36fc37b23bc33690921" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftMiddle1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a9956db0abc1cb55127a3a9a02b0c5fbf" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftMiddle2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1add3c8729f2e3e379ef6a6584b91f5e29" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftMiddle3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a92eecb37f778bc6d04cd7772c049093a" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftMiddleSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a8e02d5dd481f551b2b215b30e60e15f9" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftRing1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1aa04b11363bc2ec108ae15365c6ec92bc" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftRing2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a914d4e040689bbf6d920341af52cb93e" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftRing3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a558e3a6821f22c7121cc315782cdfe35" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftRingSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a9c4f958b5d85b2a9f1e6fc5365d490e7" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftThumb1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a36a6cd6edebde2498aae2e83e55c79f1" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftThumb2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ac4a20596536999f5c5a1992bffc7d096" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftThumb3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a80cec9864418231c3eacbaf1bf33f9b7" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>LeftThumbSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1aee47465a0421b7ec659c0ff5d16bb7d2" prot="public" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>Modify</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a040bbe2c5c0ed708e662f11f5a9b83e0" prot="public" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightHandPose</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a08e3fd51179a2552e67d8907047302ae" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightIndex1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ad4376439aea2139429396529c8b05a17" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightIndex2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a5e6f16661b5bfa1ca5b1aef567325cdf" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightIndex3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a682a87982a5f10d8cc610e15a7359b4b" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightIndexSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77872769a768a84218661a9b422b8a63" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightLittle1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a20ac09cf65dea13f0d0c72f5eb5f2a44" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightLittle2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a0510ad7182f7477fee4b976ae053cc30" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightLittle3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ace50f915a667a00d867fe6c66028633c" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightLittleSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a5c985d6c5ab62f9e917a041bfc7151d8" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightMiddle1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1af728eaf1d20a7e07cdf772c955f25d28" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightMiddle2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a1b5de1d2e91559829ecd88e22caad17d" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightMiddle3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a3ca37a5277d35774a9d1a999db848434" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightMiddleSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a4cefa921083ecbf07b86aa9ab5ff85db" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightRing1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ade592d7048cbe1d3f7dbedb506be03ed" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightRing2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a3d933408fd4c00c24519e50b380016fc" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightRing3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ac48a65e26746a0ec0aeb266e688b4d89" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightRingSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1ab404c0a3154446386b136a00b14a5ea1" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightThumb1Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1aad2422ff945f15e7608bc4a1f146fb11" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightThumb2Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a25f381448797d06f0897097aeb9ef6a5" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightThumb3Stretched</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_pose_modifier_1a77b4ae32ce36f5af63964031f176f1ca" prot="private" virt="non-virtual"><scope>UniHumanoid::HandPoseModifier</scope><name>RightThumbSpread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

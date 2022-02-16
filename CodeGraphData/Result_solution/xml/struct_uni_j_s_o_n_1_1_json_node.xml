@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_j_s_o_n_1_1_json_node" kind="struct" prot="public">
+    <compoundname>UniJSON::JsonNode</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_json_node_1a57d1e1cf85d5d2674f8576f4bf04c9a8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_uni_j_s_o_n_1_1_json_value" kindref="compound">JsonValue</ref> &gt;</type>
+        <definition>List&lt;JsonValue&gt; UniJSON.JsonNode.m_Values</definition>
+        <argsstring></argsstring>
+        <name>m_Values</name>
+        <briefdescription>
+<para>Whole tree nodes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="293" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="293" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" compoundref="_list_tree_node_8cs" startline="425" endline="440">UniJSON.JsonNode.AddValue</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" compoundref="_list_tree_node_8cs" startline="408" endline="412">UniJSON.JsonNode.JsonNode</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" compoundref="_list_tree_node_8cs" startline="334" endline="337">UniJSON.JsonNode.SetValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_json_node_1a8be02b20e5f5601bbe6f1340d3099947" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.JsonNode._valueIndex</definition>
+        <argsstring></argsstring>
+        <name>_valueIndex</name>
+        <briefdescription>
+<para>This node index </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="305" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="305" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" compoundref="_list_tree_node_8cs" startline="425" endline="440">UniJSON.JsonNode.AddValue</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" compoundref="_list_tree_node_8cs" startline="408" endline="412">UniJSON.JsonNode.JsonNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a2d74539fb57cd9ff94944c181cc738ed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UniJSON.JsonNode.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="294" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1af87b54a0dafca70a0a84e5b3a1b62597" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniJSON.JsonNode.ValueIndex</definition>
+        <argsstring></argsstring>
+        <name>ValueIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="306" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="307" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1ac9b01894df5ca0a2afb801c0592707f6" compoundref="_list_tree_node_8cs" startline="415" endline="418">UniJSON.JsonNode.AddKey</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1abc1c7cfd04adcd28aa72ebb0277be1e6" compoundref="_list_tree_node_8cs" startline="420" endline="423">UniJSON.JsonNode.AddValue</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" compoundref="_list_tree_node_8cs" startline="334" endline="337">UniJSON.JsonNode.SetValue</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a6f6a33a3aa4e4dc77accd6c67f93d61e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.Prev</definition>
+        <argsstring></argsstring>
+        <name>Prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="315" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_value" kindref="compound">JsonValue</ref></type>
+        <definition>JsonValue UniJSON.JsonNode.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="323" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="324" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf__mesh__extras__target_names_1a54320700f336aaf08ce4ee3313eb5eb3" compoundref="gltf__mesh__extras__target_names_8cs" startline="21" endline="32">UniGLTF.gltf_mesh_extras_targetNames.Deserialize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__texture__basisu_1a46e46da31e5df4076dc4ce7ceed50533" compoundref="_k_h_r__texture__basisu_8cs" startline="42" endline="61">UniGLTF.glTF_KHR_texture_basisu.Deserialize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__texture__transform_1aadc794a93483ffd17484510f78086675" compoundref="_k_h_r__texture__transform_8cs" startline="43" endline="77">UniGLTF.glTF_KHR_texture_transform.Deserialize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__texture__transform_1afa1f3e2e11c5ed2234253c77da74b0fc" compoundref="_k_h_r__texture__transform_8cs" startline="32" endline="41">UniGLTF.glTF_KHR_texture_transform.DeserializeFloat2</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a8d8521308a01ad56b5d02ce748f3629e" compoundref="_list_tree_node_8cs" startline="200" endline="288">UniJSON.JsonNode.Diff</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1abf487656a92fa1e3ccbd907fa32e8db6" compoundref="_list_tree_node_8cs" startline="16" endline="63">UniJSON.JsonNode.Equals</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1aebb6ab5b7045c9eb6a1f9d360f3b9bfe" compoundref="_list_tree_node_8cs" startline="442" endline="447">UniJSON.JsonNode.IncrementChildCount</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_import_1abdfb987e8f4cedb0fda604e41760e916" compoundref="gltf_extension_8cs" startline="137" endline="146">UniGLTF.glTFExtensionImport.ObjectItems</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a2b09fa66d40152fef211d7c9a2b82dce" compoundref="_list_tree_node_8cs" startline="449" endline="454">UniJSON.JsonNode.SetValueBytesCount</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a3990e3aa74d529ab5486a43afe8bc592" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniJSON.JsonNode.ChildCount</definition>
+        <argsstring></argsstring>
+        <name>ChildCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="340" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a15604270f83c2e7d66c9a4bab4005621" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref> &gt;</type>
+        <definition>IEnumerable&lt;JsonNode&gt; UniJSON.JsonNode.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="345" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a27d053550027ef43d42eb744f8af7180" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.this[String key]</definition>
+        <argsstring></argsstring>
+        <name>this[String key]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="361" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a2cc017bfe1d223351b621fc79db4262c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.this[Utf8String key]</definition>
+        <argsstring></argsstring>
+        <name>this[Utf8String key]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="369" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1aaa57dffaad89ef719ffc37df48a820b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="377" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a1fe8a8d0b843fad2d5262fa8b94621bb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UniJSON.JsonNode.HasParent</definition>
+        <argsstring></argsstring>
+        <name>HasParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="385" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_uni_j_s_o_n_1_1_json_node_1a5908028d8e1453055a8be70f6aab2673" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="392" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="393" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a881a0edf53577da4b25438dfe252c5fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int UniJSON.JsonNode.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1abf487656a92fa1e3ccbd907fa32e8db6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool UniJSON.JsonNode.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="16" bodyend="63"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" compoundref="_list_tree_node_8cs" startline="408" endline="412">UniJSON.JsonNode.JsonNode</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" compoundref="_list_tree_node_8cs" startline="324">UniJSON.JsonNode.Value</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_value_1acb721514258edb9405afd5a9bad15c7d" compoundref="_json_value_8cs" startline="16">UniJSON.JsonValue.ValueType</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a8d8521308a01ad56b5d02ce748f3629e" compoundref="_list_tree_node_8cs" startline="200" endline="288">UniJSON.JsonNode.Diff</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a22d1951af7c1d1c1780c970f6ccfe53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniJSON.JsonNode.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="65" bodyend="117"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a24552612b6ad56b10fe0baad7b617dde" compoundref="_list_tree_node_8cs" startline="195" endline="198">UniJSON.JsonNode.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a9358b35a5686f425af2d75fd1f2f6bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt;string&gt; UniJSON.JsonNode.ToString</definition>
+        <argsstring>(string indent, int level, bool value=false)</argsstring>
+        <name>ToString</name>
+        <param>
+          <type>string</type>
+          <declname>indent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="119" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a24552612b6ad56b10fe0baad7b617dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniJSON.JsonNode.ToString</definition>
+        <argsstring>(string indent)</argsstring>
+        <name>ToString</name>
+        <param>
+          <type>string</type>
+          <declname>indent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="195" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="195" bodyend="198"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a22d1951af7c1d1c1780c970f6ccfe53d" compoundref="_list_tree_node_8cs" startline="65" endline="117">UniJSON.JsonNode.ToString</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a8d8521308a01ad56b5d02ce748f3629e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_uni_j_s_o_n_1_1_json_diff" kindref="compound">JsonDiff</ref> &gt;</type>
+        <definition>IEnumerable&lt;JsonDiff&gt; UniJSON.JsonNode.Diff</definition>
+        <argsstring>(JsonNode rhs, JsonPointer path=default(JsonPointer))</argsstring>
+        <name>Diff</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_pointer" kindref="compound">JsonPointer</ref></type>
+          <declname>path</declname>
+          <defval>default(<ref refid="struct_uni_j_s_o_n_1_1_json_pointer" kindref="compound">JsonPointer</ref>)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="200" bodyend="288"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1abf487656a92fa1e3ccbd907fa32e8db6" compoundref="_list_tree_node_8cs" startline="16" endline="63">UniJSON.JsonNode.Equals</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" compoundref="_list_tree_node_8cs" startline="324">UniJSON.JsonNode.Value</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_value_1acb721514258edb9405afd5a9bad15c7d" compoundref="_json_value_8cs" startline="16">UniJSON.JsonValue.ValueType</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonNode.SetValue</definition>
+        <argsstring>(JsonValue value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_value" kindref="compound">JsonValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="334" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="334" bodyend="337"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a57d1e1cf85d5d2674f8576f4bf04c9a8" compoundref="_list_tree_node_8cs" startline="293">UniJSON.JsonNode.m_Values</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1af87b54a0dafca70a0a84e5b3a1b62597" compoundref="_list_tree_node_8cs" startline="307">UniJSON.JsonNode.ValueIndex</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1aebb6ab5b7045c9eb6a1f9d360f3b9bfe" compoundref="_list_tree_node_8cs" startline="442" endline="447">UniJSON.JsonNode.IncrementChildCount</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a2b09fa66d40152fef211d7c9a2b82dce" compoundref="_list_tree_node_8cs" startline="449" endline="454">UniJSON.JsonNode.SetValueBytesCount</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.JsonNode.JsonNode</definition>
+        <argsstring>(List&lt; JsonValue &gt; values, int index=0)</argsstring>
+        <name>JsonNode</name>
+        <param>
+          <type>List&lt; <ref refid="struct_uni_j_s_o_n_1_1_json_value" kindref="compound">JsonValue</ref> &gt;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="408" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="408" bodyend="412"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a8be02b20e5f5601bbe6f1340d3099947" compoundref="_list_tree_node_8cs" startline="305">UniJSON.JsonNode._valueIndex</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a57d1e1cf85d5d2674f8576f4bf04c9a8" compoundref="_list_tree_node_8cs" startline="293">UniJSON.JsonNode.m_Values</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" compoundref="_list_tree_node_8cs" startline="425" endline="440">UniJSON.JsonNode.AddValue</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1abf487656a92fa1e3ccbd907fa32e8db6" compoundref="_list_tree_node_8cs" startline="16" endline="63">UniJSON.JsonNode.Equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1ac9b01894df5ca0a2afb801c0592707f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.AddKey</definition>
+        <argsstring>(Utf8String key)</argsstring>
+        <name>AddKey</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="415" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="415" bodyend="418"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1abc1c7cfd04adcd28aa72ebb0277be1e6" compoundref="_list_tree_node_8cs" startline="420" endline="423">UniJSON.JsonNode.AddValue</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1af87b54a0dafca70a0a84e5b3a1b62597" compoundref="_list_tree_node_8cs" startline="307">UniJSON.JsonNode.ValueIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1abc1c7cfd04adcd28aa72ebb0277be1e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.AddValue</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; bytes, ValueNodeType valueType)</argsstring>
+        <name>AddValue</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82" kindref="member">ValueNodeType</ref></type>
+          <declname>valueType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="420" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="420" bodyend="423"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1af87b54a0dafca70a0a84e5b3a1b62597" compoundref="_list_tree_node_8cs" startline="307">UniJSON.JsonNode.ValueIndex</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1ac9b01894df5ca0a2afb801c0592707f6" compoundref="_list_tree_node_8cs" startline="415" endline="418">UniJSON.JsonNode.AddKey</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>JsonNode UniJSON.JsonNode.AddValue</definition>
+        <argsstring>(JsonValue value)</argsstring>
+        <name>AddValue</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_value" kindref="compound">JsonValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="425" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="425" bodyend="440"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a8be02b20e5f5601bbe6f1340d3099947" compoundref="_list_tree_node_8cs" startline="305">UniJSON.JsonNode._valueIndex</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1aebb6ab5b7045c9eb6a1f9d360f3b9bfe" compoundref="_list_tree_node_8cs" startline="442" endline="447">UniJSON.JsonNode.IncrementChildCount</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" compoundref="_list_tree_node_8cs" startline="408" endline="412">UniJSON.JsonNode.JsonNode</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a57d1e1cf85d5d2674f8576f4bf04c9a8" compoundref="_list_tree_node_8cs" startline="293">UniJSON.JsonNode.m_Values</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1aebb6ab5b7045c9eb6a1f9d360f3b9bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonNode.IncrementChildCount</definition>
+        <argsstring>()</argsstring>
+        <name>IncrementChildCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="442" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="442" bodyend="447"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" compoundref="_list_tree_node_8cs" startline="334" endline="337">UniJSON.JsonNode.SetValue</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" compoundref="_list_tree_node_8cs" startline="324">UniJSON.JsonNode.Value</references>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" compoundref="_list_tree_node_8cs" startline="425" endline="440">UniJSON.JsonNode.AddValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_node_1a2b09fa66d40152fef211d7c9a2b82dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonNode.SetValueBytesCount</definition>
+        <argsstring>(int count)</argsstring>
+        <name>SetValueBytesCount</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="449" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="449" bodyend="454"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" compoundref="_list_tree_node_8cs" startline="334" endline="337">UniJSON.JsonNode.SetValue</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" compoundref="_list_tree_node_8cs" startline="324">UniJSON.JsonNode.Value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/ListTreeNode/ListTreeNode.cs" bodystart="9" bodyend="456"/>
+    <listofallmembers>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a8be02b20e5f5601bbe6f1340d3099947" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>_valueIndex</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1ac9b01894df5ca0a2afb801c0592707f6" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>AddKey</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1abc1c7cfd04adcd28aa72ebb0277be1e6" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>AddValue</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a7c44b269d342a6b4ca6180d8cee31ff3" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>AddValue</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a3990e3aa74d529ab5486a43afe8bc592" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>ChildCount</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a15604270f83c2e7d66c9a4bab4005621" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Children</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a8d8521308a01ad56b5d02ce748f3629e" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Diff</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1abf487656a92fa1e3ccbd907fa32e8db6" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Equals</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a881a0edf53577da4b25438dfe252c5fd" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>GetHashCode</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a1fe8a8d0b843fad2d5262fa8b94621bb" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>HasParent</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1aebb6ab5b7045c9eb6a1f9d360f3b9bfe" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>IncrementChildCount</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a2d74539fb57cd9ff94944c181cc738ed" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>IsValid</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a33549a7eb481a63e7a5131ac6a13c7f0" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>JsonNode</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a57d1e1cf85d5d2674f8576f4bf04c9a8" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>m_Values</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a5908028d8e1453055a8be70f6aab2673" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Parent</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a6f6a33a3aa4e4dc77accd6c67f93d61e" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Prev</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a7c7fbb971779aab8fdd76b785aa3b2cf" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>SetValue</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a2b09fa66d40152fef211d7c9a2b82dce" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>SetValueBytesCount</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1aaa57dffaad89ef719ffc37df48a820b0" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>this[int index]</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a27d053550027ef43d42eb744f8af7180" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>this[String key]</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a2cc017bfe1d223351b621fc79db4262c" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>this[Utf8String key]</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a22d1951af7c1d1c1780c970f6ccfe53d" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>ToString</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a9358b35a5686f425af2d75fd1f2f6bf4" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>ToString</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a24552612b6ad56b10fe0baad7b617dde" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>ToString</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1a7c6bb54a3e509fe774caa07b65be49d0" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>Value</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_node_1af87b54a0dafca70a0a84e5b3a1b62597" prot="public" virt="non-virtual"><scope>UniJSON::JsonNode</scope><name>ValueIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshUtility::BoneMeshEraserWizard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableWizard</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a28e9fbcb01d1c1ba6dd2934d09709006" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.MeshUtility.BoneMeshEraserWizard.BONE_MESH_ERASER_NAME</definition>
+        <argsstring></argsstring>
+        <name>BONE_MESH_ERASER_NAME</name>
+        <initializer>= &quot;BoneMeshEraser&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_process_dialog_1a9248e9d3e28b93da2f53286d145ace13" compoundref="_mesh_process_dialog_8cs" startline="355" endline="397">UniGLTF.MeshUtility.MeshProcessDialog.BoneMeshRemove</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_process_dialog_1a09b393ba5a0ea4c60deaa324946ef933" compoundref="_mesh_process_dialog_8cs" startline="399" endline="416">UniGLTF.MeshUtility.MeshProcessDialog.Remove</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a723d6abaecc4c45fc9ea87a345e7be9a" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.MeshUtility.BoneMeshEraserWizard.ASSET_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>ASSET_SUFFIX</name>
+        <initializer>= &quot;.asset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1ac51e57eb2d18f19afe6012c4b25ea5f1" prot="private" static="no" mutable="no">
+        <type>SkinnedMeshRenderer</type>
+        <definition>SkinnedMeshRenderer UniGLTF.MeshUtility.BoneMeshEraserWizard.m_skinnedMesh</definition>
+        <argsstring></argsstring>
+        <name>m_skinnedMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a1f7b776e2f7c500e80e15cf52dca9414" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator UniGLTF.MeshUtility.BoneMeshEraserWizard.m_animator</definition>
+        <argsstring></argsstring>
+        <name>m_animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a131159b6c640da763ec16d0ddbdb5904" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniGLTF.MeshUtility.BoneMeshEraserWizard.EraseRoot</definition>
+        <argsstring></argsstring>
+        <name>EraseRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a88ac320d0a61ac1ec0df9da44f4ab07f" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1_1_erase_bone" kindref="compound">BoneMeshEraser.EraseBone</ref>[]</type>
+        <definition>BoneMeshEraser.EraseBone [] UniGLTF.MeshUtility.BoneMeshEraserWizard.m_eraseBones</definition>
+        <argsstring></argsstring>
+        <name>m_eraseBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a4e50119e2770095ea9fc69f5777ad597" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a49394a289c924186b4b75d3238cd2afd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="66" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a900500c4102f01d200c8007bbba068a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.OnWizardUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="106" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1aa539dd1bca7a35569ac13546d6cbe898" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SkinnedMeshRenderer</type>
+        <definition>SkinnedMeshRenderer UniGLTF.MeshUtility.BoneMeshEraserWizard._Erase</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>_Erase</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="111" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a9861bfb150e633352c9ff6694ee023a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.Erase</definition>
+        <argsstring>()</argsstring>
+        <name>Erase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="141" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1aaf4c509a079f4bfe46ae4ab08952ba22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.OnWizardCreate</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="167" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a04fb48a1898ede87201386dff5976559" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshUtility.BoneMeshEraserWizard.OnWizardOtherButton</definition>
+        <argsstring>()</argsstring>
+        <name>OnWizardOtherButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="175" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="342">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="341">
+        <label>UniGLTF.MeshUtility.BoneMeshEraserWizard</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="344">
+        <label>ScriptableWizard</label>
+      </node>
+      <node id="343">
+        <label>UniGLTF.MeshUtility.BoneMeshEraserWizard</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+        <childnode refid="345" relation="usage">
+          <edgelabel>m_eraseBones</edgelabel>
+        </childnode>
+      </node>
+      <node id="345">
+        <label>UniGLTF.MeshUtility.BoneMeshEraser</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/MeshUtility/BoneMeshEraserWizard.cs" bodystart="38" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1aa539dd1bca7a35569ac13546d6cbe898" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>_Erase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a723d6abaecc4c45fc9ea87a345e7be9a" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>ASSET_SUFFIX</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a28e9fbcb01d1c1ba6dd2934d09709006" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>BONE_MESH_ERASER_NAME</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a9861bfb150e633352c9ff6694ee023a3" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>Erase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a131159b6c640da763ec16d0ddbdb5904" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>EraseRoot</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a1f7b776e2f7c500e80e15cf52dca9414" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>m_animator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a88ac320d0a61ac1ec0df9da44f4ab07f" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>m_eraseBones</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1ac51e57eb2d18f19afe6012c4b25ea5f1" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>m_skinnedMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a4e50119e2770095ea9fc69f5777ad597" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>OnEnable</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a49394a289c924186b4b75d3238cd2afd" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>OnValidate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1aaf4c509a079f4bfe46ae4ab08952ba22" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>OnWizardCreate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a04fb48a1898ede87201386dff5976559" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>OnWizardOtherButton</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_wizard_1a900500c4102f01d200c8007bbba068a1" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraserWizard</scope><name>OnWizardUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

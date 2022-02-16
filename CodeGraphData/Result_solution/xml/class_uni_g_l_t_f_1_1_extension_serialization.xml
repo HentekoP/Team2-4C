@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_extension_serialization" kind="class" prot="public">
+    <compoundname>UniGLTF::ExtensionSerialization</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_value_serialization" prot="public" virt="non-virtual">UniGLTF.IValueSerialization</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_extension_serialization_1a8de0a9ba09d04647aa747b86abbb6616" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type UniGLTF.ExtensionSerialization.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <initializer>=&gt; typeof(object)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_extension_serialization_1a65d3a938eca62dfee5c64f58cba66a51" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.ExtensionSerialization.IsInline</definition>
+        <argsstring></argsstring>
+        <name>IsInline</name>
+        <initializer>=&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_extension_serialization_1a6bca9a30204236ff3da210f1d11d13fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.ExtensionSerialization.GenerateDeserializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateDeserializer</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1aab343e00232c0301e0c694bac9b73f20">GenerateDeserializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_extension_serialization_1af611cd66efe721c34735006075b87835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.ExtensionSerialization.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a4b965870b38d47575dc1f6ca8e3282f3">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_extension_serialization_1ad5b83119534430de4cae4970684f666b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.ExtensionSerialization.CreateSerializationCondition</definition>
+        <argsstring>(string argName, JsonSchemaAttribute t)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a5191c72a7766a97422946c4335278f13">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_attribute" kindref="compound">JsonSchemaAttribute</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_extension_serialization_1ac9a7730ea7efdb8de6d5e6162532d507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.ExtensionSerialization.GenerateSerializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateSerializer</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1a87333ad21bcea28437505254b5946309">GenerateSerializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_extension_serialization_1a6d66ce9465c85700ac8a35007a60f73e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.ExtensionSerialization.GenerateSerializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateSerializerCall</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1ac8230c1cbee994c736b2c5ccba84c284">GenerateSerializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="679">
+        <label>UniGLTF.ExtensionSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_extension_serialization"/>
+        <childnode refid="680" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="680">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="681">
+        <label>UniGLTF.ExtensionSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_extension_serialization"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="682">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ExtensionSerialization.cs" bodystart="6" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1ad5b83119534430de4cae4970684f666b" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1a6bca9a30204236ff3da210f1d11d13fc" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1af611cd66efe721c34735006075b87835" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1ac9a7730ea7efdb8de6d5e6162532d507" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1a6d66ce9465c85700ac8a35007a60f73e" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1a65d3a938eca62dfee5c64f58cba66a51" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_extension_serialization_1a8de0a9ba09d04647aa747b86abbb6616" prot="public" virt="non-virtual"><scope>UniGLTF::ExtensionSerialization</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

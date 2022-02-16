@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info" kind="class" prot="public">
+    <compoundname>VRM::DevOnly::PackageExporter::VRMExportUnityPackage::PackageInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a655a1d62263c29e3d0d81b7a4497a07d" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string VRM.DevOnly.PackageExporter.VRMExportUnityPackage.PackageInfo.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="179" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="179" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a5ee5c34bda6126fced50a6aa050b668b" compoundref="_v_r_m_export_unity_package_8cs" startline="232" endline="244">VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a4f8bd7c0320fb6df83242b9c7b621921" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_glob_list" kindref="compound">GlobList</ref>[]</type>
+        <definition>GlobList [] VRM.DevOnly.PackageExporter.VRMExportUnityPackage.PackageInfo.List</definition>
+        <argsstring></argsstring>
+        <name>List</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="180" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a48a030e2ef3968efa492eda68acee369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.DevOnly.PackageExporter.VRMExportUnityPackage.PackageInfo.PackageInfo</definition>
+        <argsstring>(string name)</argsstring>
+        <name>PackageInfo</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="182" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="182" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1942">
+        <label>VRM.DevOnly.PackageExporter.VRMExportUnityPackage.PackageInfo</label>
+        <link refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info"/>
+        <childnode refid="1943" relation="usage">
+          <edgelabel>List</edgelabel>
+        </childnode>
+      </node>
+      <node id="1943">
+        <label>VRM.DevOnly.PackageExporter.VRMExportUnityPackage.GlobList</label>
+        <link refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_glob_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="178" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="177" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a4f8bd7c0320fb6df83242b9c7b621921" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage::PackageInfo</scope><name>List</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a655a1d62263c29e3d0d81b7a4497a07d" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage::PackageInfo</scope><name>Name</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a48a030e2ef3968efa492eda68acee369" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage::PackageInfo</scope><name>PackageInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

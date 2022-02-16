@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshExportUtil::VertexBuffer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aaf94459f63782dca134a3e874837acf7" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; int, int &gt;</type>
+        <definition>readonly Dictionary&lt;int, int&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_vertexIndexMap</definition>
+        <argsstring></argsstring>
+        <name>m_vertexIndexMap</name>
+        <initializer>= new Dictionary&lt;int, int&gt;()</initializer>
+        <briefdescription>
+<para>SubMeshで分割するので index が変わる。対応表 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a76a87fcee40bb8f9db057bc6766f8f5c" compoundref="_mesh_export_util_8cs" startline="51" endline="66">UniGLTF.MeshExportUtil.VertexBuffer.ContainsTriangle</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" compoundref="_mesh_export_util_8cs" startline="113" endline="156">UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1acdef0f9598f22763f77442a08ca9c97f" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref> &gt;</type>
+        <definition>readonly List&lt;Vector3&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" compoundref="_mesh_export_util_8cs" startline="113" endline="156">UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a68475b59d4ca66a461c481ab0dd37d0f" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref> &gt;</type>
+        <definition>readonly List&lt;Vector3&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_normals</definition>
+        <argsstring></argsstring>
+        <name>m_normals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8f926328f085eb21ef4fb5f2d210c1c4" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref> &gt;</type>
+        <definition>readonly List&lt;Vector2&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_uv</definition>
+        <argsstring></argsstring>
+        <name>m_uv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ac78b9fde9d361dd218ad1c3ed6dc90d2" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref> &gt;</type>
+        <definition>readonly List&lt;Vector4&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_color</definition>
+        <argsstring></argsstring>
+        <name>m_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" compoundref="_mesh_export_util_8cs" startline="113" endline="156">UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8edf8a0ae0f329ededaa1c9dbc62e836" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; int, int &gt;</type>
+        <definition>readonly Func&lt;int, int&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_getJointIndex</definition>
+        <argsstring></argsstring>
+        <name>m_getJointIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aab572d26e244312f91597907fb46816f" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_uni_g_l_t_f_1_1_u_short4" kindref="compound">UShort4</ref> &gt;</type>
+        <definition>readonly List&lt;UShort4&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_joints</definition>
+        <argsstring></argsstring>
+        <name>m_joints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" compoundref="_mesh_export_util_8cs" startline="113" endline="156">UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ad3dbe9b0de447c8de3057e57b7180bed" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref> &gt;</type>
+        <definition>readonly List&lt;Vector4&gt; UniGLTF.MeshExportUtil.VertexBuffer.m_weights</definition>
+        <argsstring></argsstring>
+        <name>m_weights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" compoundref="_mesh_export_util_8cs" startline="113" endline="156">UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" compoundref="_mesh_export_util_8cs" startline="77" endline="90">UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a76a87fcee40bb8f9db057bc6766f8f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.MeshExportUtil.VertexBuffer.ContainsTriangle</definition>
+        <argsstring>(int v0, int v1, int v2)</argsstring>
+        <name>ContainsTriangle</name>
+        <param>
+          <type>int</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="51" bodyend="66"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aaf94459f63782dca134a3e874837acf7" compoundref="_mesh_export_util_8cs" startline="50">UniGLTF.MeshExportUtil.VertexBuffer.m_vertexIndexMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.MeshExportUtil.VertexBuffer.VertexBuffer</definition>
+        <argsstring>(int vertexCount, Func&lt; int, int &gt; getJointIndex)</argsstring>
+        <name>VertexBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>vertexCount</declname>
+        </param>
+        <param>
+          <type>Func&lt; int, int &gt;</type>
+          <declname>getJointIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="77" bodyend="90"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ac78b9fde9d361dd218ad1c3ed6dc90d2" compoundref="_mesh_export_util_8cs" startline="71">UniGLTF.MeshExportUtil.VertexBuffer.m_color</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8edf8a0ae0f329ededaa1c9dbc62e836" compoundref="_mesh_export_util_8cs" startline="73">UniGLTF.MeshExportUtil.VertexBuffer.m_getJointIndex</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aab572d26e244312f91597907fb46816f" compoundref="_mesh_export_util_8cs" startline="74">UniGLTF.MeshExportUtil.VertexBuffer.m_joints</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a68475b59d4ca66a461c481ab0dd37d0f" compoundref="_mesh_export_util_8cs" startline="69">UniGLTF.MeshExportUtil.VertexBuffer.m_normals</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1acdef0f9598f22763f77442a08ca9c97f" compoundref="_mesh_export_util_8cs" startline="68">UniGLTF.MeshExportUtil.VertexBuffer.m_positions</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8f926328f085eb21ef4fb5f2d210c1c4" compoundref="_mesh_export_util_8cs" startline="70">UniGLTF.MeshExportUtil.VertexBuffer.m_uv</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ad3dbe9b0de447c8de3057e57b7180bed" compoundref="_mesh_export_util_8cs" startline="75">UniGLTF.MeshExportUtil.VertexBuffer.m_weights</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a05b8f6b86fc746ff33531b944b7ed4f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportUtil.VertexBuffer.PushVertex</definition>
+        <argsstring>(int index, Vector3 position, Vector3 normal, Vector2 uv)</argsstring>
+        <name>PushVertex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>uv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="92" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a7486f1a4b4f296950ede4db122abecbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportUtil.VertexBuffer.PushColor</definition>
+        <argsstring>(Vector4 color)</argsstring>
+        <name>PushColor</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a9c5dc445aabf565eb3cde5cb308cb3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MeshExportUtil.VertexBuffer.PushBoneWeight</definition>
+        <argsstring>(BoneWeight boneWeight)</argsstring>
+        <name>PushBoneWeight</name>
+        <param>
+          <type>BoneWeight</type>
+          <declname>boneWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" kindref="compound">glTFPrimitives</ref></type>
+        <definition>glTFPrimitives UniGLTF.MeshExportUtil.VertexBuffer.ToGltfPrimitive</definition>
+        <argsstring>(ExportingGltfData data, int materialIndex, IEnumerable&lt; int &gt; indices)</argsstring>
+        <name>ToGltfPrimitive</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>materialIndex</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; int &gt;</type>
+          <declname>indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="113" bodyend="156"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ac78b9fde9d361dd218ad1c3ed6dc90d2" compoundref="_mesh_export_util_8cs" startline="71">UniGLTF.MeshExportUtil.VertexBuffer.m_color</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aab572d26e244312f91597907fb46816f" compoundref="_mesh_export_util_8cs" startline="74">UniGLTF.MeshExportUtil.VertexBuffer.m_joints</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1acdef0f9598f22763f77442a08ca9c97f" compoundref="_mesh_export_util_8cs" startline="68">UniGLTF.MeshExportUtil.VertexBuffer.m_positions</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aaf94459f63782dca134a3e874837acf7" compoundref="_mesh_export_util_8cs" startline="50">UniGLTF.MeshExportUtil.VertexBuffer.m_vertexIndexMap</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ad3dbe9b0de447c8de3057e57b7180bed" compoundref="_mesh_export_util_8cs" startline="75">UniGLTF.MeshExportUtil.VertexBuffer.m_weights</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExportUtil.cs" bodystart="42" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a76a87fcee40bb8f9db057bc6766f8f5c" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>ContainsTriangle</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ac78b9fde9d361dd218ad1c3ed6dc90d2" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_color</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8edf8a0ae0f329ededaa1c9dbc62e836" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_getJointIndex</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aab572d26e244312f91597907fb46816f" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_joints</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a68475b59d4ca66a461c481ab0dd37d0f" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_normals</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1acdef0f9598f22763f77442a08ca9c97f" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_positions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a8f926328f085eb21ef4fb5f2d210c1c4" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_uv</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1aaf94459f63782dca134a3e874837acf7" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_vertexIndexMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1ad3dbe9b0de447c8de3057e57b7180bed" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>m_weights</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a9c5dc445aabf565eb3cde5cb308cb3dd" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>PushBoneWeight</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a7486f1a4b4f296950ede4db122abecbe" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>PushColor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a05b8f6b86fc746ff33531b944b7ed4f0" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>PushVertex</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a46d403016907d502ec3e9c74d2ab4364" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>ToGltfPrimitive</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_export_util_1_1_vertex_buffer_1a16011e1d6a35d42933a239b8aee01172" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExportUtil::VertexBuffer</scope><name>VertexBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

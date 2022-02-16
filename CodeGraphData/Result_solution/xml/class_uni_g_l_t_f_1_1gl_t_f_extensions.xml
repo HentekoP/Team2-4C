@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_extensions" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFExtensions</compoundname>
+    <innerclass refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" prot="private">UniGLTF::glTFExtensions::ComponentVec</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a438486f5f99aba10d4de72caebe236fb" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; Type, <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref> &gt;</type>
+        <definition>Dictionary&lt;Type, ComponentVec&gt; UniGLTF.glTFExtensions.ComponentTypeMap</definition>
+        <argsstring></argsstring>
+        <name>ComponentTypeMap</name>
+        <initializer>= new Dictionary&lt;Type, <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>&gt;
+        {
+            { typeof(<ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref>), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.FLOAT, 2) },
+            { typeof(<ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.FLOAT, 3) },
+            { typeof(<ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref>), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.FLOAT, 4) },
+            { typeof(<ref refid="struct_uni_g_l_t_f_1_1_u_short4" kindref="compound">UShort4</ref>), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.UNSIGNED_SHORT, 4) },
+            { typeof(Matrix4x4), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.FLOAT, 16) },
+            { typeof(Color), new <ref refid="struct_uni_g_l_t_f_1_1gl_t_f_extensions_1_1_component_vec" kindref="compound">ComponentVec</ref>(glComponentType.FLOAT, 4) },
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a0c675223ad977201f7a4a3ce6f72a14a" compoundref="gl_t_f_extensions_8cs" startline="86" endline="97">UniGLTF.glTFExtensions.GetAccessorElementCount&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1aec94acd0cb43d3676ba8276d848937f1" compoundref="gl_t_f_extensions_8cs" startline="66" endline="84">UniGLTF.glTFExtensions.GetAccessorType&lt; T &gt;</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a14d714118aea617b6321c794775f0eff" compoundref="gl_t_f_extensions_8cs" startline="33" endline="64">UniGLTF.glTFExtensions.GetComponentType&lt; T &gt;</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a14d714118aea617b6321c794775f0eff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_uni_g_l_t_f_1a852e3cef018c378c5424498f06ef6077" kindref="member">glComponentType</ref></type>
+        <definition>static glComponentType UniGLTF.glTFExtensions.GetComponentType&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetComponentType&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="33" bodyend="64"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a438486f5f99aba10d4de72caebe236fb" compoundref="gl_t_f_extensions_8cs" startline="23">UniGLTF.glTFExtensions.ComponentTypeMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1aec94acd0cb43d3676ba8276d848937f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.glTFExtensions.GetAccessorType&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccessorType&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="66" bodyend="84"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a438486f5f99aba10d4de72caebe236fb" compoundref="gl_t_f_extensions_8cs" startline="23">UniGLTF.glTFExtensions.ComponentTypeMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a3e8de095e4c576566c4caa137b6693b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.glTFExtensions.IsGeneratedUniGLTFAndOlderThan</definition>
+        <argsstring>(string generatorVersion, int major, int minor)</argsstring>
+        <name>IsGeneratedUniGLTFAndOlderThan</name>
+        <param>
+          <type>string</type>
+          <declname>generatorVersion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="99" bodyend="136"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a7f982a8d5ed2dd0bb5ad48ba73ac8e55" compoundref="gl_t_f_extensions_8cs" startline="138" endline="143">UniGLTF.glTFExtensions.IsGeneratedUniGLTFAndOlder</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a7f982a8d5ed2dd0bb5ad48ba73ac8e55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.glTFExtensions.IsGeneratedUniGLTFAndOlder</definition>
+        <argsstring>(this glTF gltf, int major, int minor)</argsstring>
+        <name>IsGeneratedUniGLTFAndOlder</name>
+        <param>
+          <type>this <ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>gltf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="138" bodyend="143"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ac73533f88f8ee975e8123b19e88ebbcd" compoundref="gl_t_f_8cs" startline="26">UniGLTF.glTF.asset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1ae327c0d37c7189583d31c1bbf8730504" compoundref="gl_t_f_assets_8cs" startline="9">UniGLTF.glTFAssets.generator</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a3e8de095e4c576566c4caa137b6693b1" compoundref="gl_t_f_extensions_8cs" startline="99" endline="136">UniGLTF.glTFExtensions.IsGeneratedUniGLTFAndOlderThan</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a0c675223ad977201f7a4a3ce6f72a14a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.glTFExtensions.GetAccessorElementCount&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccessorElementCount&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="86" bodyend="97"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a438486f5f99aba10d4de72caebe236fb" compoundref="gl_t_f_extensions_8cs" startline="23">UniGLTF.glTFExtensions.ComponentTypeMap</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/glTFExtensions.cs" bodystart="9" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a438486f5f99aba10d4de72caebe236fb" prot="private" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>ComponentTypeMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a0c675223ad977201f7a4a3ce6f72a14a" prot="private" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>GetAccessorElementCount&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1aec94acd0cb43d3676ba8276d848937f1" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>GetAccessorType&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a14d714118aea617b6321c794775f0eff" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>GetComponentType&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a7f982a8d5ed2dd0bb5ad48ba73ac8e55" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>IsGeneratedUniGLTFAndOlder</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extensions_1a3e8de095e4c576566c4caa137b6693b1" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensions</scope><name>IsGeneratedUniGLTFAndOlderThan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

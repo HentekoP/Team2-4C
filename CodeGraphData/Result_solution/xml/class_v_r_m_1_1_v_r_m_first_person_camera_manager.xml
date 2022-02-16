@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_first_person_camera_manager" kind="class" prot="public">
+    <compoundname>VRM::VRMFirstPersonCameraManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image" prot="private">VRM::VRMFirstPersonCameraManager::CameraWithRawImage</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1afd0d895a776a9f733fdcb3d4832307d2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image" kindref="compound">CameraWithRawImage</ref></type>
+        <definition>CameraWithRawImage VRM.VRMFirstPersonCameraManager.m_topLeft</definition>
+        <argsstring></argsstring>
+        <name>m_topLeft</name>
+        <briefdescription>
+<para>FirstPerson </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="65" endline="72">VRM.VRMFirstPersonCameraManager.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a53821441839c8094b1bbdb1df9853736" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image" kindref="compound">CameraWithRawImage</ref></type>
+        <definition>CameraWithRawImage VRM.VRMFirstPersonCameraManager.m_topRight</definition>
+        <argsstring></argsstring>
+        <name>m_topRight</name>
+        <briefdescription>
+<para>ThirdPerson body </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="65" endline="72">VRM.VRMFirstPersonCameraManager.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a4503b3b4c11ed503bee88bc6d78da34c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image" kindref="compound">CameraWithRawImage</ref></type>
+        <definition>CameraWithRawImage VRM.VRMFirstPersonCameraManager.m_bottomRight</definition>
+        <argsstring></argsstring>
+        <name>m_bottomRight</name>
+        <briefdescription>
+<para>ThirdPerson head </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="65" endline="72">VRM.VRMFirstPersonCameraManager.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aeeda7dc1a67a1ed4815af46653d293f8" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera VRM.VRMFirstPersonCameraManager.m_firstPersonCamera</definition>
+        <argsstring></argsstring>
+        <name>m_firstPersonCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1ae5eadf968cff9b8fe036988a7271fdb9" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="58" endline="63">VRM.VRMFirstPersonCameraManager.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a757b1375156aa823fe9d66c09cf7ddf2" prot="private" static="no" mutable="no">
+        <type>Camera[]</type>
+        <definition>Camera [] VRM.VRMFirstPersonCameraManager.m_thirdPersonCameras</definition>
+        <argsstring></argsstring>
+        <name>m_thirdPersonCameras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1ae5eadf968cff9b8fe036988a7271fdb9" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="58" endline="63">VRM.VRMFirstPersonCameraManager.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1ae5eadf968cff9b8fe036988a7271fdb9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonCameraManager.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="58" bodyend="63"/>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aeeda7dc1a67a1ed4815af46653d293f8" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="53">VRM.VRMFirstPersonCameraManager.m_firstPersonCamera</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a757b1375156aa823fe9d66c09cf7ddf2" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="56">VRM.VRMFirstPersonCameraManager.m_thirdPersonCameras</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonCameraManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="65" bodyend="72"/>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a4503b3b4c11ed503bee88bc6d78da34c" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="50">VRM.VRMFirstPersonCameraManager.m_bottomRight</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1afd0d895a776a9f733fdcb3d4832307d2" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="38">VRM.VRMFirstPersonCameraManager.m_topLeft</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a53821441839c8094b1bbdb1df9853736" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="44">VRM.VRMFirstPersonCameraManager.m_topRight</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a8a68e2e6b3249a830fcb7266e62962c6" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="74" endline="89">VRM.VRMFirstPersonCameraManager.SetupRenderTarget</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a8a68e2e6b3249a830fcb7266e62962c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonCameraManager.SetupRenderTarget</definition>
+        <argsstring>(CameraWithRawImage cameraWithImage, int w, int h)</argsstring>
+        <name>SetupRenderTarget</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image" kindref="compound">CameraWithRawImage</ref></type>
+          <declname>cameraWithImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="74" bodyend="89"/>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image_1adb1ac38cad810427c433f3b95bada2c1" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="29">VRM.VRMFirstPersonCameraManager.CameraWithRawImage.Camera</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image_1a6eeab026dde37ef219f42ced02685321" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="31">VRM.VRMFirstPersonCameraManager.CameraWithRawImage.Image</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image_1a79c42979034ceb01b999b85f75564052" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="30">VRM.VRMFirstPersonCameraManager.CameraWithRawImage.Texture</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" compoundref="_v_r_m_first_person_camera_manager_8cs" startline="65" endline="72">VRM.VRMFirstPersonCameraManager.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ファーストパーソン向けLayer検討 </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Default LayerをFirstPersonレイヤーとして使う</para></listitem><listitem><para>9番にThirdPerson Layerを追加する</para></listitem><listitem><para>FirstPersonCameraはCullingMaskでThirdPerson Layerを除外</para></listitem><listitem><para>ThirdPersonCameraはCullingMaskでDefault Layerを除外</para></listitem><listitem><para>それ以外のシーンオブジェクトはDefaultLayerとThirdPersonレイヤーの両方に所属するべし</para></listitem><listitem><para>首無しモデルはDefault Layerのみに所属するべし</para></listitem><listitem><para>首有りモデルはThirdPerson Layerのみに所属するべし</para></listitem><listitem><para>コントローラーはDefault Layerがいいかも</para></listitem><listitem><para>鏡もDefault Layerがいいかも(カメラごとにRenderTargetを用意するのは煩雑) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2742">
+        <label>VRM.VRMFirstPersonCameraManager</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager"/>
+        <childnode refid="2743" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2743">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2744">
+        <label>VRM.VRMFirstPersonCameraManager</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager"/>
+        <childnode refid="2745" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2746" relation="usage">
+          <edgelabel>m_bottomRight</edgelabel>
+          <edgelabel>m_topLeft</edgelabel>
+          <edgelabel>m_topRight</edgelabel>
+        </childnode>
+      </node>
+      <node id="2746">
+        <label>VRM.VRMFirstPersonCameraManager.CameraWithRawImage</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1_1_camera_with_raw_image"/>
+      </node>
+      <node id="2745">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FirstPerson/VRMFirstPersonCameraManager.cs" bodystart="24" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a4503b3b4c11ed503bee88bc6d78da34c" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>m_bottomRight</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aeeda7dc1a67a1ed4815af46653d293f8" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>m_firstPersonCamera</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a757b1375156aa823fe9d66c09cf7ddf2" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>m_thirdPersonCameras</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1afd0d895a776a9f733fdcb3d4832307d2" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>m_topLeft</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a53821441839c8094b1bbdb1df9853736" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>m_topRight</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1ae5eadf968cff9b8fe036988a7271fdb9" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>Reset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1a8a68e2e6b3249a830fcb7266e62962c6" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>SetupRenderTarget</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager_1aaf6c61a014581c8a0fc17bd487069739" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonCameraManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

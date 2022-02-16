@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer" kind="class" prot="private">
+    <compoundname>VRM::BlendShapeBindingMerger::DictionaryKeyBlendShapeBindingComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEqualityComparer&lt; BlendShapeBinding &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer_1a34441c24d80c3ce556d4c805303065ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer.Equals</definition>
+        <argsstring>(BlendShapeBinding x, BlendShapeBinding y)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer_1a4e67d5b35edd5b2c3610d96fdc847688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer.GetHashCode</definition>
+        <argsstring>(BlendShapeBinding obj)</argsstring>
+        <name>GetHashCode</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="20" bodyend="23"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_binding_1a2431228c318b5fb716ab474413932957" compoundref="_blend_shape_clip_8cs" startline="11">VRM.BlendShapeBinding.Index</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="535">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="537">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="12" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer_1a34441c24d80c3ce556d4c805303065ac" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger::DictionaryKeyBlendShapeBindingComparer</scope><name>Equals</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer_1a4e67d5b35edd5b2c3610d96fdc847688" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger::DictionaryKeyBlendShapeBindingComparer</scope><name>GetHashCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

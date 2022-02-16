@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_glb_scripted_importer_8cs" kind="file">
+    <compoundname>GlbScriptedImporter.cs</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_glb_scripted_importer" prot="public">UniGLTF::GlbScriptedImporter</innerclass>
+    <innernamespace refid="namespace_uni_g_l_t_f">UniGLTF</innernamespace>
+    <innernamespace refid="namespace_unity_editor_1_1_experimental_1_1_asset_importers">UnityEditor::Experimental::AssetImporters</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#if<sp/>UNITY_2020_2_OR_NEWER</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor.AssetImporters;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor.Experimental.AssetImporters;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniGLTF</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>[ScriptedImporter(1,<sp/></highlight><highlight class="stringliteral">&quot;glb&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="11" refid="class_uni_g_l_t_f_1_1_glb_scripted_importer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_g_l_t_f_1_1_glb_scripted_importer" kindref="compound">GlbScriptedImporter</ref><sp/>:<sp/><ref refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base" kindref="compound">GltfScriptedImporterBase</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_1acb256eea869f39731af8998fafddc05e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_1acb256eea869f39731af8998fafddc05e" kindref="member">OnImportAsset</ref>(AssetImportContext<sp/>ctx)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a5c93d055b98dc85e15e5d7c7cb716e3d" kindref="member">Import</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>ctx,<sp/><ref refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a71451b965ac90c42291b6503ed35673e" kindref="member">m_reverseAxis</ref>.ToAxes(),<sp/><ref refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a75b42cd14e9b17c818ab1e62d507513e" kindref="member">m_renderPipeline</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GlbScriptedImporter.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_clip_editor_helper" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeClipEditorHelper</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>VRM.BlendShapeClipEditorHelper.bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1affb6c2b226a487c579600fb21d87d2ff" prot="private" static="yes" mutable="no">
+        <type>float[]</type>
+        <definition>float [] VRM.BlendShapeClipEditorHelper.v2</definition>
+        <argsstring></argsstring>
+        <name>v2</name>
+        <initializer>= new float[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="212" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="212" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="217" endline="256">VRM.BlendShapeClipEditorHelper.TilingOffset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a56582332cf8d0a8a625422a34fffa8cb" prot="private" static="yes" mutable="no">
+        <type>GUIContent[]</type>
+        <definition>GUIContent [] VRM.BlendShapeClipEditorHelper.l2</definition>
+        <argsstring></argsstring>
+        <name>l2</name>
+        <initializer>= new GUIContent[]{
+            new GUIContent(&quot;x&quot;),
+            new GUIContent(&quot;y&quot;)
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="213" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="213" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="217" endline="256">VRM.BlendShapeClipEditorHelper.TilingOffset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.DrawBlendShapeBinding</definition>
+        <argsstring>(Rect position, SerializedProperty property, PreviewSceneManager scene)</argsstring>
+        <name>DrawBlendShapeBinding</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>BlendShape List のElement描画 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="13" bodyend="53"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad1fd50a952d4007394c215dd0ab2145c" compoundref="_blend_shape_clip_editor_helper_8cs" startline="175" endline="188">VRM.BlendShapeClipEditorHelper.FloatSlider</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ae6957d65b6cf6b76d0d4a185682d13f8" compoundref="_blend_shape_clip_editor_helper_8cs" startline="154" endline="173">VRM.BlendShapeClipEditorHelper.IntPopup</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a185f333e548811aaa9e358de234f4c3c" compoundref="_blend_shape_clip_editor_helper_8cs" startline="133" endline="152">VRM.BlendShapeClipEditorHelper.StringPopup</references>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.DrawMaterialValueBinding</definition>
+        <argsstring>(Rect position, SerializedProperty property, PreviewSceneManager scene)</argsstring>
+        <name>DrawMaterialValueBinding</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Material List のElement描画 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="58" bodyend="130"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1af449cdd4fb055262cba98d88051337ef" compoundref="_blend_shape_clip_editor_helper_8cs" startline="190" endline="203">VRM.BlendShapeClipEditorHelper.ColorProp</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad76315f70530c08b688dfdc8e61a794b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="258" endline="272">VRM.BlendShapeClipEditorHelper.OffsetProp</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a185f333e548811aaa9e358de234f4c3c" compoundref="_blend_shape_clip_editor_helper_8cs" startline="133" endline="152">VRM.BlendShapeClipEditorHelper.StringPopup</references>
+        <referencedby refid="class_v_r_m_1_1_serialized_blend_shape_editor_1ac8af60c8cd952ec24f3c899b53a92233" compoundref="_serialized_blend_shape_clip_editor_8cs" startline="63" endline="108">VRM.SerializedBlendShapeEditor.SerializedBlendShapeEditor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a185f333e548811aaa9e358de234f4c3c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int VRM.BlendShapeClipEditorHelper.StringPopup</definition>
+        <argsstring>(Rect rect, SerializedProperty prop, string[] options, out int newIndex)</argsstring>
+        <name>StringPopup</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>newIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="133" bodyend="152"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" compoundref="_blend_shape_clip_editor_helper_8cs" startline="13" endline="53">VRM.BlendShapeClipEditorHelper.DrawBlendShapeBinding</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" compoundref="_blend_shape_clip_editor_helper_8cs" startline="58" endline="130">VRM.BlendShapeClipEditorHelper.DrawMaterialValueBinding</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ae6957d65b6cf6b76d0d4a185682d13f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.IntPopup</definition>
+        <argsstring>(Rect rect, SerializedProperty prop, string[] options, out int newIndex)</argsstring>
+        <name>IntPopup</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>newIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="154" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="154" bodyend="173"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" compoundref="_blend_shape_clip_editor_helper_8cs" startline="13" endline="53">VRM.BlendShapeClipEditorHelper.DrawBlendShapeBinding</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad1fd50a952d4007394c215dd0ab2145c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.FloatSlider</definition>
+        <argsstring>(Rect rect, SerializedProperty prop, float maxValue)</argsstring>
+        <name>FloatSlider</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="175" bodyend="188"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" compoundref="_blend_shape_clip_editor_helper_8cs" startline="13" endline="53">VRM.BlendShapeClipEditorHelper.DrawBlendShapeBinding</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1af449cdd4fb055262cba98d88051337ef" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.ColorProp</definition>
+        <argsstring>(Rect rect, SerializedProperty prop)</argsstring>
+        <name>ColorProp</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="190" bodyend="203"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" compoundref="_blend_shape_clip_editor_helper_8cs" startline="58" endline="130">VRM.BlendShapeClipEditorHelper.DrawMaterialValueBinding</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a76375d95004bdf1a1604b2522eedae80" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Rect</type>
+        <definition>static Rect VRM.BlendShapeClipEditorHelper.AdvanceRect</definition>
+        <argsstring>(ref float x, float y, float w, float h)</argsstring>
+        <name>AdvanceRect</name>
+        <param>
+          <type>ref float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="205" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="205" bodyend="210"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="217" endline="256">VRM.BlendShapeClipEditorHelper.TilingOffset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref></type>
+        <definition>static Vector4 VRM.BlendShapeClipEditorHelper.TilingOffset</definition>
+        <argsstring>(Rect rect, string label, Vector4 src)</argsstring>
+        <name>TilingOffset</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="217" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="217" bodyend="256"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a76375d95004bdf1a1604b2522eedae80" compoundref="_blend_shape_clip_editor_helper_8cs" startline="205" endline="210">VRM.BlendShapeClipEditorHelper.AdvanceRect</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a56582332cf8d0a8a625422a34fffa8cb" compoundref="_blend_shape_clip_editor_helper_8cs" startline="213">VRM.BlendShapeClipEditorHelper.l2</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1affb6c2b226a487c579600fb21d87d2ff" compoundref="_blend_shape_clip_editor_helper_8cs" startline="212">VRM.BlendShapeClipEditorHelper.v2</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad76315f70530c08b688dfdc8e61a794b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="258" endline="272">VRM.BlendShapeClipEditorHelper.OffsetProp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad76315f70530c08b688dfdc8e61a794b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" kindref="member">bool</ref></type>
+        <definition>static bool VRM.BlendShapeClipEditorHelper.OffsetProp</definition>
+        <argsstring>(Rect rect, SerializedProperty prop)</argsstring>
+        <name>OffsetProp</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="258" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="258" bodyend="272"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" compoundref="_blend_shape_clip_editor_helper_8cs" startline="217" endline="256">VRM.BlendShapeClipEditorHelper.TilingOffset</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" compoundref="_blend_shape_clip_editor_helper_8cs" startline="58" endline="130">VRM.BlendShapeClipEditorHelper.DrawMaterialValueBinding</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipEditorHelper.cs" bodystart="8" bodyend="274"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a76375d95004bdf1a1604b2522eedae80" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>AdvanceRect</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a63555f4ef7d4a5575afe4e4693b280d2" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>bool</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1af449cdd4fb055262cba98d88051337ef" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>ColorProp</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a5a8817779fc510777b317f1356ac7763" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>DrawBlendShapeBinding</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a7d309d010d76b5a8caa69876f84bef61" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>DrawMaterialValueBinding</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad1fd50a952d4007394c215dd0ab2145c" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>FloatSlider</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ae6957d65b6cf6b76d0d4a185682d13f8" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>IntPopup</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a56582332cf8d0a8a625422a34fffa8cb" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>l2</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1ad76315f70530c08b688dfdc8e61a794b" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>OffsetProp</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a185f333e548811aaa9e358de234f4c3c" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>StringPopup</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1a16e4c1d1062910f51b2b51721b53ec3b" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>TilingOffset</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_editor_helper_1affb6c2b226a487c579600fb21d87d2ff" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipEditorHelper</scope><name>v2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

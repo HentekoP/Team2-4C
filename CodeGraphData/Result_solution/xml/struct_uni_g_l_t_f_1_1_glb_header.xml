@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_glb_header" kind="struct" prot="public">
+    <compoundname>UniGLTF::GlbHeader</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_glb_header_1a2df4254b7bdd3b06b57ce90301671430" prot="public" static="yes" mutable="no">
+        <type>readonly byte[]</type>
+        <definition>readonly byte [] UniGLTF.GlbHeader.GLB_MAGIC</definition>
+        <argsstring></argsstring>
+        <name>GLB_MAGIC</name>
+        <initializer>= new byte[] { 0x67, 0x6C, 0x54, 0x46 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_glb_header_1a8d956c6a8fe778ba909ee0ff1d142835" compoundref="glb_types_8cs" startline="21" endline="25">UniGLTF.GlbHeader.WriteTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_glb_header_1a4b10f6dd4f82e5adc2c2faf8ec7da182" prot="public" static="yes" mutable="no">
+        <type>readonly byte[]</type>
+        <definition>readonly byte [] UniGLTF.GlbHeader.GLB_VERSION</definition>
+        <argsstring></argsstring>
+        <name>GLB_VERSION</name>
+        <initializer>= new byte[] { 2, 0, 0, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_glb_header_1a8d956c6a8fe778ba909ee0ff1d142835" compoundref="glb_types_8cs" startline="21" endline="25">UniGLTF.GlbHeader.WriteTo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_header_1a8d956c6a8fe778ba909ee0ff1d142835" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbHeader.WriteTo</definition>
+        <argsstring>(Stream s)</argsstring>
+        <name>WriteTo</name>
+        <param>
+          <type>Stream</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="21" bodyend="25"/>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_header_1a2df4254b7bdd3b06b57ce90301671430" compoundref="glb_types_8cs" startline="18">UniGLTF.GlbHeader.GLB_MAGIC</references>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_header_1a4b10f6dd4f82e5adc2c2faf8ec7da182" compoundref="glb_types_8cs" startline="19">UniGLTF.GlbHeader.GLB_VERSION</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="15" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_header_1a2df4254b7bdd3b06b57ce90301671430" prot="public" virt="non-virtual"><scope>UniGLTF::GlbHeader</scope><name>GLB_MAGIC</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_header_1a4b10f6dd4f82e5adc2c2faf8ec7da182" prot="public" virt="non-virtual"><scope>UniGLTF::GlbHeader</scope><name>GLB_VERSION</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_header_1a8d956c6a8fe778ba909ee0ff1d142835" prot="public" virt="non-virtual"><scope>UniGLTF::GlbHeader</scope><name>WriteTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_score_manager" kind="class" prot="public">
+    <compoundname>ScoreManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_score_manager_1a558c6d68f92f6248f7f9a8a921bdd210" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ScoreManager.score_object</definition>
+        <argsstring></argsstring>
+        <name>score_object</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_score_manager_1a2721238761249581a064c5b21d4a1f46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ScoreManager.score_num</definition>
+        <argsstring></argsstring>
+        <name>score_num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_score_manager_1a0d37ca647468e53d1735d8d185b7ee34" compoundref="_score_manager_8cs" startline="11" endline="31">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_score_manager_1a0d37ca647468e53d1735d8d185b7ee34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScoreManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" bodystart="11" bodyend="31"/>
+        <references refid="class_score_manager_1a2721238761249581a064c5b21d4a1f46" compoundref="_score_manager_8cs" startline="8">score_num</references>
+      </memberdef>
+      <memberdef kind="function" id="class_score_manager_1a2d8e7dd8928c4fa7feb1a020971b69ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScoreManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2180">
+        <label>ScoreManager</label>
+        <link refid="class_score_manager"/>
+        <childnode refid="2181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2182">
+        <label>ScoreManager</label>
+        <link refid="class_score_manager"/>
+        <childnode refid="2183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2183">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/ScoreManager.cs" bodystart="4" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_score_manager_1a2721238761249581a064c5b21d4a1f46" prot="public" virt="non-virtual"><scope>ScoreManager</scope><name>score_num</name></member>
+      <member refid="class_score_manager_1a558c6d68f92f6248f7f9a8a921bdd210" prot="public" virt="non-virtual"><scope>ScoreManager</scope><name>score_object</name></member>
+      <member refid="class_score_manager_1a2d8e7dd8928c4fa7feb1a020971b69ac" prot="private" virt="non-virtual"><scope>ScoreManager</scope><name>Start</name></member>
+      <member refid="class_score_manager_1a0d37ca647468e53d1735d8d185b7ee34" prot="private" virt="non-virtual"><scope>ScoreManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

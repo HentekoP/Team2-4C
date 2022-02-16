@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_object_serialization" kind="class" prot="public">
+    <compoundname>UniGLTF::ObjectSerialization</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_collection_serialization_base" prot="public" virt="non-virtual">UniGLTF.CollectionSerializationBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_object_serialization_1a442b95d4d8e3ffb0a3528c6899e46808" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.ObjectSerialization.m_path</definition>
+        <argsstring></argsstring>
+        <name>m_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_object_serialization_1a562072d6e09b5d70a858e0f59cd71245" compoundref="_object_serialization_8cs" startline="13" endline="31">UniGLTF.ObjectSerialization.ObjectSerialization</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_field_serialization_info" kindref="compound">FieldSerializationInfo</ref>[]</type>
+        <definition>FieldSerializationInfo [] UniGLTF.ObjectSerialization.m_fsi</definition>
+        <argsstring></argsstring>
+        <name>m_fsi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_object_serialization_1aaf5b7e07fcdac54295528f581dcce9a8" compoundref="_object_serialization_8cs" startline="43" endline="84">UniGLTF.ObjectSerialization.GenerateDeserializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_object_serialization_1a775ca8c63c4b3b76f7074d51d4a005d6" compoundref="_object_serialization_8cs" startline="101" endline="139">UniGLTF.ObjectSerialization.GenerateSerializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_object_serialization_1a562072d6e09b5d70a858e0f59cd71245" compoundref="_object_serialization_8cs" startline="13" endline="31">UniGLTF.ObjectSerialization.ObjectSerialization</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_object_serialization_1a6ff01d291b564d777c7b70e2e3e3166c" compoundref="_object_serialization_8cs" startline="33" endline="41">UniGLTF.ObjectSerialization.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_object_serialization_1a562072d6e09b5d70a858e0f59cd71245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.ObjectSerialization.ObjectSerialization</definition>
+        <argsstring>(Type t, string path, string prefix)</argsstring>
+        <name>ObjectSerialization</name>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="13" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_deserializer_generator_1a183c9638db60c210cf0d0b471039bcfe" compoundref="_deserializer_generator_8cs" startline="14">UniGLTF.DeserializerGenerator.FIELD_FLAGS</references>
+        <references refid="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" compoundref="_object_serialization_8cs" startline="11">UniGLTF.ObjectSerialization.m_fsi</references>
+        <references refid="class_uni_g_l_t_f_1_1_object_serialization_1a442b95d4d8e3ffb0a3528c6899e46808" compoundref="_object_serialization_8cs" startline="10">UniGLTF.ObjectSerialization.m_path</references>
+        <references refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ad55efc648bcf42bb9da5f3758f4ccc59" compoundref="_collection_serialization_base_8cs" startline="9">UniGLTF.CollectionSerializationBase.ValueType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_object_serialization_1a6ff01d291b564d777c7b70e2e3e3166c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.ObjectSerialization.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="33" bodyend="41"/>
+        <references refid="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" compoundref="_object_serialization_8cs" startline="11">UniGLTF.ObjectSerialization.m_fsi</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_object_serialization_1aaf5b7e07fcdac54295528f581dcce9a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.ObjectSerialization.GenerateDeserializer</definition>
+        <argsstring>(StreamWriter writer, string parentName)</argsstring>
+        <name>GenerateDeserializer</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ac4325ad349d72780b39a773e02b99b67">GenerateDeserializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parentName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="43" bodyend="84"/>
+        <references refid="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" compoundref="_object_serialization_8cs" startline="11">UniGLTF.ObjectSerialization.m_fsi</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_object_serialization_1a4b3b8e8381ece61cae30b096abd74151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.ObjectSerialization.CreateSerializationCondition</definition>
+        <argsstring>(string argName, JsonSchemaAttribute t)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1a5631d85fc2b50eda3898030389c5a080">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_attribute" kindref="compound">JsonSchemaAttribute</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_object_serialization_1a775ca8c63c4b3b76f7074d51d4a005d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.ObjectSerialization.GenerateSerializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateSerializer</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1abbaeaed237579472ffa8420b0a73b260">GenerateSerializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+<para>シリアライザーのコード生成 </para>        </briefdescription>
+        <detaileddescription>
+<para>ObjectのFieldのみ値によって、出力するか否かの判定が必用。</para><para>例: 空文字列は出力しない</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>writer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="101" bodyend="139"/>
+        <references refid="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" compoundref="_object_serialization_8cs" startline="11">UniGLTF.ObjectSerialization.m_fsi</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1924">
+        <label>UniGLTF.ObjectSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_object_serialization"/>
+        <childnode refid="1925" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1926">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="1925">
+        <label>CollectionSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_collection_serialization_base"/>
+        <childnode refid="1926" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1934">
+        <label>UniJSON</label>
+      </node>
+      <node id="1933">
+        <label>Attribute</label>
+      </node>
+      <node id="1927">
+        <label>UniGLTF.ObjectSerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_object_serialization"/>
+        <childnode refid="1928" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1930" relation="usage">
+          <edgelabel>m_fsi</edgelabel>
+        </childnode>
+      </node>
+      <node id="1931">
+        <label>UniGLTF.JsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_attribute"/>
+        <childnode refid="1932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1929">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="1928">
+        <label>CollectionSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_collection_serialization_base"/>
+        <childnode refid="1929" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1930">
+        <label>UniGLTF.FieldSerializationInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1_field_serialization_info"/>
+        <childnode refid="1931" relation="usage">
+          <edgelabel>Attribute</edgelabel>
+        </childnode>
+      </node>
+      <node id="1932">
+        <label>BaseJsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute"/>
+        <childnode refid="1933" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1934" relation="usage">
+          <edgelabel>ValueType</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/ObjectSerialization.cs" bodystart="8" bodyend="140"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a4b3b8e8381ece61cae30b096abd74151" prot="public" virt="virtual"><scope>UniGLTF::ObjectSerialization</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1aaf5b7e07fcdac54295528f581dcce9a8" prot="public" virt="virtual"><scope>UniGLTF::ObjectSerialization</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1aefdbd6d7738b73bd091b744a5859af4c" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a775ca8c63c4b3b76f7074d51d4a005d6" prot="public" virt="virtual"><scope>UniGLTF::ObjectSerialization</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1a642eed112e6f52b189f13030f5b09a65" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ab4d64acd1d872252462a19db5301b025" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a70ac3df8b99972bead7ab8082df2901d" prot="private" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>m_fsi</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a442b95d4d8e3ffb0a3528c6899e46808" prot="private" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>m_path</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a562072d6e09b5d70a858e0f59cd71245" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>ObjectSerialization</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_object_serialization_1a6ff01d291b564d777c7b70e2e3e3166c" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ad55efc648bcf42bb9da5f3758f4ccc59" prot="public" virt="non-virtual"><scope>UniGLTF::ObjectSerialization</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

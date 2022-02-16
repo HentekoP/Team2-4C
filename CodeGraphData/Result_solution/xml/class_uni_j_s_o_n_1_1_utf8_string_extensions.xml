@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_utf8_string_extensions" kind="class" prot="public">
+    <compoundname>UniJSON::Utf8StringExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ab5a0ed3f52093c045fa45a023090d949" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.Utf8StringExtensions.WriteTo</definition>
+        <argsstring>(this Utf8String src, Stream dst)</argsstring>
+        <name>WriteTo</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Stream</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a1b3b72269cef9af26eeb7b0a44f4e2d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_iterator" kindref="compound">Utf8Iterator</ref></type>
+        <definition>static Utf8Iterator UniJSON.Utf8StringExtensions.GetFirst</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>GetFirst</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1abf76a3619a46e883b2deca3f646de683" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniJSON.Utf8StringExtensions.TrySearchByte</definition>
+        <argsstring>(this Utf8String src, Func&lt; byte, bool &gt; pred, out int pos)</argsstring>
+        <name>TrySearchByte</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Func&lt; byte, bool &gt;</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="22" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a46439fedbd7032e377e5f6c0149b68a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniJSON.Utf8StringExtensions.TrySearchAscii</definition>
+        <argsstring>(this Utf8String src, Byte target, int start, out int pos)</argsstring>
+        <name>TrySearchAscii</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Byte</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="35" bodyend="85"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ac3d854228cf2a40002ff0d754cf244a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref> &gt;</type>
+        <definition>static IEnumerable&lt;Utf8String&gt; UniJSON.Utf8StringExtensions.Split</definition>
+        <argsstring>(this Utf8String src, byte delimiter)</argsstring>
+        <name>Split</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>delimiter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="87" bodyend="111"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1afd5f0a0c2635d3bdb4326c35b17ec1ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SByte</type>
+        <definition>static SByte UniJSON.Utf8StringExtensions.ToSByte</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToSByte</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="114" bodyend="137"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aeb6839fe2f87d0450f211b02b7055dab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int16</type>
+        <definition>static Int16 UniJSON.Utf8StringExtensions.ToInt16</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToInt16</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="138" bodyend="161"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aa761b69cb66ad7d0a63a315489fbe277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int32</type>
+        <definition>static Int32 UniJSON.Utf8StringExtensions.ToInt32</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToInt32</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="162" bodyend="198"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1abe7f3db68d985f9b4939e900f7cd0c1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Int64</type>
+        <definition>static Int64 UniJSON.Utf8StringExtensions.ToInt64</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToInt64</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="199" bodyend="222"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a2fe4d9dba2e67786cee72db818bbe8ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Byte</type>
+        <definition>static Byte UniJSON.Utf8StringExtensions.ToByte</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToByte</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="223" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="223" bodyend="246"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a20f5cca5bee360b515f9393c517e6b6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UInt16</type>
+        <definition>static UInt16 UniJSON.Utf8StringExtensions.ToUInt16</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToUInt16</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="247" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="247" bodyend="270"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aba848ecf2ec63ccaa27c74a13b3fb1c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UInt32</type>
+        <definition>static UInt32 UniJSON.Utf8StringExtensions.ToUInt32</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToUInt32</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="271" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="271" bodyend="294"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1af8bee890ce2e3146acb6df8e188c7aa1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UInt64</type>
+        <definition>static UInt64 UniJSON.Utf8StringExtensions.ToUInt64</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToUInt64</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="295" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="295" bodyend="318"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ad7efbd65f12afbb0d8e258166a94e59a" compoundref="_utf8_string_8cs" startline="11">UniJSON.Utf8String.Bytes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ae8408b2cc645a8d9296809967c2f52ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float UniJSON.Utf8StringExtensions.ToSingle</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToSingle</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="321" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="321" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ae634587a1660543a1bedbfcb8bd70c87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UniJSON.Utf8StringExtensions.ToDouble</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>ToDouble</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="325" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="325" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a26373cf155c8acadc54c6617c6072b3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>static Utf8String UniJSON.Utf8StringExtensions.GetLine</definition>
+        <argsstring>(this Utf8String src)</argsstring>
+        <name>GetLine</name>
+        <param>
+          <type>this <ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="330" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="330" bodyend="339"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringExtensions.cs" bodystart="8" bodyend="340"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a1b3b72269cef9af26eeb7b0a44f4e2d5" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>GetFirst</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a26373cf155c8acadc54c6617c6072b3c" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>GetLine</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ac3d854228cf2a40002ff0d754cf244a7" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>Split</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a2fe4d9dba2e67786cee72db818bbe8ce" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToByte</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ae634587a1660543a1bedbfcb8bd70c87" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToDouble</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aeb6839fe2f87d0450f211b02b7055dab" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToInt16</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aa761b69cb66ad7d0a63a315489fbe277" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToInt32</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1abe7f3db68d985f9b4939e900f7cd0c1a" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToInt64</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1afd5f0a0c2635d3bdb4326c35b17ec1ff" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToSByte</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ae8408b2cc645a8d9296809967c2f52ac" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToSingle</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a20f5cca5bee360b515f9393c517e6b6e" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToUInt16</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1aba848ecf2ec63ccaa27c74a13b3fb1c2" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToUInt32</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1af8bee890ce2e3146acb6df8e188c7aa1" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>ToUInt64</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1a46439fedbd7032e377e5f6c0149b68a9" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>TrySearchAscii</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1abf76a3619a46e883b2deca3f646de683" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>TrySearchByte</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_extensions_1ab5a0ed3f52093c045fa45a023090d949" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringExtensions</scope><name>WriteTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

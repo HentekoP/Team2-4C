@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_generate_uni_g_l_t_f_serialization_1_1_generator" kind="class" prot="public">
+    <compoundname>GenerateUniGLTFSerialization::Generator</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1ad97c9b806888e7548541148f27f07f1f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.Generator.DeleteAllInDirectory</definition>
+        <argsstring>(DirectoryInfo dir)</argsstring>
+        <name>DeleteAllInDirectory</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="11" bodyend="24"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a4a3284947452a1199047e56055036a84" compoundref="_generator_8cs" startline="26" endline="41">GenerateUniGLTFSerialization.Generator.CleanDirectory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a4a3284947452a1199047e56055036a84" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.Generator.CleanDirectory</definition>
+        <argsstring>(DirectoryInfo dir)</argsstring>
+        <name>CleanDirectory</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="26" bodyend="41"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1ad97c9b806888e7548541148f27f07f1f" compoundref="_generator_8cs" startline="11" endline="24">GenerateUniGLTFSerialization.Generator.DeleteAllInDirectory</references>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" compoundref="_generator_8cs" startline="85" endline="123">GenerateUniGLTFSerialization.Generator.GenerateTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1aba6b703a87bbea7d666da28eb2676dc5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GenerateUniGLTFSerialization.Generator.CleanupTitle</definition>
+        <argsstring>(string title)</argsstring>
+        <name>CleanupTitle</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="43" bodyend="57"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" compoundref="_generator_8cs" startline="85" endline="123">GenerateUniGLTFSerialization.Generator.GenerateTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a337654e48dc8fb0c5aeef9ddf2baaba4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GenerateUniGLTFSerialization.Generator.GetStem</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>GetStem</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="59" bodyend="62"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" compoundref="_generator_8cs" startline="85" endline="123">GenerateUniGLTFSerialization.Generator.GenerateTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1abc8fe1a61f2ee2fe430a48c3ec14ab15" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.Generator.WriteAllTextForce</definition>
+        <argsstring>(string path, string contents)</argsstring>
+        <name>WriteAllTextForce</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="64" bodyend="83"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" compoundref="_generator_8cs" startline="85" endline="123">GenerateUniGLTFSerialization.Generator.GenerateTo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.Generator.GenerateTo</definition>
+        <argsstring>(JsonSchemaSource root, DirectoryInfo formatDir, DirectoryInfo serializerDir)</argsstring>
+        <name>GenerateTo</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>formatDir</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>serializerDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="85" bodyend="123"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a4a3284947452a1199047e56055036a84" compoundref="_generator_8cs" startline="26" endline="41">GenerateUniGLTFSerialization.Generator.CleanDirectory</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1aba6b703a87bbea7d666da28eb2676dc5" compoundref="_generator_8cs" startline="43" endline="57">GenerateUniGLTFSerialization.Generator.CleanupTitle</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a337654e48dc8fb0c5aeef9ddf2baaba4" compoundref="_generator_8cs" startline="59" endline="62">GenerateUniGLTFSerialization.Generator.GetStem</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1abc8fe1a61f2ee2fe430a48c3ec14ab15" compoundref="_generator_8cs" startline="64" endline="83">GenerateUniGLTFSerialization.Generator.WriteAllTextForce</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/Generator.cs" bodystart="9" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a4a3284947452a1199047e56055036a84" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>CleanDirectory</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1aba6b703a87bbea7d666da28eb2676dc5" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>CleanupTitle</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1ad97c9b806888e7548541148f27f07f1f" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>DeleteAllInDirectory</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a64dddb930b000090919e7a037a43e952" prot="public" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>GenerateTo</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1a337654e48dc8fb0c5aeef9ddf2baaba4" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>GetStem</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_generator_1abc8fe1a61f2ee2fe430a48c3ec14ab15" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::Generator</scope><name>WriteAllTextForce</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_next_frame_task_scheduler" kind="class" prot="package">
+    <compoundname>VRMShaders::NextFrameTaskScheduler</compoundname>
+    <innerclass refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1_1_unity_loop_task_scheduler" prot="private">VRMShaders::NextFrameTaskScheduler::UnityLoopTaskScheduler</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1a24eec77ccce19384f51915b70a03e2cb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRMShaders.NextFrameTaskScheduler.IsSupported</definition>
+        <argsstring></argsstring>
+        <name>IsSupported</name>
+        <initializer>=&gt; Application.isPlaying</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1aa5842da0f5cd800b2e6d255e910d6d55" compoundref="_next_frame_task_scheduler_8cs" startline="11" endline="17">VRMShaders.NextFrameTaskScheduler.NextFrameTaskScheduler</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1aa5842da0f5cd800b2e6d255e910d6d55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.NextFrameTaskScheduler.NextFrameTaskScheduler</definition>
+        <argsstring>()</argsstring>
+        <name>NextFrameTaskScheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" bodystart="11" bodyend="17"/>
+        <references refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1a24eec77ccce19384f51915b70a03e2cb" compoundref="_next_frame_task_scheduler_8cs" startline="9">VRMShaders.NextFrameTaskScheduler.IsSupported</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1ac1552890fd17e2e9e38a97ac3c788cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.NextFrameTaskScheduler.Enqueue</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>Enqueue</name>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" bodystart="19" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/NextFrameTaskScheduler.cs" bodystart="7" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1ac1552890fd17e2e9e38a97ac3c788cfb" prot="public" virt="non-virtual"><scope>VRMShaders::NextFrameTaskScheduler</scope><name>Enqueue</name></member>
+      <member refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1a24eec77ccce19384f51915b70a03e2cb" prot="public" virt="non-virtual"><scope>VRMShaders::NextFrameTaskScheduler</scope><name>IsSupported</name></member>
+      <member refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler_1aa5842da0f5cd800b2e6d255e910d6d55" prot="public" virt="non-virtual"><scope>VRMShaders::NextFrameTaskScheduler</scope><name>NextFrameTaskScheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

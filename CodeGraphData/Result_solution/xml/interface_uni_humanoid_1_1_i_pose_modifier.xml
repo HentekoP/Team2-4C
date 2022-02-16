@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_humanoid_1_1_i_pose_modifier" kind="interface" prot="public">
+    <compoundname>UniHumanoid::IPoseModifier</compoundname>
+    <derivedcompoundref refid="class_uni_humanoid_1_1_hand_pose_modifier" prot="public" virt="non-virtual">UniHumanoid.HandPoseModifier</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_humanoid_1_1_i_pose_modifier_1a29b0bd26ccd567025c1f6aabd5ed80ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.IPoseModifier.Modify</definition>
+        <argsstring>(ref HumanPose pose)</argsstring>
+        <name>Modify</name>
+        <reimplementedby refid="class_uni_humanoid_1_1_hand_pose_modifier_1aee47465a0421b7ec659c0ff5d16bb7d2">Modify</reimplementedby>
+        <param>
+          <type>ref HumanPose</type>
+          <declname>pose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/IPoseModifier.cs" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1361">
+        <label>UniHumanoid.HandPoseModifier</label>
+        <link refid="class_uni_humanoid_1_1_hand_pose_modifier"/>
+        <childnode refid="1360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1360">
+        <label>UniHumanoid.IPoseModifier</label>
+        <link refid="interface_uni_humanoid_1_1_i_pose_modifier"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/IPoseModifier.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/IPoseModifier.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_uni_humanoid_1_1_i_pose_modifier_1a29b0bd26ccd567025c1f6aabd5ed80ba" prot="public" virt="non-virtual"><scope>UniHumanoid::IPoseModifier</scope><name>Modify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

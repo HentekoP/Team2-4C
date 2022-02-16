@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_look_target" kind="class" prot="public">
+    <compoundname>VRM::LookTarget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_target_1a6dd6d3131c2fb104fc0b670ef9127630" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.LookTarget.Target</definition>
+        <argsstring></argsstring>
+        <name>Target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" compoundref="_look_target_8cs" startline="20" endline="34">VRM.LookTarget.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_target_1aa0a2605e5b0b4f2ccd1695f0b9b70b7c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.LookTarget.m_offsetTransform</definition>
+        <argsstring></argsstring>
+        <name>m_offsetTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" compoundref="_look_target_8cs" startline="20" endline="34">VRM.LookTarget.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_target_1abdfc033caf7c8dfaeb731b1cfb221002" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 VRM.LookTarget.m_offset</definition>
+        <argsstring></argsstring>
+        <name>m_offset</name>
+        <initializer>= new <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>(0, 0.05f, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" compoundref="_look_target_8cs" startline="20" endline="34">VRM.LookTarget.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_target_1ae614b2d918b734c824decdf8a0611fff" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.LookTarget.m_distance</definition>
+        <argsstring></argsstring>
+        <name>m_distance</name>
+        <initializer>= 0.7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" compoundref="_look_target_8cs" startline="20" endline="34">VRM.LookTarget.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.LookTarget.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="20" bodyend="34"/>
+        <references refid="class_v_r_m_1_1_look_target_1ae614b2d918b734c824decdf8a0611fff" compoundref="_look_target_8cs" startline="16">VRM.LookTarget.m_distance</references>
+        <references refid="class_v_r_m_1_1_look_target_1abdfc033caf7c8dfaeb731b1cfb221002" compoundref="_look_target_8cs" startline="13">VRM.LookTarget.m_offset</references>
+        <references refid="class_v_r_m_1_1_look_target_1aa0a2605e5b0b4f2ccd1695f0b9b70b7c" compoundref="_look_target_8cs" startline="18">VRM.LookTarget.m_offsetTransform</references>
+        <references refid="class_v_r_m_1_1_look_target_1a6dd6d3131c2fb104fc0b670ef9127630" compoundref="_look_target_8cs" startline="10">VRM.LookTarget.Target</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1608">
+        <label>VRM.LookTarget</label>
+        <link refid="class_v_r_m_1_1_look_target"/>
+        <childnode refid="1609" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1612">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1613" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1612" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1613">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1610">
+        <label>VRM.LookTarget</label>
+        <link refid="class_v_r_m_1_1_look_target"/>
+        <childnode refid="1611" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1612" relation="usage">
+          <edgelabel>m_offset</edgelabel>
+        </childnode>
+        <childnode refid="1614" relation="usage">
+          <edgelabel>m_offsetTransform</edgelabel>
+        </childnode>
+      </node>
+      <node id="1611">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1614">
+        <label>VRM.OffsetOnTransform</label>
+        <link refid="struct_v_r_m_1_1_offset_on_transform"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookTarget.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_look_target_1ae614b2d918b734c824decdf8a0611fff" prot="private" virt="non-virtual"><scope>VRM::LookTarget</scope><name>m_distance</name></member>
+      <member refid="class_v_r_m_1_1_look_target_1abdfc033caf7c8dfaeb731b1cfb221002" prot="private" virt="non-virtual"><scope>VRM::LookTarget</scope><name>m_offset</name></member>
+      <member refid="class_v_r_m_1_1_look_target_1aa0a2605e5b0b4f2ccd1695f0b9b70b7c" prot="public" virt="non-virtual"><scope>VRM::LookTarget</scope><name>m_offsetTransform</name></member>
+      <member refid="class_v_r_m_1_1_look_target_1a6dd6d3131c2fb104fc0b670ef9127630" prot="public" virt="non-virtual"><scope>VRM::LookTarget</scope><name>Target</name></member>
+      <member refid="class_v_r_m_1_1_look_target_1ad98bec6866dd37dcf9bedb86170e9d98" prot="private" virt="non-virtual"><scope>VRM::LookTarget</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

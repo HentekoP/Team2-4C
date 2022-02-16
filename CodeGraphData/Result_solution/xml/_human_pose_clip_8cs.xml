@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_human_pose_clip_8cs" kind="file">
+    <compoundname>HumanPoseClip.cs</compoundname>
+    <innerclass refid="class_uni_humanoid_1_1_human_pose_clip" prot="public">UniHumanoid::HumanPoseClip</innerclass>
+    <innernamespace refid="namespace_uni_humanoid">UniHumanoid</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniHumanoid</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_uni_humanoid_1_1_human_pose_clip" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_humanoid_1_1_human_pose_clip" kindref="compound">HumanPoseClip</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_uni_humanoid_1_1_human_pose_clip_1a1b9f12dd5d2ed60efc6d6bb0ddbacd79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1a1b9f12dd5d2ed60efc6d6bb0ddbacd79" kindref="member">TPoseResourcePath</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;T-Pose.pose&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_uni_humanoid_1_1_human_pose_clip_1ac690b5bda8be36c498e8f9ca47c340b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ac690b5bda8be36c498e8f9ca47c340b4" kindref="member">bodyPosition</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_uni_humanoid_1_1_human_pose_clip_1ab1f384ac642faa91c17ed219d388dc1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Quaternion<sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ab1f384ac642faa91c17ed219d388dc1d" kindref="member">bodyRotation</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_uni_humanoid_1_1_human_pose_clip_1ad0f87342465b2a3598cb9cd593019fda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[]<sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ad0f87342465b2a3598cb9cd593019fda" kindref="member">muscles</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_uni_humanoid_1_1_human_pose_clip_1a2598dd72d5d6e0dbc6e6190186b67317" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>HumanPose<sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1a2598dd72d5d6e0dbc6e6190186b67317" kindref="member">GetPose</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>HumanPose</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ac690b5bda8be36c498e8f9ca47c340b4" kindref="member">bodyPosition</ref><sp/>=<sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ac690b5bda8be36c498e8f9ca47c340b4" kindref="member">bodyPosition</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ab1f384ac642faa91c17ed219d388dc1d" kindref="member">bodyRotation</ref><sp/>=<sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ab1f384ac642faa91c17ed219d388dc1d" kindref="member">bodyRotation</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ad0f87342465b2a3598cb9cd593019fda" kindref="member">muscles</ref><sp/>=<sp/>muscles</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_uni_humanoid_1_1_human_pose_clip_1a3510a1d4df0308baf951bb3e7be22ced" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1a3510a1d4df0308baf951bb3e7be22ced" kindref="member">ApplyPose</ref>(ref<sp/>HumanPose<sp/>pose)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ac690b5bda8be36c498e8f9ca47c340b4" kindref="member">bodyPosition</ref><sp/>=<sp/>pose.bodyPosition;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ab1f384ac642faa91c17ed219d388dc1d" kindref="member">bodyRotation</ref><sp/>=<sp/>pose.bodyRotation;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_humanoid_1_1_human_pose_clip_1ad0f87342465b2a3598cb9cd593019fda" kindref="member">muscles</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[])pose.muscles.Clone();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanPoseClip.cs"/>
+  </compounddef>
+</doxygen>

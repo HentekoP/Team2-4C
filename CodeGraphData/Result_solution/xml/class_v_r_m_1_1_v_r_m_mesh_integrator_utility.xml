@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_mesh_integrator_utility" kind="class" prot="public">
+    <compoundname>VRM::VRMMeshIntegratorUtility</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a732afa2118676a3f76fc7d11176c724f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMMeshIntegratorUtility.IntegrateRuntime</definition>
+        <argsstring>(GameObject vrmRootObject)</argsstring>
+        <name>IntegrateRuntime</name>
+        <param>
+          <type>GameObject</type>
+          <declname>vrmRootObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" bodystart="14" bodyend="40"/>
+        <references refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1ab19528317585df588fb14fc73d06a3b4" compoundref="_v_r_m_mesh_integrator_utility_8cs" startline="42" endline="60">VRM.VRMMeshIntegratorUtility.Integrate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1ab19528317585df588fb14fc73d06a3b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result" kindref="compound">UniGLTF.MeshUtility.MeshIntegrationResult</ref> &gt;</type>
+        <definition>static List&lt;UniGLTF.MeshUtility.MeshIntegrationResult&gt; VRM.VRMMeshIntegratorUtility.Integrate</definition>
+        <argsstring>(GameObject root, List&lt; BlendShapeClip &gt; blendshapeClips)</argsstring>
+        <name>Integrate</name>
+        <param>
+          <type>GameObject</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+          <declname>blendshapeClips</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" bodystart="42" bodyend="60"/>
+        <references refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a340aecc7dd1899332e669e1304587574" compoundref="_v_r_m_mesh_integrator_utility_8cs" startline="62" endline="91">VRM.VRMMeshIntegratorUtility.FollowBlendshapeRendererChange</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a732afa2118676a3f76fc7d11176c724f" compoundref="_v_r_m_mesh_integrator_utility_8cs" startline="14" endline="40">VRM.VRMMeshIntegratorUtility.IntegrateRuntime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a340aecc7dd1899332e669e1304587574" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMMeshIntegratorUtility.FollowBlendshapeRendererChange</definition>
+        <argsstring>(List&lt; BlendShapeClip &gt; clips, MeshIntegrationResult result, GameObject root)</argsstring>
+        <name>FollowBlendshapeRendererChange</name>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+          <declname>clips</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result" kindref="compound">MeshIntegrationResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" bodystart="62" bodyend="91"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_mesh_integration_result_1a601948024d4a73ca5f7a500a5f3c978c" compoundref="_mesh_integration_result_8cs" startline="11">UniGLTF.MeshUtility.MeshIntegrationResult.IntegratedRenderer</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1ab19528317585df588fb14fc73d06a3b4" compoundref="_v_r_m_mesh_integrator_utility_8cs" startline="42" endline="60">VRM.VRMMeshIntegratorUtility.Integrate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Meshを統合し、統合後のMeshのBlendShapeの変化をVRMのBlendShapeClipに反映する </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SkinnedMeshUtility/VRMMeshIntegratorUtility.cs" bodystart="12" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a340aecc7dd1899332e669e1304587574" prot="private" virt="non-virtual"><scope>VRM::VRMMeshIntegratorUtility</scope><name>FollowBlendshapeRendererChange</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1ab19528317585df588fb14fc73d06a3b4" prot="public" virt="non-virtual"><scope>VRM::VRMMeshIntegratorUtility</scope><name>Integrate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility_1a732afa2118676a3f76fc7d11176c724f" prot="public" virt="non-virtual"><scope>VRM::VRMMeshIntegratorUtility</scope><name>IntegrateRuntime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

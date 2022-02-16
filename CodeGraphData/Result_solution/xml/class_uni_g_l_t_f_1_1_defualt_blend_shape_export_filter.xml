@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter" kind="class" prot="public">
+    <compoundname>UniGLTF::DefualtBlendShapeExportFilter</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" prot="public" virt="non-virtual">UniGLTF.IBlendShapeExportFilter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter_1a916e988d4e5a8b6fb93a72f4533dbaba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniGLTF.DefualtBlendShapeExportFilter.UseBlendShape</definition>
+        <argsstring>(int blendShapeIndex, string relativePath)</argsstring>
+        <name>UseBlendShape</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter_1a571e09e1da7cf9e9f45c8bfa249505ba">UseBlendShape</reimplements>
+        <param>
+          <type>int</type>
+          <declname>blendShapeIndex</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <briefdescription>
+<para>Export all blendshape </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>blendShapeIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>relativePath</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/BlendShapeFilter.cs" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="515">
+        <label>IBlendShapeExportFilter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter"/>
+      </node>
+      <node id="514">
+        <label>UniGLTF.DefualtBlendShapeExportFilter</label>
+        <link refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter"/>
+        <childnode refid="515" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="517">
+        <label>IBlendShapeExportFilter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter"/>
+      </node>
+      <node id="516">
+        <label>UniGLTF.DefualtBlendShapeExportFilter</label>
+        <link refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter"/>
+        <childnode refid="517" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/BlendShapeFilter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/BlendShapeFilter.cs" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter_1a916e988d4e5a8b6fb93a72f4533dbaba" prot="public" virt="non-virtual"><scope>UniGLTF::DefualtBlendShapeExportFilter</scope><name>UseBlendShape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

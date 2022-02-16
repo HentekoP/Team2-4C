@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bvh_skeleton_estimator" kind="class" prot="public">
+    <compoundname>UniHumanoid::BvhSkeletonEstimator</compoundname>
+    <basecompoundref refid="interface_uni_humanoid_1_1_i_skeleton_detector" prot="public" virt="non-virtual">UniHumanoid.ISkeletonDetector</basecompoundref>
+    <innerclass refid="struct_uni_humanoid_1_1_bvh_skeleton_estimator_1_1_arm" prot="private">UniHumanoid::BvhSkeletonEstimator::Arm</innerclass>
+    <innerclass refid="struct_uni_humanoid_1_1_bvh_skeleton_estimator_1_1_leg" prot="private">UniHumanoid::BvhSkeletonEstimator::Leg</innerclass>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a22b657494f7b9dce316e5de3c963e478" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+        <definition>static IBone UniHumanoid.BvhSkeletonEstimator.GetRoot</definition>
+        <argsstring>(IList&lt; IBone &gt; bones)</argsstring>
+        <name>GetRoot</name>
+        <param>
+          <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="17" bodyend="25"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a594d79b15b39a532d2a16a9fffdf19b1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+        <definition>static IBone UniHumanoid.BvhSkeletonEstimator.SelectBone</definition>
+        <argsstring>(Func&lt; IBone, IBone, IBone &gt; selector, IList&lt; IBone &gt; bones)</argsstring>
+        <name>SelectBone</name>
+        <param>
+          <type>Func&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref>, <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref>, <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="27" bodyend="36"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1acea25601993bbd7a7983a396be2e4208" compoundref="_skeleton_estimator_8cs" startline="46" endline="52">UniHumanoid.BvhSkeletonEstimator.GetNeckAndArms</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae75db3b80f9837b25b4a9a375c677f64" compoundref="_skeleton_estimator_8cs" startline="38" endline="44">UniHumanoid.BvhSkeletonEstimator.GetSpineAndHips</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae75db3b80f9837b25b4a9a375c677f64" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BvhSkeletonEstimator.GetSpineAndHips</definition>
+        <argsstring>(IBone hips, out IBone spine, out IBone leg_L, out IBone leg_R)</argsstring>
+        <name>GetSpineAndHips</name>
+        <param>
+          <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>hips</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>spine</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>leg_L</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>leg_R</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="38" bodyend="44"/>
+        <references refid="interface_uni_humanoid_1_1_i_bone_1a7adae9b68063858042323efc0b0f9ad6" compoundref="_i_bone_8cs" startline="12">UniHumanoid.IBone.Children</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a594d79b15b39a532d2a16a9fffdf19b1" compoundref="_skeleton_estimator_8cs" startline="27" endline="36">UniHumanoid.BvhSkeletonEstimator.SelectBone</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1acea25601993bbd7a7983a396be2e4208" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BvhSkeletonEstimator.GetNeckAndArms</definition>
+        <argsstring>(IBone chest, out IBone neck, out IBone arm_L, out IBone arm_R)</argsstring>
+        <name>GetNeckAndArms</name>
+        <param>
+          <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>chest</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>neck</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>arm_L</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>arm_R</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="46" bodyend="52"/>
+        <references refid="interface_uni_humanoid_1_1_i_bone_1a7adae9b68063858042323efc0b0f9ad6" compoundref="_i_bone_8cs" startline="12">UniHumanoid.IBone.Children</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a594d79b15b39a532d2a16a9fffdf19b1" compoundref="_skeleton_estimator_8cs" startline="27" endline="36">UniHumanoid.BvhSkeletonEstimator.SelectBone</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1abc9e19812e9e063da6302a95b7f9cd0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_bvh_skeleton_estimator_1_1_arm" kindref="compound">Arm</ref></type>
+        <definition>Arm UniHumanoid.BvhSkeletonEstimator.GetArm</definition>
+        <argsstring>(IBone shoulder)</argsstring>
+        <name>GetArm</name>
+        <param>
+          <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>shoulder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="62" bodyend="82"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a439b124f5f6afc6f255538a7fd42d381" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_bvh_skeleton_estimator_1_1_leg" kindref="compound">Leg</ref></type>
+        <definition>Leg UniHumanoid.BvhSkeletonEstimator.GetLeg</definition>
+        <argsstring>(IBone leg)</argsstring>
+        <name>GetLeg</name>
+        <param>
+          <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>leg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="92" bodyend="119"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton" kindref="compound">Skeleton</ref></type>
+        <definition>Skeleton UniHumanoid.BvhSkeletonEstimator.Detect</definition>
+        <argsstring>(IList&lt; IBone &gt; bones)</argsstring>
+        <name>Detect</name>
+        <reimplements refid="interface_uni_humanoid_1_1_i_skeleton_detector_1aa8148256bb45c43413935028928f67b4">Detect</reimplements>
+        <param>
+          <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="121" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="121" bodyend="228"/>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1abc9e19812e9e063da6302a95b7f9cd0e" compoundref="_skeleton_estimator_8cs" startline="62" endline="82">UniHumanoid.BvhSkeletonEstimator.GetArm</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a439b124f5f6afc6f255538a7fd42d381" compoundref="_skeleton_estimator_8cs" startline="92" endline="119">UniHumanoid.BvhSkeletonEstimator.GetLeg</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1acea25601993bbd7a7983a396be2e4208" compoundref="_skeleton_estimator_8cs" startline="46" endline="52">UniHumanoid.BvhSkeletonEstimator.GetNeckAndArms</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a22b657494f7b9dce316e5de3c963e478" compoundref="_skeleton_estimator_8cs" startline="17" endline="25">UniHumanoid.BvhSkeletonEstimator.GetRoot</references>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae75db3b80f9837b25b4a9a375c677f64" compoundref="_skeleton_estimator_8cs" startline="38" endline="44">UniHumanoid.BvhSkeletonEstimator.GetSpineAndHips</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad9a20b823c9a3a608a90a07347464754" compoundref="_skeleton_estimator_8cs" startline="230" endline="235">UniHumanoid.BvhSkeletonEstimator.Detect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad9a20b823c9a3a608a90a07347464754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton" kindref="compound">Skeleton</ref></type>
+        <definition>Skeleton UniHumanoid.BvhSkeletonEstimator.Detect</definition>
+        <argsstring>(Bvh bvh)</argsstring>
+        <name>Detect</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh" kindref="compound">Bvh</ref></type>
+          <declname>bvh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="230" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="230" bodyend="235"/>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</references>
+        <references refid="class_uni_humanoid_1_1_bvh_node_1a668b510ac8efc33842707eb2583e783b" compoundref="_bvh_8cs" startline="73">UniHumanoid.BvhNode.Name</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad710d0273240dc62d001a81520ce2757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton" kindref="compound">Skeleton</ref></type>
+        <definition>Skeleton UniHumanoid.BvhSkeletonEstimator.Detect</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>Detect</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="237" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="237" bodyend="242"/>
+        <references refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" compoundref="_skeleton_estimator_8cs" startline="121" endline="228">UniHumanoid.BvhSkeletonEstimator.Detect</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>UniHumanoid.BvhSkeletonEstimator</label>
+        <link refid="class_uni_humanoid_1_1_bvh_skeleton_estimator"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>ISkeletonDetector</label>
+        <link refid="interface_uni_humanoid_1_1_i_skeleton_detector"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>UniHumanoid.BvhSkeletonEstimator</label>
+        <link refid="class_uni_humanoid_1_1_bvh_skeleton_estimator"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>ISkeletonDetector</label>
+        <link refid="interface_uni_humanoid_1_1_i_skeleton_detector"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="15" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>Detect</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad9a20b823c9a3a608a90a07347464754" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>Detect</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ad710d0273240dc62d001a81520ce2757" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>Detect</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1abc9e19812e9e063da6302a95b7f9cd0e" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>GetArm</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a439b124f5f6afc6f255538a7fd42d381" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>GetLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1acea25601993bbd7a7983a396be2e4208" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>GetNeckAndArms</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a22b657494f7b9dce316e5de3c963e478" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>GetRoot</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae75db3b80f9837b25b4a9a375c677f64" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>GetSpineAndHips</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1a594d79b15b39a532d2a16a9fffdf19b1" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhSkeletonEstimator</scope><name>SelectBone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

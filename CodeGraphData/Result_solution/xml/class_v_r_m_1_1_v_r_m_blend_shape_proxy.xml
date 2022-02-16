@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kind="class" prot="public">
+    <compoundname>VRM::VRMBlendShapeProxy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_v_r_m_1_1_i_v_r_m_component" prot="public" virt="non-virtual">VRM.IVRMComponent</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1aa45e47e320d0162f68863f5efcbef4f9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_avatar" kindref="compound">BlendShapeAvatar</ref></type>
+        <definition>BlendShapeAvatar VRM.VRMBlendShapeProxy.BlendShapeAvatar</definition>
+        <argsstring></argsstring>
+        <name>BlendShapeAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="38" endline="49">VRM.VRMBlendShapeProxyEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1add0a9118911ccfec69da1a380fb2bb3d" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="51" endline="69">VRM.VRMBlendShapeProxyEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_validator_1af77d3995cebebf326c1fefae61ab288f" compoundref="_v_r_m_blend_shape_proxy_validator_8cs" startline="9" endline="75">VRM.VRMBlendShapeProxyValidator.Validate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_merger" kindref="compound">BlendShapeMerger</ref></type>
+        <definition>BlendShapeMerger VRM.VRMBlendShapeProxy.m_merger</definition>
+        <argsstring></argsstring>
+        <name>m_merger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a12107fed3a946237eabc13b187d674c5" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="58" endline="64">VRM.VRMBlendShapeProxy.AccumulateValue</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a5f328f5ba61f2186b07e47c939fd94c7" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="107" endline="113">VRM.VRMBlendShapeProxy.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a4c2ee1dae1aed700987d8405a454ce98" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="71" endline="78">VRM.VRMBlendShapeProxy.GetValue</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1ab7a175147325c46e49799b369c74252c" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="80" endline="90">VRM.VRMBlendShapeProxy.GetValues</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a2251ebe21bb1171c2ad0fc4edc4c25ed" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="45" endline="51">VRM.VRMBlendShapeProxy.ImmediatelySetValue</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7ded7dc3ee3dc45e0eb6e7c91f38ad6e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="21" endline="27">VRM.VRMBlendShapeProxy.OnDestroy</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1acfdfdb6bc309dab5189e2ad3838abec4" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="96" endline="102">VRM.VRMBlendShapeProxy.SetValues</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a3db4eec6df2b7e8bbafbb906c89c7138" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="29" endline="38">VRM.VRMBlendShapeProxy.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a876169e6d2abe68467f86f146b886976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.OnImported</definition>
+        <argsstring>(VRMImporterContext context)</argsstring>
+        <name>OnImported</name>
+        <reimplements refid="interface_v_r_m_1_1_i_v_r_m_component_1a7953a45813e1a5eb4f81135cea68dd26">OnImported</reimplements>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Serializableな値を初期化する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imported</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a2251ebe21bb1171c2ad0fc4edc4c25ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.ImmediatelySetValue</definition>
+        <argsstring>(BlendShapeKey key, float value)</argsstring>
+        <name>ImmediatelySetValue</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Immediately SetValue </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="45" bodyend="51"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a12107fed3a946237eabc13b187d674c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.AccumulateValue</definition>
+        <argsstring>(BlendShapeKey key, float value)</argsstring>
+        <name>AccumulateValue</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>AccumulateValue. After, Should call Apply </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="58" bodyend="64"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a4c2ee1dae1aed700987d8405a454ce98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VRM.VRMBlendShapeProxy.GetValue</definition>
+        <argsstring>(BlendShapeKey key)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Get a blendShape value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="71" bodyend="78"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1ab7a175147325c46e49799b369c74252c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; KeyValuePair&lt; <ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref>, float &gt; &gt;</type>
+        <definition>IEnumerable&lt;KeyValuePair&lt;BlendShapeKey, float&gt; &gt; VRM.VRMBlendShapeProxy.GetValues</definition>
+        <argsstring>()</argsstring>
+        <name>GetValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="80" bodyend="90"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1acfdfdb6bc309dab5189e2ad3838abec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.SetValues</definition>
+        <argsstring>(IEnumerable&lt; KeyValuePair&lt; BlendShapeKey, float &gt;&gt; values)</argsstring>
+        <name>SetValues</name>
+        <param>
+          <type>IEnumerable&lt; KeyValuePair&lt; <ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref>, float &gt;&gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Set blendShape values immediate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="96" bodyend="102"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a5f328f5ba61f2186b07e47c939fd94c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.Apply</definition>
+        <argsstring>()</argsstring>
+        <name>Apply</name>
+        <briefdescription>
+<para>Apply blendShape values that use SetValue apply=false </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="107" bodyend="113"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7ded7dc3ee3dc45e0eb6e7c91f38ad6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="21" bodyend="27"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a3db4eec6df2b7e8bbafbb906c89c7138" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxy.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="29" bodyend="38"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="19">VRM.VRMBlendShapeProxy.m_merger</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2608">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2607">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2606">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="2607" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2608" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2618">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="2617">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="2618" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2616">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="2617" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2611">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2620">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2613">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="2614" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2612">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="2613" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="2616" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="2610">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2609">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2611" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2612" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="2619" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="2615">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="2614">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="2615" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2619">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="2620" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/VRMBlendShapeProxy.cs" bodystart="9" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a12107fed3a946237eabc13b187d674c5" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>AccumulateValue</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a5f328f5ba61f2186b07e47c939fd94c7" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1aa45e47e320d0162f68863f5efcbef4f9" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>BlendShapeAvatar</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a4c2ee1dae1aed700987d8405a454ce98" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>GetValue</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1ab7a175147325c46e49799b369c74252c" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>GetValues</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a2251ebe21bb1171c2ad0fc4edc4c25ed" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>ImmediatelySetValue</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7d9c1d09c1d83afa0875e5116f49031e" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>m_merger</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7ded7dc3ee3dc45e0eb6e7c91f38ad6e" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>OnDestroy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a876169e6d2abe68467f86f146b886976" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>OnImported</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1acfdfdb6bc309dab5189e2ad3838abec4" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>SetValues</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a3db4eec6df2b7e8bbafbb906c89c7138" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxy</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

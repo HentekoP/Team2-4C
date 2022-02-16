@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set" kind="class" prot="private">
+    <compoundname>UniHumanoid::BvhAnimation::CurveSet</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a7be88e307ea218123461724712af8216" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+        <definition>BvhNode UniHumanoid.BvhAnimation.CurveSet.Node</definition>
+        <argsstring></argsstring>
+        <name>Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1abfd26910f071d30cb73c7acd5a5062fb" compoundref="_bvh_animation_clip_8cs" startline="14" endline="17">UniHumanoid.BvhAnimation.CurveSet.CurveSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ad10addbf76ca26a9e6a01bb21d306cd7" prot="private" static="no" mutable="no">
+        <type>Func&lt; float, float, float, Quaternion &gt;</type>
+        <definition>Func&lt;float, float, float, Quaternion&gt; UniHumanoid.BvhAnimation.CurveSet.EulerToRotation</definition>
+        <argsstring></argsstring>
+        <name>EulerToRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1acafdae8c33db40b523c42705e973b15c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.PositionX</definition>
+        <argsstring></argsstring>
+        <name>PositionX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" compoundref="_bvh_animation_clip_8cs" startline="22" endline="28">UniHumanoid.BvhAnimation.CurveSet.GetPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a4744c5ff9395ac9a99eebe2f55314fba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.PositionY</definition>
+        <argsstring></argsstring>
+        <name>PositionY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" compoundref="_bvh_animation_clip_8cs" startline="22" endline="28">UniHumanoid.BvhAnimation.CurveSet.GetPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a5221b12d92a6fa783c083dd29bd75939" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.PositionZ</definition>
+        <argsstring></argsstring>
+        <name>PositionZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" compoundref="_bvh_animation_clip_8cs" startline="22" endline="28">UniHumanoid.BvhAnimation.CurveSet.GetPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12c7120ce43a4118c9bd175219b610a4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.RotationX</definition>
+        <argsstring></argsstring>
+        <name>RotationX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ab7986fe8fcd1034f842cd59012ba47b9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.RotationY</definition>
+        <argsstring></argsstring>
+        <name>RotationY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a8805b98b94d0fbea8e20b4a26ef14541" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+        <definition>ChannelCurve UniHumanoid.BvhAnimation.CurveSet.RotationZ</definition>
+        <argsstring></argsstring>
+        <name>RotationZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1abfd26910f071d30cb73c7acd5a5062fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.BvhAnimation.CurveSet.CurveSet</definition>
+        <argsstring>(BvhNode node)</argsstring>
+        <name>CurveSet</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a7be88e307ea218123461724712af8216" compoundref="_bvh_animation_clip_8cs" startline="12">UniHumanoid.BvhAnimation.CurveSet.Node</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniHumanoid.BvhAnimation.CurveSet.GetPosition</definition>
+        <argsstring>(int i)</argsstring>
+        <name>GetPosition</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="22" bodyend="28"/>
+        <references refid="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" compoundref="_bvh_8cs" startline="165">UniHumanoid.ChannelCurve.Keys</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1acafdae8c33db40b523c42705e973b15c" compoundref="_bvh_animation_clip_8cs" startline="19">UniHumanoid.BvhAnimation.CurveSet.PositionX</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a4744c5ff9395ac9a99eebe2f55314fba" compoundref="_bvh_animation_clip_8cs" startline="20">UniHumanoid.BvhAnimation.CurveSet.PositionY</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a5221b12d92a6fa783c083dd29bd75939" compoundref="_bvh_animation_clip_8cs" startline="21">UniHumanoid.BvhAnimation.CurveSet.PositionZ</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>Quaternion UniHumanoid.BvhAnimation.CurveSet.GetRotation</definition>
+        <argsstring>(int i)</argsstring>
+        <name>GetRotation</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="33" bodyend="44"/>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ad10addbf76ca26a9e6a01bb21d306cd7" compoundref="_bvh_animation_clip_8cs" startline="13">UniHumanoid.BvhAnimation.CurveSet.EulerToRotation</references>
+        <references refid="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" compoundref="_bvh_8cs" startline="165">UniHumanoid.ChannelCurve.Keys</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12c7120ce43a4118c9bd175219b610a4" compoundref="_bvh_animation_clip_8cs" startline="30">UniHumanoid.BvhAnimation.CurveSet.RotationX</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ab7986fe8fcd1034f842cd59012ba47b9" compoundref="_bvh_animation_clip_8cs" startline="31">UniHumanoid.BvhAnimation.CurveSet.RotationY</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a8805b98b94d0fbea8e20b4a26ef14541" compoundref="_bvh_animation_clip_8cs" startline="32">UniHumanoid.BvhAnimation.CurveSet.RotationZ</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhAnimation.CurveSet.AddCurves</definition>
+        <argsstring>(Bvh bvh, AnimationClip clip, float scaling)</argsstring>
+        <name>AddCurves</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh" kindref="compound">Bvh</ref></type>
+          <declname>bvh</declname>
+        </param>
+        <param>
+          <type>AnimationClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="61" bodyend="88"/>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a293860a34054a4b610dedc76293e97b5" compoundref="_bvh_animation_clip_8cs" startline="46" endline="59">UniHumanoid.BvhAnimation.CurveSet.AddCurve</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1ab5449359daa7abe2842792d93ee070c2" compoundref="_bvh_8cs" startline="190">UniHumanoid.Bvh.FrameTime</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1acafdae8c33db40b523c42705e973b15c" compoundref="_bvh_animation_clip_8cs" startline="19">UniHumanoid.BvhAnimation.CurveSet.PositionX</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a4744c5ff9395ac9a99eebe2f55314fba" compoundref="_bvh_animation_clip_8cs" startline="20">UniHumanoid.BvhAnimation.CurveSet.PositionY</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a5221b12d92a6fa783c083dd29bd75939" compoundref="_bvh_animation_clip_8cs" startline="21">UniHumanoid.BvhAnimation.CurveSet.PositionZ</references>
+        <references refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12c7120ce43a4118c9bd175219b610a4" compoundref="_bvh_animation_clip_8cs" startline="30">UniHumanoid.BvhAnimation.CurveSet.RotationX</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a293860a34054a4b610dedc76293e97b5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BvhAnimation.CurveSet.AddCurve</definition>
+        <argsstring>(Bvh bvh, AnimationClip clip, ChannelCurve ch, float scaling)</argsstring>
+        <name>AddCurve</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh" kindref="compound">Bvh</ref></type>
+          <declname>bvh</declname>
+        </param>
+        <param>
+          <type>AnimationClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_channel_curve" kindref="compound">ChannelCurve</ref></type>
+          <declname>ch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="46" bodyend="59"/>
+        <references refid="class_uni_humanoid_1_1_bvh_1ab5449359daa7abe2842792d93ee070c2" compoundref="_bvh_8cs" startline="190">UniHumanoid.Bvh.FrameTime</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" compoundref="_bvh_animation_clip_8cs" startline="61" endline="88">UniHumanoid.BvhAnimation.CurveSet.AddCurves</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="505">
+        <label>UniHumanoid.ChannelCurve</label>
+        <link refid="class_uni_humanoid_1_1_channel_curve"/>
+      </node>
+      <node id="506">
+        <label>UniHumanoid.BvhNode</label>
+        <link refid="class_uni_humanoid_1_1_bvh_node"/>
+      </node>
+      <node id="504">
+        <label>UniHumanoid.BvhAnimation.CurveSet</label>
+        <link refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set"/>
+        <childnode refid="505" relation="usage">
+          <edgelabel>RotationX</edgelabel>
+          <edgelabel>PositionZ</edgelabel>
+          <edgelabel>RotationY</edgelabel>
+          <edgelabel>RotationZ</edgelabel>
+          <edgelabel>PositionX</edgelabel>
+          <edgelabel>PositionY</edgelabel>
+        </childnode>
+        <childnode refid="506" relation="usage">
+          <edgelabel>Node</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhAnimationClip.cs" bodystart="10" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a293860a34054a4b610dedc76293e97b5" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>AddCurve</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a39241c6bb05ef3c487c9397fd11748ce" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>AddCurves</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1abfd26910f071d30cb73c7acd5a5062fb" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>CurveSet</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ad10addbf76ca26a9e6a01bb21d306cd7" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>EulerToRotation</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>GetPosition</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>GetRotation</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a7be88e307ea218123461724712af8216" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>Node</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1acafdae8c33db40b523c42705e973b15c" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>PositionX</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a4744c5ff9395ac9a99eebe2f55314fba" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>PositionY</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a5221b12d92a6fa783c083dd29bd75939" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>PositionZ</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12c7120ce43a4118c9bd175219b610a4" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>RotationX</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ab7986fe8fcd1034f842cd59012ba47b9" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>RotationY</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a8805b98b94d0fbea8e20b4a26ef14541" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhAnimation::CurveSet</scope><name>RotationZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_exceptions_8cs" kind="file">
+    <compoundname>Exceptions.cs</compoundname>
+    <innerclass refid="class_uni_j_s_o_n_1_1_tree_value_exception" prot="public">UniJSON::TreeValueException</innerclass>
+    <innerclass refid="class_uni_j_s_o_n_1_1_parser_exception" prot="public">UniJSON::ParserException</innerclass>
+    <innerclass refid="class_uni_j_s_o_n_1_1_deserialization_exception" prot="public">UniJSON::DeserializationException</innerclass>
+    <innerclass refid="class_uni_j_s_o_n_1_1_formatter_exception" prot="public">UniJSON::FormatterException</innerclass>
+    <innernamespace refid="namespace_uni_j_s_o_n">UniJSON</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniJSON</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_uni_j_s_o_n_1_1_tree_value_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_j_s_o_n_1_1_tree_value_exception" kindref="compound">TreeValueException</ref><sp/>:<sp/>ArgumentException</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_uni_j_s_o_n_1_1_tree_value_exception_1ad74d323da8e4e21f02e4d7524de7a9fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_tree_value_exception_1ad74d323da8e4e21f02e4d7524de7a9fc" kindref="member">TreeValueException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>msg)<sp/>:<sp/>base(msg)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_uni_j_s_o_n_1_1_parser_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_j_s_o_n_1_1_parser_exception" kindref="compound">ParserException</ref><sp/>:<sp/><ref refid="class_uni_j_s_o_n_1_1_tree_value_exception" kindref="compound">TreeValueException</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_uni_j_s_o_n_1_1_parser_exception_1afa7a7ebbd1bcd6df1842c0617120cce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_parser_exception_1afa7a7ebbd1bcd6df1842c0617120cce9" kindref="member">ParserException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>msg)<sp/>:<sp/>base(msg)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_uni_j_s_o_n_1_1_deserialization_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_j_s_o_n_1_1_deserialization_exception" kindref="compound">DeserializationException</ref><sp/>:<sp/><ref refid="class_uni_j_s_o_n_1_1_tree_value_exception" kindref="compound">TreeValueException</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="class_uni_j_s_o_n_1_1_deserialization_exception_1ac8cacdd0b9a86632707ff0454ea6a774" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_deserialization_exception_1ac8cacdd0b9a86632707ff0454ea6a774" kindref="member">DeserializationException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>msg)<sp/>:<sp/>base(msg)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_uni_j_s_o_n_1_1_formatter_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_j_s_o_n_1_1_formatter_exception" kindref="compound">FormatterException</ref><sp/>:<sp/><ref refid="class_uni_j_s_o_n_1_1_tree_value_exception" kindref="compound">TreeValueException</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32" refid="class_uni_j_s_o_n_1_1_formatter_exception_1a4644f7b792cd597c68ca49755a1bb9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_formatter_exception_1a4644f7b792cd597c68ca49755a1bb9ef" kindref="member">FormatterException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>msg)<sp/>:<sp/>base(msg)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Exceptions.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter" kind="class" prot="public">
+    <compoundname>UniGLTF::M17N::LanguageGetter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a185156985f9958a273565cad564ce398" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.M17N.LanguageGetter.LANG_KEY</definition>
+        <argsstring></argsstring>
+        <name>LANG_KEY</name>
+        <initializer>= &quot;VRM_LANG&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a754d4783901b993b4e983a210b275889" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; CultureInfo, <ref refid="namespace_uni_g_l_t_f_1_1_m17_n_1a96ab01fc84cd849a76e75eb68e0849ab" kindref="member">Languages</ref> &gt;</type>
+        <definition>Dictionary&lt;CultureInfo, Languages&gt; UniGLTF.M17N.LanguageGetter.CultureMap</definition>
+        <argsstring></argsstring>
+        <name>CultureMap</name>
+        <initializer>= new Dictionary&lt;CultureInfo, <ref refid="namespace_uni_g_l_t_f_1_1_m17_n_1a96ab01fc84cd849a76e75eb68e0849ab" kindref="member">Languages</ref>&gt;
+        {
+            {new CultureInfo(&quot;ja-JP&quot;,false), Languages.ja},
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a110a7358df81be690b6965507dbc30b5" prot="private" static="yes" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1_1_m17_n_1a96ab01fc84cd849a76e75eb68e0849ab" kindref="member">Languages</ref></type>
+        <definition>Languages UniGLTF.M17N.LanguageGetter.s_lang</definition>
+        <argsstring></argsstring>
+        <name>s_lang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1ac2fda5b8dd4af6e595bbf7e0d4f517e3" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1_1_m17_n_1a96ab01fc84cd849a76e75eb68e0849ab" kindref="member">Languages</ref></type>
+        <definition>Languages UniGLTF.M17N.LanguageGetter.Lang</definition>
+        <argsstring></argsstring>
+        <name>Lang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1aab19b1d845f3653373a2a047b988a7be" compoundref="_v_r_m_meta_object_editor_8cs" startline="57" endline="70">VRM.VRMMetaObjectEditor.RequiredMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1ac986cd6f4398e77cba396fe32eed6360" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.M17N.LanguageGetter.Msg&lt; T &gt;</definition>
+        <argsstring>(this T key)</argsstring>
+        <name>Msg&lt; T &gt;</name>
+        <param>
+          <type>this T</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="110" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a053366eb504ba5351500a1d28d5fcd9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.M17N.LanguageGetter.OnGuiSelectLang</definition>
+        <argsstring>()</argsstring>
+        <name>OnGuiSelectLang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="115" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs" bodystart="72" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a754d4783901b993b4e983a210b275889" prot="private" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>CultureMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1ac2fda5b8dd4af6e595bbf7e0d4f517e3" prot="public" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>Lang</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a185156985f9958a273565cad564ce398" prot="private" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>LANG_KEY</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1ac986cd6f4398e77cba396fe32eed6360" prot="public" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>Msg&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a053366eb504ba5351500a1d28d5fcd9e" prot="public" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>OnGuiSelectLang</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_m17_n_1_1_language_getter_1a110a7358df81be690b6965507dbc30b5" prot="private" virt="non-virtual"><scope>UniGLTF::M17N::LanguageGetter</scope><name>s_lang</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_bone_info" kind="class" prot="public">
+    <compoundname>UniGLTF::BoneInfo</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" prot="private" static="no" mutable="no">
+        <type>readonly Transform</type>
+        <definition>readonly Transform UniGLTF.BoneInfo._head</definition>
+        <argsstring></argsstring>
+        <name>_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a4b19183a55585048f3b2660760e5248c" compoundref="_bone_info_8cs" startline="48" endline="53">UniGLTF.BoneInfo.GetHeadPosition</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a44d6b7d86c65e992a82b5a4d7f73c6af" compoundref="_bone_info_8cs" startline="67" endline="72">UniGLTF.BoneInfo.GetUpVector</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1acb6e70e7b9f56390e25e7377721de920" prot="private" static="no" mutable="no">
+        <type>readonly Transform</type>
+        <definition>readonly Transform UniGLTF.BoneInfo._tail</definition>
+        <argsstring></argsstring>
+        <name>_tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a078c478a3fea305dbb882818181eef3f" compoundref="_bone_info_8cs" startline="55" endline="65">UniGLTF.BoneInfo.GetTailPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1ad4861709a7d1d9c0a17f8622388673c4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>readonly Vector3 UniGLTF.BoneInfo._headLocalForward</definition>
+        <argsstring></argsstring>
+        <name>_headLocalForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a078c478a3fea305dbb882818181eef3f" compoundref="_bone_info_8cs" startline="55" endline="65">UniGLTF.BoneInfo.GetTailPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1af9b177968afe485e848ae563812ff8c7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>readonly Vector3 UniGLTF.BoneInfo._headLocalUp</definition>
+        <argsstring></argsstring>
+        <name>_headLocalUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a44d6b7d86c65e992a82b5a4d7f73c6af" compoundref="_bone_info_8cs" startline="67" endline="72">UniGLTF.BoneInfo.GetUpVector</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_1af6ecbb9d2627653b77132b6469233258" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>HumanBodyBones</type>
+        <definition>HumanBodyBones UniGLTF.BoneInfo.HeadBone</definition>
+        <argsstring></argsstring>
+        <name>HeadBone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_1ae5fde5a1d701bc31e2bd09f62450b041" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>HumanBodyBones</type>
+        <definition>HumanBodyBones UniGLTF.BoneInfo.TailBone</definition>
+        <argsstring></argsstring>
+        <name>TailBone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_1a0f249fe348092c8a93d8491de9e3e186" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfo.HeadObject</definition>
+        <argsstring></argsstring>
+        <name>HeadObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1a65f6a5c46270d6dd1f3643fe3ab940d1" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; HumanBodyBones, <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;HumanBodyBones, Vector3&gt; UniGLTF.BoneInfo.LeafBoneWithDirection</definition>
+        <argsstring></argsstring>
+        <name>LeafBoneWithDirection</name>
+        <initializer>=
+                    new Dictionary&lt;HumanBodyBones, <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>&gt;
+                    {
+                {HumanBodyBones.Head, Vector3.zero},
+                {HumanBodyBones.LeftToes, Vector3.forward},
+                {HumanBodyBones.RightToes, Vector3.forward},
+                {HumanBodyBones.LeftEye, Vector3.forward},
+                {HumanBodyBones.RightEye, Vector3.forward},
+                {HumanBodyBones.Jaw, Vector3.forward},
+                {HumanBodyBones.LeftThumbDistal,   Vector3.zero},
+                {HumanBodyBones.LeftIndexDistal,   Vector3.zero},
+                {HumanBodyBones.LeftMiddleDistal,  Vector3.zero},
+                {HumanBodyBones.LeftRingDistal,    Vector3.zero},
+                {HumanBodyBones.LeftLittleDistal,  Vector3.zero},
+                {HumanBodyBones.RightThumbDistal,  Vector3.zero},
+                {HumanBodyBones.RightIndexDistal,  Vector3.zero},
+                {HumanBodyBones.RightMiddleDistal, Vector3.zero},
+                {HumanBodyBones.RightRingDistal,   Vector3.zero},
+                {HumanBodyBones.RightLittleDistal, Vector3.zero},
+                    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="94" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" compoundref="_bone_info_8cs" startline="124" endline="185">UniGLTF.BoneInfo.GetHumanoidBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_1ac9a363be08b355820377103c7e729bb9" prot="private" static="yes" mutable="no">
+        <type>HumanBodyBones[]</type>
+        <definition>HumanBodyBones [] UniGLTF.BoneInfo._NotConnectedBones</definition>
+        <argsstring></argsstring>
+        <name>_NotConnectedBones</name>
+        <initializer>= new HumanBodyBones[]{
+            HumanBodyBones.LeftShoulder ,
+            HumanBodyBones.RightShoulder,
+            HumanBodyBones.LeftUpperLeg ,
+            HumanBodyBones.RightUpperLeg,
+            HumanBodyBones.LeftEye,
+            HumanBodyBones.RightEye,
+            HumanBodyBones.Jaw,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" compoundref="_bone_info_8cs" startline="124" endline="185">UniGLTF.BoneInfo.GetHumanoidBones</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.BoneInfo.BoneInfo</definition>
+        <argsstring>(Transform head, Transform tail, HumanBodyBones headBone, HumanBodyBones tailBone)</argsstring>
+        <name>BoneInfo</name>
+        <param>
+          <type>Transform</type>
+          <declname>head</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>tail</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>headBone</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>tailBone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="20" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" compoundref="_bone_info_8cs" startline="10">UniGLTF.BoneInfo._head</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1ad4861709a7d1d9c0a17f8622388673c4" compoundref="_bone_info_8cs" startline="12">UniGLTF.BoneInfo._headLocalForward</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1af9b177968afe485e848ae563812ff8c7" compoundref="_bone_info_8cs" startline="13">UniGLTF.BoneInfo._headLocalUp</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1acb6e70e7b9f56390e25e7377721de920" compoundref="_bone_info_8cs" startline="11">UniGLTF.BoneInfo._tail</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1aca1c5d9bcbae99fa4eb6657224284ddd" compoundref="_bone_info_8cs" startline="74" endline="91">UniGLTF.BoneInfo.CalculateLocalUpVector</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1af6ecbb9d2627653b77132b6469233258" compoundref="_bone_info_8cs" startline="15">UniGLTF.BoneInfo.HeadBone</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1ae5fde5a1d701bc31e2bd09f62450b041" compoundref="_bone_info_8cs" startline="16">UniGLTF.BoneInfo.TailBone</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" compoundref="_bone_info_8cs" startline="124" endline="185">UniGLTF.BoneInfo.GetHumanoidBones</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a10b3961019ce584c1ab7de1c8d75158f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.BoneInfo.BoneInfo</definition>
+        <argsstring>(Transform head, Vector3 headLocalDirection, HumanBodyBones headBone)</argsstring>
+        <name>BoneInfo</name>
+        <param>
+          <type>Transform</type>
+          <declname>head</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>headLocalDirection</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>headBone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="33" bodyend="41"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" compoundref="_bone_info_8cs" startline="10">UniGLTF.BoneInfo._head</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1ad4861709a7d1d9c0a17f8622388673c4" compoundref="_bone_info_8cs" startline="12">UniGLTF.BoneInfo._headLocalForward</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1af9b177968afe485e848ae563812ff8c7" compoundref="_bone_info_8cs" startline="13">UniGLTF.BoneInfo._headLocalUp</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1acb6e70e7b9f56390e25e7377721de920" compoundref="_bone_info_8cs" startline="11">UniGLTF.BoneInfo._tail</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1aca1c5d9bcbae99fa4eb6657224284ddd" compoundref="_bone_info_8cs" startline="74" endline="91">UniGLTF.BoneInfo.CalculateLocalUpVector</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1af6ecbb9d2627653b77132b6469233258" compoundref="_bone_info_8cs" startline="15">UniGLTF.BoneInfo.HeadBone</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a06b73e5837cf3945043ad1c7b6db58b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.BoneInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a4b19183a55585048f3b2660760e5248c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.BoneInfo.GetHeadPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetHeadPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="48" bodyend="53"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" compoundref="_bone_info_8cs" startline="10">UniGLTF.BoneInfo._head</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a078c478a3fea305dbb882818181eef3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.BoneInfo.GetTailPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetTailPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="55" bodyend="65"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1ad4861709a7d1d9c0a17f8622388673c4" compoundref="_bone_info_8cs" startline="12">UniGLTF.BoneInfo._headLocalForward</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1acb6e70e7b9f56390e25e7377721de920" compoundref="_bone_info_8cs" startline="11">UniGLTF.BoneInfo._tail</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a44d6b7d86c65e992a82b5a4d7f73c6af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.BoneInfo.GetUpVector</definition>
+        <argsstring>()</argsstring>
+        <name>GetUpVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="67" bodyend="72"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" compoundref="_bone_info_8cs" startline="10">UniGLTF.BoneInfo._head</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1af9b177968afe485e848ae563812ff8c7" compoundref="_bone_info_8cs" startline="13">UniGLTF.BoneInfo._headLocalUp</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1aca1c5d9bcbae99fa4eb6657224284ddd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 UniGLTF.BoneInfo.CalculateLocalUpVector</definition>
+        <argsstring>(Vector3 localForward)</argsstring>
+        <name>CalculateLocalUpVector</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>localForward</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="74" bodyend="91"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a3d58cc79fe65f712d9ea0cdedcfc8c9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HumanBodyBones</type>
+        <definition>static HumanBodyBones UniGLTF.BoneInfo.FindHeadBone</definition>
+        <argsstring>(Animator _animator, HumanBodyBones tail)</argsstring>
+        <name>FindHeadBone</name>
+        <param>
+          <type>Animator</type>
+          <declname>_animator</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>tail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="187" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="187" bodyend="208"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a1b473d8a9ccc5f6d1f30e13a194ca1fd" compoundref="_bone_info_8cs" startline="210" endline="273">UniGLTF.BoneInfo.GetParent</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" compoundref="_bone_info_8cs" startline="124" endline="185">UniGLTF.BoneInfo.GetHumanoidBones</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a1b473d8a9ccc5f6d1f30e13a194ca1fd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HumanBodyBones</type>
+        <definition>static HumanBodyBones UniGLTF.BoneInfo.GetParent</definition>
+        <argsstring>(HumanBodyBones bone)</argsstring>
+        <name>GetParent</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="210" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="210" bodyend="273"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_1a3d58cc79fe65f712d9ea0cdedcfc8c9c" compoundref="_bone_info_8cs" startline="187" endline="208">UniGLTF.BoneInfo.FindHeadBone</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_bone_info" kindref="compound">BoneInfo</ref> &gt;</type>
+        <definition>static List&lt;BoneInfo&gt; UniGLTF.BoneInfo.GetHumanoidBones</definition>
+        <argsstring>(Animator _animator)</argsstring>
+        <name>GetHumanoidBones</name>
+        <param>
+          <type>Animator</type>
+          <declname>_animator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="124" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="124" bodyend="185"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1ac9a363be08b355820377103c7e729bb9" compoundref="_bone_info_8cs" startline="114">UniGLTF.BoneInfo._NotConnectedBones</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" compoundref="_bone_info_8cs" startline="20" endline="31">UniGLTF.BoneInfo.BoneInfo</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a3d58cc79fe65f712d9ea0cdedcfc8c9c" compoundref="_bone_info_8cs" startline="187" endline="208">UniGLTF.BoneInfo.FindHeadBone</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_1a65f6a5c46270d6dd1f3643fe3ab940d1" compoundref="_bone_info_8cs" startline="94">UniGLTF.BoneInfo.LeafBoneWithDirection</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="304">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="305">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="303">
+        <label>UniGLTF.BoneInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1_bone_info"/>
+        <childnode refid="304" relation="usage">
+          <edgelabel>_headLocalUp</edgelabel>
+          <edgelabel>_headLocalForward</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfo.cs" bodystart="8" bodyend="275"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a24c6b5926b0d845693a5fb0aa9aaf2d6" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>_head</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1ad4861709a7d1d9c0a17f8622388673c4" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>_headLocalForward</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1af9b177968afe485e848ae563812ff8c7" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>_headLocalUp</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1ac9a363be08b355820377103c7e729bb9" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>_NotConnectedBones</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1acb6e70e7b9f56390e25e7377721de920" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>_tail</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a72fa1214dbcf108509d3faa832d7c70b" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>BoneInfo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a10b3961019ce584c1ab7de1c8d75158f" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>BoneInfo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1aca1c5d9bcbae99fa4eb6657224284ddd" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>CalculateLocalUpVector</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a3d58cc79fe65f712d9ea0cdedcfc8c9c" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>FindHeadBone</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a4b19183a55585048f3b2660760e5248c" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>GetHeadPosition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a858561092fd57afc89ad3cdcb0846595" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>GetHumanoidBones</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a1b473d8a9ccc5f6d1f30e13a194ca1fd" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>GetParent</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a078c478a3fea305dbb882818181eef3f" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>GetTailPosition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a44d6b7d86c65e992a82b5a4d7f73c6af" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>GetUpVector</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1af6ecbb9d2627653b77132b6469233258" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>HeadBone</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a0f249fe348092c8a93d8491de9e3e186" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>HeadObject</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a65f6a5c46270d6dd1f3643fe3ab940d1" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>LeafBoneWithDirection</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1ae5fde5a1d701bc31e2bd09f62450b041" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>TailBone</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_1a06b73e5837cf3945043ad1c7b6db58b0" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfo</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

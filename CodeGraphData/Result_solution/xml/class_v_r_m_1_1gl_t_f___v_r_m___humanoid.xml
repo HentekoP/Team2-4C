@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kind="class" prot="public">
+    <compoundname>VRM::glTF_VRM_Humanoid</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a29a4a3c9814732c4c038ee94fd3966fb" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">glTF_VRM_HumanoidBone</ref> &gt;</type>
+        <definition>List&lt;glTF_VRM_HumanoidBone&gt; VRM.glTF_VRM_Humanoid.humanBones</definition>
+        <argsstring></argsstring>
+        <name>humanBones</name>
+        <initializer>= new List&lt;<ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">glTF_VRM_HumanoidBone</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="170" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="170" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a44f1cad1c7183ace9d44def8ef28ccd9" compoundref="_v_r_m_serializer_8g_8cs" startline="135" endline="186">VRM.VRMSerializer.Serialize_vrm_humanoid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8e31452cb7dec1d0707853b57470895b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.armStretch</definition>
+        <argsstring></argsstring>
+        <name>armStretch</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="173" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8929731b933c4e6e39d8089f73165fef" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.legStretch</definition>
+        <argsstring></argsstring>
+        <name>legStretch</name>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="176" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1aa3723269ec39a7f4fbd6f00d2f2b55f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.upperArmTwist</definition>
+        <argsstring></argsstring>
+        <name>upperArmTwist</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="179" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8bd14b135851ae55661a1943beaf3c5e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.lowerArmTwist</definition>
+        <argsstring></argsstring>
+        <name>lowerArmTwist</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="182" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a7efb5a790d3b39d299003f8ea14815ba" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.upperLegTwist</definition>
+        <argsstring></argsstring>
+        <name>upperLegTwist</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="185" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a6116f195c363fdd375ddffb4a5ba2da2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.lowerLegTwist</definition>
+        <argsstring></argsstring>
+        <name>lowerLegTwist</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a38a4b74ad34f56bae74af7789ddc3c1b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_Humanoid.feetSpacing</definition>
+        <argsstring></argsstring>
+        <name>feetSpacing</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="191" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a572cd34a3445a835d958d4f86a2d5881" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.glTF_VRM_Humanoid.hasTranslationDoF</definition>
+        <argsstring></argsstring>
+        <name>hasTranslationDoF</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="194" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="169" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="168" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8e31452cb7dec1d0707853b57470895b" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>armStretch</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a38a4b74ad34f56bae74af7789ddc3c1b" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>feetSpacing</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a572cd34a3445a835d958d4f86a2d5881" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>hasTranslationDoF</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a29a4a3c9814732c4c038ee94fd3966fb" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>humanBones</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8929731b933c4e6e39d8089f73165fef" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>legStretch</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a8bd14b135851ae55661a1943beaf3c5e" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>lowerArmTwist</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a6116f195c363fdd375ddffb4a5ba2da2" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>lowerLegTwist</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1aa3723269ec39a7f4fbd6f00d2f2b55f5" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>upperArmTwist</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a7efb5a790d3b39d299003f8ea14815ba" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_Humanoid</scope><name>upperLegTwist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

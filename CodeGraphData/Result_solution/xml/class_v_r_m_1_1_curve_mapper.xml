@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_curve_mapper" kind="class" prot="public">
+    <compoundname>VRM::CurveMapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; CurveMapper &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_curve_mapper_1af7cd573144f43822b2072505693a39ad" prot="public" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve VRM.CurveMapper.Curve</definition>
+        <argsstring></argsstring>
+        <name>Curve</name>
+        <initializer>= AnimationCurve.Linear(0, 0, 1.0f, 1.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" compoundref="_curve_mapper_8cs" startline="40" endline="52">VRM.CurveMapper.Apply</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.CurveMapper.CurveXRangeDegree</definition>
+        <argsstring></argsstring>
+        <name>CurveXRangeDegree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" compoundref="_curve_mapper_8cs" startline="40" endline="52">VRM.CurveMapper.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a4743d390d7a93720d1f3c65a9908b907" compoundref="_curve_mapper_8cs" startline="34" endline="38">VRM.CurveMapper.Assign</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1ae862d497ce3cad8ef3ccd2a32f26d71c" compoundref="_curve_mapper_8cs" startline="20" endline="24">VRM.CurveMapper.CurveMapper</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1ac4408a7eafe89f63ec59190eb0100ea8" compoundref="_curve_mapper_8cs" startline="75" endline="80">VRM.CurveMapper.Equals</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a2e1ee6dd39d7d20027f7d6c75939fe03" compoundref="_curve_mapper_8cs" startline="62" endline="73">VRM.CurveMapper.Map</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1aa1ea1ada8c37c27f8b8166edc2e1c1a9" compoundref="_curve_mapper_8cs" startline="26" endline="32">VRM.CurveMapper.OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.CurveMapper.CurveYRangeDegree</definition>
+        <argsstring></argsstring>
+        <name>CurveYRangeDegree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" compoundref="_curve_mapper_8cs" startline="40" endline="52">VRM.CurveMapper.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a4743d390d7a93720d1f3c65a9908b907" compoundref="_curve_mapper_8cs" startline="34" endline="38">VRM.CurveMapper.Assign</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1ae862d497ce3cad8ef3ccd2a32f26d71c" compoundref="_curve_mapper_8cs" startline="20" endline="24">VRM.CurveMapper.CurveMapper</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1ac4408a7eafe89f63ec59190eb0100ea8" compoundref="_curve_mapper_8cs" startline="75" endline="80">VRM.CurveMapper.Equals</referencedby>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a2e1ee6dd39d7d20027f7d6c75939fe03" compoundref="_curve_mapper_8cs" startline="62" endline="73">VRM.CurveMapper.Map</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1ae862d497ce3cad8ef3ccd2a32f26d71c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.CurveMapper.CurveMapper</definition>
+        <argsstring>(float xRange, float yRange)</argsstring>
+        <name>CurveMapper</name>
+        <param>
+          <type>float</type>
+          <declname>xRange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="20" bodyend="24"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" compoundref="_curve_mapper_8cs" startline="18">VRM.CurveMapper.CurveYRangeDegree</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1aa1ea1ada8c37c27f8b8166edc2e1c1a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.CurveMapper.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="26" bodyend="32"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1a4743d390d7a93720d1f3c65a9908b907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.CurveMapper.Assign</definition>
+        <argsstring>(CurveMapper mapper)</argsstring>
+        <name>Assign</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+          <declname>mapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="34" bodyend="38"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" compoundref="_curve_mapper_8cs" startline="18">VRM.CurveMapper.CurveYRangeDegree</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.CurveMapper.Apply</definition>
+        <argsstring>(glTF_VRM_DegreeMap degreeMap)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>degreeMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="40" bodyend="52"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1af7cd573144f43822b2072505693a39ad" compoundref="_curve_mapper_8cs" startline="12">VRM.CurveMapper.Curve</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map_1a348e8b204deabedbf5a0e8fce383da39" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="15">VRM.glTF_VRM_DegreeMap.curve</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" compoundref="_curve_mapper_8cs" startline="18">VRM.CurveMapper.CurveYRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a7a0ec2980463576559b09a88f7f32c86" compoundref="_curve_mapper_8cs" startline="54" endline="60">VRM.CurveMapper.ToKeys</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1a2e1ee6dd39d7d20027f7d6c75939fe03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VRM.CurveMapper.Map</definition>
+        <argsstring>(float src)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>float</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="62" bodyend="73"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" compoundref="_curve_mapper_8cs" startline="18">VRM.CurveMapper.CurveYRangeDegree</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1ac4408a7eafe89f63ec59190eb0100ea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.CurveMapper.Equals</definition>
+        <argsstring>(CurveMapper other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="75" bodyend="80"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" compoundref="_curve_mapper_8cs" startline="15">VRM.CurveMapper.CurveXRangeDegree</references>
+        <references refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" compoundref="_curve_mapper_8cs" startline="18">VRM.CurveMapper.CurveYRangeDegree</references>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1af6db8894c5c93c266768661e2f774a6f" compoundref="_curve_mapper_8cs" startline="82" endline="89">VRM.CurveMapper.Equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1af6db8894c5c93c266768661e2f774a6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool VRM.CurveMapper.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="82" bodyend="89"/>
+        <references refid="class_v_r_m_1_1_curve_mapper_1ac4408a7eafe89f63ec59190eb0100ea8" compoundref="_curve_mapper_8cs" startline="75" endline="80">VRM.CurveMapper.Equals</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1ad7bef2bf8e2c195e07c0ded4ab1adda6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int VRM.CurveMapper.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_curve_mapper_1a7a0ec2980463576559b09a88f7f32c86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Keyframe &gt;</type>
+        <definition>IEnumerable&lt;Keyframe&gt; VRM.CurveMapper.ToKeys</definition>
+        <argsstring>(float[] values)</argsstring>
+        <name>ToKeys</name>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="54" bodyend="60"/>
+        <referencedby refid="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" compoundref="_curve_mapper_8cs" startline="40" endline="52">VRM.CurveMapper.Apply</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="500">
+        <label>IEquatable&lt; CurveMapper &gt;</label>
+      </node>
+      <node id="499">
+        <label>VRM.CurveMapper</label>
+        <link refid="class_v_r_m_1_1_curve_mapper"/>
+        <childnode refid="500" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="502">
+        <label>IEquatable&lt; CurveMapper &gt;</label>
+      </node>
+      <node id="501">
+        <label>VRM.CurveMapper</label>
+        <link refid="class_v_r_m_1_1_curve_mapper"/>
+        <childnode refid="502" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/CurveMapper.cs" bodystart="10" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a1fe72d2bf8ef1e4e954acafb02f8395c" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a4743d390d7a93720d1f3c65a9908b907" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Assign</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1af7cd573144f43822b2072505693a39ad" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Curve</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1ae862d497ce3cad8ef3ccd2a32f26d71c" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>CurveMapper</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a521477c75d697a54ad0c697db26e422e" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>CurveXRangeDegree</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a6e20f607af4f3cc58f405b241d31ff21" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>CurveYRangeDegree</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1ac4408a7eafe89f63ec59190eb0100ea8" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Equals</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1af6db8894c5c93c266768661e2f774a6f" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Equals</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1ad7bef2bf8e2c195e07c0ded4ab1adda6" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>GetHashCode</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a2e1ee6dd39d7d20027f7d6c75939fe03" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>Map</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1aa1ea1ada8c37c27f8b8166edc2e1c1a9" prot="public" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>OnValidate</name></member>
+      <member refid="class_v_r_m_1_1_curve_mapper_1a7a0ec2980463576559b09a88f7f32c86" prot="private" virt="non-virtual"><scope>VRM::CurveMapper</scope><name>ToKeys</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

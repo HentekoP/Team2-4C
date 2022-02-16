@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_sampler_param_8cs" kind="file">
+    <compoundname>SamplerParam.cs</compoundname>
+    <innerclass refid="struct_v_r_m_shaders_1_1_sampler_param" prot="public">VRMShaders::SamplerParam</innerclass>
+    <innernamespace refid="namespace_v_r_m_shaders">VRMShaders</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRMShaders</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="struct_v_r_m_shaders_1_1_sampler_param" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_v_r_m_shaders_1_1_sampler_param" kindref="compound">SamplerParam</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="struct_v_r_m_shaders_1_1_sampler_param_1a05080de6bfb5b7a3893b0d4f462b587c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TextureWrapMode<sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a05080de6bfb5b7a3893b0d4f462b587c" kindref="member">WrapModesU</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="struct_v_r_m_shaders_1_1_sampler_param_1a352c0266dbbe7d19e291191ab2b2448a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TextureWrapMode<sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a352c0266dbbe7d19e291191ab2b2448a" kindref="member">WrapModesV</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" kindref="member">FilterMode</ref><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" kindref="member">FilterMode</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_v_r_m_shaders_1_1_sampler_param_1a1e8899ec676e0277a1376f959f598625" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a1e8899ec676e0277a1376f959f598625" kindref="member">EnableMipMap</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="struct_v_r_m_shaders_1_1_sampler_param_1a4d0b43f040e580cb4f05eca642bf22c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a4d0b43f040e580cb4f05eca642bf22c7" kindref="member">SamplerParam</ref>(TextureWrapMode<sp/>wrapModesU,<sp/>TextureWrapMode<sp/>wrapModesV,<sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" kindref="member">FilterMode</ref><sp/>filterMode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enableMipMap)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a05080de6bfb5b7a3893b0d4f462b587c" kindref="member">WrapModesU</ref><sp/>=<sp/>wrapModesU;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a352c0266dbbe7d19e291191ab2b2448a" kindref="member">WrapModesV</ref><sp/>=<sp/>wrapModesV;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" kindref="member">FilterMode</ref><sp/>=<sp/>filterMode;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a1e8899ec676e0277a1376f959f598625" kindref="member">EnableMipMap</ref><sp/>=<sp/>enableMipMap;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="struct_v_r_m_shaders_1_1_sampler_param_1a9a65b7c17f9848f525ad027357708974" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param" kindref="compound">SamplerParam</ref><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a9a65b7c17f9848f525ad027357708974" kindref="member">Default</ref><sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a4d0b43f040e580cb4f05eca642bf22c7" kindref="member">SamplerParam</ref>(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TextureWrapMode.Repeat,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TextureWrapMode.Repeat,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_shaders_1_1_sampler_param_1a2963077391309a57bbf0b4430c79dc32" kindref="member">FilterMode</ref>.Bilinear,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/SamplerParam.cs"/>
+  </compounddef>
+</doxygen>

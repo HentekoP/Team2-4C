@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_g_l_t_f_1_1_i_storage" kind="interface" prot="public">
+    <compoundname>UniGLTF::IStorage</compoundname>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_file_system_storage" prot="public" virt="non-virtual">UniGLTF.FileSystemStorage</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage" prot="public" virt="non-virtual">UniGLTF.Zip.ZipArchiveStorage</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_storage_1a430b3d6dfb436d4aa8b49cd75acf163b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ArraySegment&lt; Byte &gt;</type>
+        <definition>ArraySegment&lt;Byte&gt; UniGLTF.IStorage.Get</definition>
+        <argsstring>(string url=default)</argsstring>
+        <name>Get</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_file_system_storage_1af3b579d2784bfdadb145389a613fa9c6">Get</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a09cb5f462b6919dd34c6c625cfe360cb">Get</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>gltf の buffer の バイト列アクセス を実装する。 </para>        </briefdescription>
+        <detaileddescription>
+<para><orderedlist>
+<listitem><para>url による相対パス</para></listitem><listitem><para>url によるbase64 encoding</para></listitem><listitem><para>url がnullのときに bin chunk(buffers[0]) にアクセスする </para></listitem></orderedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IStorage.cs" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents bytes access by URL in gltf </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1376">
+        <label>UniGLTF.IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+      <node id="1378">
+        <label>UniGLTF.Zip.ZipArchiveStorage</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1377">
+        <label>UniGLTF.FileSystemStorage</label>
+        <link refid="class_uni_g_l_t_f_1_1_file_system_storage"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IStorage.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/IStorage.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interface_uni_g_l_t_f_1_1_i_storage_1a430b3d6dfb436d4aa8b49cd75acf163b" prot="public" virt="non-virtual"><scope>UniGLTF::IStorage</scope><name>Get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

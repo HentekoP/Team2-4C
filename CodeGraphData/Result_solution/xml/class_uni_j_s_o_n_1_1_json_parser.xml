@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_json_parser" kind="class" prot="public">
+    <compoundname>UniJSON::JsonParser</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1aa5b70e16f79e1682a790fe6f469dbf3f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82" kindref="member">ValueNodeType</ref></type>
+        <definition>static ValueNodeType UniJSON.JsonParser.GetValueType</definition>
+        <argsstring>(Utf8String segment)</argsstring>
+        <name>GetValueType</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="8" bodyend="58"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1a22cc20399264da762b86a5cccda1bf7b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.ParsePrimitive</definition>
+        <argsstring>(JsonNode tree, Utf8String segment, ValueNodeType valueType)</argsstring>
+        <name>ParsePrimitive</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82" kindref="member">ValueNodeType</ref></type>
+          <declname>valueType</declname>
+        </param>
+        <briefdescription>
+<para>Expected null, boolean, integer, number </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>segment</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valueType</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parentIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="67" bodyend="83"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1ad83708d992903260c830dc763f4be1db" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.ParseString</definition>
+        <argsstring>(JsonNode tree, Utf8String segment)</argsstring>
+        <name>ParseString</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="85" bodyend="96"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1a1c348a6ed7b2103ad35ab3f9de9c579d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.ParseArray</definition>
+        <argsstring>(JsonNode tree, Utf8String segment)</argsstring>
+        <name>ParseArray</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="98" bodyend="160"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1ae0b4dcf778fe2be4b002127bec5912da" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.ParseObject</definition>
+        <argsstring>(JsonNode tree, Utf8String segment)</argsstring>
+        <name>ParseObject</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="162" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="162" bodyend="249"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.Parse</definition>
+        <argsstring>(JsonNode tree, Utf8String segment)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>segment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="251" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="251" bodyend="285"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1aa5b70e16f79e1682a790fe6f469dbf3f" compoundref="_json_parser_8cs" startline="8" endline="58">UniJSON.JsonParser.GetValueType</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a1c348a6ed7b2103ad35ab3f9de9c579d" compoundref="_json_parser_8cs" startline="98" endline="160">UniJSON.JsonParser.ParseArray</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1ae0b4dcf778fe2be4b002127bec5912da" compoundref="_json_parser_8cs" startline="162" endline="249">UniJSON.JsonParser.ParseObject</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a22cc20399264da762b86a5cccda1bf7b" compoundref="_json_parser_8cs" startline="67" endline="83">UniJSON.JsonParser.ParsePrimitive</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1ad83708d992903260c830dc763f4be1db" compoundref="_json_parser_8cs" startline="85" endline="96">UniJSON.JsonParser.ParseString</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_diff_tests_1aaa33271f7819c9573e92e53bbc19d875" compoundref="_json_diff_tests_8cs" startline="46" endline="57">UniJSON.JsonDiffTests.DiffTest</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a4f4a1eb6ca47c46a8672d957ecbc1db6" compoundref="_json_parser_8cs" startline="287" endline="290">UniJSON.JsonParser.Parse</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1a1c348a6ed7b2103ad35ab3f9de9c579d" compoundref="_json_parser_8cs" startline="98" endline="160">UniJSON.JsonParser.ParseArray</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_1ae0b4dcf778fe2be4b002127bec5912da" compoundref="_json_parser_8cs" startline="162" endline="249">UniJSON.JsonParser.ParseObject</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_parser_test_1abcfca91c3b88cd88ce315927d8c31cfd" compoundref="_json_parser_test_8cs" startline="333" endline="337">UniJSON.JsonParserTest.ParseTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1a4f4a1eb6ca47c46a8672d957ecbc1db6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.Parse</definition>
+        <argsstring>(String json)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98" kindref="member">String</ref></type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="287" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="287" bodyend="290"/>
+        <references refid="struct_uni_j_s_o_n_1_1_utf8_string_1ae65d658c0d967188ef35565f732e1ff4" compoundref="_utf8_string_8cs" startline="68" endline="71">UniJSON.Utf8String.From</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_parser_1a3690ae535e4ee0beab8bac0514af35f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+        <definition>static JsonNode UniJSON.JsonParser.Parse</definition>
+        <argsstring>(Utf8String json)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="292" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="292" bodyend="295"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" compoundref="_json_parser_8cs" startline="251" endline="285">UniJSON.JsonParser.Parse</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonParser.cs" bodystart="6" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1aa5b70e16f79e1682a790fe6f469dbf3f" prot="private" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>GetValueType</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1a026ea5c98b30f8b25cd4b0b34d84d280" prot="public" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>Parse</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1a4f4a1eb6ca47c46a8672d957ecbc1db6" prot="public" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>Parse</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1a3690ae535e4ee0beab8bac0514af35f4" prot="public" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>Parse</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1a1c348a6ed7b2103ad35ab3f9de9c579d" prot="private" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>ParseArray</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1ae0b4dcf778fe2be4b002127bec5912da" prot="private" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>ParseObject</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1a22cc20399264da762b86a5cccda1bf7b" prot="private" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>ParsePrimitive</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_parser_1ad83708d992903260c830dc763f4be1db" prot="private" virt="non-virtual"><scope>UniJSON::JsonParser</scope><name>ParseString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

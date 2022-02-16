@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_date_time_offset_extensions" kind="class" prot="public">
+    <compoundname>UniJSON::DateTimeOffsetExtensions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a58024ac94d83b7cf0ca885b7b275ea66" prot="public" static="no" mutable="no">
+        <type>const long</type>
+        <definition>const long UniJSON.DateTimeOffsetExtensions.TicksPerSecond</definition>
+        <argsstring></argsstring>
+        <name>TicksPerSecond</name>
+        <initializer>= 10000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a16a5ac08d95867580ec2894694cf211e" compoundref="_date_time_offset_extensions_8cs" startline="13" endline="20">UniJSON.DateTimeOffsetExtensions.ToUnixTimeSeconds</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1aeeb731d1077efc57d303ed6b65e870fd" prot="public" static="yes" mutable="no">
+        <type>readonly DateTimeOffset</type>
+        <definition>readonly DateTimeOffset UniJSON.DateTimeOffsetExtensions.EpochTime</definition>
+        <argsstring></argsstring>
+        <name>EpochTime</name>
+        <initializer>= new DateTimeOffset(1970, 1, 1, 0, 0, 0, 0, TimeSpan.Zero)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a16a5ac08d95867580ec2894694cf211e" compoundref="_date_time_offset_extensions_8cs" startline="13" endline="20">UniJSON.DateTimeOffsetExtensions.ToUnixTimeSeconds</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a56d7e22ed66eefcaa35337b538664a45" prot="public" static="yes" mutable="no">
+        <type>readonly DateTimeOffset</type>
+        <definition>readonly DateTimeOffset UniJSON.DateTimeOffsetExtensions.EpocTime</definition>
+        <argsstring></argsstring>
+        <name>EpocTime</name>
+        <initializer>= <ref refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1aeeb731d1077efc57d303ed6b65e870fd" kindref="member">EpochTime</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a16a5ac08d95867580ec2894694cf211e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long UniJSON.DateTimeOffsetExtensions.ToUnixTimeSeconds</definition>
+        <argsstring>(this DateTimeOffset now)</argsstring>
+        <name>ToUnixTimeSeconds</name>
+        <param>
+          <type>this DateTimeOffset</type>
+          <declname>now</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" bodystart="13" bodyend="20"/>
+        <references refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1aeeb731d1077efc57d303ed6b65e870fd" compoundref="_date_time_offset_extensions_8cs" startline="9">UniJSON.DateTimeOffsetExtensions.EpochTime</references>
+        <references refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a58024ac94d83b7cf0ca885b7b275ea66" compoundref="_date_time_offset_extensions_8cs" startline="8">UniJSON.DateTimeOffsetExtensions.TicksPerSecond</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Extensions/DateTimeOffsetExtensions.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1aeeb731d1077efc57d303ed6b65e870fd" prot="public" virt="non-virtual"><scope>UniJSON::DateTimeOffsetExtensions</scope><name>EpochTime</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a56d7e22ed66eefcaa35337b538664a45" prot="public" virt="non-virtual"><scope>UniJSON::DateTimeOffsetExtensions</scope><name>EpocTime</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a58024ac94d83b7cf0ca885b7b275ea66" prot="public" virt="non-virtual"><scope>UniJSON::DateTimeOffsetExtensions</scope><name>TicksPerSecond</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_date_time_offset_extensions_1a16a5ac08d95867580ec2894694cf211e" prot="public" virt="non-virtual"><scope>UniJSON::DateTimeOffsetExtensions</scope><name>ToUnixTimeSeconds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

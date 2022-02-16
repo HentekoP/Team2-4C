@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_serializer_8g_8cs" kind="file">
+    <compoundname>Serializer.g.cs</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer" prot="public">UniGLTF::Extensions::VRMC_materials_hdr_emissiveMultiplier::GltfSerializer</innerclass>
+    <innernamespace refid="namespace_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier">UniGLTF::Extensions::VRMC_materials_hdr_emissiveMultiplier</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>generated<sp/>from<sp/>JsonSchema.<sp/>Don&apos;t<sp/>modify<sp/>this<sp/>source<sp/>code.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniJSON;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniGLTF.Extensions.VRMC_materials_hdr_emissiveMultiplier<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer" kindref="compound">GltfSerializer</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a8ec9a8b953923baf412276354befe614" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a8ec9a8b953923baf412276354befe614" kindref="member">SerializeTo</ref>(ref<sp/>UniGLTF.glTFExtension<sp/>dst,<sp/><ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_v_r_m_c__m18444b9b9926009856f7b35263bb1e5a" kindref="compound">VRMC_materials_hdr_emissiveMultiplier</ref><sp/>extension)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dst<sp/>is<sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_import" kindref="compound">glTFExtensionImport</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(dst<sp/>is<sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export" kindref="compound">glTFExtensionExport</ref><sp/>extensions))</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>extensions<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export" kindref="compound">glTFExtensionExport</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst<sp/>=<sp/>extensions;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>f<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" kindref="member">Serialize</ref>(f,<sp/>extension);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>extensions.Add(VRMC_materials_hdr_emissiveMultiplier.ExtensionName,<sp/>f.GetStoreBytes());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a84094dc62d2ca2c326631ab5244707f6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a84094dc62d2ca2c326631ab5244707f6" kindref="member">Serialize</ref>(<ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref><sp/>f,<sp/><ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_v_r_m_c__m18444b9b9926009856f7b35263bb1e5a" kindref="compound">VRMC_materials_hdr_emissiveMultiplier</ref><sp/>value)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>f.BeginMap();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(value.<ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_v_r_m_c__m18444b9b9926009856f7b35263bb1e5a_1acc436a724532671b5a6c7f98647db37e" kindref="member">Extensions</ref>!=null){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.Key(</highlight><highlight class="stringliteral">&quot;extensions&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(value.Extensions<sp/>as<sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref>).<ref refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" kindref="member">Serialize</ref>(f);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(value.<ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_v_r_m_c__m18444b9b9926009856f7b35263bb1e5a_1abe394ee7146aeb1f68aefb2f819a2038" kindref="member">Extras</ref>!=null){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.Key(</highlight><highlight class="stringliteral">&quot;extras&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(value.Extras<sp/>as<sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref>).<ref refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" kindref="member">Serialize</ref>(f);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(value.<ref refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_v_r_m_c__m18444b9b9926009856f7b35263bb1e5a_1a068766f67b7851cb7cc503177d0257ac" kindref="member">EmissiveMultiplier</ref>.HasValue){</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.Key(</highlight><highlight class="stringliteral">&quot;emissiveMultiplier&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.Value(value.EmissiveMultiplier.GetValueOrDefault());</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>f.EndMap();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/EmissiveMultiplier/Serializer.g.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bvh_bone" kind="class" prot="public">
+    <compoundname>UniHumanoid::BvhBone</compoundname>
+    <basecompoundref refid="interface_uni_humanoid_1_1_i_bone" prot="public" virt="non-virtual">UniHumanoid.IBone</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_bone_1ad198dd8846e41f58b11bcd42af4ac90f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string UniHumanoid.BvhBone.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" compoundref="_bvh_bone_8cs" startline="21" endline="25">UniHumanoid.BvhBone.BvhBone</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1accc99500fe6389425fc4bb14a2eb6184" compoundref="_bvh_bone_8cs" startline="27" endline="30">UniHumanoid.BvhBone.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_bone_1aa54d6dc4a720ec1c9f2a62990a4c3deb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniHumanoid.BvhBone.SkeletonLocalPosition</definition>
+        <argsstring></argsstring>
+        <name>SkeletonLocalPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1ad721df1ca0379523c87ad2dbd7762744" compoundref="_bvh_bone_8cs" startline="44" endline="54">UniHumanoid.BvhBone.Build</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" compoundref="_bvh_bone_8cs" startline="21" endline="25">UniHumanoid.BvhBone.BvhBone</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_bone_1a4ea5f32641fdf3f793f3eb6e70a59ca8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+        <definition>IBone UniHumanoid.BvhBone.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_bone_1a46a87989f30ee4014ad47b19a3b03cf6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+        <definition>IList&lt;IBone&gt; UniHumanoid.BvhBone.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1a2d8d097f3f7b5a22eec535dfd7967527" compoundref="_bvh_bone_8cs" startline="68" endline="78">UniHumanoid.BvhBone.Traverse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_bone_1ad0e75c9ce4fb0c6b34985da6cc213422" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+        <definition>List&lt;IBone&gt; UniHumanoid.BvhBone._children</definition>
+        <argsstring></argsstring>
+        <name>_children</name>
+        <initializer>= new List&lt;<ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.BvhBone.BvhBone</definition>
+        <argsstring>(string name, Vector3 position)</argsstring>
+        <name>BvhBone</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1ad198dd8846e41f58b11bcd42af4ac90f" compoundref="_bvh_bone_8cs" startline="10">UniHumanoid.BvhBone.Name</references>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1aa54d6dc4a720ec1c9f2a62990a4c3deb" compoundref="_bvh_bone_8cs" startline="16">UniHumanoid.BvhBone.SkeletonLocalPosition</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_bone_1ad721df1ca0379523c87ad2dbd7762744" compoundref="_bvh_bone_8cs" startline="44" endline="54">UniHumanoid.BvhBone.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_bone_1accc99500fe6389425fc4bb14a2eb6184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniHumanoid.BvhBone.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="27" bodyend="30"/>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1ad198dd8846e41f58b11bcd42af4ac90f" compoundref="_bvh_bone_8cs" startline="10">UniHumanoid.BvhBone.Name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_bone_1ad721df1ca0379523c87ad2dbd7762744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhBone.Build</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>Build</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="44" bodyend="54"/>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" compoundref="_bvh_bone_8cs" startline="21" endline="25">UniHumanoid.BvhBone.BvhBone</references>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1aa54d6dc4a720ec1c9f2a62990a4c3deb" compoundref="_bvh_bone_8cs" startline="16">UniHumanoid.BvhBone.SkeletonLocalPosition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_bone_1add124a5dd58738e986ce33d75dc628d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhBone.Build</definition>
+        <argsstring>(BvhNode node)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="56" bodyend="66"/>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" compoundref="_bvh_bone_8cs" startline="21" endline="25">UniHumanoid.BvhBone.BvhBone</references>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1aa54d6dc4a720ec1c9f2a62990a4c3deb" compoundref="_bvh_bone_8cs" startline="16">UniHumanoid.BvhBone.SkeletonLocalPosition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_bone_1a2d8d097f3f7b5a22eec535dfd7967527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_uni_humanoid_1_1_bvh_bone" kindref="compound">BvhBone</ref> &gt;</type>
+        <definition>IEnumerable&lt;BvhBone&gt; UniHumanoid.BvhBone.Traverse</definition>
+        <argsstring>()</argsstring>
+        <name>Traverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="68" bodyend="78"/>
+        <references refid="class_uni_humanoid_1_1_bvh_bone_1a46a87989f30ee4014ad47b19a3b03cf6" compoundref="_bvh_bone_8cs" startline="40">UniHumanoid.BvhBone.Children</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="392">
+        <label>IBone</label>
+        <link refid="interface_uni_humanoid_1_1_i_bone"/>
+      </node>
+      <node id="391">
+        <label>UniHumanoid.BvhBone</label>
+        <link refid="class_uni_humanoid_1_1_bvh_bone"/>
+        <childnode refid="392" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="394">
+        <label>IBone</label>
+        <link refid="interface_uni_humanoid_1_1_i_bone"/>
+      </node>
+      <node id="393">
+        <label>UniHumanoid.BvhBone</label>
+        <link refid="class_uni_humanoid_1_1_bvh_bone"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BvhBone.cs" bodystart="7" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1ad0e75c9ce4fb0c6b34985da6cc213422" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>_children</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1ad721df1ca0379523c87ad2dbd7762744" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Build</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1add124a5dd58738e986ce33d75dc628d7" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Build</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1a000a833b62ba335986654eb035e26980" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>BvhBone</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1a46a87989f30ee4014ad47b19a3b03cf6" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Children</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1ad198dd8846e41f58b11bcd42af4ac90f" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Name</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1a4ea5f32641fdf3f793f3eb6e70a59ca8" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Parent</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1aa54d6dc4a720ec1c9f2a62990a4c3deb" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>SkeletonLocalPosition</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1accc99500fe6389425fc4bb14a2eb6184" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>ToString</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_bone_1a2d8d097f3f7b5a22eec535dfd7967527" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhBone</scope><name>Traverse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

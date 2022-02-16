@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_responsibility_for_destroy_objects_8cs" kind="file">
+    <compoundname>IResponsibilityForDestroyObjects.cs</compoundname>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" prot="public">VRMShaders::IResponsibilityForDestroyObjects</innerclass>
+    <innernamespace refid="namespace_v_r_m_shaders">VRMShaders</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRMShaders</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" kindref="member">TakeResponsibilityForDestroyObjectFunc</ref>(SubAssetKey<sp/>key,<sp/>UnityEngine.Object<sp/>obj);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" kindref="compound">IResponsibilityForDestroyObjects</ref><sp/>:<sp/>IDisposable</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a" kindref="member">TransferOwnership</ref>(<ref refid="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" kindref="member">TakeResponsibilityForDestroyObjectFunc</ref><sp/>take);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs"/>
+  </compounddef>
+</doxygen>

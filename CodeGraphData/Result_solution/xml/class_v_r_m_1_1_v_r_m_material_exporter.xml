@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_material_exporter" kind="class" prot="public">
+    <compoundname>VRM::VRMMaterialExporter</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_material_exporter" prot="public" virt="non-virtual">UniGLTF.MaterialExporter</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_material_exporter_1a1a452e06eed52c937a674bb6f072d43b" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] VRM.VRMMaterialExporter.TAGS</definition>
+        <argsstring></argsstring>
+        <name>TAGS</name>
+        <initializer>= new string[]{
+            &quot;RenderType&quot;,
+            
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="124" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="124" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1ad57040cda5b512ee2ca420e611742b1b" compoundref="_v_r_m_material_exporter_8cs" startline="129" endline="235">VRM.VRMMaterialExporter.CreateFromMaterial</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a4035c0a59bdc003314c0bd096f80a0cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.VRMMaterialExporter.VrmMaterialName</definition>
+        <argsstring>(string shaderName)</argsstring>
+        <name>VrmMaterialName</name>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="14" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1ad57040cda5b512ee2ca420e611742b1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material" kindref="compound">glTF_VRM_Material</ref></type>
+        <definition>static glTF_VRM_Material VRM.VRMMaterialExporter.CreateFromMaterial</definition>
+        <argsstring>(Material m, ITextureExporter textureExporter)</argsstring>
+        <name>CreateFromMaterial</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_exporter" kindref="compound">ITextureExporter</ref></type>
+          <declname>textureExporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="129" bodyend="235"/>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1a452e06eed52c937a674bb6f072d43b" compoundref="_v_r_m_material_exporter_8cs" startline="124">VRM.VRMMaterialExporter.TAGS</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1ac05acfff05cd0e011b7f595fac4b72a5" compoundref="gl_t_f___v_r_m___material_8cs" startline="24">VRM.glTF_VRM_Material.VRM_USE_GLTFSHADER</references>
+        <references refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_pre_shader_prop_exporter_1ab5f6d3c7ac8b2f858ced9213bbb23c40" compoundref="_pre_shader_prop_exporter_8cs" startline="30">UniGLTF.ShaderPropExporter.PreShaderPropExporter.VRMExtensionShaders</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>override glTFMaterial VRM.VRMMaterialExporter.CreateMaterial</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>CreateMaterial</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_material_exporter_1a468489f73299692575fe0541ebb49d1a">CreateMaterial</reimplements>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="32" bodyend="54"/>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1aaaadc2876acaa0c045b59849b3b51000" compoundref="_v_r_m_material_exporter_8cs" startline="81" endline="120">VRM.VRMMaterialExporter.Export_VRMMToon</references>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1a7b75d0885e853575b352a67c1f956072" compoundref="_v_r_m_material_exporter_8cs" startline="68" endline="73">VRM.VRMMaterialExporter.Export_VRMUnlitCutout</references>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1a2fe20c7052d87b472d54d47301e85031" compoundref="_v_r_m_material_exporter_8cs" startline="56" endline="61">VRM.VRMMaterialExporter.Export_VRMUnlitTexture</references>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1a9cc1d20fb4cd3c82d0cbb580dacf7a66" compoundref="_v_r_m_material_exporter_8cs" startline="62" endline="67">VRM.VRMMaterialExporter.Export_VRMUnlitTransparent</references>
+        <references refid="class_v_r_m_1_1_v_r_m_material_exporter_1a7b9a5308563934fa75d823fe404feadf" compoundref="_v_r_m_material_exporter_8cs" startline="74" endline="79">VRM.VRMMaterialExporter.Export_VRMUnlitTransparentZWrite</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a2fe20c7052d87b472d54d47301e85031" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>static glTFMaterial VRM.VRMMaterialExporter.Export_VRMUnlitTexture</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>Export_VRMUnlitTexture</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="56" bodyend="61"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" compoundref="_v_r_m_material_exporter_8cs" startline="32" endline="54">VRM.VRMMaterialExporter.CreateMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a9cc1d20fb4cd3c82d0cbb580dacf7a66" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>static glTFMaterial VRM.VRMMaterialExporter.Export_VRMUnlitTransparent</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>Export_VRMUnlitTransparent</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="62" bodyend="67"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" compoundref="_v_r_m_material_exporter_8cs" startline="32" endline="54">VRM.VRMMaterialExporter.CreateMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a7b75d0885e853575b352a67c1f956072" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>static glTFMaterial VRM.VRMMaterialExporter.Export_VRMUnlitCutout</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>Export_VRMUnlitCutout</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="68" bodyend="73"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" compoundref="_v_r_m_material_exporter_8cs" startline="32" endline="54">VRM.VRMMaterialExporter.CreateMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1a7b9a5308563934fa75d823fe404feadf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>static glTFMaterial VRM.VRMMaterialExporter.Export_VRMUnlitTransparentZWrite</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>Export_VRMUnlitTransparentZWrite</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="74" bodyend="79"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" compoundref="_v_r_m_material_exporter_8cs" startline="32" endline="54">VRM.VRMMaterialExporter.CreateMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_material_exporter_1aaaadc2876acaa0c045b59849b3b51000" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+        <definition>static glTFMaterial VRM.VRMMaterialExporter.Export_VRMMToon</definition>
+        <argsstring>(Material m)</argsstring>
+        <name>Export_VRMMToon</name>
+        <param>
+          <type>Material</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="81" bodyend="120"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" compoundref="_v_r_m_material_exporter_8cs" startline="32" endline="54">VRM.VRMMaterialExporter.CreateMaterial</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2860">
+        <label>IMaterialExporter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_exporter"/>
+      </node>
+      <node id="2858">
+        <label>VRM.VRMMaterialExporter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_material_exporter"/>
+        <childnode refid="2859" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2859">
+        <label>MaterialExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1_material_exporter"/>
+        <childnode refid="2860" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2863">
+        <label>IMaterialExporter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_exporter"/>
+      </node>
+      <node id="2861">
+        <label>VRM.VRMMaterialExporter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_material_exporter"/>
+        <childnode refid="2862" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2862">
+        <label>MaterialExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1_material_exporter"/>
+        <childnode refid="2863" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMMaterialExporter.cs" bodystart="12" bodyend="237"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1ae51b6b2a78bfe2e50582c1c421929792" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>COLOR_TEXTURE_PROP</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1ad57040cda5b512ee2ca420e611742b1b" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>CreateFromMaterial</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1611713fb764e3105ed01fe5ebfcab70" prot="protected" virt="virtual"><scope>VRM::VRMMaterialExporter</scope><name>CreateMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1abdb3faf6bdd0f37b77e7af574cdd3354" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>EMISSION_TEX_PROP</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1aaaadc2876acaa0c045b59849b3b51000" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>Export_VRMMToon</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a7b75d0885e853575b352a67c1f956072" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>Export_VRMUnlitCutout</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a2fe20c7052d87b472d54d47301e85031" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>Export_VRMUnlitTexture</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a9cc1d20fb4cd3c82d0cbb580dacf7a66" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>Export_VRMUnlitTransparent</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a7b9a5308563934fa75d823fe404feadf" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>Export_VRMUnlitTransparentZWrite</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1aa65ec63195f24f456958ebce8c0d15bf" prot="public" virt="virtual"><scope>VRM::VRMMaterialExporter</scope><name>ExportMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1aba921c18828b1b86833dab66e1b7f6f5" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>IsUnlit</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1a40a445f58dd4936750504ebefa0a6ef3" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>METALLIC_TEX_PROP</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1a0b0fce4b69418dbb69362587fd89f81a" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>NORMAL_TEX_PROP</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_material_exporter_1ad5e11a481fc1a7251703eb72f0011ef8" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>OCCLUSION_TEX_PROP</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a1a452e06eed52c937a674bb6f072d43b" prot="private" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>TAGS</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_material_exporter_1a4035c0a59bdc003314c0bd096f80a0cd" prot="public" virt="non-virtual"><scope>VRM::VRMMaterialExporter</scope><name>VrmMaterialName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

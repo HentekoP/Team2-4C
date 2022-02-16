@@ -1,0 +1,2077 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_humanoid" kind="class" prot="public">
+    <compoundname>UniHumanoid::Humanoid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_uni_humanoid_1_1_humanoid_1_1_validation" prot="public">UniHumanoid::Humanoid::Validation</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3aadb80494d1665a0a08edd549825cf4" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Hips</definition>
+        <argsstring></argsstring>
+        <name>m_Hips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>m_LeftUpperLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a072027990ea7e3f2421e06fd0734f9da" compoundref="_humanoid_8cs" startline="127" endline="130">UniHumanoid.Humanoid.GetForward</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>m_RightUpperLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a072027990ea7e3f2421e06fd0734f9da" compoundref="_humanoid_8cs" startline="127" endline="130">UniHumanoid.Humanoid.GetForward</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a7366a8f5f77a6997a662611e6f585743" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLowerLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a51849dadcae77bd9c1070b23503a0e9c" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>m_RightLowerLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a387d086a8adfbd3221b78c4dfd8d94eb" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftFoot</definition>
+        <argsstring></argsstring>
+        <name>m_LeftFoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad687efb9cc8839606f62b5c00ba37a0c" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightFoot</definition>
+        <argsstring></argsstring>
+        <name>m_RightFoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3162c071b989c30384f85e1bab4a9f1f" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftToes</definition>
+        <argsstring></argsstring>
+        <name>m_LeftToes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1afa862f02f026d3fe82e3d077e90c0442" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightToes</definition>
+        <argsstring></argsstring>
+        <name>m_RightToes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a11a62e87d94013155f9a54a7f09f6db8" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Spine</definition>
+        <argsstring></argsstring>
+        <name>m_Spine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a4fca4627cada7090bb2ac46006ae98a3" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Chest</definition>
+        <argsstring></argsstring>
+        <name>m_Chest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a51fd29c7fed22865a299499e2520a368" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_UpperChest</definition>
+        <argsstring></argsstring>
+        <name>m_UpperChest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a26bd8acd4e3d62bb3e5e4bfe0071e461" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Neck</definition>
+        <argsstring></argsstring>
+        <name>m_Neck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a507474086d9601564cede6f1ba6a2f4b" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Head</definition>
+        <argsstring></argsstring>
+        <name>m_Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aa90a40cc675d971fc9e6e50e398a4431" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftEye</definition>
+        <argsstring></argsstring>
+        <name>m_LeftEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1af5e50d7807ce4bf7ab0ac67492754dde" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightEye</definition>
+        <argsstring></argsstring>
+        <name>m_RightEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1abe95dcd85cb3d4136e6988a390f26566" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_Jaw</definition>
+        <argsstring></argsstring>
+        <name>m_Jaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a478ac061f98667e668a3563e80e297ff" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftShoulder</definition>
+        <argsstring></argsstring>
+        <name>m_LeftShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1adf6d712edee716c0551cf62bffca05d3" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightShoulder</definition>
+        <argsstring></argsstring>
+        <name>m_RightShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a45f8bff0dfbff4cd00bae526be7b5906" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftUpperArm</definition>
+        <argsstring></argsstring>
+        <name>m_LeftUpperArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9f800565040f15ce0c5a37118afb1362" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightUpperArm</definition>
+        <argsstring></argsstring>
+        <name>m_RightUpperArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1abda6f8830b3646e81b1ec07f71c3b3ac" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftLowerArm</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLowerArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ae41bd7521a7894533f10015da983e36c" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightLowerArm</definition>
+        <argsstring></argsstring>
+        <name>m_RightLowerArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a6a0fe45665c32d7cf4daee4657958699" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftHand</definition>
+        <argsstring></argsstring>
+        <name>m_LeftHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3af26e5e4c80aaed72f2528775c97474" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightHand</definition>
+        <argsstring></argsstring>
+        <name>m_RightHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a118ebaf0078dc64f4a8ca80ffb416199" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1adde6c38c479b6c2bd0befec0cf3c02a1" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9d84a71fb500109796d9ed29d9965e10" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aa2fe2bd7de4a6e2191a39aafdbc1d3cf" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3f9419ad2f603af1cb847182ce5f3b73" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a1544ff0fd8d8639883ba50b4d4a1ada6" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a341aa17f58f8c0560618306262833d6c" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a84603f00bbd69de57c1b2ee6e303aab9" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aa3c3a01186af9c7a0c882220ff7bc095" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1adfe28fe219c17dc13fcdabad51f77833" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftRingProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a925f49c2d07d60cacbfdd0408868fc62" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a04a2a8de7fa3712f0816ace102456ec7" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftRingDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ac46e4f01db83e284e4382f6bd9d02877" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3621444c5482a21679d5a4ca72b121c8" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a2a451262588a8db09c1bc95d1f241b73" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_LeftLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a29c35dba50fb78b887e92003a4242315" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a681422d3a79d964a9e1e8e3cf6909987" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a6764c21a8e0d1612bedb5e6443bd55b3" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aa0aac8a9be91125612b3c2ea58c4e227" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad2767f5965df3c8f1be3feee0ec05360" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a7bde1c53e84d052047c79794704fb698" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a21383016e98337375f2f08cb6e91e1f9" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a16b7b35e796d4426196a94338e99e0ef" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a630e2982064be7ef24c8d0515fb4095d" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a8d9b1c514559f4528f90d256c32c0103" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightRingProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1af912f9e59f97436c6ec409c3aa6dce16" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad0beb5f213b6f6cca1051ba85cef91b1" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightRingDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3a4ffcb0feb9c86a51c3be6c6b16f555" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a6a6f826034e923fcb4eea1d923b1427e" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1af74507193a34ae9d5d2666e40c527dcb" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.m_RightLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ab07d8ff6c219dd83ddc8b7165a3c4d81" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Hips</definition>
+        <argsstring></argsstring>
+        <name>Hips</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3aadb80494d1665a0a08edd549825cf4" kindref="member">m_Hips</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9232b304754f4c346ec7693501bf1048" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>LeftUpperLeg</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" kindref="member">m_LeftUpperLeg</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a30fbe2544783b0cf1edf45d598dee7f1" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>RightUpperLeg</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" kindref="member">m_RightUpperLeg</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad08e86ffd419bf558b5adec354f44290" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>LeftLowerLeg</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a7366a8f5f77a6997a662611e6f585743" kindref="member">m_LeftLowerLeg</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a5d42018d70d968be9748163532e7116f" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>RightLowerLeg</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a51849dadcae77bd9c1070b23503a0e9c" kindref="member">m_RightLowerLeg</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad7316b01bc0b30a6b70d1a0ac8fe76a6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftFoot</definition>
+        <argsstring></argsstring>
+        <name>LeftFoot</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a387d086a8adfbd3221b78c4dfd8d94eb" kindref="member">m_LeftFoot</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9e067b0a03dc0eb5e8dc523548cb0173" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightFoot</definition>
+        <argsstring></argsstring>
+        <name>RightFoot</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1ad687efb9cc8839606f62b5c00ba37a0c" kindref="member">m_RightFoot</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a0325c2169014024cfa7f318ad9574c8b" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftToes</definition>
+        <argsstring></argsstring>
+        <name>LeftToes</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3162c071b989c30384f85e1bab4a9f1f" kindref="member">m_LeftToes</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a990702d7285e5ded2c2b0a1b77265bdc" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightToes</definition>
+        <argsstring></argsstring>
+        <name>RightToes</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1afa862f02f026d3fe82e3d077e90c0442" kindref="member">m_RightToes</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a072538d90b3359e2dc5be8386afe1fc5" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Spine</definition>
+        <argsstring></argsstring>
+        <name>Spine</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a11a62e87d94013155f9a54a7f09f6db8" kindref="member">m_Spine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a5e9f1f36d8bd153c9726f7c1f9c94ddd" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Chest</definition>
+        <argsstring></argsstring>
+        <name>Chest</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a4fca4627cada7090bb2ac46006ae98a3" kindref="member">m_Chest</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a4da86113e0935e34a1b730264252b56b" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.UpperChest</definition>
+        <argsstring></argsstring>
+        <name>UpperChest</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a51fd29c7fed22865a299499e2520a368" kindref="member">m_UpperChest</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a4278b8ec4a217c2849a7048abefe1586" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Neck</definition>
+        <argsstring></argsstring>
+        <name>Neck</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a26bd8acd4e3d62bb3e5e4bfe0071e461" kindref="member">m_Neck</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9cbedc4671ef5d3b7a2bf682a20252ef" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Head</definition>
+        <argsstring></argsstring>
+        <name>Head</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a507474086d9601564cede6f1ba6a2f4b" kindref="member">m_Head</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3a7b892d30e1ca43a484bf087638b55b" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftEye</definition>
+        <argsstring></argsstring>
+        <name>LeftEye</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1aa90a40cc675d971fc9e6e50e398a4431" kindref="member">m_LeftEye</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a7419a261252cb1902959152393d228f2" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightEye</definition>
+        <argsstring></argsstring>
+        <name>RightEye</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1af5e50d7807ce4bf7ab0ac67492754dde" kindref="member">m_RightEye</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a87b7c5c229cbfce90c4d02640dccb7a4" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.Jaw</definition>
+        <argsstring></argsstring>
+        <name>Jaw</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1abe95dcd85cb3d4136e6988a390f26566" kindref="member">m_Jaw</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ad6dadbe5f240fee03eb5923044e148e3" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftShoulder</definition>
+        <argsstring></argsstring>
+        <name>LeftShoulder</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a478ac061f98667e668a3563e80e297ff" kindref="member">m_LeftShoulder</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a2b8ddf3a1a11674d82a8af01b9fd9b81" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightShoulder</definition>
+        <argsstring></argsstring>
+        <name>RightShoulder</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1adf6d712edee716c0551cf62bffca05d3" kindref="member">m_RightShoulder</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ab6124921fc9d295abccfc8946639f9e9" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftUpperArm</definition>
+        <argsstring></argsstring>
+        <name>LeftUpperArm</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a45f8bff0dfbff4cd00bae526be7b5906" kindref="member">m_LeftUpperArm</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1abe2fc20ba5d82ba206b970e52a03994e" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightUpperArm</definition>
+        <argsstring></argsstring>
+        <name>RightUpperArm</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a9f800565040f15ce0c5a37118afb1362" kindref="member">m_RightUpperArm</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a99617cf07c7e393076d1ce1700ecebde" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftLowerArm</definition>
+        <argsstring></argsstring>
+        <name>LeftLowerArm</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1abda6f8830b3646e81b1ec07f71c3b3ac" kindref="member">m_LeftLowerArm</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3cc925b1b983190d5fc99e337fcdd6c5" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightLowerArm</definition>
+        <argsstring></argsstring>
+        <name>RightLowerArm</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1ae41bd7521a7894533f10015da983e36c" kindref="member">m_RightLowerArm</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3dcd6a8e1b06b8c2acb4b70fefa93d39" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftHand</definition>
+        <argsstring></argsstring>
+        <name>LeftHand</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a6a0fe45665c32d7cf4daee4657958699" kindref="member">m_LeftHand</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ac01357659ba0d031c804e6e6b2d2654e" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightHand</definition>
+        <argsstring></argsstring>
+        <name>RightHand</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3af26e5e4c80aaed72f2528775c97474" kindref="member">m_RightHand</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ac60047b39b3b03506e58ff53b95e00f8" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>LeftThumbProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a118ebaf0078dc64f4a8ca80ffb416199" kindref="member">m_LeftThumbProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a05549acda4dded01aa32082db6f79b66" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>LeftThumbIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1adde6c38c479b6c2bd0befec0cf3c02a1" kindref="member">m_LeftThumbIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a189e78bcf25c419ed9fbbf192986664f" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>LeftThumbDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a9d84a71fb500109796d9ed29d9965e10" kindref="member">m_LeftThumbDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ae96f27b736d63b6c5b002c332900dd0b" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>LeftIndexProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1aa2fe2bd7de4a6e2191a39aafdbc1d3cf" kindref="member">m_LeftIndexProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a2ed3d80cb69a8b8e240fbc5e507308a7" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>LeftIndexIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3f9419ad2f603af1cb847182ce5f3b73" kindref="member">m_LeftIndexIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a533b7dae7d733a9decd3ed294a89f2a1" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>LeftIndexDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a1544ff0fd8d8639883ba50b4d4a1ada6" kindref="member">m_LeftIndexDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ae7b9f021559aaab7e2c1a0f4218f0bd8" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddleProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a341aa17f58f8c0560618306262833d6c" kindref="member">m_LeftMiddleProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a0742e528267e5d8009fd435bb48c245e" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddleIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a84603f00bbd69de57c1b2ee6e303aab9" kindref="member">m_LeftMiddleIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a046463a9afee9d3c5651d66557938f29" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>LeftMiddleDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1aa3c3a01186af9c7a0c882220ff7bc095" kindref="member">m_LeftMiddleDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a93b8bf561869b5ec1204cbc402dfcb48" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftRingProximal</definition>
+        <argsstring></argsstring>
+        <name>LeftRingProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1adfe28fe219c17dc13fcdabad51f77833" kindref="member">m_LeftRingProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a3e8791c2deb5baa2b1468745cac3861e" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>LeftRingIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a925f49c2d07d60cacbfdd0408868fc62" kindref="member">m_LeftRingIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a951ce3df3c75bbea167628b1607bdbc2" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftRingDistal</definition>
+        <argsstring></argsstring>
+        <name>LeftRingDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a04a2a8de7fa3712f0816ace102456ec7" kindref="member">m_LeftRingDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a1f08571190f188d53ec74c227bfed2f6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>LeftLittleProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1ac46e4f01db83e284e4382f6bd9d02877" kindref="member">m_LeftLittleProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ac1a94282dd81a754447c7c9969c43232" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>LeftLittleIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3621444c5482a21679d5a4ca72b121c8" kindref="member">m_LeftLittleIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a842342f6e314d54483d59fe58ba31219" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.LeftLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>LeftLittleDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a2a451262588a8db09c1bc95d1f241b73" kindref="member">m_LeftLittleDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aaff3df4579317e485b6e44f656fb6c29" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>RightThumbProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a29c35dba50fb78b887e92003a4242315" kindref="member">m_RightThumbProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a8cacde822e6485866db78e2ce3994589" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>RightThumbIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a681422d3a79d964a9e1e8e3cf6909987" kindref="member">m_RightThumbIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a9463d87867275f5bda651194b18c5ba5" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>RightThumbDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a6764c21a8e0d1612bedb5e6443bd55b3" kindref="member">m_RightThumbDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aff9f8c099e6d6d852f9721400a154b94" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>RightIndexProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1aa0aac8a9be91125612b3c2ea58c4e227" kindref="member">m_RightIndexProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1af4d4917fa0de243dee756b4c901d96df" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>RightIndexIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1ad2767f5965df3c8f1be3feee0ec05360" kindref="member">m_RightIndexIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a08729fe47fc786cd23d350a1eea97cb1" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>RightIndexDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a7bde1c53e84d052047c79794704fb698" kindref="member">m_RightIndexDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a8467059e3bf0036cb3922350d5b7ed91" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>RightMiddleProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a21383016e98337375f2f08cb6e91e1f9" kindref="member">m_RightMiddleProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1abbfd2984c48a6affbd700eba014bfb6a" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>RightMiddleIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a16b7b35e796d4426196a94338e99e0ef" kindref="member">m_RightMiddleIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a5a7452e111f15f919d96fc8ac4521f25" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>RightMiddleDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a630e2982064be7ef24c8d0515fb4095d" kindref="member">m_RightMiddleDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1aaf07995196a8554963ecec2ffb7deab6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightRingProximal</definition>
+        <argsstring></argsstring>
+        <name>RightRingProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a8d9b1c514559f4528f90d256c32c0103" kindref="member">m_RightRingProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1ae8cb1efc3c8a4bc52fe593e4f2f5d4f9" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>RightRingIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1af912f9e59f97436c6ec409c3aa6dce16" kindref="member">m_RightRingIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a20accac913dbda64c038aca31d1f3f29" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightRingDistal</definition>
+        <argsstring></argsstring>
+        <name>RightRingDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1ad0beb5f213b6f6cca1051ba85cef91b1" kindref="member">m_RightRingDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a757f9edfe2ad6f6f6ae56c11bd1a392b" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>RightLittleProximal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a3a4ffcb0feb9c86a51c3be6c6b16f555" kindref="member">m_RightLittleProximal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a56ee14cb0f83b6c4105162cdd3447d9d" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>RightLittleIntermediate</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1a6a6f826034e923fcb4eea1d923b1427e" kindref="member">m_RightLittleIntermediate</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_1a995a2305ed9eacd98d2e112f419f4e31" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.RightLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>RightLittleDistal</name>
+        <initializer>=&gt; <ref refid="class_uni_humanoid_1_1_humanoid_1af74507193a34ae9d5d2666e40c527dcb" kindref="member">m_RightLittleDistal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" compoundref="_humanoid_8cs" startline="161" endline="236">UniHumanoid.Humanoid.GetBoneTransform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_humanoid_1a1bfcfcd035462c3a43f292c0187a1d72" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt;(Transform, HumanBodyBones)&gt;</type>
+        <definition>IEnumerable&lt;(Transform, HumanBodyBones)&gt; UniHumanoid.Humanoid.BoneMap</definition>
+        <argsstring></argsstring>
+        <name>BoneMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="238" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1a5fc2819924f194bf3f3591583e961544" compoundref="_humanoid_8cs" startline="156" endline="159">UniHumanoid.Humanoid.CreateAvatar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1adc59c9760f5aecdfce8f9c33e376f37c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.Humanoid.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="84" bodyend="87"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aaef3706b4f9dedcb44b40d019237f333" compoundref="_humanoid_8cs" startline="406" endline="439">UniHumanoid.Humanoid.AssignBonesFromAnimator</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1a11d46710bb0023678840e223f03a974e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_uni_humanoid_1_1_humanoid_1_1_validation" kindref="compound">Validation</ref> &gt;</type>
+        <definition>IEnumerable&lt;Validation&gt; UniHumanoid.Humanoid.Required</definition>
+        <argsstring>(params(string, Transform)[] props)</argsstring>
+        <name>Required</name>
+        <param>
+          <type>params(string, Transform)[]</type>
+          <declname>props</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="101" bodyend="115"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1a500d2fab6a0bde5bded5db0418fe0dd2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>static Vector3 UniHumanoid.Humanoid.GetForward</definition>
+        <argsstring>(Transform l, Transform r)</argsstring>
+        <name>GetForward</name>
+        <param>
+          <type>Transform</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="117" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1a072027990ea7e3f2421e06fd0734f9da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniHumanoid.Humanoid.GetForward</definition>
+        <argsstring>()</argsstring>
+        <name>GetForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="127" bodyend="130"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" compoundref="_humanoid_8cs" startline="19">UniHumanoid.Humanoid.m_LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" compoundref="_humanoid_8cs" startline="20">UniHumanoid.Humanoid.m_RightUpperLeg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_uni_humanoid_1_1_humanoid_1_1_validation" kindref="compound">Validation</ref> &gt;</type>
+        <definition>IEnumerable&lt;Validation&gt; UniHumanoid.Humanoid.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="132" bodyend="150"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a507474086d9601564cede6f1ba6a2f4b" compoundref="_humanoid_8cs" startline="34">UniHumanoid.Humanoid.m_Head</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3aadb80494d1665a0a08edd549825cf4" compoundref="_humanoid_8cs" startline="16">UniHumanoid.Humanoid.m_Hips</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a387d086a8adfbd3221b78c4dfd8d94eb" compoundref="_humanoid_8cs" startline="23">UniHumanoid.Humanoid.m_LeftFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a6a0fe45665c32d7cf4daee4657958699" compoundref="_humanoid_8cs" startline="47">UniHumanoid.Humanoid.m_LeftHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1abda6f8830b3646e81b1ec07f71c3b3ac" compoundref="_humanoid_8cs" startline="45">UniHumanoid.Humanoid.m_LeftLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a7366a8f5f77a6997a662611e6f585743" compoundref="_humanoid_8cs" startline="21">UniHumanoid.Humanoid.m_LeftLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a45f8bff0dfbff4cd00bae526be7b5906" compoundref="_humanoid_8cs" startline="43">UniHumanoid.Humanoid.m_LeftUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" compoundref="_humanoid_8cs" startline="19">UniHumanoid.Humanoid.m_LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad687efb9cc8839606f62b5c00ba37a0c" compoundref="_humanoid_8cs" startline="24">UniHumanoid.Humanoid.m_RightFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3af26e5e4c80aaed72f2528775c97474" compoundref="_humanoid_8cs" startline="48">UniHumanoid.Humanoid.m_RightHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ae41bd7521a7894533f10015da983e36c" compoundref="_humanoid_8cs" startline="46">UniHumanoid.Humanoid.m_RightLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a51849dadcae77bd9c1070b23503a0e9c" compoundref="_humanoid_8cs" startline="22">UniHumanoid.Humanoid.m_RightLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9f800565040f15ce0c5a37118afb1362" compoundref="_humanoid_8cs" startline="44">UniHumanoid.Humanoid.m_RightUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" compoundref="_humanoid_8cs" startline="20">UniHumanoid.Humanoid.m_RightUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a11a62e87d94013155f9a54a7f09f6db8" compoundref="_humanoid_8cs" startline="30">UniHumanoid.Humanoid.m_Spine</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a11d46710bb0023678840e223f03a974e" compoundref="_humanoid_8cs" startline="101" endline="115">UniHumanoid.Humanoid.Required</references>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1a5fc2819924f194bf3f3591583e961544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Avatar</type>
+        <definition>Avatar UniHumanoid.Humanoid.CreateAvatar</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAvatar</name>
+        <briefdescription>
+<para>ボーン割り当てから UnityEngine.Avatar を生成する </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="156" bodyend="159"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a1bfcfcd035462c3a43f292c0187a1d72" compoundref="_humanoid_8cs" startline="239">UniHumanoid.Humanoid.BoneMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform</type>
+        <definition>Transform UniHumanoid.Humanoid.GetBoneTransform</definition>
+        <argsstring>(HumanBodyBones bone)</argsstring>
+        <name>GetBoneTransform</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="161" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="161" bodyend="236"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a5e9f1f36d8bd153c9726f7c1f9c94ddd" compoundref="_humanoid_8cs" startline="31">UniHumanoid.Humanoid.Chest</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9cbedc4671ef5d3b7a2bf682a20252ef" compoundref="_humanoid_8cs" startline="34">UniHumanoid.Humanoid.Head</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ab07d8ff6c219dd83ddc8b7165a3c4d81" compoundref="_humanoid_8cs" startline="16">UniHumanoid.Humanoid.Hips</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a87b7c5c229cbfce90c4d02640dccb7a4" compoundref="_humanoid_8cs" startline="37">UniHumanoid.Humanoid.Jaw</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3a7b892d30e1ca43a484bf087638b55b" compoundref="_humanoid_8cs" startline="35">UniHumanoid.Humanoid.LeftEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad7316b01bc0b30a6b70d1a0ac8fe76a6" compoundref="_humanoid_8cs" startline="23">UniHumanoid.Humanoid.LeftFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3dcd6a8e1b06b8c2acb4b70fefa93d39" compoundref="_humanoid_8cs" startline="47">UniHumanoid.Humanoid.LeftHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a533b7dae7d733a9decd3ed294a89f2a1" compoundref="_humanoid_8cs" startline="57">UniHumanoid.Humanoid.LeftIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a2ed3d80cb69a8b8e240fbc5e507308a7" compoundref="_humanoid_8cs" startline="56">UniHumanoid.Humanoid.LeftIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ae96f27b736d63b6c5b002c332900dd0b" compoundref="_humanoid_8cs" startline="55">UniHumanoid.Humanoid.LeftIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a842342f6e314d54483d59fe58ba31219" compoundref="_humanoid_8cs" startline="66">UniHumanoid.Humanoid.LeftLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ac1a94282dd81a754447c7c9969c43232" compoundref="_humanoid_8cs" startline="65">UniHumanoid.Humanoid.LeftLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a1f08571190f188d53ec74c227bfed2f6" compoundref="_humanoid_8cs" startline="64">UniHumanoid.Humanoid.LeftLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a99617cf07c7e393076d1ce1700ecebde" compoundref="_humanoid_8cs" startline="45">UniHumanoid.Humanoid.LeftLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad08e86ffd419bf558b5adec354f44290" compoundref="_humanoid_8cs" startline="21">UniHumanoid.Humanoid.LeftLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a046463a9afee9d3c5651d66557938f29" compoundref="_humanoid_8cs" startline="60">UniHumanoid.Humanoid.LeftMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a0742e528267e5d8009fd435bb48c245e" compoundref="_humanoid_8cs" startline="59">UniHumanoid.Humanoid.LeftMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ae7b9f021559aaab7e2c1a0f4218f0bd8" compoundref="_humanoid_8cs" startline="58">UniHumanoid.Humanoid.LeftMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a951ce3df3c75bbea167628b1607bdbc2" compoundref="_humanoid_8cs" startline="63">UniHumanoid.Humanoid.LeftRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3e8791c2deb5baa2b1468745cac3861e" compoundref="_humanoid_8cs" startline="62">UniHumanoid.Humanoid.LeftRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a93b8bf561869b5ec1204cbc402dfcb48" compoundref="_humanoid_8cs" startline="61">UniHumanoid.Humanoid.LeftRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad6dadbe5f240fee03eb5923044e148e3" compoundref="_humanoid_8cs" startline="41">UniHumanoid.Humanoid.LeftShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a189e78bcf25c419ed9fbbf192986664f" compoundref="_humanoid_8cs" startline="54">UniHumanoid.Humanoid.LeftThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a05549acda4dded01aa32082db6f79b66" compoundref="_humanoid_8cs" startline="53">UniHumanoid.Humanoid.LeftThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ac60047b39b3b03506e58ff53b95e00f8" compoundref="_humanoid_8cs" startline="52">UniHumanoid.Humanoid.LeftThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a0325c2169014024cfa7f318ad9574c8b" compoundref="_humanoid_8cs" startline="25">UniHumanoid.Humanoid.LeftToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ab6124921fc9d295abccfc8946639f9e9" compoundref="_humanoid_8cs" startline="43">UniHumanoid.Humanoid.LeftUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9232b304754f4c346ec7693501bf1048" compoundref="_humanoid_8cs" startline="19">UniHumanoid.Humanoid.LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a4278b8ec4a217c2849a7048abefe1586" compoundref="_humanoid_8cs" startline="33">UniHumanoid.Humanoid.Neck</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a7419a261252cb1902959152393d228f2" compoundref="_humanoid_8cs" startline="36">UniHumanoid.Humanoid.RightEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9e067b0a03dc0eb5e8dc523548cb0173" compoundref="_humanoid_8cs" startline="24">UniHumanoid.Humanoid.RightFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ac01357659ba0d031c804e6e6b2d2654e" compoundref="_humanoid_8cs" startline="48">UniHumanoid.Humanoid.RightHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a08729fe47fc786cd23d350a1eea97cb1" compoundref="_humanoid_8cs" startline="72">UniHumanoid.Humanoid.RightIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1af4d4917fa0de243dee756b4c901d96df" compoundref="_humanoid_8cs" startline="71">UniHumanoid.Humanoid.RightIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aff9f8c099e6d6d852f9721400a154b94" compoundref="_humanoid_8cs" startline="70">UniHumanoid.Humanoid.RightIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a995a2305ed9eacd98d2e112f419f4e31" compoundref="_humanoid_8cs" startline="81">UniHumanoid.Humanoid.RightLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a56ee14cb0f83b6c4105162cdd3447d9d" compoundref="_humanoid_8cs" startline="80">UniHumanoid.Humanoid.RightLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a757f9edfe2ad6f6f6ae56c11bd1a392b" compoundref="_humanoid_8cs" startline="79">UniHumanoid.Humanoid.RightLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3cc925b1b983190d5fc99e337fcdd6c5" compoundref="_humanoid_8cs" startline="46">UniHumanoid.Humanoid.RightLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a5d42018d70d968be9748163532e7116f" compoundref="_humanoid_8cs" startline="22">UniHumanoid.Humanoid.RightLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a5a7452e111f15f919d96fc8ac4521f25" compoundref="_humanoid_8cs" startline="75">UniHumanoid.Humanoid.RightMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1abbfd2984c48a6affbd700eba014bfb6a" compoundref="_humanoid_8cs" startline="74">UniHumanoid.Humanoid.RightMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a8467059e3bf0036cb3922350d5b7ed91" compoundref="_humanoid_8cs" startline="73">UniHumanoid.Humanoid.RightMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a20accac913dbda64c038aca31d1f3f29" compoundref="_humanoid_8cs" startline="78">UniHumanoid.Humanoid.RightRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ae8cb1efc3c8a4bc52fe593e4f2f5d4f9" compoundref="_humanoid_8cs" startline="77">UniHumanoid.Humanoid.RightRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aaf07995196a8554963ecec2ffb7deab6" compoundref="_humanoid_8cs" startline="76">UniHumanoid.Humanoid.RightRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a2b8ddf3a1a11674d82a8af01b9fd9b81" compoundref="_humanoid_8cs" startline="42">UniHumanoid.Humanoid.RightShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9463d87867275f5bda651194b18c5ba5" compoundref="_humanoid_8cs" startline="69">UniHumanoid.Humanoid.RightThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a8cacde822e6485866db78e2ce3994589" compoundref="_humanoid_8cs" startline="68">UniHumanoid.Humanoid.RightThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aaff3df4579317e485b6e44f656fb6c29" compoundref="_humanoid_8cs" startline="67">UniHumanoid.Humanoid.RightThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a990702d7285e5ded2c2b0a1b77265bdc" compoundref="_humanoid_8cs" startline="26">UniHumanoid.Humanoid.RightToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1abe2fc20ba5d82ba206b970e52a03994e" compoundref="_humanoid_8cs" startline="44">UniHumanoid.Humanoid.RightUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a30fbe2544783b0cf1edf45d598dee7f1" compoundref="_humanoid_8cs" startline="20">UniHumanoid.Humanoid.RightUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a072538d90b3359e2dc5be8386afe1fc5" compoundref="_humanoid_8cs" startline="30">UniHumanoid.Humanoid.Spine</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a4da86113e0935e34a1b730264252b56b" compoundref="_humanoid_8cs" startline="32">UniHumanoid.Humanoid.UpperChest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.Humanoid.AssignBones</definition>
+        <argsstring>(IEnumerable&lt;(HumanBodyBones, Transform)&gt; nodes)</argsstring>
+        <name>AssignBones</name>
+        <param>
+          <type>IEnumerable&lt;(HumanBodyBones, Transform)&gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+<para>nodes からボーンを割り当てる </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="316" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="316" bodyend="400"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a4fca4627cada7090bb2ac46006ae98a3" compoundref="_humanoid_8cs" startline="31">UniHumanoid.Humanoid.m_Chest</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a507474086d9601564cede6f1ba6a2f4b" compoundref="_humanoid_8cs" startline="34">UniHumanoid.Humanoid.m_Head</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3aadb80494d1665a0a08edd549825cf4" compoundref="_humanoid_8cs" startline="16">UniHumanoid.Humanoid.m_Hips</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1abe95dcd85cb3d4136e6988a390f26566" compoundref="_humanoid_8cs" startline="37">UniHumanoid.Humanoid.m_Jaw</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aa90a40cc675d971fc9e6e50e398a4431" compoundref="_humanoid_8cs" startline="35">UniHumanoid.Humanoid.m_LeftEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a387d086a8adfbd3221b78c4dfd8d94eb" compoundref="_humanoid_8cs" startline="23">UniHumanoid.Humanoid.m_LeftFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a6a0fe45665c32d7cf4daee4657958699" compoundref="_humanoid_8cs" startline="47">UniHumanoid.Humanoid.m_LeftHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a1544ff0fd8d8639883ba50b4d4a1ada6" compoundref="_humanoid_8cs" startline="57">UniHumanoid.Humanoid.m_LeftIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3f9419ad2f603af1cb847182ce5f3b73" compoundref="_humanoid_8cs" startline="56">UniHumanoid.Humanoid.m_LeftIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aa2fe2bd7de4a6e2191a39aafdbc1d3cf" compoundref="_humanoid_8cs" startline="55">UniHumanoid.Humanoid.m_LeftIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a2a451262588a8db09c1bc95d1f241b73" compoundref="_humanoid_8cs" startline="66">UniHumanoid.Humanoid.m_LeftLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3621444c5482a21679d5a4ca72b121c8" compoundref="_humanoid_8cs" startline="65">UniHumanoid.Humanoid.m_LeftLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ac46e4f01db83e284e4382f6bd9d02877" compoundref="_humanoid_8cs" startline="64">UniHumanoid.Humanoid.m_LeftLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1abda6f8830b3646e81b1ec07f71c3b3ac" compoundref="_humanoid_8cs" startline="45">UniHumanoid.Humanoid.m_LeftLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a7366a8f5f77a6997a662611e6f585743" compoundref="_humanoid_8cs" startline="21">UniHumanoid.Humanoid.m_LeftLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aa3c3a01186af9c7a0c882220ff7bc095" compoundref="_humanoid_8cs" startline="60">UniHumanoid.Humanoid.m_LeftMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a84603f00bbd69de57c1b2ee6e303aab9" compoundref="_humanoid_8cs" startline="59">UniHumanoid.Humanoid.m_LeftMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a341aa17f58f8c0560618306262833d6c" compoundref="_humanoid_8cs" startline="58">UniHumanoid.Humanoid.m_LeftMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a04a2a8de7fa3712f0816ace102456ec7" compoundref="_humanoid_8cs" startline="63">UniHumanoid.Humanoid.m_LeftRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a925f49c2d07d60cacbfdd0408868fc62" compoundref="_humanoid_8cs" startline="62">UniHumanoid.Humanoid.m_LeftRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1adfe28fe219c17dc13fcdabad51f77833" compoundref="_humanoid_8cs" startline="61">UniHumanoid.Humanoid.m_LeftRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a478ac061f98667e668a3563e80e297ff" compoundref="_humanoid_8cs" startline="41">UniHumanoid.Humanoid.m_LeftShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9d84a71fb500109796d9ed29d9965e10" compoundref="_humanoid_8cs" startline="54">UniHumanoid.Humanoid.m_LeftThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1adde6c38c479b6c2bd0befec0cf3c02a1" compoundref="_humanoid_8cs" startline="53">UniHumanoid.Humanoid.m_LeftThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a118ebaf0078dc64f4a8ca80ffb416199" compoundref="_humanoid_8cs" startline="52">UniHumanoid.Humanoid.m_LeftThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3162c071b989c30384f85e1bab4a9f1f" compoundref="_humanoid_8cs" startline="25">UniHumanoid.Humanoid.m_LeftToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a45f8bff0dfbff4cd00bae526be7b5906" compoundref="_humanoid_8cs" startline="43">UniHumanoid.Humanoid.m_LeftUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" compoundref="_humanoid_8cs" startline="19">UniHumanoid.Humanoid.m_LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a26bd8acd4e3d62bb3e5e4bfe0071e461" compoundref="_humanoid_8cs" startline="33">UniHumanoid.Humanoid.m_Neck</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1af5e50d7807ce4bf7ab0ac67492754dde" compoundref="_humanoid_8cs" startline="36">UniHumanoid.Humanoid.m_RightEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad687efb9cc8839606f62b5c00ba37a0c" compoundref="_humanoid_8cs" startline="24">UniHumanoid.Humanoid.m_RightFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3af26e5e4c80aaed72f2528775c97474" compoundref="_humanoid_8cs" startline="48">UniHumanoid.Humanoid.m_RightHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a7bde1c53e84d052047c79794704fb698" compoundref="_humanoid_8cs" startline="72">UniHumanoid.Humanoid.m_RightIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad2767f5965df3c8f1be3feee0ec05360" compoundref="_humanoid_8cs" startline="71">UniHumanoid.Humanoid.m_RightIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1aa0aac8a9be91125612b3c2ea58c4e227" compoundref="_humanoid_8cs" startline="70">UniHumanoid.Humanoid.m_RightIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1af74507193a34ae9d5d2666e40c527dcb" compoundref="_humanoid_8cs" startline="81">UniHumanoid.Humanoid.m_RightLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a6a6f826034e923fcb4eea1d923b1427e" compoundref="_humanoid_8cs" startline="80">UniHumanoid.Humanoid.m_RightLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a3a4ffcb0feb9c86a51c3be6c6b16f555" compoundref="_humanoid_8cs" startline="79">UniHumanoid.Humanoid.m_RightLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ae41bd7521a7894533f10015da983e36c" compoundref="_humanoid_8cs" startline="46">UniHumanoid.Humanoid.m_RightLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a51849dadcae77bd9c1070b23503a0e9c" compoundref="_humanoid_8cs" startline="22">UniHumanoid.Humanoid.m_RightLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a630e2982064be7ef24c8d0515fb4095d" compoundref="_humanoid_8cs" startline="75">UniHumanoid.Humanoid.m_RightMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a16b7b35e796d4426196a94338e99e0ef" compoundref="_humanoid_8cs" startline="74">UniHumanoid.Humanoid.m_RightMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a21383016e98337375f2f08cb6e91e1f9" compoundref="_humanoid_8cs" startline="73">UniHumanoid.Humanoid.m_RightMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1ad0beb5f213b6f6cca1051ba85cef91b1" compoundref="_humanoid_8cs" startline="78">UniHumanoid.Humanoid.m_RightRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1af912f9e59f97436c6ec409c3aa6dce16" compoundref="_humanoid_8cs" startline="77">UniHumanoid.Humanoid.m_RightRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a8d9b1c514559f4528f90d256c32c0103" compoundref="_humanoid_8cs" startline="76">UniHumanoid.Humanoid.m_RightRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1adf6d712edee716c0551cf62bffca05d3" compoundref="_humanoid_8cs" startline="42">UniHumanoid.Humanoid.m_RightShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a6764c21a8e0d1612bedb5e6443bd55b3" compoundref="_humanoid_8cs" startline="69">UniHumanoid.Humanoid.m_RightThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a681422d3a79d964a9e1e8e3cf6909987" compoundref="_humanoid_8cs" startline="68">UniHumanoid.Humanoid.m_RightThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a29c35dba50fb78b887e92003a4242315" compoundref="_humanoid_8cs" startline="67">UniHumanoid.Humanoid.m_RightThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1afa862f02f026d3fe82e3d077e90c0442" compoundref="_humanoid_8cs" startline="26">UniHumanoid.Humanoid.m_RightToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a9f800565040f15ce0c5a37118afb1362" compoundref="_humanoid_8cs" startline="44">UniHumanoid.Humanoid.m_RightUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" compoundref="_humanoid_8cs" startline="20">UniHumanoid.Humanoid.m_RightUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a11a62e87d94013155f9a54a7f09f6db8" compoundref="_humanoid_8cs" startline="30">UniHumanoid.Humanoid.m_Spine</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1a51fd29c7fed22865a299499e2520a368" compoundref="_humanoid_8cs" startline="32">UniHumanoid.Humanoid.m_UpperChest</references>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1aaef3706b4f9dedcb44b40d019237f333" compoundref="_humanoid_8cs" startline="406" endline="439">UniHumanoid.Humanoid.AssignBonesFromAnimator</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_1aaef3706b4f9dedcb44b40d019237f333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UniHumanoid.Humanoid.AssignBonesFromAnimator</definition>
+        <argsstring>()</argsstring>
+        <name>AssignBonesFromAnimator</name>
+        <briefdescription>
+<para>Animator から Bone を割り当てる </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="406" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="406" bodyend="439"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" compoundref="_humanoid_8cs" startline="316" endline="400">UniHumanoid.Humanoid.AssignBones</references>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_1adc59c9760f5aecdfce8f9c33e376f37c" compoundref="_humanoid_8cs" startline="84" endline="87">UniHumanoid.Humanoid.Reset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Bone割り当てを保持する。 ヒエラルキーのルート(おそらくHipsの親)にアタッチする </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1204">
+        <label>UniHumanoid.Humanoid</label>
+        <link refid="class_uni_humanoid_1_1_humanoid"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1206">
+        <label>UniHumanoid.Humanoid</label>
+        <link refid="class_uni_humanoid_1_1_humanoid"/>
+        <childnode refid="1207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Humanoid.cs" bodystart="14" bodyend="440"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_humanoid_1af5b62498597ac22a6bd7fbc9d7cb9147" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>AssignBones</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aaef3706b4f9dedcb44b40d019237f333" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>AssignBonesFromAnimator</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a1bfcfcd035462c3a43f292c0187a1d72" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>BoneMap</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a5e9f1f36d8bd153c9726f7c1f9c94ddd" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Chest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a5fc2819924f194bf3f3591583e961544" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>CreateAvatar</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a6b9dd6e04e95600b60b8ad8e809cdd8a" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>GetBoneTransform</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a500d2fab6a0bde5bded5db0418fe0dd2" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>GetForward</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a072027990ea7e3f2421e06fd0734f9da" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>GetForward</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9cbedc4671ef5d3b7a2bf682a20252ef" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Head</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ab07d8ff6c219dd83ddc8b7165a3c4d81" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Hips</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a87b7c5c229cbfce90c4d02640dccb7a4" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Jaw</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3a7b892d30e1ca43a484bf087638b55b" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad7316b01bc0b30a6b70d1a0ac8fe76a6" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3dcd6a8e1b06b8c2acb4b70fefa93d39" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a533b7dae7d733a9decd3ed294a89f2a1" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a2ed3d80cb69a8b8e240fbc5e507308a7" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ae96f27b736d63b6c5b002c332900dd0b" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a842342f6e314d54483d59fe58ba31219" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ac1a94282dd81a754447c7c9969c43232" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a1f08571190f188d53ec74c227bfed2f6" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a99617cf07c7e393076d1ce1700ecebde" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad08e86ffd419bf558b5adec354f44290" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a046463a9afee9d3c5651d66557938f29" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a0742e528267e5d8009fd435bb48c245e" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ae7b9f021559aaab7e2c1a0f4218f0bd8" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a951ce3df3c75bbea167628b1607bdbc2" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3e8791c2deb5baa2b1468745cac3861e" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a93b8bf561869b5ec1204cbc402dfcb48" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad6dadbe5f240fee03eb5923044e148e3" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a189e78bcf25c419ed9fbbf192986664f" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a05549acda4dded01aa32082db6f79b66" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ac60047b39b3b03506e58ff53b95e00f8" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a0325c2169014024cfa7f318ad9574c8b" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ab6124921fc9d295abccfc8946639f9e9" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9232b304754f4c346ec7693501bf1048" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>LeftUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a4fca4627cada7090bb2ac46006ae98a3" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Chest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a507474086d9601564cede6f1ba6a2f4b" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Head</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3aadb80494d1665a0a08edd549825cf4" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Hips</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1abe95dcd85cb3d4136e6988a390f26566" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Jaw</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aa90a40cc675d971fc9e6e50e398a4431" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a387d086a8adfbd3221b78c4dfd8d94eb" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a6a0fe45665c32d7cf4daee4657958699" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a1544ff0fd8d8639883ba50b4d4a1ada6" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3f9419ad2f603af1cb847182ce5f3b73" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aa2fe2bd7de4a6e2191a39aafdbc1d3cf" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a2a451262588a8db09c1bc95d1f241b73" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3621444c5482a21679d5a4ca72b121c8" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ac46e4f01db83e284e4382f6bd9d02877" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1abda6f8830b3646e81b1ec07f71c3b3ac" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a7366a8f5f77a6997a662611e6f585743" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aa3c3a01186af9c7a0c882220ff7bc095" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a84603f00bbd69de57c1b2ee6e303aab9" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a341aa17f58f8c0560618306262833d6c" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a04a2a8de7fa3712f0816ace102456ec7" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a925f49c2d07d60cacbfdd0408868fc62" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1adfe28fe219c17dc13fcdabad51f77833" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a478ac061f98667e668a3563e80e297ff" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9d84a71fb500109796d9ed29d9965e10" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1adde6c38c479b6c2bd0befec0cf3c02a1" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a118ebaf0078dc64f4a8ca80ffb416199" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3162c071b989c30384f85e1bab4a9f1f" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a45f8bff0dfbff4cd00bae526be7b5906" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a50f3e5f0f4bcf9017242b3a9272c39d4" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_LeftUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a26bd8acd4e3d62bb3e5e4bfe0071e461" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Neck</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1af5e50d7807ce4bf7ab0ac67492754dde" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad687efb9cc8839606f62b5c00ba37a0c" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3af26e5e4c80aaed72f2528775c97474" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a7bde1c53e84d052047c79794704fb698" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad2767f5965df3c8f1be3feee0ec05360" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aa0aac8a9be91125612b3c2ea58c4e227" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1af74507193a34ae9d5d2666e40c527dcb" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a6a6f826034e923fcb4eea1d923b1427e" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3a4ffcb0feb9c86a51c3be6c6b16f555" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ae41bd7521a7894533f10015da983e36c" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a51849dadcae77bd9c1070b23503a0e9c" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a630e2982064be7ef24c8d0515fb4095d" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a16b7b35e796d4426196a94338e99e0ef" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a21383016e98337375f2f08cb6e91e1f9" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ad0beb5f213b6f6cca1051ba85cef91b1" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1af912f9e59f97436c6ec409c3aa6dce16" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a8d9b1c514559f4528f90d256c32c0103" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1adf6d712edee716c0551cf62bffca05d3" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a6764c21a8e0d1612bedb5e6443bd55b3" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a681422d3a79d964a9e1e8e3cf6909987" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a29c35dba50fb78b887e92003a4242315" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1afa862f02f026d3fe82e3d077e90c0442" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9f800565040f15ce0c5a37118afb1362" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a65bec44bfcd9d7302cb29861788c1f85" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_RightUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a11a62e87d94013155f9a54a7f09f6db8" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_Spine</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a51fd29c7fed22865a299499e2520a368" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>m_UpperChest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a4278b8ec4a217c2849a7048abefe1586" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Neck</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a11d46710bb0023678840e223f03a974e" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Required</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1adc59c9760f5aecdfce8f9c33e376f37c" prot="private" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Reset</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a7419a261252cb1902959152393d228f2" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9e067b0a03dc0eb5e8dc523548cb0173" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ac01357659ba0d031c804e6e6b2d2654e" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a08729fe47fc786cd23d350a1eea97cb1" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1af4d4917fa0de243dee756b4c901d96df" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aff9f8c099e6d6d852f9721400a154b94" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a995a2305ed9eacd98d2e112f419f4e31" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a56ee14cb0f83b6c4105162cdd3447d9d" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a757f9edfe2ad6f6f6ae56c11bd1a392b" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a3cc925b1b983190d5fc99e337fcdd6c5" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a5d42018d70d968be9748163532e7116f" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a5a7452e111f15f919d96fc8ac4521f25" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1abbfd2984c48a6affbd700eba014bfb6a" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a8467059e3bf0036cb3922350d5b7ed91" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a20accac913dbda64c038aca31d1f3f29" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1ae8cb1efc3c8a4bc52fe593e4f2f5d4f9" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aaf07995196a8554963ecec2ffb7deab6" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a2b8ddf3a1a11674d82a8af01b9fd9b81" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a9463d87867275f5bda651194b18c5ba5" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a8cacde822e6485866db78e2ce3994589" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1aaff3df4579317e485b6e44f656fb6c29" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a990702d7285e5ded2c2b0a1b77265bdc" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1abe2fc20ba5d82ba206b970e52a03994e" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a30fbe2544783b0cf1edf45d598dee7f1" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>RightUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a072538d90b3359e2dc5be8386afe1fc5" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Spine</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1a4da86113e0935e34a1b730264252b56b" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>UpperChest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" prot="public" virt="non-virtual"><scope>UniHumanoid::Humanoid</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

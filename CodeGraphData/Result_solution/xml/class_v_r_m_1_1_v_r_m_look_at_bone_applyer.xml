@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer" kind="class" prot="public">
+    <compoundname>VRM::VRMLookAtBoneApplyer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_v_r_m_1_1_i_v_r_m_component" prot="public" virt="non-virtual">VRM.IVRMComponent</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ae5545d89467064d9dfd5ea2ac5ea6935" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMLookAtBoneApplyer.DrawGizmo</definition>
+        <argsstring></argsstring>
+        <name>DrawGizmo</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="84" endline="94">VRM.VRMLookAtBoneApplyer.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a66d575a50067336db205dcb9d66ab9ef" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.VRMLookAtBoneApplyer.LeftEye</definition>
+        <argsstring></argsstring>
+        <name>LeftEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a31c6ec80a1842235819636f58c435cc2" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="97" endline="129">VRM.VRMLookAtBoneApplyer.ApplyRotations</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="84" endline="94">VRM.VRMLookAtBoneApplyer.OnDrawGizmos</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a4001f6d23a33fc5dd5f733755300b555" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="30" endline="44">VRM.VRMLookAtBoneApplyer.OnImported</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ab4326ba113a0a1b3f8e19f942b0860e5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.VRMLookAtBoneApplyer.RightEye</definition>
+        <argsstring></argsstring>
+        <name>RightEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a31c6ec80a1842235819636f58c435cc2" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="97" endline="129">VRM.VRMLookAtBoneApplyer.ApplyRotations</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="84" endline="94">VRM.VRMLookAtBoneApplyer.OnDrawGizmos</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a4001f6d23a33fc5dd5f733755300b555" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="30" endline="44">VRM.VRMLookAtBoneApplyer.OnImported</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a39dc7ca2d069dfcabbc20823c29d331c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBoneApplyer.HorizontalOuter</definition>
+        <argsstring></argsstring>
+        <name>HorizontalOuter</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1aabf81937fd52dcb635a820545bc0d91e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBoneApplyer.HorizontalInner</definition>
+        <argsstring></argsstring>
+        <name>HorizontalInner</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1accd3c62222a6f68d39a816951d5f4b87" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBoneApplyer.VerticalDown</definition>
+        <argsstring></argsstring>
+        <name>VerticalDown</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ad005b8eeb8f5597ff65818a61f313218" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAtBoneApplyer.VerticalUp</definition>
+        <argsstring></argsstring>
+        <name>VerticalUp</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1afc35a3bc6488231db139e03c399032a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_look_at_head" kindref="compound">VRMLookAtHead</ref></type>
+        <definition>VRMLookAtHead VRM.VRMLookAtBoneApplyer.m_head</definition>
+        <argsstring></argsstring>
+        <name>m_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a5307b5dafe75ab6c0b98ebe74883b2d0" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="56" endline="68">VRM.VRMLookAtBoneApplyer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a08c0f0ff6d5ae982baa98d5d3a563d38" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float VRM.VRMLookAtBoneApplyer.SIZE</definition>
+        <argsstring></argsstring>
+        <name>SIZE</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="84" endline="94">VRM.VRMLookAtBoneApplyer.OnDrawGizmos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a4001f6d23a33fc5dd5f733755300b555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBoneApplyer.OnImported</definition>
+        <argsstring>(VRMImporterContext context)</argsstring>
+        <name>OnImported</name>
+        <reimplements refid="interface_v_r_m_1_1_i_v_r_m_component_1a7953a45813e1a5eb4f81135cea68dd26">OnImported</reimplements>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Serializableな値を初期化する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imported</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="30" bodyend="44"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a66d575a50067336db205dcb9d66ab9ef" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="13">VRM.VRMLookAtBoneApplyer.LeftEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ab4326ba113a0a1b3f8e19f942b0860e5" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="16">VRM.VRMLookAtBoneApplyer.RightEye</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a6f15b3d54c97116c04f15362bbf0a881" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBoneApplyer.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a5307b5dafe75ab6c0b98ebe74883b2d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBoneApplyer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="56" bodyend="68"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a31c6ec80a1842235819636f58c435cc2" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="97" endline="129">VRM.VRMLookAtBoneApplyer.ApplyRotations</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1afc35a3bc6488231db139e03c399032a2" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="54">VRM.VRMLookAtBoneApplyer.m_head</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBoneApplyer.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="84" bodyend="94"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ae5545d89467064d9dfd5ea2ac5ea6935" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="10">VRM.VRMLookAtBoneApplyer.DrawGizmo</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a377f1636caee905c55452ddb5a8b5574" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="71" endline="80">VRM.VRMLookAtBoneApplyer.DrawMatrix</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a66d575a50067336db205dcb9d66ab9ef" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="13">VRM.VRMLookAtBoneApplyer.LeftEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ab4326ba113a0a1b3f8e19f942b0860e5" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="16">VRM.VRMLookAtBoneApplyer.RightEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a08c0f0ff6d5ae982baa98d5d3a563d38" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="82">VRM.VRMLookAtBoneApplyer.SIZE</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a5eae4b18069c1bb56333122799cf3452" compoundref="_offset_on_transform_8cs" startline="14">VRM.OffsetOnTransform.WorldMatrix</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a31c6ec80a1842235819636f58c435cc2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtBoneApplyer.ApplyRotations</definition>
+        <argsstring>(float yaw, float pitch)</argsstring>
+        <name>ApplyRotations</name>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="97" bodyend="129"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a66d575a50067336db205dcb9d66ab9ef" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="13">VRM.VRMLookAtBoneApplyer.LeftEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ab4326ba113a0a1b3f8e19f942b0860e5" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="16">VRM.VRMLookAtBoneApplyer.RightEye</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a5307b5dafe75ab6c0b98ebe74883b2d0" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="56" endline="68">VRM.VRMLookAtBoneApplyer.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a377f1636caee905c55452ddb5a8b5574" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMLookAtBoneApplyer.DrawMatrix</definition>
+        <argsstring>(Matrix4x4 m, float size)</argsstring>
+        <name>DrawMatrix</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="71" bodyend="80"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" compoundref="_v_r_m_look_at_bone_applyer_8cs" startline="84" endline="94">VRM.VRMLookAtBoneApplyer.OnDrawGizmos</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2817">
+        <label>VRM.VRMLookAtBoneApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer"/>
+        <childnode refid="2818" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2819" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2819">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2818">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2820">
+        <label>VRM.VRMLookAtBoneApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer"/>
+        <childnode refid="2821" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2822" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2823" relation="usage">
+          <edgelabel>m_head</edgelabel>
+        </childnode>
+        <childnode refid="2824" relation="usage">
+          <edgelabel>VerticalUp</edgelabel>
+          <edgelabel>HorizontalInner</edgelabel>
+          <edgelabel>HorizontalOuter</edgelabel>
+          <edgelabel>VerticalDown</edgelabel>
+        </childnode>
+        <childnode refid="2826" relation="usage">
+          <edgelabel>LeftEye</edgelabel>
+          <edgelabel>RightEye</edgelabel>
+        </childnode>
+      </node>
+      <node id="2825">
+        <label>IEquatable&lt; CurveMapper &gt;</label>
+      </node>
+      <node id="2822">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2823">
+        <label>VRM.VRMLookAtHead</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head"/>
+        <childnode refid="2821" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2822" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2821">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2824">
+        <label>VRM.CurveMapper</label>
+        <link refid="class_v_r_m_1_1_curve_mapper"/>
+        <childnode refid="2825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2826">
+        <label>VRM.OffsetOnTransform</label>
+        <link refid="struct_v_r_m_1_1_offset_on_transform"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtBoneApplyer.cs" bodystart="8" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a31c6ec80a1842235819636f58c435cc2" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>ApplyRotations</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ae5545d89467064d9dfd5ea2ac5ea6935" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>DrawGizmo</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a377f1636caee905c55452ddb5a8b5574" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>DrawMatrix</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1aabf81937fd52dcb635a820545bc0d91e" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>HorizontalInner</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a39dc7ca2d069dfcabbc20823c29d331c" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>HorizontalOuter</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a66d575a50067336db205dcb9d66ab9ef" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>LeftEye</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1afc35a3bc6488231db139e03c399032a2" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>m_head</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1af811fbe38f3a6346f82b8be01ec0d662" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a4001f6d23a33fc5dd5f733755300b555" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>OnImported</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a6f15b3d54c97116c04f15362bbf0a881" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>OnValidate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ab4326ba113a0a1b3f8e19f942b0860e5" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>RightEye</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a08c0f0ff6d5ae982baa98d5d3a563d38" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>SIZE</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a5307b5dafe75ab6c0b98ebe74883b2d0" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>Start</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1accd3c62222a6f68d39a816951d5f4b87" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>VerticalDown</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1ad005b8eeb8f5597ff65818a61f313218" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtBoneApplyer</scope><name>VerticalUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

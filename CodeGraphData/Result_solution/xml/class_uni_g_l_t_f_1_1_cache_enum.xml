@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_cache_enum" kind="class" prot="public">
+    <compoundname>UniGLTF::CacheEnum</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_cache_enum_1_1_cache_parse_3_01_t_01_4" prot="private">UniGLTF::CacheEnum::CacheParse&lt; T &gt;</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_cache_enum_1_1_cache_values_3_01_t_01_4" prot="private">UniGLTF::CacheEnum::CacheValues&lt; T &gt;</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_cache_enum_1a9a52268c5912c0f9f732d79cb8005c7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T UniGLTF.CacheEnum.Parse&lt; T &gt;</definition>
+        <argsstring>(string name, bool ignoreCase=false)</argsstring>
+        <name>Parse&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreCase</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" bodystart="9" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_cache_enum_1aaa18f108cb027595fe42d420cd428843" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T UniGLTF.CacheEnum.TryParseOrDefault&lt; T &gt;</definition>
+        <argsstring>(string name, bool ignoreCase=false, T defaultValue=default(T))</argsstring>
+        <name>TryParseOrDefault&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreCase</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>defaultValue</declname>
+          <defval>default(T)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" bodystart="21" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_cache_enum_1aca62e219d09de839effb9af83e4b1774" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T[]</type>
+        <definition>static T [] UniGLTF.CacheEnum.GetValues&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetValues&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Util/CacheEnum.cs" bodystart="7" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_cache_enum_1aca62e219d09de839effb9af83e4b1774" prot="public" virt="non-virtual"><scope>UniGLTF::CacheEnum</scope><name>GetValues&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_cache_enum_1a9a52268c5912c0f9f732d79cb8005c7a" prot="public" virt="non-virtual"><scope>UniGLTF::CacheEnum</scope><name>Parse&lt; T &gt;</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_cache_enum_1aaa18f108cb027595fe42d420cd428843" prot="public" virt="non-virtual"><scope>UniGLTF::CacheEnum</scope><name>TryParseOrDefault&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

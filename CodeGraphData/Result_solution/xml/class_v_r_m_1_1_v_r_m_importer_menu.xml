@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_importer_menu" kind="class" prot="public">
+    <compoundname>VRM::VRMImporterMenu</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_menu_1a6eeb909e4d74beb246fb67c64166a944" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMImporterMenu.OpenImportMenu</definition>
+        <argsstring>()</argsstring>
+        <name>OpenImportMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" bodystart="15" bodyend="42"/>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1a5f135210e6cf09409d6bf0dfcdce3096" compoundref="_unity_path_8cs" startline="264" endline="287">UniGLTF.UnityPath.FromFullpath</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_menu_1a370701e09f6e4712f6afec2c5d6e0e55" compoundref="_v_r_m_importer_menu_8cs" startline="59" endline="98">VRM.VRMImporterMenu.ImportAsset</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_menu_1ad7e0c830bff51d7280d75fe10adc45af" compoundref="_v_r_m_importer_menu_8cs" startline="44" endline="57">VRM.VRMImporterMenu.ImportRuntime</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_menu_1ad7e0c830bff51d7280d75fe10adc45af" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMImporterMenu.ImportRuntime</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ImportRuntime</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" bodystart="44" bodyend="57"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_menu_1a6eeb909e4d74beb246fb67c64166a944" compoundref="_v_r_m_importer_menu_8cs" startline="15" endline="42">VRM.VRMImporterMenu.OpenImportMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_menu_1a370701e09f6e4712f6afec2c5d6e0e55" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMImporterMenu.ImportAsset</definition>
+        <argsstring>(string path, UnityPath prefabPath)</argsstring>
+        <name>ImportAsset</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>prefabPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" bodystart="59" bodyend="98"/>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1ac57264ade28e28a6342c74f912e5e5e7" compoundref="_unity_path_8cs" startline="36">UniGLTF.UnityPath.IsUnderAssetsFolder</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_menu_1a6eeb909e4d74beb246fb67c64166a944" compoundref="_v_r_m_importer_menu_8cs" startline="15" endline="42">VRM.VRMImporterMenu.OpenImportMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMImporterMenu.cs" bodystart="13" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_menu_1a370701e09f6e4712f6afec2c5d6e0e55" prot="private" virt="non-virtual"><scope>VRM::VRMImporterMenu</scope><name>ImportAsset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_menu_1ad7e0c830bff51d7280d75fe10adc45af" prot="private" virt="non-virtual"><scope>VRM::VRMImporterMenu</scope><name>ImportRuntime</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_menu_1a6eeb909e4d74beb246fb67c64166a944" prot="public" virt="non-virtual"><scope>VRM::VRMImporterMenu</scope><name>OpenImportMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

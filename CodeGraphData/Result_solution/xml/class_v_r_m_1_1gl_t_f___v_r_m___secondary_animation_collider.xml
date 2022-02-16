@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" kind="class" prot="public">
+    <compoundname>VRM::glTF_VRM_SecondaryAnimationCollider</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_1a09ae8b8d44140bc73baa31fe6799c3aa" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 VRM.glTF_VRM_SecondaryAnimationCollider.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1ab06df15acb7bd173a2ece6d22348dbff" compoundref="_v_r_m_serializer_8g_8cs" startline="865" endline="881">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_1a92364b3af7b64700fa3cb0dc87e1ba65" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.glTF_VRM_SecondaryAnimationCollider.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="910">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="911" relation="public-inheritance">
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="911">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="909">
+        <label>VRM.glTF_VRM_SecondaryAnimationCollider</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider"/>
+        <childnode refid="910" relation="usage">
+          <edgelabel>offset</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_SecondaryAnimation.cs" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_1a09ae8b8d44140bc73baa31fe6799c3aa" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_SecondaryAnimationCollider</scope><name>offset</name></member>
+      <member refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_1a92364b3af7b64700fa3cb0dc87e1ba65" prot="public" virt="non-virtual"><scope>VRM::glTF_VRM_SecondaryAnimationCollider</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

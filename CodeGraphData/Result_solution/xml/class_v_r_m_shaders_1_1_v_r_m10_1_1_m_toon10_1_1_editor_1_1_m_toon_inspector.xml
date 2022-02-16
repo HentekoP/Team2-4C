@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector" kind="class" prot="public">
+    <compoundname>VRMShaders::VRM10::MToon10::Editor::MToonInspector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ShaderGUI</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a829c509ed3c979dcf275e0d7e9425081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRMShaders.VRM10.MToon10.Editor.MToonInspector.OnGUI</definition>
+        <argsstring>(MaterialEditor materialEditor, MaterialProperty[] properties)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>materialEditor</declname>
+        </param>
+        <param>
+          <type>MaterialProperty[]</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" bodystart="14" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a69e2819a7337142dc8dcc8fccd9ad0f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Editor.MToonInspector.Validate</definition>
+        <argsstring>(Material[] materials)</argsstring>
+        <name>Validate</name>
+        <param>
+          <type>Material[]</type>
+          <declname>materials</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" line="255" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" bodystart="255" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a269928d81a217a1d139e7235f9ac0a68" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRMShaders.VRM10.MToon10.Editor.MToonInspector.PopupEnum&lt; T &gt;</definition>
+        <argsstring>(string name, MaterialProperty property, MaterialEditor editor)</argsstring>
+        <name>PopupEnum&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" line="263" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" bodystart="263" bodyend="277"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1812">
+        <label>ShaderGUI</label>
+      </node>
+      <node id="1811">
+        <label>VRMShaders.VRM10.MToon10.Editor.MToonInspector</label>
+        <link refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector"/>
+        <childnode refid="1812" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1814">
+        <label>ShaderGUI</label>
+      </node>
+      <node id="1813">
+        <label>VRMShaders.VRM10.MToon10.Editor.MToonInspector</label>
+        <link refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector"/>
+        <childnode refid="1814" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs" bodystart="12" bodyend="279"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a829c509ed3c979dcf275e0d7e9425081" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Editor::MToonInspector</scope><name>OnGUI</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a269928d81a217a1d139e7235f9ac0a68" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Editor::MToonInspector</scope><name>PopupEnum&lt; T &gt;</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_editor_1_1_m_toon_inspector_1a69e2819a7337142dc8dcc8fccd9ad0f8" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Editor::MToonInspector</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

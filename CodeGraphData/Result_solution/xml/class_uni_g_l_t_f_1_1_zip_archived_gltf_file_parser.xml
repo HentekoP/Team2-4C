@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser" kind="class" prot="public">
+    <compoundname>UniGLTF::ZipArchivedGltfFileParser</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a66a6d52317567d0309e7d671aa5bee3f" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.ZipArchivedGltfFileParser._zippedFilePath</definition>
+        <argsstring></argsstring>
+        <name>_zippedFilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1aca538d6dcb5342ca45fde726e2498e8f" compoundref="_zip_archived_gltf_file_parser_8cs" startline="26" endline="45">UniGLTF.ZipArchivedGltfFileParser.Parse</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a37bc77528f6c7c86583868be7512ae54" compoundref="_zip_archived_gltf_file_parser_8cs" startline="16" endline="24">UniGLTF.ZipArchivedGltfFileParser.ZipArchivedGltfFileParser</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a37bc77528f6c7c86583868be7512ae54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.ZipArchivedGltfFileParser.ZipArchivedGltfFileParser</definition>
+        <argsstring>(string zippedFilePath)</argsstring>
+        <name>ZipArchivedGltfFileParser</name>
+        <param>
+          <type>string</type>
+          <declname>zippedFilePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" bodystart="16" bodyend="24"/>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a66a6d52317567d0309e7d671aa5bee3f" compoundref="_zip_archived_gltf_file_parser_8cs" startline="14">UniGLTF.ZipArchivedGltfFileParser._zippedFilePath</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1aca538d6dcb5342ca45fde726e2498e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.ZipArchivedGltfFileParser.Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" bodystart="26" bodyend="45"/>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a66a6d52317567d0309e7d671aa5bee3f" compoundref="_zip_archived_gltf_file_parser_8cs" startline="14">UniGLTF.ZipArchivedGltfFileParser._zippedFilePath</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_uni_g_l_t_f_1_1_zip" kindref="compound">Zip</ref> archived .GLTF file &amp; resources parser. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/ZipArchivedGltfFileParser.cs" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a66a6d52317567d0309e7d671aa5bee3f" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfFileParser</scope><name>_zippedFilePath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1aca538d6dcb5342ca45fde726e2498e8f" prot="public" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfFileParser</scope><name>Parse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_file_parser_1a37bc77528f6c7c86583868be7512ae54" prot="public" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfFileParser</scope><name>ZipArchivedGltfFileParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

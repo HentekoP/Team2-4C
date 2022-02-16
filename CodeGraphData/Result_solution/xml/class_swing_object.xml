@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_swing_object" kind="class" prot="public">
+    <compoundname>SwingObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SwingObject.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" compoundref="_swing_object_8cs" startline="15" endline="21">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SwingObject.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" compoundref="_swing_object_8cs" startline="15" endline="21">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_swing_object_1a5c33b4cc05ad2c8218798b8bf1628f2d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwingObject.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwingObject.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" bodystart="15" bodyend="21"/>
+        <references refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" compoundref="_swing_object_8cs" startline="7">count</references>
+        <references refid="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" compoundref="_swing_object_8cs" startline="6">max</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2311">
+        <label>SwingObject</label>
+        <link refid="class_swing_object"/>
+        <childnode refid="2312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2312">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2313">
+        <label>SwingObject</label>
+        <link refid="class_swing_object"/>
+        <childnode refid="2314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2314">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/ConeCollider/Samples/Sample_2/SwingObject.cs" bodystart="4" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_swing_object_1a78da1912b6feeeb75ab94ae20a1f0afb" prot="private" virt="non-virtual"><scope>SwingObject</scope><name>count</name></member>
+      <member refid="class_swing_object_1ad827652f4701a8165c83a3da7317ee1c" prot="private" virt="non-virtual"><scope>SwingObject</scope><name>max</name></member>
+      <member refid="class_swing_object_1a5c33b4cc05ad2c8218798b8bf1628f2d" prot="private" virt="non-virtual"><scope>SwingObject</scope><name>Start</name></member>
+      <member refid="class_swing_object_1a1614ebac75af83069cd49edf9038dd3c" prot="private" virt="non-virtual"><scope>SwingObject</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

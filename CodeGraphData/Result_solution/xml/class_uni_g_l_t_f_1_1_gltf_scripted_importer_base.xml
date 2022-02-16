@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfScriptedImporterBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptedImporter</basecompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_glb_scripted_importer" prot="public" virt="non-virtual">UniGLTF.GlbScriptedImporter</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer" prot="public" virt="non-virtual">UniGLTF.GltfScriptedImporter</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer" prot="public" virt="non-virtual">UniGLTF.ZipArchivedGltfScriptedImporter</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a71451b965ac90c42291b6503ed35673e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1a21e0d3e48307457fe0256b8a7dcce23a" kindref="member">ScriptedImporterAxes</ref></type>
+        <definition>ScriptedImporterAxes UniGLTF.GltfScriptedImporterBase.m_reverseAxis</definition>
+        <argsstring></argsstring>
+        <name>m_reverseAxis</name>
+        <initializer>= default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_1acb256eea869f39731af8998fafddc05e" compoundref="_glb_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GlbScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_1a2928ce7f845d4d07308be251861b386e" compoundref="_gltf_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GltfScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_1aa3e395dae27cb23b1810b6920f8d71ce" compoundref="_zip_archived_gltf_scripted_importer_8cs" startline="15" endline="18">UniGLTF.ZipArchivedGltfScriptedImporter.OnImportAsset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a75b42cd14e9b17c818ab1e62d507513e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0a" kindref="member">RenderPipelineTypes</ref></type>
+        <definition>RenderPipelineTypes UniGLTF.GltfScriptedImporterBase.m_renderPipeline</definition>
+        <argsstring></argsstring>
+        <name>m_renderPipeline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_1acb256eea869f39731af8998fafddc05e" compoundref="_glb_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GlbScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_1a2928ce7f845d4d07308be251861b386e" compoundref="_gltf_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GltfScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_1aa3e395dae27cb23b1810b6920f8d71ce" compoundref="_zip_archived_gltf_scripted_importer_8cs" startline="15" endline="18">UniGLTF.ZipArchivedGltfScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1aa67e0932ff244f4700a012cb1b4ee737" compoundref="_gltf_scripted_importer_base_8cs" startline="25" endline="35">UniGLTF.GltfScriptedImporterBase.OnValidate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1aa67e0932ff244f4700a012cb1b4ee737" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.GltfScriptedImporterBase.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="25" bodyend="35"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a75b42cd14e9b17c818ab1e62d507513e" compoundref="_gltf_scripted_importer_base_8cs" startline="23">UniGLTF.GltfScriptedImporterBase.m_renderPipeline</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1ade60d8ceebd0edace2f98b7c7ffe2644" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator" kindref="compound">IMaterialDescriptorGenerator</ref></type>
+        <definition>static IMaterialDescriptorGenerator UniGLTF.GltfScriptedImporterBase.GetMaterialGenerator</definition>
+        <argsstring>(RenderPipelineTypes renderPipeline)</argsstring>
+        <name>GetMaterialGenerator</name>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0a" kindref="member">RenderPipelineTypes</ref></type>
+          <declname>renderPipeline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="37" bodyend="50"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a5c93d055b98dc85e15e5d7c7cb716e3d" compoundref="_gltf_scripted_importer_base_8cs" startline="58" endline="103">UniGLTF.GltfScriptedImporterBase.Import</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a5c93d055b98dc85e15e5d7c7cb716e3d" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfScriptedImporterBase.Import</definition>
+        <argsstring>(ScriptedImporter scriptedImporter, AssetImportContext context, Axes reverseAxis, RenderPipelineTypes renderPipeline)</argsstring>
+        <name>Import</name>
+        <param>
+          <type>ScriptedImporter</type>
+          <declname>scriptedImporter</declname>
+        </param>
+        <param>
+          <type>AssetImportContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505df" kindref="member">Axes</ref></type>
+          <declname>reverseAxis</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_g_l_t_f_1ad4fa881e75e7e33770f58ae9351b0c0a" kindref="member">RenderPipelineTypes</ref></type>
+          <declname>renderPipeline</declname>
+        </param>
+        <briefdescription>
+<para>glb をパースして、UnityObject化、さらにAsset化する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scriptedImporter</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reverseAxis</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="58" bodyend="103"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1ade60d8ceebd0edace2f98b7c7ffe2644" compoundref="_gltf_scripted_importer_base_8cs" startline="37" endline="50">UniGLTF.GltfScriptedImporterBase.GetMaterialGenerator</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_1acb256eea869f39731af8998fafddc05e" compoundref="_glb_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GlbScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_1a2928ce7f845d4d07308be251861b386e" compoundref="_gltf_scripted_importer_8cs" startline="13" endline="16">UniGLTF.GltfScriptedImporter.OnImportAsset</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_1aa3e395dae27cb23b1810b6920f8d71ce" compoundref="_zip_archived_gltf_scripted_importer_8cs" startline="15" endline="18">UniGLTF.ZipArchivedGltfScriptedImporter.OnImportAsset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ScriptedImporterImpl から改め </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1108">
+        <label>ScriptedImporter</label>
+      </node>
+      <node id="1111">
+        <label>UniGLTF.ZipArchivedGltfScriptedImporter</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer"/>
+        <childnode refid="1107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1107">
+        <label>UniGLTF.GltfScriptedImporterBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base"/>
+        <childnode refid="1108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1110">
+        <label>UniGLTF.GltfScriptedImporter</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer"/>
+        <childnode refid="1107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1109">
+        <label>UniGLTF.GlbScriptedImporter</label>
+        <link refid="class_uni_g_l_t_f_1_1_glb_scripted_importer"/>
+        <childnode refid="1107" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1113">
+        <label>ScriptedImporter</label>
+      </node>
+      <node id="1112">
+        <label>UniGLTF.GltfScriptedImporterBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base"/>
+        <childnode refid="1113" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/GltfScriptedImporterBase.cs" bodystart="16" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1ade60d8ceebd0edace2f98b7c7ffe2644" prot="private" virt="non-virtual"><scope>UniGLTF::GltfScriptedImporterBase</scope><name>GetMaterialGenerator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a5c93d055b98dc85e15e5d7c7cb716e3d" prot="protected" virt="non-virtual"><scope>UniGLTF::GltfScriptedImporterBase</scope><name>Import</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a75b42cd14e9b17c818ab1e62d507513e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfScriptedImporterBase</scope><name>m_renderPipeline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1a71451b965ac90c42291b6503ed35673e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfScriptedImporterBase</scope><name>m_reverseAxis</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_base_1aa67e0932ff244f4700a012cb1b4ee737" prot="private" virt="non-virtual"><scope>UniGLTF::GltfScriptedImporterBase</scope><name>OnValidate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

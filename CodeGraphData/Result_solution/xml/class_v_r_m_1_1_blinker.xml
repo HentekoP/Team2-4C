@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blinker" kind="class" prot="public">
+    <compoundname>VRM::Blinker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1a13f762360fc28e31b1f3847964319e50" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref></type>
+        <definition>VRMBlendShapeProxy VRM.Blinker.m_blendShapes</definition>
+        <argsstring></argsstring>
+        <name>m_blendShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a295e17ea74165687d8de62ab0e406aa5" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="101" endline="105">VRM.Blinker.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1a0a038488da5f16fb5e7223941cf23b36" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine VRM.Blinker.m_coroutine</definition>
+        <argsstring></argsstring>
+        <name>m_coroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a37144328de5864a497a96fddc06ee3c1" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="107" endline="115">VRM.Blinker.OnDisable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a295e17ea74165687d8de62ab0e406aa5" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="101" endline="105">VRM.Blinker.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1a24b3fdc6b3b786769837096ca2416a83" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.Blinker.m_nextRequest</definition>
+        <argsstring></argsstring>
+        <name>m_nextRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1a34cf43a4f8ec3d3940591e9ccb4b05d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.Blinker.m_request</definition>
+        <argsstring></argsstring>
+        <name>m_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1a151f60afc771d292175124808bb55e98" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.Blinker.Interval</definition>
+        <argsstring></argsstring>
+        <name>Interval</name>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1ac4be48508fd1b7ec71366a244c86c422" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.Blinker.ClosingTime</definition>
+        <argsstring></argsstring>
+        <name>ClosingTime</name>
+        <initializer>= 0.06f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1ad43a8e9ce26a41001dcd39aca5456dbb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.Blinker.OpeningSeconds</definition>
+        <argsstring></argsstring>
+        <name>OpeningSeconds</name>
+        <initializer>= 0.03f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blinker_1ae6c8fc69101992ff90afd263a830a230" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.Blinker.CloseSeconds</definition>
+        <argsstring></argsstring>
+        <name>CloseSeconds</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_blinker_1a497665ef566216f3ba51ce61804733ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool VRM.Blinker.Request</definition>
+        <argsstring></argsstring>
+        <name>Request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator VRM.Blinker.BlinkRoutine</definition>
+        <argsstring>()</argsstring>
+        <name>BlinkRoutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="49" bodyend="99"/>
+        <references refid="class_v_r_m_1_1_blinker_1ae6c8fc69101992ff90afd263a830a230" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="29">VRM.Blinker.CloseSeconds</references>
+        <references refid="class_v_r_m_1_1_blinker_1ac4be48508fd1b7ec71366a244c86c422" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="21">VRM.Blinker.ClosingTime</references>
+        <references refid="class_v_r_m_1_1_blinker_1a151f60afc771d292175124808bb55e98" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="17">VRM.Blinker.Interval</references>
+        <references refid="class_v_r_m_1_1_blinker_1a34cf43a4f8ec3d3940591e9ccb4b05d2" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="34">VRM.Blinker.m_request</references>
+        <references refid="class_v_r_m_1_1_blinker_1ad43a8e9ce26a41001dcd39aca5456dbb" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="25">VRM.Blinker.OpeningSeconds</references>
+        <references refid="class_v_r_m_1_1_blinker_1a497665ef566216f3ba51ce61804733ef" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="36">VRM.Blinker.Request</references>
+        <referencedby refid="class_v_r_m_1_1_blinker_1a295e17ea74165687d8de62ab0e406aa5" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="101" endline="105">VRM.Blinker.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blinker_1a295e17ea74165687d8de62ab0e406aa5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.Blinker.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="101" bodyend="105"/>
+        <references refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="49" endline="99">VRM.Blinker.BlinkRoutine</references>
+        <references refid="class_v_r_m_1_1_blinker_1a13f762360fc28e31b1f3847964319e50" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="13">VRM.Blinker.m_blendShapes</references>
+        <references refid="class_v_r_m_1_1_blinker_1a0a038488da5f16fb5e7223941cf23b36" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="31">VRM.Blinker.m_coroutine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blinker_1a37144328de5864a497a96fddc06ee3c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.Blinker.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="107" bodyend="115"/>
+        <references refid="class_v_r_m_1_1_blinker_1a0a038488da5f16fb5e7223941cf23b36" compoundref="player_2_v_r_m_2_runtime_2_blend_shape_2_blinker_8cs" startline="31">VRM.Blinker.m_coroutine</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref> によるランダムに瞬きするサンプル。 <ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref> のある GameObject にアタッチする。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>VRM.Blinker</label>
+        <link refid="class_v_r_m_1_1_blinker"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="242">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="232">
+        <label>VRM.Blinker</label>
+        <link refid="class_v_r_m_1_1_blinker"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+        <childnode refid="234" relation="usage">
+          <edgelabel>m_blendShapes</edgelabel>
+        </childnode>
+      </node>
+      <node id="241">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="241" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="244">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="237">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="238" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="236">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="237" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="240" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="233">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="234">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+        <childnode refid="236" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="243" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="239">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="238">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/Blinker.cs" bodystart="11" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blinker_1a1beb12ad30aba8584c315d969a9c434e" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>BlinkRoutine</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1ae6c8fc69101992ff90afd263a830a230" prot="public" virt="non-virtual"><scope>VRM::Blinker</scope><name>CloseSeconds</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1ac4be48508fd1b7ec71366a244c86c422" prot="public" virt="non-virtual"><scope>VRM::Blinker</scope><name>ClosingTime</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a151f60afc771d292175124808bb55e98" prot="public" virt="non-virtual"><scope>VRM::Blinker</scope><name>Interval</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a13f762360fc28e31b1f3847964319e50" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>m_blendShapes</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a0a038488da5f16fb5e7223941cf23b36" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>m_coroutine</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a24b3fdc6b3b786769837096ca2416a83" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>m_nextRequest</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a34cf43a4f8ec3d3940591e9ccb4b05d2" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>m_request</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a37144328de5864a497a96fddc06ee3c1" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>OnDisable</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a295e17ea74165687d8de62ab0e406aa5" prot="private" virt="non-virtual"><scope>VRM::Blinker</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1ad43a8e9ce26a41001dcd39aca5456dbb" prot="public" virt="non-virtual"><scope>VRM::Blinker</scope><name>OpeningSeconds</name></member>
+      <member refid="class_v_r_m_1_1_blinker_1a497665ef566216f3ba51ce61804733ef" prot="public" virt="non-virtual"><scope>VRM::Blinker</scope><name>Request</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter" kind="class" prot="public">
+    <compoundname>VRM::VRMBlendShapeExportFilter</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" prot="public" virt="non-virtual">UniGLTF.IBlendShapeExportFilter</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a25d58c2510e7b740e7d4c0a624ba0583" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_export_settings" kindref="compound">VRMExportSettings</ref></type>
+        <definition>VRMExportSettings VRM.VRMBlendShapeExportFilter.VRMExportSettings</definition>
+        <argsstring></argsstring>
+        <name>VRMExportSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a0bd48c7cf768daad6c0f9efac5246480" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+        <definition>List&lt;BlendShapeClip&gt; VRM.VRMBlendShapeExportFilter.Clips</definition>
+        <argsstring></argsstring>
+        <name>Clips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a573844a2b10e7bd059f8ff6d49176745" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="53" endline="69">VRM.VRMBlendShapeExportFilter.UseBlendShape</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1ac2159753f003a34adc907dfcd93084f3" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="36" endline="51">VRM.VRMBlendShapeExportFilter.VRMBlendShapeExportFilter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a25de65e0901085806c2e1722bc701c28" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMBlendShapeExportFilter.ClipsContainsName</definition>
+        <argsstring>(IReadOnlyList&lt; BlendShapeClip &gt; clips, bool onlyPreset, BlendShapeBinding binding)</argsstring>
+        <name>ClipsContainsName</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+          <declname>clips</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyPreset</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="10" bodyend="31"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a573844a2b10e7bd059f8ff6d49176745" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="53" endline="69">VRM.VRMBlendShapeExportFilter.UseBlendShape</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1ac2159753f003a34adc907dfcd93084f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMBlendShapeExportFilter.VRMBlendShapeExportFilter</definition>
+        <argsstring>(GameObject exportRoot, VRMExportSettings settings)</argsstring>
+        <name>VRMBlendShapeExportFilter</name>
+        <param>
+          <type>GameObject</type>
+          <declname>exportRoot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_export_settings" kindref="compound">VRMExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="36" bodyend="51"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a0bd48c7cf768daad6c0f9efac5246480" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="34">VRM.VRMBlendShapeExportFilter.Clips</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a573844a2b10e7bd059f8ff6d49176745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.VRMBlendShapeExportFilter.UseBlendShape</definition>
+        <argsstring>(int index, string relativePath)</argsstring>
+        <name>UseBlendShape</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter_1a571e09e1da7cf9e9f45c8bfa249505ba">UseBlendShape</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="53" bodyend="69"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a0bd48c7cf768daad6c0f9efac5246480" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="34">VRM.VRMBlendShapeExportFilter.Clips</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a25de65e0901085806c2e1722bc701c28" compoundref="_v_r_m_blend_shape_export_filter_8cs" startline="10" endline="31">VRM.VRMBlendShapeExportFilter.ClipsContainsName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_export_settings_1aab290cc18ff9603a05959071bbbb0a8e" compoundref="_v_r_m_export_settings_8cs" startline="38">VRM.VRMExportSettings.ReduceBlendshape</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2598">
+        <label>IBlendShapeExportFilter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter"/>
+      </node>
+      <node id="2597">
+        <label>VRM.VRMBlendShapeExportFilter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter"/>
+        <childnode refid="2598" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2600">
+        <label>IBlendShapeExportFilter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter"/>
+      </node>
+      <node id="2601">
+        <label>VRM.VRMExportSettings</label>
+        <link refid="class_v_r_m_1_1_v_r_m_export_settings"/>
+        <childnode refid="2602" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2603" relation="usage">
+          <edgelabel>MeshExportSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2602">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2603">
+        <label>UniGLTF.GltfExportSettings</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_settings"/>
+      </node>
+      <node id="2599">
+        <label>VRM.VRMBlendShapeExportFilter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter"/>
+        <childnode refid="2600" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2601" relation="usage">
+          <edgelabel>VRMExportSettings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMBlendShapeExportFilter.cs" bodystart="8" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a0bd48c7cf768daad6c0f9efac5246480" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeExportFilter</scope><name>Clips</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a25de65e0901085806c2e1722bc701c28" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeExportFilter</scope><name>ClipsContainsName</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a573844a2b10e7bd059f8ff6d49176745" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeExportFilter</scope><name>UseBlendShape</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1ac2159753f003a34adc907dfcd93084f3" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeExportFilter</scope><name>VRMBlendShapeExportFilter</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter_1a25d58c2510e7b740e7d4c0a624ba0583" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeExportFilter</scope><name>VRMExportSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

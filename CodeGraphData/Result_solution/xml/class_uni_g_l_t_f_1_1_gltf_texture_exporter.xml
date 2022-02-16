@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_texture_exporter" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfTextureExporter</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_texture_exporter_1a0491da697017127190d41f9b61c45a3f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.GltfTextureExporter.PushGltfTexture</definition>
+        <argsstring>(ExportingGltfData data, Texture2D texture, ColorSpace textureColorSpace, ITextureSerializer textureSerializer)</argsstring>
+        <name>PushGltfTexture</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>textureColorSpace</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+<para>gltf に texture を足す </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>textures</para></listitem><listitem><para>samplers</para></listitem><listitem><para>images</para></listitem><listitem><para>bufferViews</para></listitem></itemizedlist>
+</para><para>を更新し、textures の index を返す</para><para>もっとも根本の Exporter クラスのみが呼び出すべきである。 他の拡張機能などが呼び出すべきではない。</para><para><simplesect kind="return"><para>gltf texture index</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureExporter.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureExporter.cs" bodystart="25" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureExporter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureExporter.cs" bodystart="8" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_exporter_1a0491da697017127190d41f9b61c45a3f" prot="public" virt="non-virtual"><scope>UniGLTF::GltfTextureExporter</scope><name>PushGltfTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

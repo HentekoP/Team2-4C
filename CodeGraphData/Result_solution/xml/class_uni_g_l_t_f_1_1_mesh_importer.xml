@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_importer" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshImporter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_importer_1acf63d698be9efbb7453b09288356e938" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UniGLTF.MeshImporter.FrameWeight</definition>
+        <argsstring></argsstring>
+        <name>FrameWeight</name>
+        <initializer>= 100.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_importer_1a42bd67682ab49a9a0a25cea27e405c83" compoundref="_mesh_importer_8cs" startline="79" endline="120">UniGLTF.MeshImporter.BuildBlendShapeAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_importer_1a34c18fc79fbed59ff9cfeadf85951898" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.MeshImporter.Mesh</definition>
+        <argsstring></argsstring>
+        <name>Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_importer_1a02de7c3a7b5201b677658f0206e063a1" compoundref="_mesh_importer_8cs" startline="122" endline="160">UniGLTF.MeshImporter.BuildMeshAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_importer_1a3687afa2e6aa67a753bfed677ab53b7f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshImporter.HasSharedVertexBuffer</definition>
+        <argsstring>(glTFMesh gltfMesh)</argsstring>
+        <name>HasSharedVertexBuffer</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_mesh" kindref="compound">glTFMesh</ref></type>
+          <declname>gltfMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="14" bodyend="30"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_importer_1a3026e2b35f0004a833b8418a8251ceaa" compoundref="_mesh_importer_8cs" startline="32" endline="53">UniGLTF.MeshImporter.ReadMesh</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_importer_1a33c06f0ed00d2fc40a33fade0d418c48" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshImporter.BuildMesh</definition>
+        <argsstring>(MeshContext meshContext)</argsstring>
+        <name>BuildMesh</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_context" kindref="compound">MeshContext</ref></type>
+          <declname>meshContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="55" bodyend="77"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_importer_1a02de7c3a7b5201b677658f0206e063a1" compoundref="_mesh_importer_8cs" startline="122" endline="160">UniGLTF.MeshImporter.BuildMeshAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_importer_1a42bd67682ab49a9a0a25cea27e405c83" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task UniGLTF.MeshImporter.BuildBlendShapeAsync</definition>
+        <argsstring>(IAwaitCaller awaitCaller, Mesh mesh, BlendShape blendShape, Vector3[] emptyVertices)</argsstring>
+        <name>BuildBlendShapeAsync</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_importer_1a34c18fc79fbed59ff9cfeadf85951898" kindref="member">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_blend_shape" kindref="compound">BlendShape</ref></type>
+          <declname>blendShape</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>[]</type>
+          <declname>emptyVertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="79" bodyend="120"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_importer_1acf63d698be9efbb7453b09288356e938" compoundref="_mesh_importer_8cs" startline="12">UniGLTF.MeshImporter.FrameWeight</references>
+        <references refid="class_uni_g_l_t_f_1_1_blend_shape_1afd88441249c88e7cde9408aee5694b16" compoundref="_extensions_2_unity_extensions_8cs" startline="36">UniGLTF.BlendShape.Positions</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_importer_1a02de7c3a7b5201b677658f0206e063a1" compoundref="_mesh_importer_8cs" startline="122" endline="160">UniGLTF.MeshImporter.BuildMeshAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_importer_1a3026e2b35f0004a833b8418a8251ceaa" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_mesh_context" kindref="compound">MeshContext</ref></type>
+        <definition>MeshContext UniGLTF.MeshImporter.ReadMesh</definition>
+        <argsstring>(GltfData data, int meshIndex, IAxisInverter inverter)</argsstring>
+        <name>ReadMesh</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>meshIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>inverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="32" bodyend="53"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_importer_1a3687afa2e6aa67a753bfed677ab53b7f" compoundref="_mesh_importer_8cs" startline="14" endline="30">UniGLTF.MeshImporter.HasSharedVertexBuffer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_importer_1a02de7c3a7b5201b677658f0206e063a1" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_with_materials" kindref="compound">MeshWithMaterials</ref> &gt;</type>
+        <definition>static async Task&lt;MeshWithMaterials&gt; UniGLTF.MeshImporter.BuildMeshAsync</definition>
+        <argsstring>(IAwaitCaller awaitCaller, Func&lt; int, Material &gt; ctx, MeshContext meshContext)</argsstring>
+        <name>BuildMeshAsync</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <param>
+          <type>Func&lt; int, Material &gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_context" kindref="compound">MeshContext</ref></type>
+          <declname>meshContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="122" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="122" bodyend="160"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_context_1a532bd4b056c342c16c2801ee7a03fc57" compoundref="_mesh_context_8cs" startline="19">UniGLTF.MeshContext.BlendShapes</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_importer_1a42bd67682ab49a9a0a25cea27e405c83" compoundref="_mesh_importer_8cs" startline="79" endline="120">UniGLTF.MeshImporter.BuildBlendShapeAsync</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_importer_1a33c06f0ed00d2fc40a33fade0d418c48" compoundref="_mesh_importer_8cs" startline="55" endline="77">UniGLTF.MeshImporter.BuildMesh</references>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_importer_1a34c18fc79fbed59ff9cfeadf85951898" compoundref="_mesh_importer_8cs" startline="55">UniGLTF.MeshImporter.Mesh</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshImporter.cs" bodystart="10" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a42bd67682ab49a9a0a25cea27e405c83" prot="private" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>BuildBlendShapeAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a33c06f0ed00d2fc40a33fade0d418c48" prot="private" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>BuildMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a02de7c3a7b5201b677658f0206e063a1" prot="package" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>BuildMeshAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1acf63d698be9efbb7453b09288356e938" prot="private" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>FrameWeight</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a3687afa2e6aa67a753bfed677ab53b7f" prot="private" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>HasSharedVertexBuffer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a34c18fc79fbed59ff9cfeadf85951898" prot="private" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>Mesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_importer_1a3026e2b35f0004a833b8418a8251ceaa" prot="package" virt="non-virtual"><scope>UniGLTF::MeshImporter</scope><name>ReadMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

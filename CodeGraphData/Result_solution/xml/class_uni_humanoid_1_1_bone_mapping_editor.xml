@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bone_mapping_editor" kind="class" prot="public">
+    <compoundname>UniHumanoid::BoneMappingEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <innerclass refid="struct_uni_humanoid_1_1_bone_mapping_editor_1_1_bone" prot="private">UniHumanoid::BoneMappingEditor::Bone</innerclass>
+    <innerclass refid="struct_uni_humanoid_1_1_bone_mapping_editor_1_1_bone_def" prot="private">UniHumanoid::BoneMappingEditor::BoneDef</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1abf7a564da93727f382a4699160866265" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_bone_mapping" kindref="compound">BoneMapping</ref></type>
+        <definition>BoneMapping UniHumanoid.BoneMappingEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a79ea47421ab9f3e097184508ad5ba2af" compoundref="_bone_mapping_editor_8cs" startline="16" endline="28">UniHumanoid.BoneMappingEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" compoundref="_bone_mapping_editor_8cs" startline="62" endline="242">UniHumanoid.BoneMappingEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1a4df3ba4cdf94f559f120e27e0ceef447" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UniHumanoid.BoneMappingEditor.LABEL_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>LABEL_WIDTH</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a468b9211cdab61dd057e9ac769d221a0" compoundref="_bone_mapping_editor_8cs" startline="42" endline="48">UniHumanoid.BoneMappingEditor.BoneField</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" compoundref="_bone_mapping_editor_8cs" startline="62" endline="242">UniHumanoid.BoneMappingEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1a43f69ceed701c4c6dd89129756caa5df" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.BoneMappingEditor.m_handFoldout</definition>
+        <argsstring></argsstring>
+        <name>m_handFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" compoundref="_bone_mapping_editor_8cs" startline="62" endline="242">UniHumanoid.BoneMappingEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1ae17b21de474f9a5d6f227c8f28d75f85" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.BoneMappingEditor.m_settingsFoldout</definition>
+        <argsstring></argsstring>
+        <name>m_settingsFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1a2d389c4b581601ce55139add42159a7a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_uni_humanoid_1_1_bone_mapping_editor_1_1_bone" kindref="compound">Bone</ref>[]</type>
+        <definition>Bone [] UniHumanoid.BoneMappingEditor.m_bones</definition>
+        <argsstring></argsstring>
+        <name>m_bones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="261" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="261" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a79ea47421ab9f3e097184508ad5ba2af" compoundref="_bone_mapping_editor_8cs" startline="16" endline="28">UniHumanoid.BoneMappingEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a1282eb31fa2f335ee1fa0ad65fb262c5" compoundref="_bone_mapping_editor_8cs" startline="403" endline="420">UniHumanoid.BoneMappingEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_editor_1a686319ed3af683c423c2e7e5e310206e" prot="private" static="yes" mutable="no">
+        <type>readonly HumanBodyBones[][]</type>
+        <definition>readonly HumanBodyBones [][] UniHumanoid.BoneMappingEditor.BoneDefs</definition>
+        <argsstring></argsstring>
+        <name>BoneDefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="274" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bone_mapping_editor_1a8e2d9ea89b67f70e9929b6bf7a7f7ee5" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="struct_uni_humanoid_1_1_bone_mapping_editor_1_1_bone_def" kindref="compound">BoneDef</ref> &gt;</type>
+        <definition>IEnumerable&lt;BoneDef&gt; UniHumanoid.BoneMappingEditor.EachBoneDefs</definition>
+        <argsstring></argsstring>
+        <name>EachBoneDefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="377" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a79ea47421ab9f3e097184508ad5ba2af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMappingEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="16" bodyend="28"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a2d389c4b581601ce55139add42159a7a" compoundref="_bone_mapping_editor_8cs" startline="261">UniHumanoid.BoneMappingEditor.m_bones</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1abf7a564da93727f382a4699160866265" compoundref="_bone_mapping_editor_8cs" startline="14">UniHumanoid.BoneMappingEditor.m_target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1ad3c3d53064bf385932f78f54d5dd22d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMappingEditor.DrawBone</definition>
+        <argsstring>(HumanBodyBones bone, GameObject go)</argsstring>
+        <name>DrawBone</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="392" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="392" bodyend="401"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a1282eb31fa2f335ee1fa0ad65fb262c5" compoundref="_bone_mapping_editor_8cs" startline="403" endline="420">UniHumanoid.BoneMappingEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a1282eb31fa2f335ee1fa0ad65fb262c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMappingEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="403" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="403" bodyend="420"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1ad3c3d53064bf385932f78f54d5dd22d4" compoundref="_bone_mapping_editor_8cs" startline="392" endline="401">UniHumanoid.BoneMappingEditor.DrawBone</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a2d389c4b581601ce55139add42159a7a" compoundref="_bone_mapping_editor_8cs" startline="261">UniHumanoid.BoneMappingEditor.m_bones</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a7c7a780068d5664894c368017c31a9a0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject UniHumanoid.BoneMappingEditor.ObjectField</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>ObjectField</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="30" bodyend="33"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a468b9211cdab61dd057e9ac769d221a0" compoundref="_bone_mapping_editor_8cs" startline="42" endline="48">UniHumanoid.BoneMappingEditor.BoneField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a009d3cc085bb206cafb4367d8ea2f182" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject UniHumanoid.BoneMappingEditor.ObjectField</definition>
+        <argsstring>(string label, GameObject obj)</argsstring>
+        <name>ObjectField</name>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a468b9211cdab61dd057e9ac769d221a0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BoneMappingEditor.BoneField</definition>
+        <argsstring>(HumanBodyBones bone, GameObject[] bones)</argsstring>
+        <name>BoneField</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>GameObject[]</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="42" bodyend="48"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a4df3ba4cdf94f559f120e27e0ceef447" compoundref="_bone_mapping_editor_8cs" startline="40">UniHumanoid.BoneMappingEditor.LABEL_WIDTH</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a7c7a780068d5664894c368017c31a9a0" compoundref="_bone_mapping_editor_8cs" startline="30" endline="33">UniHumanoid.BoneMappingEditor.ObjectField</references>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" compoundref="_bone_mapping_editor_8cs" startline="62" endline="242">UniHumanoid.BoneMappingEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a67870861d6b0a3168d32f9688d54a084" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BoneMappingEditor.BoneField</definition>
+        <argsstring>(HumanBodyBones left, HumanBodyBones right, GameObject[] bones)</argsstring>
+        <name>BoneField</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>GameObject[]</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="50" bodyend="57"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a4df3ba4cdf94f559f120e27e0ceef447" compoundref="_bone_mapping_editor_8cs" startline="40">UniHumanoid.BoneMappingEditor.LABEL_WIDTH</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a7c7a780068d5664894c368017c31a9a0" compoundref="_bone_mapping_editor_8cs" startline="30" endline="33">UniHumanoid.BoneMappingEditor.ObjectField</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UniHumanoid.BoneMappingEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="62" bodyend="242"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a468b9211cdab61dd057e9ac769d221a0" compoundref="_bone_mapping_editor_8cs" startline="42" endline="48">UniHumanoid.BoneMappingEditor.BoneField</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a4df3ba4cdf94f559f120e27e0ceef447" compoundref="_bone_mapping_editor_8cs" startline="40">UniHumanoid.BoneMappingEditor.LABEL_WIDTH</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1a43f69ceed701c4c6dd89129756caa5df" compoundref="_bone_mapping_editor_8cs" startline="59">UniHumanoid.BoneMappingEditor.m_handFoldout</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_editor_1abf7a564da93727f382a4699160866265" compoundref="_bone_mapping_editor_8cs" startline="14">UniHumanoid.BoneMappingEditor.m_target</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="324">
+        <label>Editor</label>
+      </node>
+      <node id="323">
+        <label>UniHumanoid.BoneMappingEditor</label>
+        <link refid="class_uni_humanoid_1_1_bone_mapping_editor"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="333">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+        <childnode refid="333" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="334">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="326">
+        <label>Editor</label>
+      </node>
+      <node id="327">
+        <label>UniHumanoid.BoneMappingEditor.Bone</label>
+        <link refid="struct_uni_humanoid_1_1_bone_mapping_editor_1_1_bone"/>
+      </node>
+      <node id="332">
+        <label>UniHumanoid.BoneLimit</label>
+        <link refid="struct_uni_humanoid_1_1_bone_limit"/>
+        <childnode refid="333" relation="usage">
+          <edgelabel>center</edgelabel>
+          <edgelabel>min</edgelabel>
+          <edgelabel>max</edgelabel>
+        </childnode>
+      </node>
+      <node id="330">
+        <label>UniHumanoid.AvatarDescription</label>
+        <link refid="class_uni_humanoid_1_1_avatar_description"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="usage">
+          <edgelabel>human</edgelabel>
+        </childnode>
+      </node>
+      <node id="328">
+        <label>UniHumanoid.BoneMapping</label>
+        <link refid="class_uni_humanoid_1_1_bone_mapping"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>Description</edgelabel>
+        </childnode>
+      </node>
+      <node id="331">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="329">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="325">
+        <label>UniHumanoid.BoneMappingEditor</label>
+        <link refid="class_uni_humanoid_1_1_bone_mapping_editor"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+        <childnode refid="327" relation="usage">
+          <edgelabel>m_bones</edgelabel>
+        </childnode>
+        <childnode refid="328" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/BoneMappingEditor.cs" bodystart="12" bodyend="421"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a686319ed3af683c423c2e7e5e310206e" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>BoneDefs</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a468b9211cdab61dd057e9ac769d221a0" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>BoneField</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a67870861d6b0a3168d32f9688d54a084" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>BoneField</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1ad3c3d53064bf385932f78f54d5dd22d4" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>DrawBone</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a8e2d9ea89b67f70e9929b6bf7a7f7ee5" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>EachBoneDefs</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a4df3ba4cdf94f559f120e27e0ceef447" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>LABEL_WIDTH</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a2d389c4b581601ce55139add42159a7a" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>m_bones</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a43f69ceed701c4c6dd89129756caa5df" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>m_handFoldout</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1ae17b21de474f9a5d6f227c8f28d75f85" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>m_settingsFoldout</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1abf7a564da93727f382a4699160866265" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>m_target</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a7c7a780068d5664894c368017c31a9a0" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>ObjectField</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a009d3cc085bb206cafb4367d8ea2f182" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>ObjectField</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a79ea47421ab9f3e097184508ad5ba2af" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>OnEnable</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a3dac957f3cddab8245147f95da75a221" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_editor_1a1282eb31fa2f335ee1fa0ad65fb262c5" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMappingEditor</scope><name>OnSceneGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

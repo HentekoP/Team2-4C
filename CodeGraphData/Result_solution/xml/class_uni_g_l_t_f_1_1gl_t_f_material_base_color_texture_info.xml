@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFMaterialBaseColorTextureInfo</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info" prot="public" virt="non-virtual">UniGLTF.glTFTextureInfo</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1040">
+        <label>glTFTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info"/>
+      </node>
+      <node id="1039">
+        <label>UniGLTF.glTFMaterialBaseColorTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info"/>
+        <childnode refid="1040" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1043">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="1042">
+        <label>glTFTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info"/>
+        <childnode refid="1043" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="1041">
+        <label>UniGLTF.glTFMaterialBaseColorTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info"/>
+        <childnode refid="1042" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="21" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialBaseColorTextureInfo</scope><name>extensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialBaseColorTextureInfo</scope><name>extras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialBaseColorTextureInfo</scope><name>index</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterialBaseColorTextureInfo</scope><name>texCoord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

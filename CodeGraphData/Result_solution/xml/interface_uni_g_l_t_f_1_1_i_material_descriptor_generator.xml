@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator" kind="interface" prot="public">
+    <compoundname>UniGLTF::IMaterialDescriptorGenerator</compoundname>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator" prot="public" virt="non-virtual">UniGLTF.GltfMaterialDescriptorGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator" prot="public" virt="non-virtual">UniGLTF.GltfUrpMaterialDescriptorGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator" prot="public" virt="non-virtual">VRM.VRMMaterialDescriptorGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator" prot="public" virt="non-virtual">VRM.VRMUrpMaterialDescriptorGenerator</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator_1a7939fe8200bb3a82d62f0d84bb5aa71e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_shaders_1_1_material_descriptor" kindref="compound">MaterialDescriptor</ref></type>
+        <definition>MaterialDescriptor UniGLTF.IMaterialDescriptorGenerator.Get</definition>
+        <argsstring>(GltfData data, int i)</argsstring>
+        <name>Get</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1af41bd943e58552a109411141d1dba432">Get</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator_1acd596e15cb2d477bc99dff0f6831c22b">Get</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a2f9974805e43587a9ac76d71f1af54e2">Get</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator_1add770b541ff28af4a2df415404e4056e">Get</reimplementedby>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/IMaterialDescriptorGenerator.cs" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>指定の index の <ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref> から Import できる Material の生成情報を生成する。 <ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref> と Unity Material は 1:1 対応する。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1268">
+        <label>VRM.VRMUrpMaterialDescriptorGenerator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator"/>
+        <childnode refid="1264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1266">
+        <label>UniGLTF.GltfUrpMaterialDescriptorGenerator</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator"/>
+        <childnode refid="1264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1267">
+        <label>VRM.VRMMaterialDescriptorGenerator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator"/>
+        <childnode refid="1264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>UniGLTF.GltfMaterialDescriptorGenerator</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator"/>
+        <childnode refid="1264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1264">
+        <label>UniGLTF.IMaterialDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/IMaterialDescriptorGenerator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/IMaterialDescriptorGenerator.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator_1a7939fe8200bb3a82d62f0d84bb5aa71e" prot="public" virt="non-virtual"><scope>UniGLTF::IMaterialDescriptorGenerator</scope><name>Get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

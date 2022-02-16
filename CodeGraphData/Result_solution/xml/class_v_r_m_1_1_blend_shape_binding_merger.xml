@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_binding_merger" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeBindingMerger</compoundname>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer" prot="private">VRM::BlendShapeBindingMerger::DictionaryKeyBlendShapeBindingComparer</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_binding_merger_1ad1205a56b8d809adc68faa0fefee8625" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer" kindref="compound">DictionaryKeyBlendShapeBindingComparer</ref></type>
+        <definition>DictionaryKeyBlendShapeBindingComparer VRM.BlendShapeBindingMerger.comparer</definition>
+        <argsstring></argsstring>
+        <name>comparer</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer" kindref="compound">DictionaryKeyBlendShapeBindingComparer</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_binding_merger_1a87d86b93880c6ba8664e190a372ca1fd" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>, float &gt;</type>
+        <definition>Dictionary&lt;BlendShapeBinding, float&gt; VRM.BlendShapeBindingMerger.m_blendShapeValueMap</definition>
+        <argsstring></argsstring>
+        <name>m_blendShapeValueMap</name>
+        <initializer>= new Dictionary&lt;<ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>, float&gt;(<ref refid="class_v_r_m_1_1_blend_shape_binding_merger_1ad1205a56b8d809adc68faa0fefee8625" kindref="member">comparer</ref>)</initializer>
+        <briefdescription>
+<para>BlendShapeの適用値を蓄積する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>float</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_binding_merger_1acb4e0af129530ad8f962d2374e3d19cb" compoundref="_blend_shape_binding_merger_8cs" startline="92" endline="107">VRM.BlendShapeBindingMerger.AccumulateValue</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_binding_merger_1a5df5ae0fc9ac640d31cb311db4af0eb7" compoundref="_blend_shape_binding_merger_8cs" startline="109" endline="120">VRM.BlendShapeBindingMerger.Apply</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_binding_merger_1a1c6cf3d8b5b4948b38be21d6a64e7485" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>, Action&lt; float &gt; &gt;</type>
+        <definition>Dictionary&lt;BlendShapeBinding, Action&lt;float&gt; &gt; VRM.BlendShapeBindingMerger.m_blendShapeSetterMap</definition>
+        <argsstring></argsstring>
+        <name>m_blendShapeSetterMap</name>
+        <initializer>= new Dictionary&lt;<ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>, Action&lt;float&gt;&gt;(<ref refid="class_v_r_m_1_1_blend_shape_binding_merger_1ad1205a56b8d809adc68faa0fefee8625" kindref="member">comparer</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_binding_merger_1a5df5ae0fc9ac640d31cb311db4af0eb7" compoundref="_blend_shape_binding_merger_8cs" startline="109" endline="120">VRM.BlendShapeBindingMerger.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1267521423d248e64b2e4b798ff0e64b" compoundref="_blend_shape_binding_merger_8cs" startline="42" endline="78">VRM.BlendShapeBindingMerger.BlendShapeBindingMerger</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_binding_merger_1ae0875cce585a69d47a5376f5dd6a3de4" compoundref="_blend_shape_binding_merger_8cs" startline="80" endline="90">VRM.BlendShapeBindingMerger.ImmediatelySetValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1a1267521423d248e64b2e4b798ff0e64b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.BlendShapeBindingMerger.BlendShapeBindingMerger</definition>
+        <argsstring>(Dictionary&lt; BlendShapeKey, BlendShapeClip &gt; clipMap, Transform root)</argsstring>
+        <name>BlendShapeBindingMerger</name>
+        <param>
+          <type>Dictionary&lt; <ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref>, <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+          <declname>clipMap</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="42" bodyend="78"/>
+        <references refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1c6cf3d8b5b4948b38be21d6a64e7485" compoundref="_blend_shape_binding_merger_8cs" startline="40">VRM.BlendShapeBindingMerger.m_blendShapeSetterMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1ae0875cce585a69d47a5376f5dd6a3de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeBindingMerger.ImmediatelySetValue</definition>
+        <argsstring>(BlendShapeClip clip, float value)</argsstring>
+        <name>ImmediatelySetValue</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="80" bodyend="90"/>
+        <references refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1c6cf3d8b5b4948b38be21d6a64e7485" compoundref="_blend_shape_binding_merger_8cs" startline="40">VRM.BlendShapeBindingMerger.m_blendShapeSetterMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1acb4e0af129530ad8f962d2374e3d19cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeBindingMerger.AccumulateValue</definition>
+        <argsstring>(BlendShapeClip clip, float value)</argsstring>
+        <name>AccumulateValue</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="92" bodyend="107"/>
+        <references refid="class_v_r_m_1_1_blend_shape_binding_merger_1a87d86b93880c6ba8664e190a372ca1fd" compoundref="_blend_shape_binding_merger_8cs" startline="34">VRM.BlendShapeBindingMerger.m_blendShapeValueMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_binding_merger_1a5df5ae0fc9ac640d31cb311db4af0eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeBindingMerger.Apply</definition>
+        <argsstring>()</argsstring>
+        <name>Apply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="109" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="109" bodyend="120"/>
+        <references refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1c6cf3d8b5b4948b38be21d6a64e7485" compoundref="_blend_shape_binding_merger_8cs" startline="40">VRM.BlendShapeBindingMerger.m_blendShapeSetterMap</references>
+        <references refid="class_v_r_m_1_1_blend_shape_binding_merger_1a87d86b93880c6ba8664e190a372ca1fd" compoundref="_blend_shape_binding_merger_8cs" startline="34">VRM.BlendShapeBindingMerger.m_blendShapeValueMap</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A.Value * A.Weight + B.Value * B.Weight ... </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="128">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="129" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="129">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeBindingMerger.cs" bodystart="10" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1acb4e0af129530ad8f962d2374e3d19cb" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>AccumulateValue</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1a5df5ae0fc9ac640d31cb311db4af0eb7" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1267521423d248e64b2e4b798ff0e64b" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>BlendShapeBindingMerger</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1ad1205a56b8d809adc68faa0fefee8625" prot="private" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>comparer</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1ae0875cce585a69d47a5376f5dd6a3de4" prot="public" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>ImmediatelySetValue</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1a1c6cf3d8b5b4948b38be21d6a64e7485" prot="private" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>m_blendShapeSetterMap</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_binding_merger_1a87d86b93880c6ba8664e190a372ca1fd" prot="private" virt="non-virtual"><scope>VRM::BlendShapeBindingMerger</scope><name>m_blendShapeValueMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

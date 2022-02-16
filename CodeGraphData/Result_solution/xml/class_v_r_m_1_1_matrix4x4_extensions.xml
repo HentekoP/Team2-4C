@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_matrix4x4_extensions" kind="class" prot="public">
+    <compoundname>VRM::Matrix4x4Extensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_matrix4x4_extensions_1a7893c184ff84d30432081c611c989436" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.Matrix4x4Extensions.CalcYawPitch</definition>
+        <argsstring>(this Matrix4x4 m, Vector3 target, out float yaw, out float pitch)</argsstring>
+        <name>CalcYawPitch</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_matrix4x4_extensions_1afb417e16573f56c67645a0edd7b99822" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>static Quaternion VRM.Matrix4x4Extensions.YawPitchRotation</definition>
+        <argsstring>(this Matrix4x4 m, float yaw, float pitch)</argsstring>
+        <name>YawPitchRotation</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_matrix4x4_extensions_1a07f179ad12201bba0761ecb9a0cae599" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>static Matrix4x4 VRM.Matrix4x4Extensions.RotationToWorldAxis</definition>
+        <argsstring>(this Matrix4x4 m)</argsstring>
+        <name>RotationToWorldAxis</name>
+        <param>
+          <type>this Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/Matrix4x4Extensions.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_matrix4x4_extensions_1a7893c184ff84d30432081c611c989436" prot="public" virt="non-virtual"><scope>VRM::Matrix4x4Extensions</scope><name>CalcYawPitch</name></member>
+      <member refid="class_v_r_m_1_1_matrix4x4_extensions_1a07f179ad12201bba0761ecb9a0cae599" prot="public" virt="non-virtual"><scope>VRM::Matrix4x4Extensions</scope><name>RotationToWorldAxis</name></member>
+      <member refid="class_v_r_m_1_1_matrix4x4_extensions_1afb417e16573f56c67645a0edd7b99822" prot="public" virt="non-virtual"><scope>VRM::Matrix4x4Extensions</scope><name>YawPitchRotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

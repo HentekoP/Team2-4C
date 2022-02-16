@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_avatar" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeAvatar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref> &gt;</type>
+        <definition>List&lt;BlendShapeClip&gt; VRM.BlendShapeAvatar.Clips</definition>
+        <argsstring></argsstring>
+        <name>Clips</name>
+        <initializer>= new List&lt;<ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a8359dc874d5eb92aadef383a367510db" compoundref="_blend_shape_avatar_8cs" startline="91" endline="110">VRM.BlendShapeAvatar.CreateDefaultPreset</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" compoundref="_v_r_m_importer_context_8cs" startline="339" endline="364">VRM.VRMImporterContext.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_selector_1a860c23891990769c3233a4933fbb0495" compoundref="_blend_shape_clip_selector_8cs" startline="92" endline="99">VRM.BlendShapeClipSelector.DuplicateWarn</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1ad627db4c642ec30941946308456c7803" compoundref="_blend_shape_avatar_8cs" startline="133" endline="137">VRM.BlendShapeAvatar.GetClip</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1ab7a175147325c46e49799b369c74252c" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="80" endline="90">VRM.VRMBlendShapeProxy.GetValues</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a7ded7dc3ee3dc45e0eb6e7c91f38ad6e" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="21" endline="27">VRM.VRMBlendShapeProxy.OnDestroy</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="38" endline="49">VRM.VRMBlendShapeProxyEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a117422809dc80478d1187a5cec95e245" compoundref="_blend_shape_avatar_8cs" startline="22" endline="35">VRM.BlendShapeAvatar.RemoveNullClip</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_selector_1a8470e8d8b3ea5dd0c46ebf5d1521a82e" compoundref="_blend_shape_clip_selector_8cs" startline="57" endline="90">VRM.BlendShapeClipSelector.SelectGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a98117a217e1bef323ad2005a67aa79f7" compoundref="_blend_shape_avatar_8cs" startline="112" endline="131">VRM.BlendShapeAvatar.SetClip</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a3db4eec6df2b7e8bbafbb906c89c7138" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="29" endline="38">VRM.VRMBlendShapeProxy.Start</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1acc89b6a6b69f35f0834021d0bb93e905" compoundref="_v_r_m_importer_context_8cs" startline="310" endline="337">VRM.VRMImporterContext.TransferOwnership</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a117422809dc80478d1187a5cec95e245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeAvatar.RemoveNullClip</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveNullClip</name>
+        <briefdescription>
+<para>NullのClipを削除して詰める </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="22" bodyend="35"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a791d4de1a2dab8f65a7615a51c4c51e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeAvatar.CreateDefaultPreset</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaultPreset</name>
+        <briefdescription>
+<para>Unknown以外で存在しないものを全て作る </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="80" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a98117a217e1bef323ad2005a67aa79f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeAvatar.SetClip</definition>
+        <argsstring>(BlendShapeKey key, BlendShapeClip clip)</argsstring>
+        <name>SetClip</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="112" bodyend="131"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1ad627db4c642ec30941946308456c7803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeAvatar.GetClip</definition>
+        <argsstring>(BlendShapeKey key)</argsstring>
+        <name>GetClip</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="133" bodyend="137"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a5122fdd577526088a099945956325216" compoundref="_blend_shape_avatar_8cs" startline="139" endline="142">VRM.BlendShapeAvatar.GetClip</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a5122fdd577526088a099945956325216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeAvatar.GetClip</definition>
+        <argsstring>(BlendShapePreset preset)</argsstring>
+        <name>GetClip</name>
+        <param>
+          <type><ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+          <declname>preset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="139" bodyend="142"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a7e9acf4750fa43b959470b15fb644ac0" compoundref="_blend_shape_key_8cs" startline="74" endline="77">VRM.BlendShapeKey.CreateFromPreset</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1ad627db4c642ec30941946308456c7803" compoundref="_blend_shape_avatar_8cs" startline="133" endline="137">VRM.BlendShapeAvatar.GetClip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a60017c613a5bcd79336392b560e6092d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeAvatar.GetClip</definition>
+        <argsstring>(String name)</argsstring>
+        <name>GetClip</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="144" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="144" bodyend="147"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a420313edf29254e55a2e43eb4153c26a" compoundref="_blend_shape_key_8cs" startline="99" endline="102">VRM.BlendShapeKey.CreateUnknown</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1ad627db4c642ec30941946308456c7803" compoundref="_blend_shape_avatar_8cs" startline="133" endline="137">VRM.BlendShapeAvatar.GetClip</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_avatar_1a8359dc874d5eb92aadef383a367510db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeAvatar.CreateDefaultPreset</definition>
+        <argsstring>(BlendShapePreset preset)</argsstring>
+        <name>CreateDefaultPreset</name>
+        <param>
+          <type><ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+          <declname>preset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="91" bodyend="110"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="93">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="95">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" bodystart="14" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>Clips</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a791d4de1a2dab8f65a7615a51c4c51e9" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>CreateDefaultPreset</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a8359dc874d5eb92aadef383a367510db" prot="private" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>CreateDefaultPreset</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1ad627db4c642ec30941946308456c7803" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>GetClip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a5122fdd577526088a099945956325216" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>GetClip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a60017c613a5bcd79336392b560e6092d" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>GetClip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a117422809dc80478d1187a5cec95e245" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>RemoveNullClip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_avatar_1a98117a217e1bef323ad2005a67aa79f7" prot="public" virt="non-virtual"><scope>VRM::BlendShapeAvatar</scope><name>SetClip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

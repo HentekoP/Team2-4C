@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::JsonSchemaParser</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a9dfb3d1ba06849c06c6bff010dd8c54b" prot="private" static="no" mutable="no">
+        <type>DirectoryInfo[]</type>
+        <definition>DirectoryInfo [] UniGLTF.JsonSchema.JsonSchemaParser.m_dir</definition>
+        <argsstring></argsstring>
+        <name>m_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a5fb51f301b8ff6bff02d5302c06f8871" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; FileInfo, byte[]&gt;</type>
+        <definition>Dictionary&lt;FileInfo, byte[]&gt; UniGLTF.JsonSchema.JsonSchemaParser.m_cache</definition>
+        <argsstring></argsstring>
+        <name>m_cache</name>
+        <initializer>= new Dictionary&lt;FileInfo, byte[]&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a7710cf9ae9a10d3ce1547031bc417fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JsonSchema.JsonSchemaParser.JsonSchemaParser</definition>
+        <argsstring>(params DirectoryInfo[] dir)</argsstring>
+        <name>JsonSchemaParser</name>
+        <param>
+          <type>params DirectoryInfo[]</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ae4cc13f179de74822c2e7a1e6097aefd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaParser.Load</definition>
+        <argsstring>(string fileName, string jsonPath)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="29" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a28c873207eb4321658d849dcb6434e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaParser.Load</definition>
+        <argsstring>(FileInfo path, string jsonPath)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>FileInfo</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="49" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ae9e10e92dff2a4eb95198a90f2e291c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>static JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaParser.Parse</definition>
+        <argsstring>(string root, string jsonPath=&quot;&quot;)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>string</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jsonPath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a0af81cab3dd90d94ad38266059953600" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaParser.MergeTo</definition>
+        <argsstring>(JsonSchemaSource src, JsonSchemaSource dst)</argsstring>
+        <name>MergeTo</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="65" bodyend="87"/>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a24a48eccec0829ae2ae4893d300db3b2" compoundref="_json_schema_source_8cs" startline="54">UniGLTF.JsonSchema.JsonSchemaSource.description</references>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4a5ec939f024e213c1c63f0e485c57d0" compoundref="_json_schema_source_8cs" startline="53">UniGLTF.JsonSchema.JsonSchemaSource.title</references>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1abecfa18be571e6a606d1c09a45dd61e0" compoundref="_json_schema_source_8cs" startline="52">UniGLTF.JsonSchema.JsonSchemaSource.type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a56793e9771995159a3dd45f56c30aed0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaParser.Parse</definition>
+        <argsstring>(JsonNode json, string jsonPath)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="89" bodyend="300"/>
+        <references refid="namespace_uni_g_l_t_f_1_1_json_schema_1aecd828f444f27bbd4e33958edcfac82eacf20423ed48998082c20099488a0917c">UniGLTF.JsonSchema.Enum</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ac95ae7ad8efed82b26f2e314fbd3e603" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaParser.ParseStringEnum</definition>
+        <argsstring>(ref JsonSchemaSource source, JsonNode json)</argsstring>
+        <name>ParseStringEnum</name>
+        <param>
+          <type>ref <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="302" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="302" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ab629e2d04b0ae66dd4cd5ef12dc1eda3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaParser.ParseAnyOfAsEnum</definition>
+        <argsstring>(ref JsonSchemaSource source, JsonNode json)</argsstring>
+        <name>ParseAnyOfAsEnum</name>
+        <param>
+          <type>ref <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="308" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="308" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a6f5943d00a270b8597a93998679efa6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaParser.AllOf</definition>
+        <argsstring>(JsonNode json, string jsonPath)</argsstring>
+        <name>AllOf</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="386" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="386" bodyend="411"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaParser.cs" bodystart="9" bodyend="412"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a6f5943d00a270b8597a93998679efa6b" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>AllOf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a7710cf9ae9a10d3ce1547031bc417fed" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>JsonSchemaParser</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ae4cc13f179de74822c2e7a1e6097aefd" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>Load</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a28c873207eb4321658d849dcb6434e8d" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>Load</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a5fb51f301b8ff6bff02d5302c06f8871" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>m_cache</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a9dfb3d1ba06849c06c6bff010dd8c54b" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>m_dir</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a0af81cab3dd90d94ad38266059953600" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>MergeTo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ae9e10e92dff2a4eb95198a90f2e291c2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>Parse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a56793e9771995159a3dd45f56c30aed0" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>Parse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ab629e2d04b0ae66dd4cd5ef12dc1eda3" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>ParseAnyOfAsEnum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1ac95ae7ad8efed82b26f2e314fbd3e603" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaParser</scope><name>ParseStringEnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

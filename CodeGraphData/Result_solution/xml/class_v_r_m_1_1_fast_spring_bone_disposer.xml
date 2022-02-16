@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bone_disposer" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBoneDisposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bone_disposer_1a5a0b27191a3489175dd385ff8eef4dbe" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; IDisposable &gt;</type>
+        <definition>readonly List&lt;IDisposable&gt; VRM.FastSpringBoneDisposer._disposables</definition>
+        <argsstring></argsstring>
+        <name>_disposables</name>
+        <initializer>= new List&lt;IDisposable&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_fast_spring_bone_disposer_1abee60427c4a5ae7d7270cbbd9de5baa8" compoundref="_fast_spring_bone_disposer_8cs" startline="19" endline="25">VRM.FastSpringBoneDisposer.OnDestroy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bone_disposer_1a84e8f33f1ce5941870f5cca6a107e18b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBoneDisposer.Add</definition>
+        <argsstring>(IDisposable disposable)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>IDisposable</type>
+          <declname>disposable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bone_disposer_1abee60427c4a5ae7d7270cbbd9de5baa8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBoneDisposer.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" bodystart="19" bodyend="25"/>
+        <references refid="class_v_r_m_1_1_fast_spring_bone_disposer_1a5a0b27191a3489175dd385ff8eef4dbe" compoundref="_fast_spring_bone_disposer_8cs" startline="12">VRM.FastSpringBoneDisposer._disposables</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FastSpringBoneに関連して、特定のGameObjectと紐付いたIDisposableの破棄を担当するクラス </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="695">
+        <label>VRM.FastSpringBoneDisposer</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bone_disposer"/>
+        <childnode refid="696" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="696">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="697">
+        <label>VRM.FastSpringBoneDisposer</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bone_disposer"/>
+        <childnode refid="698" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="698">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/FastSpringBoneDisposer.cs" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bone_disposer_1a5a0b27191a3489175dd385ff8eef4dbe" prot="private" virt="non-virtual"><scope>VRM::FastSpringBoneDisposer</scope><name>_disposables</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bone_disposer_1a84e8f33f1ce5941870f5cca6a107e18b" prot="public" virt="non-virtual"><scope>VRM::FastSpringBoneDisposer</scope><name>Add</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bone_disposer_1abee60427c4a5ae7d7270cbbd9de5baa8" prot="private" virt="non-virtual"><scope>VRM::FastSpringBoneDisposer</scope><name>OnDestroy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

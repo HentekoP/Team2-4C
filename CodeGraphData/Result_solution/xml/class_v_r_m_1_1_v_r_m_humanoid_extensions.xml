@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_humanoid_extensions" kind="class" prot="public">
+    <compoundname>VRM::VRMHumanoidExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a1630200a65d54fccd44ba55b3b34126b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMHumanoidExtensions.SetNodeIndex</definition>
+        <argsstring>(this glTF_VRM_Humanoid self, HumanBodyBones _key, int node)</argsstring>
+        <name>SetNodeIndex</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kindref="compound">glTF_VRM_Humanoid</ref></type>
+          <declname>self</declname>
+        </param>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>_key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" bodystart="30" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a895182bfd2ac8078995f99d466790bf6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMHumanoidExtensions.Apply</definition>
+        <argsstring>(this glTF_VRM_Humanoid self, UniHumanoid.AvatarDescription desc, List&lt; Transform &gt; nodes)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kindref="compound">glTF_VRM_Humanoid</ref></type>
+          <declname>self</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">UniHumanoid.AvatarDescription</ref></type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>List&lt; Transform &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" bodystart="49" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a766a7351e10b18aa0b4f68c653371697" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">UniHumanoid.AvatarDescription</ref></type>
+        <definition>static UniHumanoid.AvatarDescription VRM.VRMHumanoidExtensions.ToDescription</definition>
+        <argsstring>(this glTF_VRM_Humanoid self, List&lt; Transform &gt; nodes)</argsstring>
+        <name>ToDescription</name>
+        <param>
+          <type>this <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kindref="compound">glTF_VRM_Humanoid</ref></type>
+          <declname>self</declname>
+        </param>
+        <param>
+          <type>List&lt; Transform &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" bodystart="83" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Extensions/VrmHumanoidExtensions.cs" bodystart="28" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a895182bfd2ac8078995f99d466790bf6" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidExtensions</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a1630200a65d54fccd44ba55b3b34126b" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidExtensions</scope><name>SetNodeIndex</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_humanoid_extensions_1a766a7351e10b18aa0b4f68c653371697" prot="public" virt="non-virtual"><scope>VRM::VRMHumanoidExtensions</scope><name>ToDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

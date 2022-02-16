@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_blend_shape_filter_8cs" kind="file">
+    <compoundname>BlendShapeFilter.cs</compoundname>
+    <innerclass refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" prot="public">UniGLTF::IBlendShapeExportFilter</innerclass>
+    <innerclass refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter" prot="public">UniGLTF::DefualtBlendShapeExportFilter</innerclass>
+    <innernamespace refid="namespace_uni_g_l_t_f">UniGLTF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniGLTF</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" kindref="compound">IBlendShapeExportFilter</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter_1a571e09e1da7cf9e9f45c8bfa249505ba" kindref="member">UseBlendShape</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blendShapeIndex,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>relativePath);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter" kindref="compound">DefualtBlendShapeExportFilter</ref><sp/>:<sp/><ref refid="interface_uni_g_l_t_f_1_1_i_blend_shape_export_filter" kindref="compound">IBlendShapeExportFilter</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1_defualt_blend_shape_export_filter_1a916e988d4e5a8b6fb93a72f4533dbaba" kindref="member">UseBlendShape</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blendShapeIndex,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>relativePath)<sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/BlendShapeFilter.cs"/>
+  </compounddef>
+</doxygen>

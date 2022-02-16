@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization" kind="class" prot="public">
+    <compoundname>UniGLTF::StringKeyDictionarySerialization</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_collection_serialization_base" prot="public" virt="non-virtual">UniGLTF.CollectionSerializationBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1aadd8e35984f1d8c7003b47e6dfd2433d" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_value_serialization" kindref="compound">IValueSerialization</ref></type>
+        <definition>IValueSerialization UniGLTF.StringKeyDictionarySerialization.m_inner</definition>
+        <argsstring></argsstring>
+        <name>m_inner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a9b762f22499f1db7dabbeebb8c091b2f" compoundref="_string_key_dictionary_serialization_8cs" startline="16" endline="41">UniGLTF.StringKeyDictionarySerialization.GenerateDeserializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a26823de76831d1e262e9cfb32ca4968c" compoundref="_string_key_dictionary_serialization_8cs" startline="52" endline="72">UniGLTF.StringKeyDictionarySerialization.GenerateSerializer</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a1c645aaa66dffe7e02ca103ab8ba6856" compoundref="_string_key_dictionary_serialization_8cs" startline="10" endline="14">UniGLTF.StringKeyDictionarySerialization.StringKeyDictionarySerialization</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a1c645aaa66dffe7e02ca103ab8ba6856" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.StringKeyDictionarySerialization.StringKeyDictionarySerialization</definition>
+        <argsstring>(Type t, IValueSerialization inner)</argsstring>
+        <name>StringKeyDictionarySerialization</name>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_value_serialization" kindref="compound">IValueSerialization</ref></type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="10" bodyend="14"/>
+        <references refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1aadd8e35984f1d8c7003b47e6dfd2433d" compoundref="_string_key_dictionary_serialization_8cs" startline="8">UniGLTF.StringKeyDictionarySerialization.m_inner</references>
+        <references refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ad55efc648bcf42bb9da5f3758f4ccc59" compoundref="_collection_serialization_base_8cs" startline="9">UniGLTF.CollectionSerializationBase.ValueType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a9b762f22499f1db7dabbeebb8c091b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.StringKeyDictionarySerialization.GenerateDeserializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateDeserializer</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ac4325ad349d72780b39a773e02b99b67">GenerateDeserializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="16" bodyend="41"/>
+        <references refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1aa07cf122f1448e1a02da8a44b63269dc" compoundref="_i_value_serialization_8cs" startline="11">UniGLTF.IValueSerialization.IsInline</references>
+        <references refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1aadd8e35984f1d8c7003b47e6dfd2433d" compoundref="_string_key_dictionary_serialization_8cs" startline="8">UniGLTF.StringKeyDictionarySerialization.m_inner</references>
+        <references refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ad55efc648bcf42bb9da5f3758f4ccc59" compoundref="_collection_serialization_base_8cs" startline="9">UniGLTF.CollectionSerializationBase.ValueType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1afa0b52397600db41b5f6fe2da5d87862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.StringKeyDictionarySerialization.CreateSerializationCondition</definition>
+        <argsstring>(string argName, JsonSchemaAttribute t)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1a5631d85fc2b50eda3898030389c5a080">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_attribute" kindref="compound">JsonSchemaAttribute</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a26823de76831d1e262e9cfb32ca4968c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.StringKeyDictionarySerialization.GenerateSerializer</definition>
+        <argsstring>(StreamWriter writer, string callName)</argsstring>
+        <name>GenerateSerializer</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1abbaeaed237579472ffa8420b0a73b260">GenerateSerializer</reimplements>
+        <param>
+          <type>StreamWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="52" bodyend="72"/>
+        <references refid="interface_uni_g_l_t_f_1_1_i_value_serialization_1aa07cf122f1448e1a02da8a44b63269dc" compoundref="_i_value_serialization_8cs" startline="11">UniGLTF.IValueSerialization.IsInline</references>
+        <references refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1aadd8e35984f1d8c7003b47e6dfd2433d" compoundref="_string_key_dictionary_serialization_8cs" startline="8">UniGLTF.StringKeyDictionarySerialization.m_inner</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2287">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="2286">
+        <label>CollectionSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_collection_serialization_base"/>
+        <childnode refid="2287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2285">
+        <label>UniGLTF.StringKeyDictionarySerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization"/>
+        <childnode refid="2286" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2290">
+        <label>IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+      <node id="2289">
+        <label>CollectionSerializationBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_collection_serialization_base"/>
+        <childnode refid="2290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2288">
+        <label>UniGLTF.StringKeyDictionarySerialization</label>
+        <link refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization"/>
+        <childnode refid="2289" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2291" relation="usage">
+          <edgelabel>m_inner</edgelabel>
+        </childnode>
+      </node>
+      <node id="2291">
+        <label>UniGLTF.IValueSerialization</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_value_serialization"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/StringKeyDictionarySerialization.cs" bodystart="6" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1afa0b52397600db41b5f6fe2da5d87862" prot="public" virt="virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a9b762f22499f1db7dabbeebb8c091b2f" prot="public" virt="virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1aefdbd6d7738b73bd091b744a5859af4c" prot="public" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a26823de76831d1e262e9cfb32ca4968c" prot="public" virt="virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1a642eed112e6f52b189f13030f5b09a65" prot="public" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ab4d64acd1d872252462a19db5301b025" prot="public" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1aadd8e35984f1d8c7003b47e6dfd2433d" prot="private" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>m_inner</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_string_key_dictionary_serialization_1a1c645aaa66dffe7e02ca103ab8ba6856" prot="public" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>StringKeyDictionarySerialization</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_collection_serialization_base_1ad55efc648bcf42bb9da5f3758f4ccc59" prot="public" virt="non-virtual"><scope>UniGLTF::StringKeyDictionarySerialization</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

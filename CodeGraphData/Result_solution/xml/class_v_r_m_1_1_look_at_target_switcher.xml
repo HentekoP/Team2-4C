@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_look_at_target_switcher" kind="class" prot="public">
+    <compoundname>VRM::LookAtTargetSwitcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_at_target_switcher_1a3290a42318333e5dd7047de3525859ec" prot="private" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; VRM.LookAtTargetSwitcher.m_targets</definition>
+        <argsstring></argsstring>
+        <name>m_targets</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" compoundref="_look_at_target_switcher_8cs" startline="32" endline="47">VRM.LookAtTargetSwitcher.ChooseTarget</referencedby>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a3965346896b3186eabb6e676d7806729" compoundref="_look_at_target_switcher_8cs" startline="51" endline="76">VRM.LookAtTargetSwitcher.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_at_target_switcher_1addb673fd1b852adc70ef46b155c38801" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.LookAtTargetSwitcher.m_thresholdDegrees</definition>
+        <argsstring></argsstring>
+        <name>m_thresholdDegrees</name>
+        <initializer>= 60.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" compoundref="_look_at_target_switcher_8cs" startline="32" endline="47">VRM.LookAtTargetSwitcher.ChooseTarget</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_at_target_switcher_1adaca6f74a329aaf5a255817aac42ea0b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_look_at_head" kindref="compound">VRMLookAtHead</ref></type>
+        <definition>VRMLookAtHead VRM.LookAtTargetSwitcher.m_lookAtHead</definition>
+        <argsstring></argsstring>
+        <name>m_lookAtHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a28dbb4ff002b2048bf24806b014c2571" compoundref="_look_at_target_switcher_8cs" startline="21" endline="25">VRM.LookAtTargetSwitcher.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_at_target_switcher_1a1befb091aba1ffe6c346279b645f48e0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blinker" kindref="compound">Blinker</ref></type>
+        <definition>Blinker VRM.LookAtTargetSwitcher.m_blinker</definition>
+        <argsstring></argsstring>
+        <name>m_blinker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a28dbb4ff002b2048bf24806b014c2571" compoundref="_look_at_target_switcher_8cs" startline="21" endline="25">VRM.LookAtTargetSwitcher.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_look_at_target_switcher_1ac2dee18031de06d3ee294e5c4f398623" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.LookAtTargetSwitcher.m_lastTarget</definition>
+        <argsstring></argsstring>
+        <name>m_lastTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a3965346896b3186eabb6e676d7806729" compoundref="_look_at_target_switcher_8cs" startline="51" endline="76">VRM.LookAtTargetSwitcher.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_look_at_target_switcher_1a28dbb4ff002b2048bf24806b014c2571" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.LookAtTargetSwitcher.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1a1befb091aba1ffe6c346279b645f48e0" compoundref="_look_at_target_switcher_8cs" startline="19">VRM.LookAtTargetSwitcher.m_blinker</references>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1adaca6f74a329aaf5a255817aac42ea0b" compoundref="_look_at_target_switcher_8cs" startline="16">VRM.LookAtTargetSwitcher.m_lookAtHead</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_look_at_target_switcher_1ac932f2c7e829ffa2d4717a508877bba5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VRM.LookAtTargetSwitcher.CalcScore</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>CalcScore</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="27" bodyend="30"/>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" compoundref="_look_at_target_switcher_8cs" startline="32" endline="47">VRM.LookAtTargetSwitcher.ChooseTarget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform</type>
+        <definition>Transform VRM.LookAtTargetSwitcher.ChooseTarget</definition>
+        <argsstring>()</argsstring>
+        <name>ChooseTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="32" bodyend="47"/>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1ac932f2c7e829ffa2d4717a508877bba5" compoundref="_look_at_target_switcher_8cs" startline="27" endline="30">VRM.LookAtTargetSwitcher.CalcScore</references>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1a3290a42318333e5dd7047de3525859ec" compoundref="_look_at_target_switcher_8cs" startline="10">VRM.LookAtTargetSwitcher.m_targets</references>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1addb673fd1b852adc70ef46b155c38801" compoundref="_look_at_target_switcher_8cs" startline="13">VRM.LookAtTargetSwitcher.m_thresholdDegrees</references>
+        <referencedby refid="class_v_r_m_1_1_look_at_target_switcher_1a3965346896b3186eabb6e676d7806729" compoundref="_look_at_target_switcher_8cs" startline="51" endline="76">VRM.LookAtTargetSwitcher.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_look_at_target_switcher_1a3965346896b3186eabb6e676d7806729" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.LookAtTargetSwitcher.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="51" bodyend="76"/>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" compoundref="_look_at_target_switcher_8cs" startline="32" endline="47">VRM.LookAtTargetSwitcher.ChooseTarget</references>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1ac2dee18031de06d3ee294e5c4f398623" compoundref="_look_at_target_switcher_8cs" startline="49">VRM.LookAtTargetSwitcher.m_lastTarget</references>
+        <references refid="class_v_r_m_1_1_look_at_target_switcher_1a3290a42318333e5dd7047de3525859ec" compoundref="_look_at_target_switcher_8cs" startline="10">VRM.LookAtTargetSwitcher.m_targets</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1592">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1591">
+        <label>VRM.LookAtTargetSwitcher</label>
+        <link refid="class_v_r_m_1_1_look_at_target_switcher"/>
+        <childnode refid="1592" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1604">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="1595">
+        <label>VRM.Blinker</label>
+        <link refid="class_v_r_m_1_1_blinker"/>
+        <childnode refid="1594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1596" relation="usage">
+          <edgelabel>m_blendShapes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1603">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="1604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="1603" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1597">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="1607">
+        <label>VRM.VRMLookAtHead</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head"/>
+        <childnode refid="1594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1597" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1599">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="1600" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="1599" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="1602" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="1594">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1593">
+        <label>VRM.LookAtTargetSwitcher</label>
+        <link refid="class_v_r_m_1_1_look_at_target_switcher"/>
+        <childnode refid="1594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1595" relation="usage">
+          <edgelabel>m_blinker</edgelabel>
+        </childnode>
+        <childnode refid="1607" relation="usage">
+          <edgelabel>m_lookAtHead</edgelabel>
+        </childnode>
+      </node>
+      <node id="1596">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="1594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1597" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1598" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="1605" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="1600">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="1601" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="1606" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/LookAtTargetSwitcher.cs" bodystart="7" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1ac932f2c7e829ffa2d4717a508877bba5" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>CalcScore</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1a55b87b369e447f79eeafa006101d6e06" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>ChooseTarget</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1a1befb091aba1ffe6c346279b645f48e0" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>m_blinker</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1ac2dee18031de06d3ee294e5c4f398623" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>m_lastTarget</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1adaca6f74a329aaf5a255817aac42ea0b" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>m_lookAtHead</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1a3290a42318333e5dd7047de3525859ec" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>m_targets</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1addb673fd1b852adc70ef46b155c38801" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>m_thresholdDegrees</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1a28dbb4ff002b2048bf24806b014c2571" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>Reset</name></member>
+      <member refid="class_v_r_m_1_1_look_at_target_switcher_1a3965346896b3186eabb6e676d7806729" prot="private" virt="non-virtual"><scope>VRM::LookAtTargetSwitcher</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

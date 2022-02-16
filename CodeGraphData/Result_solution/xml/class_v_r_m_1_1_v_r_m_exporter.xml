@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_exporter" kind="class" prot="public">
+    <compoundname>VRM::VRMExporter</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1gltf_exporter" prot="public" virt="non-virtual">UniGLTF.gltfExporter</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_1afecc9cf281e38b0acd46bf7fb1bf0dd2" prot="public" static="no" mutable="no">
+        <type>const <ref refid="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505df" kindref="member">Axes</ref></type>
+        <definition>const Axes VRM.VRMExporter.Vrm0xSpecificationInverseAxis</definition>
+        <argsstring></argsstring>
+        <name>Vrm0xSpecificationInverseAxis</name>
+        <initializer>= Axes.Z</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a41d6f9fb13062df3f2a18d17f92c8c7e" compoundref="_v_r_m_exporter_8cs" startline="28" endline="36">VRM.VRMExporter.VRMExporter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_exporter_1af7f19fe4d19d1d285b74825f846c4498" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">VRM.glTF_VRM_extensions</ref></type>
+        <definition>readonly VRM.glTF_VRM_extensions VRM.VRMExporter.VRM</definition>
+        <argsstring></argsstring>
+        <name>VRM</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" compoundref="_v_r_m_exporter_8cs" startline="43" endline="217">VRM.VRMExporter.ExportExtensions</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_1a9b8272a5f5a440faea768c363772064f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+        <definition>static ExportingGltfData VRM.VRMExporter.Export</definition>
+        <argsstring>(GltfExportSettings configuration, GameObject go, ITextureSerializer textureSerializer)</argsstring>
+        <name>Export</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>configuration</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="15" bodyend="24"/>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_1a41d6f9fb13062df3f2a18d17f92c8c7e" compoundref="_v_r_m_exporter_8cs" startline="28" endline="36">VRM.VRMExporter.VRMExporter</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_1a41d6f9fb13062df3f2a18d17f92c8c7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMExporter.VRMExporter</definition>
+        <argsstring>(ExportingGltfData data, GltfExportSettings exportSettings)</argsstring>
+        <name>VRMExporter</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>exportSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="28" bodyend="36"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1ad5643422b62e51bf5b083c19a99db9aa" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="14">VRM.glTF_VRM_extensions.ExtensionName</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a7be97fc090608d0d61449d1fb96e23b3" compoundref="_gltf_export_settings_8cs" startline="10">UniGLTF.GltfExportSettings.InverseAxis</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_1afecc9cf281e38b0acd46bf7fb1bf0dd2" compoundref="_v_r_m_exporter_8cs" startline="13">VRM.VRMExporter.Vrm0xSpecificationInverseAxis</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9b8272a5f5a440faea768c363772064f" compoundref="_v_r_m_exporter_8cs" startline="15" endline="24">VRM.VRMExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMExporter.ExportExtensions</definition>
+        <argsstring>(ITextureSerializer textureSerializer)</argsstring>
+        <name>ExportExtensions</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1gltf_exporter_1acee5bf36dafd30a174ceac6fdb2cd9fe">ExportExtensions</reimplements>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="43" bodyend="217"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_1aa2745ad4ee87c00b64b2120dc92e41de" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="74">VRM.glTF_VRM_SecondaryAnimation.boneGroups</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad49e4f87a0bb069eda7f5f5ea7a89fac" compoundref="gltf_exporter_8cs" startline="44">UniGLTF.gltfExporter.Materials</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1af1872393355e674e639cc5bfc0179ade" compoundref="gltf_exporter_8cs" startline="38">UniGLTF.gltfExporter.Nodes</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a3899d5aa40b7e7516a312275d6659571" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="28">VRM.glTF_VRM_extensions.secondaryAnimation</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a6b475f5c3a379ec790c154a2e5e844b1" compoundref="gltf_exporter_8cs" startline="66">UniGLTF.gltfExporter.TextureExporter</references>
+        <references refid="class_v_r_m_1_1_v_r_m_exporter_1af7f19fe4d19d1d285b74825f846c4498" compoundref="_v_r_m_exporter_8cs" startline="26">VRM.VRMExporter.VRM</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_exporter_1adbd855936f2de521ff26885f252dc563" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="interface_uni_g_l_t_f_1_1_i_material_exporter" kindref="compound">IMaterialExporter</ref></type>
+        <definition>override IMaterialExporter VRM.VRMExporter.CreateMaterialExporter</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMaterialExporter</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1gltf_exporter_1a221a1f0c5b2e8ddac4ca50378b166932">CreateMaterialExporter</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2681">
+        <label>gltfExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1gltf_exporter"/>
+        <childnode refid="2682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2680">
+        <label>VRM.VRMExporter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter"/>
+        <childnode refid="2681" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2682">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2688">
+        <label>UniGLTF.glTF</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f"/>
+        <childnode refid="2689" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2690" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="2691" relation="usage">
+          <edgelabel>asset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2690">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="2684">
+        <label>gltfExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1gltf_exporter"/>
+        <childnode refid="2685" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2686" relation="usage">
+          <edgelabel>m_settings</edgelabel>
+        </childnode>
+        <childnode refid="2687" relation="usage">
+          <edgelabel>TextureExporter</edgelabel>
+        </childnode>
+        <childnode refid="2688" relation="usage">
+          <edgelabel>_gltf</edgelabel>
+        </childnode>
+        <childnode refid="2692" relation="usage">
+          <edgelabel>_data</edgelabel>
+        </childnode>
+        <childnode refid="2694" relation="usage">
+          <edgelabel>_textureExporter</edgelabel>
+        </childnode>
+      </node>
+      <node id="2687">
+        <label>VRMShaders.ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+      <node id="2683">
+        <label>VRM.VRMExporter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter"/>
+        <childnode refid="2684" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2697" relation="usage">
+          <edgelabel>VRM</edgelabel>
+        </childnode>
+      </node>
+      <node id="2689">
+        <label>IEquatable&lt; glTF &gt;</label>
+      </node>
+      <node id="2691">
+        <label>UniGLTF.glTFAssets</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_assets"/>
+        <childnode refid="2690" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="2696">
+        <label>VRMShaders.ITextureSerializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_serializer"/>
+      </node>
+      <node id="2694">
+        <label>VRMShaders.TextureExporter</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_exporter"/>
+        <childnode refid="2685" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2695" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2696" relation="usage">
+          <edgelabel>_textureSerializer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2697">
+        <label>VRM</label>
+      </node>
+      <node id="2685">
+        <label>IDisposable</label>
+      </node>
+      <node id="2692">
+        <label>UniGLTF.ExportingGltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporting_gltf_data"/>
+        <childnode refid="2693" relation="usage">
+          <edgelabel>_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2693">
+        <label>UniGLTF.IBytesBuffer</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer"/>
+      </node>
+      <node id="2695">
+        <label>ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+      <node id="2686">
+        <label>UniGLTF.GltfExportSettings</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMExporter.cs" bodystart="11" bodyend="218"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a363e90d3558c7f49e06496054263357a" prot="protected" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>_data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a4e715055393b56c6a79472abe0001914" prot="protected" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>_gltf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Copy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1adbd855936f2de521ff26885f252dc563" prot="protected" virt="virtual"><scope>VRM::VRMExporter</scope><name>CreateMaterialExporter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ae4200a52f12491488ff8bda739506d9a" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1a9b8272a5f5a440faea768c363772064f" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Export</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" prot="public" virt="virtual" ambiguityscope="UniGLTF::gltfExporter."><scope>VRM::VRMExporter</scope><name>Export</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" prot="public" virt="virtual"><scope>VRM::VRMExporter</scope><name>ExportExtensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af64fee939a742c7cb94929e2ea321365" prot="protected" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>ExtensionUsed</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ac64c4237bfa5b79ae551bc941dc623a6" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>FixName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>gltfExporter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad49e4f87a0bb069eda7f5f5ea7a89fac" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a64bb6e7c492d75fae88124de14dd83ca" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>MeshBlendShapeIndexMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af156d33ce44923d09ce98d7c9713d7aa" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af1872393355e674e639cc5bfc0179ade" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" prot="public" virt="virtual"><scope>VRM::VRMExporter</scope><name>Prepare</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a6b475f5c3a379ec790c154a2e5e844b1" prot="protected" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>TextureExporter</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1af7f19fe4d19d1d285b74825f846c4498" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>VRM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1afecc9cf281e38b0acd46bf7fb1bf0dd2" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>Vrm0xSpecificationInverseAxis</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_exporter_1a41d6f9fb13062df3f2a18d17f92c8c7e" prot="public" virt="non-virtual"><scope>VRM::VRMExporter</scope><name>VRMExporter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base" prot="public" virt="non-virtual">UniGLTF.JsonSchema.Schemas.PrimitiveJsonSchemaBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1ac49d25d74933a448a894cda4de95bb84" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.BoolJsonSchema.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1af35a09164875e7f2edd52c6f369772dd" kindref="member">IsArrayItem</ref> ? &quot;bool&quot; : &quot;bool?&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1a8583410742847e776d9a0bfa4a82e95e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JsonSchema.Schemas.BoolJsonSchema.BoolJsonSchema</definition>
+        <argsstring>(in JsonSchemaSource src)</argsstring>
+        <name>BoolJsonSchema</name>
+        <param>
+          <type>in <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1a631893bba5304a3a8d06b00cd0ae4ef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.BoolJsonSchema.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a9275feca30f8873f03f7ebeafb5a67c9">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Deserializer の呼び出し </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="377">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="375">
+        <label>UniGLTF.JsonSchema.Schemas.BoolJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema"/>
+        <childnode refid="376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>PrimitiveJsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="380">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="378">
+        <label>UniGLTF.JsonSchema.Schemas.BoolJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema"/>
+        <childnode refid="379" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="379">
+        <label>PrimitiveJsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/PrimitiveJsonSchema.cs" bodystart="37" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1a8583410742847e776d9a0bfa4a82e95e" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>BoolJsonSchema</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae371895d6f5da5f37df231a5fd45e989" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>ClassName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base_1a70d2074dd8cfd9bb614cd209715ae987" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae6a36aea0812c5ce25d935c15275ca8a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>Description</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ab947427d34881500663b2a6ab81b6932" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1a631893bba5304a3a8d06b00cd0ae4ef0" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a99f520c5c3bba44b81c277b40ac934f9" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base_1ad340a407dbf4777c4c89639c7b52c198" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a87c381b488507578c2c14cbbda2e3e84" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>HardCode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1af35a09164875e7f2edd52c6f369772dd" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>IsArrayItem</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base_1acc408de4fd7d881bc927b7a9cfa05b7a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a151f409bc8cd2bd8d6c0f653e75a8b26" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>JsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a89f5788f2c67f073663c50cb3dd9151b" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>JsonSchemaBase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a391c76e92546facc55f91e8f5ff4be8e" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>JsonSchemaType</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_primitive_json_schema_base_1a07f6a9fefe23644a0a2fde4622fed0b1" prot="protected" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>PrimitiveJsonSchemaBase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>Title</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a43366ed2910c2f0bb06575d2f642f306" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_bool_json_schema_1ac49d25d74933a448a894cda4de95bb84" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::BoolJsonSchema</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

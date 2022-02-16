@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_v_r_m_shaders" kind="namespace">
+    <compoundname>VRMShaders</compoundname>
+    <innerclass refid="class_v_r_m_shaders_1_1_animation_clip_factory" prot="public">VRMShaders::AnimationClipFactory</innerclass>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_await_caller" prot="public">VRMShaders::IAwaitCaller</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_immediate_caller" prot="public">VRMShaders::ImmediateCaller</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler" prot="package">VRMShaders::NextFrameTaskScheduler</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_runtime_only_await_caller" prot="public">VRMShaders::RuntimeOnlyAwaitCaller</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_tiny_managed_task_scheduler" prot="package">VRMShaders::TinyManagedTaskScheduler</innerclass>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" prot="public">VRMShaders::IResponsibilityForDestroyObjects</innerclass>
+    <innerclass refid="struct_v_r_m_shaders_1_1_sub_asset_key" prot="public">VRMShaders::SubAssetKey</innerclass>
+    <innerclass refid="struct_v_r_m_shaders_1_1_material_descriptor" prot="public">VRMShaders::MaterialDescriptor</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_material_factory" prot="public">VRMShaders::MaterialFactory</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_normal_converter" prot="public">VRMShaders::NormalConverter</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_occlusion_metallic_roughness_converter" prot="public">VRMShaders::OcclusionMetallicRoughnessConverter</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_converter" prot="public">VRMShaders::TextureConverter</innerclass>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_texture_exporter" prot="public">VRMShaders::ITextureExporter</innerclass>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_texture_serializer" prot="public">VRMShaders::ITextureSerializer</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_runtime_texture_serializer" prot="public">VRMShaders::RuntimeTextureSerializer</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_exporter" prot="public">VRMShaders::TextureExporter</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_export_param" prot="package">VRMShaders::TextureExportParam</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_deserializing_texture_info" prot="public">VRMShaders::DeserializingTextureInfo</innerclass>
+    <innerclass refid="interface_v_r_m_shaders_1_1_i_texture_deserializer" prot="public">VRMShaders::ITextureDeserializer</innerclass>
+    <innerclass refid="struct_v_r_m_shaders_1_1_sampler_param" prot="public">VRMShaders::SamplerParam</innerclass>
+    <innerclass refid="struct_v_r_m_shaders_1_1_texture_descriptor" prot="public">VRMShaders::TextureDescriptor</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_descriptor_set" prot="public">VRMShaders::TextureDescriptorSet</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_factory" prot="public">VRMShaders::TextureFactory</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_import_name" prot="public">VRMShaders::TextureImportName</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_unity_texture_deserializer" prot="public">VRMShaders::UnityTextureDeserializer</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_extensions" prot="package">VRMShaders::TextureExtensions</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_key_value_pari_extensions" prot="public">VRMShaders::KeyValuePariExtensions</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_symbols" prot="public">VRMShaders::Symbols</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_unity_object_destoyer" prot="public">VRMShaders::UnityObjectDestoyer</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_copy_texture_tests" prot="public">VRMShaders::CopyTextureTests</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_metallic_roughness_converter_tests" prot="public">VRMShaders::MetallicRoughnessConverterTests</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_bytes_tests" prot="public">VRMShaders::TextureBytesTests</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_editor_texture_utility" prot="package">VRMShaders::EditorTextureUtility</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_editor_texture_serializer" prot="public">VRMShaders::EditorTextureSerializer</innerclass>
+    <innerclass refid="class_v_r_m_shaders_1_1_texture_importer_configurator" prot="public">VRMShaders::TextureImporterConfigurator</innerclass>
+    <innernamespace refid="namespace_v_r_m_shaders_1_1_v_r_m10">VRMShaders::VRM10</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" prot="public" static="no">
+        <name>ColorSpace</name>
+        <enumvalue id="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2fa9ed33d9be17d174aeb4393a989586ed9" prot="public">
+          <name>sRGB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2fa32a843da6ea40ab3b17a3421ccdf671b" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/ColorSpace.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/ColorSpace.cs" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39" prot="package" static="no">
+        <name>TextureExportTypes</name>
+        <enumvalue id="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39a6858e3b6de38cea509e739e9536e4e5c" prot="public">
+          <name>Srgb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39a32a843da6ea40ab3b17a3421ccdf671b" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39af9d446ec8a9db89c08f858b3e216e156" prot="public">
+          <name>OcclusionMetallicRoughness</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1c3cfeecb8c31881ef0949c6da5faf39a960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
+          <name>Normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportTypes.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportTypes.cs" bodystart="3" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09" prot="public" static="no">
+        <name>TextureImportTypes</name>
+        <enumvalue id="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09a9ed33d9be17d174aeb4393a989586ed9" prot="public">
+          <name>sRGB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09a6b9d0d690dd35849b77d2c234ce90d90" prot="public">
+          <name>NormalMap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09a923bd38ff406a42d2ee6f2e467ded858" prot="public">
+          <name>StandardMap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09a32a843da6ea40ab3b17a3421ccdf671b" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportTypes.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportTypes.cs" bodystart="6" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void VRMShaders.TakeResponsibilityForDestroyObjectFunc</definition>
+        <argsstring>(SubAssetKey key, UnityEngine.Object obj)</argsstring>
+        <name>TakeResponsibilityForDestroyObjectFunc</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs" line="5" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_v_r_m_shaders_1ade73f71ac08877d7152845866580bfd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Task&lt; Texture &gt;</type>
+        <definition>delegate Task&lt;Texture&gt; VRMShaders.GetTextureAsyncFunc</definition>
+        <argsstring>(TextureDescriptor texDesc, IAwaitCaller awaitCaller)</argsstring>
+        <name>GetTextureAsyncFunc</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref></type>
+          <declname>texDesc</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_v_r_m_shaders_1aea626de2946cc67f288bd9bed92e7bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Task&lt;(byte[] binary, string mimeType)?&gt;</type>
+        <definition>delegate Task&lt;(byte[] binary, string mimeType)?&gt; VRMShaders.GetTextureBytesAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextureBytesAsync</name>
+        <briefdescription>
+<para>get bytes for </para>        </briefdescription>
+        <detaileddescription>
+<para>runtime: Texture2D.LoadImage extact: File.WriteAllBytes </para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptor.cs" line="16" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_importer_1a8423593cffbf524d2f6658d2c1abb557" compoundref="_gltf_texture_importer_8cs" startline="93" endline="131">UniGLTF.GltfTextureImporter.CreateStandard</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

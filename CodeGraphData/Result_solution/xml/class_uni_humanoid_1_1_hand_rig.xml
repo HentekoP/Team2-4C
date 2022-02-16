@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_hand_rig" kind="class" prot="public">
+    <compoundname>UniHumanoid::HandRig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a8f2742eac78d57f95009d7486ede7196" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_hand_rig_1a1dd3328e3f2364d40ffeea964702a2b9" kindref="member">Animator</ref></type>
+        <definition>Animator UniHumanoid.HandRig.m_animator</definition>
+        <argsstring></argsstring>
+        <name>m_animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" compoundref="_hand_rig_8cs" startline="56" endline="65">UniHumanoid.HandRig.Awake</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1ac67a7209d7b1c7ede773dc2e8b8f50eb" compoundref="_hand_rig_8cs" startline="30" endline="33">UniHumanoid.HandRig.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a753d101bccec2d18fc3491f20fa439ed" prot="private" static="no" mutable="no">
+        <type>HumanPoseHandler</type>
+        <definition>HumanPoseHandler UniHumanoid.HandRig.m_handler</definition>
+        <argsstring></argsstring>
+        <name>m_handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" compoundref="_hand_rig_8cs" startline="56" endline="65">UniHumanoid.HandRig.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a3bd0b01c2339ede1eb4303babc39970e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_hand_pose_modifier" kindref="compound">HandPoseModifier</ref></type>
+        <definition>HandPoseModifier UniHumanoid.HandRig.m_updater</definition>
+        <argsstring></argsstring>
+        <name>m_updater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" compoundref="_hand_rig_8cs" startline="56" endline="65">UniHumanoid.HandRig.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a49d9b491f8dd1981fe984402d6c91c41" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPoseModifier.HandPose</ref></type>
+        <definition>HandPoseModifier.HandPose UniHumanoid.HandRig.m_leftHand</definition>
+        <argsstring></argsstring>
+        <name>m_leftHand</name>
+        <initializer>= new <ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPoseModifier.HandPose</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a721768fdb0305d83bd7770aa75bb384a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPoseModifier.HandPose</ref></type>
+        <definition>HandPoseModifier.HandPose UniHumanoid.HandRig.m_rightHand</definition>
+        <argsstring></argsstring>
+        <name>m_rightHand</name>
+        <initializer>= new <ref refid="class_uni_humanoid_1_1_hand_pose_modifier_1_1_hand_pose" kindref="compound">HandPoseModifier.HandPose</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a1e8ebc9fbdd26c856c8d6dd9d390b802" prot="private" static="no" mutable="no">
+        <type>HumanPose</type>
+        <definition>HumanPose UniHumanoid.HandRig.m_pose</definition>
+        <argsstring></argsstring>
+        <name>m_pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_hand_rig_1a1dd3328e3f2364d40ffeea964702a2b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Animator</type>
+        <definition>Animator UniHumanoid.HandRig.Animator</definition>
+        <argsstring></argsstring>
+        <name>Animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a0b263a6fd9270e985673c7c4a83576f4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniHumanoid.HandRig.LeftStretch</definition>
+        <argsstring></argsstring>
+        <name>LeftStretch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1a4b20b9508ccbdad3e5fe01b37e46690c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniHumanoid.HandRig.LeftSpread</definition>
+        <argsstring></argsstring>
+        <name>LeftSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1af761d9f00eaa98bb4cc5cb013562d4d3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniHumanoid.HandRig.RightStretch</definition>
+        <argsstring></argsstring>
+        <name>RightStretch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_hand_rig_1aee736b63f314447e63c13a64e3553841" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniHumanoid.HandRig.RightSpread</definition>
+        <argsstring></argsstring>
+        <name>RightSpread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" compoundref="_hand_rig_8cs" startline="71" endline="101">UniHumanoid.HandRig.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_rig_1ac67a7209d7b1c7ede773dc2e8b8f50eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HandRig.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a8f2742eac78d57f95009d7486ede7196" compoundref="_hand_rig_8cs" startline="10">UniHumanoid.HandRig.m_animator</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HandRig.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="56" bodyend="65"/>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a055e1acb98f6ad16eb15d866b6dd774b" compoundref="_hand_rig_8cs" startline="36" endline="52">UniHumanoid.HandRig.GetHandler</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a8f2742eac78d57f95009d7486ede7196" compoundref="_hand_rig_8cs" startline="10">UniHumanoid.HandRig.m_animator</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a753d101bccec2d18fc3491f20fa439ed" compoundref="_hand_rig_8cs" startline="35">UniHumanoid.HandRig.m_handler</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a3bd0b01c2339ede1eb4303babc39970e" compoundref="_hand_rig_8cs" startline="54">UniHumanoid.HandRig.m_updater</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HandRig.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="71" bodyend="101"/>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a4b20b9508ccbdad3e5fe01b37e46690c" compoundref="_hand_rig_8cs" startline="21">UniHumanoid.HandRig.LeftSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a0b263a6fd9270e985673c7c4a83576f4" compoundref="_hand_rig_8cs" startline="18">UniHumanoid.HandRig.LeftStretch</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a49d9b491f8dd1981fe984402d6c91c41" compoundref="_hand_rig_8cs" startline="67">UniHumanoid.HandRig.m_leftHand</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a1e8ebc9fbdd26c856c8d6dd9d390b802" compoundref="_hand_rig_8cs" startline="69">UniHumanoid.HandRig.m_pose</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1a721768fdb0305d83bd7770aa75bb384a" compoundref="_hand_rig_8cs" startline="68">UniHumanoid.HandRig.m_rightHand</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1aee736b63f314447e63c13a64e3553841" compoundref="_hand_rig_8cs" startline="28">UniHumanoid.HandRig.RightSpread</references>
+        <references refid="class_uni_humanoid_1_1_hand_rig_1af761d9f00eaa98bb4cc5cb013562d4d3" compoundref="_hand_rig_8cs" startline="25">UniHumanoid.HandRig.RightStretch</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_hand_rig_1a055e1acb98f6ad16eb15d866b6dd774b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HumanPoseHandler</type>
+        <definition>static HumanPoseHandler UniHumanoid.HandRig.GetHandler</definition>
+        <argsstring>(Animator animator)</argsstring>
+        <name>GetHandler</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_hand_rig_1a1dd3328e3f2364d40ffeea964702a2b9" kindref="member">Animator</ref></type>
+          <declname>animator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="36" bodyend="52"/>
+        <referencedby refid="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" compoundref="_hand_rig_8cs" startline="56" endline="65">UniHumanoid.HandRig.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1184">
+        <label>UniHumanoid.HandRig</label>
+        <link refid="class_uni_humanoid_1_1_hand_rig"/>
+        <childnode refid="1185" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1188">
+        <label>UniHumanoid.HandPoseModifier</label>
+        <link refid="class_uni_humanoid_1_1_hand_pose_modifier"/>
+        <childnode refid="1189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>IPoseModifier</label>
+        <link refid="interface_uni_humanoid_1_1_i_pose_modifier"/>
+      </node>
+      <node id="1186">
+        <label>UniHumanoid.HandRig</label>
+        <link refid="class_uni_humanoid_1_1_hand_rig"/>
+        <childnode refid="1187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1188" relation="usage">
+          <edgelabel>m_rightHand</edgelabel>
+          <edgelabel>m_leftHand</edgelabel>
+          <edgelabel>m_updater</edgelabel>
+        </childnode>
+      </node>
+      <node id="1187">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/PoseModifier/HandRig.cs" bodystart="7" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a1dd3328e3f2364d40ffeea964702a2b9" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>Animator</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a1d56e5ec589487fdc9c727436137099f" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>Awake</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a055e1acb98f6ad16eb15d866b6dd774b" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>GetHandler</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a4b20b9508ccbdad3e5fe01b37e46690c" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>LeftSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a0b263a6fd9270e985673c7c4a83576f4" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>LeftStretch</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a8f2742eac78d57f95009d7486ede7196" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_animator</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a753d101bccec2d18fc3491f20fa439ed" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_handler</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a49d9b491f8dd1981fe984402d6c91c41" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_leftHand</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a1e8ebc9fbdd26c856c8d6dd9d390b802" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_pose</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a721768fdb0305d83bd7770aa75bb384a" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_rightHand</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a3bd0b01c2339ede1eb4303babc39970e" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>m_updater</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1ac67a7209d7b1c7ede773dc2e8b8f50eb" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>Reset</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1aee736b63f314447e63c13a64e3553841" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>RightSpread</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1af761d9f00eaa98bb4cc5cb013562d4d3" prot="public" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>RightStretch</name></member>
+      <member refid="class_uni_humanoid_1_1_hand_rig_1a615a203be0bed1f4b17cab15e16df4d0" prot="private" virt="non-virtual"><scope>UniHumanoid::HandRig</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

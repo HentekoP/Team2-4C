@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_editor_texture_utility" kind="class" prot="package">
+    <compoundname>VRMShaders::EditorTextureUtility</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_utility_1a1d8f828f4657329aba624b76ad34bf4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRMShaders.EditorTextureUtility.TryGetAsEditorTexture2DAsset</definition>
+        <argsstring>(Texture texture, out Texture2D texture2D, out TextureImporter assetImporter)</argsstring>
+        <name>TryGetAsEditorTexture2DAsset</name>
+        <param>
+          <type>Texture</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>out Texture2D</type>
+          <declname>texture2D</declname>
+        </param>
+        <param>
+          <type>out TextureImporter</type>
+          <declname>assetImporter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" bodystart="10" bodyend="29"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" compoundref="_editor_texture_serializer_8cs" startline="23" endline="49">VRMShaders.EditorTextureSerializer.CanExportAsEditorAssetFile</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_importer_configurator_1a9320d548e101b97a90336ee1327bf319" compoundref="_texture_importer_configurator_8cs" startline="79" endline="86">VRMShaders.TextureImporterConfigurator.Configure</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a5f6e18b394dafef37264d3afd02940b6" compoundref="_editor_texture_serializer_8cs" startline="64" endline="71">VRMShaders.EditorTextureSerializer.ModifyTextureAssetBeforeExporting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_utility_1ac7b1f90e4a8bdc3273c06e650414c3dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRMShaders.EditorTextureUtility.TryGetOriginalTexturePixelSize</definition>
+        <argsstring>(TextureImporter textureImporter, out Vector2Int size)</argsstring>
+        <name>TryGetOriginalTexturePixelSize</name>
+        <param>
+          <type>TextureImporter</type>
+          <declname>textureImporter</declname>
+        </param>
+        <param>
+          <type>out Vector2Int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" bodystart="31" bodyend="48"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_importer_configurator_1a18932f025c71c295557720645e066c49" compoundref="_texture_importer_configurator_8cs" startline="11" endline="21">VRMShaders.TextureImporterConfigurator.ConfigureSize</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1ac75139d793183f7698fadb7b56c95f84" compoundref="_editor_texture_serializer_8cs" startline="113" endline="125">VRMShaders.EditorTextureSerializer.IsTextureSizeMaintained</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs" bodystart="8" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_utility_1a1d8f828f4657329aba624b76ad34bf4b" prot="public" virt="non-virtual"><scope>VRMShaders::EditorTextureUtility</scope><name>TryGetAsEditorTexture2DAsset</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_utility_1ac7b1f90e4a8bdc3273c06e650414c3dc" prot="public" virt="non-virtual"><scope>VRMShaders::EditorTextureUtility</scope><name>TryGetOriginalTexturePixelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bone_node" kind="class" prot="public">
+    <compoundname>UniHumanoid::BoneNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable&lt; BoneNode &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bone_node_1aed6700d32c1c75ff7be035d684e362cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>HumanBodyBones</type>
+        <definition>HumanBodyBones UniHumanoid.BoneNode.Bone</definition>
+        <argsstring></argsstring>
+        <name>Bone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_node_1aee9af19119fcdbf58d61442142112289" compoundref="_muscle_inspector_editor_8cs" startline="20" endline="24">UniHumanoid.BoneNode.BoneNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_node_1acb8290e4ea31ba5bcbcc513625787631" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_uni_humanoid_1_1_bone_node" kindref="compound">BoneNode</ref> &gt;</type>
+        <definition>List&lt;BoneNode&gt; UniHumanoid.BoneNode.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <initializer>= new List&lt;<ref refid="class_uni_humanoid_1_1_bone_node" kindref="compound">BoneNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_node_1af91b44d8703b44e403071d6035b33318" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] UniHumanoid.BoneNode.Muscles</definition>
+        <argsstring></argsstring>
+        <name>Muscles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_tree_view_1ac51a552445c4c948d0aaad19b2bfa549" compoundref="_muscle_inspector_editor_8cs" startline="170" endline="202">UniHumanoid.BoneTreeView.AddChildrenRecursive</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_node_1aee9af19119fcdbf58d61442142112289" compoundref="_muscle_inspector_editor_8cs" startline="20" endline="24">UniHumanoid.BoneNode.BoneNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_node_1aee9af19119fcdbf58d61442142112289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.BoneNode.BoneNode</definition>
+        <argsstring>(HumanBodyBones bone, params int[] muscles)</argsstring>
+        <name>BoneNode</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>params int[]</type>
+          <declname>muscles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="20" bodyend="24"/>
+        <references refid="class_uni_humanoid_1_1_bone_node_1aed6700d32c1c75ff7be035d684e362cb" compoundref="_muscle_inspector_editor_8cs" startline="14">UniHumanoid.BoneNode.Bone</references>
+        <references refid="class_uni_humanoid_1_1_bone_node_1af91b44d8703b44e403071d6035b33318" compoundref="_muscle_inspector_editor_8cs" startline="18">UniHumanoid.BoneNode.Muscles</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_node_1a6fcf90949c154d9d0dc45660000efdba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="class_uni_humanoid_1_1_bone_node" kindref="compound">BoneNode</ref> &gt;</type>
+        <definition>IEnumerator&lt;BoneNode&gt; UniHumanoid.BoneNode.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_node_1a46c5756457230371b4aa9d50fc1a972e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneNode.Add</definition>
+        <argsstring>(BoneNode child)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bone_node" kindref="compound">BoneNode</ref></type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_node_1aaf752ca09435d7ed2562b9304ff577e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. UniHumanoid.BoneNode.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>UniHumanoid.BoneNode</label>
+        <link refid="class_uni_humanoid_1_1_bone_node"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>IEnumerable&lt; BoneNode &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="348">
+        <label>UniHumanoid.BoneNode</label>
+        <link refid="class_uni_humanoid_1_1_bone_node"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>IEnumerable&lt; BoneNode &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/MuscleInspectorEditor.cs" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bone_node_1a46c5756457230371b4aa9d50fc1a972e" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>Add</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1aed6700d32c1c75ff7be035d684e362cb" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>Bone</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1aee9af19119fcdbf58d61442142112289" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>BoneNode</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1acb8290e4ea31ba5bcbcc513625787631" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>Children</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1a6fcf90949c154d9d0dc45660000efdba" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>GetEnumerator</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1aaf752ca09435d7ed2562b9304ff577e0" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>GetEnumerator</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_node_1af91b44d8703b44e403071d6035b33318" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneNode</scope><name>Muscles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

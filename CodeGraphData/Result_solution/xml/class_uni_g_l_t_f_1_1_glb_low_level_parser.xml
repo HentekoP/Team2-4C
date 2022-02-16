@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_glb_low_level_parser" kind="class" prot="public">
+    <compoundname>UniGLTF::GlbLowLevelParser</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa13ac935eb6c56e90560677088a106cc" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.GlbLowLevelParser.UniqueFixResourceSuffix</definition>
+        <argsstring></argsstring>
+        <name>UniqueFixResourceSuffix</name>
+        <initializer>= &quot;__UNIGLTF__DUPLICATED__&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa340571b8e2956923186066a2b4fb384" prot="private" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex UniGLTF.GlbLowLevelParser._removeUniqueFixResourceSuffix</definition>
+        <argsstring></argsstring>
+        <name>_removeUniqueFixResourceSuffix</name>
+        <initializer>= new Regex($@&quot;^(.+){UniqueFixResourceSuffix}(\d+)$&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33e37653eb60e9c72186be3b3fd6707b" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.GlbLowLevelParser._path</definition>
+        <argsstring></argsstring>
+        <name>_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa3cafa4e7d8e98ff264db8c532216e04" compoundref="_glb_low_level_parser_8cs" startline="22" endline="26">UniGLTF.GlbLowLevelParser.GlbLowLevelParser</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" compoundref="_glb_low_level_parser_8cs" startline="28" endline="50">UniGLTF.GlbLowLevelParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aaaaa288a2cf124ac29389fecfb099fe1" prot="private" static="no" mutable="no">
+        <type>readonly byte[]</type>
+        <definition>readonly byte [] UniGLTF.GlbLowLevelParser._binary</definition>
+        <argsstring></argsstring>
+        <name>_binary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa3cafa4e7d8e98ff264db8c532216e04" compoundref="_glb_low_level_parser_8cs" startline="22" endline="26">UniGLTF.GlbLowLevelParser.GlbLowLevelParser</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" compoundref="_glb_low_level_parser_8cs" startline="28" endline="50">UniGLTF.GlbLowLevelParser.Parse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa3cafa4e7d8e98ff264db8c532216e04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.GlbLowLevelParser.GlbLowLevelParser</definition>
+        <argsstring>(string path, byte[] specifiedBinary)</argsstring>
+        <name>GlbLowLevelParser</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>specifiedBinary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="22" bodyend="26"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aaaaa288a2cf124ac29389fecfb099fe1" compoundref="_glb_low_level_parser_8cs" startline="20">UniGLTF.GlbLowLevelParser._binary</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33e37653eb60e9c72186be3b3fd6707b" compoundref="_glb_low_level_parser_8cs" startline="19">UniGLTF.GlbLowLevelParser._path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.GlbLowLevelParser.Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="28" bodyend="50"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aaaaa288a2cf124ac29389fecfb099fe1" compoundref="_glb_low_level_parser_8cs" startline="20">UniGLTF.GlbLowLevelParser._binary</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33e37653eb60e9c72186be3b3fd6707b" compoundref="_glb_low_level_parser_8cs" startline="19">UniGLTF.GlbLowLevelParser._path</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ae05755b43626093d3ddcc1a7c4130a45" compoundref="_glb_low_level_parser_8cs" startline="52" endline="72">UniGLTF.GlbLowLevelParser.ParseGlbChunks</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ae05755b43626093d3ddcc1a7c4130a45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref> &gt;</type>
+        <definition>static List&lt;GlbChunk&gt; UniGLTF.GlbLowLevelParser.ParseGlbChunks</definition>
+        <argsstring>(byte[] data)</argsstring>
+        <name>ParseGlbChunks</name>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="52" bodyend="72"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" compoundref="_glb_low_level_parser_8cs" startline="28" endline="50">UniGLTF.GlbLowLevelParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>static GltfData UniGLTF.GlbLowLevelParser.ParseGltf</definition>
+        <argsstring>(string path, string json, IReadOnlyList&lt; GlbChunk &gt; chunks, IStorage storage, MigrationFlags migrationFlags)</argsstring>
+        <name>ParseGltf</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref> &gt;</type>
+          <declname>chunks</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_storage" kindref="compound">IStorage</ref></type>
+          <declname>storage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_migration_flags" kindref="compound">MigrationFlags</ref></type>
+          <declname>migrationFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="74" bodyend="96"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a339f4139fcea9f5c5b8e75d6194ce1fa" compoundref="_glb_low_level_parser_8cs" startline="227" endline="242">UniGLTF.GlbLowLevelParser.FixAnimationNameUnique</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a696075e928369113f7e68e1ba5f5d969" compoundref="_glb_low_level_parser_8cs" startline="195" endline="210">UniGLTF.GlbLowLevelParser.FixMaterialNameUnique</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a75a431afb69da18cdc9f247383b430f9" compoundref="_glb_low_level_parser_8cs" startline="98" endline="124">UniGLTF.GlbLowLevelParser.FixMeshNameUnique</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac4c2fcd7dd4d4b0d36220932fee9de87" compoundref="_glb_low_level_parser_8cs" startline="215" endline="225">UniGLTF.GlbLowLevelParser.FixNodeName</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac541ad4e73bfa34fb3909d18548d7f36" compoundref="_glb_low_level_parser_8cs" startline="168" endline="193">UniGLTF.GlbLowLevelParser.FixTextureNameUnique</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a1ad74ffb372825cd6566bc6deb12f2e1" compoundref="_glb_low_level_parser_8cs" startline="146" endline="162">UniGLTF.GlbLowLevelParser.PrepareUri</references>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33c6add40bd11d221cd8cf246f8c6172" compoundref="_glb_low_level_parser_8cs" startline="244" endline="266">UniGLTF.GlbLowLevelParser.RestoreOlderVersionValues</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" compoundref="_glb_low_level_parser_8cs" startline="28" endline="50">UniGLTF.GlbLowLevelParser.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a1ad74ffb372825cd6566bc6deb12f2e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.GlbLowLevelParser.PrepareUri</definition>
+        <argsstring>(string uri)</argsstring>
+        <name>PrepareUri</name>
+        <param>
+          <type>string</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+<para>image.uri を前理 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uri</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="146" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="146" bodyend="162"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a9d69d6aaf3452c9096f66558b7fa2642" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.AppendImageExtension</definition>
+        <argsstring>(glTFImage texture, string extension)</argsstring>
+        <name>AppendImageExtension</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_image" kindref="compound">glTFImage</ref></type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="268" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="268" bodyend="274"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1a8859fb97338b61f9da8e375b8ab14595" compoundref="gl_t_f_texture_8cs" startline="41">UniGLTF.glTFImage.name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a8a2d34ccc72d280327b1974af69f9ad9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.GlbLowLevelParser.FixNameUnique</definition>
+        <argsstring>(HashSet&lt; string &gt; used, string originalName)</argsstring>
+        <name>FixNameUnique</name>
+        <param>
+          <type>HashSet&lt; string &gt;</type>
+          <declname>used</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>originalName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="276" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="276" bodyend="292"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a339f4139fcea9f5c5b8e75d6194ce1fa" compoundref="_glb_low_level_parser_8cs" startline="227" endline="242">UniGLTF.GlbLowLevelParser.FixAnimationNameUnique</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a696075e928369113f7e68e1ba5f5d969" compoundref="_glb_low_level_parser_8cs" startline="195" endline="210">UniGLTF.GlbLowLevelParser.FixMaterialNameUnique</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac541ad4e73bfa34fb3909d18548d7f36" compoundref="_glb_low_level_parser_8cs" startline="168" endline="193">UniGLTF.GlbLowLevelParser.FixTextureNameUnique</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aae20c1ccf6862fc34ae5e710f83f4923" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.GlbLowLevelParser.TryGetOriginalName</definition>
+        <argsstring>(string name, out string originalName)</argsstring>
+        <name>TryGetOriginalName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>originalName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="294" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="294" bodyend="307"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a75a431afb69da18cdc9f247383b430f9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.FixMeshNameUnique</definition>
+        <argsstring>(glTF GLTF)</argsstring>
+        <name>FixMeshNameUnique</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="98" bodyend="124"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1acc1b103c41d88439640bcaa700220aa4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.RenameImageFromTexture</definition>
+        <argsstring>(glTF GLTF, int i)</argsstring>
+        <name>RenameImageFromTexture</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="126" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac541ad4e73bfa34fb3909d18548d7f36" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.FixTextureNameUnique</definition>
+        <argsstring>(glTF GLTF)</argsstring>
+        <name>FixTextureNameUnique</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+<para>gltfTexture.name を Unity Asset 名として運用する。 ユニークである必要がある。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="168" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="168" bodyend="193"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a8a2d34ccc72d280327b1974af69f9ad9" compoundref="_glb_low_level_parser_8cs" startline="276" endline="292">UniGLTF.GlbLowLevelParser.FixNameUnique</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a696075e928369113f7e68e1ba5f5d969" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.FixMaterialNameUnique</definition>
+        <argsstring>(glTF GLTF)</argsstring>
+        <name>FixMaterialNameUnique</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="195" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="195" bodyend="210"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a8a2d34ccc72d280327b1974af69f9ad9" compoundref="_glb_low_level_parser_8cs" startline="276" endline="292">UniGLTF.GlbLowLevelParser.FixNameUnique</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac4c2fcd7dd4d4b0d36220932fee9de87" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.FixNodeName</definition>
+        <argsstring>(glTF GLTF)</argsstring>
+        <name>FixNodeName</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+<para>rename empty name to $&quot;{index}&quot; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="215" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="215" bodyend="225"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a339f4139fcea9f5c5b8e75d6194ce1fa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.FixAnimationNameUnique</definition>
+        <argsstring>(glTF GLTF)</argsstring>
+        <name>FixAnimationNameUnique</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="227" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="227" bodyend="242"/>
+        <references refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a8a2d34ccc72d280327b1974af69f9ad9" compoundref="_glb_low_level_parser_8cs" startline="276" endline="292">UniGLTF.GlbLowLevelParser.FixNameUnique</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33c6add40bd11d221cd8cf246f8c6172" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GlbLowLevelParser.RestoreOlderVersionValues</definition>
+        <argsstring>(string Json, glTF GLTF)</argsstring>
+        <name>RestoreOlderVersionValues</name>
+        <param>
+          <type>string</type>
+          <declname>Json</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>GLTF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="244" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="244" bodyend="266"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a96c88588998e7c809069b4182b541815" compoundref="gl_t_f_8cs" startline="61">UniGLTF.glTF.images</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" compoundref="_glb_low_level_parser_8cs" startline="74" endline="96">UniGLTF.GlbLowLevelParser.ParseGltf</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Low-level API. Parse from specified path &amp; specified binary. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbLowLevelParser.cs" bodystart="14" bodyend="308"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aaaaa288a2cf124ac29389fecfb099fe1" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>_binary</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33e37653eb60e9c72186be3b3fd6707b" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>_path</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa340571b8e2956923186066a2b4fb384" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>_removeUniqueFixResourceSuffix</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a9d69d6aaf3452c9096f66558b7fa2642" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>AppendImageExtension</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a339f4139fcea9f5c5b8e75d6194ce1fa" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixAnimationNameUnique</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a696075e928369113f7e68e1ba5f5d969" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixMaterialNameUnique</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a75a431afb69da18cdc9f247383b430f9" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixMeshNameUnique</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a8a2d34ccc72d280327b1974af69f9ad9" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixNameUnique</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac4c2fcd7dd4d4b0d36220932fee9de87" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixNodeName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ac541ad4e73bfa34fb3909d18548d7f36" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>FixTextureNameUnique</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa3cafa4e7d8e98ff264db8c532216e04" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>GlbLowLevelParser</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ab572c84696b18a91e7f20c2982a26d75" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>Parse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1ae05755b43626093d3ddcc1a7c4130a45" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>ParseGlbChunks</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aedd37893d9896dbeb4e901925857a535" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>ParseGltf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a1ad74ffb372825cd6566bc6deb12f2e1" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>PrepareUri</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1acc1b103c41d88439640bcaa700220aa4" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>RenameImageFromTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1a33c6add40bd11d221cd8cf246f8c6172" prot="private" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>RestoreOlderVersionValues</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aae20c1ccf6862fc34ae5e710f83f4923" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>TryGetOriginalName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_glb_low_level_parser_1aa13ac935eb6c56e90560677088a106cc" prot="public" virt="non-virtual"><scope>UniGLTF::GlbLowLevelParser</scope><name>UniqueFixResourceSuffix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

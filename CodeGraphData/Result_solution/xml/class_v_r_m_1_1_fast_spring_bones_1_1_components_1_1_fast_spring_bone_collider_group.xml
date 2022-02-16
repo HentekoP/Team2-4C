@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a68151bbb3c05a5e1f07c783b1f03a90b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref></type>
+        <definition>NativeTransform VRM.FastSpringBones.Components.FastSpringBoneColliderGroup._nativeTransform</definition>
+        <argsstring></argsstring>
+        <name>_nativeTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a4779abde2648bd748b9af306621bc85e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group" kindref="compound">NativeColliderGroup</ref></type>
+        <definition>NativeColliderGroup VRM.FastSpringBones.Components.FastSpringBoneColliderGroup._nativeColliderGroup</definition>
+        <argsstring></argsstring>
+        <name>_nativeColliderGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1aed7212c20a25f926bbbb17a537384453" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref> *</type>
+        <definition>BlittableColliderGroup* VRM.FastSpringBones.Components.FastSpringBoneColliderGroup.ColliderGroupPtr</definition>
+        <argsstring></argsstring>
+        <name>ColliderGroupPtr</name>
+        <initializer>=&gt; _nativeColliderGroup.GetUnsafePtr()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1ae04a564dabe663f8af87bebb8b60194a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Components.FastSpringBoneColliderGroup.Initialize</definition>
+        <argsstring>(TransformRegistry transformRegistry, BlittableCollider[] colliders)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref></type>
+          <declname>transformRegistry</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref>[]</type>
+          <declname>colliders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a10e40206a4f29a4029edcca3b8d0dcf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Components.FastSpringBoneColliderGroup.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>VRMSpringBoneColliderGroupに対応したクラス バッファの作成も行う </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="683">
+        <label>VRM.FastSpringBones.Components.FastSpringBoneColliderGroup</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group"/>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="693">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="694" relation="public-inheritance">
+        </childnode>
+        <childnode refid="693" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="694">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="685">
+        <label>VRM.FastSpringBones.Components.FastSpringBoneColliderGroup</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group"/>
+        <childnode refid="686" relation="public-inheritance">
+        </childnode>
+        <childnode refid="687" relation="usage">
+          <edgelabel>_nativeColliderGroup</edgelabel>
+        </childnode>
+        <childnode refid="689" relation="usage">
+          <edgelabel>ColliderGroupPtr</edgelabel>
+        </childnode>
+        <childnode refid="690" relation="usage">
+          <edgelabel>_nativeTransform</edgelabel>
+        </childnode>
+      </node>
+      <node id="688">
+        <label>IDisposable</label>
+      </node>
+      <node id="690">
+        <label>VRM.FastSpringBones.NativeWrappers.NativeTransform</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform"/>
+        <childnode refid="688" relation="public-inheritance">
+        </childnode>
+        <childnode refid="691" relation="usage">
+          <edgelabel>_transformRegistry</edgelabel>
+        </childnode>
+        <childnode refid="692" relation="usage">
+          <edgelabel>Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="687">
+        <label>VRM.FastSpringBones.NativeWrappers.NativeColliderGroup</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group"/>
+        <childnode refid="688" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>VRM.FastSpringBones.Registries.TransformRegistry</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry"/>
+      </node>
+      <node id="686">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="689">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroup</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group"/>
+      </node>
+      <node id="692">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="693" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="692" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Components/FastSpringBoneColliderGroup.cs" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a4779abde2648bd748b9af306621bc85e" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</scope><name>_nativeColliderGroup</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a68151bbb3c05a5e1f07c783b1f03a90b" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</scope><name>_nativeTransform</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1aed7212c20a25f926bbbb17a537384453" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</scope><name>ColliderGroupPtr</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1ae04a564dabe663f8af87bebb8b60194a" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</scope><name>Initialize</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_components_1_1_fast_spring_bone_collider_group_1a10e40206a4f29a4029edcca3b8d0dcf0" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Components::FastSpringBoneColliderGroup</scope><name>OnDestroy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

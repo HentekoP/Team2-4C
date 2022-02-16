@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_normalize_tests_1_1_bone_map" kind="class" prot="private">
+    <compoundname>VRM::NormalizeTests::BoneMap</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a45c15829b4012f416b80f1931a537124" prot="public" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; VRM.NormalizeTests.BoneMap.SrcBones</definition>
+        <argsstring></argsstring>
+        <name>SrcBones</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a6891720622fd0b4d53e8ee5ca4e5f52e" prot="public" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; VRM.NormalizeTests.BoneMap.DstBones</definition>
+        <argsstring></argsstring>
+        <name>DstBones</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a1c3f64758e884f72b9b68d25df828872" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; Transform, Transform &gt;</type>
+        <definition>Dictionary&lt;Transform, Transform&gt; VRM.NormalizeTests.BoneMap.Map</definition>
+        <argsstring></argsstring>
+        <name>Map</name>
+        <initializer>= new Dictionary&lt;Transform, Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1aef842bec082eae0fd2956a6067735177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.NormalizeTests.BoneMap.Add</definition>
+        <argsstring>(GameObject src, GameObject dst)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>GameObject</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a6ef78d845c276848334086dfe7d101c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; BoneWeight &gt;</type>
+        <definition>IEnumerable&lt;BoneWeight&gt; VRM.NormalizeTests.BoneMap.CreateBoneWeight</definition>
+        <argsstring>(int vertexCount)</argsstring>
+        <name>CreateBoneWeight</name>
+        <param>
+          <type>int</type>
+          <declname>vertexCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="30" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Tests/NormalizeTests.cs" bodystart="11" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1aef842bec082eae0fd2956a6067735177" prot="public" virt="non-virtual"><scope>VRM::NormalizeTests::BoneMap</scope><name>Add</name></member>
+      <member refid="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a6ef78d845c276848334086dfe7d101c7" prot="public" virt="non-virtual"><scope>VRM::NormalizeTests::BoneMap</scope><name>CreateBoneWeight</name></member>
+      <member refid="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a6891720622fd0b4d53e8ee5ca4e5f52e" prot="public" virt="non-virtual"><scope>VRM::NormalizeTests::BoneMap</scope><name>DstBones</name></member>
+      <member refid="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a1c3f64758e884f72b9b68d25df828872" prot="public" virt="non-virtual"><scope>VRM::NormalizeTests::BoneMap</scope><name>Map</name></member>
+      <member refid="class_v_r_m_1_1_normalize_tests_1_1_bone_map_1a45c15829b4012f416b80f1931a537124" prot="public" virt="non-virtual"><scope>VRM::NormalizeTests::BoneMap</scope><name>SrcBones</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_v_r_m_version_menu_8cs" kind="file">
+    <compoundname>VRMVersionMenu.cs</compoundname>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_version_menu" prot="public">VRM::VRMVersionMenu</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" prot="private">VRM::VRMVersionMenu::UpmPackage</innerclass>
+    <innernamespace refid="namespace_v_r_m">VRM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.IO;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniGLTF;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="class_v_r_m_1_1_v_r_m_version_menu" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_r_m_1_1_v_r_m_version_menu" kindref="compound">VRMVersionMenu</ref><sp/>:<sp/>EditorWindow</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25" refid="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" kindref="member">UniGltfVersionPath</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Assets/UniGLTF/Runtime/UniGLTF/UniGLTFVersion.cs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" kindref="member">UniGltfVersionTemplate</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral">namespace<sp/>UniGLTF</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral">{{</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>public<sp/>static<sp/>partial<sp/>class<sp/>UniGLTFVersion</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>MAJOR<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>MINOR<sp/>=<sp/>{1};</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>PATCH<sp/>=<sp/>{2};</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>string<sp/>VERSION<sp/>=<sp/>&quot;&quot;{0}.{1}.{2}&quot;&quot;;</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral">}}</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" kindref="member">VrmVersionPath</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Assets/VRM/Runtime/Format/VRMVersion.cs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" kindref="member">VrmVersionTemplate</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral">namespace<sp/>VRM</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral">{{</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>public<sp/>static<sp/>partial<sp/>class<sp/>VRMVersion</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>MAJOR<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>MINOR<sp/>=<sp/>{1};</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>int<sp/>PATCH<sp/>=<sp/>{2};</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>const<sp/>string<sp/>VERSION<sp/>=<sp/>&quot;&quot;{0}.{1}.{2}&quot;&quot;;</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral">}}</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59" refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1ab561292ebc2c94c33711de18b0ac2e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1ab561292ebc2c94c33711de18b0ac2e8f" kindref="member">Path</ref>;</highlight></codeline>
+<codeline lineno="60" refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1af33c649355501418667faa55e7571878" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1af33c649355501418667faa55e7571878" kindref="member">Template</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1a205dba6e0b34bfa46c96ab17795c876b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1a205dba6e0b34bfa46c96ab17795c876b" kindref="member">UpmPackage</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1ab561292ebc2c94c33711de18b0ac2e8f" kindref="member">Path</ref><sp/>=<sp/>path;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package_1af33c649355501418667faa55e7571878" kindref="member">Template</ref><sp/>=<sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>[]<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" kindref="member">Packages</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>[]</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>(</highlight><highlight class="stringliteral">&quot;Assets/VRMShaders/package.json&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="stringliteral">@&quot;{{</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;com.vrmc.vrmshaders&quot;&quot;,</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;version&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;,</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Shaders&quot;&quot;,</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Shaders&quot;&quot;,</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;unity&quot;&quot;:<sp/>&quot;&quot;2019.4&quot;&quot;,</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;keywords&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;vrm&quot;&quot;,</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;shader&quot;&quot;</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/>],</highlight></codeline>
+<codeline lineno="82"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;author&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="83"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Consortium&quot;&quot;</highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral"><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral">}}</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>(</highlight><highlight class="stringliteral">&quot;Assets/VRM/package.json&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="stringliteral">@&quot;{{</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;com.vrmc.univrm&quot;&quot;,</highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;version&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;,</highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;VRM&quot;&quot;,</highlight></codeline>
+<codeline lineno="92"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>importer&quot;&quot;,</highlight></codeline>
+<codeline lineno="93"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;unity&quot;&quot;:<sp/>&quot;&quot;2019.4&quot;&quot;,</highlight></codeline>
+<codeline lineno="94"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;keywords&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="95"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;vrm&quot;&quot;,</highlight></codeline>
+<codeline lineno="96"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;importer&quot;&quot;,</highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;avatar&quot;&quot;,</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;vr&quot;&quot;</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"><sp/><sp/>],</highlight></codeline>
+<codeline lineno="100"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;author&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="101"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Consortium&quot;&quot;</highlight></codeline>
+<codeline lineno="102"><highlight class="stringliteral"><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="103"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;dependencies&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="104"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;com.vrmc.vrmshaders&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;,</highlight></codeline>
+<codeline lineno="105"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;com.vrmc.gltf&quot;&quot;:<sp/>&quot;&quot;{0}&quot;&quot;</highlight></codeline>
+<codeline lineno="106"><highlight class="stringliteral"><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="107"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;samples&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="108"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="109"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;SimpleViewer&quot;&quot;,</highlight></codeline>
+<codeline lineno="110"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>runtime<sp/>loader<sp/>sample&quot;&quot;,</highlight></codeline>
+<codeline lineno="111"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/SimpleViewer&quot;&quot;</highlight></codeline>
+<codeline lineno="112"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="113"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="114"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;FirstPersonSample&quot;&quot;,</highlight></codeline>
+<codeline lineno="115"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;First<sp/>Person<sp/>layer<sp/>sample<sp/>with<sp/>multi<sp/>camera&quot;&quot;,</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/FirstPersonSample&quot;&quot;</highlight></codeline>
+<codeline lineno="117"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="118"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="119"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;RuntimeExporterSample&quot;&quot;,</highlight></codeline>
+<codeline lineno="120"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>runtime<sp/>exporter<sp/>sample&quot;&quot;,</highlight></codeline>
+<codeline lineno="121"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/RuntimeExporterSample&quot;&quot;</highlight></codeline>
+<codeline lineno="122"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="123"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="124"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;AnimationBridgeSample&quot;&quot;,</highlight></codeline>
+<codeline lineno="125"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;BlendShape<sp/>animation<sp/>clip<sp/>sample&quot;&quot;,</highlight></codeline>
+<codeline lineno="126"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/AnimationBridgeSample&quot;&quot;</highlight></codeline>
+<codeline lineno="127"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="128"><highlight class="stringliteral"><sp/><sp/>]</highlight></codeline>
+<codeline lineno="129"><highlight class="stringliteral">}}</highlight></codeline>
+<codeline lineno="130"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>(</highlight><highlight class="stringliteral">&quot;Assets/VRM10/package.json&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="stringliteral">@&quot;{{</highlight></codeline>
+<codeline lineno="134"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;com.vrmc.vrm&quot;&quot;,</highlight></codeline>
+<codeline lineno="135"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;version&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;,</highlight></codeline>
+<codeline lineno="136"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;VRM-1.0β&quot;&quot;,</highlight></codeline>
+<codeline lineno="137"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM-1.0β<sp/>importer&quot;&quot;,</highlight></codeline>
+<codeline lineno="138"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;unity&quot;&quot;:<sp/>&quot;&quot;2019.4&quot;&quot;,</highlight></codeline>
+<codeline lineno="139"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;keywords&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="140"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;vrm&quot;&quot;,</highlight></codeline>
+<codeline lineno="141"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;importer&quot;&quot;,</highlight></codeline>
+<codeline lineno="142"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;avatar&quot;&quot;,</highlight></codeline>
+<codeline lineno="143"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;vr&quot;&quot;</highlight></codeline>
+<codeline lineno="144"><highlight class="stringliteral"><sp/><sp/>],</highlight></codeline>
+<codeline lineno="145"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;author&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="146"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Consortium&quot;&quot;</highlight></codeline>
+<codeline lineno="147"><highlight class="stringliteral"><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="148"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;dependencies&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="149"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;com.vrmc.vrmshaders&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;,</highlight></codeline>
+<codeline lineno="150"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;com.vrmc.gltf&quot;&quot;:<sp/>&quot;&quot;{0}&quot;&quot;</highlight></codeline>
+<codeline lineno="151"><highlight class="stringliteral"><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="152"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;samples&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="153"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="154"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;VRM10Viewer&quot;&quot;,</highlight></codeline>
+<codeline lineno="155"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;VRM10<sp/>runtime<sp/>loader<sp/>sample&quot;&quot;,</highlight></codeline>
+<codeline lineno="156"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/VRM10Viewer&quot;&quot;</highlight></codeline>
+<codeline lineno="157"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="158"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{{</highlight></codeline>
+<codeline lineno="159"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;VRM10FirstPersonSample&quot;&quot;,</highlight></codeline>
+<codeline lineno="160"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;First<sp/>Person<sp/>layer<sp/>sample<sp/>with<sp/>multi<sp/>camera&quot;&quot;,</highlight></codeline>
+<codeline lineno="161"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;path&quot;&quot;:<sp/>&quot;&quot;Samples~/VRM10FirstPersonSample&quot;&quot;</highlight></codeline>
+<codeline lineno="162"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="163"><highlight class="stringliteral"><sp/><sp/>]</highlight></codeline>
+<codeline lineno="164"><highlight class="stringliteral">}}</highlight></codeline>
+<codeline lineno="165"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="class_v_r_m_1_1_v_r_m_version_menu_1a1ddb2125bd57919020e549de2bd87b39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a1ddb2125bd57919020e549de2bd87b39" kindref="member">UniGLTFPackage</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>(</highlight><highlight class="stringliteral">&quot;Assets/UniGLTF/package.json&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="stringliteral">@&quot;{{</highlight></codeline>
+<codeline lineno="171"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;com.vrmc.gltf&quot;&quot;,</highlight></codeline>
+<codeline lineno="172"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;version&quot;&quot;:<sp/>&quot;&quot;{0}&quot;&quot;,</highlight></codeline>
+<codeline lineno="173"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;displayName&quot;&quot;:<sp/>&quot;&quot;UniGLTF&quot;&quot;,</highlight></codeline>
+<codeline lineno="174"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;description&quot;&quot;:<sp/>&quot;&quot;GLTF<sp/>importer<sp/>and<sp/>exporter&quot;&quot;,</highlight></codeline>
+<codeline lineno="175"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;unity&quot;&quot;:<sp/>&quot;&quot;2019.4&quot;&quot;,</highlight></codeline>
+<codeline lineno="176"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;keywords&quot;&quot;:<sp/>[</highlight></codeline>
+<codeline lineno="177"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;gltf&quot;&quot;</highlight></codeline>
+<codeline lineno="178"><highlight class="stringliteral"><sp/><sp/>],</highlight></codeline>
+<codeline lineno="179"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;author&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="180"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;name&quot;&quot;:<sp/>&quot;&quot;VRM<sp/>Consortium&quot;&quot;</highlight></codeline>
+<codeline lineno="181"><highlight class="stringliteral"><sp/><sp/>}},</highlight></codeline>
+<codeline lineno="182"><highlight class="stringliteral"><sp/><sp/>&quot;&quot;dependencies&quot;&quot;:<sp/>{{</highlight></codeline>
+<codeline lineno="183"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;com.vrmc.vrmshaders&quot;&quot;:<sp/>&quot;&quot;{1}&quot;&quot;</highlight></codeline>
+<codeline lineno="184"><highlight class="stringliteral"><sp/><sp/>}}</highlight></codeline>
+<codeline lineno="185"><highlight class="stringliteral">}}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField]</highlight></codeline>
+<codeline lineno="188" refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" kindref="member">m_vrmVersion</ref>;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>,<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>,<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>)<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" kindref="member">m_uniGltfVersion</ref></highlight></codeline>
+<codeline lineno="191" refid="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" kindref="member">TryGetVersion</ref>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" kindref="member">m_vrmVersion</ref>,<sp/>out<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>vrmVersion))</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(2,<sp/>vrmVersion.Item2<sp/>-<sp/>64,<sp/>vrmVersion.Item3);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" kindref="member">TryGetVersion</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>src,<sp/>out<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>version)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.IsNullOrEmpty(src))</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>version<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>splitted<sp/>=<sp/>src.Split(</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(splitted.Length<sp/>!=<sp/>3)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>version<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>version<sp/>=<sp/>(</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int.Parse(splitted[0]),</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">.Parse(splitted[1]),</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int.Parse(splitted[2])</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(Exception)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>version<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" kindref="member">OnGUI</ref>()</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Label(</highlight><highlight class="stringliteral">&quot;VRM&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Label($</highlight><highlight class="stringliteral">&quot;Current<sp/>version:<sp/>{VRMVersion.VERSION}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" kindref="member">m_vrmVersion</ref><sp/>=<sp/>EditorGUILayout.TextField(</highlight><highlight class="stringliteral">&quot;Major.Minor.Patch&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" kindref="member">m_vrmVersion</ref>);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Space(30);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Label(</highlight><highlight class="stringliteral">&quot;UniGLTF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Label($</highlight><highlight class="stringliteral">&quot;Current<sp/>version:<sp/>{UniGLTFVersion.VERSION}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>enabled<sp/>=<sp/>GUI.enabled;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUI.enabled<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.TextField(</highlight><highlight class="stringliteral">&quot;Major.Minor.Patch&quot;</highlight><highlight class="normal">,<sp/>$</highlight><highlight class="stringliteral">&quot;{m_uniGltfVersion}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUI.enabled<sp/>=<sp/>enabled;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUILayout.Space(30);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GUILayout.Button(</highlight><highlight class="stringliteral">&quot;Apply&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" kindref="member">TryGetVersion</ref>(m_vrmVersion,<sp/>out<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>vrmVersion))</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" kindref="member">UpdateVrmVersion</ref>(vrmVersion);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" kindref="member">UpdateUniGLTFVersion</ref>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" kindref="member">m_uniGltfVersion</ref>,<sp/>vrmVersion);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AssetDatabase.Refresh();</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log($</highlight><highlight class="stringliteral">&quot;{m_uniGltfVersion},<sp/>{vrmVersion}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.LogWarning($</highlight><highlight class="stringliteral">&quot;InvalidFormat:<sp/>{m_vrmVersion}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>COPY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VRMSampleCopy.Execute();</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GUILayout.Button(</highlight><highlight class="stringliteral">&quot;Close&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Close();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" kindref="member">UpdateUniGLTFVersion</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>uniGltf,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>vrm)</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>utf8<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>UTF8Encoding(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File.WriteAllText(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" kindref="member">UniGltfVersionPath</ref>,<sp/>string.Format(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" kindref="member">UniGltfVersionTemplate</ref>,</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uniGltf.Item1,</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uniGltf.Item2,</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uniGltf.Item3),<sp/>utf8);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File.WriteAllText(UniGLTFPackage.Path,<sp/>string.Format(UniGLTFPackage.Template,</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$</highlight><highlight class="stringliteral">&quot;{vrm.Item1}.{vrm.Item2}.{vrm.Item3}&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$</highlight><highlight class="stringliteral">&quot;{vrm.Item1}.{vrm.Item2}.{vrm.Item3}&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),<sp/>utf8);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" kindref="member">UpdateVrmVersion</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>vrm)</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>generate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>utf8<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>UTF8Encoding(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File.WriteAllText(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" kindref="member">VrmVersionPath</ref>,<sp/>string.Format(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" kindref="member">VrmVersionTemplate</ref>,</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vrm.Item1,</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vrm.Item2,</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vrm.Item3),<sp/>utf8);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>UPM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>upm<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" kindref="member">Packages</ref>)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File.WriteAllText(upm.Path,<sp/>string.Format(upm.Template,</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$</highlight><highlight class="stringliteral">&quot;{vrm.Item1}.{vrm.Item2}.{vrm.Item3}&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$</highlight><highlight class="stringliteral">&quot;{vrm.Item1}.{vrm.Item2}.{vrm.Item3}&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),<sp/>utf8);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="class_v_r_m_1_1_v_r_m_version_menu_1a90b0638557ce4025715b0fc2162f0fa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a90b0638557ce4025715b0fc2162f0fa8" kindref="member">ShowVersionDialog</ref>()</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>window<sp/>=<sp/>ScriptableObject.CreateInstance&lt;<ref refid="class_v_r_m_1_1_v_r_m_version_menu" kindref="compound">VRMVersionMenu</ref>&gt;();</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.m_vrmVersion<sp/>=<sp/><ref refid="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" kindref="member">VRMVersion.VERSION</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>window.m_uniGltfVersion<sp/>=<sp/>UniGLTFVersion.VERSION;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.ShowUtility();</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs"/>
+  </compounddef>
+</doxygen>

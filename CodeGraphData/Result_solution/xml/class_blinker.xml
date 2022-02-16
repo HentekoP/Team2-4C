@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_blinker" kind="class" prot="public">
+    <compoundname>Blinker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_blinker_1aa869f1d89cb5f421ff3584fcba79e256" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Blinker.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_blinker_1a5844e7110f98a0176e2c2c2623cd9d15" compoundref="_scripts_2_title_2_blinker_8cs" startline="26" endline="35">GetAlphaColor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_blinker_1a27e4db929d79e537876bf60e36e50f49" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text Blinker.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_blinker_1a7d804d9611b6ce1d8f24c06e1130a357" compoundref="_scripts_2_title_2_blinker_8cs" startline="13" endline="17">Start</referencedby>
+        <referencedby refid="class_blinker_1a8b2034e79c5ff1a10d58075f3288ad29" compoundref="_scripts_2_title_2_blinker_8cs" startline="20" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blinker_1abaf814067cec1c51769c63295a19d8a8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Blinker.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_blinker_1a5844e7110f98a0176e2c2c2623cd9d15" compoundref="_scripts_2_title_2_blinker_8cs" startline="26" endline="35">GetAlphaColor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_blinker_1a7d804d9611b6ce1d8f24c06e1130a357" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Blinker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_blinker_1a27e4db929d79e537876bf60e36e50f49" compoundref="_scripts_2_title_2_blinker_8cs" startline="9">text</references>
+      </memberdef>
+      <memberdef kind="function" id="class_blinker_1a8b2034e79c5ff1a10d58075f3288ad29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Blinker.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="20" bodyend="24"/>
+        <references refid="class_blinker_1a5844e7110f98a0176e2c2c2623cd9d15" compoundref="_scripts_2_title_2_blinker_8cs" startline="26" endline="35">GetAlphaColor</references>
+        <references refid="class_blinker_1a27e4db929d79e537876bf60e36e50f49" compoundref="_scripts_2_title_2_blinker_8cs" startline="9">text</references>
+      </memberdef>
+      <memberdef kind="function" id="class_blinker_1a5844e7110f98a0176e2c2c2623cd9d15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color Blinker.GetAlphaColor</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>GetAlphaColor</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="26" bodyend="35"/>
+        <references refid="class_blinker_1aa869f1d89cb5f421ff3584fcba79e256" compoundref="_scripts_2_title_2_blinker_8cs" startline="8">speed</references>
+        <references refid="class_blinker_1abaf814067cec1c51769c63295a19d8a8" compoundref="_scripts_2_title_2_blinker_8cs" startline="10">time</references>
+        <referencedby refid="class_blinker_1a8b2034e79c5ff1a10d58075f3288ad29" compoundref="_scripts_2_title_2_blinker_8cs" startline="20" endline="24">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="245">
+        <label>Blinker</label>
+        <link refid="class_blinker"/>
+        <childnode refid="246" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>Blinker</label>
+        <link refid="class_blinker"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+        <childnode refid="249" relation="usage">
+          <edgelabel>text</edgelabel>
+        </childnode>
+      </node>
+      <node id="249">
+        <label>Text</label>
+      </node>
+      <node id="248">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Title/Blinker.cs" bodystart="6" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_blinker_1a5844e7110f98a0176e2c2c2623cd9d15" prot="private" virt="non-virtual"><scope>Blinker</scope><name>GetAlphaColor</name></member>
+      <member refid="class_blinker_1aa869f1d89cb5f421ff3584fcba79e256" prot="public" virt="non-virtual"><scope>Blinker</scope><name>speed</name></member>
+      <member refid="class_blinker_1a7d804d9611b6ce1d8f24c06e1130a357" prot="private" virt="non-virtual"><scope>Blinker</scope><name>Start</name></member>
+      <member refid="class_blinker_1a27e4db929d79e537876bf60e36e50f49" prot="private" virt="non-virtual"><scope>Blinker</scope><name>text</name></member>
+      <member refid="class_blinker_1abaf814067cec1c51769c63295a19d8a8" prot="private" virt="non-virtual"><scope>Blinker</scope><name>time</name></member>
+      <member refid="class_blinker_1a8b2034e79c5ff1a10d58075f3288ad29" prot="private" virt="non-virtual"><scope>Blinker</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

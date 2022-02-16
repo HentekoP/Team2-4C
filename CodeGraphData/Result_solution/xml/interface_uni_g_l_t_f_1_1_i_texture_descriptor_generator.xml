@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" kind="interface" prot="public">
+    <compoundname>UniGLTF::ITextureDescriptorGenerator</compoundname>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator" prot="public" virt="non-virtual">UniGLTF.GltfTextureDescriptorGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_vrm_texture_descriptor_generator" prot="public" virt="non-virtual">VRM.VrmTextureDescriptorGenerator</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator_1a5adb6f2d0edbc2b043e5cc5fcace6c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_v_r_m_shaders_1_1_texture_descriptor_set" kindref="compound">TextureDescriptorSet</ref></type>
+        <definition>TextureDescriptorSet UniGLTF.ITextureDescriptorGenerator.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <reimplementedby refid="class_v_r_m_1_1_vrm_texture_descriptor_generator_1a6a14a10f728fa001e439ffa4a07a18e9">Get</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620">Get</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/ITextureDescriptorGenerator.cs" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> から Import できる、すべての Texture の生成情報を生成する。 </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> Texture と Unity Texture の対応関係は N:M である。 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1395">
+        <label>UniGLTF.GltfTextureDescriptorGenerator</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator"/>
+        <childnode refid="1394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1396">
+        <label>VRM.VrmTextureDescriptorGenerator</label>
+        <link refid="class_v_r_m_1_1_vrm_texture_descriptor_generator"/>
+        <childnode refid="1394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1394">
+        <label>UniGLTF.ITextureDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/ITextureDescriptorGenerator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/ITextureDescriptorGenerator.cs" bodystart="10" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator_1a5adb6f2d0edbc2b043e5cc5fcace6c59" prot="public" virt="non-virtual"><scope>UniGLTF::ITextureDescriptorGenerator</scope><name>Get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

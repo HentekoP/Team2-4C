@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects" kind="interface" prot="public">
+    <compoundname>VRMShaders::IResponsibilityForDestroyObjects</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_importer_context" prot="public" virt="non-virtual">UniGLTF.ImporterContext</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance" prot="public" virt="non-virtual">UniGLTF.RuntimeGltfInstance</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_shaders_1_1_animation_clip_factory" prot="public" virt="non-virtual">VRMShaders.AnimationClipFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_shaders_1_1_material_factory" prot="public" virt="non-virtual">VRMShaders.MaterialFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_shaders_1_1_texture_factory" prot="public" virt="non-virtual">VRMShaders.TextureFactory</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.IResponsibilityForDestroyObjects.TransferOwnership</definition>
+        <argsstring>(TakeResponsibilityForDestroyObjectFunc take)</argsstring>
+        <name>TransferOwnership</name>
+        <reimplementedby refid="class_v_r_m_shaders_1_1_animation_clip_factory_1a548a19f67d3e6f7fe536028044d6d2a1">TransferOwnership</reimplementedby>
+        <reimplementedby refid="class_v_r_m_shaders_1_1_texture_factory_1ab73259d6f0b69342fa592d73697649e8">TransferOwnership</reimplementedby>
+        <reimplementedby refid="class_v_r_m_shaders_1_1_material_factory_1a2eab12b224430f0a61b3a190231ed485">TransferOwnership</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance_1a1c3e55783624e0dbb1a124025c0430ab">TransferOwnership</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_importer_context_1acc89b6a6b69f35f0834021d0bb93e905">TransferOwnership</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_importer_context_1a82a97e287aa8b1f816be486f26f91a68">TransferOwnership</reimplementedby>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a0edab3d77eedab5aed2c6ab445f54b52" kindref="member">TakeResponsibilityForDestroyObjectFunc</ref></type>
+          <declname>take</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>UnityObjectを破棄する責務。 </para>    </briefdescription>
+    <detaileddescription>
+<para>この interface を実装するクラスは、利用後に破棄すべき UnityObject を保持する可能性があるので Dispose により解放すること。</para><para>[Runtime] TransferOwnership により、破棄責任を RuntimeGltfInstance に移譲する。 RuntimeGltfInstance.OnDestroy でこれを破棄する。 [Editor] TransferOwnership により、Asset化して破棄しない DestroyするとAssetが消えてしまう。</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1363">
+        <label>VRMShaders.IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="1364" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1365">
+        <label>UniGLTF.ImporterContext</label>
+        <link refid="class_uni_g_l_t_f_1_1_importer_context"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1368">
+        <label>VRMShaders.AnimationClipFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_animation_clip_factory"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1364">
+        <label>IDisposable</label>
+      </node>
+      <node id="1370">
+        <label>VRMShaders.TextureFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_factory"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1369">
+        <label>VRMShaders.MaterialFactory</label>
+        <link refid="class_v_r_m_shaders_1_1_material_factory"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1367">
+        <label>UniGLTF.RuntimeGltfInstance</label>
+        <link refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1366">
+        <label>VRM.VRMImporterContext</label>
+        <link refid="class_v_r_m_1_1_v_r_m_importer_context"/>
+        <childnode refid="1365" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1371">
+        <label>VRMShaders.IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="1372" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1372">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects_1a00968451ef32398e622d2eab79dc173a" prot="public" virt="non-virtual"><scope>VRMShaders::IResponsibilityForDestroyObjects</scope><name>TransferOwnership</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

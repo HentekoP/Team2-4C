@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_deserializer_generator" kind="class" prot="package">
+    <compoundname>VRM::VRMDeserializerGenerator</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_deserializer_generator_1a9635e989aff8d34e2642b357d42e1d0f" prot="public" static="no" mutable="no">
+        <type>const BindingFlags</type>
+        <definition>const BindingFlags VRM.VRMDeserializerGenerator.FIELD_FLAGS</definition>
+        <argsstring></argsstring>
+        <name>FIELD_FLAGS</name>
+        <initializer>= BindingFlags.Instance | BindingFlags.Public</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_v_r_m_deserializer_generator_1a762414088c9adec9a6f7c5ac91ece3f6" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string VRM.VRMDeserializerGenerator.OutPath</definition>
+        <argsstring></argsstring>
+        <name>OutPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_deserializer_generator_1aeb250b71076ef36c31bd13baf75619c2" compoundref="_v_r_m_deserializer_generator_8cs" startline="25" endline="58">VRM.VRMDeserializerGenerator.GenerateCode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_deserializer_generator_1aeb250b71076ef36c31bd13baf75619c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMDeserializerGenerator.GenerateCode</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateCode</name>
+        <briefdescription>
+<para>AOT向けにデシリアライザを生成する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" bodystart="25" bodyend="58"/>
+        <references refid="class_v_r_m_1_1_v_r_m_deserializer_generator_1a762414088c9adec9a6f7c5ac91ece3f6" compoundref="_v_r_m_deserializer_generator_8cs" startline="14">VRM.VRMDeserializerGenerator.OutPath</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/AOT/VRMDeserializerGenerator.cs" bodystart="9" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_deserializer_generator_1a9635e989aff8d34e2642b357d42e1d0f" prot="public" virt="non-virtual"><scope>VRM::VRMDeserializerGenerator</scope><name>FIELD_FLAGS</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_deserializer_generator_1aeb250b71076ef36c31bd13baf75619c2" prot="public" virt="non-virtual"><scope>VRM::VRMDeserializerGenerator</scope><name>GenerateCode</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_deserializer_generator_1a762414088c9adec9a6f7c5ac91ece3f6" prot="private" virt="non-virtual"><scope>VRM::VRMDeserializerGenerator</scope><name>OutPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

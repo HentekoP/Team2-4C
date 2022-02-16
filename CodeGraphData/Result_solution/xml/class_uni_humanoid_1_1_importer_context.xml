@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_importer_context" kind="class" prot="public">
+    <compoundname>UniHumanoid::ImporterContext</compoundname>
+    <basecompoundref refid="class_uni_humanoid_1_1_bvh_importer_context" prot="public" virt="non-virtual">UniHumanoid.BvhImporterContext</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1283">
+        <label>BvhImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_bvh_importer_context"/>
+      </node>
+      <node id="1282">
+        <label>UniHumanoid.ImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_importer_context"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1289">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1290" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1289" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1288">
+        <label>UniHumanoid.BoneLimit</label>
+        <link refid="struct_uni_humanoid_1_1_bone_limit"/>
+        <childnode refid="1289" relation="usage">
+          <edgelabel>center</edgelabel>
+          <edgelabel>min</edgelabel>
+          <edgelabel>max</edgelabel>
+        </childnode>
+      </node>
+      <node id="1286">
+        <label>UniHumanoid.AvatarDescription</label>
+        <link refid="class_uni_humanoid_1_1_avatar_description"/>
+        <childnode refid="1287" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1288" relation="usage">
+          <edgelabel>human</edgelabel>
+        </childnode>
+      </node>
+      <node id="1287">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="1285">
+        <label>BvhImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_bvh_importer_context"/>
+        <childnode refid="1286" relation="usage">
+          <edgelabel>AvatarDescription</edgelabel>
+        </childnode>
+        <childnode refid="1291" relation="usage">
+          <edgelabel>Bvh</edgelabel>
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>UniHumanoid.Bvh</label>
+        <link refid="class_uni_humanoid_1_1_bvh"/>
+      </node>
+      <node id="1284">
+        <label>UniHumanoid.ImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_importer_context"/>
+        <childnode refid="1285" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="15" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1ae02d96aa2c8fd1ee17a598c3ed84f855" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Animation</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a52660b2a65e28dc2709edd300457550a" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Avatar</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2f304a904507a410284f97438c9a62a8" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>AvatarDescription</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a8fd3021ccccc21977b316872fa5ba176" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Bvh</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2c222172e1e199bd85256c5c64fa0aae" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Destroy</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Load</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1aadba0ec8c971aae2dd0557e5442dad1e" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Material</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1ae019a15c41e6f7f275fdca35b5a6eb37" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Mesh</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a55c97897625b4acc1f78a5ef90240be9" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Nodes</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1aaee915d37bf1b4af31583b2c77e839bd" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a349e548188289b46df62dd52e5aadcc1" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a1ccdb3fba8135bbd8ec2e219400f0e5e" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Path</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a8033ac17ce60d421bf40009e8603fe67" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Root</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2d4a00ae2d51282804b06638f148063a" prot="public" virt="non-virtual"><scope>UniHumanoid::ImporterContext</scope><name>Source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

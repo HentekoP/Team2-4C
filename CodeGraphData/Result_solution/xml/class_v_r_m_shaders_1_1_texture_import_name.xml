@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_texture_import_name" kind="class" prot="public">
+    <compoundname>VRMShaders::TextureImportName</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_import_name_1af4586470330a01aa217afdb85832d22a" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRMShaders.TextureImportName.NORMAL_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>NORMAL_SUFFIX</name>
+        <initializer>= &quot;.normal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_import_name_1ac7571f1e6f3f19094abc4b5a758b1912" compoundref="_texture_import_name_8cs" startline="43" endline="61">VRMShaders.TextureImportName.RemoveSuffix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_import_name_1a0bdfd4f5705cdfcd83b04ceb719e9331" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRMShaders.TextureImportName.STANDARD_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>STANDARD_SUFFIX</name>
+        <initializer>= &quot;.standard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_import_name_1ac7571f1e6f3f19094abc4b5a758b1912" compoundref="_texture_import_name_8cs" startline="43" endline="61">VRMShaders.TextureImportName.RemoveSuffix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_import_name_1a725d64228904ee36a931c03e9c8d99f3" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRMShaders.TextureImportName.LINEAR_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>LINEAR_SUFFIX</name>
+        <initializer>= &quot;.linear&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_import_name_1ac7571f1e6f3f19094abc4b5a758b1912" compoundref="_texture_import_name_8cs" startline="43" endline="61">VRMShaders.TextureImportName.RemoveSuffix</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_import_name_1a03029eff21b0700d0258043fda06b9e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRMShaders.TextureImportName.GetUnityObjectName</definition>
+        <argsstring>(TextureImportTypes type, string gltfName, string uri)</argsstring>
+        <name>GetUnityObjectName</name>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a1f83426574a200504d6b11b8f6d6dd09" kindref="member">TextureImportTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>gltfName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="8" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_import_name_1ac7571f1e6f3f19094abc4b5a758b1912" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRMShaders.TextureImportName.RemoveSuffix</definition>
+        <argsstring>(string src)</argsstring>
+        <name>RemoveSuffix</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="43" bodyend="61"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_import_name_1a725d64228904ee36a931c03e9c8d99f3" compoundref="_texture_import_name_8cs" startline="41">VRMShaders.TextureImportName.LINEAR_SUFFIX</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_import_name_1af4586470330a01aa217afdb85832d22a" compoundref="_texture_import_name_8cs" startline="39">VRMShaders.TextureImportName.NORMAL_SUFFIX</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_import_name_1a0bdfd4f5705cdfcd83b04ceb719e9331" compoundref="_texture_import_name_8cs" startline="40">VRMShaders.TextureImportName.STANDARD_SUFFIX</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureImportName.cs" bodystart="6" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_texture_import_name_1a03029eff21b0700d0258043fda06b9e6" prot="public" virt="non-virtual"><scope>VRMShaders::TextureImportName</scope><name>GetUnityObjectName</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_import_name_1a725d64228904ee36a931c03e9c8d99f3" prot="private" virt="non-virtual"><scope>VRMShaders::TextureImportName</scope><name>LINEAR_SUFFIX</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_import_name_1af4586470330a01aa217afdb85832d22a" prot="private" virt="non-virtual"><scope>VRMShaders::TextureImportName</scope><name>NORMAL_SUFFIX</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_import_name_1ac7571f1e6f3f19094abc4b5a758b1912" prot="public" virt="non-virtual"><scope>VRMShaders::TextureImportName</scope><name>RemoveSuffix</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_import_name_1a0bdfd4f5705cdfcd83b04ceb719e9331" prot="private" virt="non-virtual"><scope>VRMShaders::TextureImportName</scope><name>STANDARD_SUFFIX</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_native_transform_8cs" kind="file">
+    <compoundname>NativeTransform.cs</compoundname>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" prot="public">VRM::FastSpringBones::NativeWrappers::NativeTransform</innerclass>
+    <innernamespace refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers">VRM::FastSpringBones::NativeWrappers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>VRM.FastSpringBones.Blittables;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>VRM.FastSpringBones.Registries;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM.FastSpringBones.NativeWrappers</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref><sp/>:<sp/>IDisposable</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a4533ea7bd5ec01637503c636d91e78c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>NativePointer&lt;BlittableTransform&gt;<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a4533ea7bd5ec01637503c636d91e78c0" kindref="member">_nativePointer</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1aa7204537ea2c02e3b29f4ea8cc72367c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/>Transform<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1ac075a4410e104dc797546ebf818d6879" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1ac075a4410e104dc797546ebf818d6879" kindref="member">_transformRegistry</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>unsafe<sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref>*<sp/>GetUnsafePtr()<sp/>=&gt;<sp/>_nativePointer.GetUnsafePtr();</highlight></codeline>
+<codeline lineno="19" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a32d2bcf921eacc3cdcca2476040aa9a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref><sp/>Value<sp/>=&gt;<sp/>_nativePointer.Value;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1af9d175d3e98e60757f6f7f79e4650c85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>unsafe<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1af9d175d3e98e60757f6f7f79e4650c85" kindref="member">NativeTransform</ref>(</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref><sp/>transformRegistry,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_registries_1af51c44a6a520142b8bf53ebd5dcafccd" kindref="member">TransformSynchronizationType</ref><sp/>transformSynchronizationType,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Transform<sp/>transform,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref><sp/>parent<sp/>=<sp/>null</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nativePointer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NativePointer&lt;BlittableTransform&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref>(parent<sp/>!=<sp/>null<sp/>?<sp/>parent.GetUnsafePtr()<sp/>:<sp/>null,<sp/>transform));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Transform<sp/>=<sp/>transform;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_transformRegistry<sp/>=<sp/>transformRegistry;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_transformRegistry.Register(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>transformSynchronizationType);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a77753423fac15787a68e47490866b03c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a77753423fac15787a68e47490866b03c" kindref="member">Dispose</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_transformRegistry.Unregister(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nativePointer.Dispose();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs"/>
+  </compounddef>
+</doxygen>

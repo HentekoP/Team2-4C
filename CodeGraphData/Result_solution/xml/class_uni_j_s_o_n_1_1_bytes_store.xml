@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_bytes_store" kind="class" prot="public">
+    <compoundname>UniJSON::BytesStore</compoundname>
+    <basecompoundref refid="interface_uni_j_s_o_n_1_1_i_store" prot="public" virt="non-virtual">UniJSON.IStore</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" prot="private" static="no" mutable="no">
+        <type>Byte[]</type>
+        <definition>Byte [] UniJSON.BytesStore.m_buffer</definition>
+        <argsstring></argsstring>
+        <name>m_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1a6302355ae249268c7b0a649e9eb738a4" compoundref="_bytes_store_8cs" startline="16" endline="19">UniJSON.BytesStore.BytesStore</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" compoundref="_bytes_store_8cs" startline="59" endline="73">UniJSON.BytesStore.Write</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aed3922c4faf4006fa31f4be9a17df158" compoundref="_bytes_store_8cs" startline="199" endline="205">UniJSON.BytesStore.WriteBigEndian</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1a35adccbb5ae029fe21a4cd079d85a4d5" compoundref="_bytes_store_8cs" startline="109" endline="115">UniJSON.BytesStore.WriteLittleEndian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniJSON.BytesStore.m_pos</definition>
+        <argsstring></argsstring>
+        <name>m_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1ae0793591877b2f782dca7575c566aeb6" compoundref="_bytes_store_8cs" startline="53" endline="56">UniJSON.BytesStore.Clear</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" compoundref="_bytes_store_8cs" startline="59" endline="73">UniJSON.BytesStore.Write</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aed3922c4faf4006fa31f4be9a17df158" compoundref="_bytes_store_8cs" startline="199" endline="205">UniJSON.BytesStore.WriteBigEndian</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1a35adccbb5ae029fe21a4cd079d85a4d5" compoundref="_bytes_store_8cs" startline="109" endline="115">UniJSON.BytesStore.WriteLittleEndian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_bytes_store_1a44b249de77918f82f133707b81e5931c" prot="private" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] UniJSON.BytesStore.m_c</definition>
+        <argsstring></argsstring>
+        <name>m_c</name>
+        <initializer>= new char[1]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" compoundref="_bytes_store_8cs" startline="59" endline="73">UniJSON.BytesStore.Write</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_j_s_o_n_1_1_bytes_store_1a33ba59796390e86c397f74cc62e83aaf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ArraySegment&lt; byte &gt;</type>
+        <definition>ArraySegment&lt;byte&gt; UniJSON.BytesStore.Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a13698cc592a70a8b87e8218414509b84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.BytesStore.BytesStore</definition>
+        <argsstring>()</argsstring>
+        <name>BytesStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="10" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1afd68892bf7cd40813d5cb568e78b298e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.BytesStore.BytesStore</definition>
+        <argsstring>(int size)</argsstring>
+        <name>BytesStore</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a6302355ae249268c7b0a649e9eb738a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.BytesStore.BytesStore</definition>
+        <argsstring>(Byte[] buffer)</argsstring>
+        <name>BytesStore</name>
+        <param>
+          <type>Byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1ae0793591877b2f782dca7575c566aeb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1ab7c5a2e6223a6374e0ab7c850d4860b4">Clear</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="53" bodyend="56"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Write</definition>
+        <argsstring>(char c)</argsstring>
+        <name>Write</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1a6f238761441bd49258383b745eed85cc">Write</reimplements>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="59" bodyend="73"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a44b249de77918f82f133707b81e5931c" compoundref="_bytes_store_8cs" startline="58">UniJSON.BytesStore.m_c</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1aae0fc9e2541c17ae6667911f1c943654" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Write</definition>
+        <argsstring>(string src)</argsstring>
+        <name>Write</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1a83328f366630dd7e8104f4a63a713cec">Write</reimplements>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="75" bodyend="86"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a1b8b8192d3b4464eb59ae2a8b5a0c2f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Write</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; bytes)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="88" bodyend="94"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a5d3c70f4febd6600b3635444e1e410d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Write</definition>
+        <argsstring>(sbyte value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>sbyte</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="96" bodyend="100"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a6563ec07b47f36ac7eb82986ceb73026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Write</definition>
+        <argsstring>(byte value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>byte</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="102" bodyend="106"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a35adccbb5ae029fe21a4cd079d85a4d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(short value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="109" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="109" bodyend="115"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a68c5f2db7c5ec28a4bb64c2cd442e0d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(int value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="117" bodyend="125"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1ab3f3a514773ac9d70e2f11ea6353773c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(long value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="127" bodyend="139"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a5683f248ca367f89022d93308f433e19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(ushort value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="141" bodyend="147"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a19a8e81522e5bfa5af0945d3c1be00e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(uint value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>uint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="149" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="149" bodyend="157"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a358232be4ca4f4154b2b872713a3dabe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(ulong value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>ulong</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="159" bodyend="171"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a23d17998d2ba01c50b9a48fa25b0d20c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(float value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="173" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="173" bodyend="181"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1aef49069247d1d7d9f1394c06ddbbbb99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteLittleEndian</definition>
+        <argsstring>(double value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="183" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="183" bodyend="195"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1aed3922c4faf4006fa31f4be9a17df158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(short value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="199" bodyend="205"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a46841adab958518f01eb70dab78c6f17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(int value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="207" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="207" bodyend="215"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1afab702d60ffe2450946954ed5525b730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(long value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="217" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="217" bodyend="229"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a467e893b6e8f07f1fd227026b5e818de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(ushort value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="231" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="231" bodyend="237"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1afde9d5a6559932460e8c241d447b1f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(uint value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>uint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="239" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="239" bodyend="247"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a0743033de7230c2bfedcde6f3f7f53bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(ulong value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>ulong</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="249" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="249" bodyend="261"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a8aa46241419a0285cca9dc0d73c44e4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(float value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="263" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="263" bodyend="271"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1a29da24429b2fb035c23df90b7762093f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.WriteBigEndian</definition>
+        <argsstring>(double value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="273" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="273" bodyend="285"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" compoundref="_bytes_store_8cs" startline="22" endline="41">UniJSON.BytesStore.Require</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.BytesStore.Require</definition>
+        <argsstring>(int size)</argsstring>
+        <name>Require</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="22" bodyend="41"/>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" compoundref="_bytes_store_8cs" startline="21">UniJSON.BytesStore.m_buffer</references>
+        <references refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" compoundref="_bytes_store_8cs" startline="43">UniJSON.BytesStore.m_pos</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" compoundref="_bytes_store_8cs" startline="59" endline="73">UniJSON.BytesStore.Write</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1aed3922c4faf4006fa31f4be9a17df158" compoundref="_bytes_store_8cs" startline="199" endline="205">UniJSON.BytesStore.WriteBigEndian</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_bytes_store_1a35adccbb5ae029fe21a4cd079d85a4d5" compoundref="_bytes_store_8cs" startline="109" endline="115">UniJSON.BytesStore.WriteLittleEndian</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="429">
+        <label>UniJSON.BytesStore</label>
+        <link refid="class_uni_j_s_o_n_1_1_bytes_store"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>IStore</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_store"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="431">
+        <label>UniJSON.BytesStore</label>
+        <link refid="class_uni_j_s_o_n_1_1_bytes_store"/>
+        <childnode refid="432" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>IStore</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/BytesStore.cs" bodystart="8" bodyend="287"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a33ba59796390e86c397f74cc62e83aaf" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Bytes</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a13698cc592a70a8b87e8218414509b84" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>BytesStore</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1afd68892bf7cd40813d5cb568e78b298e" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>BytesStore</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a6302355ae249268c7b0a649e9eb738a4" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>BytesStore</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1ae0793591877b2f782dca7575c566aeb6" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Clear</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a5de219cada793d9e540eb01eb37b65ef" prot="private" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>m_buffer</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a44b249de77918f82f133707b81e5931c" prot="private" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>m_c</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a66e4c9ca462c491977a73d864a61e481" prot="private" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>m_pos</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1ae1d28407575a523e00852941909eb224" prot="private" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Require</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1aa72ae92468b0211379f5ed7e98568b45" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1aae0fc9e2541c17ae6667911f1c943654" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a1b8b8192d3b4464eb59ae2a8b5a0c2f5" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a5d3c70f4febd6600b3635444e1e410d4" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a6563ec07b47f36ac7eb82986ceb73026" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a5fb4f71c4cee0d43a3b1153713b61709" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1311f8c8f50cf1718cb7c2cbe8b7d204" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a75bc2a92641080bdb90bb6d5d1653c7f" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1aed3922c4faf4006fa31f4be9a17df158" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a46841adab958518f01eb70dab78c6f17" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1afab702d60ffe2450946954ed5525b730" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a467e893b6e8f07f1fd227026b5e818de" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1afde9d5a6559932460e8c241d447b1f9b" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a0743033de7230c2bfedcde6f3f7f53bc" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a8aa46241419a0285cca9dc0d73c44e4d" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a29da24429b2fb035c23df90b7762093f" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a86b23fc6246f9e7f270ec16384e1cd78" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1ad1345d467dd0e74b7e96c53a36f419f7" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a3838effe9856759e656746f2360363bb" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a0546d67a6087c301eccce619e75e5546" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a5eca2c1538ab54a5bc091b3abb50a150" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a28821886b1788e8d358b067ef00f9ef4" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1aa2ff451d35c3152561465407805e52c3" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a242f1e52416c0d5d2224fff2fccd5db4" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a35adccbb5ae029fe21a4cd079d85a4d5" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a68c5f2db7c5ec28a4bb64c2cd442e0d1" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1ab3f3a514773ac9d70e2f11ea6353773c" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a5683f248ca367f89022d93308f433e19" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a19a8e81522e5bfa5af0945d3c1be00e7" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a358232be4ca4f4154b2b872713a3dabe" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1a23d17998d2ba01c50b9a48fa25b0d20c" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_bytes_store_1aef49069247d1d7d9f1394c06ddbbbb99" prot="public" virt="non-virtual"><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1fb31637349e962d9c2e791945b9dcca" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a0eea4a25a8cd3709c4cd61d316ce7db8" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1ab6a84f7c5e5f03d36ce68ca25bf22233" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1508e992ce18083bebe9d781bb2987a9" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1aaec5dd3d609238cd3f8f22d396b3733a" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a452a548c9519d68ceee52f107b2853bc" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1abedbccce7aff3daf3178b6294558c192" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a3d8340397551645c0d858100ce16da49" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::BytesStore</scope><name>WriteLittleEndian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

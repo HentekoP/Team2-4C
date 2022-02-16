@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshUtility::StaticMeshIntegrator</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1_1_integrator" prot="private">UniGLTF::MeshUtility::StaticMeshIntegrator::Integrator</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1_1_mesh_with_materials" prot="public">UniGLTF::MeshUtility::StaticMeshIntegrator::MeshWithMaterials</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1a11ad2c3a2b15f163a4c065b3b931f783" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.MeshUtility.StaticMeshIntegrator.ASSET_SUFFIX</definition>
+        <argsstring></argsstring>
+        <name>ASSET_SUFFIX</name>
+        <initializer>= &quot;.mesh.asset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1a05d4a4d0b2c2aae250d73403ac8553fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1_1_mesh_with_materials" kindref="compound">MeshWithMaterials</ref></type>
+        <definition>static MeshWithMaterials UniGLTF.MeshUtility.StaticMeshIntegrator.Integrate</definition>
+        <argsstring>(Transform root)</argsstring>
+        <name>Integrate</name>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" bodystart="99" bodyend="119"/>
+        <references refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1_1_mesh_with_materials_1a2abd724720fa26ef195f8726d15f5df9" compoundref="_static_mesh_integrator_8cs" startline="96">UniGLTF.MeshUtility.StaticMeshIntegrator.MeshWithMaterials.Materials</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/StaticMeshIntegrator.cs" bodystart="12" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1a11ad2c3a2b15f163a4c065b3b931f783" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::StaticMeshIntegrator</scope><name>ASSET_SUFFIX</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_static_mesh_integrator_1a05d4a4d0b2c2aae250d73403ac8553fa" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::StaticMeshIntegrator</scope><name>Integrate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

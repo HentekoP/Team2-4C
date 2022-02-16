@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_deserializer_writer_8cs" kind="file">
+    <compoundname>DeserializerWriter.cs</compoundname>
+    <innerclass refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer" prot="public">GenerateUniGLTFSerialization::DeserializerWriter</innerclass>
+    <innernamespace refid="namespace_generate_uni_g_l_t_f_serialization">GenerateUniGLTFSerialization</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.IO;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniGLTF.JsonSchema;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniGLTF.JsonSchema.Schemas;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_generate_uni_g_l_t_f_serialization" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GenerateUniGLTFSerialization</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer" kindref="compound">DeserializerWriter</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1ab0d93c90cf674abe85d4528b1d1b3756" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1ab0d93c90cf674abe85d4528b1d1b3756" kindref="member">Begin</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;//<sp/>This<sp/>file<sp/>is<sp/>generated<sp/>from<sp/>JsonSchema.<sp/>Don&apos;t<sp/>modify<sp/>this<sp/>source<sp/>code.</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">using<sp/>UniJSON;</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">using<sp/>System;</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">using<sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">using<sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">namespace<sp/>UniGLTF.Extensions.$0<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">public<sp/>static<sp/>class<sp/>GltfDeserializer</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>public<sp/>static<sp/>readonly<sp/>Utf8String<sp/>ExtensionNameUtf8<sp/>=<sp/>Utf8String.From($0.ExtensionName);</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">public<sp/>static<sp/>bool<sp/>TryGet(UniGLTF.glTFExtension<sp/>src,<sp/>out<sp/>$0<sp/>extension)</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>if(src<sp/>is<sp/>UniGLTF.glTFExtensionImport<sp/>extensions)</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>foreach(var<sp/>kv<sp/>in<sp/>extensions.ObjectItems())</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(kv.Key.GetUtf8String()<sp/>==<sp/>ExtensionNameUtf8)</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>extension<sp/>=<sp/>Deserialize(kv.Value);</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>extension<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>return<sp/>false;</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1a10fd3a0382e423cf90bafe84061b3bfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1a10fd3a0382e423cf90bafe84061b3bfc" kindref="member">End</ref><sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral">}<sp/>//<sp/>GltfDeserializer</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral">}<sp/>//<sp/>UniGLTF<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1aa01c62102e8da4bb188ee78abeb408bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1aa01c62102e8da4bb188ee78abeb408bd" kindref="member">Write</ref>(TextWriter<sp/>w,<sp/><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref><sp/>root,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>rootName)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.Write(Begin.Replace(</highlight><highlight class="stringliteral">&quot;$0&quot;</highlight><highlight class="normal">,<sp/>rootName));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>root.Create(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>rootName).GenerateDeserializer(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_traverse_context" kindref="compound">TraverseContext</ref>(w),<sp/></highlight><highlight class="stringliteral">&quot;Deserialize&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.Write(<ref refid="class_generate_uni_g_l_t_f_serialization_1_1_deserializer_writer_1a10fd3a0382e423cf90bafe84061b3bfc" kindref="member">End</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/DeserializerWriter.cs"/>
+  </compounddef>
+</doxygen>

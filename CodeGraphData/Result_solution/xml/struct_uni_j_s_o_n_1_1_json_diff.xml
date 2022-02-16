@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_j_s_o_n_1_1_json_diff" kind="struct" prot="public">
+    <compoundname>UniJSON::JsonDiff</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_json_diff_1a302690db2fda3894eeb97e2cf6dfecd1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_pointer" kindref="compound">JsonPointer</ref></type>
+        <definition>JsonPointer UniJSON.JsonDiff.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a473c476554026c99b3e1291814f225fe" compoundref="_json_diff_8cs" startline="18" endline="26">UniJSON.JsonDiff.Create</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a241f82410a5a6d6a58547238668999ed" compoundref="_json_diff_8cs" startline="28" endline="41">UniJSON.JsonDiff.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_json_diff_1a1027e70d012d90ac24480952623ef191" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_j_s_o_n_1ab19718dca7b9ce8b52c92788be96f172" kindref="member">JsonDiffType</ref></type>
+        <definition>JsonDiffType UniJSON.JsonDiff.DiffType</definition>
+        <argsstring></argsstring>
+        <name>DiffType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a473c476554026c99b3e1291814f225fe" compoundref="_json_diff_8cs" startline="18" endline="26">UniJSON.JsonDiff.Create</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a241f82410a5a6d6a58547238668999ed" compoundref="_json_diff_8cs" startline="28" endline="41">UniJSON.JsonDiff.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_j_s_o_n_1_1_json_diff_1a77d60d38e8fdb1e595d0b0114324f761" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniJSON.JsonDiff.Msg</definition>
+        <argsstring></argsstring>
+        <name>Msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a473c476554026c99b3e1291814f225fe" compoundref="_json_diff_8cs" startline="18" endline="26">UniJSON.JsonDiff.Create</referencedby>
+        <referencedby refid="struct_uni_j_s_o_n_1_1_json_diff_1a241f82410a5a6d6a58547238668999ed" compoundref="_json_diff_8cs" startline="28" endline="41">UniJSON.JsonDiff.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_diff_1a473c476554026c99b3e1291814f225fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_json_diff" kindref="compound">JsonDiff</ref></type>
+        <definition>static JsonDiff UniJSON.JsonDiff.Create</definition>
+        <argsstring>(JsonNode node, JsonDiffType diffType, string msg)</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_uni_j_s_o_n_1ab19718dca7b9ce8b52c92788be96f172" kindref="member">JsonDiffType</ref></type>
+          <declname>diffType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="18" bodyend="26"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a1027e70d012d90ac24480952623ef191" compoundref="_json_diff_8cs" startline="15">UniJSON.JsonDiff.DiffType</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a77d60d38e8fdb1e595d0b0114324f761" compoundref="_json_diff_8cs" startline="16">UniJSON.JsonDiff.Msg</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a302690db2fda3894eeb97e2cf6dfecd1" compoundref="_json_diff_8cs" startline="14">UniJSON.JsonDiff.Path</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_j_s_o_n_1_1_json_diff_1a241f82410a5a6d6a58547238668999ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniJSON.JsonDiff.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="28" bodyend="41"/>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a1027e70d012d90ac24480952623ef191" compoundref="_json_diff_8cs" startline="15">UniJSON.JsonDiff.DiffType</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a77d60d38e8fdb1e595d0b0114324f761" compoundref="_json_diff_8cs" startline="16">UniJSON.JsonDiff.Msg</references>
+        <references refid="struct_uni_j_s_o_n_1_1_json_diff_1a302690db2fda3894eeb97e2cf6dfecd1" compoundref="_json_diff_8cs" startline="14">UniJSON.JsonDiff.Path</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1483">
+        <label>UniJSON.JsonDiff</label>
+        <link refid="struct_uni_j_s_o_n_1_1_json_diff"/>
+        <childnode refid="1484" relation="usage">
+          <edgelabel>Path</edgelabel>
+        </childnode>
+      </node>
+      <node id="1484">
+        <label>UniJSON.JsonPointer</label>
+        <link refid="struct_uni_j_s_o_n_1_1_json_pointer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Json/JsonDiff.cs" bodystart="12" bodyend="42"/>
+    <listofallmembers>
+      <member refid="struct_uni_j_s_o_n_1_1_json_diff_1a473c476554026c99b3e1291814f225fe" prot="public" virt="non-virtual"><scope>UniJSON::JsonDiff</scope><name>Create</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_diff_1a1027e70d012d90ac24480952623ef191" prot="public" virt="non-virtual"><scope>UniJSON::JsonDiff</scope><name>DiffType</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_diff_1a77d60d38e8fdb1e595d0b0114324f761" prot="public" virt="non-virtual"><scope>UniJSON::JsonDiff</scope><name>Msg</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_diff_1a302690db2fda3894eeb97e2cf6dfecd1" prot="public" virt="non-virtual"><scope>UniJSON::JsonDiff</scope><name>Path</name></member>
+      <member refid="struct_uni_j_s_o_n_1_1_json_diff_1a241f82410a5a6d6a58547238668999ed" prot="public" virt="non-virtual"><scope>UniJSON::JsonDiff</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_bone_info_drawer" kind="class" prot="public">
+    <compoundname>UniGLTF::BoneInfoDrawer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1af44fc26c641bedf423c31d71180a77f1" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.BoneInfoDrawer.BONE_GIZMO</definition>
+        <argsstring></argsstring>
+        <name>BONE_GIZMO</name>
+        <initializer>= &quot;Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/BoneGizmo.prefab&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab9be116703a36beb7e560dbfb4013eae" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.BoneInfoDrawer.SELECTED_BONE_GIZMO</definition>
+        <argsstring></argsstring>
+        <name>SELECTED_BONE_GIZMO</name>
+        <initializer>= &quot;Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/SelectedBoneGizmo.prefab&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a583edebb8db2eeb1a4073fbe098a753a" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.BoneInfoDrawer.HOVER_BONE_GIZMO</definition>
+        <argsstring></argsstring>
+        <name>HOVER_BONE_GIZMO</name>
+        <initializer>= &quot;Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/HoverBoneGizmo.prefab&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab7a77694d9b3121adfbbbc58903c1cd7" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UniGLTF.BoneInfoDrawer.MaxDrawCount</definition>
+        <argsstring></argsstring>
+        <name>MaxDrawCount</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="164" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" compoundref="_bone_info_drawer_8cs" startline="166" endline="186">UniGLTF.BoneInfoDrawer.DrawBones</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3ba9f3f8b2c88e24e00b6448de60f55f" prot="private" static="yes" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer._bone</definition>
+        <argsstring></argsstring>
+        <name>_bone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad95bea4726495b1e8d8b5fe681af946d" prot="private" static="yes" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer._boneMesh</definition>
+        <argsstring></argsstring>
+        <name>_boneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a7d575e5026b9a2ed3cae981c76126cc6" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer._boneMaterial</definition>
+        <argsstring></argsstring>
+        <name>_boneMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1acab5aad4fd251d891f16959e215d8998" prot="private" static="yes" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer._selected</definition>
+        <argsstring></argsstring>
+        <name>_selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3997bf60355bfd386e80754c705f2cbc" prot="private" static="yes" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer._selectedBoneMesh</definition>
+        <argsstring></argsstring>
+        <name>_selectedBoneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a8fc521d8942e86ac275837060f6d0403" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer._selectedMaterial</definition>
+        <argsstring></argsstring>
+        <name>_selectedMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a9d61f72da5b95d9fd6ee8cf84ae1e64b" prot="private" static="yes" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer._hover</definition>
+        <argsstring></argsstring>
+        <name>_hover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a5520f281d5ed331bbee7b72827e2c6df" prot="private" static="yes" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer._hoverBoneMesh</definition>
+        <argsstring></argsstring>
+        <name>_hoverBoneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="119" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a1e4bf2fcc2672dcaddcac8117bc66ebc" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer._hoverMaterial</definition>
+        <argsstring></argsstring>
+        <name>_hoverMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1aafd77d33ae954d7ad257a83f75596dfb" prot="private" static="yes" mutable="no">
+        <type>readonly Matrix4x4[]</type>
+        <definition>readonly Matrix4x4 [] UniGLTF.BoneInfoDrawer._maxDrawAtOnceMatrices</definition>
+        <argsstring></argsstring>
+        <name>_maxDrawAtOnceMatrices</name>
+        <initializer>= new Matrix4x4[<ref refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab7a77694d9b3121adfbbbc58903c1cd7" kindref="member">MaxDrawCount</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="165" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="165" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" compoundref="_bone_info_drawer_8cs" startline="166" endline="186">UniGLTF.BoneInfoDrawer.DrawBones</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3f7507672dfe67602d855018ad262b3e" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer.BonePrefab</definition>
+        <argsstring></argsstring>
+        <name>BonePrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa6a4351463fdc7e915aea150df26fc03" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer.BoneMesh</definition>
+        <argsstring></argsstring>
+        <name>BoneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" compoundref="_bone_info_drawer_8cs" startline="166" endline="186">UniGLTF.BoneInfoDrawer.DrawBones</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a5ac0b37881b2635fd4e0f30f61f6fc36" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer.BoneMaterial</definition>
+        <argsstring></argsstring>
+        <name>BoneMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" compoundref="_bone_info_drawer_8cs" startline="166" endline="186">UniGLTF.BoneInfoDrawer.DrawBones</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a38d10044c6cb745f0e8eb2db88b62d3a" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer.SelectedPrefab</definition>
+        <argsstring></argsstring>
+        <name>SelectedPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa0b0838cdb5d7456b50942cb45e45f78" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer.SelectedBoneMesh</definition>
+        <argsstring></argsstring>
+        <name>SelectedBoneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a8c54891ec961975e42c3a182dee94296" compoundref="_bone_info_drawer_8cs" startline="147" endline="162">UniGLTF.BoneInfoDrawer.DrawBone</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3d7ffa6d6a02867f58e0c9aa2d752606" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer.SelectedMaterial</definition>
+        <argsstring></argsstring>
+        <name>SelectedMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_selector_1a3cba894b38ff32be8f1e71adea3c0015" compoundref="_bone_selector_8cs" startline="171" endline="192">UniGLTF.BoneSelector.Draw</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a0ad362ccf574a33f61e6a2053d4a0b49" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.BoneInfoDrawer.HoverPrefab</definition>
+        <argsstring></argsstring>
+        <name>HoverPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a47cf58fd3c97e07b05dd55d050cebb86" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniGLTF.BoneInfoDrawer.HoverBoneMesh</definition>
+        <argsstring></argsstring>
+        <name>HoverBoneMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="120" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1afe5b47def3076232f9b8a609d06be8ff" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Material</type>
+        <definition>Material UniGLTF.BoneInfoDrawer.HoverMaterial</definition>
+        <argsstring></argsstring>
+        <name>HoverMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_selector_1a3cba894b38ff32be8f1e71adea3c0015" compoundref="_bone_selector_8cs" startline="171" endline="192">UniGLTF.BoneSelector.Draw</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1a8c54891ec961975e42c3a182dee94296" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.BoneInfoDrawer.DrawBone</definition>
+        <argsstring>(this CommandBuffer buf, BoneInfo bone, Material material)</argsstring>
+        <name>DrawBone</name>
+        <param>
+          <type>this CommandBuffer</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_bone_info" kindref="compound">BoneInfo</ref></type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="147" bodyend="162"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa0b0838cdb5d7456b50942cb45e45f78" compoundref="_bone_info_drawer_8cs" startline="74">UniGLTF.BoneInfoDrawer.SelectedBoneMesh</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.BoneInfoDrawer.DrawBones</definition>
+        <argsstring>(this CommandBuffer buf, List&lt; BoneInfo &gt; bones)</argsstring>
+        <name>DrawBones</name>
+        <param>
+          <type>this CommandBuffer</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_bone_info" kindref="compound">BoneInfo</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="166" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="166" bodyend="186"/>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aafd77d33ae954d7ad257a83f75596dfb" compoundref="_bone_info_drawer_8cs" startline="165">UniGLTF.BoneInfoDrawer._maxDrawAtOnceMatrices</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a5ac0b37881b2635fd4e0f30f61f6fc36" compoundref="_bone_info_drawer_8cs" startline="40">UniGLTF.BoneInfoDrawer.BoneMaterial</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa6a4351463fdc7e915aea150df26fc03" compoundref="_bone_info_drawer_8cs" startline="27">UniGLTF.BoneInfoDrawer.BoneMesh</references>
+        <references refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab7a77694d9b3121adfbbbc58903c1cd7" compoundref="_bone_info_drawer_8cs" startline="164">UniGLTF.BoneInfoDrawer.MaxDrawCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneInfoDrawer.cs" bodystart="8" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3ba9f3f8b2c88e24e00b6448de60f55f" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_bone</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a7d575e5026b9a2ed3cae981c76126cc6" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_boneMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad95bea4726495b1e8d8b5fe681af946d" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_boneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a9d61f72da5b95d9fd6ee8cf84ae1e64b" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_hover</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a5520f281d5ed331bbee7b72827e2c6df" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_hoverBoneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a1e4bf2fcc2672dcaddcac8117bc66ebc" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_hoverMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aafd77d33ae954d7ad257a83f75596dfb" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_maxDrawAtOnceMatrices</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1acab5aad4fd251d891f16959e215d8998" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_selected</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3997bf60355bfd386e80754c705f2cbc" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_selectedBoneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a8fc521d8942e86ac275837060f6d0403" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>_selectedMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1af44fc26c641bedf423c31d71180a77f1" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>BONE_GIZMO</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a5ac0b37881b2635fd4e0f30f61f6fc36" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>BoneMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa6a4351463fdc7e915aea150df26fc03" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>BoneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3f7507672dfe67602d855018ad262b3e" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>BonePrefab</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a8c54891ec961975e42c3a182dee94296" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>DrawBone</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ad6d4a87a0a16fa8450e5b71c8a2289a7" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>DrawBones</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a583edebb8db2eeb1a4073fbe098a753a" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>HOVER_BONE_GIZMO</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a47cf58fd3c97e07b05dd55d050cebb86" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>HoverBoneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1afe5b47def3076232f9b8a609d06be8ff" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>HoverMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a0ad362ccf574a33f61e6a2053d4a0b49" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>HoverPrefab</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab7a77694d9b3121adfbbbc58903c1cd7" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>MaxDrawCount</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1ab9be116703a36beb7e560dbfb4013eae" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>SELECTED_BONE_GIZMO</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1aa0b0838cdb5d7456b50942cb45e45f78" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>SelectedBoneMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a3d7ffa6d6a02867f58e0c9aa2d752606" prot="public" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>SelectedMaterial</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_bone_info_drawer_1a38d10044c6cb745f0e8eb2db88b62d3a" prot="private" virt="non-virtual"><scope>UniGLTF::BoneInfoDrawer</scope><name>SelectedPrefab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

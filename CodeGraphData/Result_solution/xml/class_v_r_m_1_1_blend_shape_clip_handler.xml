@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_clip_handler" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeClipHandler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_handler_1a3f073cfc9b6576a78fb81b3c36852daf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeClipHandler.m_clip</definition>
+        <argsstring></argsstring>
+        <name>m_clip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1a0146dc46c6e642b03c97172ed626b115" compoundref="_blend_shape_clip_handler_8cs" startline="43" endline="59">VRM.BlendShapeClipHandler.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1ad20945587e37d2722c6e6d5d3c01ca84" compoundref="_blend_shape_clip_handler_8cs" startline="22" endline="35">VRM.BlendShapeClipHandler.BlendShapeClipHandler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_handler_1a93ce4c117138a374d2675ce62c37fa71" prot="private" static="no" mutable="no">
+        <type>SkinnedMeshRenderer[]</type>
+        <definition>SkinnedMeshRenderer [] VRM.BlendShapeClipHandler.m_renderers</definition>
+        <argsstring></argsstring>
+        <name>m_renderers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1a0146dc46c6e642b03c97172ed626b115" compoundref="_blend_shape_clip_handler_8cs" startline="43" endline="59">VRM.BlendShapeClipHandler.Apply</referencedby>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1ad20945587e37d2722c6e6d5d3c01ca84" compoundref="_blend_shape_clip_handler_8cs" startline="22" endline="35">VRM.BlendShapeClipHandler.BlendShapeClipHandler</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_blend_shape_clip_handler_1afffdd2ca310ab3a801cbcb76c02e4d62" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeClipHandler.Cilp</definition>
+        <argsstring></argsstring>
+        <name>Cilp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_blend_shape_clip_handler_1a7728c4559610846474ab2bf01780391b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.BlendShapeClipHandler.Clip</definition>
+        <argsstring></argsstring>
+        <name>Clip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_blend_shape_clip_handler_1a3cab12d130d1c0d1ed9bad63730e7e11" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float VRM.BlendShapeClipHandler.LastValue</definition>
+        <argsstring></argsstring>
+        <name>LastValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1a0146dc46c6e642b03c97172ed626b115" compoundref="_blend_shape_clip_handler_8cs" startline="43" endline="59">VRM.BlendShapeClipHandler.Apply</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_handler_1ad20945587e37d2722c6e6d5d3c01ca84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.BlendShapeClipHandler.BlendShapeClipHandler</definition>
+        <argsstring>(BlendShapeClip clip, Transform transform)</argsstring>
+        <name>BlendShapeClipHandler</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="22" bodyend="35"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_handler_1a3f073cfc9b6576a78fb81b3c36852daf" compoundref="_blend_shape_clip_handler_8cs" startline="10">VRM.BlendShapeClipHandler.m_clip</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_handler_1a93ce4c117138a374d2675ce62c37fa71" compoundref="_blend_shape_clip_handler_8cs" startline="20">VRM.BlendShapeClipHandler.m_renderers</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_1ae2667219f340f4806ffe86cc4f1cfadb" compoundref="_blend_shape_clip_8cs" startline="131">VRM.BlendShapeClip.Values</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_handler_1a0146dc46c6e642b03c97172ed626b115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.BlendShapeClipHandler.Apply</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="43" bodyend="59"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_handler_1a3cab12d130d1c0d1ed9bad63730e7e11" compoundref="_blend_shape_clip_handler_8cs" startline="38">VRM.BlendShapeClipHandler.LastValue</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_handler_1a3f073cfc9b6576a78fb81b3c36852daf" compoundref="_blend_shape_clip_handler_8cs" startline="10">VRM.BlendShapeClipHandler.m_clip</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_handler_1a93ce4c117138a374d2675ce62c37fa71" compoundref="_blend_shape_clip_handler_8cs" startline="20">VRM.BlendShapeClipHandler.m_renderers</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="185">
+        <label>IEquatable&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="183">
+        <label>UnityEngine.Vector4</label>
+        <link refid="struct_unity_engine_1_1_vector4"/>
+      </node>
+      <node id="188">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="179">
+        <label>VRM.BlendShapeClip</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+        <childnode refid="181" relation="usage">
+          <edgelabel>MaterialValues</edgelabel>
+        </childnode>
+        <childnode refid="184" relation="usage">
+          <edgelabel>Values</edgelabel>
+        </childnode>
+        <childnode refid="186" relation="usage">
+          <edgelabel>Key</edgelabel>
+        </childnode>
+      </node>
+      <node id="184">
+        <label>VRM.BlendShapeBinding</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_binding"/>
+        <childnode refid="185" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>VRM.BlendShapeClipHandler</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip_handler"/>
+        <childnode refid="179" relation="usage">
+          <edgelabel>m_clip</edgelabel>
+        </childnode>
+      </node>
+      <node id="182">
+        <label>IEquatable&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="187">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="180">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="186">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>VRM.MaterialValueBinding</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+        <childnode refid="183" relation="usage">
+          <edgelabel>TargetValue</edgelabel>
+          <edgelabel>BaseValue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClipHandler.cs" bodystart="8" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1a0146dc46c6e642b03c97172ed626b115" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>Apply</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1ad20945587e37d2722c6e6d5d3c01ca84" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>BlendShapeClipHandler</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1afffdd2ca310ab3a801cbcb76c02e4d62" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>Cilp</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1a7728c4559610846474ab2bf01780391b" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>Clip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1a3cab12d130d1c0d1ed9bad63730e7e11" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>LastValue</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1a3f073cfc9b6576a78fb81b3c36852daf" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>m_clip</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_handler_1a93ce4c117138a374d2675ce62c37fa71" prot="private" virt="non-virtual"><scope>VRM::BlendShapeClipHandler</scope><name>m_renderers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

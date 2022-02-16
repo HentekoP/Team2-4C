@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_preview_face_renderer" kind="class" prot="public">
+    <compoundname>VRM::PreviewFaceRenderer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="class_v_r_m_1_1_preview_face_renderer_1_1_fog_scope" prot="private">VRM::PreviewFaceRenderer::FogScope</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_face_renderer_1ad4682c022885241357ecd5d2a2c13534" prot="private" static="no" mutable="no">
+        <type>PreviewRenderUtility</type>
+        <definition>PreviewRenderUtility VRM.PreviewFaceRenderer.m_previewUtility</definition>
+        <argsstring></argsstring>
+        <name>m_previewUtility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1a26304e56b13318b3746d6b92df832c00" compoundref="_preview_face_renderer_8cs" startline="131" endline="150">VRM.PreviewFaceRenderer.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1af9f0783c9c310fcceabda0960a17699a" compoundref="_preview_face_renderer_8cs" startline="54" endline="72">VRM.PreviewFaceRenderer.PreviewFaceRenderer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_preview_face_renderer_1a5e1a7b00a4614a2ac703caa42ccd2701" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.PreviewFaceRenderer.disposedValue</definition>
+        <argsstring></argsstring>
+        <name>disposedValue</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="129" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1a26304e56b13318b3746d6b92df832c00" compoundref="_preview_face_renderer_8cs" startline="131" endline="150">VRM.PreviewFaceRenderer.Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_face_renderer_1aa9b6feafa4005479f2a7a8c5eace8d8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Camera</type>
+        <definition>Camera VRM.PreviewFaceRenderer.PreviewCamera</definition>
+        <argsstring></argsstring>
+        <name>PreviewCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1a16d02bb0cd36ca8664dba18001455749" compoundref="_preview_face_renderer_8cs" startline="93" endline="126">VRM.PreviewFaceRenderer.Render</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_v_r_m_1_1_preview_face_renderer_1a9fc0b5ecf97c3b82da78aa02e53ead23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Light[]</type>
+        <definition>Light [] VRM.PreviewFaceRenderer.PreviewLights</definition>
+        <argsstring></argsstring>
+        <name>PreviewLights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1af9f0783c9c310fcceabda0960a17699a" compoundref="_preview_face_renderer_8cs" startline="54" endline="72">VRM.PreviewFaceRenderer.PreviewFaceRenderer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_face_renderer_1a648436e3279e70889dbbeab5bd885c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.PreviewFaceRenderer.SetAmbientColor</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>SetAmbientColor</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="45" bodyend="52"/>
+        <referencedby refid="class_v_r_m_1_1_preview_face_renderer_1af9f0783c9c310fcceabda0960a17699a" compoundref="_preview_face_renderer_8cs" startline="54" endline="72">VRM.PreviewFaceRenderer.PreviewFaceRenderer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_face_renderer_1af9f0783c9c310fcceabda0960a17699a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.PreviewFaceRenderer.PreviewFaceRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>PreviewFaceRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="54" bodyend="72"/>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1ad4682c022885241357ecd5d2a2c13534" compoundref="_preview_face_renderer_8cs" startline="20">VRM.PreviewFaceRenderer.m_previewUtility</references>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1a9fc0b5ecf97c3b82da78aa02e53ead23" compoundref="_preview_face_renderer_8cs" startline="34">VRM.PreviewFaceRenderer.PreviewLights</references>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1a648436e3279e70889dbbeab5bd885c2c" compoundref="_preview_face_renderer_8cs" startline="45" endline="52">VRM.PreviewFaceRenderer.SetAmbientColor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_face_renderer_1a16d02bb0cd36ca8664dba18001455749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>Texture VRM.PreviewFaceRenderer.Render</definition>
+        <argsstring>(Rect r, GUIStyle background, PreviewSceneManager scene, float yaw, float pitch, Vector3 position)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_preview_scene_manager" kindref="compound">PreviewSceneManager</ref></type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="93" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="93" bodyend="126"/>
+        <references refid="class_v_r_m_1_1_preview_scene_manager_1a39401612219c5e1d5160b20557503c5f" compoundref="_preview_scene_manager_8cs" startline="140">VRM.PreviewSceneManager.EnumRenderItems</references>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1aa9b6feafa4005479f2a7a8c5eace8d8f" compoundref="_preview_face_renderer_8cs" startline="22">VRM.PreviewFaceRenderer.PreviewCamera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_face_renderer_1a6467f4c8f5923dc8f3cce54a539e4767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.PreviewFaceRenderer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="159" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_preview_face_renderer_1a26304e56b13318b3746d6b92df832c00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void VRM.PreviewFaceRenderer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="131" bodyend="150"/>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1a5e1a7b00a4614a2ac703caa42ccd2701" compoundref="_preview_face_renderer_8cs" startline="129">VRM.PreviewFaceRenderer.disposedValue</references>
+        <references refid="class_v_r_m_1_1_preview_face_renderer_1ad4682c022885241357ecd5d2a2c13534" compoundref="_preview_face_renderer_8cs" startline="20">VRM.PreviewFaceRenderer.m_previewUtility</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>based </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para><ulink url="https://gist.github.com/radiatoryang/a2282d44ba71848e498bb2e03da98991">https://gist.github.com/radiatoryang/a2282d44ba71848e498bb2e03da98991</ulink> </para></listitem></itemizedlist>
+</para><para>PreviewRenderUtilityを管理する PreviewSceneをレンダリングする </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2015">
+        <label>IDisposable</label>
+      </node>
+      <node id="2014">
+        <label>VRM.PreviewFaceRenderer</label>
+        <link refid="class_v_r_m_1_1_preview_face_renderer"/>
+        <childnode refid="2015" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2017">
+        <label>IDisposable</label>
+      </node>
+      <node id="2016">
+        <label>VRM.PreviewFaceRenderer</label>
+        <link refid="class_v_r_m_1_1_preview_face_renderer"/>
+        <childnode refid="2017" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/PreviewFaceRenderer.cs" bodystart="18" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a26304e56b13318b3746d6b92df832c00" prot="protected" virt="virtual"><scope>VRM::PreviewFaceRenderer</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a6467f4c8f5923dc8f3cce54a539e4767" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a5e1a7b00a4614a2ac703caa42ccd2701" prot="private" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>disposedValue</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1ad4682c022885241357ecd5d2a2c13534" prot="private" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>m_previewUtility</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1aa9b6feafa4005479f2a7a8c5eace8d8f" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>PreviewCamera</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1af9f0783c9c310fcceabda0960a17699a" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>PreviewFaceRenderer</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a9fc0b5ecf97c3b82da78aa02e53ead23" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>PreviewLights</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a16d02bb0cd36ca8664dba18001455749" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>Render</name></member>
+      <member refid="class_v_r_m_1_1_preview_face_renderer_1a648436e3279e70889dbbeab5bd885c2c" prot="public" virt="non-virtual"><scope>VRM::PreviewFaceRenderer</scope><name>SetAmbientColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

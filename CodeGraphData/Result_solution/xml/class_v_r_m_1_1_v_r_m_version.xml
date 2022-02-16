@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_version" kind="class" prot="public">
+    <compoundname>VRM::VRMVersion</compoundname>
+    <innerclass refid="struct_v_r_m_1_1_v_r_m_version_1_1_version" prot="public">VRM::VRMVersion::Version</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1ad60e1a1ad24d9b55348eab68350d56b5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.VRMVersion.MAJOR</definition>
+        <argsstring></argsstring>
+        <name>MAJOR</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1a0145043b27597bd6198027199353aa0d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.VRMVersion.MINOR</definition>
+        <argsstring></argsstring>
+        <name>MINOR</name>
+        <initializer>= 94</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1ad6ed91644cc427cb2e2b6f9e0f0c4ea0" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.VRMVersion.PATCH</definition>
+        <argsstring></argsstring>
+        <name>PATCH</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersion.VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <initializer>= &quot;0.94.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_1a6591022caee4c01b98157dd4d14ac35a" compoundref="_v_r_m_version_partial_8cs" startline="13" endline="27">VRM.VRMVersion.IsNewer</referencedby>
+        <referencedby refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1af8b697c4b516f91ab640b9647afd0510" compoundref="_v_r_m_export_unity_package_8cs" startline="69" endline="81">VRM.DevOnly.PackageExporter.VRMExportUnityPackage.MakePackagePathName</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a90b0638557ce4025715b0fc2162f0fa8" compoundref="_v_r_m_version_menu_8cs" startline="312" endline="318">VRM.VRMVersionMenu.ShowVersionDialog</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1a1f2d7399874fdaea4e683e877032e276" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersion.VRM_VERSION</definition>
+        <argsstring></argsstring>
+        <name>VRM_VERSION</name>
+        <initializer>= &quot;UniVRM-&quot; + VERSION</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="102" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_samples_1_1_v_r_m_import_export_tests_1a9fa3d907c870e8e8ed9c5ead52964417" compoundref="_v_r_m_import_export_tests_8cs" startline="43" endline="188">VRM.Samples.VRMImportExportTests.ImportExportTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1a12c7cb69bf1bdbee6275156684b726eb" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersion.MENU</definition>
+        <argsstring></argsstring>
+        <name>MENU</name>
+        <initializer>= &quot;VRM0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="103" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_1a5ce8af2efecdb9d5ec91a2544f1bdce6" prot="private" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex VRM.VRMVersion.VersionSpec</definition>
+        <argsstring></argsstring>
+        <name>VersionSpec</name>
+        <initializer>=
+            new Regex(@&quot;(?&lt;major&gt;\d+)\.(?&lt;minor&gt;\d+)(\.(?&lt;patch&gt;\d+))?(-(?&lt;pre&gt;[0-9A-Za-z-]+))?&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_1a6591022caee4c01b98157dd4d14ac35a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMVersion.IsNewer</definition>
+        <argsstring>(string version)</argsstring>
+        <name>IsNewer</name>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if a passed version is newer than current UniVRM. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>version</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="13" bodyend="27"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" compoundref="_v_r_m_version_8cs" startline="9">VRM.VRMVersion.VERSION</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_object_editor_1a74373964030af0790e881480e303d6ca" compoundref="_v_r_m_meta_object_editor_8cs" startline="173" endline="242">VRM.VRMMetaObjectEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_1af1fa8831b8c1e264b5c195bad2fb051b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMVersion.IsNewer</definition>
+        <argsstring>(string newer, string older)</argsstring>
+        <name>IsNewer</name>
+        <param>
+          <type>string</type>
+          <declname>newer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>older</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="29" bodyend="64"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_1a4422e1c0a38740c61cd537264208c7bd" compoundref="_v_r_m_version_partial_8cs" startline="69" endline="92">VRM.VRMVersion.ParseVersion</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_1a4422e1c0a38740c61cd537264208c7bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMVersion.ParseVersion</definition>
+        <argsstring>(string version, out Version v)</argsstring>
+        <name>ParseVersion</name>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_v_r_m_1_1_v_r_m_version_1_1_version" kindref="compound">Version</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersionPartial.cs" bodystart="69" bodyend="92"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_1af1fa8831b8c1e264b5c195bad2fb051b" compoundref="_v_r_m_version_partial_8cs" startline="29" endline="64">VRM.VRMVersion.IsNewer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" line="5" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMVersion.cs" bodystart="4" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a6591022caee4c01b98157dd4d14ac35a" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>IsNewer</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1af1fa8831b8c1e264b5c195bad2fb051b" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>IsNewer</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1ad60e1a1ad24d9b55348eab68350d56b5" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>MAJOR</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a12c7cb69bf1bdbee6275156684b726eb" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>MENU</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a0145043b27597bd6198027199353aa0d" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>MINOR</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a4422e1c0a38740c61cd537264208c7bd" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>ParseVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1ad6ed91644cc427cb2e2b6f9e0f0c4ea0" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>PATCH</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>VERSION</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a5ce8af2efecdb9d5ec91a2544f1bdce6" prot="private" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>VersionSpec</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_1a1f2d7399874fdaea4e683e877032e276" prot="public" virt="non-virtual"><scope>VRM::VRMVersion</scope><name>VRM_VERSION</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

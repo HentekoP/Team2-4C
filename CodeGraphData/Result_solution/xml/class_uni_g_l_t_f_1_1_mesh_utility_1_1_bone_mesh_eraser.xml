@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshUtility::BoneMeshEraser</compoundname>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1_1_erase_bone" prot="public">UniGLTF::MeshUtility::BoneMeshEraser::EraseBone</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1_1_exclude_bone_index" prot="private">UniGLTF::MeshUtility::BoneMeshEraser::ExcludeBoneIndex</innerclass>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a11c9d48fbe140f173937f1f4e32a6be9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int UniGLTF.MeshUtility.BoneMeshEraser.ExcludeTriangles</definition>
+        <argsstring>(int[] triangles, BoneWeight[] bws, int[] exclude)</argsstring>
+        <name>ExcludeTriangles</name>
+        <param>
+          <type>int[]</type>
+          <declname>triangles</declname>
+        </param>
+        <param>
+          <type>BoneWeight[]</type>
+          <declname>bws</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>exclude</declname>
+        </param>
+        <briefdescription>
+<para>skip triangles that has weight for exclude, return valid triangle count </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>triangles</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bws</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exclude</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="46" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a22903f4cc05badb8b84923492627aa27" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1_1_exclude_bone_index" kindref="compound">ExcludeBoneIndex</ref></type>
+        <definition>static ExcludeBoneIndex UniGLTF.MeshUtility.BoneMeshEraser.AreBoneContains</definition>
+        <argsstring>(ref int[] exclude, int boneIndex0, int boneIndex1, int boneIndex2, int boneIndex3)</argsstring>
+        <name>AreBoneContains</name>
+        <param>
+          <type>ref int[]</type>
+          <declname>exclude</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boneIndex3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="91" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a293d5864d2d7ba3826199816993f4f29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>static int [] UniGLTF.MeshUtility.BoneMeshEraser.GetExcludedIndices</definition>
+        <argsstring>(int[] indices, BoneWeight[] boneWeights, int[] eraseBoneIndices)</argsstring>
+        <name>GetExcludedIndices</name>
+        <param>
+          <type>int[]</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>BoneWeight[]</type>
+          <declname>boneWeights</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>eraseBoneIndices</declname>
+        </param>
+        <briefdescription>
+<para>Erase triangles that has boneWeight for eraseBone </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>indices</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boneWeights</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eraseBoneIndices</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="134" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a2f23ffa988fa54b8567a1fde1702d634" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Mesh &gt;</type>
+        <definition>static async Task&lt;Mesh&gt; UniGLTF.MeshUtility.BoneMeshEraser.CreateErasedMeshAsync</definition>
+        <argsstring>(Mesh src, int[] eraseBoneIndices, IAwaitCaller awaitCaller)</argsstring>
+        <name>CreateErasedMeshAsync</name>
+        <param>
+          <type>Mesh</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>eraseBoneIndices</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="142" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a7c49a08ad92e5e9ab9df1c9245ccfb45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh UniGLTF.MeshUtility.BoneMeshEraser.CreateErasedMesh</definition>
+        <argsstring>(Mesh src, int[] eraseBoneIndices)</argsstring>
+        <name>CreateErasedMesh</name>
+        <param>
+          <type>Mesh</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>eraseBoneIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="181" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="181" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a8a6fb5a6e0eadea3b7d7bd0221b16b94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Transform &gt;</type>
+        <definition>static IEnumerable&lt;Transform&gt; UniGLTF.MeshUtility.BoneMeshEraser.Ancestor</definition>
+        <argsstring>(this Transform t)</argsstring>
+        <name>Ancestor</name>
+        <param>
+          <type>this Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="188" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneMeshEraser.cs" bodystart="9" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a8a6fb5a6e0eadea3b7d7bd0221b16b94" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>Ancestor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a22903f4cc05badb8b84923492627aa27" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>AreBoneContains</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a7c49a08ad92e5e9ab9df1c9245ccfb45" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>CreateErasedMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a2f23ffa988fa54b8567a1fde1702d634" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>CreateErasedMeshAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a11c9d48fbe140f173937f1f4e32a6be9" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>ExcludeTriangles</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_mesh_eraser_1a293d5864d2d7ba3826199816993f4f29" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneMeshEraser</scope><name>GetExcludedIndices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

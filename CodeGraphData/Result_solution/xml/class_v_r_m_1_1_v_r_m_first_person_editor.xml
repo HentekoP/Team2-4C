@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_first_person_editor" kind="class" prot="public">
+    <compoundname>VRM::VRMFirstPersonEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_first_person_editor_1a1220a84390134d96af46a3ec16fce35a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_first_person" kindref="compound">VRMFirstPerson</ref></type>
+        <definition>VRMFirstPerson VRM.VRMFirstPersonEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a65ccab98e26ec26a40e00c8bd3c5c491" compoundref="_v_r_m_first_person_editor_8cs" startline="12" endline="15">VRM.VRMFirstPersonEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a488ecdf8555628698265bd2a43ab52f8" compoundref="_v_r_m_first_person_editor_8cs" startline="56" endline="77">VRM.VRMFirstPersonEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a60c66762fd1429cb7c2c6351a8d4b213" compoundref="_v_r_m_first_person_editor_8cs" startline="25" endline="46">VRM.VRMFirstPersonEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_editor_1a65ccab98e26ec26a40e00c8bd3c5c491" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a1220a84390134d96af46a3ec16fce35a" compoundref="_v_r_m_first_person_editor_8cs" startline="10">VRM.VRMFirstPersonEditor.m_target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_editor_1ad0b3c946c147a8c61c3b281cfa7c9166" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_editor_1a60c66762fd1429cb7c2c6351a8d4b213" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMFirstPersonEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+<para>SceneView gizmo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="25" bodyend="46"/>
+        <references refid="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a96e89a298e0a9f469b9ae458d6afae9f">VRM.head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a1220a84390134d96af46a3ec16fce35a" compoundref="_v_r_m_first_person_editor_8cs" startline="10">VRM.VRMFirstPersonEditor.m_target</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_editor_1a1b65ca25c2f26649382b035fc69269e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMFirstPersonEditor.Separator</definition>
+        <argsstring>(int indentLevel=0)</argsstring>
+        <name>Separator</name>
+        <param>
+          <type>int</type>
+          <declname>indentLevel</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="48" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_first_person_editor_1a488ecdf8555628698265bd2a43ab52f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMFirstPersonEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="56" bodyend="77"/>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_validator_1a36922ca8f33a845558953ef2e18cbb14" compoundref="_v_r_m_first_person_validator_8cs" startline="14" endline="36">VRM.VRMFirstPersonValidator.IsValid</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a1220a84390134d96af46a3ec16fce35a" compoundref="_v_r_m_first_person_editor_8cs" startline="10">VRM.VRMFirstPersonEditor.m_target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_first_person_1a9ddfb20e233e52843c9f4f465f155fbd" compoundref="_v_r_m_first_person_8cs" startline="52">VRM.VRMFirstPerson.Renderers</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2748">
+        <label>Editor</label>
+      </node>
+      <node id="2747">
+        <label>VRM.VRMFirstPersonEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person_editor"/>
+        <childnode refid="2748" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2753">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2754" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2753" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2754">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2750">
+        <label>Editor</label>
+      </node>
+      <node id="2751">
+        <label>VRM.VRMFirstPerson</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person"/>
+        <childnode refid="2752" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2753" relation="usage">
+          <edgelabel>FirstPersonOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2752">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2749">
+        <label>VRM.VRMFirstPersonEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_first_person_editor"/>
+        <childnode refid="2750" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2751" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/FirstPerson/VRMFirstPersonEditor.cs" bodystart="8" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a1220a84390134d96af46a3ec16fce35a" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1ad0b3c946c147a8c61c3b281cfa7c9166" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>OnDisable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a65ccab98e26ec26a40e00c8bd3c5c491" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a488ecdf8555628698265bd2a43ab52f8" prot="public" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a60c66762fd1429cb7c2c6351a8d4b213" prot="private" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_first_person_editor_1a1b65ca25c2f26649382b035fc69269e2" prot="public" virt="non-virtual"><scope>VRM::VRMFirstPersonEditor</scope><name>Separator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

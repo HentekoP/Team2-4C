@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_serializer_generator" kind="class" prot="public">
+    <compoundname>UniGLTF::SerializerGenerator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_serializer_generator_1a7b680fdcb4ac908c9c26c6cedcc61467" prot="private" static="no" mutable="no">
+        <type>const BindingFlags</type>
+        <definition>const BindingFlags UniGLTF.SerializerGenerator.FIELD_FLAGS</definition>
+        <argsstring></argsstring>
+        <name>FIELD_FLAGS</name>
+        <initializer>= BindingFlags.Instance | BindingFlags.Public</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_serializer_generator_1a73168ba2da365ba14e628c83f7707a65" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.SerializerGenerator.Begin</definition>
+        <argsstring></argsstring>
+        <name>Begin</name>
+        <initializer>= @&quot;using System;
+using System.Collections.Generic;
+using UniJSON;
+using System.Linq;
+
+namespace UniGLTF {
+
+    static public class <ref refid="class_uni_g_l_t_f_1_1_gltf_serializer" kindref="compound">GltfSerializer</ref>
+    {
+
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serializer_generator_1a279da1f6d9293a95120cbdbdc089df27" compoundref="_serializer_generator_8cs" startline="42" endline="57">UniGLTF.SerializerGenerator.GenerateSerializer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_serializer_generator_1a083865134a126cdee92240059b17eab2" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.SerializerGenerator.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <initializer>= @&quot;
+    } // class
+} // namespace
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serializer_generator_1a279da1f6d9293a95120cbdbdc089df27" compoundref="_serializer_generator_8cs" startline="42" endline="57">UniGLTF.SerializerGenerator.GenerateSerializer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_serializer_generator_1a2a075bffa6e7fd8114ce3ea437a5d9f0" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UniGLTF.SerializerGenerator.OutPath</definition>
+        <argsstring></argsstring>
+        <name>OutPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serializer_generator_1a279da1f6d9293a95120cbdbdc089df27" compoundref="_serializer_generator_8cs" startline="42" endline="57">UniGLTF.SerializerGenerator.GenerateSerializer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_serializer_generator_1a279da1f6d9293a95120cbdbdc089df27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.SerializerGenerator.GenerateSerializer</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateSerializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="42" bodyend="57"/>
+        <references refid="class_uni_g_l_t_f_1_1_serializer_generator_1a73168ba2da365ba14e628c83f7707a65" compoundref="_serializer_generator_8cs" startline="16">UniGLTF.SerializerGenerator.Begin</references>
+        <references refid="class_uni_g_l_t_f_1_1_serializer_generator_1a083865134a126cdee92240059b17eab2" compoundref="_serializer_generator_8cs" startline="28">UniGLTF.SerializerGenerator.End</references>
+        <references refid="class_uni_g_l_t_f_1_1_serializer_generator_1a2a075bffa6e7fd8114ce3ea437a5d9f0" compoundref="_serializer_generator_8cs" startline="34">UniGLTF.SerializerGenerator.OutPath</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs" bodystart="12" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_serializer_generator_1a73168ba2da365ba14e628c83f7707a65" prot="private" virt="non-virtual"><scope>UniGLTF::SerializerGenerator</scope><name>Begin</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serializer_generator_1a083865134a126cdee92240059b17eab2" prot="private" virt="non-virtual"><scope>UniGLTF::SerializerGenerator</scope><name>End</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serializer_generator_1a7b680fdcb4ac908c9c26c6cedcc61467" prot="private" virt="non-virtual"><scope>UniGLTF::SerializerGenerator</scope><name>FIELD_FLAGS</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serializer_generator_1a279da1f6d9293a95120cbdbdc089df27" prot="public" virt="non-virtual"><scope>UniGLTF::SerializerGenerator</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serializer_generator_1a2a075bffa6e7fd8114ce3ea437a5d9f0" prot="private" virt="non-virtual"><scope>UniGLTF::SerializerGenerator</scope><name>OutPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

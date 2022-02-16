@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bone_mapping" kind="class" prot="public">
+    <compoundname>UniHumanoid::BoneMapping</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_1a5c66332ea844ac26beba67a191aa2b8a" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] UniHumanoid.BoneMapping.Bones</definition>
+        <argsstring></argsstring>
+        <name>Bones</name>
+        <initializer>= new GameObject[(int)HumanBodyBones.LastBone]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_1a0dd7ac575d932935fd8058bfe03c1565" compoundref="_bone_mapping_8cs" startline="94" endline="101">UniHumanoid.BoneMapping.Awake</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_1a1f22c82c080af7b254a4b1bccd4199e6" compoundref="_bone_mapping_8cs" startline="20" endline="43">UniHumanoid.BoneMapping.GetBones</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_1a22c7561ac36c798458c02156650a2aea" compoundref="_bone_mapping_8cs" startline="45" endline="65">UniHumanoid.BoneMapping.GuessBoneMapping</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_mapping_1aab77d203629fd0b1910bd0a07bbdfa08" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">AvatarDescription</ref></type>
+        <definition>AvatarDescription UniHumanoid.BoneMapping.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1a1fecd696abf7348ffc6d7537c7492801" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMapping.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_1a1f22c82c080af7b254a4b1bccd4199e6" compoundref="_bone_mapping_8cs" startline="20" endline="43">UniHumanoid.BoneMapping.GetBones</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1a1f22c82c080af7b254a4b1bccd4199e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMapping.GetBones</definition>
+        <argsstring>()</argsstring>
+        <name>GetBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="20" bodyend="43"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_1a5c66332ea844ac26beba67a191aa2b8a" compoundref="_bone_mapping_8cs" startline="10">UniHumanoid.BoneMapping.Bones</references>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_1a0dd7ac575d932935fd8058bfe03c1565" compoundref="_bone_mapping_8cs" startline="94" endline="101">UniHumanoid.BoneMapping.Awake</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bone_mapping_1a1fecd696abf7348ffc6d7537c7492801" compoundref="_bone_mapping_8cs" startline="15" endline="18">UniHumanoid.BoneMapping.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1a0dd7ac575d932935fd8058bfe03c1565" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMapping.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="94" bodyend="101"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_1a5c66332ea844ac26beba67a191aa2b8a" compoundref="_bone_mapping_8cs" startline="10">UniHumanoid.BoneMapping.Bones</references>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_1a1f22c82c080af7b254a4b1bccd4199e6" compoundref="_bone_mapping_8cs" startline="20" endline="43">UniHumanoid.BoneMapping.GetBones</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1a22c7561ac36c798458c02156650a2aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMapping.GuessBoneMapping</definition>
+        <argsstring>()</argsstring>
+        <name>GuessBoneMapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="45" bodyend="65"/>
+        <references refid="class_uni_humanoid_1_1_bone_mapping_1a5c66332ea844ac26beba67a191aa2b8a" compoundref="_bone_mapping_8cs" startline="10">UniHumanoid.BoneMapping.Bones</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1aa03bb5dde88fdd1298176c3c0800a110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneMapping.EnsureTPose</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureTPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="67" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_mapping_1a296018181dbce686239a3eba5a95111d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.BoneMapping.SetBonesToDescription</definition>
+        <argsstring>(BoneMapping mapping, AvatarDescription description)</argsstring>
+        <name>SetBonesToDescription</name>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bone_mapping" kindref="compound">BoneMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">AvatarDescription</ref></type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="314">
+        <label>UniHumanoid.BoneMapping</label>
+        <link refid="class_uni_humanoid_1_1_bone_mapping"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="321">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="322" relation="public-inheritance">
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="322">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="320">
+        <label>UniHumanoid.BoneLimit</label>
+        <link refid="struct_uni_humanoid_1_1_bone_limit"/>
+        <childnode refid="321" relation="usage">
+          <edgelabel>center</edgelabel>
+          <edgelabel>min</edgelabel>
+          <edgelabel>max</edgelabel>
+        </childnode>
+      </node>
+      <node id="318">
+        <label>UniHumanoid.AvatarDescription</label>
+        <link refid="class_uni_humanoid_1_1_avatar_description"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>human</edgelabel>
+        </childnode>
+      </node>
+      <node id="316">
+        <label>UniHumanoid.BoneMapping</label>
+        <link refid="class_uni_humanoid_1_1_bone_mapping"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+        <childnode refid="318" relation="usage">
+          <edgelabel>Description</edgelabel>
+        </childnode>
+      </node>
+      <node id="319">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="317">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneMapping.cs" bodystart="7" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a0dd7ac575d932935fd8058bfe03c1565" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>Awake</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a5c66332ea844ac26beba67a191aa2b8a" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>Bones</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1aab77d203629fd0b1910bd0a07bbdfa08" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>Description</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1aa03bb5dde88fdd1298176c3c0800a110" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>EnsureTPose</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a1f22c82c080af7b254a4b1bccd4199e6" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>GetBones</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a22c7561ac36c798458c02156650a2aea" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>GuessBoneMapping</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a1fecd696abf7348ffc6d7537c7492801" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>Reset</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_mapping_1a296018181dbce686239a3eba5a95111d" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneMapping</scope><name>SetBonesToDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

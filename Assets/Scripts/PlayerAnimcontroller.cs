@@ -67,7 +67,7 @@ public class PlayerAnimcontroller : MonoBehaviour
 
                 }
 
-                if (Input.GetKeyDown(KeyCode.JoystickButton1))
+                if (Input.GetKeyDown(KeyCode.JoystickButton2))
                 {
                     if (audioflag == false)
                     {

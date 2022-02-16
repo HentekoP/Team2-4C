@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_editor_importer_context" kind="class" prot="public">
+    <compoundname>VRM::VRMEditorImporterContext</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1ad1d2d3317c01621a3e09f32108058cc9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+        <definition>VRMImporterContext VRM.VRMEditorImporterContext.m_context</definition>
+        <argsstring></argsstring>
+        <name>m_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ac90bcc1baadf5d01d758b52c3a1cbc87" compoundref="_v_r_m_editor_importer_context_8cs" startline="73" endline="109">VRM.VRMEditorImporterContext.ConvertAndExtractImages</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a039013f366423057a28ac3d10d7112c8" compoundref="_v_r_m_editor_importer_context_8cs" startline="19" endline="23">VRM.VRMEditorImporterContext.VRMEditorImporterContext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1aa4cde8a41862f00cfa1579db667d8198" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+        <definition>UnityPath VRM.VRMEditorImporterContext.m_prefabPath</definition>
+        <argsstring></argsstring>
+        <name>m_prefabPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a43c1ad3e919fb44d4308d285b88d62d2" compoundref="_v_r_m_editor_importer_context_8cs" startline="111" endline="130">VRM.VRMEditorImporterContext.SaveAsAsset</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a039013f366423057a28ac3d10d7112c8" compoundref="_v_r_m_editor_importer_context_8cs" startline="19" endline="23">VRM.VRMEditorImporterContext.VRMEditorImporterContext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1a3933b9143c148de95af68cf66fc2d110" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref> &gt;</type>
+        <definition>List&lt;UnityPath&gt; VRM.VRMEditorImporterContext.m_paths</definition>
+        <argsstring></argsstring>
+        <name>m_paths</name>
+        <initializer>= new List&lt;<ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a5e3ab3bb3e57e52d35ffdc3cd569368b" compoundref="_v_r_m_editor_importer_context_8cs" startline="132" endline="167">VRM.VRMEditorImporterContext.SaveAsAsset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1a1349aa99f426c14a3c7ddf273ab4ca3f" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" kindref="compound">ITextureDescriptorGenerator</ref></type>
+        <definition>ITextureDescriptorGenerator VRM.VRMEditorImporterContext.TextureDescriptorGenerator</definition>
+        <argsstring></argsstring>
+        <name>TextureDescriptorGenerator</name>
+        <initializer>=&gt; m_context.TextureDescriptorGenerator</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1a039013f366423057a28ac3d10d7112c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMEditorImporterContext.VRMEditorImporterContext</definition>
+        <argsstring>(VRMImporterContext context, UnityPath prefabPath)</argsstring>
+        <name>VRMEditorImporterContext</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>prefabPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="19" bodyend="23"/>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ad1d2d3317c01621a3e09f32108058cc9" compoundref="_v_r_m_editor_importer_context_8cs" startline="13">VRM.VRMEditorImporterContext.m_context</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1aa4cde8a41862f00cfa1579db667d8198" compoundref="_v_r_m_editor_importer_context_8cs" startline="14">VRM.VRMEditorImporterContext.m_prefabPath</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1abfd1aaca4e7e8914b8d128fcde5c5221" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+        <definition>UnityPath VRM.VRMEditorImporterContext.GetAssetPath</definition>
+        <argsstring>(UnityPath prefabPath, UnityEngine.Object o)</argsstring>
+        <name>GetAssetPath</name>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>prefabPath</declname>
+        </param>
+        <param>
+          <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="25" bodyend="68"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a43c1ad3e919fb44d4308d285b88d62d2" compoundref="_v_r_m_editor_importer_context_8cs" startline="111" endline="130">VRM.VRMEditorImporterContext.SaveAsAsset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1ac90bcc1baadf5d01d758b52c3a1cbc87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMEditorImporterContext.ConvertAndExtractImages</definition>
+        <argsstring>(Action&lt; IEnumerable&lt; UnityPath &gt;&gt; onTextureReloaded)</argsstring>
+        <name>ConvertAndExtractImages</name>
+        <param>
+          <type>Action&lt; IEnumerable&lt; <ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref> &gt;&gt;</type>
+          <declname>onTextureReloaded</declname>
+        </param>
+        <briefdescription>
+<para>Extract images from glb or gltf out of Assets folder. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="73" bodyend="109"/>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ad1d2d3317c01621a3e09f32108058cc9" compoundref="_v_r_m_editor_importer_context_8cs" startline="13">VRM.VRMEditorImporterContext.m_context</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a8c127275b9574e5fd7e2d698462ffdb5" compoundref="_importer_context_8cs" startline="16">UniGLTF.ImporterContext.TextureDescriptorGenerator</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ad0b7c78f5763ea8a2b58151d7f94941d" compoundref="_v_r_m_importer_context_8cs" startline="17">VRM.VRMImporterContext.VRM</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1a5e3ab3bb3e57e52d35ffdc3cd569368b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMEditorImporterContext.SaveAsAsset</definition>
+        <argsstring>(UniGLTF.RuntimeGltfInstance loaded)</argsstring>
+        <name>SaveAsAsset</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_runtime_gltf_instance" kindref="compound">UniGLTF.RuntimeGltfInstance</ref></type>
+          <declname>loaded</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="132" bodyend="167"/>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1a64b1bc265d0fe631eb42f36044409393" compoundref="_unity_path_8cs" startline="250">UniGLTF.UnityPath.IsFileExists</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a3933b9143c148de95af68cf66fc2d110" compoundref="_v_r_m_editor_importer_context_8cs" startline="15">VRM.VRMEditorImporterContext.m_paths</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1aa4cde8a41862f00cfa1579db667d8198" compoundref="_v_r_m_editor_importer_context_8cs" startline="14">VRM.VRMEditorImporterContext.m_prefabPath</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a43c1ad3e919fb44d4308d285b88d62d2" compoundref="_v_r_m_editor_importer_context_8cs" startline="111" endline="130">VRM.VRMEditorImporterContext.SaveAsAsset</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_importer_context_1a43c1ad3e919fb44d4308d285b88d62d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMEditorImporterContext.SaveAsAsset</definition>
+        <argsstring>(SubAssetKey _, UnityEngine.Object o)</argsstring>
+        <name>SaveAsAsset</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref></type>
+          <declname>_</declname>
+        </param>
+        <param>
+          <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="111" bodyend="130"/>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1abfd1aaca4e7e8914b8d128fcde5c5221" compoundref="_v_r_m_editor_importer_context_8cs" startline="25" endline="68">VRM.VRMEditorImporterContext.GetAssetPath</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1aa4cde8a41862f00cfa1579db667d8198" compoundref="_v_r_m_editor_importer_context_8cs" startline="14">VRM.VRMEditorImporterContext.m_prefabPath</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a5e3ab3bb3e57e52d35ffdc3cd569368b" compoundref="_v_r_m_editor_importer_context_8cs" startline="132" endline="167">VRM.VRMEditorImporterContext.SaveAsAsset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2665">
+        <label>UniGLTF.glTF</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f"/>
+        <childnode refid="2666" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2667" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="2668" relation="usage">
+          <edgelabel>asset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2667">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="2666">
+        <label>IEquatable&lt; glTF &gt;</label>
+      </node>
+      <node id="2668">
+        <label>UniGLTF.glTFAssets</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_assets"/>
+        <childnode refid="2667" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="2675">
+        <label>UniGLTF.UnityPath</label>
+        <link refid="struct_uni_g_l_t_f_1_1_unity_path"/>
+      </node>
+      <node id="2662">
+        <label>ImporterContext</label>
+        <link refid="class_uni_g_l_t_f_1_1_importer_context"/>
+        <childnode refid="2663" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2665" relation="usage">
+          <edgelabel>GLTF</edgelabel>
+        </childnode>
+      </node>
+      <node id="2664">
+        <label>IDisposable</label>
+      </node>
+      <node id="2663">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2664" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2660">
+        <label>VRM.VRMEditorImporterContext</label>
+        <link refid="class_v_r_m_1_1_v_r_m_editor_importer_context"/>
+        <childnode refid="2661" relation="usage">
+          <edgelabel>m_context</edgelabel>
+        </childnode>
+        <childnode refid="2674" relation="usage">
+          <edgelabel>TextureDescriptorGenerator</edgelabel>
+        </childnode>
+        <childnode refid="2675" relation="usage">
+          <edgelabel>m_prefabPath</edgelabel>
+        </childnode>
+      </node>
+      <node id="2673">
+        <label>VRM.VRMData</label>
+        <link refid="class_v_r_m_1_1_v_r_m_data"/>
+      </node>
+      <node id="2670">
+        <label>VRM.VRMMetaObject</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_object"/>
+        <childnode refid="2671" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2671">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2669">
+        <label>UniHumanoid</label>
+      </node>
+      <node id="2661">
+        <label>VRM.VRMImporterContext</label>
+        <link refid="class_v_r_m_1_1_v_r_m_importer_context"/>
+        <childnode refid="2662" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2669" relation="usage">
+          <edgelabel>AvatarDescription</edgelabel>
+        </childnode>
+        <childnode refid="2670" relation="usage">
+          <edgelabel>Meta</edgelabel>
+        </childnode>
+        <childnode refid="2672" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+        <childnode refid="2673" relation="usage">
+          <edgelabel>_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="2674">
+        <label>UniGLTF.ITextureDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator"/>
+      </node>
+      <node id="2672">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="2671" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorImporterContext.cs" bodystart="11" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ac90bcc1baadf5d01d758b52c3a1cbc87" prot="public" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>ConvertAndExtractImages</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1abfd1aaca4e7e8914b8d128fcde5c5221" prot="public" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>GetAssetPath</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ad1d2d3317c01621a3e09f32108058cc9" prot="private" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>m_context</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a3933b9143c148de95af68cf66fc2d110" prot="private" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>m_paths</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1aa4cde8a41862f00cfa1579db667d8198" prot="private" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>m_prefabPath</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a43c1ad3e919fb44d4308d285b88d62d2" prot="private" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>SaveAsAsset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a5e3ab3bb3e57e52d35ffdc3cd569368b" prot="public" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>SaveAsAsset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a1349aa99f426c14a3c7ddf273ab4ca3f" prot="public" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>TextureDescriptorGenerator</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1a039013f366423057a28ac3d10d7112c8" prot="public" virt="non-virtual"><scope>VRM::VRMEditorImporterContext</scope><name>VRMEditorImporterContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

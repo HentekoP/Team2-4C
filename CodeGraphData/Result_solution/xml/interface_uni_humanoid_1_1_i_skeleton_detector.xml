@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_humanoid_1_1_i_skeleton_detector" kind="interface" prot="public">
+    <compoundname>UniHumanoid::ISkeletonDetector</compoundname>
+    <derivedcompoundref refid="class_uni_humanoid_1_1_bvh_skeleton_estimator" prot="public" virt="non-virtual">UniHumanoid.BvhSkeletonEstimator</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_humanoid_1_1_i_skeleton_detector_1aa8148256bb45c43413935028928f67b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton" kindref="compound">Skeleton</ref></type>
+        <definition>Skeleton UniHumanoid.ISkeletonDetector.Detect</definition>
+        <argsstring>(IList&lt; IBone &gt; bones)</argsstring>
+        <name>Detect</name>
+        <reimplementedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae669d427b833bb29cf1b9abc31baab65">Detect</reimplementedby>
+        <param>
+          <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1373">
+        <label>UniHumanoid.ISkeletonDetector</label>
+        <link refid="interface_uni_humanoid_1_1_i_skeleton_detector"/>
+      </node>
+      <node id="1374">
+        <label>UniHumanoid.BvhSkeletonEstimator</label>
+        <link refid="class_uni_humanoid_1_1_bvh_skeleton_estimator"/>
+        <childnode refid="1373" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/SkeletonEstimator.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_uni_humanoid_1_1_i_skeleton_detector_1aa8148256bb45c43413935028928f67b4" prot="public" virt="non-virtual"><scope>UniHumanoid::ISkeletonDetector</scope><name>Detect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

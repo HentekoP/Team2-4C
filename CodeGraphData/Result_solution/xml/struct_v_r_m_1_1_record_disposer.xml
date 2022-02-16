@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_record_disposer" kind="struct" prot="public">
+    <compoundname>VRM::RecordDisposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_record_disposer_1a9b9c197a5fa58afcebf5955f0c2ff9c4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VRM.RecordDisposer._group</definition>
+        <argsstring></argsstring>
+        <name>_group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_record_disposer_1a1f37bfef8dcc259bb00bf4739e869304" compoundref="_record_disposer_8cs" startline="21" endline="24">VRM.RecordDisposer.Dispose</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_record_disposer_1a2927e4bf517f5fb2b14dc9c08339db22" compoundref="_record_disposer_8cs" startline="14" endline="19">VRM.RecordDisposer.RecordDisposer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_record_disposer_1a2927e4bf517f5fb2b14dc9c08339db22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.RecordDisposer.RecordDisposer</definition>
+        <argsstring>(UnityEngine.Object[] objects, string msg)</argsstring>
+        <name>RecordDisposer</name>
+        <param>
+          <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref>[]</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" bodystart="14" bodyend="19"/>
+        <references refid="struct_v_r_m_1_1_record_disposer_1a9b9c197a5fa58afcebf5955f0c2ff9c4" compoundref="_record_disposer_8cs" startline="13">VRM.RecordDisposer._group</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_record_disposer_1a1f37bfef8dcc259bb00bf4739e869304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.RecordDisposer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" bodystart="21" bodyend="24"/>
+        <references refid="struct_v_r_m_1_1_record_disposer_1a9b9c197a5fa58afcebf5955f0c2ff9c4" compoundref="_record_disposer_8cs" startline="13">VRM.RecordDisposer._group</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>UndoをGroupを開始して、DisposeでUndoする。 using で使うのを想定。 using ブロック内で Undo されるべき操作をする。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2067">
+        <label>VRM.RecordDisposer</label>
+        <link refid="struct_v_r_m_1_1_record_disposer"/>
+        <childnode refid="2068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2068">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2069">
+        <label>VRM.RecordDisposer</label>
+        <link refid="struct_v_r_m_1_1_record_disposer"/>
+        <childnode refid="2070" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2070">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/RecordDisposer.cs" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_record_disposer_1a9b9c197a5fa58afcebf5955f0c2ff9c4" prot="public" virt="non-virtual"><scope>VRM::RecordDisposer</scope><name>_group</name></member>
+      <member refid="struct_v_r_m_1_1_record_disposer_1a1f37bfef8dcc259bb00bf4739e869304" prot="public" virt="non-virtual"><scope>VRM::RecordDisposer</scope><name>Dispose</name></member>
+      <member refid="struct_v_r_m_1_1_record_disposer_1a2927e4bf517f5fb2b14dc9c08339db22" prot="public" virt="non-virtual"><scope>VRM::RecordDisposer</scope><name>RecordDisposer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

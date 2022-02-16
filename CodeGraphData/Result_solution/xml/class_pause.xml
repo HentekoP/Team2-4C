@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause" kind="class" prot="public">
+    <compoundname>Pause</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pause_1ae36bff92c10bc98130becf941df84505" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Pause.pausePanel</definition>
+        <argsstring></argsstring>
+        <name>pausePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a05d134898b30606bbae3bd41266c6c1b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.pushFlag</definition>
+        <argsstring></argsstring>
+        <name>pushFlag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="26" endline="63">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_1a3192aff8e5d2c19383e6af23b9924c34" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.getRuleflag</definition>
+        <argsstring></argsstring>
+        <name>getRuleflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="26" endline="63">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pause_1a663b8d9c0ef3f838f17623443a16161f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Pause.SEFlag</definition>
+        <argsstring></argsstring>
+        <name>SEFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_pause_1a4fd166b1a34f93fb942105e1be608bb1" compoundref="_pause_8cs" startline="65" endline="68">GetSEflag</referencedby>
+        <referencedby refid="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" compoundref="_pause_8cs" startline="20" endline="24">Start</referencedby>
+        <referencedby refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" compoundref="_pause_8cs" startline="26" endline="63">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="20" bodyend="24"/>
+        <references refid="class_pause_1a663b8d9c0ef3f838f17623443a16161f" compoundref="_pause_8cs" startline="17">SEFlag</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_1aab062f8945cc0bad08b554ad58357dc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pause.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="26" bodyend="63"/>
+        <references refid="class_pause_1a3192aff8e5d2c19383e6af23b9924c34" compoundref="_pause_8cs" startline="18">getRuleflag</references>
+        <references refid="class_pause_1a05d134898b30606bbae3bd41266c6c1b" compoundref="_pause_8cs" startline="15">pushFlag</references>
+        <references refid="class_pause_1a663b8d9c0ef3f838f17623443a16161f" compoundref="_pause_8cs" startline="17">SEFlag</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pause_1a4fd166b1a34f93fb942105e1be608bb1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Pause.GetSEflag</definition>
+        <argsstring>()</argsstring>
+        <name>GetSEflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="65" bodyend="68"/>
+        <references refid="class_pause_1a663b8d9c0ef3f838f17623443a16161f" compoundref="_pause_8cs" startline="17">SEFlag</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1956">
+        <label>Pause</label>
+        <link refid="class_pause"/>
+        <childnode refid="1957" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1957">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1958">
+        <label>Pause</label>
+        <link refid="class_pause"/>
+        <childnode refid="1959" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1959">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/Pause.cs" bodystart="8" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_pause_1a3192aff8e5d2c19383e6af23b9924c34" prot="private" virt="non-virtual"><scope>Pause</scope><name>getRuleflag</name></member>
+      <member refid="class_pause_1a4fd166b1a34f93fb942105e1be608bb1" prot="public" virt="non-virtual"><scope>Pause</scope><name>GetSEflag</name></member>
+      <member refid="class_pause_1ae36bff92c10bc98130becf941df84505" prot="private" virt="non-virtual"><scope>Pause</scope><name>pausePanel</name></member>
+      <member refid="class_pause_1a05d134898b30606bbae3bd41266c6c1b" prot="private" virt="non-virtual"><scope>Pause</scope><name>pushFlag</name></member>
+      <member refid="class_pause_1a663b8d9c0ef3f838f17623443a16161f" prot="private" virt="non-virtual"><scope>Pause</scope><name>SEFlag</name></member>
+      <member refid="class_pause_1a2676d511f741a690dd8a1d6f64aef89c" prot="private" virt="non-virtual"><scope>Pause</scope><name>Start</name></member>
+      <member refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" prot="private" virt="non-virtual"><scope>Pause</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

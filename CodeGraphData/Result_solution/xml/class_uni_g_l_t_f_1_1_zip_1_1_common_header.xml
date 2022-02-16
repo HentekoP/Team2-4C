@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_zip_1_1_common_header" kind="class" prot="public" abstract="yes">
+    <compoundname>UniGLTF::Zip::CommonHeader</compoundname>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" prot="public" virt="non-virtual">UniGLTF.Zip.CentralDirectoryFileHeader</derivedcompoundref>
+    <derivedcompoundref refid="class_uni_g_l_t_f_1_1_zip_1_1_local_file_header" prot="public" virt="non-virtual">UniGLTF.Zip.LocalFileHeader</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a2ae96d1f9f306e876cdfdd4b291b6053" prot="public" static="no" mutable="no">
+        <type>Encoding</type>
+        <definition>Encoding UniGLTF.Zip.CommonHeader.Encoding</definition>
+        <argsstring></argsstring>
+        <name>Encoding</name>
+        <initializer>= Encoding.UTF8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aee397e165d0d4790b6921c7114785471" prot="public" static="no" mutable="no">
+        <type>Byte[]</type>
+        <definition>Byte [] UniGLTF.Zip.CommonHeader.Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="100" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a6217124b89dc407fe834a93aa64cae97" compoundref="_zip_archive_storage_8cs" startline="323" endline="348">UniGLTF.Zip.ZipArchiveStorage.Extract</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a46013e815b6993e7f0647e0b8dae5f62" compoundref="_zip_archive_storage_8cs" startline="350" endline="361">UniGLTF.Zip.ZipArchiveStorage.ExtractToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a322df3de1c6b34e6aae91e6f73620e30" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.Zip.CommonHeader.Offset</definition>
+        <argsstring></argsstring>
+        <name>Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1ad041396ca693961e2cc3918f79525680" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.VersionNeededToExtract</definition>
+        <argsstring></argsstring>
+        <name>VersionNeededToExtract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a53c141375ed1ecd76cdd3da7ca0e876e" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.GeneralPurposeBitFlag</definition>
+        <argsstring></argsstring>
+        <name>GeneralPurposeBitFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1affc7f3213570ffda2513814351acf8b9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1_1_zip_1af6620aa4dfe74cae9b424baf7310a2ab" kindref="member">CompressionMethod</ref></type>
+        <definition>CompressionMethod UniGLTF.Zip.CommonHeader.CompressionMethod</definition>
+        <argsstring></argsstring>
+        <name>CompressionMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1adc8db0473a7734ae4f30d97e772b3ada" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.FileLastModificationTime</definition>
+        <argsstring></argsstring>
+        <name>FileLastModificationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="129" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a2167756df1575ae6c58a3b6202be972f" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.FileLastModificationDate</definition>
+        <argsstring></argsstring>
+        <name>FileLastModificationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a419b556932a3bda4730c4fcca0e41c93" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 UniGLTF.Zip.CommonHeader.CRC32</definition>
+        <argsstring></argsstring>
+        <name>CRC32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a558f8783c8f866cdae1eeb7f0872a171" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 UniGLTF.Zip.CommonHeader.CompressedSize</definition>
+        <argsstring></argsstring>
+        <name>CompressedSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aa7685cfe5d42247b8e0fb141b7e8262f" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 UniGLTF.Zip.CommonHeader.UncompressedSize</definition>
+        <argsstring></argsstring>
+        <name>UncompressedSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1abfd672a1de6cbb94a286aa12121c0428" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.FileNameLength</definition>
+        <argsstring></argsstring>
+        <name>FileNameLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="134" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a5a188473acda26add3db9bb6b5e3aeba" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 UniGLTF.Zip.CommonHeader.ExtraFieldLength</definition>
+        <argsstring></argsstring>
+        <name>ExtraFieldLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1ae62868def3541d7a9ff186cb16977d48" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract int</type>
+        <definition>abstract int UniGLTF.Zip.CommonHeader.Signature</definition>
+        <argsstring></argsstring>
+        <name>Signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a25f1730a553b622bad09dbbb89ee441a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract int</type>
+        <definition>abstract int UniGLTF.Zip.CommonHeader.FixedFieldLength</definition>
+        <argsstring></argsstring>
+        <name>FixedFieldLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1adb0783019e0520948b0319cd9c5bb3aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract int</type>
+        <definition>abstract int UniGLTF.Zip.CommonHeader.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aea0e795ccad8c29da662701b0a56b2ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UniGLTF.Zip.CommonHeader.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a32b72ed7b0ef7b382d7045b08acc5ab4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ArraySegment&lt; Byte &gt;</type>
+        <definition>ArraySegment&lt;Byte&gt; UniGLTF.Zip.CommonHeader.ExtraField</definition>
+        <argsstring></argsstring>
+        <name>ExtraField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="157" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a9941682248190417f4768c72eaf2de94" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.Zip.CommonHeader.CommonHeader</definition>
+        <argsstring>(Byte[] bytes, int offset)</argsstring>
+        <name>CommonHeader</name>
+        <param>
+          <type>Byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="106" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="106" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a343bde18965b538567bf798c9ce2e397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.Zip.CommonHeader.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="167" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a69f840d32adf024b1b5cc9aa4aa52d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UniGLTF.Zip.CommonHeader.ReadBefore</definition>
+        <argsstring>(BinaryReader r)</argsstring>
+        <name>ReadBefore</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header_1ab29194846ee6b0eee4ef457b8527ebf4">ReadBefore</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_zip_1_1_local_file_header_1a8814c8f97172b41bafa7ae7ee8b1ddde">ReadBefore</reimplementedby>
+        <param>
+          <type>BinaryReader</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1afbefc959edd5fb4abc0ba24b24d602c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.Zip.CommonHeader.Read</definition>
+        <argsstring>(BinaryReader r)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="179" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="179" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aff6731e9fbe215c1f68a65844104bb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UniGLTF.Zip.CommonHeader.ReadAfter</definition>
+        <argsstring>(BinaryReader r)</argsstring>
+        <name>ReadAfter</name>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header_1abe0c9bbf2c1fa6dc2874154d6bf7e9fe">ReadAfter</reimplementedby>
+        <reimplementedby refid="class_uni_g_l_t_f_1_1_zip_1_1_local_file_header_1abb170640855b0519ebdb5c938abf4850">ReadAfter</reimplementedby>
+        <param>
+          <type>BinaryReader</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="193" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="481">
+        <label>UniGLTF.Zip.CommonHeader</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header"/>
+      </node>
+      <node id="482">
+        <label>UniGLTF.Zip.CentralDirectoryFileHeader</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="483">
+        <label>UniGLTF.Zip.LocalFileHeader</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_local_file_header"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="97" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aee397e165d0d4790b6921c7114785471" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Bytes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a9941682248190417f4768c72eaf2de94" prot="protected" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>CommonHeader</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a558f8783c8f866cdae1eeb7f0872a171" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>CompressedSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1affc7f3213570ffda2513814351acf8b9" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>CompressionMethod</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a419b556932a3bda4730c4fcca0e41c93" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>CRC32</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a2ae96d1f9f306e876cdfdd4b291b6053" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Encoding</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a32b72ed7b0ef7b382d7045b08acc5ab4" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>ExtraField</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a5a188473acda26add3db9bb6b5e3aeba" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>ExtraFieldLength</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a2167756df1575ae6c58a3b6202be972f" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>FileLastModificationDate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1adc8db0473a7734ae4f30d97e772b3ada" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>FileLastModificationTime</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aea0e795ccad8c29da662701b0a56b2ca" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>FileName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1abfd672a1de6cbb94a286aa12121c0428" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>FileNameLength</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a25f1730a553b622bad09dbbb89ee441a" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>FixedFieldLength</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a53c141375ed1ecd76cdd3da7ca0e876e" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>GeneralPurposeBitFlag</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1adb0783019e0520948b0319cd9c5bb3aa" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Length</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a322df3de1c6b34e6aae91e6f73620e30" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Offset</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1afbefc959edd5fb4abc0ba24b24d602c9" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Read</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aff6731e9fbe215c1f68a65844104bb2a" prot="public" virt="pure-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>ReadAfter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a69f840d32adf024b1b5cc9aa4aa52d47" prot="public" virt="pure-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>ReadBefore</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1ae62868def3541d7a9ff186cb16977d48" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>Signature</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1a343bde18965b538567bf798c9ce2e397" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aa7685cfe5d42247b8e0fb141b7e8262f" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>UncompressedSize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1ad041396ca693961e2cc3918f79525680" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::CommonHeader</scope><name>VersionNeededToExtract</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

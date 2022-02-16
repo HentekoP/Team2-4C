@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::JsonSchemaSource</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9c8ddb364bdaf3cba436a2b00535ffb2" prot="public" static="no" mutable="no">
+        <type>FileInfo</type>
+        <definition>FileInfo UniGLTF.JsonSchema.JsonSchemaSource.FilePath</definition>
+        <argsstring></argsstring>
+        <name>FilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ad8931e14cbe9936cae3e4c2c12072b42" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.JsonPath</definition>
+        <argsstring></argsstring>
+        <name>JsonPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1abecfa18be571e6a606d1c09a45dd61e0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_uni_g_l_t_f_1_1_json_schema_1aecd828f444f27bbd4e33958edcfac82e" kindref="member">JsonSchemaType</ref></type>
+        <definition>JsonSchemaType UniGLTF.JsonSchema.JsonSchemaSource.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a741307c0e4e088d8ee5b0dbc55260767" compoundref="_json_schema_source_8cs" startline="96" endline="125">UniGLTF.JsonSchema.JsonSchemaSource.AddProperty</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a0af81cab3dd90d94ad38266059953600" compoundref="_json_schema_parser_8cs" startline="65" endline="87">UniGLTF.JsonSchema.JsonSchemaParser.MergeTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4a5ec939f024e213c1c63f0e485c57d0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a0af81cab3dd90d94ad38266059953600" compoundref="_json_schema_parser_8cs" startline="65" endline="87">UniGLTF.JsonSchema.JsonSchemaParser.MergeTo</referencedby>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7c6341a8e00a8ab2e47d4f91c49f8f35" compoundref="_format_writer_8cs" startline="156" endline="171">GenerateUniGLTFSerialization.FormatWriter.Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a24a48eccec0829ae2ae4893d300db3b2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_parser_1a0af81cab3dd90d94ad38266059953600" compoundref="_json_schema_parser_8cs" startline="65" endline="87">UniGLTF.JsonSchema.JsonSchemaParser.MergeTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a3754278bba41aeb307e89570038d8958" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.gltfDetail</definition>
+        <argsstring></argsstring>
+        <name>gltfDetail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a8cc39b2a0373515a1fa9b036120e33fe" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaSource.baseSchema</definition>
+        <argsstring></argsstring>
+        <name>baseSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a49bd2f8bc5f0044032749f75ccbc6098" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UniGLTF.JsonSchema.JsonSchemaSource.minimum</definition>
+        <argsstring></argsstring>
+        <name>minimum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a6afa5db5ff1126c669202b969ba3847a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.JsonSchema.JsonSchemaSource.exclusiveMinimum</definition>
+        <argsstring></argsstring>
+        <name>exclusiveMinimum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae66a7d5c3c929e93ced1638a76b3aa54" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UniGLTF.JsonSchema.JsonSchemaSource.maximum</definition>
+        <argsstring></argsstring>
+        <name>maximum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1afab2b31762b67530ca141b89a6ad2ab2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UniGLTF.JsonSchema.JsonSchemaSource.multipleOf</definition>
+        <argsstring></argsstring>
+        <name>multipleOf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9a0bfd1c59ba74a8572d7ccb250c3b05" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.pattern</definition>
+        <argsstring></argsstring>
+        <name>pattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9abcc556ab4cf6008b59008072f16b73" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref>[]</type>
+        <definition>string [] UniGLTF.JsonSchema.JsonSchemaSource.required</definition>
+        <argsstring></argsstring>
+        <name>required</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a37db7aa972332ca7e15840ca937eb8dc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaSource.additionalProperties</definition>
+        <argsstring></argsstring>
+        <name>additionalProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="142" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a7d583bf5380cb5b3e0f4841c2a9c84e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.JsonSchema.JsonSchemaSource.minProperties</definition>
+        <argsstring></argsstring>
+        <name>minProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="143" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae3032b302dab5bbeb62f980d39bf3dd2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaSource.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="147" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1adbac4949f3ebbbe7be494e25b183f300" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.JsonSchema.JsonSchemaSource.minItems</definition>
+        <argsstring></argsstring>
+        <name>minItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="148" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1af06eb856882ca03b3ef8002678e9c8bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UniGLTF.JsonSchema.JsonSchemaSource.maxItems</definition>
+        <argsstring></argsstring>
+        <name>maxItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="149" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a5328e6424edae7ae32055627583307f0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.JsonSchema.JsonSchemaSource.uniqueItems</definition>
+        <argsstring></argsstring>
+        <name>uniqueItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="150" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a823f65a9e1c8285fa3910b6c7e45d0e1" prot="public" static="no" mutable="no">
+        <type>KeyValuePair&lt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref>, int &gt;[]</type>
+        <definition>KeyValuePair&lt;string, int&gt; [] UniGLTF.JsonSchema.JsonSchemaSource.enumValues</definition>
+        <argsstring></argsstring>
+        <name>enumValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="154" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1af9f42d62860b5a124019f1a567a93295" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref>[]</type>
+        <definition>string [] UniGLTF.JsonSchema.JsonSchemaSource.enumStringValues</definition>
+        <argsstring></argsstring>
+        <name>enumStringValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="155" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.JsonSchema.JsonSchemaSource.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a22b7fbc16a4f6712900ad0d7a7578dbc" prot="private" static="no" mutable="no">
+        <type>List&lt; KeyValuePair&lt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref>, <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref> &gt; &gt;</type>
+        <definition>List&lt;KeyValuePair&lt;string, JsonSchemaSource&gt; &gt; UniGLTF.JsonSchema.JsonSchemaSource.m_properties</definition>
+        <argsstring></argsstring>
+        <name>m_properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a91fff196d43024fd3043510ac7687232" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>static string UniGLTF.JsonSchema.JsonSchemaSource.SplitParent</definition>
+        <argsstring>(string jsonPath)</argsstring>
+        <name>SplitParent</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4f680c17bea130e39abce639302a46c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaSource.AddJsonPath</definition>
+        <argsstring>(string jsonPath, JsonSchemaSource source)</argsstring>
+        <name>AddJsonPath</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>jsonPath</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae0d38614c8f7c44abcca6f18021553d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaSource.Get</definition>
+        <argsstring>(string jsonPath)</argsstring>
+        <name>Get</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>jsonPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="31" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1acbf9df133b0923bfc38d47898c80074f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+        <definition>JsonSchemaSource UniGLTF.JsonSchema.JsonSchemaSource.GetProperty</definition>
+        <argsstring>(string name, bool remove=false)</argsstring>
+        <name>GetProperty</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>remove</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="74" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a741307c0e4e088d8ee5b0dbc55260767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaSource.AddProperty</definition>
+        <argsstring>(string name, JsonSchemaSource prop)</argsstring>
+        <name>AddProperty</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="96" bodyend="125"/>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1abecfa18be571e6a606d1c09a45dd61e0" compoundref="_json_schema_source_8cs" startline="52">UniGLTF.JsonSchema.JsonSchemaSource.type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a1c69d100a26a94ab38249e7a2905f29a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; KeyValuePair&lt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref>, <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref> &gt; &gt;</type>
+        <definition>IEnumerable&lt;KeyValuePair&lt;string, JsonSchemaSource&gt; &gt; UniGLTF.JsonSchema.JsonSchemaSource.EnumerateProperties</definition>
+        <argsstring>()</argsstring>
+        <name>EnumerateProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="127" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a537525095ae1267620455a735e0e3116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref> &gt;</type>
+        <definition>IEnumerable&lt;JsonSchemaSource&gt; UniGLTF.JsonSchema.JsonSchemaSource.Children</definition>
+        <argsstring>()</argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="158" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="158" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a1f7785354211a2d6a685870b4f7a3183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref> &gt;</type>
+        <definition>IEnumerable&lt;JsonSchemaSource&gt; UniGLTF.JsonSchema.JsonSchemaSource.Traverse</definition>
+        <argsstring>()</argsstring>
+        <name>Traverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="181" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="181" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1afe2ba99ab7ed179c18fe3f9d267a50d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base" kindref="compound">Schemas.JsonSchemaBase</ref></type>
+        <definition>Schemas.JsonSchemaBase UniGLTF.JsonSchema.JsonSchemaSource.Create</definition>
+        <argsstring>(bool useUpperCamelName, string rootName=default)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>bool</type>
+          <declname>useUpperCamelName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>rootName</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="211" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="211" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a90dd562a35c88e895fb2f35a00f6aecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.JsonSchema.JsonSchemaSource.Dump</definition>
+        <argsstring>(StringBuilder sb, string indent=&quot;&quot;)</argsstring>
+        <name>Dump</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>sb</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+          <declname>indent</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="266" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="266" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1aa9e5059326a19c7eaa054e2c07f6dbf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" kindref="member">string</ref></type>
+        <definition>string UniGLTF.JsonSchema.JsonSchemaSource.Dump</definition>
+        <argsstring>()</argsstring>
+        <name>Dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="276" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="276" bodyend="281"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>型が確定する前にパースして値を集める </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1532">
+        <label>UniGLTF.JsonSchema.JsonSchemaSource</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source"/>
+        <childnode refid="1532" relation="usage">
+          <edgelabel>baseSchema</edgelabel>
+          <edgelabel>items</edgelabel>
+          <edgelabel>additionalProperties</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/JsonSchemaSource.cs" bodystart="13" bodyend="282"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a37db7aa972332ca7e15840ca937eb8dc" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>additionalProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4f680c17bea130e39abce639302a46c4" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>AddJsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a741307c0e4e088d8ee5b0dbc55260767" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>AddProperty</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a8cc39b2a0373515a1fa9b036120e33fe" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>baseSchema</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a537525095ae1267620455a735e0e3116" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Children</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1afe2ba99ab7ed179c18fe3f9d267a50d2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Create</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a24a48eccec0829ae2ae4893d300db3b2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>description</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a90dd562a35c88e895fb2f35a00f6aecf" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Dump</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1aa9e5059326a19c7eaa054e2c07f6dbf6" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Dump</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a1c69d100a26a94ab38249e7a2905f29a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>EnumerateProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1af9f42d62860b5a124019f1a567a93295" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>enumStringValues</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a823f65a9e1c8285fa3910b6c7e45d0e1" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>enumValues</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a6afa5db5ff1126c669202b969ba3847a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>exclusiveMinimum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9c8ddb364bdaf3cba436a2b00535ffb2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>FilePath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae0d38614c8f7c44abcca6f18021553d7" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Get</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1acbf9df133b0923bfc38d47898c80074f" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>GetProperty</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a3754278bba41aeb307e89570038d8958" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>gltfDetail</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae3032b302dab5bbeb62f980d39bf3dd2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>items</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ad8931e14cbe9936cae3e4c2c12072b42" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>JsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a22b7fbc16a4f6712900ad0d7a7578dbc" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>m_properties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1ae66a7d5c3c929e93ced1638a76b3aa54" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>maximum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1af06eb856882ca03b3ef8002678e9c8bc" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>maxItems</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a49bd2f8bc5f0044032749f75ccbc6098" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>minimum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1adbac4949f3ebbbe7be494e25b183f300" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>minItems</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a7d583bf5380cb5b3e0f4841c2a9c84e0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>minProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1afab2b31762b67530ca141b89a6ad2ab2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>multipleOf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9a0bfd1c59ba74a8572d7ccb250c3b05" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>pattern</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a9abcc556ab4cf6008b59008072f16b73" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>required</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a91fff196d43024fd3043510ac7687232" prot="private" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>SplitParent</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a0937bde531237eec44ba8720ace95436" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>string</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4a5ec939f024e213c1c63f0e485c57d0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>title</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a1f7785354211a2d6a685870b4f7a3183" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>Traverse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1abecfa18be571e6a606d1c09a45dd61e0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>type</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a5328e6424edae7ae32055627583307f0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::JsonSchemaSource</scope><name>uniqueItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_attribute" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchemaAttribute</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute" prot="public" virt="non-virtual">UniGLTF.BaseJsonSchemaAttribute</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_attribute_1a9c4550dfae9f937b5afa748bd19f61ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchemaAttribute.GetInfo</definition>
+        <argsstring>(FieldInfo fi)</argsstring>
+        <name>GetInfo</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1aaa25a9b35089db77eee6d17f8a03ea35">GetInfo</reimplements>
+        <param>
+          <type>FieldInfo</type>
+          <declname>fi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" bodystart="136" bodyend="166"/>
+        <references refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a7822b2e8f30155e130b7e03e6d07f1ce" compoundref="_json_schema_attribute_8cs" startline="50">UniGLTF.BaseJsonSchemaAttribute.EnumValues</references>
+        <references refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a0ad00eedea26d931d783e305f795bac5" compoundref="_json_schema_attribute_8cs" startline="111" endline="130">UniGLTF.BaseJsonSchemaAttribute.GetTypeName</references>
+        <references refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a4c3707f89ebf291674c071a602a9ea72" compoundref="_json_schema_attribute_8cs" startline="91" endline="109">UniGLTF.BaseJsonSchemaAttribute.IsNumber</references>
+        <references refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1aee21688a4f2702a42b30830af50fab77" compoundref="_json_schema_attribute_8cs" startline="27">UniGLTF.BaseJsonSchemaAttribute.Maximum</references>
+        <references refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a35f0a64aa57004668bfa56e5218fecbc" compoundref="_json_schema_attribute_8cs" startline="25">UniGLTF.BaseJsonSchemaAttribute.Minimum</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1509">
+        <label>Attribute</label>
+      </node>
+      <node id="1507">
+        <label>UniGLTF.JsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_attribute"/>
+        <childnode refid="1508" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1508">
+        <label>BaseJsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute"/>
+        <childnode refid="1509" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1513">
+        <label>UniJSON</label>
+      </node>
+      <node id="1512">
+        <label>Attribute</label>
+      </node>
+      <node id="1510">
+        <label>UniGLTF.JsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_attribute"/>
+        <childnode refid="1511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1511">
+        <label>BaseJsonSchemaAttribute</label>
+        <link refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute"/>
+        <childnode refid="1512" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1513" relation="usage">
+          <edgelabel>ValueType</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/JsonSchemaAttribute.cs" bodystart="134" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a4d361a35a4580aa7faa4c593010bca51" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Dependencies</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a0412d5cb366c201dad21fffd39843694" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Description</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a88673c6ee808827c9664b91134b2330a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>EnumExcludes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1ae57886a8a604f4df7ed812c6d49b6ae3" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>EnumSerializationType</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a7822b2e8f30155e130b7e03e6d07f1ce" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>EnumValues</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a2344a06e4e07043da5cb20a8a86482e5" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>ExclusiveMaximum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a07691b8afba8160a7a87958767662002" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>ExclusiveMinimum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a7c1b50f045d1aad4dac1d048efcee2b0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>ExplicitIgnorableItemLength</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a5a0d7d58f1730d9d93cac028e6ad1f4e" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>ExplicitIgnorableValue</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_attribute_1a9c4550dfae9f937b5afa748bd19f61ac" prot="public" virt="virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>GetInfo</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a0ad00eedea26d931d783e305f795bac5" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>GetTypeName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a4c3707f89ebf291674c071a602a9ea72" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>IsNumber</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1aee21688a4f2702a42b30830af50fab77" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Maximum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a4a471d683bef64f78bd25b6ab925486c" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>MaxItems</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1ac04a5366fb2a94d5f5e3454405e32954" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Merge</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a35f0a64aa57004668bfa56e5218fecbc" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Minimum</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a851f76b6abab26136b4207bce12d73a4" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>MinItems</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a30f2b55d0a93063b1c17bb5d1aa5d511" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>MinProperties</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a3a4dab5a5ec3d9a00736e67873f9bf47" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>MultipleOf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1ad206410b4e749f560879a69562a84af5" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Pattern</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a772001c52ac000359fafe6e5dbf3ddc9" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Required</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a7f7aa70732cea8758dabc7880f6670d4" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>SerializationConditions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a2aa78fb7aa27e97c39fc97198b343e6d" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>SkipSchemaComparison</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a170e8f1c61fdb2a5781df32e3889fc78" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>Title</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_base_json_schema_attribute_1a9d072891a9e15c273ac5adca4b1d920b" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchemaAttribute</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

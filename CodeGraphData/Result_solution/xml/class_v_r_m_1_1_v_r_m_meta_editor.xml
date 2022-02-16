@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_meta_editor" kind="class" prot="public">
+    <compoundname>VRM::VRMMetaEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_meta_editor_1a3b7b95a6cf8fc97f493360429eb88e8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_meta" kindref="compound">VRMMeta</ref></type>
+        <definition>VRMMeta VRM.VRMMetaEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a5b6ebf6500ba503f6272f6f1ae2d125a" compoundref="_v_r_m_meta_editor_8cs" startline="23" endline="31">VRM.VRMMetaEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_meta_editor_1aebffb8f3dc1e00ae43eb3a0261df4303" prot="private" static="no" mutable="no">
+        <type>Editor</type>
+        <definition>Editor VRM.VRMMetaEditor.m_Inspector</definition>
+        <argsstring></argsstring>
+        <name>m_Inspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1af23fe2c11b9dfb6ea5d28d7d74c77f22" compoundref="_v_r_m_meta_editor_8cs" startline="13" endline="16">VRM.VRMMetaEditor.DestroyEditor</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a5b6ebf6500ba503f6272f6f1ae2d125a" compoundref="_v_r_m_meta_editor_8cs" startline="23" endline="31">VRM.VRMMetaEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a282c60437482ad0959926e316a0fadf0" compoundref="_v_r_m_meta_editor_8cs" startline="33" endline="50">VRM.VRMMetaEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_meta_editor_1aa2accd85ba1d35df081d8e72e0c82f5d" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty VRM.VRMMetaEditor.m_VRMMetaObjectProp</definition>
+        <argsstring></argsstring>
+        <name>m_VRMMetaObjectProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a5b6ebf6500ba503f6272f6f1ae2d125a" compoundref="_v_r_m_meta_editor_8cs" startline="23" endline="31">VRM.VRMMetaEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a282c60437482ad0959926e316a0fadf0" compoundref="_v_r_m_meta_editor_8cs" startline="33" endline="50">VRM.VRMMetaEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_editor_1af23fe2c11b9dfb6ea5d28d7d74c77f22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMMetaEditor.DestroyEditor</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1aebffb8f3dc1e00ae43eb3a0261df4303" compoundref="_v_r_m_meta_editor_8cs" startline="10">VRM.VRMMetaEditor.m_Inspector</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a01b0928a8452431e939b5bffb7e2864d" compoundref="_v_r_m_meta_editor_8cs" startline="18" endline="21">VRM.VRMMetaEditor.OnDestroy</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_meta_editor_1a282c60437482ad0959926e316a0fadf0" compoundref="_v_r_m_meta_editor_8cs" startline="33" endline="50">VRM.VRMMetaEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_editor_1a01b0928a8452431e939b5bffb7e2864d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMMetaEditor.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1af23fe2c11b9dfb6ea5d28d7d74c77f22" compoundref="_v_r_m_meta_editor_8cs" startline="13" endline="16">VRM.VRMMetaEditor.DestroyEditor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_editor_1a5b6ebf6500ba503f6272f6f1ae2d125a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMMetaEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="23" bodyend="31"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1aebffb8f3dc1e00ae43eb3a0261df4303" compoundref="_v_r_m_meta_editor_8cs" startline="10">VRM.VRMMetaEditor.m_Inspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1a3b7b95a6cf8fc97f493360429eb88e8d" compoundref="_v_r_m_meta_editor_8cs" startline="9">VRM.VRMMetaEditor.m_target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1aa2accd85ba1d35df081d8e72e0c82f5d" compoundref="_v_r_m_meta_editor_8cs" startline="11">VRM.VRMMetaEditor.m_VRMMetaObjectProp</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_1ace4775152e0c10b3fd3b710d1421cd88" compoundref="_v_r_m_meta_8cs" startline="9">VRM.VRMMeta.Meta</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_meta_editor_1a282c60437482ad0959926e316a0fadf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMMetaEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="33" bodyend="50"/>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1af23fe2c11b9dfb6ea5d28d7d74c77f22" compoundref="_v_r_m_meta_editor_8cs" startline="13" endline="16">VRM.VRMMetaEditor.DestroyEditor</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1aebffb8f3dc1e00ae43eb3a0261df4303" compoundref="_v_r_m_meta_editor_8cs" startline="10">VRM.VRMMetaEditor.m_Inspector</references>
+        <references refid="class_v_r_m_1_1_v_r_m_meta_editor_1aa2accd85ba1d35df081d8e72e0c82f5d" compoundref="_v_r_m_meta_editor_8cs" startline="11">VRM.VRMMetaEditor.m_VRMMetaObjectProp</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2881">
+        <label>Editor</label>
+      </node>
+      <node id="2880">
+        <label>VRM.VRMMetaEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_editor"/>
+        <childnode refid="2881" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2884">
+        <label>VRM.VRMMeta</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta"/>
+        <childnode refid="2885" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2886" relation="usage">
+          <edgelabel>Meta</edgelabel>
+        </childnode>
+      </node>
+      <node id="2883">
+        <label>Editor</label>
+      </node>
+      <node id="2882">
+        <label>VRM.VRMMetaEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_editor"/>
+        <childnode refid="2883" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2884" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="2886">
+        <label>VRM.VRMMetaObject</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_object"/>
+        <childnode refid="2887" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2887">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2885">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Meta/VRMMetaEditor.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1af23fe2c11b9dfb6ea5d28d7d74c77f22" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>DestroyEditor</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1aebffb8f3dc1e00ae43eb3a0261df4303" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>m_Inspector</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1a3b7b95a6cf8fc97f493360429eb88e8d" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1aa2accd85ba1d35df081d8e72e0c82f5d" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>m_VRMMetaObjectProp</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1a01b0928a8452431e939b5bffb7e2864d" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>OnDestroy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1a5b6ebf6500ba503f6272f6f1ae2d125a" prot="private" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_meta_editor_1a282c60437482ad0959926e316a0fadf0" prot="public" virt="non-virtual"><scope>VRM::VRMMetaEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

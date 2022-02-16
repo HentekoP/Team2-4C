@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result" kind="struct" prot="private">
+    <compoundname>UniGLTF::BoneSelector::HitResult</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1aa0b438741b8629d5abb6cfff9f0b8d91" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.BoneSelector.HitResult.pos1</definition>
+        <argsstring></argsstring>
+        <name>pos1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a44d257176cced5c776d0f10e1e4aadc4" compoundref="_bone_selector_8cs" startline="73" endline="76">UniGLTF.BoneSelector.HitResult.Distance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a33ad4ecd1fe28627d33be7fff609cb63" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.BoneSelector.HitResult.pos2</definition>
+        <argsstring></argsstring>
+        <name>pos2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a44d257176cced5c776d0f10e1e4aadc4" compoundref="_bone_selector_8cs" startline="73" endline="76">UniGLTF.BoneSelector.HitResult.Distance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1ac3a4de6f97b1d15c33e41b902cd99ce8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniGLTF.BoneSelector.HitResult.s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a44d257176cced5c776d0f10e1e4aadc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float UniGLTF.BoneSelector.HitResult.Distance</definition>
+        <argsstring>()</argsstring>
+        <name>Distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" bodystart="73" bodyend="76"/>
+        <references refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1aa0b438741b8629d5abb6cfff9f0b8d91" compoundref="_bone_selector_8cs" startline="69">UniGLTF.BoneSelector.HitResult.pos1</references>
+        <references refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a33ad4ecd1fe28627d33be7fff609cb63" compoundref="_bone_selector_8cs" startline="70">UniGLTF.BoneSelector.HitResult.pos2</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_bone_selector_1aa6ff724e4d78991f1f0ddb63f8823170" compoundref="_bone_selector_8cs" startline="80" endline="111">UniGLTF.BoneSelector.IntersectBone</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1194">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1195" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1194" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1195">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1193">
+        <label>UniGLTF.BoneSelector.HitResult</label>
+        <link refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result"/>
+        <childnode refid="1194" relation="usage">
+          <edgelabel>pos1</edgelabel>
+          <edgelabel>pos2</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/Gizmo/BoneSelector.cs" bodystart="67" bodyend="77"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a44d257176cced5c776d0f10e1e4aadc4" prot="public" virt="non-virtual"><scope>UniGLTF::BoneSelector::HitResult</scope><name>Distance</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1aa0b438741b8629d5abb6cfff9f0b8d91" prot="public" virt="non-virtual"><scope>UniGLTF::BoneSelector::HitResult</scope><name>pos1</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1a33ad4ecd1fe28627d33be7fff609cb63" prot="public" virt="non-virtual"><scope>UniGLTF::BoneSelector::HitResult</scope><name>pos2</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_bone_selector_1_1_hit_result_1ac3a4de6f97b1d15c33e41b902cd99ce8" prot="public" virt="non-virtual"><scope>UniGLTF::BoneSelector::HitResult</scope><name>s</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

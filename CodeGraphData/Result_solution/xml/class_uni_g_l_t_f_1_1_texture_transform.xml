@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_texture_transform" kind="class" prot="public">
+    <compoundname>UniGLTF::TextureTransform</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_transform_1acc755721dc585cca64ff6651584b689a" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+        <definition>Vector2 UniGLTF.TextureTransform.Scale</definition>
+        <argsstring></argsstring>
+        <name>Scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ulink url="https://github.com/vrm-c/UniVRM/issues/930">https://github.com/vrm-c/UniVRM/issues/930</ulink> offset.y = 1.0f - offset.y - scale.y; </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_texture_transform_1a6367410a82f08e6cb486bfcee47fcd53" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref> <ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref> Offset</type>
+        <definition>static Vector2 Vector2 Offset UniGLTF.TextureTransform.VerticalFlipScaleOffset</definition>
+        <argsstring>(Vector2 s, Vector2 o)</argsstring>
+        <name>VerticalFlipScaleOffset</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" bodystart="17" bodyend="20"/>
+        <references refid="struct_unity_engine_1_1_vector2_1ac74191c1f776537ad229d1ccf3a67925" compoundref="_unity_engine_compatibility_8cs" startline="13">UnityEngine.Vector2.x</references>
+        <references refid="struct_unity_engine_1_1_vector2_1afbb5b98e5727ffba74402fc27a58443a" compoundref="_unity_engine_compatibility_8cs" startline="14">UnityEngine.Vector2.y</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1adad96ef91f9108aa9903cd3efadb9c34" compoundref="_material_exporter_8cs" startline="203" endline="213">UniGLTF.MaterialExporter.Export_TextureTransform</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_importer_1a011d472a57decfd682b140949195adc5" compoundref="_gltf_texture_importer_8cs" startline="142" endline="163">UniGLTF.GltfTextureImporter.GetTextureOffsetAndScale</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2376">
+        <label>UnityEngine.Vector2</label>
+        <link refid="struct_unity_engine_1_1_vector2"/>
+      </node>
+      <node id="2375">
+        <label>UniGLTF.TextureTransform</label>
+        <link refid="class_uni_g_l_t_f_1_1_texture_transform"/>
+        <childnode refid="2376" relation="usage">
+          <edgelabel>Scale</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/TextureTransform.cs" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_texture_transform_1acc755721dc585cca64ff6651584b689a" prot="public" virt="non-virtual"><scope>UniGLTF::TextureTransform</scope><name>Scale</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_transform_1a6367410a82f08e6cb486bfcee47fcd53" prot="private" virt="non-virtual"><scope>UniGLTF::TextureTransform</scope><name>VerticalFlipScaleOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

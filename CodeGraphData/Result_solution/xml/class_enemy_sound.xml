@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_enemy_sound" kind="class" prot="public">
+    <compoundname>EnemySound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_enemy_sound_1a412389b8f5409d23dc03c881501d7dc9" prot="private" static="yes" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource EnemySound.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_enemy_sound_1ad46c0e865450e0cdea9006b865ac289c" compoundref="_enemy_sound_8cs" startline="52" endline="55">GetEnemySE</referencedby>
+        <referencedby refid="class_enemy_sound_1a53b9a5623e73303a92f6d629cf06bd49" compoundref="_enemy_sound_8cs" startline="13" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_sound_1a29d13804d458b6919605c112c606fa67" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemySound.getSEFlag</definition>
+        <argsstring></argsstring>
+        <name>getSEFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_enemy_sound_1add9b27bdaa3506e944d269bc31921bd5" compoundref="_enemy_sound_8cs" startline="22" endline="50">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_sound_1a6dc3029b7447f2a929619e9352357487" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemySound.pauseflag</definition>
+        <argsstring></argsstring>
+        <name>pauseflag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_enemy_sound_1add9b27bdaa3506e944d269bc31921bd5" compoundref="_enemy_sound_8cs" startline="22" endline="50">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_sound_1a53b9a5623e73303a92f6d629cf06bd49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySound.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="13" bodyend="19"/>
+        <references refid="class_enemy_sound_1a412389b8f5409d23dc03c881501d7dc9" compoundref="_enemy_sound_8cs" startline="8">audioSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_sound_1add9b27bdaa3506e944d269bc31921bd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemySound.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="22" bodyend="50"/>
+        <references refid="class_enemy_sound_1a29d13804d458b6919605c112c606fa67" compoundref="_enemy_sound_8cs" startline="10">getSEFlag</references>
+        <references refid="class_enemy_sound_1a6dc3029b7447f2a929619e9352357487" compoundref="_enemy_sound_8cs" startline="11">pauseflag</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_enemy_sound_1ad46c0e865450e0cdea9006b865ac289c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AudioSource</type>
+        <definition>static AudioSource EnemySound.GetEnemySE</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnemySE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_enemy_sound_1a412389b8f5409d23dc03c881501d7dc9" compoundref="_enemy_sound_8cs" startline="8">audioSource</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="610">
+        <label>EnemySound</label>
+        <link refid="class_enemy_sound"/>
+        <childnode refid="611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="612">
+        <label>EnemySound</label>
+        <link refid="class_enemy_sound"/>
+        <childnode refid="613" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="613">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/EnemySound.cs" bodystart="5" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_enemy_sound_1a412389b8f5409d23dc03c881501d7dc9" prot="private" virt="non-virtual"><scope>EnemySound</scope><name>audioSource</name></member>
+      <member refid="class_enemy_sound_1ad46c0e865450e0cdea9006b865ac289c" prot="public" virt="non-virtual"><scope>EnemySound</scope><name>GetEnemySE</name></member>
+      <member refid="class_enemy_sound_1a29d13804d458b6919605c112c606fa67" prot="private" virt="non-virtual"><scope>EnemySound</scope><name>getSEFlag</name></member>
+      <member refid="class_enemy_sound_1a6dc3029b7447f2a929619e9352357487" prot="private" virt="non-virtual"><scope>EnemySound</scope><name>pauseflag</name></member>
+      <member refid="class_enemy_sound_1a53b9a5623e73303a92f6d629cf06bd49" prot="private" virt="non-virtual"><scope>EnemySound</scope><name>Start</name></member>
+      <member refid="class_enemy_sound_1add9b27bdaa3506e944d269bc31921bd5" prot="private" virt="non-virtual"><scope>EnemySound</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_utf8_string_builder" kind="class" prot="public">
+    <compoundname>UniJSON::Utf8StringBuilder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_j_s_o_n_1_1_byte_buffer" kindref="compound">ByteBuffer</ref></type>
+        <definition>ByteBuffer UniJSON.Utf8StringBuilder.m_buffer</definition>
+        <argsstring></argsstring>
+        <name>m_buffer</name>
+        <initializer>= new <ref refid="class_uni_j_s_o_n_1_1_byte_buffer" kindref="compound">ByteBuffer</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a8298c563dbd7a13733afe0b687eb4aae" compoundref="_utf8_string_builder_8cs" startline="28" endline="31">UniJSON.Utf8StringBuilder.ToUtf8String</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1ae8d55425c6d5b2863aacacb9dcfbb93d" prot="private" static="yes" mutable="no">
+        <type>Encoding</type>
+        <definition>Encoding UniJSON.Utf8StringBuilder.s_utf8</definition>
+        <argsstring></argsstring>
+        <name>s_utf8</name>
+        <initializer>= new UTF8Encoding(false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.Utf8StringBuilder.Ascii</definition>
+        <argsstring>(char c)</argsstring>
+        <name>Ascii</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="9" bodyend="12"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a03b4b590f60370cd2e9c3858576df245" compoundref="_utf8_string_builder_8cs" startline="16" endline="21">UniJSON.Utf8StringBuilder.Quote</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1a03b4b590f60370cd2e9c3858576df245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.Utf8StringBuilder.Quote</definition>
+        <argsstring>(string text)</argsstring>
+        <name>Quote</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="16" bodyend="21"/>
+        <references refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" compoundref="_utf8_string_builder_8cs" startline="9" endline="12">UniJSON.Utf8StringBuilder.Ascii</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1af04fcfaf1e2107b741422844e6f6c747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.Utf8StringBuilder.Add</definition>
+        <argsstring>(Utf8String str)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_utf8_string_builder_1a8298c563dbd7a13733afe0b687eb4aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref></type>
+        <definition>Utf8String UniJSON.Utf8StringBuilder.ToUtf8String</definition>
+        <argsstring>()</argsstring>
+        <name>ToUtf8String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="28" bodyend="31"/>
+        <references refid="class_uni_j_s_o_n_1_1_byte_buffer_1a41390089c18284d160303f3471a3a27d" compoundref="_byte_buffer_8cs" startline="10">UniJSON.ByteBuffer.Bytes</references>
+        <references refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" compoundref="_utf8_string_builder_8cs" startline="7">UniJSON.Utf8StringBuilder.m_buffer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2554">
+        <label>UniJSON.Utf8StringBuilder</label>
+        <link refid="class_uni_j_s_o_n_1_1_utf8_string_builder"/>
+        <childnode refid="2555" relation="usage">
+          <edgelabel>m_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2555">
+        <label>UniJSON.ByteBuffer</label>
+        <link refid="class_uni_j_s_o_n_1_1_byte_buffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs" bodystart="5" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1af04fcfaf1e2107b741422844e6f6c747" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>Add</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>Ascii</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" prot="private" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>m_buffer</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a03b4b590f60370cd2e9c3858576df245" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>Quote</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1ae8d55425c6d5b2863aacacb9dcfbb93d" prot="private" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>s_utf8</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a8298c563dbd7a13733afe0b687eb4aae" prot="public" virt="non-virtual"><scope>UniJSON::Utf8StringBuilder</scope><name>ToUtf8String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_channel_curve" kind="class" prot="public">
+    <compoundname>UniHumanoid::ChannelCurve</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float[]</type>
+        <definition>float [] UniHumanoid.ChannelCurve.Keys</definition>
+        <argsstring></argsstring>
+        <name>Keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="164" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="165" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_channel_curve_1abcae5ca138be17cdebc686cc2ce31f09" compoundref="_bvh_8cs" startline="170" endline="173">UniHumanoid.ChannelCurve.ChannelCurve</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1a12da972c2afacfce3bf043d97c252542" compoundref="_bvh_animation_clip_8cs" startline="22" endline="28">UniHumanoid.BvhAnimation.CurveSet.GetPosition</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_animation_1_1_curve_set_1ae6e7a731d5e013a9bca1ffe298bc719e" compoundref="_bvh_animation_clip_8cs" startline="33" endline="44">UniHumanoid.BvhAnimation.CurveSet.GetRotation</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_channel_curve_1a9b8f8902c75f1c5f7497ee0b9bd8d45b" compoundref="_bvh_8cs" startline="175" endline="178">UniHumanoid.ChannelCurve.SetKey</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_channel_curve_1abcae5ca138be17cdebc686cc2ce31f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniHumanoid.ChannelCurve.ChannelCurve</definition>
+        <argsstring>(int frameCount)</argsstring>
+        <name>ChannelCurve</name>
+        <param>
+          <type>int</type>
+          <declname>frameCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="170" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="170" bodyend="173"/>
+        <references refid="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" compoundref="_bvh_8cs" startline="165">UniHumanoid.ChannelCurve.Keys</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_channel_curve_1a9b8f8902c75f1c5f7497ee0b9bd8d45b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.ChannelCurve.SetKey</definition>
+        <argsstring>(int frame, float value)</argsstring>
+        <name>SetKey</name>
+        <param>
+          <type>int</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="175" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="175" bodyend="178"/>
+        <references refid="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" compoundref="_bvh_8cs" startline="165">UniHumanoid.ChannelCurve.Keys</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" line="163" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Format/Bvh.cs" bodystart="162" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_channel_curve_1abcae5ca138be17cdebc686cc2ce31f09" prot="public" virt="non-virtual"><scope>UniHumanoid::ChannelCurve</scope><name>ChannelCurve</name></member>
+      <member refid="class_uni_humanoid_1_1_channel_curve_1a22a0a59be2409d8d0a97e4ec687dde04" prot="public" virt="non-virtual"><scope>UniHumanoid::ChannelCurve</scope><name>Keys</name></member>
+      <member refid="class_uni_humanoid_1_1_channel_curve_1a9b8f8902c75f1c5f7497ee0b9bd8d45b" prot="public" virt="non-virtual"><scope>UniHumanoid::ChannelCurve</scope><name>SetKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

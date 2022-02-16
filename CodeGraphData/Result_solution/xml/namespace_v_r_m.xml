@@ -1,0 +1,1003 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_v_r_m" kind="namespace">
+    <compoundname>VRM</compoundname>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_avatar" prot="public">VRM::BlendShapeAvatar</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_binding_merger" prot="public">VRM::BlendShapeBindingMerger</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_blend_shape_binding" prot="public">VRM::BlendShapeBinding</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_material_value_binding" prot="public">VRM::MaterialValueBinding</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip" prot="public">VRM::BlendShapeClip</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip_handler" prot="public">VRM::BlendShapeClipHandler</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_blend_shape_key" prot="public">VRM::BlendShapeKey</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_merger" prot="public">VRM::BlendShapeMerger</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blinker" prot="public">VRM::Blinker</innerclass>
+    <innerclass refid="class_v_r_m_1_1_material_value_binding_merger" prot="public">VRM::MaterialValueBindingMerger</innerclass>
+    <innerclass refid="class_v_r_m_1_1_material_item" prot="public">VRM::MaterialItem</innerclass>
+    <innerclass refid="class_v_r_m_1_1_mesh_preview_item" prot="public">VRM::MeshPreviewItem</innerclass>
+    <innerclass refid="class_v_r_m_1_1_preview_scene_manager" prot="public">VRM::PreviewSceneManager</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" prot="public">VRM::VRMBlendShapeProxy</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_extensions" prot="public">VRM::VRMBlendShapeProxyExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_enum_util" prot="public">VRM::EnumUtil</innerclass>
+    <innerclass refid="interface_v_r_m_1_1_i_v_r_m_component" prot="public">VRM::IVRMComponent</innerclass>
+    <innerclass refid="class_v_r_m_1_1_enum_extensions" prot="public">VRM::EnumExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions" prot="public">VRM::glTF_VRMExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_bone_extensions" prot="public">VRM::VRMBoneExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_humanoid_extensions" prot="public">VRM::VRMHumanoidExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_first_person" prot="public">VRM::VRMFirstPerson</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_first_person_camera_manager" prot="public">VRM::VRMFirstPersonCameraManager</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind" prot="public">VRM::glTF_VRM_MaterialValueBind</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" prot="public">VRM::glTF_VRM_BlendShapeBind</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" prot="public">VRM::glTF_VRM_BlendShapeGroup</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master" prot="public">VRM::glTF_VRM_BlendShapeMaster</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" prot="public">VRM::glTF_VRM_extensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" prot="public">VRM::glTF_VRM_DegreeMap</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation" prot="public">VRM::glTF_VRM_MeshAnnotation</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson" prot="public">VRM::glTF_VRM_Firstperson</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" prot="public">VRM::glTF_VRM_HumanoidBone</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" prot="public">VRM::glTF_VRM_Humanoid</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___material" prot="public">VRM::glTF_VRM_Material</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___meta" prot="public">VRM::glTF_VRM_Meta</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" prot="public">VRM::glTF_VRM_SecondaryAnimationCollider</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group" prot="public">VRM::glTF_VRM_SecondaryAnimationColliderGroup</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group" prot="public">VRM::glTF_VRM_SecondaryAnimationGroup</innerclass>
+    <innerclass refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation" prot="public">VRM::glTF_VRM_SecondaryAnimation</innerclass>
+    <innerclass refid="class_v_r_m_1_1_vrm_deserializer" prot="public">VRM::VrmDeserializer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_exception" prot="public">VRM::VRMException</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_serializer" prot="public">VRM::VRMSerializer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spec_version" prot="public">VRM::VRMSpecVersion</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_version" prot="public">VRM::VRMVersion</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_humanoid_description" prot="public">VRM::VRMHumanoidDescription</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_data" prot="public">VRM::VRMData</innerclass>
+    <innerclass refid="class_v_r_m_1_1_not_vrm0_exception" prot="public">VRM::NotVrm0Exception</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_exporter" prot="public">VRM::VRMExporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_importer_context" prot="public">VRM::VRMImporterContext</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_importer_context_extensions" prot="public">VRM::VRMImporterContextExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_material_descriptor_generator" prot="public">VRM::VRMMaterialDescriptorGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_material_exporter" prot="public">VRM::VRMMaterialExporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_m_toon_material_importer" prot="public">VRM::VRMMToonMaterialImporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_m_toon_texture_importer" prot="public">VRM::VRMMToonTextureImporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_vrm_texture_descriptor_generator" prot="public">VRM::VrmTextureDescriptorGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_unlit_transparent_z_write_material_importer" prot="public">VRM::VRMUnlitTransparentZWriteMaterialImporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator" prot="public">VRM::VRMUrpMaterialDescriptorGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_curve_mapper" prot="public">VRM::CurveMapper</innerclass>
+    <innerclass refid="class_v_r_m_1_1_look_at_target_switcher" prot="public">VRM::LookAtTargetSwitcher</innerclass>
+    <innerclass refid="class_v_r_m_1_1_look_target" prot="public">VRM::LookTarget</innerclass>
+    <innerclass refid="class_v_r_m_1_1_matrix4x4_extensions" prot="public">VRM::Matrix4x4Extensions</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_offset_on_transform" prot="public">VRM::OffsetOnTransform</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at" prot="public">VRM::VRMLookAt</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer" prot="public">VRM::VRMLookAtBlendShapeApplyer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer" prot="public">VRM::VRMLookAtBoneApplyer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at_head" prot="public">VRM::VRMLookAtHead</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta" prot="public">VRM::VRMMeta</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta_information" prot="public">VRM::VRMMetaInformation</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta_object" prot="public">VRM::VRMMetaObject</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_bone_normalizer" prot="public">VRM::VRMBoneNormalizer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_mesh_integrator_utility" prot="public">VRM::VRMMeshIntegratorUtility</innerclass>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bone_disposer" prot="public">VRM::FastSpringBoneDisposer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bone_replacer" prot="public">VRM::FastSpringBoneReplacer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bone_service" prot="public">VRM::FastSpringBoneService</innerclass>
+    <innerclass refid="class_v_r_m_1_1_transform_extensions" prot="public">VRM::TransformExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone" prot="public">VRM::VRMSpringBone</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group" prot="public">VRM::VRMSpringBoneColliderGroup</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_utility" prot="public">VRM::VRMSpringUtility</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_a_o_t_code_generator" prot="public">VRM::VRMAOTCodeGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_deserializer_generator" prot="package">VRM::VRMDeserializerGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_serializer_generator" prot="package">VRM::VRMSerializerGenerator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_avatar_editor" prot="public">VRM::BlendShapeAvatarEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip_drawer" prot="public">VRM::BlendShapeClipDrawer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip_editor" prot="public">VRM::BlendShapeClipEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip_editor_helper" prot="public">VRM::BlendShapeClipEditorHelper</innerclass>
+    <innerclass refid="class_v_r_m_1_1_texture_scale" prot="public">VRM::TextureScale</innerclass>
+    <innerclass refid="class_v_r_m_1_1_blend_shape_clip_selector" prot="public">VRM::BlendShapeClipSelector</innerclass>
+    <innerclass refid="class_v_r_m_1_1_preview_editor" prot="public">VRM::PreviewEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_preview_face_renderer" prot="public">VRM::PreviewFaceRenderer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_serialized_blend_shape_editor" prot="public">VRM::SerializedBlendShapeEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor" prot="public">VRM::VRMBlendShapeProxyEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_validator" prot="public">VRM::VRMBlendShapeProxyValidator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_build_class" prot="public">VRM::BuildClass</innerclass>
+    <innerclass refid="class_v_r_m_1_1_vrm_preference" prot="public">VRM::VrmPreference</innerclass>
+    <innerclass refid="class_v_r_m_1_1_vrm_top_menu" prot="public">VRM::VrmTopMenu</innerclass>
+    <innerclass refid="class_v_r_m_1_1_renderer_first_person_flags_drawer" prot="public">VRM::RendererFirstPersonFlagsDrawer</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_first_person_editor" prot="public">VRM::VRMFirstPersonEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_first_person_validator" prot="public">VRM::VRMFirstPersonValidator</innerclass>
+    <innerclass refid="struct_v_r_m_1_1_record_disposer" prot="public">VRM::RecordDisposer</innerclass>
+    <innerclass refid="class_v_r_m_1_1vrm_asset_postprocessor" prot="public">VRM::vrmAssetPostprocessor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_export_filter" prot="public">VRM::VRMBlendShapeExportFilter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_editor_exporter" prot="public">VRM::VRMEditorExporter</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_editor_importer_context" prot="public">VRM::VRMEditorImporterContext</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_exporter_validator" prot="public">VRM::VRMExporterValidator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_exporter_wizard" prot="public">VRM::VRMExporterWizard</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_export_settings" prot="public">VRM::VRMExportSettings</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_export_settings_editor" prot="public">VRM::VRMExportSettingsEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_humanoid_normalizer_menu" prot="public">VRM::VRMHumanoidNormalizerMenu</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_importer_menu" prot="public">VRM::VRMImporterMenu</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_sample_copy" prot="public">VRM::VRMSampleCopy</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_version_menu" prot="public">VRM::VRMVersionMenu</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at_head_editor" prot="public">VRM::VRMLookAtHeadEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta_editor" prot="public">VRM::VRMMetaEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_meta_object_editor" prot="public">VRM::VRMMetaObjectEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_mesh_integrator_editor" prot="public">VRM::MeshIntegratorEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_mesh_integrator_wizard" prot="public">VRM::MeshIntegratorWizard</innerclass>
+    <innerclass refid="class_v_r_m_1_1_skinned_mesh_utility" prot="public">VRM::SkinnedMeshUtility</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_editor" prot="public">VRM::VRMSpringBoneColliderGroupEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone_utility_editor" prot="package">VRM::VRMSpringBoneUtilityEditor</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_spring_bone_validator" prot="public">VRM::VRMSpringBoneValidator</innerclass>
+    <innerclass refid="class_v_r_m_1_1_enum_util_test" prot="public">VRM::EnumUtilTest</innerclass>
+    <innerclass refid="class_v_r_m_1_1_invalid_file_name_test" prot="public">VRM::InvalidFileNameTest</innerclass>
+    <innerclass refid="class_v_r_m_1_1_mesh_tests" prot="public">VRM::MeshTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_m_toon_tests" prot="public">VRM::MToonTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_normalize_tests" prot="public">VRM::NormalizeTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_to_json_extensions" prot="public">VRM::ToJsonExtensions</innerclass>
+    <innerclass refid="class_v_r_m_1_1_uni_v_r_m_serialize_tests" prot="public">VRM::UniVRMSerializeTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_uni_v_r_m_version_tests" prot="public">VRM::UniVRMVersionTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_key_test" prot="public">VRM::VRMBlendShapeKeyTest</innerclass>
+    <innerclass refid="class_v_r_m_1_1_divided_mesh_tests" prot="public">VRM::DividedMeshTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_load_test" prot="public">VRM::VRMLoadTest</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_look_at_tests" prot="public">VRM::VRMLookAtTests</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_test_assets" prot="public">VRM::VRMTestAssets</innerclass>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_texture_enumerate_tests" prot="public">VRM::VRMTextureEnumerateTests</innerclass>
+    <innernamespace refid="namespace_v_r_m_1_1_dev_only">VRM::DevOnly</innernamespace>
+    <innernamespace refid="namespace_v_r_m_1_1_fast_spring_bones">VRM::FastSpringBones</innernamespace>
+    <innernamespace refid="namespace_v_r_m_1_1_samples">VRM::Samples</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" prot="public" static="no">
+        <name>BlendShapePreset</name>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dae9bb5320b3890b6747c91b5a71ae5a01" prot="public">
+          <name>Neutral</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dadd7536794b63bf90eccfd37f9b147d7f" prot="public">
+          <name>I</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da4c614360da93c0a041b22e537de151eb" prot="public">
+          <name>U</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da3a3ea00cfc35332cedf6e5e9a32e94da" prot="public">
+          <name>E</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02daf186217753c37b9b9f958d906208506e" prot="public">
+          <name>O</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dacfad0a7419f44ea0c64db24197abbf70" prot="public">
+          <name>Blink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da26307ecc02f0e3cb30346d1f28d4c225" prot="public">
+          <name>Joy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dacc3b72d79006b9b02571c1974f08244d" prot="public">
+          <name>Angry</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dafdd8b836fb848f8df9c292bb0435022f" prot="public">
+          <name>Sorrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da46d6d315bea88efbf048125d2ec444b4" prot="public">
+          <name>Fun</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da5ca771078723e6444d6e62fee8d308e1" prot="public">
+          <name>LookUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da4b85ded56391316230738e585b8e9928" prot="public">
+          <name>LookDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02da14cdf7aa53ef59cf59f92c2dc3fb0995" prot="public">
+          <name>LookLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02daaad7189bc2f597702089af6b98dbebff" prot="public">
+          <name>LookRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02dae5840644840e8372d57a6c8fbfe5f746" prot="public">
+          <name>Blink_L</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02daaec54dcaecfa1a994b3f99a6eaba1b42" prot="public">
+          <name>Blink_R</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_BlendShape.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_BlendShape.cs" bodystart="32" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1ace0f291fc6b0359c43077f947e80a9a5" prot="public" static="no">
+        <name>FirstPersonFlag</name>
+        <enumvalue id="namespace_v_r_m_1ace0f291fc6b0359c43077f947e80a9a5a06b9281e396db002010bde1de57262eb" prot="public">
+          <name>Auto</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ace0f291fc6b0359c43077f947e80a9a5a130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ace0f291fc6b0359c43077f947e80a9a5ad51ae7f9acfe9a7f78800a99e57b1e87" prot="public">
+          <name>ThirdPersonOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ace0f291fc6b0359c43077f947e80a9a5a810201a672594922c42c41399834a0df" prot="public">
+          <name>FirstPersonOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_FirstPerson.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_FirstPerson.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1ac95af66edb0dae797f74b2aad2e34882" prot="public" static="no">
+        <name>LookAtType</name>
+        <enumvalue id="namespace_v_r_m_1ac95af66edb0dae797f74b2aad2e34882a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ac95af66edb0dae797f74b2aad2e34882ad790f0e7721581ed25c97eef3f5e9021" prot="public">
+          <name>Bone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ac95af66edb0dae797f74b2aad2e34882abe06c6a41b8206dda31c77aaf4bedf65" prot="public">
+          <name>BlendShape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_FirstPerson.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_FirstPerson.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983" prot="public" static="no">
+        <name>VRMBone</name>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983af8c80f9a170ee6ab52ed1e87054f32d4" prot="public">
+          <name>hips</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a10e1975f839db2d8b83cb7cec508eeb7" prot="public">
+          <name>leftUpperLeg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a8aa9b7f734315dbfe4d67108eadf29df" prot="public">
+          <name>rightUpperLeg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ad0bc51bbea705c3f813910532c834af8" prot="public">
+          <name>leftLowerLeg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a82af6ed6b94dbb39dab4e9cd341279a9" prot="public">
+          <name>rightLowerLeg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983aa162787dff1327ae1ee90a43e6e0a2f7" prot="public">
+          <name>leftFoot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a7d2e851c69f79ca07624d98bad6e1caa" prot="public">
+          <name>rightFoot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983aa35ecf344c66770b2ba0f0e913747072" prot="public">
+          <name>spine</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a14952ea782ad87d7e30059fa3cc516f1" prot="public">
+          <name>chest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a45fe7e5529d283851d93b74536e095a0" prot="public">
+          <name>neck</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a96e89a298e0a9f469b9ae458d6afae9f" prot="public">
+          <name>head</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ab8f9c6900242812c7d580dc263668de8" prot="public">
+          <name>leftShoulder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983abdd85db15fdf2c36160b1452bce28730" prot="public">
+          <name>rightShoulder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a226f4f6ffe531bd2c8f970054f9c384b" prot="public">
+          <name>leftUpperArm</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ad9c42abd203e587bdc67cd7f3b6cb5e9" prot="public">
+          <name>rightUpperArm</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ab1c828443bf768666608c2dafb4d213c" prot="public">
+          <name>leftLowerArm</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983af04a937432c1cb136eed3a408d521d3f" prot="public">
+          <name>rightLowerArm</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ac38809848b8ff11a735291d013bff7b7" prot="public">
+          <name>leftHand</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a243cb7db6712b11b8b8260dfb5798140" prot="public">
+          <name>rightHand</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ae9f05eaca2282cdbe4fd90ec6ca9d9c0" prot="public">
+          <name>leftToes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a44e3af317691b9716130a44f86677475" prot="public">
+          <name>rightToes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ac338e51e76c604905d2bf19ea2817dd1" prot="public">
+          <name>leftEye</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983aa150de6c2cf5542764d9adc0c4cfb39e" prot="public">
+          <name>rightEye</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a272f3da8ea6283df73187baf02345637" prot="public">
+          <name>jaw</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a5e98f3c4d21554a7325096da7d8affc1" prot="public">
+          <name>leftThumbProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a1239e9ea739966503510ee315dba4f5f" prot="public">
+          <name>leftThumbIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983afa9334e90d7340f677ea41aa9f2c9deb" prot="public">
+          <name>leftThumbDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a6b8eb0a6f4ea2d7359b9adb523ad18ef" prot="public">
+          <name>leftIndexProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a062cb4db88c44f050c789ab766ddc0c2" prot="public">
+          <name>leftIndexIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a273d23d690744bb58ca74eaa6df53a27" prot="public">
+          <name>leftIndexDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a57396087b13413b2e99862010542acf2" prot="public">
+          <name>leftMiddleProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a455e701819d49d5b055cdb3ee54dd3e8" prot="public">
+          <name>leftMiddleIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a3b2b6c40384d8a127044c7a7d84345ba" prot="public">
+          <name>leftMiddleDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a34170f5d2416434ec0fed175352fff60" prot="public">
+          <name>leftRingProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a7d261db87883496ea20f50b07654aa89" prot="public">
+          <name>leftRingIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a3b2c1ea4c7d306a41d0b851401336ba1" prot="public">
+          <name>leftRingDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a4760475a2f2cdb2f217eb052aab6f197" prot="public">
+          <name>leftLittleProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a018bb0846aa41a2e3dd5d7373d70bb3b" prot="public">
+          <name>leftLittleIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ac0487c8e82b1bbcde141b35d4ba040f1" prot="public">
+          <name>leftLittleDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a48da258a11629fd5a1594bef37af7c1a" prot="public">
+          <name>rightThumbProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a8f47fa4396d9e14331c480704e4c85bc" prot="public">
+          <name>rightThumbIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a2d5f1f6a373b924e6553af8c042f8cb1" prot="public">
+          <name>rightThumbDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a8998507b07a211a65fa473d3dd1c3b8d" prot="public">
+          <name>rightIndexProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a657e55cb1d29f10cd833fbf700f2dad2" prot="public">
+          <name>rightIndexIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a55c7bd5baad61cbdcc0f0bfe01591a9d" prot="public">
+          <name>rightIndexDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a7678880e0e045f8dfaa2c1244d96d8c5" prot="public">
+          <name>rightMiddleProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a4c794686246ab4334aae1b4da613bafc" prot="public">
+          <name>rightMiddleIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a18b5f1b2227e140bb596a3ec00ca0e64" prot="public">
+          <name>rightMiddleDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a1b0ddad33d52d5ccb43ec355411c577d" prot="public">
+          <name>rightRingProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a949d46bf4c815dd8d096c614db3885e2" prot="public">
+          <name>rightRingIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a0ec237e22bb59f0c4fd4fe44fb851638" prot="public">
+          <name>rightRingDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983aef36c6751ca1de8687a87295ddbf841b" prot="public">
+          <name>rightLittleProximal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a188cdd5d360e75dd4d1c6f50e7fb1077" prot="public">
+          <name>rightLittleIntermediate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983abde5c7d6ea0de929fe788b6d3fb0a960" prot="public">
+          <name>rightLittleDistal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983ad7edd7ee1339072d1e4da266060e5b66" prot="public">
+          <name>upperChest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983aad921d60486366258809553a3db49a4a" prot="public">
+          <name>unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Humanoid.cs" bodystart="9" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1ac7dfc97aa943125e489eedf49ec4e30d" prot="public" static="no">
+        <name>AllowedUser</name>
+        <enumvalue id="namespace_v_r_m_1ac7dfc97aa943125e489eedf49ec4e30dad0c74056f0a206592da97aa616aa7673" prot="public">
+          <name>OnlyAuthor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ac7dfc97aa943125e489eedf49ec4e30da0d23d020e38bdd101239429843b6c0df" prot="public">
+          <name>ExplicitlyLicensedPerson</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1ac7dfc97aa943125e489eedf49ec4e30daf9ae5e5c44e59f94680af569879f704a" prot="public">
+          <name>Everyone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2" prot="public" static="no">
+        <name>LicenseType</name>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2aa7217c643f0f1ed02f68dfda54af6eb6" prot="public">
+          <name>Redistribution_Prohibited</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a9fb416e4ce18f0f3d307872700420b7d" prot="public">
+          <name>CC0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2af938950beaf0d59e00f4ae5cbb76b866" prot="public">
+          <name>CC_BY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a7c29ed8dc3ad8f0cdb52c4cac39c9a8d" prot="public">
+          <name>CC_BY_NC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a6b8263cb6f1507a3cf58ff546122230a" prot="public">
+          <name>CC_BY_SA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a9abf3adb74e8ad216b56961e2aa41f13" prot="public">
+          <name>CC_BY_NC_SA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a9164acd7120edab5e0a2556188f14544" prot="public">
+          <name>CC_BY_ND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a84decddaaf075063ebeb6f87f5cf9565" prot="public">
+          <name>CC_BY_NC_ND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a7ae082e6f156e343db7fc950ea23fbf2a6311ae17c1ee52b36e68aaf4ad066387" prot="public">
+          <name>Other</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" bodystart="14" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837" prot="public" static="no">
+        <name>UssageLicense</name>
+        <enumvalue id="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837a21fd8b5eaad13b449b62b8103bb02a2e" prot="public">
+          <name>Disallow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a73140d5cce7ca7f13082ff06c617a837a45f0fb72a0defdfdb01de4b5a5a6876b" prot="public">
+          <name>Allow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/glTF_VRM_Meta.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1a2ad728b64454e53b7fb5ad9a08630d9d" prot="public" static="no">
+        <name>UpdateType</name>
+        <enumvalue id="namespace_v_r_m_1a2ad728b64454e53b7fb5ad9a08630d9da6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a2ad728b64454e53b7fb5ad9a08630d9da06933067aafd48425d67bcb01bba5cb6" prot="public">
+          <name>Update</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a2ad728b64454e53b7fb5ad9a08630d9da2609005edfde618c70f2140bb3e9b7c2" prot="public">
+          <name>LateUpdate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtHead.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAtHead.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5" prot="public" static="no">
+        <name>VRMExportOptions</name>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5ac1fbd28bb570d0803f6e214b4e1d7ce4" prot="public">
+          <name>FORCE_T_POSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5a4aea7addd87d476e1a94d7dbda99a367" prot="public">
+          <name>NORMALIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5acc59cee42c642b7859c47574c43c3875" prot="public">
+          <name>USE_GENERATED_SERIALIZER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5a64af5af026b450c053b60c104e0ca989" prot="public">
+          <name>BLENDSHAPE_USE_SPARSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5add86da5627a0bba7f756700f9adf1da5" prot="public">
+          <name>BLENDSHAPE_EXCLUDE_NORMAL_AND_TANGENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5a989c851fcd5df5070d3b0843611aa425" prot="public">
+          <name>BLENDSHAPE_ONLY_CLIP_USE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5ab35d5d0c6267a0d16465f39096abd943" prot="public">
+          <name>BLENDSHAPE_EXCLUDE_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5a5c0720d708dd9acbf0886f8e648dfc4f" prot="public">
+          <name>REMOVE_VERTEX_COLOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5a309d4e5fcebec2191c14cd5304c6c211" prot="public">
+          <name>DO_TPOSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5adaca89238062839056b7a9a36ff1e1d6" prot="public">
+          <name>DIVIDE_VERTEX_BUFFER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_v_r_m_1a17668832a02d93dc227d4ab0588701e5aaa1d995740a403987455772871191698" prot="public">
+          <name>KEEP_VERTEX_COLOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExportOptions.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMExportOptions.cs" bodystart="5" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeAvatar.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

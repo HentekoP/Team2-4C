@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator" kind="class" prot="public">
+    <compoundname>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a39e51b7d9510484177485e4bc60fcf6d" prot="private" static="no" mutable="no">
+        <type>readonly Material</type>
+        <definition>readonly Material VRMShaders.VRM10.MToon10.Runtime.MToonValidator._material</definition>
+        <argsstring></argsstring>
+        <name>_material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1aa977d161ab6bc587dcf9ca3cbf8caeab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.VRM10.MToon10.Runtime.MToonValidator.MToonValidator</definition>
+        <argsstring>(Material material)</argsstring>
+        <name>MToonValidator</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a3c9b0a277192dbe5ad8991c69cfd0525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.VRM10.MToon10.Runtime.MToonValidator.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a36114895bad895cddd76d1c09970eb74" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Runtime.MToonValidator.SetUnityShaderPassSettings</definition>
+        <argsstring>(Material material, MToon10AlphaMode alphaMode, MToon10TransparentWithZWriteMode zWriteMode, int renderQueueOffset, MToon10DoubleSidedMode doubleSidedMode)</argsstring>
+        <name>SetUnityShaderPassSettings</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a23260ea55e6f06ee3b977123929fe809" kindref="member">MToon10AlphaMode</ref></type>
+          <declname>alphaMode</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a1925e69f13aeb96e1bf0f046db5acd4e" kindref="member">MToon10TransparentWithZWriteMode</ref></type>
+          <declname>zWriteMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>renderQueueOffset</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a9ad5a7aa7d6064c04699373794008c6d" kindref="member">MToon10DoubleSidedMode</ref></type>
+          <declname>doubleSidedMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="27" bodyend="93"/>
+        <references refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_unity_render_tag_1a700098cace925368509b8b8f4a563600" compoundref="_unity_render_tag_8cs" startline="5">VRMShaders.VRM10.MToon10.Runtime.UnityRenderTag.Key</references>
+        <references refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_unity_render_tag_1a33e3c8c6fe3cdae98c2fb6def67d9f44" compoundref="_unity_render_tag_8cs" startline="7">VRMShaders.VRM10.MToon10.Runtime.UnityRenderTag.TransparentCutoutValue</references>
+        <references refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_unity_render_tag_1ad973aa8f41e6b93547f0493fb15c3279" compoundref="_unity_render_tag_8cs" startline="8">VRMShaders.VRM10.MToon10.Runtime.UnityRenderTag.TransparentValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1aa1f47b823923ad8e3e45ed0efb0ffb78" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Runtime.MToonValidator.SetUnityCullingSettings</definition>
+        <argsstring>(Material material, MToon10DoubleSidedMode doubleSidedMode)</argsstring>
+        <name>SetUnityCullingSettings</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a9ad5a7aa7d6064c04699373794008c6d" kindref="member">MToon10DoubleSidedMode</ref></type>
+          <declname>doubleSidedMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="95" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1ac51f80d9092211fed10665a9abbb7a1b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Runtime.MToonValidator.SetUnityShaderVariants</definition>
+        <argsstring>(Material material)</argsstring>
+        <name>SetUnityShaderVariants</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="100" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/MToonValidator.cs" bodystart="8" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a39e51b7d9510484177485e4bc60fcf6d" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>_material</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1aa977d161ab6bc587dcf9ca3cbf8caeab" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>MToonValidator</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1aa1f47b823923ad8e3e45ed0efb0ffb78" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>SetUnityCullingSettings</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a36114895bad895cddd76d1c09970eb74" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>SetUnityShaderPassSettings</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1ac51f80d9092211fed10665a9abbb7a1b" prot="private" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>SetUnityShaderVariants</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_m_toon_validator_1a3c9b0a277192dbe5ad8991c69cfd0525" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MToonValidator</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

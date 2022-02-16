@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor" kind="class" prot="public">
+    <compoundname>UniGLTF::ZipArchivedGltfScriptedImporterEditor</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base" prot="public" virt="non-virtual">UniGLTF.RemapScriptedImporterEditorBase</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7" prot="private" static="no">
+        <name>Tabs</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7aa559b87068921eec05086ce5485e9784" prot="public">
+          <name>Model</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7ad6b6b668dbca9d4fe774bb654226ebe3" prot="public">
+          <name>Animation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7a23ce0eb7d180f3dc8391d4af48572d21" prot="public">
+          <name>Materials</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a618f14077f82b84c0497d2b24b8acc53" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="22" endline="34">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a7159c0799fd7b84539aa4a76992c7798" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="44" endline="68">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a290e606c7d3681af6402e43ba85a5f82" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_remap_editor_material" kindref="compound">RemapEditorMaterial</ref></type>
+        <definition>RemapEditorMaterial UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_materialEditor</definition>
+        <argsstring></argsstring>
+        <name>m_materialEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="22" endline="34">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0641943f8813f1d481a4d715f386de23" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_remap_editor_animation" kindref="compound">RemapEditorAnimation</ref></type>
+        <definition>RemapEditorAnimation UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_animationEditor</definition>
+        <argsstring></argsstring>
+        <name>m_animationEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="22" endline="34">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a595b8e4f52978209911372d5ae0b776b" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7" kindref="member">Tabs</ref></type>
+        <definition>Tabs UniGLTF.ZipArchivedGltfScriptedImporterEditor.s_currentTab</definition>
+        <argsstring></argsstring>
+        <name>s_currentTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a7159c0799fd7b84539aa4a76992c7798" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="44" endline="68">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="22" bodyend="34"/>
+        <references refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aafb09b98512eab3537f492cd95710406" compoundref="_animation_importer_util_8cs" startline="316" endline="322">UniGLTF.AnimationImporterUtil.EnumerateSubAssetKeys</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1ab4c9dd6d1c25775a2dd284cd22f21e5d" compoundref="_remap_scripted_importer_editor_base_8cs" startline="35" endline="38">UniGLTF.RemapScriptedImporterEditorBase.GetEditorMap</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_data_1ac72961bc6d7297b1a15a707cc553b1eb" compoundref="_gltf_data_8cs" startline="39">UniGLTF.GltfData.GLTF</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0641943f8813f1d481a4d715f386de23" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="20">UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_animationEditor</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a618f14077f82b84c0497d2b24b8acc53" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="17">UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_data</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a424a2ca8d054667870ce9c507796e7bf" compoundref="_remap_scripted_importer_editor_base_8cs" startline="21">UniGLTF.RemapScriptedImporterEditorBase.m_importer</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a290e606c7d3681af6402e43ba85a5f82" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="19">UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_materialEditor</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a30310f59f6ea7a4dd88ae45342925440" compoundref="_remap_scripted_importer_editor_base_8cs" startline="40" endline="45">UniGLTF.RemapScriptedImporterEditorBase.SetEditorMap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a7159c0799fd7b84539aa4a76992c7798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="44" bodyend="68"/>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a618f14077f82b84c0497d2b24b8acc53" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="17">UniGLTF.ZipArchivedGltfScriptedImporterEditor.m_data</references>
+        <references refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a424a2ca8d054667870ce9c507796e7bf" compoundref="_remap_scripted_importer_editor_base_8cs" startline="21">UniGLTF.RemapScriptedImporterEditorBase.m_importer</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a595b8e4f52978209911372d5ae0b776b" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="42">UniGLTF.ZipArchivedGltfScriptedImporterEditor.s_currentTab</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3020">
+        <label>ScriptedImporterEditor</label>
+      </node>
+      <node id="3018">
+        <label>UniGLTF.ZipArchivedGltfScriptedImporterEditor</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor"/>
+        <childnode refid="3019" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3019">
+        <label>RemapScriptedImporterEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base"/>
+        <childnode refid="3020" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3029">
+        <label>UnityEngine</label>
+      </node>
+      <node id="3026">
+        <label>VRMShaders.SubAssetKey</label>
+        <link refid="struct_v_r_m_shaders_1_1_sub_asset_key"/>
+        <childnode refid="3027" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3028">
+        <label>UniGLTF.GltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_data"/>
+        <childnode refid="3029" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+        <childnode refid="3030" relation="usage">
+          <edgelabel>_storage</edgelabel>
+        </childnode>
+      </node>
+      <node id="3024">
+        <label>UniGLTF.RemapEditorAnimation</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_animation"/>
+        <childnode refid="3025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3031">
+        <label>UniGLTF.RemapEditorMaterial</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_material"/>
+        <childnode refid="3025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3023">
+        <label>ScriptedImporterEditor</label>
+      </node>
+      <node id="3021">
+        <label>UniGLTF.ZipArchivedGltfScriptedImporterEditor</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor"/>
+        <childnode refid="3022" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3024" relation="usage">
+          <edgelabel>m_animationEditor</edgelabel>
+        </childnode>
+        <childnode refid="3028" relation="usage">
+          <edgelabel>m_data</edgelabel>
+        </childnode>
+        <childnode refid="3031" relation="usage">
+          <edgelabel>m_materialEditor</edgelabel>
+        </childnode>
+      </node>
+      <node id="3030">
+        <label>UniGLTF.IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+      <node id="3022">
+        <label>RemapScriptedImporterEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base"/>
+        <childnode refid="3023" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3025">
+        <label>RemapEditorBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_remap_editor_base"/>
+        <childnode refid="3026" relation="usage">
+          <edgelabel>m_keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="3027">
+        <label>IEquatable&lt; SubAssetKey &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/ZipArchivedGltfScriptedImporterEditor.cs" bodystart="15" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a4d0c4943b3918f47812ad1e7835c3452" prot="protected" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>Apply</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1ab4c9dd6d1c25775a2dd284cd22f21e5d" prot="protected" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>GetEditorMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1afeeedc49443f93a832858fa757db9e1f" prot="public" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>HasModified</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0641943f8813f1d481a4d715f386de23" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>m_animationEditor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a618f14077f82b84c0497d2b24b8acc53" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>m_data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a424a2ca8d054667870ce9c507796e7bf" prot="protected" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>m_importer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a290e606c7d3681af6402e43ba85a5f82" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>m_materialEditor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" prot="public" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>OnEnable</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a7159c0799fd7b84539aa4a76992c7798" prot="public" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1ab41895fd3ec682ccd95ad31e20090167" prot="protected" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>ResetValues</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a595b8e4f52978209911372d5ae0b776b" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>s_currentTab</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_remap_scripted_importer_editor_base_1a30310f59f6ea7a4dd88ae45342925440" prot="protected" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>SetEditorMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a0047efeebf797c2bbb2270a2bd064fa7" prot="private" virt="non-virtual"><scope>UniGLTF::ZipArchivedGltfScriptedImporterEditor</scope><name>Tabs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

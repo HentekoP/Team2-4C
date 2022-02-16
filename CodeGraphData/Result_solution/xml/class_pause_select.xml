@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause_select" kind="class" prot="public">
+    <compoundname>PauseSelect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pause_select_1a128d92b9b9cde799df4d25e1b8bd3ccf" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int PauseSelect.MenuNumber</definition>
+        <argsstring></argsstring>
+        <name>MenuNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseSelect.pushScene</definition>
+        <argsstring></argsstring>
+        <name>pushScene</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1afc34b446427af9041c69a5d0c10c83cf" compoundref="_pause_select_8cs" startline="123" endline="126">PushLoadScene</referencedby>
+        <referencedby refid="class_pause_select_1a813270d5e295f4fb107b011beaf94004" compoundref="_pause_select_8cs" startline="98" endline="105">RetryCoroutine</referencedby>
+        <referencedby refid="class_pause_select_1a6b50119b6a9cbb67d489da6a189c73b2" compoundref="_pause_select_8cs" startline="107" endline="114">TitleCoroutine</referencedby>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pause_select_1a05fa40077426f290fbcb4afed9f02de1" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform PauseSelect.rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1ab2eb4cbf277feb7100c489c9c4e10aaf" compoundref="_pause_select_8cs" startline="23" endline="28">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1aea694ce60e9e7d43ab466f0fb160e12f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseSelect.pushFlag</definition>
+        <argsstring></argsstring>
+        <name>pushFlag</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1a381d41e075a2351930313855efdff6b3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseSelect.SEflag</definition>
+        <argsstring></argsstring>
+        <name>SEflag</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1a2a86e3782b2c6a33eae32c555f2b26a9" prot="private" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PauseSelect.audioClip2</definition>
+        <argsstring></argsstring>
+        <name>audioClip2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1a7169800e18c337f38d65396646af8c15" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource PauseSelect.audioSource2</definition>
+        <argsstring></argsstring>
+        <name>audioSource2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1ab2eb4cbf277feb7100c489c9c4e10aaf" compoundref="_pause_select_8cs" startline="23" endline="28">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_select_1a2780800c62dc5be5bf0a87e87212630f" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PauseSelect.sound1</definition>
+        <argsstring></argsstring>
+        <name>sound1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_select_1a95c1caac9ddf76899f1ac32be9a78aa6" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource PauseSelect.audioSource1</definition>
+        <argsstring></argsstring>
+        <name>audioSource1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_pause_select_1ab2eb4cbf277feb7100c489c9c4e10aaf" compoundref="_pause_select_8cs" startline="23" endline="28">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_select_1ab2eb4cbf277feb7100c489c9c4e10aaf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseSelect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="23" bodyend="28"/>
+        <references refid="class_pause_select_1a95c1caac9ddf76899f1ac32be9a78aa6" compoundref="_pause_select_8cs" startline="18">audioSource1</references>
+        <references refid="class_pause_select_1a7169800e18c337f38d65396646af8c15" compoundref="_pause_select_8cs" startline="21">audioSource2</references>
+        <references refid="class_pause_select_1a05fa40077426f290fbcb4afed9f02de1" compoundref="_pause_select_8cs" startline="10">rect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseSelect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="30" bodyend="94"/>
+        <references refid="class_pause_select_1aed02d067e711bec1dd9ab27d95004de9" compoundref="_pause_select_8cs" startline="116" endline="120">EndCoroutine</references>
+        <references refid="class_pause_select_1a128d92b9b9cde799df4d25e1b8bd3ccf" compoundref="_pause_select_8cs" startline="9">MenuNumber</references>
+        <references refid="class_pause_select_1aea694ce60e9e7d43ab466f0fb160e12f" compoundref="_pause_select_8cs" startline="12">pushFlag</references>
+        <references refid="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" compoundref="_pause_select_8cs" startline="14">pushScene</references>
+        <references refid="class_pause_select_1a813270d5e295f4fb107b011beaf94004" compoundref="_pause_select_8cs" startline="98" endline="105">RetryCoroutine</references>
+        <references refid="class_pause_select_1a2780800c62dc5be5bf0a87e87212630f" compoundref="_pause_select_8cs" startline="17">sound1</references>
+        <references refid="class_pause_select_1a6b50119b6a9cbb67d489da6a189c73b2" compoundref="_pause_select_8cs" startline="107" endline="114">TitleCoroutine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_select_1a813270d5e295f4fb107b011beaf94004" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PauseSelect.RetryCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>RetryCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="98" bodyend="105"/>
+        <references refid="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" compoundref="_pause_select_8cs" startline="14">pushScene</references>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_select_1a6b50119b6a9cbb67d489da6a189c73b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PauseSelect.TitleCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>TitleCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="107" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="107" bodyend="114"/>
+        <references refid="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" compoundref="_pause_select_8cs" startline="14">pushScene</references>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_select_1aed02d067e711bec1dd9ab27d95004de9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PauseSelect.EndCoroutine</definition>
+        <argsstring>()</argsstring>
+        <name>EndCoroutine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="116" bodyend="120"/>
+        <referencedby refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" compoundref="_pause_select_8cs" startline="30" endline="94">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pause_select_1afc34b446427af9041c69a5d0c10c83cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PauseSelect.PushLoadScene</definition>
+        <argsstring>()</argsstring>
+        <name>PushLoadScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="123" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="123" bodyend="126"/>
+        <references refid="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" compoundref="_pause_select_8cs" startline="14">pushScene</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1960">
+        <label>PauseSelect</label>
+        <link refid="class_pause_select"/>
+        <childnode refid="1961" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1961">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1962">
+        <label>PauseSelect</label>
+        <link refid="class_pause_select"/>
+        <childnode refid="1963" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1963">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Pause/PauseSelect.cs" bodystart="7" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_pause_select_1a2a86e3782b2c6a33eae32c555f2b26a9" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>audioClip2</name></member>
+      <member refid="class_pause_select_1a95c1caac9ddf76899f1ac32be9a78aa6" prot="public" virt="non-virtual"><scope>PauseSelect</scope><name>audioSource1</name></member>
+      <member refid="class_pause_select_1a7169800e18c337f38d65396646af8c15" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>audioSource2</name></member>
+      <member refid="class_pause_select_1aed02d067e711bec1dd9ab27d95004de9" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>EndCoroutine</name></member>
+      <member refid="class_pause_select_1a128d92b9b9cde799df4d25e1b8bd3ccf" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>MenuNumber</name></member>
+      <member refid="class_pause_select_1aea694ce60e9e7d43ab466f0fb160e12f" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>pushFlag</name></member>
+      <member refid="class_pause_select_1afc34b446427af9041c69a5d0c10c83cf" prot="public" virt="non-virtual"><scope>PauseSelect</scope><name>PushLoadScene</name></member>
+      <member refid="class_pause_select_1ab1a197191d41cce19a88bf001f0875aa" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>pushScene</name></member>
+      <member refid="class_pause_select_1a05fa40077426f290fbcb4afed9f02de1" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>rect</name></member>
+      <member refid="class_pause_select_1a813270d5e295f4fb107b011beaf94004" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>RetryCoroutine</name></member>
+      <member refid="class_pause_select_1a381d41e075a2351930313855efdff6b3" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>SEflag</name></member>
+      <member refid="class_pause_select_1a2780800c62dc5be5bf0a87e87212630f" prot="public" virt="non-virtual"><scope>PauseSelect</scope><name>sound1</name></member>
+      <member refid="class_pause_select_1ab2eb4cbf277feb7100c489c9c4e10aaf" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>Start</name></member>
+      <member refid="class_pause_select_1a6b50119b6a9cbb67d489da6a189c73b2" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>TitleCoroutine</name></member>
+      <member refid="class_pause_select_1a8a5b55a0b34ee420913d1ec7eedd446e" prot="private" virt="non-virtual"><scope>PauseSelect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

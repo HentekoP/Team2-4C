@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info" kind="struct" prot="public">
+    <compoundname>VRMShaders::MaterialFactory::MaterialLoadInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1aa3cd0e247c62e04ebada0a658f916320" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref></type>
+        <definition>SubAssetKey VRMShaders.MaterialFactory.MaterialLoadInfo.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ad0bc17bb5327b5b562cf68c236535315" compoundref="_material_factory_8cs" startline="37" endline="42">VRMShaders.MaterialFactory.MaterialLoadInfo.MaterialLoadInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a0b3d56cc39a0af6af1efab068525b98c" prot="public" static="no" mutable="no">
+        <type>readonly Material</type>
+        <definition>readonly Material VRMShaders.MaterialFactory.MaterialLoadInfo.Asset</definition>
+        <argsstring></argsstring>
+        <name>Asset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ad0bc17bb5327b5b562cf68c236535315" compoundref="_material_factory_8cs" startline="37" endline="42">VRMShaders.MaterialFactory.MaterialLoadInfo.MaterialLoadInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a319f0f0bdb404c13b5d46bb04a612958" prot="public" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool VRMShaders.MaterialFactory.MaterialLoadInfo.UseExternal</definition>
+        <argsstring></argsstring>
+        <name>UseExternal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ad0bc17bb5327b5b562cf68c236535315" compoundref="_material_factory_8cs" startline="37" endline="42">VRMShaders.MaterialFactory.MaterialLoadInfo.MaterialLoadInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ac509b36a4ddb3309106e12a114240ea3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRMShaders.MaterialFactory.MaterialLoadInfo.IsSubAsset</definition>
+        <argsstring></argsstring>
+        <name>IsSubAsset</name>
+        <initializer>=&gt; !<ref refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a319f0f0bdb404c13b5d46bb04a612958" kindref="member">UseExternal</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ad0bc17bb5327b5b562cf68c236535315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.MaterialFactory.MaterialLoadInfo.MaterialLoadInfo</definition>
+        <argsstring>(SubAssetKey key, Material asset, bool useExternal)</argsstring>
+        <name>MaterialLoadInfo</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useExternal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="37" bodyend="42"/>
+        <references refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a0b3d56cc39a0af6af1efab068525b98c" compoundref="_material_factory_8cs" startline="32">VRMShaders.MaterialFactory.MaterialLoadInfo.Asset</references>
+        <references refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1aa3cd0e247c62e04ebada0a658f916320" compoundref="_material_factory_8cs" startline="31">VRMShaders.MaterialFactory.MaterialLoadInfo.Key</references>
+        <references refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a319f0f0bdb404c13b5d46bb04a612958" compoundref="_material_factory_8cs" startline="33">VRMShaders.MaterialFactory.MaterialLoadInfo.UseExternal</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1652">
+        <label>VRMShaders.SubAssetKey</label>
+        <link refid="struct_v_r_m_shaders_1_1_sub_asset_key"/>
+        <childnode refid="1653" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1651">
+        <label>VRMShaders.MaterialFactory.MaterialLoadInfo</label>
+        <link refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info"/>
+        <childnode refid="1652" relation="usage">
+          <edgelabel>Key</edgelabel>
+        </childnode>
+      </node>
+      <node id="1653">
+        <label>IEquatable&lt; SubAssetKey &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Material/Importer/MaterialFactory.cs" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a0b3d56cc39a0af6af1efab068525b98c" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory::MaterialLoadInfo</scope><name>Asset</name></member>
+      <member refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ac509b36a4ddb3309106e12a114240ea3" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory::MaterialLoadInfo</scope><name>IsSubAsset</name></member>
+      <member refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1aa3cd0e247c62e04ebada0a658f916320" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory::MaterialLoadInfo</scope><name>Key</name></member>
+      <member refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1ad0bc17bb5327b5b562cf68c236535315" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory::MaterialLoadInfo</scope><name>MaterialLoadInfo</name></member>
+      <member refid="struct_v_r_m_shaders_1_1_material_factory_1_1_material_load_info_1a319f0f0bdb404c13b5d46bb04a612958" prot="public" virt="non-virtual"><scope>VRMShaders::MaterialFactory::MaterialLoadInfo</scope><name>UseExternal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

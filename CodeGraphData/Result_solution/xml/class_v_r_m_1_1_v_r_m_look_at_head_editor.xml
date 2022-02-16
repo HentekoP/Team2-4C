@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_look_at_head_editor" kind="class" prot="public">
+    <compoundname>VRM::VRMLookAtHeadEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a5c18484b157637f27ea19a28e7d368b6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_look_at_head" kindref="compound">VRMLookAtHead</ref></type>
+        <definition>VRMLookAtHead VRM.VRMLookAtHeadEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1adb3e7fc772af12ce7087b384f4c66e6f" compoundref="_v_r_m_look_at_head_editor_8cs" startline="74" endline="82">VRM.VRMLookAtHeadEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a9afff8fd38f377362040086761dd56ba" compoundref="_v_r_m_look_at_head_editor_8cs" startline="143" endline="183">VRM.VRMLookAtHeadEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a7f772ef354ef23d89e712b6b018eb5b4" prot="private" static="no" mutable="no">
+        <type>PreviewRenderUtility</type>
+        <definition>PreviewRenderUtility VRM.VRMLookAtHeadEditor.m_previewRenderUtility</definition>
+        <argsstring></argsstring>
+        <name>m_previewRenderUtility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a1d288b41df5cce7b80b14a591ba133cc" compoundref="_v_r_m_look_at_head_editor_8cs" startline="84" endline="88">VRM.VRMLookAtHeadEditor.OnDisable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1adb3e7fc772af12ce7087b384f4c66e6f" compoundref="_v_r_m_look_at_head_editor_8cs" startline="74" endline="82">VRM.VRMLookAtHeadEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ab088a2942be6938ae92157c9a334ca10" compoundref="_v_r_m_look_at_head_editor_8cs" startline="105" endline="139">VRM.VRMLookAtHeadEditor.OnPreviewGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a2fe012922555b17994f4b2612b48d5f8" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float VRM.VRMLookAtHeadEditor.RADIUS</definition>
+        <argsstring></argsstring>
+        <name>RADIUS</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="141" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a9afff8fd38f377362040086761dd56ba" compoundref="_v_r_m_look_at_head_editor_8cs" startline="143" endline="183">VRM.VRMLookAtHeadEditor.OnSceneGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1adb3e7fc772af12ce7087b384f4c66e6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtHeadEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="74" bodyend="82"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a7f772ef354ef23d89e712b6b018eb5b4" compoundref="_v_r_m_look_at_head_editor_8cs" startline="13">VRM.VRMLookAtHeadEditor.m_previewRenderUtility</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a5c18484b157637f27ea19a28e7d368b6" compoundref="_v_r_m_look_at_head_editor_8cs" startline="12">VRM.VRMLookAtHeadEditor.m_target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a1d288b41df5cce7b80b14a591ba133cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtHeadEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="84" bodyend="88"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a7f772ef354ef23d89e712b6b018eb5b4" compoundref="_v_r_m_look_at_head_editor_8cs" startline="13">VRM.VRMLookAtHeadEditor.m_previewRenderUtility</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a9afff8fd38f377362040086761dd56ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAtHeadEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="143" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="143" bodyend="183"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_1a55ee2c587c29cbbe2bf1fb51c934b616" compoundref="_v_r_m_look_at_head_8cs" startline="25">VRM.VRMLookAtHead.DrawGizmo</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_1a76112a8996ac38a2eb3f29fb90ed77ac" compoundref="_v_r_m_look_at_head_8cs" startline="34">VRM.VRMLookAtHead.Head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a5c18484b157637f27ea19a28e7d368b6" compoundref="_v_r_m_look_at_head_editor_8cs" startline="12">VRM.VRMLookAtHeadEditor.m_target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a2fe012922555b17994f4b2612b48d5f8" compoundref="_v_r_m_look_at_head_editor_8cs" startline="141">VRM.VRMLookAtHeadEditor.RADIUS</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_1ab4761b1f49e4345bbe0bbefa9a3b16da" compoundref="_v_r_m_look_at_head_8cs" startline="31">VRM.VRMLookAtHead.Target</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ae436da2a798bc62d73525d56c8c61b9b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMLookAtHeadEditor.SetPreviewCamera</definition>
+        <argsstring>(Camera camera, Vector3 target, Vector3 forward)</argsstring>
+        <name>SetPreviewCamera</name>
+        <param>
+          <type>Camera</type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>forward</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="90" bodyend="98"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ab088a2942be6938ae92157c9a334ca10" compoundref="_v_r_m_look_at_head_editor_8cs" startline="105" endline="139">VRM.VRMLookAtHeadEditor.OnPreviewGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a018c9745bf588e3f51c71699ab76d83b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool VRM.VRMLookAtHeadEditor.HasPreviewGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HasPreviewGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ab088a2942be6938ae92157c9a334ca10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMLookAtHeadEditor.OnPreviewGUI</definition>
+        <argsstring>(Rect r, GUIStyle background)</argsstring>
+        <name>OnPreviewGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="105" bodyend="139"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a7f772ef354ef23d89e712b6b018eb5b4" compoundref="_v_r_m_look_at_head_editor_8cs" startline="13">VRM.VRMLookAtHeadEditor.m_previewRenderUtility</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ae436da2a798bc62d73525d56c8c61b9b" compoundref="_v_r_m_look_at_head_editor_8cs" startline="90" endline="98">VRM.VRMLookAtHeadEditor.SetPreviewCamera</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2834">
+        <label>Editor</label>
+      </node>
+      <node id="2833">
+        <label>VRM.VRMLookAtHeadEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head_editor"/>
+        <childnode refid="2834" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2836">
+        <label>Editor</label>
+      </node>
+      <node id="2835">
+        <label>VRM.VRMLookAtHeadEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head_editor"/>
+        <childnode refid="2836" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2837" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="2839">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2837">
+        <label>VRM.VRMLookAtHead</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head"/>
+        <childnode refid="2838" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2839" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2838">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/LookAt/VRMLookAtHeadEditor.cs" bodystart="10" bodyend="184"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a018c9745bf588e3f51c71699ab76d83b" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>HasPreviewGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a7f772ef354ef23d89e712b6b018eb5b4" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>m_previewRenderUtility</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a5c18484b157637f27ea19a28e7d368b6" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a1d288b41df5cce7b80b14a591ba133cc" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>OnDisable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1adb3e7fc772af12ce7087b384f4c66e6f" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ab088a2942be6938ae92157c9a334ca10" prot="public" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>OnPreviewGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a9afff8fd38f377362040086761dd56ba" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1a2fe012922555b17994f4b2612b48d5f8" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>RADIUS</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_head_editor_1ae436da2a798bc62d73525d56c8c61b9b" prot="private" virt="non-virtual"><scope>VRM::VRMLookAtHeadEditor</scope><name>SetPreviewCamera</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

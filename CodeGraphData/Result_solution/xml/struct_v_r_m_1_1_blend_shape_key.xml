@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_blend_shape_key" kind="struct" prot="public">
+    <compoundname>VRM::BlendShapeKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; BlendShapeKey &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; BlendShapeKey &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_blend_shape_key_1ab626764171a4e75b9084bbad808dcc66" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; <ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref>, string &gt;</type>
+        <definition>readonly Dictionary&lt;BlendShapePreset, string&gt; VRM.BlendShapeKey.PresetNameCacheDictionary</definition>
+        <argsstring></argsstring>
+        <name>PresetNameCacheDictionary</name>
+        <initializer>=
+            new Dictionary&lt;<ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref>, string&gt;()</initializer>
+        <briefdescription>
+<para>Enum.ToString() のGC回避用キャッシュ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_v_r_m_1_1_blend_shape_key_1a3e149b03b4698523b6357fbd4ad39d44" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string VRM.BlendShapeKey.UnknownPresetPrefix</definition>
+        <argsstring></argsstring>
+        <name>UnknownPresetPrefix</name>
+        <initializer>= &quot;Unknown_&quot;</initializer>
+        <briefdescription>
+<para>BlendShapePresetと同名の名前を持つ独自に追加したBlendShapeを区別するためのprefix </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a5d4ddfcc42dbab61ae350c8aa83bee6b" compoundref="_blend_shape_key_8cs" startline="104" endline="107">VRM.BlendShapeKey.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_v_r_m_1_1_blend_shape_key_1ab841c502b228f391a4dcda34e54949be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string VRM.BlendShapeKey.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_blend_shape_key_1a24c5546f04ccc0a2bfd49b9235441904" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+        <definition>readonly BlendShapePreset VRM.BlendShapeKey.Preset</definition>
+        <argsstring></argsstring>
+        <name>Preset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a8b902e87add461beeee5e42f59b69a11" compoundref="_blend_shape_key_8cs" startline="136" endline="144">VRM.BlendShapeKey.CompareTo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_blend_shape_key_1ac933879d36b10e8438debda299b5b309" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string VRM.BlendShapeKey.m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a7a9da02e3593d1f89c67c15d7942c0f9" compoundref="_blend_shape_key_8cs" startline="109" endline="112">VRM.BlendShapeKey.Equals</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.BlendShapeKey.BlendShapeKey</definition>
+        <argsstring>(string name, BlendShapePreset preset)</argsstring>
+        <name>BlendShapeKey</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+          <declname>preset</declname>
+        </param>
+        <briefdescription>
+<para>name と preset のペアからBlendShapeKeyを生成するが、 BlendShapePreset.Unknown のときと、それ以外のときで挙動が異なることを知っている必要があって、わかりにくいので private に変更。 v0.56 </para>        </briefdescription>
+        <detaileddescription>
+<para>代わりに、public static 関数を使って生成します</para><para><ref refid="struct_v_r_m_1_1_blend_shape_key_1a7e9acf4750fa43b959470b15fb644ac0" kindref="member">CreateFromPreset(BlendShapePreset)</ref> <ref refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" kindref="member">CreateFromClip(BlendShapeClip)</ref> <ref refid="struct_v_r_m_1_1_blend_shape_key_1a420313edf29254e55a2e43eb4153c26a" kindref="member">CreateUnknown(string)</ref></para><para>TODO ? 旧仕様(GC発生などでパフォーマンスは、あまりよろしくない) CreateLegacyFromString(string);</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preset</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="44" bodyend="67"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1ac933879d36b10e8438debda299b5b309" compoundref="_blend_shape_key_8cs" startline="24">VRM.BlendShapeKey.m_id</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1ab841c502b228f391a4dcda34e54949be" compoundref="_blend_shape_key_8cs" startline="20">VRM.BlendShapeKey.Name</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a24c5546f04ccc0a2bfd49b9235441904" compoundref="_blend_shape_key_8cs" startline="22">VRM.BlendShapeKey.Preset</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1ab626764171a4e75b9084bbad808dcc66" compoundref="_blend_shape_key_8cs" startline="12">VRM.BlendShapeKey.PresetNameCacheDictionary</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a3e149b03b4698523b6357fbd4ad39d44" compoundref="_blend_shape_key_8cs" startline="18">VRM.BlendShapeKey.UnknownPresetPrefix</references>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" compoundref="_blend_shape_key_8cs" startline="84" endline="92">VRM.BlendShapeKey.CreateFromClip</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a7e9acf4750fa43b959470b15fb644ac0" compoundref="_blend_shape_key_8cs" startline="74" endline="77">VRM.BlendShapeKey.CreateFromPreset</referencedby>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a420313edf29254e55a2e43eb4153c26a" compoundref="_blend_shape_key_8cs" startline="99" endline="102">VRM.BlendShapeKey.CreateUnknown</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a7e9acf4750fa43b959470b15fb644ac0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+        <definition>static BlendShapeKey VRM.BlendShapeKey.CreateFromPreset</definition>
+        <argsstring>(BlendShapePreset preset)</argsstring>
+        <name>CreateFromPreset</name>
+        <param>
+          <type><ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+          <declname>preset</declname>
+        </param>
+        <briefdescription>
+<para>PresetからBlendShapeKeyを生成 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>preset</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="74" bodyend="77"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a5122fdd577526088a099945956325216" compoundref="_blend_shape_avatar_8cs" startline="139" endline="142">VRM.BlendShapeAvatar.GetClip</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+        <definition>static BlendShapeKey VRM.BlendShapeKey.CreateFromClip</definition>
+        <argsstring>(BlendShapeClip clip)</argsstring>
+        <name>CreateFromClip</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <briefdescription>
+<para>BlendShapeClipからBlendShapeKeyを生成 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clip</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="84" bodyend="92"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_1abbbafae70e25a3a3b12de3294f43d77f" compoundref="_blend_shape_clip_8cs" startline="112">VRM.BlendShapeClip.BlendShapeName</references>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_1a4e15509a9bb92f2e122f50be2e6bfecd" compoundref="_blend_shape_clip_8cs" startline="118">VRM.BlendShapeClip.Preset</references>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1ab2a83804e66b35f0673bb53e6ae7eea0" compoundref="_blend_shape_key_8cs" startline="131" endline="134">VRM.BlendShapeKey.Match</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="38" endline="49">VRM.VRMBlendShapeProxyEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a420313edf29254e55a2e43eb4153c26a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+        <definition>static BlendShapeKey VRM.BlendShapeKey.CreateUnknown</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CreateUnknown</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>BlendShapePreset.Unknown である <ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref> を name から作成する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="99" bodyend="102"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" compoundref="_blend_shape_key_8cs" startline="44" endline="67">VRM.BlendShapeKey.BlendShapeKey</references>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_1a60017c613a5bcd79336392b560e6092d" compoundref="_blend_shape_avatar_8cs" startline="144" endline="147">VRM.BlendShapeAvatar.GetClip</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a5d4ddfcc42dbab61ae350c8aa83bee6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string VRM.BlendShapeKey.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="104" bodyend="107"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a3e149b03b4698523b6357fbd4ad39d44" compoundref="_blend_shape_key_8cs" startline="18">VRM.BlendShapeKey.UnknownPresetPrefix</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a7a9da02e3593d1f89c67c15d7942c0f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.BlendShapeKey.Equals</definition>
+        <argsstring>(BlendShapeKey other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="109" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="109" bodyend="112"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1ac933879d36b10e8438debda299b5b309" compoundref="_blend_shape_key_8cs" startline="24">VRM.BlendShapeKey.m_id</references>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1ac3ac2e47b6710100040b8b66d14a3725" compoundref="_blend_shape_key_8cs" startline="114" endline="124">VRM.BlendShapeKey.Equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1ac3ac2e47b6710100040b8b66d14a3725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool VRM.BlendShapeKey.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="114" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="114" bodyend="124"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a7a9da02e3593d1f89c67c15d7942c0f9" compoundref="_blend_shape_key_8cs" startline="109" endline="112">VRM.BlendShapeKey.Equals</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a868370431423b1697a841dd38e6f2d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int VRM.BlendShapeKey.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1ab2a83804e66b35f0673bb53e6ae7eea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRM.BlendShapeKey.Match</definition>
+        <argsstring>(BlendShapeClip clip)</argsstring>
+        <name>Match</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+          <declname>clip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="131" bodyend="134"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" compoundref="_blend_shape_key_8cs" startline="84" endline="92">VRM.BlendShapeKey.CreateFromClip</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_blend_shape_key_1a8b902e87add461beeee5e42f59b69a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRM.BlendShapeKey.CompareTo</definition>
+        <argsstring>(BlendShapeKey other)</argsstring>
+        <name>CompareTo</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="136" bodyend="144"/>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a24c5546f04ccc0a2bfd49b9235441904" compoundref="_blend_shape_key_8cs" startline="22">VRM.BlendShapeKey.Preset</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="196">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="195">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="199">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="198">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeKey.cs" bodystart="7" bodyend="145"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a54372f35227f6a07f952dd1bbcbab0a2" prot="private" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>BlendShapeKey</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a8b902e87add461beeee5e42f59b69a11" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>CompareTo</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>CreateFromClip</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a7e9acf4750fa43b959470b15fb644ac0" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>CreateFromPreset</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a420313edf29254e55a2e43eb4153c26a" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>CreateUnknown</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a7a9da02e3593d1f89c67c15d7942c0f9" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>Equals</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1ac3ac2e47b6710100040b8b66d14a3725" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>Equals</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a868370431423b1697a841dd38e6f2d52" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>GetHashCode</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1ac933879d36b10e8438debda299b5b309" prot="private" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>m_id</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1ab2a83804e66b35f0673bb53e6ae7eea0" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>Match</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1ab841c502b228f391a4dcda34e54949be" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>Name</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a24c5546f04ccc0a2bfd49b9235441904" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>Preset</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1ab626764171a4e75b9084bbad808dcc66" prot="private" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>PresetNameCacheDictionary</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a5d4ddfcc42dbab61ae350c8aa83bee6b" prot="public" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>ToString</name></member>
+      <member refid="struct_v_r_m_1_1_blend_shape_key_1a3e149b03b4698523b6357fbd4ad39d44" prot="private" virt="non-virtual"><scope>VRM::BlendShapeKey</scope><name>UnknownPresetPrefix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

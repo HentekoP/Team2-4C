@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_state_base___a_i" kind="class" prot="public">
+    <compoundname>StateBase_AI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_state_base___a_i_1a76afb698adf6636976c5c49bfe5ba26a" prot="public" static="no" mutable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] StateBase_AI.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" compoundref="_state_base___a_i_8cs" startline="29" endline="39">GotoNextPoint</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_state_base___a_i_1a1c6b9d1b7dd8c622d4b12e293c844921" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StateBase_AI.destPoint</definition>
+        <argsstring></argsstring>
+        <name>destPoint</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" compoundref="_state_base___a_i_8cs" startline="29" endline="39">GotoNextPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_state_base___a_i_1addb6f3c7f052c9a8e04f6a4c63d82507" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent StateBase_AI.agent</definition>
+        <argsstring></argsstring>
+        <name>agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_state_base___a_i_1a1d9fd1b0012ccef6ba2278abea8738c2" compoundref="_state_base___a_i_8cs" startline="17" endline="26">Start</referencedby>
+        <referencedby refid="class_state_base___a_i_1a6f36f485bca3fa8c7f4f9b8c29bc45f5" compoundref="_state_base___a_i_8cs" startline="42" endline="48">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_state_base___a_i_1a1d9fd1b0012ccef6ba2278abea8738c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StateBase_AI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="17" bodyend="26"/>
+        <references refid="class_state_base___a_i_1addb6f3c7f052c9a8e04f6a4c63d82507" compoundref="_state_base___a_i_8cs" startline="14">agent</references>
+        <references refid="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" compoundref="_state_base___a_i_8cs" startline="29" endline="39">GotoNextPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StateBase_AI.GotoNextPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GotoNextPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="29" bodyend="39"/>
+        <references refid="class_state_base___a_i_1a1c6b9d1b7dd8c622d4b12e293c844921" compoundref="_state_base___a_i_8cs" startline="12">destPoint</references>
+        <references refid="class_state_base___a_i_1a76afb698adf6636976c5c49bfe5ba26a" compoundref="_state_base___a_i_8cs" startline="10">points</references>
+        <referencedby refid="class_state_base___a_i_1a1d9fd1b0012ccef6ba2278abea8738c2" compoundref="_state_base___a_i_8cs" startline="17" endline="26">Start</referencedby>
+        <referencedby refid="class_state_base___a_i_1a6f36f485bca3fa8c7f4f9b8c29bc45f5" compoundref="_state_base___a_i_8cs" startline="42" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_state_base___a_i_1a6f36f485bca3fa8c7f4f9b8c29bc45f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StateBase_AI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="42" bodyend="48"/>
+        <references refid="class_state_base___a_i_1addb6f3c7f052c9a8e04f6a4c63d82507" compoundref="_state_base___a_i_8cs" startline="14">agent</references>
+        <references refid="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" compoundref="_state_base___a_i_8cs" startline="29" endline="39">GotoNextPoint</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2257">
+        <label>StateBase_AI</label>
+        <link refid="class_state_base___a_i"/>
+        <childnode refid="2258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2258">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2259">
+        <label>StateBase_AI</label>
+        <link refid="class_state_base___a_i"/>
+        <childnode refid="2260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2260">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/StateBase_AI.cs" bodystart="6" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_state_base___a_i_1addb6f3c7f052c9a8e04f6a4c63d82507" prot="private" virt="non-virtual"><scope>StateBase_AI</scope><name>agent</name></member>
+      <member refid="class_state_base___a_i_1a1c6b9d1b7dd8c622d4b12e293c844921" prot="private" virt="non-virtual"><scope>StateBase_AI</scope><name>destPoint</name></member>
+      <member refid="class_state_base___a_i_1a003c3611f822d82dd69a12d23271622a" prot="private" virt="non-virtual"><scope>StateBase_AI</scope><name>GotoNextPoint</name></member>
+      <member refid="class_state_base___a_i_1a76afb698adf6636976c5c49bfe5ba26a" prot="public" virt="non-virtual"><scope>StateBase_AI</scope><name>points</name></member>
+      <member refid="class_state_base___a_i_1a1d9fd1b0012ccef6ba2278abea8738c2" prot="private" virt="non-virtual"><scope>StateBase_AI</scope><name>Start</name></member>
+      <member refid="class_state_base___a_i_1a6f36f485bca3fa8c7f4f9b8c29bc45f5" prot="private" virt="non-virtual"><scope>StateBase_AI</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_texture_descriptor_set" kind="class" prot="public">
+    <compoundname>VRMShaders::TextureDescriptorSet</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_descriptor_set_1a5547014509c0d1dc8f555578159f03ef" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;SubAssetKey, TextureDescriptor&gt; VRMShaders.TextureDescriptorSet._texDescDict</definition>
+        <argsstring></argsstring>
+        <name>_texDescDict</name>
+        <initializer>= new Dictionary&lt;<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1afb6fd4f2d3da7da498334074eb48ea47" compoundref="_texture_descriptor_set_8cs" startline="12" endline="17">VRMShaders.TextureDescriptorSet.Add</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1ac568f641291747228f597fb44f194277" compoundref="_texture_descriptor_set_8cs" startline="19" endline="25">VRMShaders.TextureDescriptorSet.GetEnumerable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_descriptor_set_1afb6fd4f2d3da7da498334074eb48ea47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TextureDescriptorSet.Add</definition>
+        <argsstring>(TextureDescriptor texDesc)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref></type>
+          <declname>texDesc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" bodystart="12" bodyend="17"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1a5547014509c0d1dc8f555578159f03ef" compoundref="_texture_descriptor_set_8cs" startline="10">VRMShaders.TextureDescriptorSet._texDescDict</references>
+        <references refid="struct_v_r_m_shaders_1_1_texture_descriptor_1a85117b6a8142c9be170ac7441a6c0427" compoundref="_texture_descriptor_8cs" startline="45">VRMShaders.TextureDescriptor.SubAssetKey</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_descriptor_set_1ac568f641291747228f597fb44f194277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref> &gt;</type>
+        <definition>IEnumerable&lt;TextureDescriptor&gt; VRMShaders.TextureDescriptorSet.GetEnumerable</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" bodystart="19" bodyend="25"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1a5547014509c0d1dc8f555578159f03ef" compoundref="_texture_descriptor_set_8cs" startline="10">VRMShaders.TextureDescriptorSet._texDescDict</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>TextureImportParam の集合を Unique な集合にする。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/TextureDescriptorSet.cs" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1a5547014509c0d1dc8f555578159f03ef" prot="private" virt="non-virtual"><scope>VRMShaders::TextureDescriptorSet</scope><name>_texDescDict</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1afb6fd4f2d3da7da498334074eb48ea47" prot="public" virt="non-virtual"><scope>VRMShaders::TextureDescriptorSet</scope><name>Add</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_descriptor_set_1ac568f641291747228f597fb44f194277" prot="public" virt="non-virtual"><scope>VRMShaders::TextureDescriptorSet</scope><name>GetEnumerable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

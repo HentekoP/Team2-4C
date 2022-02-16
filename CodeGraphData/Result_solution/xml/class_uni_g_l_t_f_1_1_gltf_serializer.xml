@@ -1,0 +1,1705 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_serializer" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfSerializer</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize</definition>
+        <argsstring>(JsonFormatter f, glTF value)</argsstring>
+        <name>Serialize</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="12" bodyend="113"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ae20fa8d0826763beaa12995c4b70d083" compoundref="gl_t_f_8cs" startline="42">UniGLTF.glTF.accessors</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a972ea512f91fd147fc1d55fb4aee4daa" compoundref="gl_t_f_8cs" startline="107">UniGLTF.glTF.animations</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ac73533f88f8ee975e8123b19e88ebbcd" compoundref="gl_t_f_8cs" startline="26">UniGLTF.glTF.asset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a67ebec5b377b835fcda8dafafb9f5ca1" compoundref="gl_t_f_8cs" startline="30">UniGLTF.glTF.buffers</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1aad9bcefd6255ab4b9375f1f37320cffa" compoundref="gl_t_f_8cs" startline="33">UniGLTF.glTF.bufferViews</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a0b21f3402737e6413812eef3e3bbd899" compoundref="gl_t_f_8cs" startline="110">UniGLTF.glTF.cameras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a3085bfb169ec1c2cff6cd9423f389f26" compoundref="gl_t_f_8cs" startline="118">UniGLTF.glTF.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a3e1ce8c632c9035b655da4167b891612" compoundref="gl_t_f_8cs" startline="116">UniGLTF.glTF.extensionsRequired</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a33ba44b66c2f42b891ce69879c28f03d" compoundref="gl_t_f_8cs" startline="113">UniGLTF.glTF.extensionsUsed</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a9760b9f1a4943d7b5ca52b2f4130b80b" compoundref="gl_t_f_8cs" startline="119">UniGLTF.glTF.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a96c88588998e7c809069b4182b541815" compoundref="gl_t_f_8cs" startline="61">UniGLTF.glTF.images</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a96111f7da4ecfb03d5f6d5e1b2056b89" compoundref="gl_t_f_8cs" startline="70">UniGLTF.glTF.materials</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ace993869223f0cc4aa7de19a02938258" compoundref="gl_t_f_8cs" startline="85">UniGLTF.glTF.meshes</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ae088f0a58cb1d809242c625db3fa1556" compoundref="gl_t_f_8cs" startline="88">UniGLTF.glTF.nodes</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a661402aa91a7bbc466b92492dcaa03e0" compoundref="gl_t_f_8cs" startline="49">UniGLTF.glTF.samplers</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a8c84c8a00fc02aef135c3500615aae3a" compoundref="gl_t_f_8cs" startline="94">UniGLTF.glTF.scene</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1af3dc95a4f9e7ca0c0a00f0b95892fff4" compoundref="gl_t_f_8cs" startline="97">UniGLTF.glTF.scenes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aaed57cc7acf88022da157d2e9f0bd518" compoundref="_gltf_serializer_8g_8cs" startline="258" endline="268">UniGLTF.GltfSerializer.Serialize_gltf_accessors</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a443911dab8a90f0ab47d7312c0e611eb" compoundref="_gltf_serializer_8g_8cs" startline="1359" endline="1369">UniGLTF.GltfSerializer.Serialize_gltf_animations</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aa7c9752a7eb2d39a0cebad257dcd894c" compoundref="_gltf_serializer_8g_8cs" startline="115" endline="151">UniGLTF.GltfSerializer.Serialize_gltf_asset</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad8ed08dbbe2f013e684af77fc4acf59b" compoundref="_gltf_serializer_8g_8cs" startline="153" endline="163">UniGLTF.GltfSerializer.Serialize_gltf_buffers</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7a3bc0607215cc63a3e98ba069f9a90d" compoundref="_gltf_serializer_8g_8cs" startline="198" endline="208">UniGLTF.GltfSerializer.Serialize_gltf_bufferViews</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1af0419613bdda43fd004fc1d0a42c428c" compoundref="_gltf_serializer_8g_8cs" startline="1517" endline="1527">UniGLTF.GltfSerializer.Serialize_gltf_cameras</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ade570cc947eb0acd82357bf90a45a12b" compoundref="_gltf_serializer_8g_8cs" startline="1655" endline="1665">UniGLTF.GltfSerializer.Serialize_gltf_extensionsRequired</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aeac05ae350f47a017a3a792e39af6bd2" compoundref="_gltf_serializer_8g_8cs" startline="1643" endline="1653">UniGLTF.GltfSerializer.Serialize_gltf_extensionsUsed</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7705a62334f820c03638ccf0945c872e" compoundref="_gltf_serializer_8g_8cs" startline="556" endline="566">UniGLTF.GltfSerializer.Serialize_gltf_images</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6c4c7954319a471aef90170891c00894" compoundref="_gltf_serializer_8g_8cs" startline="606" endline="616">UniGLTF.GltfSerializer.Serialize_gltf_materials</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a02089899961ff96d1ceb131a3bc329aa" compoundref="_gltf_serializer_8g_8cs" startline="898" endline="908">UniGLTF.GltfSerializer.Serialize_gltf_meshes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a806ddcf83df36b7f7ecc6a15d476f74c" compoundref="_gltf_serializer_8g_8cs" startline="1093" endline="1103">UniGLTF.GltfSerializer.Serialize_gltf_nodes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a32ad91cebe3175a049d4dc0a2b0dea1e" compoundref="_gltf_serializer_8g_8cs" startline="501" endline="511">UniGLTF.GltfSerializer.Serialize_gltf_samplers</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a0e261f9de434ac025f20676548f35da1" compoundref="_gltf_serializer_8g_8cs" startline="1307" endline="1317">UniGLTF.GltfSerializer.Serialize_gltf_scenes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1afac2ba8c2a2670fe31c3d4f828eb7576" compoundref="_gltf_serializer_8g_8cs" startline="1245" endline="1255">UniGLTF.GltfSerializer.Serialize_gltf_skins</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ada2de6fd11e32cf055987c88406675b3" compoundref="_gltf_serializer_8g_8cs" startline="456" endline="466">UniGLTF.GltfSerializer.Serialize_gltf_textures</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1acc13a4bd443c0a165a8d448c35189e34" compoundref="gl_t_f_8cs" startline="91">UniGLTF.glTF.skins</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1ad60a29d706dc012c25474e64ad4b2d6c" compoundref="gl_t_f_8cs" startline="46">UniGLTF.glTF.textures</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a84094dc62d2ca2c326631ab5244707f6" compoundref="_serializer_8g_8cs" startline="31" endline="52">UniGLTF.Extensions.VRMC_materials_hdr_emissiveMultiplier.GltfSerializer.Serialize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_extensions_1_1_v_r_m_c__materials__hdr__emissive_multiplier_1_1_gltf_serializer_1a8ec9a8b953923baf412276354befe614" compoundref="_serializer_8g_8cs" startline="12" endline="28">UniGLTF.Extensions.VRMC_materials_hdr_emissiveMultiplier.GltfSerializer.SerializeTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aa7c9752a7eb2d39a0cebad257dcd894c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_asset</definition>
+        <argsstring>(JsonFormatter f, glTFAssets value)</argsstring>
+        <name>Serialize_gltf_asset</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_assets" kindref="compound">glTFAssets</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="115" bodyend="151"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1a893e64f400c124e4dd0f28508d81fd08" compoundref="gl_t_f_assets_8cs" startline="14">UniGLTF.glTFAssets.copyright</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1a7b89f4e291fd75dbc990f31dcbe6363f" compoundref="gl_t_f_assets_8cs" startline="20">UniGLTF.glTFAssets.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1ac4406cb16b20b4e50722c914c9d76f77" compoundref="gl_t_f_assets_8cs" startline="21">UniGLTF.glTFAssets.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1ae327c0d37c7189583d31c1bbf8730504" compoundref="gl_t_f_assets_8cs" startline="9">UniGLTF.glTFAssets.generator</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1a95588dff64fd78c5bbb8d3cf3dd551c7" compoundref="gl_t_f_assets_8cs" startline="17">UniGLTF.glTFAssets.minVersion</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_assets_1a2ae10ab0bd089ee01898bdf60713ec71" compoundref="gl_t_f_assets_8cs" startline="12">UniGLTF.glTFAssets.version</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ad8ed08dbbe2f013e684af77fc4acf59b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_buffers</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFBuffer &gt; value)</argsstring>
+        <name>Serialize_gltf_buffers</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer" kindref="compound">glTFBuffer</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="153" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="153" bodyend="163"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a51989632c98643c4f5c6f249b808283b" compoundref="_gltf_serializer_8g_8cs" startline="165" endline="196">UniGLTF.GltfSerializer.Serialize_gltf_buffers_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a51989632c98643c4f5c6f249b808283b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_buffers_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFBuffer value)</argsstring>
+        <name>Serialize_gltf_buffers_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer" kindref="compound">glTFBuffer</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="165" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="165" bodyend="196"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_1abc57b6f012b7ecdf23e863b444b02c13" compoundref="gl_t_f_buffer_8cs" startline="12">UniGLTF.glTFBuffer.byteLength</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_1aa8de5e1499b2f1faf3011a2dff4bd261" compoundref="gl_t_f_buffer_8cs" startline="15">UniGLTF.glTFBuffer.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_1a459b66e2f1b645178b3e9a5562ffef97" compoundref="gl_t_f_buffer_8cs" startline="16">UniGLTF.glTFBuffer.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_1ac7623820a629d6a859f729a3c51cdd0f" compoundref="gl_t_f_buffer_8cs" startline="17">UniGLTF.glTFBuffer.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_1adb25e10220cd80d763925900e830fe18" compoundref="gl_t_f_buffer_8cs" startline="9">UniGLTF.glTFBuffer.uri</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad8ed08dbbe2f013e684af77fc4acf59b" compoundref="_gltf_serializer_8g_8cs" startline="153" endline="163">UniGLTF.GltfSerializer.Serialize_gltf_buffers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a7a3bc0607215cc63a3e98ba069f9a90d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_bufferViews</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFBufferView &gt; value)</argsstring>
+        <name>Serialize_gltf_bufferViews</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view" kindref="compound">glTFBufferView</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="198" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="198" bodyend="208"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a5d5bedb2eb6a790370d30d3e0c6b94b3" compoundref="_gltf_serializer_8g_8cs" startline="210" endline="256">UniGLTF.GltfSerializer.Serialize_gltf_bufferViews_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a5d5bedb2eb6a790370d30d3e0c6b94b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_bufferViews_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFBufferView value)</argsstring>
+        <name>Serialize_gltf_bufferViews_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view" kindref="compound">glTFBufferView</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="210" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="210" bodyend="256"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1ad9809d385a00f2f51dedfcd7409f5cc0" compoundref="gl_t_f_buffer_8cs" startline="24">UniGLTF.glTFBufferView.buffer</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1a65bea5c4d2eafd3689ac4db5817f4878" compoundref="gl_t_f_buffer_8cs" startline="30">UniGLTF.glTFBufferView.byteLength</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1ace020b5229299252cdadcd3ceab37c0d" compoundref="gl_t_f_buffer_8cs" startline="27">UniGLTF.glTFBufferView.byteOffset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1aa29f55aa5d5110c5c3c1f46180b8c0bd" compoundref="gl_t_f_buffer_8cs" startline="33">UniGLTF.glTFBufferView.byteStride</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1a7e6e0a3d833145b487acc9e1764d209c" compoundref="gl_t_f_buffer_8cs" startline="39">UniGLTF.glTFBufferView.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1a60f2e3c4874ccc7a0e56b9d688e9d31f" compoundref="gl_t_f_buffer_8cs" startline="40">UniGLTF.glTFBufferView.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1a733ebb50b6b1b07239ce7ea21baf033c" compoundref="gl_t_f_buffer_8cs" startline="41">UniGLTF.glTFBufferView.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_buffer_view_1a64f210ebc683adb29ff8f547eae01cbe" compoundref="gl_t_f_buffer_8cs" startline="36">UniGLTF.glTFBufferView.target</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7a3bc0607215cc63a3e98ba069f9a90d" compoundref="_gltf_serializer_8g_8cs" startline="198" endline="208">UniGLTF.GltfSerializer.Serialize_gltf_bufferViews</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aaed57cc7acf88022da157d2e9f0bd518" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFAccessor &gt; value)</argsstring>
+        <name>Serialize_gltf_accessors</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_accessor" kindref="compound">glTFAccessor</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="258" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="258" bodyend="268"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" compoundref="_gltf_serializer_8g_8cs" startline="270" endline="336">UniGLTF.GltfSerializer.Serialize_gltf_accessors_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFAccessor value)</argsstring>
+        <name>Serialize_gltf_accessors_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_accessor" kindref="compound">glTFAccessor</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="270" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="270" bodyend="336"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1aa08fc965b426818655d8863f5df6fec8" compoundref="gl_t_f_buffer_8cs" startline="96">UniGLTF.glTFAccessor.bufferView</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1ad3278a12e244114ac7a6287e3bb0f569" compoundref="gl_t_f_buffer_8cs" startline="99">UniGLTF.glTFAccessor.byteOffset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a23ace1636fc86f898fdbd26032975b1b" compoundref="gl_t_f_buffer_8cs" startline="130">UniGLTF.glTFAccessor.componentType</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1aa4e5c09fd051e9bcfc8151d758ce74d2" compoundref="gl_t_f_buffer_8cs" startline="133">UniGLTF.glTFAccessor.count</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a5f7104ea772e08737996136182dbea05" compoundref="gl_t_f_buffer_8cs" startline="147">UniGLTF.glTFAccessor.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a0a67cfe7b2494aaf30279fe493b7bda3" compoundref="gl_t_f_buffer_8cs" startline="149">UniGLTF.glTFAccessor.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a8ba5c32d0c936553147d685cdca425ec" compoundref="gl_t_f_buffer_8cs" startline="136">UniGLTF.glTFAccessor.max</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a39dbf1cd475c4a332811a914f21add66" compoundref="gl_t_f_buffer_8cs" startline="139">UniGLTF.glTFAccessor.min</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1af94fd1b260333e3b412028e80b9ca36f" compoundref="gl_t_f_buffer_8cs" startline="145">UniGLTF.glTFAccessor.name</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aec6b0bebd2b1dbd8c95a1226f717f81e" compoundref="_gltf_serializer_8g_8cs" startline="338" endline="348">UniGLTF.GltfSerializer.Serialize_gltf_accessors__max</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a260496e8343b91a0c9c36efd4a68e9a6" compoundref="_gltf_serializer_8g_8cs" startline="350" endline="360">UniGLTF.GltfSerializer.Serialize_gltf_accessors__min</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a3df1d3a4489ef9a49f3db79f18aab89f" compoundref="_gltf_serializer_8g_8cs" startline="362" endline="393">UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1aa6c36034aca822dbac3ed68609c0a18b" compoundref="gl_t_f_buffer_8cs" startline="142">UniGLTF.glTFAccessor.sparse</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_accessor_1a8e0fca47fa3f775cff9b997d6baa7d89" compoundref="gl_t_f_buffer_8cs" startline="102">UniGLTF.glTFAccessor.type</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aaed57cc7acf88022da157d2e9f0bd518" compoundref="_gltf_serializer_8g_8cs" startline="258" endline="268">UniGLTF.GltfSerializer.Serialize_gltf_accessors</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aec6b0bebd2b1dbd8c95a1226f717f81e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors__max</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_accessors__max</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="338" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="338" bodyend="348"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" compoundref="_gltf_serializer_8g_8cs" startline="270" endline="336">UniGLTF.GltfSerializer.Serialize_gltf_accessors_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a260496e8343b91a0c9c36efd4a68e9a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors__min</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_accessors__min</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="350" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="350" bodyend="360"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" compoundref="_gltf_serializer_8g_8cs" startline="270" endline="336">UniGLTF.GltfSerializer.Serialize_gltf_accessors_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a3df1d3a4489ef9a49f3db79f18aab89f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse</definition>
+        <argsstring>(JsonFormatter f, glTFSparse value)</argsstring>
+        <name>Serialize_gltf_accessors__sparse</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_sparse" kindref="compound">glTFSparse</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="362" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="362" bodyend="393"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_1aaee37d950eeedaab5f19edc69d4c2fd2" compoundref="gl_t_f_buffer_8cs" startline="79">UniGLTF.glTFSparse.count</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_1aa3e3ed8b0bb7600a325f0f840bc00404" compoundref="gl_t_f_buffer_8cs" startline="88">UniGLTF.glTFSparse.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_1a3f32153aacf7af2706e4422a0b1fbe95" compoundref="gl_t_f_buffer_8cs" startline="89">UniGLTF.glTFSparse.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_1a0c6cf70363f6ded744208696b4302217" compoundref="gl_t_f_buffer_8cs" startline="82">UniGLTF.glTFSparse.indices</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a8daf8aa720bae6fc7ba28676fa3422ea" compoundref="_gltf_serializer_8g_8cs" startline="395" endline="426">UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse_indices</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a009a353c561402640d7ee7d77af5dada" compoundref="_gltf_serializer_8g_8cs" startline="428" endline="454">UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse_values</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_1ac8955e1ba0bed2317f79fbef4ff29874" compoundref="gl_t_f_buffer_8cs" startline="85">UniGLTF.glTFSparse.values</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" compoundref="_gltf_serializer_8g_8cs" startline="270" endline="336">UniGLTF.GltfSerializer.Serialize_gltf_accessors_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a8daf8aa720bae6fc7ba28676fa3422ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse_indices</definition>
+        <argsstring>(JsonFormatter f, glTFSparseIndices value)</argsstring>
+        <name>Serialize_gltf_accessors__sparse_indices</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices" kindref="compound">glTFSparseIndices</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="395" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="395" bodyend="426"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices_1a6d48e7652810c1813cd4a50ccf778411" compoundref="gl_t_f_buffer_8cs" startline="48">UniGLTF.glTFSparseIndices.bufferView</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices_1abeed9e920a9bab40396b14bb4b3e99da" compoundref="gl_t_f_buffer_8cs" startline="51">UniGLTF.glTFSparseIndices.byteOffset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices_1add8a23d5bf5d8b4a1d6ed3bac92b8cbb" compoundref="gl_t_f_buffer_8cs" startline="54">UniGLTF.glTFSparseIndices.componentType</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices_1ad6de2fd2d9fd56a2af082501e301e258" compoundref="gl_t_f_buffer_8cs" startline="57">UniGLTF.glTFSparseIndices.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_indices_1a9ac5927a8b207e2eaf46f04d241071c7" compoundref="gl_t_f_buffer_8cs" startline="58">UniGLTF.glTFSparseIndices.extras</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a3df1d3a4489ef9a49f3db79f18aab89f" compoundref="_gltf_serializer_8g_8cs" startline="362" endline="393">UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a009a353c561402640d7ee7d77af5dada" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse_values</definition>
+        <argsstring>(JsonFormatter f, glTFSparseValues value)</argsstring>
+        <name>Serialize_gltf_accessors__sparse_values</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values" kindref="compound">glTFSparseValues</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="428" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="428" bodyend="454"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values_1ad47f49a2985e40cdd0882be427601456" compoundref="gl_t_f_buffer_8cs" startline="65">UniGLTF.glTFSparseValues.bufferView</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values_1ae8afa81def43c822827775340ced0cd0" compoundref="gl_t_f_buffer_8cs" startline="68">UniGLTF.glTFSparseValues.byteOffset</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values_1a6cd278700e8ec7cea926af9f0043bbe5" compoundref="gl_t_f_buffer_8cs" startline="71">UniGLTF.glTFSparseValues.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_sparse_values_1a221029b9f1f68ffc547fc6acf014b04a" compoundref="gl_t_f_buffer_8cs" startline="72">UniGLTF.glTFSparseValues.extras</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a3df1d3a4489ef9a49f3db79f18aab89f" compoundref="_gltf_serializer_8g_8cs" startline="362" endline="393">UniGLTF.GltfSerializer.Serialize_gltf_accessors__sparse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ada2de6fd11e32cf055987c88406675b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_textures</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFTexture &gt; value)</argsstring>
+        <name>Serialize_gltf_textures</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_texture" kindref="compound">glTFTexture</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="456" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="456" bodyend="466"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a2e8328344b171b96d4423ca462c6d4fd" compoundref="_gltf_serializer_8g_8cs" startline="468" endline="499">UniGLTF.GltfSerializer.Serialize_gltf_textures_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a2e8328344b171b96d4423ca462c6d4fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_textures_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFTexture value)</argsstring>
+        <name>Serialize_gltf_textures_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_texture" kindref="compound">glTFTexture</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="468" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="468" bodyend="499"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_1abb75da56791b7ca2a995bc48abeeeb47" compoundref="gl_t_f_texture_8cs" startline="65">UniGLTF.glTFTexture.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_1a177c368e6ec57f3a6d65238fb32f899e" compoundref="gl_t_f_texture_8cs" startline="66">UniGLTF.glTFTexture.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_1adfbdf84dfbce1db3e9a73d3372fce087" compoundref="gl_t_f_texture_8cs" startline="67">UniGLTF.glTFTexture.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_1ab5815078bc52d83c76faac0c1863da08" compoundref="gl_t_f_texture_8cs" startline="59">UniGLTF.glTFTexture.sampler</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_1a0c05caa6ecd89b2084615280e550f3ef" compoundref="gl_t_f_texture_8cs" startline="62">UniGLTF.glTFTexture.source</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ada2de6fd11e32cf055987c88406675b3" compoundref="_gltf_serializer_8g_8cs" startline="456" endline="466">UniGLTF.GltfSerializer.Serialize_gltf_textures</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a32ad91cebe3175a049d4dc0a2b0dea1e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_samplers</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFTextureSampler &gt; value)</argsstring>
+        <name>Serialize_gltf_samplers</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler" kindref="compound">glTFTextureSampler</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="501" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="501" bodyend="511"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1acc42164417e054f4d8daef501eaaf1fb" compoundref="_gltf_serializer_8g_8cs" startline="513" endline="554">UniGLTF.GltfSerializer.Serialize_gltf_samplers_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1acc42164417e054f4d8daef501eaaf1fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_samplers_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFTextureSampler value)</argsstring>
+        <name>Serialize_gltf_samplers_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler" kindref="compound">glTFTextureSampler</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="513" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="513" bodyend="554"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1ac490df6aed1773c2b2576dcb588acf79" compoundref="gl_t_f_texture_8cs" startline="33">UniGLTF.glTFTextureSampler.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1a0128d38976196f52eb7ddf8076f4d9c8" compoundref="gl_t_f_texture_8cs" startline="34">UniGLTF.glTFTextureSampler.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1a25d931cfbba7f1d8678abebe7d5d1d27" compoundref="gl_t_f_texture_8cs" startline="18">UniGLTF.glTFTextureSampler.magFilter</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1a248ed832a64bf5ab9be21184f3eac157" compoundref="gl_t_f_texture_8cs" startline="22">UniGLTF.glTFTextureSampler.minFilter</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1a679b46f8823bfc38ce7446c77137c629" compoundref="gl_t_f_texture_8cs" startline="35">UniGLTF.glTFTextureSampler.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1a692beac1bfa46ba4c247cae100ac1284" compoundref="gl_t_f_texture_8cs" startline="26">UniGLTF.glTFTextureSampler.wrapS</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_sampler_1abed9427eeff0accf61da5e2a5c0c06be" compoundref="gl_t_f_texture_8cs" startline="30">UniGLTF.glTFTextureSampler.wrapT</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a32ad91cebe3175a049d4dc0a2b0dea1e" compoundref="_gltf_serializer_8g_8cs" startline="501" endline="511">UniGLTF.GltfSerializer.Serialize_gltf_samplers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a7705a62334f820c03638ccf0945c872e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_images</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFImage &gt; value)</argsstring>
+        <name>Serialize_gltf_images</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_image" kindref="compound">glTFImage</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="556" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="556" bodyend="566"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a24cce423d34d69299eeec183d20c0fce" compoundref="_gltf_serializer_8g_8cs" startline="568" endline="604">UniGLTF.GltfSerializer.Serialize_gltf_images_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a24cce423d34d69299eeec183d20c0fce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_images_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFImage value)</argsstring>
+        <name>Serialize_gltf_images_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_image" kindref="compound">glTFImage</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="568" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="568" bodyend="604"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1a7f8b22aabfa396678c306febf781a126" compoundref="gl_t_f_texture_8cs" startline="45">UniGLTF.glTFImage.bufferView</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1a4208133f86abd0b1a6fde2dc8992d517" compoundref="gl_t_f_texture_8cs" startline="51">UniGLTF.glTFImage.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1af50bb9192883eb15b2f027d8ce3f6f9c" compoundref="gl_t_f_texture_8cs" startline="52">UniGLTF.glTFImage.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1aa8152b921b26ba3b7c62f2990357bce9" compoundref="gl_t_f_texture_8cs" startline="48">UniGLTF.glTFImage.mimeType</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1a8859fb97338b61f9da8e375b8ab14595" compoundref="gl_t_f_texture_8cs" startline="41">UniGLTF.glTFImage.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_image_1a3dd629f76de2c308d2f141b8b1739e33" compoundref="gl_t_f_texture_8cs" startline="42">UniGLTF.glTFImage.uri</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7705a62334f820c03638ccf0945c872e" compoundref="_gltf_serializer_8g_8cs" startline="556" endline="566">UniGLTF.GltfSerializer.Serialize_gltf_images</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a6c4c7954319a471aef90170891c00894" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFMaterial &gt; value)</argsstring>
+        <name>Serialize_gltf_materials</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="606" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="606" bodyend="616"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFMaterial value)</argsstring>
+        <name>Serialize_gltf_materials_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material" kindref="compound">glTFMaterial</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="618" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="618" bodyend="679"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a722984d4f166bb2f527306381a54f3da" compoundref="gl_t_f_material_8cs" startline="92">UniGLTF.glTFMaterial.alphaCutoff</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a003bc0a89e3563596dab45d414becc29" compoundref="gl_t_f_material_8cs" startline="89">UniGLTF.glTFMaterial.alphaMode</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1ab6d8655d8fb9154690f95f42f16beedd" compoundref="gl_t_f_material_8cs" startline="86">UniGLTF.glTFMaterial.emissiveFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a8436f62324b16ae4b40d5b00aa0560be" compoundref="gl_t_f_material_8cs" startline="82">UniGLTF.glTFMaterial.emissiveTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1aae79c3654cc320df000fe374edd08265" compoundref="gl_t_f_material_8cs" startline="97">UniGLTF.glTFMaterial.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a44abff5e37f91039726219d4ec83348b" compoundref="gl_t_f_material_8cs" startline="98">UniGLTF.glTFMaterial.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a3583e4d9aa72bb1ffbdc853f3253318e" compoundref="gl_t_f_material_8cs" startline="73">UniGLTF.glTFMaterial.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0f3b5e792549fbe289ae570e0cae6875" compoundref="gl_t_f_material_8cs" startline="78">UniGLTF.glTFMaterial.normalTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a113742cbb92fd3e987c11358c7db5d51" compoundref="gl_t_f_material_8cs" startline="80">UniGLTF.glTFMaterial.occlusionTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0c08ba89f4e1897914b41104f7c19911" compoundref="gl_t_f_material_8cs" startline="74">UniGLTF.glTFMaterial.pbrMetallicRoughness</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29d376ff8fee6cd85fb859f0663325b3" compoundref="_gltf_serializer_8g_8cs" startline="886" endline="896">UniGLTF.GltfSerializer.Serialize_gltf_materials__emissiveFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ab6dbffe14aef97dab91b1cfec54ba0da" compoundref="_gltf_serializer_8g_8cs" startline="858" endline="884">UniGLTF.GltfSerializer.Serialize_gltf_materials__emissiveTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf46210e341ce6ed23a00e41b997856c" compoundref="_gltf_serializer_8g_8cs" startline="792" endline="823">UniGLTF.GltfSerializer.Serialize_gltf_materials__normalTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad044c0a5f4e6347d46ec88ecd86db3b5" compoundref="_gltf_serializer_8g_8cs" startline="825" endline="856">UniGLTF.GltfSerializer.Serialize_gltf_materials__occlusionTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" compoundref="_gltf_serializer_8g_8cs" startline="681" endline="722">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6c4c7954319a471aef90170891c00894" compoundref="_gltf_serializer_8g_8cs" startline="606" endline="616">UniGLTF.GltfSerializer.Serialize_gltf_materials</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness</definition>
+        <argsstring>(JsonFormatter f, glTFPbrMetallicRoughness value)</argsstring>
+        <name>Serialize_gltf_materials__pbrMetallicRoughness</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness" kindref="compound">glTFPbrMetallicRoughness</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="681" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="681" bodyend="722"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1a84f08a1ef3f4a351cc8e38117c55ade8" compoundref="gl_t_f_material_8cs" startline="55">UniGLTF.glTFPbrMetallicRoughness.baseColorFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1ac39f1219a7e1d1893a9336291da763ae" compoundref="gl_t_f_material_8cs" startline="51">UniGLTF.glTFPbrMetallicRoughness.baseColorTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1a327c6b0db39d9f49e813335e180bb823" compoundref="gl_t_f_material_8cs" startline="66">UniGLTF.glTFPbrMetallicRoughness.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1a6b7b9ff8768f5df7a8b9a36db6818a61" compoundref="gl_t_f_material_8cs" startline="67">UniGLTF.glTFPbrMetallicRoughness.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1a46f58b6e9e4da6f81da5093170ed26f6" compoundref="gl_t_f_material_8cs" startline="60">UniGLTF.glTFPbrMetallicRoughness.metallicFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1a21d0cec2797b81d2804bc6c963062f2a" compoundref="gl_t_f_material_8cs" startline="57">UniGLTF.glTFPbrMetallicRoughness.metallicRoughnessTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1abd8600f67b56374893e9ef87874331f2" compoundref="gl_t_f_material_8cs" startline="63">UniGLTF.glTFPbrMetallicRoughness.roughnessFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1abb7fd34ca61434e48d3e21de7a88d2f5" compoundref="_gltf_serializer_8g_8cs" startline="752" endline="762">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_baseColorFactor</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1afc88d30ad97ee0d38a31156613cf3a62" compoundref="_gltf_serializer_8g_8cs" startline="724" endline="750">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_baseColorTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7821cc156bf862246568ae89afbd3ef2" compoundref="_gltf_serializer_8g_8cs" startline="764" endline="790">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_metallicRoughnessTexture</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1afc88d30ad97ee0d38a31156613cf3a62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_baseColorTexture</definition>
+        <argsstring>(JsonFormatter f, glTFMaterialBaseColorTextureInfo value)</argsstring>
+        <name>Serialize_gltf_materials__pbrMetallicRoughness_baseColorTexture</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info" kindref="compound">glTFMaterialBaseColorTextureInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="724" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="724" bodyend="750"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" compoundref="gl_t_f_material_8cs" startline="16">UniGLTF.glTFTextureInfo.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" compoundref="gl_t_f_material_8cs" startline="17">UniGLTF.glTFTextureInfo.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" compoundref="gl_t_f_material_8cs" startline="10">UniGLTF.glTFTextureInfo.index</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" compoundref="gl_t_f_material_8cs" startline="13">UniGLTF.glTFTextureInfo.texCoord</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" compoundref="_gltf_serializer_8g_8cs" startline="681" endline="722">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1abb7fd34ca61434e48d3e21de7a88d2f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_baseColorFactor</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_materials__pbrMetallicRoughness_baseColorFactor</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="752" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="752" bodyend="762"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" compoundref="_gltf_serializer_8g_8cs" startline="681" endline="722">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a7821cc156bf862246568ae89afbd3ef2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness_metallicRoughnessTexture</definition>
+        <argsstring>(JsonFormatter f, glTFMaterialMetallicRoughnessTextureInfo value)</argsstring>
+        <name>Serialize_gltf_materials__pbrMetallicRoughness_metallicRoughnessTexture</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_metallic_roughness_texture_info" kindref="compound">glTFMaterialMetallicRoughnessTextureInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="764" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="764" bodyend="790"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" compoundref="gl_t_f_material_8cs" startline="16">UniGLTF.glTFTextureInfo.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" compoundref="gl_t_f_material_8cs" startline="17">UniGLTF.glTFTextureInfo.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" compoundref="gl_t_f_material_8cs" startline="10">UniGLTF.glTFTextureInfo.index</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" compoundref="gl_t_f_material_8cs" startline="13">UniGLTF.glTFTextureInfo.texCoord</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" compoundref="_gltf_serializer_8g_8cs" startline="681" endline="722">UniGLTF.GltfSerializer.Serialize_gltf_materials__pbrMetallicRoughness</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1adf46210e341ce6ed23a00e41b997856c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__normalTexture</definition>
+        <argsstring>(JsonFormatter f, glTFMaterialNormalTextureInfo value)</argsstring>
+        <name>Serialize_gltf_materials__normalTexture</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_normal_texture_info" kindref="compound">glTFMaterialNormalTextureInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="792" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="792" bodyend="823"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" compoundref="gl_t_f_material_8cs" startline="16">UniGLTF.glTFTextureInfo.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" compoundref="gl_t_f_material_8cs" startline="17">UniGLTF.glTFTextureInfo.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" compoundref="gl_t_f_material_8cs" startline="10">UniGLTF.glTFTextureInfo.index</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" compoundref="gl_t_f_material_8cs" startline="13">UniGLTF.glTFTextureInfo.texCoord</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ad044c0a5f4e6347d46ec88ecd86db3b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__occlusionTexture</definition>
+        <argsstring>(JsonFormatter f, glTFMaterialOcclusionTextureInfo value)</argsstring>
+        <name>Serialize_gltf_materials__occlusionTexture</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info" kindref="compound">glTFMaterialOcclusionTextureInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="825" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="825" bodyend="856"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" compoundref="gl_t_f_material_8cs" startline="16">UniGLTF.glTFTextureInfo.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" compoundref="gl_t_f_material_8cs" startline="17">UniGLTF.glTFTextureInfo.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" compoundref="gl_t_f_material_8cs" startline="10">UniGLTF.glTFTextureInfo.index</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info_1ab8465023195f650618b04771c630629c" compoundref="gl_t_f_material_8cs" startline="40">UniGLTF.glTFMaterialOcclusionTextureInfo.strength</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" compoundref="gl_t_f_material_8cs" startline="13">UniGLTF.glTFTextureInfo.texCoord</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ab6dbffe14aef97dab91b1cfec54ba0da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__emissiveTexture</definition>
+        <argsstring>(JsonFormatter f, glTFMaterialEmissiveTextureInfo value)</argsstring>
+        <name>Serialize_gltf_materials__emissiveTexture</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_emissive_texture_info" kindref="compound">glTFMaterialEmissiveTextureInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="858" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="858" bodyend="884"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4c6d50ea441ed827c78f52985c193e8d" compoundref="gl_t_f_material_8cs" startline="16">UniGLTF.glTFTextureInfo.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1ad93306e81403cdb2bcdd60b6a7af8cdf" compoundref="gl_t_f_material_8cs" startline="17">UniGLTF.glTFTextureInfo.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1a4bc35e2e9d5a27f76ffb793df7d94e29" compoundref="gl_t_f_material_8cs" startline="10">UniGLTF.glTFTextureInfo.index</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info_1aadc9f73c10de45dfa8bedc2503d02ac3" compoundref="gl_t_f_material_8cs" startline="13">UniGLTF.glTFTextureInfo.texCoord</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a29d376ff8fee6cd85fb859f0663325b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_materials__emissiveFactor</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_materials__emissiveFactor</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="886" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="886" bodyend="896"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a02089899961ff96d1ceb131a3bc329aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFMesh &gt; value)</argsstring>
+        <name>Serialize_gltf_meshes</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_mesh" kindref="compound">glTFMesh</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="898" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="898" bodyend="908"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFMesh value)</argsstring>
+        <name>Serialize_gltf_meshes_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_mesh" kindref="compound">glTFMesh</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="910" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="910" bodyend="941"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a98605aa2137bc03f6e834d7673ac2947" compoundref="gl_t_f_mesh_8cs" startline="115">UniGLTF.glTFMesh.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a1f0b8a9ae09ab1425682dbf1adca8aba" compoundref="gl_t_f_mesh_8cs" startline="112">UniGLTF.glTFMesh.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7195ff35f7ad0d64f1c75dbe6f248b3f" compoundref="gl_t_f_mesh_8cs" startline="103">UniGLTF.glTFMesh.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a386e33fd500442ef461af3c1279c3867" compoundref="gl_t_f_mesh_8cs" startline="106">UniGLTF.glTFMesh.primitives</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a77cfa887ea1d2a211c6943bafd397a3e" compoundref="_gltf_serializer_8g_8cs" startline="943" endline="953">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6aa805cf6da6816ef9c204f15956a64b" compoundref="_gltf_serializer_8g_8cs" startline="1081" endline="1091">UniGLTF.GltfSerializer.Serialize_gltf_meshes__weights</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_mesh_1a7d7006f932e5d36fb50b3d5bcbbc39ec" compoundref="gl_t_f_mesh_8cs" startline="109">UniGLTF.glTFMesh.weights</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a02089899961ff96d1ceb131a3bc329aa" compoundref="_gltf_serializer_8g_8cs" startline="898" endline="908">UniGLTF.GltfSerializer.Serialize_gltf_meshes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a77cfa887ea1d2a211c6943bafd397a3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFPrimitives &gt; value)</argsstring>
+        <name>Serialize_gltf_meshes__primitives</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" kindref="compound">glTFPrimitives</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="943" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="943" bodyend="953"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf6922733b8adc15385d35eb9424b237" compoundref="_gltf_serializer_8g_8cs" startline="955" endline="996">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1adf6922733b8adc15385d35eb9424b237" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFPrimitives value)</argsstring>
+        <name>Serialize_gltf_meshes__primitives_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_primitives" kindref="compound">glTFPrimitives</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="955" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="955" bodyend="996"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1a026d20bb12643bf14cffceeb1ac69efd" compoundref="gl_t_f_mesh_8cs" startline="85">UniGLTF.glTFPrimitives.attributes</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1a360d3f99ce09624cade58856f496a5cb" compoundref="gl_t_f_mesh_8cs" startline="97">UniGLTF.glTFPrimitives.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1accfb8e5f39cba20dee4b0c8b7a76dee2" compoundref="gl_t_f_mesh_8cs" startline="94">UniGLTF.glTFPrimitives.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1ae9cf1727b11d4e9b418680cd98854ec0" compoundref="gl_t_f_mesh_8cs" startline="82">UniGLTF.glTFPrimitives.indices</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1a75426dc724e9c53e5a0247e4f88c1bac" compoundref="gl_t_f_mesh_8cs" startline="88">UniGLTF.glTFPrimitives.material</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a93553b7a21d479066c7571004b4fa8c3" compoundref="_gltf_serializer_8g_8cs" startline="998" endline="1044">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__attributes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a37a39dca194a79d0c64c2a444c4c2c49" compoundref="_gltf_serializer_8g_8cs" startline="1046" endline="1056">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__targets</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_primitives_1a83b8197120a699dc4d1e2a6fe1080b33" compoundref="gl_t_f_mesh_8cs" startline="92">UniGLTF.glTFPrimitives.targets</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a77cfa887ea1d2a211c6943bafd397a3e" compoundref="_gltf_serializer_8g_8cs" startline="943" endline="953">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a93553b7a21d479066c7571004b4fa8c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__attributes</definition>
+        <argsstring>(JsonFormatter f, glTFAttributes value)</argsstring>
+        <name>Serialize_gltf_meshes__primitives__attributes</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_attributes" kindref="compound">glTFAttributes</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="998" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="998" bodyend="1044"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a19a11fbef9579e8c81568e5eb3d8fdf3" compoundref="gl_t_f_mesh_8cs" startline="26">UniGLTF.glTFAttributes.COLOR_0</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a30514c4f300a444c2899e6960448c6bf" compoundref="gl_t_f_mesh_8cs" startline="29">UniGLTF.glTFAttributes.JOINTS_0</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1af2a7ccb4f37d5632d06a8ced5b33b83d" compoundref="gl_t_f_mesh_8cs" startline="14">UniGLTF.glTFAttributes.NORMAL</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a27a7201e7be7e7805ee360bbb53ce43a" compoundref="gl_t_f_mesh_8cs" startline="11">UniGLTF.glTFAttributes.POSITION</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a37c7b5ce2bd242124cdc5693b0315668" compoundref="gl_t_f_mesh_8cs" startline="17">UniGLTF.glTFAttributes.TANGENT</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a16699a54c57c609293211e82b488f61f" compoundref="gl_t_f_mesh_8cs" startline="20">UniGLTF.glTFAttributes.TEXCOORD_0</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a9334ec2b76019dea4f45e947a878d894" compoundref="gl_t_f_mesh_8cs" startline="23">UniGLTF.glTFAttributes.TEXCOORD_1</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_attributes_1a3786b093413971eef25834f22af5e401" compoundref="gl_t_f_mesh_8cs" startline="32">UniGLTF.glTFAttributes.WEIGHTS_0</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf6922733b8adc15385d35eb9424b237" compoundref="_gltf_serializer_8g_8cs" startline="955" endline="996">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a37a39dca194a79d0c64c2a444c4c2c49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__targets</definition>
+        <argsstring>(JsonFormatter f, List&lt; gltfMorphTarget &gt; value)</argsstring>
+        <name>Serialize_gltf_meshes__primitives__targets</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gltf_morph_target" kindref="compound">gltfMorphTarget</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1046" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1046" bodyend="1056"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aef14cde63bcff0ef9086c9d63e60aa0d" compoundref="_gltf_serializer_8g_8cs" startline="1058" endline="1079">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__targets_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf6922733b8adc15385d35eb9424b237" compoundref="_gltf_serializer_8g_8cs" startline="955" endline="996">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aef14cde63bcff0ef9086c9d63e60aa0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__targets_ITEM</definition>
+        <argsstring>(JsonFormatter f, gltfMorphTarget value)</argsstring>
+        <name>Serialize_gltf_meshes__primitives__targets_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_morph_target" kindref="compound">gltfMorphTarget</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1058" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1058" bodyend="1079"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_morph_target_1a7db2e0b56baabcb31e38c3f747aeaade" compoundref="gl_t_f_mesh_8cs" startline="66">UniGLTF.gltfMorphTarget.NORMAL</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_morph_target_1a9a9caab23e92d844687ea3b275c4e828" compoundref="gl_t_f_mesh_8cs" startline="63">UniGLTF.gltfMorphTarget.POSITION</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_morph_target_1ac6a012bc0161e9cee2bccd31a6b18a8b" compoundref="gl_t_f_mesh_8cs" startline="69">UniGLTF.gltfMorphTarget.TANGENT</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a37a39dca194a79d0c64c2a444c4c2c49" compoundref="_gltf_serializer_8g_8cs" startline="1046" endline="1056">UniGLTF.GltfSerializer.Serialize_gltf_meshes__primitives__targets</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a6aa805cf6da6816ef9c204f15956a64b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_meshes__weights</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_meshes__weights</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1081" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1081" bodyend="1091"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" compoundref="_gltf_serializer_8g_8cs" startline="910" endline="941">UniGLTF.GltfSerializer.Serialize_gltf_meshes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a806ddcf83df36b7f7ecc6a15d476f74c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFNode &gt; value)</argsstring>
+        <name>Serialize_gltf_nodes</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1093" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1093" bodyend="1103"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a36da070230a0377d0d34c8d057dd8f7d" compoundref="_gltf_serializer_8g_8cs" startline="1105" endline="1171">UniGLTF.GltfSerializer.Serialize_gltf_nodes_ITEM</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a36da070230a0377d0d34c8d057dd8f7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFNode value)</argsstring>
+        <name>Serialize_gltf_nodes_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1105" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1105" bodyend="1171"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1a050f07de1b1f105744072bae03697ec0" compoundref="gl_t_f_node_8cs" startline="15">UniGLTF.glTFNode.children</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1ac82e8bcdc7641c2e4b111176d96d242f" compoundref="gl_t_f_node_8cs" startline="18">UniGLTF.glTFNode.matrix</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1a749efc59475d16498e194b7ddce3b978" compoundref="gl_t_f_node_8cs" startline="11">UniGLTF.glTFNode.name</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a217e9a73f666756a57e088345ea52095" compoundref="_gltf_serializer_8g_8cs" startline="1173" endline="1183">UniGLTF.GltfSerializer.Serialize_gltf_nodes__children</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aa501d959e88fbfe063f68799d6ea41c7" compoundref="_gltf_serializer_8g_8cs" startline="1185" endline="1195">UniGLTF.GltfSerializer.Serialize_gltf_nodes__matrix</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1a68e8b6a447111f9417a8c8b6ffce6e39" compoundref="gl_t_f_node_8cs" startline="21">UniGLTF.glTFNode.translation</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a806ddcf83df36b7f7ecc6a15d476f74c" compoundref="_gltf_serializer_8g_8cs" startline="1093" endline="1103">UniGLTF.GltfSerializer.Serialize_gltf_nodes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a217e9a73f666756a57e088345ea52095" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__children</definition>
+        <argsstring>(JsonFormatter f, Int32[] value)</argsstring>
+        <name>Serialize_gltf_nodes__children</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1173" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1173" bodyend="1183"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a36da070230a0377d0d34c8d057dd8f7d" compoundref="_gltf_serializer_8g_8cs" startline="1105" endline="1171">UniGLTF.GltfSerializer.Serialize_gltf_nodes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aa501d959e88fbfe063f68799d6ea41c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__matrix</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_nodes__matrix</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1185" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1185" bodyend="1195"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a36da070230a0377d0d34c8d057dd8f7d" compoundref="_gltf_serializer_8g_8cs" startline="1105" endline="1171">UniGLTF.GltfSerializer.Serialize_gltf_nodes_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a1b88d17fac372f5bfe298e3d257b16c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__translation</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_nodes__translation</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1197" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1197" bodyend="1207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a988ae9746daf5b247fd8ca9886320d54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__rotation</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_nodes__rotation</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1209" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1209" bodyend="1219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1af10a9016d31ddf24b66ef3b6c8565a5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__scale</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_nodes__scale</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1221" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1221" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a8564a3b45201d6ba45de55bc5370233c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_nodes__weights</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_gltf_nodes__weights</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1233" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1233" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1afac2ba8c2a2670fe31c3d4f828eb7576" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_skins</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFSkin &gt; value)</argsstring>
+        <name>Serialize_gltf_skins</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin" kindref="compound">glTFSkin</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1245" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1245" bodyend="1255"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a6039e0fd15deef4e5e9d46701b07ce2a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_skins_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFSkin value)</argsstring>
+        <name>Serialize_gltf_skins_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin" kindref="compound">glTFSkin</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1257" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1257" bodyend="1293"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac612baca2db663e650b6bd6da1334c14" compoundref="gl_t_f_skin_8cs" startline="20">UniGLTF.glTFSkin.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1a2f1eb5e585e3108a298ab50325e6c40e" compoundref="gl_t_f_skin_8cs" startline="21">UniGLTF.glTFSkin.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aff7407c291b553ed3cad267f1041f688" compoundref="gl_t_f_skin_8cs" startline="10">UniGLTF.glTFSkin.inverseBindMatrices</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aa2f3356b449e15eea7f14e5211187562" compoundref="gl_t_f_skin_8cs" startline="14">UniGLTF.glTFSkin.joints</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ab8bc3d064f022d455d46778c66dcd8da" compoundref="gl_t_f_skin_8cs" startline="22">UniGLTF.glTFSkin.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac30ee5c127211e3c4614086d177999a4" compoundref="gl_t_f_skin_8cs" startline="17">UniGLTF.glTFSkin.skeleton</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a3e9cd25a5c127cc396e51619a336af75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_skins__joints</definition>
+        <argsstring>(JsonFormatter f, Int32[] value)</argsstring>
+        <name>Serialize_gltf_skins__joints</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1295" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1295" bodyend="1305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a0e261f9de434ac025f20676548f35da1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_scenes</definition>
+        <argsstring>(JsonFormatter f, List&lt; gltfScene &gt; value)</argsstring>
+        <name>Serialize_gltf_scenes</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gltf_scene" kindref="compound">gltfScene</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1307" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1307" bodyend="1317"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a63c25f3213863c0303215516d69d21f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_scenes_ITEM</definition>
+        <argsstring>(JsonFormatter f, gltfScene value)</argsstring>
+        <name>Serialize_gltf_scenes_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gltf_scene" kindref="compound">gltfScene</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1319" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1319" bodyend="1345"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_scene_1ac418f232ad4446eab18c2705c536a4dc" compoundref="gl_t_f_8cs" startline="17">UniGLTF.gltfScene.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_scene_1a1b8113524e7f348716911fa74326baa9" compoundref="gl_t_f_8cs" startline="18">UniGLTF.gltfScene.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_scene_1a114ca435869f45e6db62c9bb46a8ad00" compoundref="gl_t_f_8cs" startline="19">UniGLTF.gltfScene.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_scene_1a11e9f451f15982a252524e0c58c77e0b" compoundref="gl_t_f_8cs" startline="15">UniGLTF.gltfScene.nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a63bb1fb1799972e74c6fe14630070312" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_scenes__nodes</definition>
+        <argsstring>(JsonFormatter f, Int32[] value)</argsstring>
+        <name>Serialize_gltf_scenes__nodes</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1347" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1347" bodyend="1357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a443911dab8a90f0ab47d7312c0e611eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFAnimation &gt; value)</argsstring>
+        <name>Serialize_gltf_animations</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation" kindref="compound">glTFAnimation</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1359" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1359" bodyend="1369"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a2f71061b3c48355ef7d78be5d354f5c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFAnimation value)</argsstring>
+        <name>Serialize_gltf_animations_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation" kindref="compound">glTFAnimation</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1371" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1371" bodyend="1402"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a554141cb97b1dd10da0f57abef899640" compoundref="gl_t_f_animation_8cs" startline="172">UniGLTF.glTFAnimation.channels</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a7f6778f04c88a30bbaad2422ff9e6537" compoundref="gl_t_f_animation_8cs" startline="178">UniGLTF.glTFAnimation.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a7ab28dbb55d682b512bcb96bec481c19" compoundref="gl_t_f_animation_8cs" startline="179">UniGLTF.glTFAnimation.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a8832420196333b7c371013a839f34706" compoundref="gl_t_f_animation_8cs" startline="169">UniGLTF.glTFAnimation.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_1a6cfc2dd50b859ed58ec30964e3aab1b8" compoundref="gl_t_f_animation_8cs" startline="175">UniGLTF.glTFAnimation.samplers</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a6e3256301546f5dd0c0577200b73ff12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations__channels</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFAnimationChannel &gt; value)</argsstring>
+        <name>Serialize_gltf_animations__channels</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel" kindref="compound">glTFAnimationChannel</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1404" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1404" bodyend="1414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ae6a3fea8219c0e4a2542412255a98441" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations__channels_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFAnimationChannel value)</argsstring>
+        <name>Serialize_gltf_animations__channels_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel" kindref="compound">glTFAnimationChannel</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1416" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1416" bodyend="1442"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel_1ad62e817ab4a220ac6210efe16d4267a5" compoundref="gl_t_f_animation_8cs" startline="145">UniGLTF.glTFAnimationChannel.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel_1ad84217350a2cd91033a2616f601f6782" compoundref="gl_t_f_animation_8cs" startline="146">UniGLTF.glTFAnimationChannel.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel_1a2f2769fc2f7dc32ff6c678fd3cdae09d" compoundref="gl_t_f_animation_8cs" startline="139">UniGLTF.glTFAnimationChannel.sampler</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_channel_1a0c7ec46e21c671ee56673c46cdaa0140" compoundref="gl_t_f_animation_8cs" startline="142">UniGLTF.glTFAnimationChannel.target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations__channels__target</definition>
+        <argsstring>(JsonFormatter f, glTFAnimationTarget value)</argsstring>
+        <name>Serialize_gltf_animations__channels__target</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target" kindref="compound">glTFAnimationTarget</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1444" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1444" bodyend="1470"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1ae5250ec233b22ee7d3f6518f12f9a85e" compoundref="gl_t_f_animation_8cs" startline="19">UniGLTF.glTFAnimationTarget.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0e2ffed683fe4433e055456c5e50e8e8" compoundref="gl_t_f_animation_8cs" startline="20">UniGLTF.glTFAnimationTarget.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3b920e3a5bae4211f431a04acddc3381" compoundref="gl_t_f_animation_8cs" startline="13">UniGLTF.glTFAnimationTarget.node</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a0f67ddd4930b2f7da25431e0cb4895fe" compoundref="gl_t_f_animation_8cs" startline="16">UniGLTF.glTFAnimationTarget.path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a94733dc8fae7bcf01c47df5c4a1cf7ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations__samplers</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFAnimationSampler &gt; value)</argsstring>
+        <name>Serialize_gltf_animations__samplers</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler" kindref="compound">glTFAnimationSampler</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1472" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1472" bodyend="1482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a7be9bf9c161f0f3aa25edb97f7412cb4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_animations__samplers_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFAnimationSampler value)</argsstring>
+        <name>Serialize_gltf_animations__samplers_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler" kindref="compound">glTFAnimationSampler</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1484" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1484" bodyend="1515"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler_1a16ab02f9a2515410e93dd56237115b57" compoundref="gl_t_f_animation_8cs" startline="162">UniGLTF.glTFAnimationSampler.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler_1ad5bf9a809cb7d3cc353993d4ccdb8187" compoundref="gl_t_f_animation_8cs" startline="163">UniGLTF.glTFAnimationSampler.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler_1a60795fa45b61310e802d74a94b07d167" compoundref="gl_t_f_animation_8cs" startline="153">UniGLTF.glTFAnimationSampler.input</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler_1a863ee59382d503cfed6b0b4a3baaea4a" compoundref="gl_t_f_animation_8cs" startline="156">UniGLTF.glTFAnimationSampler.interpolation</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_sampler_1a4f20d15c684bea8386fed64b424bf8be" compoundref="gl_t_f_animation_8cs" startline="159">UniGLTF.glTFAnimationSampler.output</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1af0419613bdda43fd004fc1d0a42c428c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_cameras</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTFCamera &gt; value)</argsstring>
+        <name>Serialize_gltf_cameras</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_camera" kindref="compound">glTFCamera</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1517" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1517" bodyend="1527"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aec7161ab12946c8765c87b3199b1f7d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_cameras_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTFCamera value)</argsstring>
+        <name>Serialize_gltf_cameras_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_camera" kindref="compound">glTFCamera</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1529" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1529" bodyend="1565"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_camera_1abdeb8faccb190896bf8ed3164885001c" compoundref="gl_t_f_camera_8cs" startline="57">UniGLTF.glTFCamera.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_camera_1aa23ab1d429b326820b3fa2ef7b681950" compoundref="gl_t_f_camera_8cs" startline="58">UniGLTF.glTFCamera.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_camera_1ae4fb683fc293fa139f77143ec80e40b2" compoundref="gl_t_f_camera_8cs" startline="55">UniGLTF.glTFCamera.name</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_camera_1a45ba46ca36b906f617f5692ba496eeaa" compoundref="gl_t_f_camera_8cs" startline="49">UniGLTF.glTFCamera.orthographic</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_camera_1ad74485219a4e015c5dda887355caf9f9" compoundref="gl_t_f_camera_8cs" startline="50">UniGLTF.glTFCamera.perspective</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a0a2833a8e2df9c720e9678909152ff7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_cameras__orthographic</definition>
+        <argsstring>(JsonFormatter f, glTFOrthographic value)</argsstring>
+        <name>Serialize_gltf_cameras__orthographic</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic" kindref="compound">glTFOrthographic</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1567" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1567" bodyend="1603"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic_1ae6edda8099e44b1a3811280651afd8c6" compoundref="gl_t_f_camera_8cs" startline="25">UniGLTF.glTFOrthographic.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic_1a8e60df3dd9d3afd7a88deaf654b48ce8" compoundref="gl_t_f_camera_8cs" startline="27">UniGLTF.glTFOrthographic.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic_1ab173a194c8b814d8760b3ed9ae2c37b5" compoundref="gl_t_f_camera_8cs" startline="20">UniGLTF.glTFOrthographic.zfar</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_orthographic_1a3e8eb83f1383fb2ec22da646e045b506" compoundref="gl_t_f_camera_8cs" startline="22">UniGLTF.glTFOrthographic.znear</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1a06b3b677ad4eb4b81c71d347c678b6af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_cameras__perspective</definition>
+        <argsstring>(JsonFormatter f, glTFPerspective value)</argsstring>
+        <name>Serialize_gltf_cameras__perspective</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_perspective" kindref="compound">glTFPerspective</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1605" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1605" bodyend="1641"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1a533a839c94ff5620db92c6affb43e8ab" compoundref="gl_t_f_camera_8cs" startline="34">UniGLTF.glTFPerspective.aspectRatio</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1ac45bcd67af796c9b902232d524e4011a" compoundref="gl_t_f_camera_8cs" startline="42">UniGLTF.glTFPerspective.extensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1a51afe321a8ed99c0c0837e222376aa28" compoundref="gl_t_f_camera_8cs" startline="43">UniGLTF.glTFPerspective.extras</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1acf162ec3fc5839559ba155f955005f52" compoundref="gl_t_f_camera_8cs" startline="36">UniGLTF.glTFPerspective.yfov</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1a5324bd41164ce34b596900d98dc57b39" compoundref="gl_t_f_camera_8cs" startline="38">UniGLTF.glTFPerspective.zfar</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_perspective_1a444e18cf97d4aec4b43a92e8a429ba12" compoundref="gl_t_f_camera_8cs" startline="40">UniGLTF.glTFPerspective.znear</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1aeac05ae350f47a017a3a792e39af6bd2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_extensionsUsed</definition>
+        <argsstring>(JsonFormatter f, List&lt; String &gt; value)</argsstring>
+        <name>Serialize_gltf_extensionsUsed</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1643" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1643" bodyend="1653"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_serializer_1ade570cc947eb0acd82357bf90a45a12b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfSerializer.Serialize_gltf_extensionsRequired</definition>
+        <argsstring>(JsonFormatter f, List&lt; String &gt; value)</argsstring>
+        <name>Serialize_gltf_extensionsRequired</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="1655" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="1655" bodyend="1665"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" compoundref="_gltf_serializer_8g_8cs" startline="12" endline="113">UniGLTF.GltfSerializer.Serialize</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/GltfSerializer.g.cs" bodystart="8" bodyend="1667"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a376e48820ead2aab70be8be15bc1829c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aaed57cc7acf88022da157d2e9f0bd518" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aec6b0bebd2b1dbd8c95a1226f717f81e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors__max</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a260496e8343b91a0c9c36efd4a68e9a6" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors__min</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a3df1d3a4489ef9a49f3db79f18aab89f" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors__sparse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a8daf8aa720bae6fc7ba28676fa3422ea" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors__sparse_indices</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a009a353c561402640d7ee7d77af5dada" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors__sparse_values</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29051e2e9c18d69f75a35d13e0d44516" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_accessors_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a443911dab8a90f0ab47d7312c0e611eb" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6e3256301546f5dd0c0577200b73ff12" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations__channels</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ace33b1d48e6b5de706ee1d9ddd1bf983" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations__channels__target</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ae6a3fea8219c0e4a2542412255a98441" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations__channels_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a94733dc8fae7bcf01c47df5c4a1cf7ae" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations__samplers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7be9bf9c161f0f3aa25edb97f7412cb4" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations__samplers_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a2f71061b3c48355ef7d78be5d354f5c5" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_animations_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aa7c9752a7eb2d39a0cebad257dcd894c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_asset</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad8ed08dbbe2f013e684af77fc4acf59b" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_buffers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a51989632c98643c4f5c6f249b808283b" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_buffers_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7a3bc0607215cc63a3e98ba069f9a90d" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_bufferViews</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a5d5bedb2eb6a790370d30d3e0c6b94b3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_bufferViews_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1af0419613bdda43fd004fc1d0a42c428c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_cameras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a0a2833a8e2df9c720e9678909152ff7c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_cameras__orthographic</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a06b3b677ad4eb4b81c71d347c678b6af" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_cameras__perspective</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aec7161ab12946c8765c87b3199b1f7d3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_cameras_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ade570cc947eb0acd82357bf90a45a12b" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_extensionsRequired</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aeac05ae350f47a017a3a792e39af6bd2" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_extensionsUsed</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7705a62334f820c03638ccf0945c872e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_images</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a24cce423d34d69299eeec183d20c0fce" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_images_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6c4c7954319a471aef90170891c00894" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a29d376ff8fee6cd85fb859f0663325b3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__emissiveFactor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ab6dbffe14aef97dab91b1cfec54ba0da" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__emissiveTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf46210e341ce6ed23a00e41b997856c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__normalTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad044c0a5f4e6347d46ec88ecd86db3b5" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__occlusionTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a372f3159762db8590370931e3c49aa37" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__pbrMetallicRoughness</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1abb7fd34ca61434e48d3e21de7a88d2f5" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__pbrMetallicRoughness_baseColorFactor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1afc88d30ad97ee0d38a31156613cf3a62" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__pbrMetallicRoughness_baseColorTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a7821cc156bf862246568ae89afbd3ef2" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials__pbrMetallicRoughness_metallicRoughnessTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_materials_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a02089899961ff96d1ceb131a3bc329aa" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a77cfa887ea1d2a211c6943bafd397a3e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__primitives</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a93553b7a21d479066c7571004b4fa8c3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__primitives__attributes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a37a39dca194a79d0c64c2a444c4c2c49" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__primitives__targets</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aef14cde63bcff0ef9086c9d63e60aa0d" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__primitives__targets_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1adf6922733b8adc15385d35eb9424b237" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__primitives_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6aa805cf6da6816ef9c204f15956a64b" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes__weights</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ad1b83ab01203b01f34a6c43ac4ecec26" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_meshes_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a806ddcf83df36b7f7ecc6a15d476f74c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a217e9a73f666756a57e088345ea52095" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__children</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1aa501d959e88fbfe063f68799d6ea41c7" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__matrix</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a988ae9746daf5b247fd8ca9886320d54" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__rotation</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1af10a9016d31ddf24b66ef3b6c8565a5e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__scale</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a1b88d17fac372f5bfe298e3d257b16c4" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__translation</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a8564a3b45201d6ba45de55bc5370233c" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes__weights</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a36da070230a0377d0d34c8d057dd8f7d" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_nodes_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a32ad91cebe3175a049d4dc0a2b0dea1e" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_samplers</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1acc42164417e054f4d8daef501eaaf1fb" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_samplers_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a0e261f9de434ac025f20676548f35da1" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_scenes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a63bb1fb1799972e74c6fe14630070312" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_scenes__nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a63c25f3213863c0303215516d69d21f3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_scenes_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1afac2ba8c2a2670fe31c3d4f828eb7576" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_skins</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a3e9cd25a5c127cc396e51619a336af75" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_skins__joints</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a6039e0fd15deef4e5e9d46701b07ce2a" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_skins_ITEM</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1ada2de6fd11e32cf055987c88406675b3" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_textures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a2e8328344b171b96d4423ca462c6d4fd" prot="public" virt="non-virtual"><scope>UniGLTF::GltfSerializer</scope><name>Serialize_gltf_textures_ITEM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

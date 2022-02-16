@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_humanoid_1_1_skeleton" kind="struct" prot="public">
+    <compoundname>UniHumanoid::Skeleton</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_humanoid_1_1_skeleton_1a04dc267c3376334fadf2438ad658d570" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; HumanBodyBones, int &gt;</type>
+        <definition>Dictionary&lt;HumanBodyBones, int&gt; UniHumanoid.Skeleton.m_indexMap</definition>
+        <argsstring></argsstring>
+        <name>m_indexMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="struct_uni_humanoid_1_1_skeleton_1a1e6f1a066987e84c0475dbf53c3d0131" compoundref="_skeleton_8cs" startline="17" endline="28">UniHumanoid.Skeleton.GetBoneIndex</referencedby>
+        <referencedby refid="struct_uni_humanoid_1_1_skeleton_1aff79312a96b1d2953e7f1714014e7a0b" compoundref="_skeleton_8cs" startline="74" endline="89">UniHumanoid.Skeleton.Set</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_uni_humanoid_1_1_skeleton_1ac83d36141fd38399ccee85f2cb3c8f32" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; HumanBodyBones, int &gt;</type>
+        <definition>Dictionary&lt;HumanBodyBones, int&gt; UniHumanoid.Skeleton.Bones</definition>
+        <argsstring></argsstring>
+        <name>Bones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_avatar_description_1a42f9a791e0bbff0ac0aacb3746fcfc74" compoundref="_avatar_description_8cs" startline="210" endline="214">UniHumanoid.AvatarDescription.Create</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_humanoid_1_1_skeleton_1a1e6f1a066987e84c0475dbf53c3d0131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int UniHumanoid.Skeleton.GetBoneIndex</definition>
+        <argsstring>(HumanBodyBones bone)</argsstring>
+        <name>GetBoneIndex</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="17" bodyend="28"/>
+        <references refid="struct_uni_humanoid_1_1_skeleton_1a04dc267c3376334fadf2438ad658d570" compoundref="_skeleton_8cs" startline="12">UniHumanoid.Skeleton.m_indexMap</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_humanoid_1_1_skeleton_1ab9125a48f61506625cef7a8b662a9001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.Skeleton.Set</definition>
+        <argsstring>(HumanBodyBones bone, IList&lt; IBone &gt; bones, IBone b)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+          <declname>bones</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Register bone&apos;s HumanBodyBones </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bone</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bones</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_humanoid_1_1_skeleton_1aff79312a96b1d2953e7f1714014e7a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.Skeleton.Set</definition>
+        <argsstring>(HumanBodyBones bone, int index, string name)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>bone</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="74" bodyend="89"/>
+        <references refid="struct_uni_humanoid_1_1_skeleton_1a04dc267c3376334fadf2438ad658d570" compoundref="_skeleton_8cs" startline="12">UniHumanoid.Skeleton.m_indexMap</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_humanoid_1_1_skeleton_1a15337eebdf8f1207ff8f7768edfc80d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_humanoid_1_1_skeleton" kindref="compound">Skeleton</ref></type>
+        <definition>static Skeleton UniHumanoid.Skeleton.Estimate</definition>
+        <argsstring>(Transform hips)</argsstring>
+        <name>Estimate</name>
+        <param>
+          <type>Transform</type>
+          <declname>hips</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Mapping HumanBodyBones to BoneIndex </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/Skeleton.cs" bodystart="10" bodyend="91"/>
+    <listofallmembers>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1ac83d36141fd38399ccee85f2cb3c8f32" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>Bones</name></member>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1a15337eebdf8f1207ff8f7768edfc80d3" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>Estimate</name></member>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1a1e6f1a066987e84c0475dbf53c3d0131" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>GetBoneIndex</name></member>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1a04dc267c3376334fadf2438ad658d570" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>m_indexMap</name></member>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1ab9125a48f61506625cef7a8b662a9001" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>Set</name></member>
+      <member refid="struct_uni_humanoid_1_1_skeleton_1aff79312a96b1d2953e7f1714014e7a0b" prot="public" virt="non-virtual"><scope>UniHumanoid::Skeleton</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer" kind="class" prot="public">
+    <compoundname>GenerateUniGLTFSerialization::SerializerWriter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1a60acfd7da85daf68652dec07dcf50119" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GenerateUniGLTFSerialization.SerializerWriter.Begin</definition>
+        <argsstring></argsstring>
+        <name>Begin</name>
+        <initializer>= @&quot;// This file is generated from JsonSchema. Don&apos;t modify this source code.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UniJSON;
+
+namespace UniGLTF.Extensions.$0 {
+
+    static public class GltfSerializer
+    {
+
+        public static void SerializeTo(ref <ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">UniGLTF.glTFExtension</ref> dst, $0 extension)
+        {
+            if (dst is glTFExtensionImport)
+            {
+                throw new NotImplementedException();
+            }
+
+            if (!(dst is glTFExtensionExport extensions))
+            {
+                extensions = new glTFExtensionExport();
+                dst = extensions;
+            }
+
+            var f = new JsonFormatter();
+            Serialize(f, extension);
+            extensions.Add($0.ExtensionName, f.GetStoreBytes());
+        }
+
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1ac974f94574c8bc365e2fdd4a5fab6660" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GenerateUniGLTFSerialization.SerializerWriter.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <initializer>= @&quot;
+    } // class
+} // namespace
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1a3fa5356e75e6060607d5da5168a2ca9f" compoundref="_serializer_writer_8cs" startline="45" endline="50">GenerateUniGLTFSerialization.SerializerWriter.Write</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1a3fa5356e75e6060607d5da5168a2ca9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.SerializerWriter.Write</definition>
+        <argsstring>(TextWriter w, JsonSchemaSource root, string rootName)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>TextWriter</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rootName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" bodystart="45" bodyend="50"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1ac974f94574c8bc365e2fdd4a5fab6660" compoundref="_serializer_writer_8cs" startline="40">GenerateUniGLTFSerialization.SerializerWriter.End</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/SerializerWriter.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1a60acfd7da85daf68652dec07dcf50119" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::SerializerWriter</scope><name>Begin</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1ac974f94574c8bc365e2fdd4a5fab6660" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::SerializerWriter</scope><name>End</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_serializer_writer_1a3fa5356e75e6060607d5da5168a2ca9f" prot="public" virt="non-virtual"><scope>GenerateUniGLTFSerialization::SerializerWriter</scope><name>Write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

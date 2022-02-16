@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_look_at" kind="class" prot="public">
+    <compoundname>VRM::VRMLookAt</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a59dbb95d219e7f0b8343067f49a5c5df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMLookAt.DrawGizmo</definition>
+        <argsstring></argsstring>
+        <name>DrawGizmo</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1aaf359f0e49241ae1873e255eebc0eaff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.VRMLookAt.UseUpdate</definition>
+        <argsstring></argsstring>
+        <name>UseUpdate</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6079ea1598cad1ad494c681e3c1c6cc6" compoundref="_v_r_m_look_at_8cs" startline="198" endline="204">VRM.VRMLookAt.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a5931fd293a0b855a637ee0652bdd316a" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.VRMLookAt.Target</definition>
+        <argsstring></argsstring>
+        <name>Target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" compoundref="_v_r_m_look_at_8cs" startline="87" endline="99">VRM.VRMLookAt.CopyTo</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6079ea1598cad1ad494c681e3c1c6cc6" compoundref="_v_r_m_look_at_8cs" startline="198" endline="204">VRM.VRMLookAt.LateUpdate</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1adcef3c918beee4840d6e74f21b1f4646" compoundref="_v_r_m_look_at_8cs" startline="101" endline="106">VRM.VRMLookAt.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a76eb5fca696de5b03971e8dcd53c43bf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.VRMLookAt.LeftEye</definition>
+        <argsstring></argsstring>
+        <name>LeftEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" compoundref="_v_r_m_look_at_8cs" startline="214" endline="251">VRM.VRMLookAt.ApplyRotations</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" compoundref="_v_r_m_look_at_8cs" startline="116" endline="125">VRM.VRMLookAt.GetBones</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a9a866282f433f36349b9849107131ab5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.VRMLookAt.RightEye</definition>
+        <argsstring></argsstring>
+        <name>RightEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" compoundref="_v_r_m_look_at_8cs" startline="214" endline="251">VRM.VRMLookAt.ApplyRotations</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" compoundref="_v_r_m_look_at_8cs" startline="116" endline="125">VRM.VRMLookAt.GetBones</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_offset_on_transform" kindref="compound">OffsetOnTransform</ref></type>
+        <definition>OffsetOnTransform VRM.VRMLookAt.Head</definition>
+        <argsstring></argsstring>
+        <name>Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" compoundref="_v_r_m_look_at_8cs" startline="214" endline="251">VRM.VRMLookAt.ApplyRotations</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" compoundref="_v_r_m_look_at_8cs" startline="116" endline="125">VRM.VRMLookAt.GetBones</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a1ec5dd5d41290921991a733fdae2f5e3" compoundref="_v_r_m_look_at_8cs" startline="78" endline="85">VRM.VRMLookAt.LookFace</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1ac0941243c57cae6f3c59efc39679b797" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAt.HorizontalOuter</definition>
+        <argsstring></argsstring>
+        <name>HorizontalOuter</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" compoundref="_v_r_m_look_at_8cs" startline="87" endline="99">VRM.VRMLookAt.CopyTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a3af398bfa71694102c4c05568effa4e9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAt.HorizontalInner</definition>
+        <argsstring></argsstring>
+        <name>HorizontalInner</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" compoundref="_v_r_m_look_at_8cs" startline="87" endline="99">VRM.VRMLookAt.CopyTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a6b556bddb40967fc31af193589762aec" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAt.VerticalDown</definition>
+        <argsstring></argsstring>
+        <name>VerticalDown</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" compoundref="_v_r_m_look_at_8cs" startline="87" endline="99">VRM.VRMLookAt.CopyTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a2dbfcb3abf3e91e058c92a8d2f758817" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref></type>
+        <definition>CurveMapper VRM.VRMLookAt.VerticalUp</definition>
+        <argsstring></argsstring>
+        <name>VerticalUp</name>
+        <initializer>= new <ref refid="class_v_r_m_1_1_curve_mapper" kindref="compound">CurveMapper</ref>(90.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" compoundref="_v_r_m_look_at_8cs" startline="87" endline="99">VRM.VRMLookAt.CopyTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a07b6820471413800b92deaea3b921fba" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMLookAt.Yaw</definition>
+        <argsstring></argsstring>
+        <name>Yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="196" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="196" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" compoundref="_v_r_m_look_at_8cs" startline="206" endline="212">VRM.VRMLookAt.LookWorldPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1a186f44b70f2685c6125758bc368e7c79" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float VRM.VRMLookAt.Pitch</definition>
+        <argsstring></argsstring>
+        <name>Pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="197" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" compoundref="_v_r_m_look_at_8cs" startline="206" endline="212">VRM.VRMLookAt.LookWorldPosition</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_look_at_1aee9df79b0c9f24a52d043b925a95c860" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float VRM.VRMLookAt.SIZE</definition>
+        <argsstring></argsstring>
+        <name>SIZE</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="146" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_v_r_m_look_at_1a933b87129695f3bd7c595e771866b9ff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 VRM.VRMLookAt.YawMatrix</definition>
+        <argsstring></argsstring>
+        <name>YawMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a05d5a96cec0bb2866afd1a901d8df78a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D VRM.VRMLookAt.CreateThumbnail</definition>
+        <argsstring>()</argsstring>
+        <name>CreateThumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="43" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a1ec5dd5d41290921991a733fdae2f5e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.LookFace</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>LookFace</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="78" bodyend="85"/>
+        <references refid="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a96e89a298e0a9f469b9ae458d6afae9f">VRM.head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" compoundref="_v_r_m_look_at_8cs" startline="29">VRM.VRMLookAt.Head</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a0bcb11d091884eae1246c31c1e44f5c7" compoundref="_v_r_m_look_at_8cs" startline="54" endline="76">VRM.VRMLookAt.CreateThumbnail</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.CopyTo</definition>
+        <argsstring>(GameObject _dst, Dictionary&lt; Transform, Transform &gt; map)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>GameObject</type>
+          <declname>_dst</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Transform, Transform &gt;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="87" bodyend="99"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a3af398bfa71694102c4c05568effa4e9" compoundref="_v_r_m_look_at_8cs" startline="35">VRM.VRMLookAt.HorizontalInner</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1ac0941243c57cae6f3c59efc39679b797" compoundref="_v_r_m_look_at_8cs" startline="32">VRM.VRMLookAt.HorizontalOuter</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a5931fd293a0b855a637ee0652bdd316a" compoundref="_v_r_m_look_at_8cs" startline="20">VRM.VRMLookAt.Target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a6b556bddb40967fc31af193589762aec" compoundref="_v_r_m_look_at_8cs" startline="38">VRM.VRMLookAt.VerticalDown</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a2dbfcb3abf3e91e058c92a8d2f758817" compoundref="_v_r_m_look_at_8cs" startline="41">VRM.VRMLookAt.VerticalUp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.GetBones</definition>
+        <argsstring>()</argsstring>
+        <name>GetBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="116" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="116" bodyend="125"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" compoundref="_v_r_m_look_at_8cs" startline="29">VRM.VRMLookAt.Head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a76eb5fca696de5b03971e8dcd53c43bf" compoundref="_v_r_m_look_at_8cs" startline="23">VRM.VRMLookAt.LeftEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a9a866282f433f36349b9849107131ab5" compoundref="_v_r_m_look_at_8cs" startline="26">VRM.VRMLookAt.RightEye</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1adcef3c918beee4840d6e74f21b1f4646" compoundref="_v_r_m_look_at_8cs" startline="101" endline="106">VRM.VRMLookAt.Reset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.LookWorldPosition</definition>
+        <argsstring>(Vector3 targetPosition)</argsstring>
+        <name>LookWorldPosition</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>targetPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="206" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="206" bodyend="212"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" compoundref="_v_r_m_look_at_8cs" startline="214" endline="251">VRM.VRMLookAt.ApplyRotations</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a186f44b70f2685c6125758bc368e7c79" compoundref="_v_r_m_look_at_8cs" startline="197">VRM.VRMLookAt.Pitch</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a07b6820471413800b92deaea3b921fba" compoundref="_v_r_m_look_at_8cs" startline="196">VRM.VRMLookAt.Yaw</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6079ea1598cad1ad494c681e3c1c6cc6" compoundref="_v_r_m_look_at_8cs" startline="198" endline="204">VRM.VRMLookAt.LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a0bcb11d091884eae1246c31c1e44f5c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.CreateThumbnail</definition>
+        <argsstring>(Camera camera, Texture2D dst)</argsstring>
+        <name>CreateThumbnail</name>
+        <param>
+          <type>Camera</type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="54" bodyend="76"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a1ec5dd5d41290921991a733fdae2f5e3" compoundref="_v_r_m_look_at_8cs" startline="78" endline="85">VRM.VRMLookAt.LookFace</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1adcef3c918beee4840d6e74f21b1f4646" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="101" bodyend="106"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" compoundref="_v_r_m_look_at_8cs" startline="116" endline="125">VRM.VRMLookAt.GetBones</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a5931fd293a0b855a637ee0652bdd316a" compoundref="_v_r_m_look_at_8cs" startline="20">VRM.VRMLookAt.Target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a31e0a8ab25ead80a2d591077ede9a541" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="108" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a329cd27a515da7605f7e64b4d6a757e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="148" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="148" bodyend="162"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a59dbb95d219e7f0b8343067f49a5c5df" compoundref="_v_r_m_look_at_8cs" startline="14">VRM.VRMLookAt.DrawGizmo</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a2d84c3989c7a9ee3e539a9d066c70449" compoundref="_v_r_m_look_at_8cs" startline="135" endline="144">VRM.VRMLookAt.DrawMatrix</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" compoundref="_v_r_m_look_at_8cs" startline="29">VRM.VRMLookAt.Head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a76eb5fca696de5b03971e8dcd53c43bf" compoundref="_v_r_m_look_at_8cs" startline="23">VRM.VRMLookAt.LeftEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a9a866282f433f36349b9849107131ab5" compoundref="_v_r_m_look_at_8cs" startline="26">VRM.VRMLookAt.RightEye</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1aee9df79b0c9f24a52d043b925a95c860" compoundref="_v_r_m_look_at_8cs" startline="146">VRM.VRMLookAt.SIZE</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a5eae4b18069c1bb56333122799cf3452" compoundref="_offset_on_transform_8cs" startline="14">VRM.OffsetOnTransform.WorldMatrix</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a6079ea1598cad1ad494c681e3c1c6cc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="198" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="198" bodyend="204"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" compoundref="_v_r_m_look_at_8cs" startline="206" endline="212">VRM.VRMLookAt.LookWorldPosition</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a5931fd293a0b855a637ee0652bdd316a" compoundref="_v_r_m_look_at_8cs" startline="20">VRM.VRMLookAt.Target</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1aaf359f0e49241ae1873e255eebc0eaff" compoundref="_v_r_m_look_at_8cs" startline="17">VRM.VRMLookAt.UseUpdate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMLookAt.ApplyRotations</definition>
+        <argsstring>(float yaw, float pitch)</argsstring>
+        <name>ApplyRotations</name>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="214" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="214" bodyend="251"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" compoundref="_v_r_m_look_at_8cs" startline="29">VRM.VRMLookAt.Head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a76eb5fca696de5b03971e8dcd53c43bf" compoundref="_v_r_m_look_at_8cs" startline="23">VRM.VRMLookAt.LeftEye</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a37148e14d2078b68fbda0e44a6a6f3ba" compoundref="_offset_on_transform_8cs" startline="11">VRM.OffsetOnTransform.OffsetRotation</references>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a9a866282f433f36349b9849107131ab5" compoundref="_v_r_m_look_at_8cs" startline="26">VRM.VRMLookAt.RightEye</references>
+        <references refid="struct_v_r_m_1_1_offset_on_transform_1a59517ec648c4dc8925adf455f8ac1871" compoundref="_offset_on_transform_8cs" startline="10">VRM.OffsetOnTransform.Transform</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" compoundref="_v_r_m_look_at_8cs" startline="206" endline="212">VRM.VRMLookAt.LookWorldPosition</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a2d84c3989c7a9ee3e539a9d066c70449" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMLookAt.DrawMatrix</definition>
+        <argsstring>(Matrix4x4 m, float size)</argsstring>
+        <name>DrawMatrix</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="135" bodyend="144"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" compoundref="_v_r_m_look_at_8cs" startline="148" endline="162">VRM.VRMLookAt.OnDrawGizmos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1af8dacb270b67e630c881b252dfba08be" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>static Matrix4x4 VRM.VRMLookAt.LookAtMatrixFromWorld</definition>
+        <argsstring>(Vector3 from, Vector3 target)</argsstring>
+        <name>LookAtMatrixFromWorld</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="165" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="165" bodyend="169"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a9a6a2103548629489cf6d28be057ee2e" compoundref="_v_r_m_look_at_8cs" startline="171" endline="177">VRM.VRMLookAt.LookAtMatrix</references>
+        <references refid="class_uni_g_l_t_f_1_1_unity_extensions_1a7c614fded381dd25c9ca9b5adff69207" compoundref="_extensions_2_unity_extensions_8cs" startline="90" endline="102">UniGLTF.UnityExtensions.Matrix4x4FromColumns</references>
+        <references refid="struct_unity_engine_1_1_vector3_1ad4d9171899b7fceadc63c4d04da5734d" compoundref="_unity_engine_compatibility_8cs" startline="19">UnityEngine.Vector3.x</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a7e4565013600fd46a0c50ef86a19e926" compoundref="_unity_engine_compatibility_8cs" startline="20">UnityEngine.Vector3.y</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a8ea2682142b822ddcab52c868796fd3e" compoundref="_unity_engine_compatibility_8cs" startline="21">UnityEngine.Vector3.z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a9a6a2103548629489cf6d28be057ee2e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>static Matrix4x4 VRM.VRMLookAt.LookAtMatrix</definition>
+        <argsstring>(Vector3 up_vector, Vector3 localPosition)</argsstring>
+        <name>LookAtMatrix</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>up_vector</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>localPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="171" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="171" bodyend="177"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1a95bb0541ac42517a101c85d5ab6fab07" compoundref="_v_r_m_look_at_8cs" startline="179" endline="182">VRM.VRMLookAt.LookAtMatrix</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_look_at_1af8dacb270b67e630c881b252dfba08be" compoundref="_v_r_m_look_at_8cs" startline="165" endline="169">VRM.VRMLookAt.LookAtMatrixFromWorld</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_look_at_1a95bb0541ac42517a101c85d5ab6fab07" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>static Matrix4x4 VRM.VRMLookAt.LookAtMatrix</definition>
+        <argsstring>(Matrix4x4 m, Vector3 target)</argsstring>
+        <name>LookAtMatrix</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="179" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="179" bodyend="182"/>
+        <references refid="class_v_r_m_1_1_v_r_m_look_at_1a9a6a2103548629489cf6d28be057ee2e" compoundref="_v_r_m_look_at_8cs" startline="171" endline="177">VRM.VRMLookAt.LookAtMatrix</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2792">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2791">
+        <label>VRM.VRMLookAt</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at"/>
+        <childnode refid="2792" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2796">
+        <label>IEquatable&lt; CurveMapper &gt;</label>
+      </node>
+      <node id="2794">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2795">
+        <label>VRM.CurveMapper</label>
+        <link refid="class_v_r_m_1_1_curve_mapper"/>
+        <childnode refid="2796" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2793">
+        <label>VRM.VRMLookAt</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at"/>
+        <childnode refid="2794" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2795" relation="usage">
+          <edgelabel>VerticalUp</edgelabel>
+          <edgelabel>HorizontalInner</edgelabel>
+          <edgelabel>HorizontalOuter</edgelabel>
+          <edgelabel>VerticalDown</edgelabel>
+        </childnode>
+        <childnode refid="2797" relation="usage">
+          <edgelabel>LeftEye</edgelabel>
+          <edgelabel>Head</edgelabel>
+          <edgelabel>RightEye</edgelabel>
+        </childnode>
+      </node>
+      <node id="2797">
+        <label>VRM.OffsetOnTransform</label>
+        <link refid="struct_v_r_m_1_1_offset_on_transform"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/LookAt/VRMLookAt.cs" bodystart="12" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a981205cd0cce05cc77ad3716435f96e5" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>ApplyRotations</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a329cd27a515da7605f7e64b4d6a757e6" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Awake</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a022fbe7d465a329f7d9086904ad5b580" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>CopyTo</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a05d5a96cec0bb2866afd1a901d8df78a" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>CreateThumbnail</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a0bcb11d091884eae1246c31c1e44f5c7" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>CreateThumbnail</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a59dbb95d219e7f0b8343067f49a5c5df" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>DrawGizmo</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a2d84c3989c7a9ee3e539a9d066c70449" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>DrawMatrix</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1aeb14bd87671e27e8fd1ee71a5d414d44" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>GetBones</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a58f57f5ef3968cac1b3bb8c0a231cd15" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Head</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a3af398bfa71694102c4c05568effa4e9" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>HorizontalInner</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1ac0941243c57cae6f3c59efc39679b797" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>HorizontalOuter</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a6079ea1598cad1ad494c681e3c1c6cc6" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LateUpdate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a76eb5fca696de5b03971e8dcd53c43bf" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LeftEye</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a9a6a2103548629489cf6d28be057ee2e" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LookAtMatrix</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a95bb0541ac42517a101c85d5ab6fab07" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LookAtMatrix</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1af8dacb270b67e630c881b252dfba08be" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LookAtMatrixFromWorld</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a1ec5dd5d41290921991a733fdae2f5e3" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LookFace</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a6d04c2deee3b0d4dcfe65975f87f83a1" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>LookWorldPosition</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1ac4e7f5243ba76ddf110ede18c0d42202" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a31e0a8ab25ead80a2d591077ede9a541" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>OnValidate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a186f44b70f2685c6125758bc368e7c79" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Pitch</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1adcef3c918beee4840d6e74f21b1f4646" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Reset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a9a866282f433f36349b9849107131ab5" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>RightEye</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1aee9df79b0c9f24a52d043b925a95c860" prot="private" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>SIZE</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a5931fd293a0b855a637ee0652bdd316a" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1aaf359f0e49241ae1873e255eebc0eaff" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>UseUpdate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a6b556bddb40967fc31af193589762aec" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>VerticalDown</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a2dbfcb3abf3e91e058c92a8d2f758817" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>VerticalUp</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a07b6820471413800b92deaea3b921fba" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>Yaw</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_look_at_1a933b87129695f3bd7c595e771866b9ff" prot="public" virt="non-virtual"><scope>VRM::VRMLookAt</scope><name>YawMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

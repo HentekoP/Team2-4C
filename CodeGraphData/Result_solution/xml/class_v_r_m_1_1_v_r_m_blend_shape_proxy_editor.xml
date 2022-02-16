@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor" kind="class" prot="public">
+    <compoundname>VRM::VRMBlendShapeProxyEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <innerclass refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1_1_blend_shape_slider" prot="public">VRM::VRMBlendShapeProxyEditor::BlendShapeSlider</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a832cd0cfd3edec337a59a721513a29d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" kindref="compound">VRMBlendShapeProxy</ref></type>
+        <definition>VRMBlendShapeProxy VRM.VRMBlendShapeProxyEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="38" endline="49">VRM.VRMBlendShapeProxyEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1add0a9118911ccfec69da1a380fb2bb3d" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="51" endline="69">VRM.VRMBlendShapeProxyEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a45ac6e1120f59a96ff4abf6af6a9facb" prot="private" static="no" mutable="no">
+        <type>SkinnedMeshRenderer[]</type>
+        <definition>SkinnedMeshRenderer [] VRM.VRMBlendShapeProxyEditor.m_renderers</definition>
+        <argsstring></argsstring>
+        <name>m_renderers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1aa31b8373ee628b6665ccb6ad2c98ddcd" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1_1_blend_shape_slider" kindref="compound">BlendShapeSlider</ref> &gt;</type>
+        <definition>List&lt;BlendShapeSlider&gt; VRM.VRMBlendShapeProxyEditor.m_sliders</definition>
+        <argsstring></argsstring>
+        <name>m_sliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="38" endline="49">VRM.VRMBlendShapeProxyEditor.OnEnable</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1add0a9118911ccfec69da1a380fb2bb3d" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="51" endline="69">VRM.VRMBlendShapeProxyEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMBlendShapeProxyEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="38" bodyend="49"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1aa45e47e320d0162f68863f5efcbef4f9" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="12">VRM.VRMBlendShapeProxy.BlendShapeAvatar</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <references refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" compoundref="_blend_shape_key_8cs" startline="84" endline="92">VRM.BlendShapeKey.CreateFromClip</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1aa31b8373ee628b6665ccb6ad2c98ddcd" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="36">VRM.VRMBlendShapeProxyEditor.m_sliders</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a832cd0cfd3edec337a59a721513a29d4" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="12">VRM.VRMBlendShapeProxyEditor.m_target</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1add0a9118911ccfec69da1a380fb2bb3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMBlendShapeProxyEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="51" bodyend="69"/>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1aa45e47e320d0162f68863f5efcbef4f9" compoundref="_v_r_m_blend_shape_proxy_8cs" startline="12">VRM.VRMBlendShapeProxy.BlendShapeAvatar</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1aa31b8373ee628b6665ccb6ad2c98ddcd" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="36">VRM.VRMBlendShapeProxyEditor.m_sliders</references>
+        <references refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a832cd0cfd3edec337a59a721513a29d4" compoundref="_v_r_m_blend_shape_proxy_editor_8cs" startline="12">VRM.VRMBlendShapeProxyEditor.m_target</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2622">
+        <label>Editor</label>
+      </node>
+      <node id="2621">
+        <label>VRM.VRMBlendShapeProxyEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor"/>
+        <childnode refid="2622" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2634">
+        <label>IEqualityComparer&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="2624">
+        <label>Editor</label>
+      </node>
+      <node id="2633">
+        <label>VRM.MaterialValueBindingMerger.DictionaryKeyMaterialValueBindingComparer</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding_merger_1_1_dictionary_key_material_value_binding_comparer"/>
+        <childnode refid="2634" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2632">
+        <label>VRM.MaterialValueBindingMerger</label>
+        <link refid="class_v_r_m_1_1_material_value_binding_merger"/>
+        <childnode refid="2633" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2627">
+        <label>IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+      <node id="2636">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2623">
+        <label>VRM.VRMBlendShapeProxyEditor</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor"/>
+        <childnode refid="2624" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2625" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="2629">
+        <label>VRM.BlendShapeBindingMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger"/>
+        <childnode refid="2630" relation="usage">
+          <edgelabel>comparer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2628">
+        <label>VRM.BlendShapeMerger</label>
+        <link refid="class_v_r_m_1_1_blend_shape_merger"/>
+        <childnode refid="2629" relation="usage">
+          <edgelabel>m_blendShapeBindingMerger</edgelabel>
+        </childnode>
+        <childnode refid="2632" relation="usage">
+          <edgelabel>m_materialValueBindingMerger</edgelabel>
+        </childnode>
+      </node>
+      <node id="2626">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2625">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="2626" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2627" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2628" relation="usage">
+          <edgelabel>m_merger</edgelabel>
+        </childnode>
+        <childnode refid="2635" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+      </node>
+      <node id="2631">
+        <label>IEqualityComparer&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="2630">
+        <label>VRM.BlendShapeBindingMerger.DictionaryKeyBlendShapeBindingComparer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_binding_merger_1_1_dictionary_key_blend_shape_binding_comparer"/>
+        <childnode refid="2631" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2635">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="2636" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/VRMBlendShapeProxyEditor.cs" bodystart="10" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a45ac6e1120f59a96ff4abf6af6a9facb" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxyEditor</scope><name>m_renderers</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1aa31b8373ee628b6665ccb6ad2c98ddcd" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxyEditor</scope><name>m_sliders</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a832cd0cfd3edec337a59a721513a29d4" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxyEditor</scope><name>m_target</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1a90f6d400d22ae1fb75598e38ab456027" prot="private" virt="non-virtual"><scope>VRM::VRMBlendShapeProxyEditor</scope><name>OnEnable</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_editor_1add0a9118911ccfec69da1a380fb2bb3d" prot="public" virt="non-virtual"><scope>VRM::VRMBlendShapeProxyEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

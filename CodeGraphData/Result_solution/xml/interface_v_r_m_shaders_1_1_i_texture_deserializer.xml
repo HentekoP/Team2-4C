@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_v_r_m_shaders_1_1_i_texture_deserializer" kind="interface" prot="public">
+    <compoundname>VRMShaders::ITextureDeserializer</compoundname>
+    <derivedcompoundref refid="class_v_r_m_shaders_1_1_unity_texture_deserializer" prot="public" virt="non-virtual">VRMShaders.UnityTextureDeserializer</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_v_r_m_shaders_1_1_i_texture_deserializer_1a03f8f2e69f508a6386ec492fe0392e0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; Texture2D &gt;</type>
+        <definition>Task&lt;Texture2D&gt; VRMShaders.ITextureDeserializer.LoadTextureAsync</definition>
+        <argsstring>(DeserializingTextureInfo textureInfo, IAwaitCaller awaitCaller)</argsstring>
+        <name>LoadTextureAsync</name>
+        <reimplementedby refid="class_v_r_m_shaders_1_1_unity_texture_deserializer_1a2f9306f6d89a4991ef1f48e417ef078c">LoadTextureAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_v_r_m_shaders_1_1_deserializing_texture_info" kindref="compound">DeserializingTextureInfo</ref></type>
+          <declname>textureInfo</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <briefdescription>
+<para>imageData をもとに Texture2D を生成する. await する場合は awaitCaller を用いて await しなければならない。(Editor では同期ロードをしなければならないため) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/ITextureDeserializer.cs" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>単純に Texture2D アセットを生成する機能 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1398">
+        <label>VRMShaders.ITextureDeserializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_deserializer"/>
+      </node>
+      <node id="1399">
+        <label>VRMShaders.UnityTextureDeserializer</label>
+        <link refid="class_v_r_m_shaders_1_1_unity_texture_deserializer"/>
+        <childnode refid="1398" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/ITextureDeserializer.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Importer/ITextureDeserializer.cs" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="interface_v_r_m_shaders_1_1_i_texture_deserializer_1a03f8f2e69f508a6386ec492fe0392e0a" prot="public" virt="non-virtual"><scope>VRMShaders::ITextureDeserializer</scope><name>LoadTextureAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

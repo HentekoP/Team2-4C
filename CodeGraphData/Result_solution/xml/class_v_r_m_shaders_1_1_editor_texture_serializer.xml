@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_editor_texture_serializer" kind="class" prot="public">
+    <compoundname>VRMShaders::EditorTextureSerializer</compoundname>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" prot="public" virt="non-virtual">VRMShaders.ITextureSerializer</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1a06432f0ffe14f2a38a1eb8aef3597f20" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_shaders_1_1_runtime_texture_serializer" kindref="compound">RuntimeTextureSerializer</ref></type>
+        <definition>readonly RuntimeTextureSerializer VRMShaders.EditorTextureSerializer._runtimeSerializer</definition>
+        <argsstring></argsstring>
+        <name>_runtimeSerializer</name>
+        <initializer>= new <ref refid="class_v_r_m_shaders_1_1_runtime_texture_serializer" kindref="compound">RuntimeTextureSerializer</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1acfeb9e151a372b4997132321c39d616a" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] VRMShaders.EditorTextureSerializer.bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1aa8ab9b0ca365d61c91e278be3fa27a30" compoundref="_editor_texture_serializer_8cs" startline="51" endline="59">VRMShaders.EditorTextureSerializer.ExportBytesWithMime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.EditorTextureSerializer.CanExportAsEditorAssetFile</definition>
+        <argsstring>(Texture texture, ColorSpace exportColorSpace)</argsstring>
+        <name>CanExportAsEditorAssetFile</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_serializer_1a4bce6b649b8505ccf81bd80c03c8f689">CanExportAsEditorAssetFile</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>exportColorSpace</declname>
+        </param>
+        <briefdescription>
+<para>Texture をオリジナルのテクスチャアセット(png/jpg)ファイルのバイト列そのまま出力してよいかどうか判断する。 具体的な条件は以下 </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>TextureAsset が存在する</para></listitem><listitem><para>TextureImporter の maxSize が画像の縦横サイズ以上</para></listitem><listitem><para>TextureImporter の色空間設定が exportColorSpace と一致する</para></listitem><listitem><para>各 Texture Type ごとの判定</para></listitem></itemizedlist>
+</para><para>Unity の Texture2D のデータは、その参照元であるテクスチャアセットファイルのデータと一致することはむしろ稀。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="23" bodyend="49"/>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a84a665d2ffbc0a0d536d839a05c04758" compoundref="_editor_texture_serializer_8cs" startline="127" endline="138">VRMShaders.EditorTextureSerializer.IsFileColorSpaceSameWithExportColorSpace</references>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1ac75139d793183f7698fadb7b56c95f84" compoundref="_editor_texture_serializer_8cs" startline="113" endline="125">VRMShaders.EditorTextureSerializer.IsTextureSizeMaintained</references>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_utility_1a1d8f828f4657329aba624b76ad34bf4b" compoundref="_editor_texture_utility_8cs" startline="10" endline="29">VRMShaders.EditorTextureUtility.TryGetAsEditorTexture2DAsset</references>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1aa8ab9b0ca365d61c91e278be3fa27a30" compoundref="_editor_texture_serializer_8cs" startline="51" endline="59">VRMShaders.EditorTextureSerializer.ExportBytesWithMime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1a5f6e18b394dafef37264d3afd02940b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.EditorTextureSerializer.ModifyTextureAssetBeforeExporting</definition>
+        <argsstring>(Texture texture)</argsstring>
+        <name>ModifyTextureAssetBeforeExporting</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_serializer_1ab1961c7598f42a3a596bc67830250387">ModifyTextureAssetBeforeExporting</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>出力に使用したいテクスチャに対して、Unity のエディタアセットとしての圧縮設定を OFF にする。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="64" bodyend="71"/>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_utility_1a1d8f828f4657329aba624b76ad34bf4b" compoundref="_editor_texture_utility_8cs" startline="10" endline="29">VRMShaders.EditorTextureUtility.TryGetAsEditorTexture2DAsset</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1aa8ab9b0ca365d61c91e278be3fa27a30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[] string mime</type>
+        <definition>byte [] string mime VRMShaders.EditorTextureSerializer.ExportBytesWithMime</definition>
+        <argsstring>(Texture2D texture, ColorSpace exportColorSpace)</argsstring>
+        <name>ExportBytesWithMime</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_serializer_1a71531b2bf1067877ae82830d04d42f86">ExportBytesWithMime</reimplements>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>exportColorSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="51" bodyend="59"/>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1acfeb9e151a372b4997132321c39d616a" compoundref="_editor_texture_serializer_8cs" startline="51">VRMShaders.EditorTextureSerializer.bytes</references>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" compoundref="_editor_texture_serializer_8cs" startline="23" endline="49">VRMShaders.EditorTextureSerializer.CanExportAsEditorAssetFile</references>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1abd6b50c24f55dfcedcffb52152836587" compoundref="_editor_texture_serializer_8cs" startline="76" endline="106">VRMShaders.EditorTextureSerializer.TryGetBytesWithMime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1abd6b50c24f55dfcedcffb52152836587" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.EditorTextureSerializer.TryGetBytesWithMime</definition>
+        <argsstring>(Texture2D texture, out byte[] bytes, out string mime)</argsstring>
+        <name>TryGetBytesWithMime</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>out byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>mime</declname>
+        </param>
+        <briefdescription>
+<para>Assetから画像のバイト列を得る </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="76" bodyend="106"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1aa8ab9b0ca365d61c91e278be3fa27a30" compoundref="_editor_texture_serializer_8cs" startline="51" endline="59">VRMShaders.EditorTextureSerializer.ExportBytesWithMime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1ac75139d793183f7698fadb7b56c95f84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.EditorTextureSerializer.IsTextureSizeMaintained</definition>
+        <argsstring>(TextureImporter textureImporter)</argsstring>
+        <name>IsTextureSizeMaintained</name>
+        <param>
+          <type>TextureImporter</type>
+          <declname>textureImporter</declname>
+        </param>
+        <briefdescription>
+<para>Texture2D の画像サイズが、オリジナルの画像サイズを維持しているかどうか </para>        </briefdescription>
+        <detaileddescription>
+<para>TextureImporter の MaxTextureSize 設定によっては、Texture2D の画像サイズはオリジナルも小さくなりうる。 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="113" bodyend="125"/>
+        <references refid="class_v_r_m_shaders_1_1_editor_texture_utility_1ac7b1f90e4a8bdc3273c06e650414c3dc" compoundref="_editor_texture_utility_8cs" startline="31" endline="48">VRMShaders.EditorTextureUtility.TryGetOriginalTexturePixelSize</references>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" compoundref="_editor_texture_serializer_8cs" startline="23" endline="49">VRMShaders.EditorTextureSerializer.CanExportAsEditorAssetFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_editor_texture_serializer_1a84a665d2ffbc0a0d536d839a05c04758" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.EditorTextureSerializer.IsFileColorSpaceSameWithExportColorSpace</definition>
+        <argsstring>(TextureImporter textureImporter, ColorSpace colorSpace)</argsstring>
+        <name>IsFileColorSpaceSameWithExportColorSpace</name>
+        <param>
+          <type>TextureImporter</type>
+          <declname>textureImporter</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>colorSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="127" bodyend="138"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" compoundref="_editor_texture_serializer_8cs" startline="23" endline="49">VRMShaders.EditorTextureSerializer.CanExportAsEditorAssetFile</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="580">
+        <label>ITextureSerializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_serializer"/>
+      </node>
+      <node id="579">
+        <label>VRMShaders.EditorTextureSerializer</label>
+        <link refid="class_v_r_m_shaders_1_1_editor_texture_serializer"/>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="582">
+        <label>ITextureSerializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_serializer"/>
+      </node>
+      <node id="583">
+        <label>VRMShaders.RuntimeTextureSerializer</label>
+        <link refid="class_v_r_m_shaders_1_1_runtime_texture_serializer"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="581">
+        <label>VRMShaders.EditorTextureSerializer</label>
+        <link refid="class_v_r_m_shaders_1_1_editor_texture_serializer"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="usage">
+          <edgelabel>_runtimeSerializer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs" bodystart="8" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a06432f0ffe14f2a38a1eb8aef3597f20" prot="private" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>_runtimeSerializer</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1acfeb9e151a372b4997132321c39d616a" prot="public" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>bytes</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a73cdfe5155247f757c64803d4d191a3b" prot="public" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>CanExportAsEditorAssetFile</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1aa8ab9b0ca365d61c91e278be3fa27a30" prot="private" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>ExportBytesWithMime</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a84a665d2ffbc0a0d536d839a05c04758" prot="private" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>IsFileColorSpaceSameWithExportColorSpace</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1ac75139d793183f7698fadb7b56c95f84" prot="private" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>IsTextureSizeMaintained</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1a5f6e18b394dafef37264d3afd02940b6" prot="public" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>ModifyTextureAssetBeforeExporting</name></member>
+      <member refid="class_v_r_m_shaders_1_1_editor_texture_serializer_1abd6b50c24f55dfcedcffb52152836587" prot="private" virt="non-virtual"><scope>VRMShaders::EditorTextureSerializer</scope><name>TryGetBytesWithMime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

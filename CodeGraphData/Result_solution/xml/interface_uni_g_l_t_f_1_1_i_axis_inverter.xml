@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_g_l_t_f_1_1_i_axis_inverter" kind="interface" prot="public">
+    <compoundname>UniGLTF::IAxisInverter</compoundname>
+    <derivedcompoundref refid="struct_uni_g_l_t_f_1_1_reverse_x" prot="public" virt="non-virtual">UniGLTF.ReverseX</derivedcompoundref>
+    <derivedcompoundref refid="struct_uni_g_l_t_f_1_1_reverse_z" prot="public" virt="non-virtual">UniGLTF.ReverseZ</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a473c744e4dd9a07519d7f50b03493f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.IAxisInverter.InvertVector3</definition>
+        <argsstring>(Vector3 src)</argsstring>
+        <name>InvertVector3</name>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_z_1ae179e74c1a6de7fafebafcffb37685ec">InvertVector3</reimplementedby>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_x_1a26530a8dbbcb1330b6f44c9ac5e2aa5b">InvertVector3</reimplementedby>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="14" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_context_1ac688fc6b5fbf5653c33c070e38f1790f" compoundref="_mesh_context_8cs" startline="242" endline="349">UniGLTF.MeshContext.ImportMeshSharingVertexBuffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a6881a03bdd2fc6fef8ca126c94c89adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref></type>
+        <definition>Vector4 UniGLTF.IAxisInverter.InvertVector4</definition>
+        <argsstring>(Vector4 src)</argsstring>
+        <name>InvertVector4</name>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_z_1af40d36084f70c04b395a7f573224682a">InvertVector4</reimplementedby>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_x_1a1a5f4cedbcf71cb0791f6f55cb561bdb">InvertVector4</reimplementedby>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector4" kindref="compound">Vector4</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_axis_inverter_1ac25159ce25cc44c019089356124d2b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>Quaternion UniGLTF.IAxisInverter.InvertQuaternion</definition>
+        <argsstring>(Quaternion src)</argsstring>
+        <name>InvertQuaternion</name>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_z_1aa7454d69e9830fa33829a737fa340cf5">InvertQuaternion</reimplementedby>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_x_1ad676b14a0e0f38b511da0320dd592915">InvertQuaternion</reimplementedby>
+        <param>
+          <type>Quaternion</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a4f80d245682f261b1f4b161e9268e960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 UniGLTF.IAxisInverter.InvertMat4</definition>
+        <argsstring>(Matrix4x4 src)</argsstring>
+        <name>InvertMat4</name>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_z_1a67ed60c379847e702a17eb934ab24c81">InvertMat4</reimplementedby>
+        <reimplementedby refid="struct_uni_g_l_t_f_1_1_reverse_x_1ae721af5d05236b3843ae90c08f084294">InvertMat4</reimplementedby>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="17" column="1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_node_importer_1a688ca6a6bef9e0f338cd980aa90ba667" compoundref="_node_importer_8cs" startline="159" endline="215">UniGLTF.NodeImporter.SetupSkinning</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1241">
+        <label>UniGLTF.ReverseX</label>
+        <link refid="struct_uni_g_l_t_f_1_1_reverse_x"/>
+        <childnode refid="1240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>UniGLTF.ReverseZ</label>
+        <link refid="struct_uni_g_l_t_f_1_1_reverse_z"/>
+        <childnode refid="1240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>UniGLTF.IAxisInverter</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_axis_inverter"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Axes.cs" bodystart="12" bodyend="18"/>
+    <listofallmembers>
+      <member refid="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a4f80d245682f261b1f4b161e9268e960" prot="public" virt="non-virtual"><scope>UniGLTF::IAxisInverter</scope><name>InvertMat4</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_axis_inverter_1ac25159ce25cc44c019089356124d2b30" prot="public" virt="non-virtual"><scope>UniGLTF::IAxisInverter</scope><name>InvertQuaternion</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a473c744e4dd9a07519d7f50b03493f40" prot="public" virt="non-virtual"><scope>UniGLTF::IAxisInverter</scope><name>InvertVector3</name></member>
+      <member refid="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a6881a03bdd2fc6fef8ca126c94c89adc" prot="public" virt="non-virtual"><scope>UniGLTF::IAxisInverter</scope><name>InvertVector4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

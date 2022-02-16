@@ -1,0 +1,1211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_serializer" kind="class" prot="public">
+    <compoundname>VRM::VRMSerializer</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_extensions value)</argsstring>
+        <name>Serialize</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="14" bodyend="60"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1abf40e8b0bbd8271f10556ffbdf4fd83b" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="27">VRM.glTF_VRM_extensions.blendShapeMaster</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1af90eb151d9bd63affafa1b34bc606cb4" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="19">VRM.glTF_VRM_extensions.exporterVersion</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a907dee261cd20d7a6591e8d375e35aaa" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="26">VRM.glTF_VRM_extensions.firstPerson</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a052fba255e2bf2ca264a49466f3ad6bb" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="25">VRM.glTF_VRM_extensions.humanoid</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1ae7ebc0c6e2c80cb1c4823ee7b4c52db9" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="29">VRM.glTF_VRM_extensions.materialProperties</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a9472d2c85124a14cd88f51e56bd9ed1d" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="24">VRM.glTF_VRM_extensions.meta</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a3899d5aa40b7e7516a312275d6659571" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="28">VRM.glTF_VRM_extensions.secondaryAnimation</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a6fe324a65b83c99fe1baa26895084b3c" compoundref="_v_r_m_serializer_8g_8cs" startline="553" endline="564">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a44f1cad1c7183ace9d44def8ef28ccd9" compoundref="_v_r_m_serializer_8g_8cs" startline="135" endline="186">VRM.VRMSerializer.Serialize_vrm_humanoid</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a88033ab9c5e25691cdae32f762be2304" compoundref="_v_r_m_serializer_8g_8cs" startline="906" endline="916">VRM.VRMSerializer.Serialize_vrm_materialProperties</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ad5e54cb096f410a37865cfeffcc29649" compoundref="_v_r_m_serializer_8g_8cs" startline="62" endline="133">VRM.VRMSerializer.Serialize_vrm_meta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1abe9ed91d6bb727ae2f630742d49fa2fd" compoundref="_v_r_m_serializer_8g_8cs" startline="693" endline="709">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions_1a89f74bb1517f58ca25660c157211ceda" compoundref="gl_t_f___v_r_m__extensions_8cs" startline="22">VRM.glTF_VRM_extensions.specVersion</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ad5e54cb096f410a37865cfeffcc29649" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_meta</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_Meta value)</argsstring>
+        <name>Serialize_vrm_meta</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___meta" kindref="compound">glTF_VRM_Meta</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="62" bodyend="133"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1add0c9b94cc9e73bb6ef1111548b71c4d" compoundref="gl_t_f___v_r_m___meta_8cs" startline="67">VRM.glTF_VRM_Meta.allowedUserName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1ab3eb72191f3c47746b49bdda90676413" compoundref="gl_t_f___v_r_m___meta_8cs" startline="49">VRM.glTF_VRM_Meta.author</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1ac72fc503b33290db8af22499c044a4b6" compoundref="gl_t_f___v_r_m___meta_8cs" startline="109">VRM.glTF_VRM_Meta.commercialUssageName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a9b39de9e109d0c97ea420e4a25d2f57b" compoundref="gl_t_f___v_r_m___meta_8cs" startline="52">VRM.glTF_VRM_Meta.contactInformation</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a20b3757f568eb6e5c5e6fc92cf69efc4" compoundref="gl_t_f___v_r_m___meta_8cs" startline="133">VRM.glTF_VRM_Meta.licenseName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a00118673bb005e466fd425c898a6d1a4" compoundref="gl_t_f___v_r_m___meta_8cs" startline="147">VRM.glTF_VRM_Meta.otherLicenseUrl</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a53c01935aa7f0657f4df9c281999a707" compoundref="gl_t_f___v_r_m___meta_8cs" startline="117">VRM.glTF_VRM_Meta.otherPermissionUrl</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a4d2aa9f1b3c60ba159eaba9b903f2add" compoundref="gl_t_f___v_r_m___meta_8cs" startline="55">VRM.glTF_VRM_Meta.reference</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a7f0400358a42d64f88c1bbec20f82ab3" compoundref="gl_t_f___v_r_m___meta_8cs" startline="97">VRM.glTF_VRM_Meta.sexualUssageName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1aba1b399bedec9858184a30bc58c5f713" compoundref="gl_t_f___v_r_m___meta_8cs" startline="59">VRM.glTF_VRM_Meta.texture</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a94f5341152935cf86220cfd14aaee6a6" compoundref="gl_t_f___v_r_m___meta_8cs" startline="43">VRM.glTF_VRM_Meta.title</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1ad9f1fa6748e7f01bc78758c7278a7fa8" compoundref="gl_t_f___v_r_m___meta_8cs" startline="46">VRM.glTF_VRM_Meta.version</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___meta_1a4c1afe30e9cb567436e896f0d06698e1" compoundref="gl_t_f___v_r_m___meta_8cs" startline="85">VRM.glTF_VRM_Meta.violentUssageName</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a44f1cad1c7183ace9d44def8ef28ccd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_Humanoid value)</argsstring>
+        <name>Serialize_vrm_humanoid</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid" kindref="compound">glTF_VRM_Humanoid</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="135" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="135" bodyend="186"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_1a29a4a3c9814732c4c038ee94fd3966fb" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="170">VRM.glTF_VRM_Humanoid.humanBones</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1aa72b92df871749684316c94c81d0a004" compoundref="_v_r_m_serializer_8g_8cs" startline="188" endline="198">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1aa72b92df871749684316c94c81d0a004" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_HumanoidBone &gt; value)</argsstring>
+        <name>Serialize_vrm_humanoid_humanBones</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">glTF_VRM_HumanoidBone</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="188" bodyend="198"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" compoundref="_v_r_m_serializer_8g_8cs" startline="200" endline="241">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a44f1cad1c7183ace9d44def8ef28ccd9" compoundref="_v_r_m_serializer_8g_8cs" startline="135" endline="186">VRM.VRMSerializer.Serialize_vrm_humanoid</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_HumanoidBone value)</argsstring>
+        <name>Serialize_vrm_humanoid_humanBones_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone" kindref="compound">glTF_VRM_HumanoidBone</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="200" bodyend="241"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1a4fde6fd10f273ad0d9fc6b778ddf9b1c" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="163">VRM.glTF_VRM_HumanoidBone.axisLength</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1abde5ac88e7a109198c68936f86bf0f79" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="132">VRM.glTF_VRM_HumanoidBone.bone</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1a0851b3449bca2f19a5e0c23ba9915057" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="160">VRM.glTF_VRM_HumanoidBone.center</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1a374b23118220e08d12c9055e2c30fbdc" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="157">VRM.glTF_VRM_HumanoidBone.max</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1a631a6f50a4c9f75eb789aef12e77447c" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="154">VRM.glTF_VRM_HumanoidBone.min</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid_bone_1af6bb97f3fd6ac76e1f84eb77e08bd120" compoundref="gl_t_f___v_r_m___humanoid_8cs" startline="148">VRM.glTF_VRM_HumanoidBone.node</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a64ff4bdb7581ce366b98e03d08b0223d" compoundref="_v_r_m_serializer_8g_8cs" startline="289" endline="310">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__center</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ac9773bb5f97ed460e31f43bea398ec5a" compoundref="_v_r_m_serializer_8g_8cs" startline="266" endline="287">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__max</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a70197c663d88b05729ac1815d4ed1de5" compoundref="_v_r_m_serializer_8g_8cs" startline="243" endline="264">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__min</references>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1aa72b92df871749684316c94c81d0a004" compoundref="_v_r_m_serializer_8g_8cs" startline="188" endline="198">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a70197c663d88b05729ac1815d4ed1de5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__min</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_humanoid_humanBones__min</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="243" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="243" bodyend="264"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" compoundref="_v_r_m_serializer_8g_8cs" startline="200" endline="241">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ac9773bb5f97ed460e31f43bea398ec5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__max</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_humanoid_humanBones__max</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="266" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="266" bodyend="287"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" compoundref="_v_r_m_serializer_8g_8cs" startline="200" endline="241">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a64ff4bdb7581ce366b98e03d08b0223d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones__center</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_humanoid_humanBones__center</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="289" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="289" bodyend="310"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" compoundref="_v_r_m_serializer_8g_8cs" startline="200" endline="241">VRM.VRMSerializer.Serialize_vrm_humanoid_humanBones_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_Firstperson value)</argsstring>
+        <name>Serialize_vrm_firstPerson</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson" kindref="compound">glTF_VRM_Firstperson</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="312" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="312" bodyend="358"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a965fde5548c4cdb40d5250c1603795b9" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="56">VRM.glTF_VRM_Firstperson.firstPersonBone</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a4467075faa60571b2f243354a61e9732" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="60">VRM.glTF_VRM_Firstperson.firstPersonBoneOffset</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a96073dcf1dbf1cc61ee22f132af01cc6" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="81">VRM.glTF_VRM_Firstperson.lookAtHorizontalInner</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a4b0d626d8afaf8f9242b80aac6a316ff" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="84">VRM.glTF_VRM_Firstperson.lookAtHorizontalOuter</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a2d0599de2ef678f9b02b72e587f5244f" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="70">VRM.glTF_VRM_Firstperson.lookAtTypeName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a22c37c7b594e32d8f69fa94800422e28" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="87">VRM.glTF_VRM_Firstperson.lookAtVerticalDown</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a58caf073569233d7fabe55e9082da3e4" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="90">VRM.glTF_VRM_Firstperson.lookAtVerticalUp</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson_1a4e7000fcce591941be31258f8db97da4" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="63">VRM.glTF_VRM_Firstperson.meshAnnotations</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a12a5421e32970ff403f3423da9a624fd" compoundref="_v_r_m_serializer_8g_8cs" startline="360" endline="381">VRM.VRMSerializer.Serialize_vrm_firstPerson_firstPersonBoneOffset</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a656af623a1c6be0451287e339eb435df" compoundref="_v_r_m_serializer_8g_8cs" startline="413" endline="434">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalInner</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1aab2c18fa823f4eda1620130fea9755e7" compoundref="_v_r_m_serializer_8g_8cs" startline="448" endline="469">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalOuter</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a9f22d4db11543a8ad54363094f9e7ae2" compoundref="_v_r_m_serializer_8g_8cs" startline="483" endline="504">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalDown</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1aa2ed0a0b7030054cb60a77daec8c7794" compoundref="_v_r_m_serializer_8g_8cs" startline="518" endline="539">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalUp</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a531da20ad19ef0968a87e9fc7f7f2031" compoundref="_v_r_m_serializer_8g_8cs" startline="383" endline="393">VRM.VRMSerializer.Serialize_vrm_firstPerson_meshAnnotations</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a12a5421e32970ff403f3423da9a624fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_firstPersonBoneOffset</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_firstPerson_firstPersonBoneOffset</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="360" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="360" bodyend="381"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a531da20ad19ef0968a87e9fc7f7f2031" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_meshAnnotations</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_MeshAnnotation &gt; value)</argsstring>
+        <name>Serialize_vrm_firstPerson_meshAnnotations</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation" kindref="compound">glTF_VRM_MeshAnnotation</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="383" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="383" bodyend="393"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ab2ff0abe1e8f8d6e5d211bcb1318db43" compoundref="_v_r_m_serializer_8g_8cs" startline="395" endline="411">VRM.VRMSerializer.Serialize_vrm_firstPerson_meshAnnotations_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ab2ff0abe1e8f8d6e5d211bcb1318db43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_meshAnnotations_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_MeshAnnotation value)</argsstring>
+        <name>Serialize_vrm_firstPerson_meshAnnotations_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation" kindref="compound">glTF_VRM_MeshAnnotation</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="395" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="395" bodyend="411"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation_1a69e7047f6803ff57544a61a8dc32cbec" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="40">VRM.glTF_VRM_MeshAnnotation.firstPersonFlag</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___mesh_annotation_1ae4045aec6c6dc44d4191809e619719fd" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="38">VRM.glTF_VRM_MeshAnnotation.mesh</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a531da20ad19ef0968a87e9fc7f7f2031" compoundref="_v_r_m_serializer_8g_8cs" startline="383" endline="393">VRM.VRMSerializer.Serialize_vrm_firstPerson_meshAnnotations</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a656af623a1c6be0451287e339eb435df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalInner</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_DegreeMap value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtHorizontalInner</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="413" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="413" bodyend="434"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map_1a348e8b204deabedbf5a0e8fce383da39" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="15">VRM.glTF_VRM_DegreeMap.curve</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a4e8bdd2857d052f04958baba74fead9f" compoundref="_v_r_m_serializer_8g_8cs" startline="436" endline="446">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalInner_curve</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a4e8bdd2857d052f04958baba74fead9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalInner_curve</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtHorizontalInner_curve</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="436" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="436" bodyend="446"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a656af623a1c6be0451287e339eb435df" compoundref="_v_r_m_serializer_8g_8cs" startline="413" endline="434">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalInner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1aab2c18fa823f4eda1620130fea9755e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalOuter</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_DegreeMap value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtHorizontalOuter</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="448" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="448" bodyend="469"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map_1a348e8b204deabedbf5a0e8fce383da39" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="15">VRM.glTF_VRM_DegreeMap.curve</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a9a2915729ad7330fdc42dfee2d9a3c01" compoundref="_v_r_m_serializer_8g_8cs" startline="471" endline="481">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalOuter_curve</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a9a2915729ad7330fdc42dfee2d9a3c01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalOuter_curve</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtHorizontalOuter_curve</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="471" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="471" bodyend="481"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1aab2c18fa823f4eda1620130fea9755e7" compoundref="_v_r_m_serializer_8g_8cs" startline="448" endline="469">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtHorizontalOuter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a9f22d4db11543a8ad54363094f9e7ae2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalDown</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_DegreeMap value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtVerticalDown</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="483" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="483" bodyend="504"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map_1a348e8b204deabedbf5a0e8fce383da39" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="15">VRM.glTF_VRM_DegreeMap.curve</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a3289dad0385af700884ee89342c2defb" compoundref="_v_r_m_serializer_8g_8cs" startline="506" endline="516">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalDown_curve</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a3289dad0385af700884ee89342c2defb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalDown_curve</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtVerticalDown_curve</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="506" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="506" bodyend="516"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a9f22d4db11543a8ad54363094f9e7ae2" compoundref="_v_r_m_serializer_8g_8cs" startline="483" endline="504">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalDown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1aa2ed0a0b7030054cb60a77daec8c7794" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalUp</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_DegreeMap value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtVerticalUp</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map" kindref="compound">glTF_VRM_DegreeMap</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="518" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="518" bodyend="539"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map_1a348e8b204deabedbf5a0e8fce383da39" compoundref="gl_t_f___v_r_m___first_person_8cs" startline="15">VRM.glTF_VRM_DegreeMap.curve</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a8629628908011e464ef88cf110c34921" compoundref="_v_r_m_serializer_8g_8cs" startline="541" endline="551">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalUp_curve</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" compoundref="_v_r_m_serializer_8g_8cs" startline="312" endline="358">VRM.VRMSerializer.Serialize_vrm_firstPerson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a8629628908011e464ef88cf110c34921" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalUp_curve</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_firstPerson_lookAtVerticalUp_curve</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="541" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="541" bodyend="551"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1aa2ed0a0b7030054cb60a77daec8c7794" compoundref="_v_r_m_serializer_8g_8cs" startline="518" endline="539">VRM.VRMSerializer.Serialize_vrm_firstPerson_lookAtVerticalUp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a6fe324a65b83c99fe1baa26895084b3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_BlendShapeMaster value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master" kindref="compound">glTF_VRM_BlendShapeMaster</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="553" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="553" bodyend="564"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master_1a22a9afd030edb43e5c2d8c68d9f9611e" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="105">VRM.glTF_VRM_BlendShapeMaster.blendShapeGroups</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a278454e71e4f47ac2d6ccf0b3c56484b" compoundref="_v_r_m_serializer_8g_8cs" startline="566" endline="576">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a278454e71e4f47ac2d6ccf0b3c56484b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_BlendShapeGroup &gt; value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">glTF_VRM_BlendShapeGroup</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="566" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="566" bodyend="576"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1afd43b114d141d779c40187b5f98d4181" compoundref="_v_r_m_serializer_8g_8cs" startline="578" endline="609">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a6fe324a65b83c99fe1baa26895084b3c" compoundref="_v_r_m_serializer_8g_8cs" startline="553" endline="564">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1afd43b114d141d779c40187b5f98d4181" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_BlendShapeGroup value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">glTF_VRM_BlendShapeGroup</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="578" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="578" bodyend="609"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group_1af923352bd7d1d65a9e3ec712afcae131" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="92">VRM.glTF_VRM_BlendShapeGroup.binds</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group_1aea460c6aeef2a068346d198ca650702e" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="95">VRM.glTF_VRM_BlendShapeGroup.materialValues</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group_1a5925fdeb24436fc0f2aa510c1898e7a9" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="67">VRM.glTF_VRM_BlendShapeGroup.name</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group_1a1f7ad2237d74f92dcfd731d78e52894e" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="89">VRM.glTF_VRM_BlendShapeGroup.presetName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a3eca70ebbb44d679919e28ad7b480246" compoundref="_v_r_m_serializer_8g_8cs" startline="611" endline="621">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__binds</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a924226e734f505bbc5695f92b0228cff" compoundref="_v_r_m_serializer_8g_8cs" startline="646" endline="656">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a278454e71e4f47ac2d6ccf0b3c56484b" compoundref="_v_r_m_serializer_8g_8cs" startline="566" endline="576">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a3eca70ebbb44d679919e28ad7b480246" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__binds</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_BlendShapeBind &gt; value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups__binds</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">glTF_VRM_BlendShapeBind</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="611" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="611" bodyend="621"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1afe05d0e7f5b4caaec5842265c397884f" compoundref="_v_r_m_serializer_8g_8cs" startline="623" endline="644">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__binds_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1afd43b114d141d779c40187b5f98d4181" compoundref="_v_r_m_serializer_8g_8cs" startline="578" endline="609">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1afe05d0e7f5b4caaec5842265c397884f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__binds_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_BlendShapeBind value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups__binds_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind" kindref="compound">glTF_VRM_BlendShapeBind</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="623" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="623" bodyend="644"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind_1a965c3fed74b639b1ae64ebfdb9f4854f" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="26">VRM.glTF_VRM_BlendShapeBind.index</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind_1a45337b16dc3084381e1e891a042c3931" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="23">VRM.glTF_VRM_BlendShapeBind.mesh</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_bind_1a2358c4b7fb3b08b264abc95649584a80" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="29">VRM.glTF_VRM_BlendShapeBind.weight</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a3eca70ebbb44d679919e28ad7b480246" compoundref="_v_r_m_serializer_8g_8cs" startline="611" endline="621">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__binds</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a924226e734f505bbc5695f92b0228cff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_MaterialValueBind &gt; value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind" kindref="compound">glTF_VRM_MaterialValueBind</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="646" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="646" bodyend="656"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ad53ed97a8bfd18e01e397e486c036f73" compoundref="_v_r_m_serializer_8g_8cs" startline="658" endline="679">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1afd43b114d141d779c40187b5f98d4181" compoundref="_v_r_m_serializer_8g_8cs" startline="578" endline="609">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ad53ed97a8bfd18e01e397e486c036f73" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_MaterialValueBind value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind" kindref="compound">glTF_VRM_MaterialValueBind</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="658" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="658" bodyend="679"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind_1a6e796a0d8e7f33fef1cd5bf72a5ce763" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="13">VRM.glTF_VRM_MaterialValueBind.materialName</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind_1ada709ac277c9a02c2f01241febd00364" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="14">VRM.glTF_VRM_MaterialValueBind.propertyName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a798aa490d8368ea018914099df933638" compoundref="_v_r_m_serializer_8g_8cs" startline="681" endline="691">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_value_bind_1a45f7e008d9ed84dc0f5e75a770534041" compoundref="gl_t_f___v_r_m___blend_shape_8cs" startline="15">VRM.glTF_VRM_MaterialValueBind.targetValue</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a924226e734f505bbc5695f92b0228cff" compoundref="_v_r_m_serializer_8g_8cs" startline="646" endline="656">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a798aa490d8368ea018914099df933638" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="681" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="681" bodyend="691"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1ad53ed97a8bfd18e01e397e486c036f73" compoundref="_v_r_m_serializer_8g_8cs" startline="658" endline="679">VRM.VRMSerializer.Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1abe9ed91d6bb727ae2f630742d49fa2fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_SecondaryAnimation value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation" kindref="compound">glTF_VRM_SecondaryAnimation</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="693" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="693" bodyend="709"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_1aa2745ad4ee87c00b64b2120dc92e41de" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="74">VRM.glTF_VRM_SecondaryAnimation.boneGroups</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_1ae82478795a098d0a63ef2b8f4e01bbc3" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="77">VRM.glTF_VRM_SecondaryAnimation.colliderGroups</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a74eeb9658f6dcbaf942cb5e2d74fbc59" compoundref="_v_r_m_serializer_8g_8cs" startline="711" endline="721">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a5a51fc77c04a569082d94af343e66d58" compoundref="_v_r_m_serializer_8g_8cs" startline="823" endline="833">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a74eeb9658f6dcbaf942cb5e2d74fbc59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_SecondaryAnimationGroup &gt; value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_boneGroups</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group" kindref="compound">glTF_VRM_SecondaryAnimationGroup</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="711" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="711" bodyend="721"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" compoundref="_v_r_m_serializer_8g_8cs" startline="723" endline="774">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1abe9ed91d6bb727ae2f630742d49fa2fd" compoundref="_v_r_m_serializer_8g_8cs" startline="693" endline="709">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_SecondaryAnimationGroup value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_boneGroups_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group" kindref="compound">glTF_VRM_SecondaryAnimationGroup</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="723" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="723" bodyend="774"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group_1a5f84c8f17cfb260cf4049177f327ea94" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="62">VRM.glTF_VRM_SecondaryAnimationGroup.bones</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group_1ad0d3f9a306073cdfcec632e3a4a26ee1" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="66">VRM.glTF_VRM_SecondaryAnimationGroup.colliderGroups</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group_1a9fd8bc94bbd09680a1ea249c27919fba" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="37">VRM.glTF_VRM_SecondaryAnimationGroup.comment</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_group_1adcf789103027ea54c6aa023972ab9b0e" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="46">VRM.glTF_VRM_SecondaryAnimationGroup.gravityDir</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a7796b63aac0982ed683eb90ce3f95cad" compoundref="_v_r_m_serializer_8g_8cs" startline="799" endline="809">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__bones</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1af0f38022e85294395b713a1b74b1816d" compoundref="_v_r_m_serializer_8g_8cs" startline="811" endline="821">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__colliderGroups</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1aa7efdc040fd944a6b31f41f8cd0aff6a" compoundref="_v_r_m_serializer_8g_8cs" startline="776" endline="797">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__gravityDir</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a74eeb9658f6dcbaf942cb5e2d74fbc59" compoundref="_v_r_m_serializer_8g_8cs" startline="711" endline="721">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1aa7efdc040fd944a6b31f41f8cd0aff6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__gravityDir</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_boneGroups__gravityDir</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="776" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="776" bodyend="797"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" compoundref="_v_r_m_serializer_8g_8cs" startline="723" endline="774">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a7796b63aac0982ed683eb90ce3f95cad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__bones</definition>
+        <argsstring>(JsonFormatter f, Int32[] value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_boneGroups__bones</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="799" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="799" bodyend="809"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" compoundref="_v_r_m_serializer_8g_8cs" startline="723" endline="774">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1af0f38022e85294395b713a1b74b1816d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups__colliderGroups</definition>
+        <argsstring>(JsonFormatter f, Int32[] value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_boneGroups__colliderGroups</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Int32[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="811" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="811" bodyend="821"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" compoundref="_v_r_m_serializer_8g_8cs" startline="723" endline="774">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_boneGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a5a51fc77c04a569082d94af343e66d58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_SecondaryAnimationColliderGroup &gt; value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_colliderGroups</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group" kindref="compound">glTF_VRM_SecondaryAnimationColliderGroup</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="823" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="823" bodyend="833"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a2ca67b1364a51be8925a3924bc2f355a" compoundref="_v_r_m_serializer_8g_8cs" startline="835" endline="851">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1abe9ed91d6bb727ae2f630742d49fa2fd" compoundref="_v_r_m_serializer_8g_8cs" startline="693" endline="709">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a2ca67b1364a51be8925a3924bc2f355a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_SecondaryAnimationColliderGroup value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_colliderGroups_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group" kindref="compound">glTF_VRM_SecondaryAnimationColliderGroup</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="835" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="835" bodyend="851"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group_1a2a9b8260c0530e59c3faf530ac6d1493" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="28">VRM.glTF_VRM_SecondaryAnimationColliderGroup.colliders</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_group_1a9725496d765540365c37bf9525b199f6" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="26">VRM.glTF_VRM_SecondaryAnimationColliderGroup.node</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a69f6c2790ac3314601f3e67f9998d441" compoundref="_v_r_m_serializer_8g_8cs" startline="853" endline="863">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a5a51fc77c04a569082d94af343e66d58" compoundref="_v_r_m_serializer_8g_8cs" startline="823" endline="833">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a69f6c2790ac3314601f3e67f9998d441" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_SecondaryAnimationCollider &gt; value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" kindref="compound">glTF_VRM_SecondaryAnimationCollider</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="853" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="853" bodyend="863"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ab06df15acb7bd173a2ece6d22348dbff" compoundref="_v_r_m_serializer_8g_8cs" startline="865" endline="881">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a2ca67b1364a51be8925a3924bc2f355a" compoundref="_v_r_m_serializer_8g_8cs" startline="835" endline="851">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ab06df15acb7bd173a2ece6d22348dbff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_SecondaryAnimationCollider value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider" kindref="compound">glTF_VRM_SecondaryAnimationCollider</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="865" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="865" bodyend="881"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation_collider_1a09ae8b8d44140bc73baa31fe6799c3aa" compoundref="gl_t_f___v_r_m___secondary_animation_8cs" startline="14">VRM.glTF_VRM_SecondaryAnimationCollider.offset</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a04abb43a7f9447ded48281d594fa7ba0" compoundref="_v_r_m_serializer_8g_8cs" startline="883" endline="904">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a69f6c2790ac3314601f3e67f9998d441" compoundref="_v_r_m_serializer_8g_8cs" startline="853" endline="863">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a04abb43a7f9447ded48281d594fa7ba0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</definition>
+        <argsstring>(JsonFormatter f, Vector3 value)</argsstring>
+        <name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="883" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="883" bodyend="904"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1ab06df15acb7bd173a2ece6d22348dbff" compoundref="_v_r_m_serializer_8g_8cs" startline="865" endline="881">VRM.VRMSerializer.Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a88033ab9c5e25691cdae32f762be2304" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties</definition>
+        <argsstring>(JsonFormatter f, List&lt; glTF_VRM_Material &gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material" kindref="compound">glTF_VRM_Material</ref> &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="906" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="906" bodyend="916"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" compoundref="_v_r_m_serializer_8g_8cs" startline="14" endline="60">VRM.VRMSerializer.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</definition>
+        <argsstring>(JsonFormatter f, glTF_VRM_Material value)</argsstring>
+        <name>Serialize_vrm_materialProperties_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___material" kindref="compound">glTF_VRM_Material</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="918" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="918" bodyend="964"/>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a4b0cbc6259d3b31f8c06f00b29b79a9b" compoundref="gl_t_f___v_r_m___material_8cs" startline="18">VRM.glTF_VRM_Material.floatProperties</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a9a605c762d5c90fb5bebf24b96dcbfbd" compoundref="gl_t_f___v_r_m___material_8cs" startline="21">VRM.glTF_VRM_Material.keywordMap</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a2fed6705e87ad3d4c6f36c5299069ef7" compoundref="gl_t_f___v_r_m___material_8cs" startline="14">VRM.glTF_VRM_Material.name</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1aa75b99be29d48b2e9de169645bf55bb0" compoundref="_v_r_m_serializer_8g_8cs" startline="966" endline="975">VRM.VRMSerializer.Serialize_vrm_materialProperties__floatProperties</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a2e5e23deb958392b28c0a7b32ead525b" compoundref="_v_r_m_serializer_8g_8cs" startline="1011" endline="1020">VRM.VRMSerializer.Serialize_vrm_materialProperties__keywordMap</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1ae956d9f0b7861c78614cf1f4293e5011" compoundref="_v_r_m_serializer_8g_8cs" startline="1022" endline="1031">VRM.VRMSerializer.Serialize_vrm_materialProperties__tagMap</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a0f92a0d5dda0ac36f1a934dd47ca2d3b" compoundref="_v_r_m_serializer_8g_8cs" startline="1000" endline="1009">VRM.VRMSerializer.Serialize_vrm_materialProperties__textureProperties</references>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1a0d9433e47a69449ae42ebd6072422e05" compoundref="_v_r_m_serializer_8g_8cs" startline="977" endline="986">VRM.VRMSerializer.Serialize_vrm_materialProperties__vectorProperties</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a9c4de711d2bc2589aedceddc7d79f5d4" compoundref="gl_t_f___v_r_m___material_8cs" startline="15">VRM.glTF_VRM_Material.shader</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a2ba19a746c32b83cb24d40a73024963d" compoundref="gl_t_f___v_r_m___material_8cs" startline="22">VRM.glTF_VRM_Material.tagMap</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1ac6b4ea697bacdced105ca7e85f2907d2" compoundref="gl_t_f___v_r_m___material_8cs" startline="20">VRM.glTF_VRM_Material.textureProperties</references>
+        <references refid="class_v_r_m_1_1gl_t_f___v_r_m___material_1a4015325937c2191ee308dc898806379f" compoundref="gl_t_f___v_r_m___material_8cs" startline="19">VRM.glTF_VRM_Material.vectorProperties</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a88033ab9c5e25691cdae32f762be2304" compoundref="_v_r_m_serializer_8g_8cs" startline="906" endline="916">VRM.VRMSerializer.Serialize_vrm_materialProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1aa75b99be29d48b2e9de169645bf55bb0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__floatProperties</definition>
+        <argsstring>(JsonFormatter f, Dictionary&lt; string, Single &gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties__floatProperties</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, Single &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="966" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="966" bodyend="975"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a0d9433e47a69449ae42ebd6072422e05" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__vectorProperties</definition>
+        <argsstring>(JsonFormatter f, Dictionary&lt; string, Single[]&gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties__vectorProperties</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, Single[]&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="977" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="977" bodyend="986"/>
+        <references refid="class_v_r_m_1_1_v_r_m_serializer_1af1acb8b140fb6c28751d0674a35d2a87" compoundref="_v_r_m_serializer_8g_8cs" startline="988" endline="998">VRM.VRMSerializer.Serialize_vrm_materialProperties__vectorProperties_ITEM</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1af1acb8b140fb6c28751d0674a35d2a87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__vectorProperties_ITEM</definition>
+        <argsstring>(JsonFormatter f, Single[] value)</argsstring>
+        <name>Serialize_vrm_materialProperties__vectorProperties_ITEM</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Single[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="988" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="988" bodyend="998"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a0d9433e47a69449ae42ebd6072422e05" compoundref="_v_r_m_serializer_8g_8cs" startline="977" endline="986">VRM.VRMSerializer.Serialize_vrm_materialProperties__vectorProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a0f92a0d5dda0ac36f1a934dd47ca2d3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__textureProperties</definition>
+        <argsstring>(JsonFormatter f, Dictionary&lt; string, Int32 &gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties__textureProperties</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, Int32 &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="1000" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="1000" bodyend="1009"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1a2e5e23deb958392b28c0a7b32ead525b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__keywordMap</definition>
+        <argsstring>(JsonFormatter f, Dictionary&lt; string, Boolean &gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties__keywordMap</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, Boolean &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="1011" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="1011" bodyend="1020"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_serializer_1ae956d9f0b7861c78614cf1f4293e5011" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSerializer.Serialize_vrm_materialProperties__tagMap</definition>
+        <argsstring>(JsonFormatter f, Dictionary&lt; string, String &gt; value)</argsstring>
+        <name>Serialize_vrm_materialProperties__tagMap</name>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, String &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="1022" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="1022" bodyend="1031"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" compoundref="_v_r_m_serializer_8g_8cs" startline="918" endline="964">VRM.VRMSerializer.Serialize_vrm_materialProperties_ITEM</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/Format/VRMSerializer.g.cs" bodystart="10" bodyend="1033"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a24dfb05e67677b066f4fb0b2ef50e65c" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a6fe324a65b83c99fe1baa26895084b3c" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a278454e71e4f47ac2d6ccf0b3c56484b" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a3eca70ebbb44d679919e28ad7b480246" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups__binds</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1afe05d0e7f5b4caaec5842265c397884f" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups__binds_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a924226e734f505bbc5695f92b0228cff" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a798aa490d8368ea018914099df933638" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues__targetValue</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ad53ed97a8bfd18e01e397e486c036f73" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups__materialValues_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1afd43b114d141d779c40187b5f98d4181" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_blendShapeMaster_blendShapeGroups_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a20739d9b4bb166702c081657b11ab4e1" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a12a5421e32970ff403f3423da9a624fd" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_firstPersonBoneOffset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a656af623a1c6be0451287e339eb435df" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtHorizontalInner</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a4e8bdd2857d052f04958baba74fead9f" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtHorizontalInner_curve</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1aab2c18fa823f4eda1620130fea9755e7" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtHorizontalOuter</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a9a2915729ad7330fdc42dfee2d9a3c01" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtHorizontalOuter_curve</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a9f22d4db11543a8ad54363094f9e7ae2" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtVerticalDown</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a3289dad0385af700884ee89342c2defb" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtVerticalDown_curve</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1aa2ed0a0b7030054cb60a77daec8c7794" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtVerticalUp</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a8629628908011e464ef88cf110c34921" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_lookAtVerticalUp_curve</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a531da20ad19ef0968a87e9fc7f7f2031" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_meshAnnotations</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ab2ff0abe1e8f8d6e5d211bcb1318db43" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_firstPerson_meshAnnotations_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a44f1cad1c7183ace9d44def8ef28ccd9" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1aa72b92df871749684316c94c81d0a004" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid_humanBones</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a64ff4bdb7581ce366b98e03d08b0223d" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid_humanBones__center</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ac9773bb5f97ed460e31f43bea398ec5a" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid_humanBones__max</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a70197c663d88b05729ac1815d4ed1de5" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid_humanBones__min</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a484a51b689ad560474a1850b95b2943c" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_humanoid_humanBones_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a88033ab9c5e25691cdae32f762be2304" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1aa75b99be29d48b2e9de169645bf55bb0" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__floatProperties</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a2e5e23deb958392b28c0a7b32ead525b" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__keywordMap</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ae956d9f0b7861c78614cf1f4293e5011" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__tagMap</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a0f92a0d5dda0ac36f1a934dd47ca2d3b" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__textureProperties</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a0d9433e47a69449ae42ebd6072422e05" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__vectorProperties</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1af1acb8b140fb6c28751d0674a35d2a87" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties__vectorProperties_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a35ce842650a8552ec47071b2b97f3a1c" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_materialProperties_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ad5e54cb096f410a37865cfeffcc29649" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_meta</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1abe9ed91d6bb727ae2f630742d49fa2fd" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a74eeb9658f6dcbaf942cb5e2d74fbc59" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_boneGroups</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a7796b63aac0982ed683eb90ce3f95cad" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_boneGroups__bones</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1af0f38022e85294395b713a1b74b1816d" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_boneGroups__colliderGroups</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1aa7efdc040fd944a6b31f41f8cd0aff6a" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_boneGroups__gravityDir</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a313f1b8aeab364bf581130c80ea5dc17" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_boneGroups_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a5a51fc77c04a569082d94af343e66d58" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_colliderGroups</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a69f6c2790ac3314601f3e67f9998d441" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a04abb43a7f9447ded48281d594fa7ba0" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders__offset</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1ab06df15acb7bd173a2ece6d22348dbff" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_colliderGroups__colliders_ITEM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_serializer_1a2ca67b1364a51be8925a3924bc2f355a" prot="public" virt="non-virtual"><scope>VRM::VRMSerializer</scope><name>Serialize_vrm_secondaryAnimation_colliderGroups_ITEM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

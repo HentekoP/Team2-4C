@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_clip_drawer" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeClipDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_drawer_1a2dbde6f7aa59a39de28db8de19a059f4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.BlendShapeClipDrawer.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_avatar_editor_1a2219ad7b25c2e6f7136c50c91bc64b85" compoundref="_blend_shape_avatar_editor_8cs" startline="58" endline="113">VRM.BlendShapeAvatarEditor.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_drawer_1a64920e5bfb0603f1a9569ea1ce10927a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.BlendShapeClipDrawer.ThumbnailSize</definition>
+        <argsstring></argsstring>
+        <name>ThumbnailSize</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_drawer_1af3299c5cc54cba2fa54998fcb95d2bda" compoundref="_blend_shape_clip_drawer_8cs" startline="20" endline="61">VRM.BlendShapeClipDrawer.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_blend_shape_clip_drawer_1af3299c5cc54cba2fa54998fcb95d2bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void VRM.BlendShapeClipDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" bodystart="20" bodyend="61"/>
+        <references refid="class_v_r_m_1_1_blend_shape_clip_drawer_1a64920e5bfb0603f1a9569ea1ce10927a" compoundref="_blend_shape_clip_drawer_8cs" startline="18">VRM.BlendShapeClipDrawer.ThumbnailSize</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="147">
+        <label>VRM.BlendShapeClipDrawer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip_drawer"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="149">
+        <label>VRM.BlendShapeClipDrawer</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip_drawer"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/BlendShape/BlendShapeClipDrawer.cs" bodystart="11" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_drawer_1a2dbde6f7aa59a39de28db8de19a059f4" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipDrawer</scope><name>Height</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_drawer_1af3299c5cc54cba2fa54998fcb95d2bda" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_drawer_1a64920e5bfb0603f1a9569ea1ce10927a" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClipDrawer</scope><name>ThumbnailSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

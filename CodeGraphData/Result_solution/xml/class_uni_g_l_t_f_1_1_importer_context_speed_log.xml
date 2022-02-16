@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_importer_context_speed_log" kind="class" prot="public">
+    <compoundname>UniGLTF::ImporterContextSpeedLog</compoundname>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_importer_context_speed_log_1_1_key_elapsed" prot="public">UniGLTF::ImporterContextSpeedLog::KeyElapsed</innerclass>
+    <innerclass refid="struct_uni_g_l_t_f_1_1_importer_context_speed_log_1_1_measure_scope" prot="public">UniGLTF::ImporterContextSpeedLog::MeasureScope</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a2c6c7190b3a162e93c772acb8820f7f8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_uni_g_l_t_f_1_1_importer_context_speed_log_1_1_key_elapsed" kindref="compound">KeyElapsed</ref> &gt;</type>
+        <definition>List&lt;KeyElapsed&gt; UniGLTF.ImporterContextSpeedLog.m_speedReports</definition>
+        <argsstring></argsstring>
+        <name>m_speedReports</name>
+        <initializer>= new List&lt;<ref refid="struct_uni_g_l_t_f_1_1_importer_context_speed_log_1_1_key_elapsed" kindref="compound">KeyElapsed</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a9448cea3ae4be63c4ddbd564bc001e0f" compoundref="_importer_context_speed_log_8cs" startline="44" endline="58">UniGLTF.ImporterContextSpeedLog.GetSpeedLog</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a169d607be5b6c7dc473d9b3eb612ec4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDisposable</type>
+        <definition>IDisposable UniGLTF.ImporterContextSpeedLog.MeasureTime</definition>
+        <argsstring>(string key)</argsstring>
+        <name>MeasureTime</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a9448cea3ae4be63c4ddbd564bc001e0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.ImporterContextSpeedLog.GetSpeedLog</definition>
+        <argsstring>()</argsstring>
+        <name>GetSpeedLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" bodystart="44" bodyend="58"/>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a2c6c7190b3a162e93c772acb8820f7f8" compoundref="_importer_context_speed_log_8cs" startline="33">UniGLTF.ImporterContextSpeedLog.m_speedReports</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ImporterContextSpeedLog.cs" bodystart="7" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a9448cea3ae4be63c4ddbd564bc001e0f" prot="public" virt="non-virtual"><scope>UniGLTF::ImporterContextSpeedLog</scope><name>GetSpeedLog</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a2c6c7190b3a162e93c772acb8820f7f8" prot="public" virt="non-virtual"><scope>UniGLTF::ImporterContextSpeedLog</scope><name>m_speedReports</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_speed_log_1a169d607be5b6c7dc473d9b3eb612ec4f" prot="public" virt="non-virtual"><scope>UniGLTF::ImporterContextSpeedLog</scope><name>MeasureTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBones::NativeWrappers::NativeTransform</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a4533ea7bd5ec01637503c636d91e78c0" prot="private" static="no" mutable="no">
+        <type>readonly NativePointer&lt; <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref> &gt;</type>
+        <definition>readonly NativePointer&lt;BlittableTransform&gt; VRM.FastSpringBones.NativeWrappers.NativeTransform._nativePointer</definition>
+        <argsstring></argsstring>
+        <name>_nativePointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1ac075a4410e104dc797546ebf818d6879" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref></type>
+        <definition>readonly TransformRegistry VRM.FastSpringBones.NativeWrappers.NativeTransform._transformRegistry</definition>
+        <argsstring></argsstring>
+        <name>_transformRegistry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1aa7204537ea2c02e3b29f4ea8cc72367c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Transform</type>
+        <definition>Transform VRM.FastSpringBones.NativeWrappers.NativeTransform.Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a32d2bcf921eacc3cdcca2476040aa9a4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref></type>
+        <definition>BlittableTransform VRM.FastSpringBones.NativeWrappers.NativeTransform.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <initializer>=&gt; _nativePointer.Value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a92cd8bbd6e83de2ca949d02cacc86d5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref> *</type>
+        <definition>unsafe BlittableTransform* VRM.FastSpringBones.NativeWrappers.NativeTransform.GetUnsafePtr</definition>
+        <argsstring>()</argsstring>
+        <name>GetUnsafePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="18" column="1"/>
+        <referencedby refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1ae67e594b7d7d4658756ba65048bd5ff6" compoundref="_native_collider_group_8cs" startline="18" endline="22">VRM.FastSpringBones.NativeWrappers.NativeColliderGroup.NativeColliderGroup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1af9d175d3e98e60757f6f7f79e4650c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe VRM.FastSpringBones.NativeWrappers.NativeTransform.NativeTransform</definition>
+        <argsstring>(TransformRegistry transformRegistry, TransformSynchronizationType transformSynchronizationType, Transform transform, NativeTransform parent=null)</argsstring>
+        <name>NativeTransform</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref></type>
+          <declname>transformRegistry</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_registries_1af51c44a6a520142b8bf53ebd5dcafccd" kindref="member">TransformSynchronizationType</ref></type>
+          <declname>transformSynchronizationType</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1aa7204537ea2c02e3b29f4ea8cc72367c" kindref="member">Transform</ref></type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref></type>
+          <declname>parent</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="21" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a77753423fac15787a68e47490866b03c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.NativeWrappers.NativeTransform.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BlittableTransformのライフサイクルを管理するWrapper </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1869">
+        <label>IDisposable</label>
+      </node>
+      <node id="1868">
+        <label>VRM.FastSpringBones.NativeWrappers.NativeTransform</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform"/>
+        <childnode refid="1869" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1874">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1875" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1874" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1875">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1871">
+        <label>IDisposable</label>
+      </node>
+      <node id="1870">
+        <label>VRM.FastSpringBones.NativeWrappers.NativeTransform</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform"/>
+        <childnode refid="1871" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1872" relation="usage">
+          <edgelabel>_transformRegistry</edgelabel>
+        </childnode>
+        <childnode refid="1873" relation="usage">
+          <edgelabel>Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="1872">
+        <label>VRM.FastSpringBones.Registries.TransformRegistry</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry"/>
+      </node>
+      <node id="1873">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="1874" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="1873" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeTransform.cs" bodystart="11" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a4533ea7bd5ec01637503c636d91e78c0" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>_nativePointer</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1ac075a4410e104dc797546ebf818d6879" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>_transformRegistry</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a77753423fac15787a68e47490866b03c" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a92cd8bbd6e83de2ca949d02cacc86d5c" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>GetUnsafePtr</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1af9d175d3e98e60757f6f7f79e4650c85" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>NativeTransform</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1aa7204537ea2c02e3b29f4ea8cc72367c" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>Transform</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a32d2bcf921eacc3cdcca2476040aa9a4" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::NativeWrappers::NativeTransform</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

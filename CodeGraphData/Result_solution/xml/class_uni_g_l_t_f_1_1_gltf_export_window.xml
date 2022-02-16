@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_export_window" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfExportWindow</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_export_dialog_base" prot="public" virt="non-virtual">UniGLTF.ExportDialogBase</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a9a843ddd4b56d058b6e51e5e290f8767" prot="private" static="no">
+        <name>Tabs</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_export_window_1a9a843ddd4b56d058b6e51e5e290f8767a710fdb6adb881b408116ef95335e1961" prot="public">
+          <name>Mesh</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_gltf_export_window_1a9a843ddd4b56d058b6e51e5e290f8767a49ac55f5083b43d472b454fe85149051" prot="public">
+          <name>ExportSettings</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a3676d3b0c456213a57fcb0d9117f42e7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a9a843ddd4b56d058b6e51e5e290f8767" kindref="member">Tabs</ref></type>
+        <definition>Tabs UniGLTF.GltfExportWindow._tab</definition>
+        <argsstring></argsstring>
+        <name>_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ab919b682e0720d8ed64b34872c93c9c0" compoundref="_gltf_export_window_8cs" startline="65" endline="86">UniGLTF.GltfExportWindow.DoGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a5b497cb6ac9b21b402f0a9d4d60815f2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_serialized_property_editor" kindref="compound">SerializedPropertyEditor</ref></type>
+        <definition>SerializedPropertyEditor UniGLTF.GltfExportWindow.m_editor</definition>
+        <argsstring></argsstring>
+        <name>m_editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" compoundref="_gltf_export_window_8cs" startline="30" endline="38">UniGLTF.GltfExportWindow.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a264b50f9387475811c0dc46cf1a8b2fc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_validator" kindref="compound">MeshExportValidator</ref></type>
+        <definition>MeshExportValidator UniGLTF.GltfExportWindow.m_meshes</definition>
+        <argsstring></argsstring>
+        <name>m_meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" compoundref="_gltf_export_window_8cs" startline="30" endline="38">UniGLTF.GltfExportWindow.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a10996445263cc57f8f32aa03aa72b9a6" prot="private" static="no" mutable="no">
+        <type>Editor</type>
+        <definition>Editor UniGLTF.GltfExportWindow.m_meshesInspector</definition>
+        <argsstring></argsstring>
+        <name>m_meshesInspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a650a185f2d56aba014703b8f3896d749" compoundref="_gltf_export_window_8cs" startline="40" endline="45">UniGLTF.GltfExportWindow.Clear</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" compoundref="_gltf_export_window_8cs" startline="30" endline="38">UniGLTF.GltfExportWindow.Initialize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a4d92b43aac1ca76d863d5e7d826635f9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+        <definition>GltfExportSettings UniGLTF.GltfExportWindow.Settings</definition>
+        <argsstring></argsstring>
+        <name>Settings</name>
+        <initializer>= new <ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a66f253df6b227ebe2bdc8d3d032277c6" compoundref="_gltf_export_window_8cs" startline="92" endline="149">UniGLTF.GltfExportWindow.ExportPath</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" compoundref="_gltf_export_window_8cs" startline="30" endline="38">UniGLTF.GltfExportWindow.Initialize</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ae335916f3fdcbca3301032d91435bffb" compoundref="_gltf_export_window_8cs" startline="60" endline="63">UniGLTF.GltfExportWindow.OnLayout</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a07d08ba21c5257c20966150036ec2b28" prot="protected" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string UniGLTF.GltfExportWindow.SaveTitle</definition>
+        <argsstring></argsstring>
+        <name>SaveTitle</name>
+        <initializer>=&gt; &quot;Save gltf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a08e4fa47e2f9ec0a54874a74b986c0cd" prot="protected" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string UniGLTF.GltfExportWindow.SaveName</definition>
+        <argsstring></argsstring>
+        <name>SaveName</name>
+        <initializer>=&gt; $&quot;{State.ExportRoot.name}.glb&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a25c9a9cb5da5bd78c6372b3378335142" prot="protected" static="no" mutable="no">
+        <type>override string[]</type>
+        <definition>override string [] UniGLTF.GltfExportWindow.SaveExtensions</definition>
+        <argsstring></argsstring>
+        <name>SaveExtensions</name>
+        <initializer>=&gt; new string[] { &quot;glb&quot;, &quot;gltf&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.GltfExportWindow.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a48442fff32181f2ba04905ab96399394">Initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="30" bodyend="38"/>
+        <references refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_preference_1a49558ee6f1d3e635abf14323c8648d90" compoundref="_uni_g_l_t_f_preference_8cs" startline="82">UniGLTF.UniGLTFPreference.GltfIOAxis</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a5b497cb6ac9b21b402f0a9d4d60815f2" compoundref="_gltf_export_window_8cs" startline="25">UniGLTF.GltfExportWindow.m_editor</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a264b50f9387475811c0dc46cf1a8b2fc" compoundref="_gltf_export_window_8cs" startline="27">UniGLTF.GltfExportWindow.m_meshes</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a10996445263cc57f8f32aa03aa72b9a6" compoundref="_gltf_export_window_8cs" startline="28">UniGLTF.GltfExportWindow.m_meshesInspector</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a4d92b43aac1ca76d863d5e7d826635f9" compoundref="_gltf_export_window_8cs" startline="23">UniGLTF.GltfExportWindow.Settings</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a650a185f2d56aba014703b8f3896d749" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.GltfExportWindow.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ae819bbf6312326efaea4fd4150274412">Clear</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="40" bodyend="45"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a10996445263cc57f8f32aa03aa72b9a6" compoundref="_gltf_export_window_8cs" startline="28">UniGLTF.GltfExportWindow.m_meshesInspector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1acc9be28f3798becbb968966de8844b91" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override IEnumerable&lt; <ref refid="namespace_uni_g_l_t_f_1ad523cd213d89e2b4c3c812d438ef4a92" kindref="member">Validator</ref> &gt;</type>
+        <definition>override IEnumerable&lt;Validator&gt; UniGLTF.GltfExportWindow.ValidatorFactory</definition>
+        <argsstring>()</argsstring>
+        <name>ValidatorFactory</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ac2aba8c2ec3604c0f391ca2c03267f7c">ValidatorFactory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="47" bodyend="58"/>
+        <references refid="class_uni_g_l_t_f_1_1_exporter_dialog_state_1a90db2de91373f9aad2b8f00a9d67e7d5" compoundref="_export_dialog_state_8cs" startline="35">UniGLTF.ExporterDialogState.ExportRoot</references>
+        <references refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" compoundref="_export_dialog_base_8cs" startline="20">UniGLTF.ExportDialogBase.State</references>
+        <references refid="class_uni_g_l_t_f_1_1_hierarchy_validator_1a9c5ecf1bb0f7a37c6a35f0660752a6b4" compoundref="_hierarchy_validator_8cs" startline="65" endline="78">UniGLTF.HierarchyValidator.ValidateRoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1ae335916f3fdcbca3301032d91435bffb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.GltfExportWindow.OnLayout</definition>
+        <argsstring>()</argsstring>
+        <name>OnLayout</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1af439e13d0bf81be018f5f84b95a1b7dc">OnLayout</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="60" bodyend="63"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a4d92b43aac1ca76d863d5e7d826635f9" compoundref="_gltf_export_window_8cs" startline="23">UniGLTF.GltfExportWindow.Settings</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1ab919b682e0720d8ed64b34872c93c9c0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool UniGLTF.GltfExportWindow.DoGUI</definition>
+        <argsstring>(bool isValid)</argsstring>
+        <name>DoGUI</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1acf5b8551bbb22d206cbf5411170a091a">DoGUI</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isValid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="65" bodyend="86"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a3676d3b0c456213a57fcb0d9117f42e7" compoundref="_gltf_export_window_8cs" startline="20">UniGLTF.GltfExportWindow._tab</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_export_window_1a66f253df6b227ebe2bdc8d3d032277c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.GltfExportWindow.ExportPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ExportPath</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a3e4e91e28cd4bd87b20a0adcb16ecfb3">ExportPath</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="92" bodyend="149"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a4d92b43aac1ca76d863d5e7d826635f9" compoundref="_gltf_export_window_8cs" startline="23">UniGLTF.GltfExportWindow.Settings</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="985">
+        <label>ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="984">
+        <label>UniGLTF.GltfExportWindow</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_window"/>
+        <childnode refid="985" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="990">
+        <label>UnityEngine.Vector2</label>
+        <link refid="struct_unity_engine_1_1_vector2"/>
+      </node>
+      <node id="991">
+        <label>UniGLTF.ExporterDialogState</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporter_dialog_state"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>UniGLTF.MeshExportValidator</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_validator"/>
+        <childnode refid="996" relation="public-inheritance">
+        </childnode>
+        <childnode refid="997" relation="usage">
+          <edgelabel>Meshes</edgelabel>
+        </childnode>
+        <childnode refid="1000" relation="usage">
+          <edgelabel>MaterialValidator</edgelabel>
+        </childnode>
+      </node>
+      <node id="988">
+        <label>ExportDialogBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_export_dialog_base"/>
+        <childnode refid="989" relation="public-inheritance">
+        </childnode>
+        <childnode refid="990" relation="usage">
+          <edgelabel>m_ScrollPosition</edgelabel>
+        </childnode>
+        <childnode refid="991" relation="usage">
+          <edgelabel>m_state</edgelabel>
+          <edgelabel>State</edgelabel>
+        </childnode>
+      </node>
+      <node id="987">
+        <label>UniGLTF.GltfExportWindow</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_window"/>
+        <childnode refid="988" relation="public-inheritance">
+        </childnode>
+        <childnode refid="993" relation="usage">
+          <edgelabel>Settings</edgelabel>
+        </childnode>
+        <childnode refid="994" relation="usage">
+          <edgelabel>m_editor</edgelabel>
+        </childnode>
+        <childnode refid="995" relation="usage">
+          <edgelabel>m_meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="992">
+        <label>IDisposable</label>
+      </node>
+      <node id="1000">
+        <label>UniGLTF.IMaterialValidator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_validator"/>
+      </node>
+      <node id="994">
+        <label>UniGLTF.SerializedPropertyEditor</label>
+        <link refid="class_uni_g_l_t_f_1_1_serialized_property_editor"/>
+      </node>
+      <node id="989">
+        <label>EditorWindow</label>
+      </node>
+      <node id="998">
+        <label>IReadOnlyList&lt; MeshExportInfo &gt;</label>
+      </node>
+      <node id="996">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="999">
+        <label>UniGLTF.MeshExportInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_info"/>
+      </node>
+      <node id="997">
+        <label>UniGLTF.MeshExportList</label>
+        <link refid="class_uni_g_l_t_f_1_1_mesh_export_list"/>
+        <childnode refid="998" relation="public-inheritance">
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>this[int index]</edgelabel>
+        </childnode>
+      </node>
+      <node id="993">
+        <label>UniGLTF.GltfExportSettings</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs" bodystart="11" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a3676d3b0c456213a57fcb0d9117f42e7" prot="private" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>_tab</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a5f2f79f6e9417b8ad4fb02e48c7d0cb9" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>BeginVerticalScrollViewFunc</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a650a185f2d56aba014703b8f3896d749" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>Clear</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ab919b682e0720d8ed64b34872c93c9c0" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>DoGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a66f253df6b227ebe2bdc8d3d032277c6" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>ExportPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1afe237ccfa42a7c5ee1b515579ac354b0" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>Initialize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a5b497cb6ac9b21b402f0a9d4d60815f2" prot="private" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>m_editor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a264b50f9387475811c0dc46cf1a8b2fc" prot="private" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>m_meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a10996445263cc57f8f32aa03aa72b9a6" prot="private" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>m_meshesInspector</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1a1827ce89f11ef610b7f9b9f020b282d0" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>OnEnable</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1ae335916f3fdcbca3301032d91435bffb" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>OnLayout</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a25c9a9cb5da5bd78c6372b3378335142" prot="protected" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>SaveExtensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a08e4fa47e2f9ec0a54874a74b986c0cd" prot="protected" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>SaveName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a07d08ba21c5257c20966150036ec2b28" prot="protected" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>SaveTitle</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a4d92b43aac1ca76d863d5e7d826635f9" prot="public" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>Settings</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_export_dialog_base_1ad6b293120243c940906e3530e2b76fe0" prot="protected" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>State</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1a9a843ddd4b56d058b6e51e5e290f8767" prot="private" virt="non-virtual"><scope>UniGLTF::GltfExportWindow</scope><name>Tabs</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_export_window_1acc9be28f3798becbb968966de8844b91" prot="protected" virt="virtual"><scope>UniGLTF::GltfExportWindow</scope><name>ValidatorFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

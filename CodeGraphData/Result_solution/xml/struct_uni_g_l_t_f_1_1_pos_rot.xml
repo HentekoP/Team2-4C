@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_pos_rot" kind="struct" prot="public">
+    <compoundname>UniGLTF::PosRot</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_pos_rot_1adc716bc63c1d5affe2cc9c0938aacffc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniGLTF.PosRot.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_pos_rot_1a0e4aea6326100de5eb5ad19cf68ea5ec" compoundref="_extensions_2_unity_extensions_8cs" startline="17" endline="24">UniGLTF.PosRot.FromGlobalTransform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_pos_rot_1afcf5d8e41840c9128b1480b6127399eb" prot="public" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UniGLTF.PosRot.Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_pos_rot_1a0e4aea6326100de5eb5ad19cf68ea5ec" compoundref="_extensions_2_unity_extensions_8cs" startline="17" endline="24">UniGLTF.PosRot.FromGlobalTransform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_pos_rot_1a0e4aea6326100de5eb5ad19cf68ea5ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_pos_rot" kindref="compound">PosRot</ref></type>
+        <definition>static PosRot UniGLTF.PosRot.FromGlobalTransform</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>FromGlobalTransform</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" bodystart="17" bodyend="24"/>
+        <references refid="struct_uni_g_l_t_f_1_1_pos_rot_1adc716bc63c1d5affe2cc9c0938aacffc" compoundref="_extensions_2_unity_extensions_8cs" startline="14">UniGLTF.PosRot.Position</references>
+        <references refid="struct_uni_g_l_t_f_1_1_pos_rot_1afcf5d8e41840c9128b1480b6127399eb" compoundref="_extensions_2_unity_extensions_8cs" startline="15">UniGLTF.PosRot.Rotation</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_unity_extensions_1a007c6c816be772fd55e249a654bbdb75" compoundref="_extensions_2_unity_extensions_8cs" startline="333" endline="342">UniGLTF.UnityExtensions.ReverseRecursive</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1986">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1987" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1986" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1987">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1985">
+        <label>UniGLTF.PosRot</label>
+        <link refid="struct_uni_g_l_t_f_1_1_pos_rot"/>
+        <childnode refid="1986" relation="usage">
+          <edgelabel>Position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/UnityExtensions.cs" bodystart="12" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_pos_rot_1a0e4aea6326100de5eb5ad19cf68ea5ec" prot="public" virt="non-virtual"><scope>UniGLTF::PosRot</scope><name>FromGlobalTransform</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_pos_rot_1adc716bc63c1d5affe2cc9c0938aacffc" prot="public" virt="non-virtual"><scope>UniGLTF::PosRot</scope><name>Position</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_pos_rot_1afcf5d8e41840c9128b1480b6127399eb" prot="public" virt="non-virtual"><scope>UniGLTF::PosRot</scope><name>Rotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

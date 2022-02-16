@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_stream_store" kind="class" prot="public">
+    <compoundname>UniJSON::StreamStore</compoundname>
+    <basecompoundref refid="interface_uni_j_s_o_n_1_1_i_store" prot="public" virt="non-virtual">UniJSON.IStore</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_stream_store_1a81888a84f965897e1e9b477876764f14" prot="private" static="no" mutable="no">
+        <type>Stream</type>
+        <definition>Stream UniJSON.StreamStore.m_s</definition>
+        <argsstring></argsstring>
+        <name>m_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_stream_store_1a2f53f74630e560d5adfebd7952329608" compoundref="_stream_store_8cs" startline="12" endline="16">UniJSON.StreamStore.StreamStore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_stream_store_1a4a6e7a2e22cf6e6f75838c0b032eb23f" prot="private" static="no" mutable="no">
+        <type>BinaryWriter</type>
+        <definition>BinaryWriter UniJSON.StreamStore.m_w</definition>
+        <argsstring></argsstring>
+        <name>m_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_stream_store_1a2f53f74630e560d5adfebd7952329608" compoundref="_stream_store_8cs" startline="12" endline="16">UniJSON.StreamStore.StreamStore</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_j_s_o_n_1_1_stream_store_1a3c1031acc8effe6fdbc1b4c6c727ed68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ArraySegment&lt; byte &gt;</type>
+        <definition>ArraySegment&lt;byte&gt; UniJSON.StreamStore.Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a2f53f74630e560d5adfebd7952329608" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.StreamStore.StreamStore</definition>
+        <argsstring>(Stream s)</argsstring>
+        <name>StreamStore</name>
+        <param>
+          <type>Stream</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="12" bodyend="16"/>
+        <references refid="class_uni_j_s_o_n_1_1_stream_store_1a81888a84f965897e1e9b477876764f14" compoundref="_stream_store_8cs" startline="9">UniJSON.StreamStore.m_s</references>
+        <references refid="class_uni_j_s_o_n_1_1_stream_store_1a4a6e7a2e22cf6e6f75838c0b032eb23f" compoundref="_stream_store_8cs" startline="10">UniJSON.StreamStore.m_w</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1aba00e35cf06b17faf21115d3f59b9eb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1ab7c5a2e6223a6374e0ab7c850d4860b4">Clear</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ae5e95bde1b48e0346973eb51280a255e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Write</definition>
+        <argsstring>(sbyte value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>sbyte</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a6665fc08d19eff0b2ff7942ace635b0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Write</definition>
+        <argsstring>(byte value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>byte</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a3e83753e85d5b49052901cc72552b8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Write</definition>
+        <argsstring>(char c)</argsstring>
+        <name>Write</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1a6f238761441bd49258383b745eed85cc">Write</reimplements>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a666e07c1f2eabb17383b65499d8a51bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Write</definition>
+        <argsstring>(string src)</argsstring>
+        <name>Write</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_store_1a83328f366630dd7e8104f4a63a713cec">Write</reimplements>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="55" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a54cf0a16a865e8ff8a20d4ad38e52b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.Write</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; bytes)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a8d27c04f3c5c005aa0554b01378984d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(int value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a61341140b3ed38cb6716cba2fbdcdff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(float value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1adda232c6f2436fec919e81c5fc6256e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(double value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ae1046649ad77313ae145ea439f5774d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(long value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ac4c282270a435ccb610915189c170343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(short value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ad0388ef9f9ae7f5ae076498432efdc62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(uint value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>uint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ab7ec87f2828cda0dc0855a665b152e5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(ulong value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>ulong</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1af6e25ad6ad1554f5a8fbea39c0d64ce1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteBigEndian</definition>
+        <argsstring>(ushort value)</argsstring>
+        <name>WriteBigEndian</name>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="101" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a8e184a7039b4a3173ccdbdf927a11629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(long value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="108" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a8b80a118f46dd8e6ee56ab357ae463c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(uint value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>uint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1aadd620553eccf796c89cc5c41a0d1fb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(short value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="118" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ac234feb91d9bb7813385821e9fb15b25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(ulong value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>ulong</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="123" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1aaefbb1fc0edf787a9dfcffc59519357e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(double value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="128" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a1f06883b102b1c200d8993b8e04dcf81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(float value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="133" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1a0624eb8fa0d54505911c99e36e6dc979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(int value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_stream_store_1ac95b2a820e66634dd6bc2eb9e18b3502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.StreamStore.WriteLittleEndian</definition>
+        <argsstring>(ushort value)</argsstring>
+        <name>WriteLittleEndian</name>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="143" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="143" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2265">
+        <label>UniJSON.StreamStore</label>
+        <link refid="class_uni_j_s_o_n_1_1_stream_store"/>
+        <childnode refid="2266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2266">
+        <label>IStore</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_store"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2267">
+        <label>UniJSON.StreamStore</label>
+        <link refid="class_uni_j_s_o_n_1_1_stream_store"/>
+        <childnode refid="2268" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2268">
+        <label>IStore</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IStore/StreamStore.cs" bodystart="7" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a3c1031acc8effe6fdbc1b4c6c727ed68" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Bytes</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1aba00e35cf06b17faf21115d3f59b9eb9" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Clear</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a81888a84f965897e1e9b477876764f14" prot="private" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>m_s</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a4a6e7a2e22cf6e6f75838c0b032eb23f" prot="private" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>m_w</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a2f53f74630e560d5adfebd7952329608" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>StreamStore</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ae5e95bde1b48e0346973eb51280a255e" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a6665fc08d19eff0b2ff7942ace635b0c" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a3e83753e85d5b49052901cc72552b8ca" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a666e07c1f2eabb17383b65499d8a51bb" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a54cf0a16a865e8ff8a20d4ad38e52b2f" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a5fb4f71c4cee0d43a3b1153713b61709" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1311f8c8f50cf1718cb7c2cbe8b7d204" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a75bc2a92641080bdb90bb6d5d1653c7f" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>Write</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a8d27c04f3c5c005aa0554b01378984d1" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a61341140b3ed38cb6716cba2fbdcdff5" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1adda232c6f2436fec919e81c5fc6256e9" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ae1046649ad77313ae145ea439f5774d0" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ac4c282270a435ccb610915189c170343" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ad0388ef9f9ae7f5ae076498432efdc62" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ab7ec87f2828cda0dc0855a665b152e5f" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1af6e25ad6ad1554f5a8fbea39c0d64ce1" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a86b23fc6246f9e7f270ec16384e1cd78" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1ad1345d467dd0e74b7e96c53a36f419f7" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a3838effe9856759e656746f2360363bb" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a0546d67a6087c301eccce619e75e5546" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a5eca2c1538ab54a5bc091b3abb50a150" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a28821886b1788e8d358b067ef00f9ef4" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1aa2ff451d35c3152561465407805e52c3" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a242f1e52416c0d5d2224fff2fccd5db4" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteBigEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a8e184a7039b4a3173ccdbdf927a11629" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a8b80a118f46dd8e6ee56ab357ae463c6" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1aadd620553eccf796c89cc5c41a0d1fb4" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ac234feb91d9bb7813385821e9fb15b25" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1aaefbb1fc0edf787a9dfcffc59519357e" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a1f06883b102b1c200d8993b8e04dcf81" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1a0624eb8fa0d54505911c99e36e6dc979" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_stream_store_1ac95b2a820e66634dd6bc2eb9e18b3502" prot="public" virt="non-virtual"><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1fb31637349e962d9c2e791945b9dcca" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a0eea4a25a8cd3709c4cd61d316ce7db8" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1ab6a84f7c5e5f03d36ce68ca25bf22233" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a1508e992ce18083bebe9d781bb2987a9" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1aaec5dd3d609238cd3f8f22d396b3733a" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a452a548c9519d68ceee52f107b2853bc" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1abedbccce7aff3daf3178b6294558c192" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+      <member refid="interface_uni_j_s_o_n_1_1_i_store_1a3d8340397551645c0d858100ce16da49" prot="public" virt="non-virtual" ambiguityscope="UniJSON::IStore."><scope>UniJSON::StreamStore</scope><name>WriteLittleEndian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

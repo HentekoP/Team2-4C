@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_animation_importer_util" kind="class" prot="public">
+    <compoundname>UniGLTF::AnimationImporterUtil</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1" prot="private" static="no">
+        <name>TangentMode</name>
+        <enumvalue id="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1a32a843da6ea40ab3b17a3421ccdf671b" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1acb17869fe51048b5a5c4c6106551a255" prot="public">
+          <name>Constant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1ad52202a30c6fe9578b9a95a988e66cde" prot="public">
+          <name>Cubicspline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a4ecebf90f077cb9ba2253c263eaf3637" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1" kindref="member">TangentMode</ref></type>
+        <definition>static TangentMode UniGLTF.AnimationImporterUtil.GetTangentMode</definition>
+        <argsstring>(string interpolation)</argsstring>
+        <name>GetTangentMode</name>
+        <param>
+          <type>string</type>
+          <declname>interpolation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="17" bodyend="35"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a556b583b474e7040490e47be6981679f" compoundref="_animation_importer_util_8cs" startline="68" endline="156">UniGLTF.AnimationImporterUtil.SetAnimationCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a28f85ce49830127fbaf9c8450de4d643" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.AnimationImporterUtil.CalculateTanget</definition>
+        <argsstring>(List&lt; Keyframe &gt; keyframes, int current)</argsstring>
+        <name>CalculateTanget</name>
+        <param>
+          <type>List&lt; Keyframe &gt;</type>
+          <declname>keyframes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="37" bodyend="52"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a556b583b474e7040490e47be6981679f" compoundref="_animation_importer_util_8cs" startline="68" endline="156">UniGLTF.AnimationImporterUtil.SetAnimationCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a069768b1730b273dddcb4638283d5539" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.AnimationImporterUtil.RelativePathFrom</definition>
+        <argsstring>(List&lt; glTFNode &gt; nodes, glTFNode root, glTFNode target, List&lt; string &gt; path)</argsstring>
+        <name>RelativePathFrom</name>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref> &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="165" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="165" bodyend="186"/>
+        <references refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a6af7bc262270f6e7f1d97960d64b6449" compoundref="_animation_importer_util_8cs" startline="158" endline="163">UniGLTF.AnimationImporterUtil.RelativePathFrom</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a7d2c6d861468af916206c745d5019475" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Quaternion</type>
+        <definition>static Quaternion UniGLTF.AnimationImporterUtil.GetShortest</definition>
+        <argsstring>(Quaternion last, Quaternion rot)</argsstring>
+        <name>GetShortest</name>
+        <param>
+          <type>Quaternion</type>
+          <declname>last</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a556b583b474e7040490e47be6981679f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.AnimationImporterUtil.SetAnimationCurve</definition>
+        <argsstring>(AnimationClip targetClip, string relativePath, string[] propertyNames, float[] input, float[] output, string interpolation, Type curveType, ReverseFunc reverse)</argsstring>
+        <name>SetAnimationCurve</name>
+        <param>
+          <type>AnimationClip</type>
+          <declname>targetClip</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>propertyNames</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>interpolation</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>curveType</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aa3561c265d57bac2f4f72fc0175b5522" kindref="member">ReverseFunc</ref></type>
+          <declname>reverse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="68" bodyend="156"/>
+        <references refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a28f85ce49830127fbaf9c8450de4d643" compoundref="_animation_importer_util_8cs" startline="37" endline="52">UniGLTF.AnimationImporterUtil.CalculateTanget</references>
+        <references refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a4ecebf90f077cb9ba2253c263eaf3637" compoundref="_animation_importer_util_8cs" startline="17" endline="35">UniGLTF.AnimationImporterUtil.GetTangentMode</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a6af7bc262270f6e7f1d97960d64b6449" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.AnimationImporterUtil.RelativePathFrom</definition>
+        <argsstring>(List&lt; glTFNode &gt; nodes, glTFNode root, glTFNode target)</argsstring>
+        <name>RelativePathFrom</name>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref> &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="158" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="158" bodyend="163"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a65214a0442f7e78594ea5c1d4b65eac4" compoundref="_animation_importer_util_8cs" startline="188" endline="314">UniGLTF.AnimationImporterUtil.ConvertAnimationClip</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a069768b1730b273dddcb4638283d5539" compoundref="_animation_importer_util_8cs" startline="165" endline="186">UniGLTF.AnimationImporterUtil.RelativePathFrom</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1a65214a0442f7e78594ea5c1d4b65eac4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AnimationClip</type>
+        <definition>static AnimationClip UniGLTF.AnimationImporterUtil.ConvertAnimationClip</definition>
+        <argsstring>(GltfData data, glTFAnimation animation, IAxisInverter inverter, glTFNode root=null)</argsstring>
+        <name>ConvertAnimationClip</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_animation" kindref="compound">glTFAnimation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>inverter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>root</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="188" bodyend="314"/>
+        <references refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a6af7bc262270f6e7f1d97960d64b6449" compoundref="_animation_importer_util_8cs" startline="158" endline="163">UniGLTF.AnimationImporterUtil.RelativePathFrom</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf__mesh__extras__target_names_1a8be75fdb1d8656de9445d579bd6fe8fa" compoundref="gltf__mesh__extras__target_names_8cs" startline="34" endline="78">UniGLTF.gltf_mesh_extras_targetNames.TryGet</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1aafb09b98512eab3537f492cd95710406" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">VRMShaders.SubAssetKey</ref> &gt;</type>
+        <definition>static IEnumerable&lt;VRMShaders.SubAssetKey&gt; UniGLTF.AnimationImporterUtil.EnumerateSubAssetKeys</definition>
+        <argsstring>(glTF gltf)</argsstring>
+        <name>EnumerateSubAssetKeys</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>gltf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="316" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="316" bodyend="322"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_scripted_importer_editor_1a848ec88d0e09483e828aa6d8ddfd3299" compoundref="_gltf_scripted_importer_editor_8cs" startline="22" endline="34">UniGLTF.GltfScriptedImporterEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_zip_archived_gltf_scripted_importer_editor_1a4f094f6b9334ceff979307e24daf15fa" compoundref="_zip_archived_gltf_scripted_importer_editor_8cs" startline="22" endline="34">UniGLTF.ZipArchivedGltfScriptedImporterEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_glb_scripted_importer_editor_1a8b888438ee683109adb26ae647715270" compoundref="_glb_scripted_importer_editor_8cs" startline="24" endline="36">UniGLTF.GlbScriptedImporterEditor.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_animation_importer_util_1aa3561c265d57bac2f4f72fc0175b5522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate float[]</type>
+        <definition>delegate float [] UniGLTF.AnimationImporterUtil.ReverseFunc</definition>
+        <argsstring>(float[] current, float[] last)</argsstring>
+        <name>ReverseFunc</name>
+        <param>
+          <type>float[]</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/AnimationIO/AnimationImporterUtil.cs" bodystart="8" bodyend="323"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a28f85ce49830127fbaf9c8450de4d643" prot="private" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>CalculateTanget</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a65214a0442f7e78594ea5c1d4b65eac4" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>ConvertAnimationClip</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aafb09b98512eab3537f492cd95710406" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>EnumerateSubAssetKeys</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a7d2c6d861468af916206c745d5019475" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>GetShortest</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a4ecebf90f077cb9ba2253c263eaf3637" prot="private" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>GetTangentMode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a6af7bc262270f6e7f1d97960d64b6449" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>RelativePathFrom</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a069768b1730b273dddcb4638283d5539" prot="private" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>RelativePathFrom</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aa3561c265d57bac2f4f72fc0175b5522" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>ReverseFunc</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1a556b583b474e7040490e47be6981679f" prot="public" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>SetAnimationCurve</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_animation_importer_util_1aefd0ab7cbff60f7712cc831dd0e653b1" prot="private" virt="non-virtual"><scope>UniGLTF::AnimationImporterUtil</scope><name>TangentMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

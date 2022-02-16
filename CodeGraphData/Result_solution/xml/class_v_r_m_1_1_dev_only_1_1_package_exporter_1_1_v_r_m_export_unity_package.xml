@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package" kind="class" prot="public">
+    <compoundname>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</compoundname>
+    <innerclass refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_glob_list" prot="public">VRM::DevOnly::PackageExporter::VRMExportUnityPackage::GlobList</innerclass>
+    <innerclass refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info" prot="public">VRM::DevOnly::PackageExporter::VRMExportUnityPackage::PackageInfo</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a0b80d90387caebeb71af32534642ec84" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] VRM.DevOnly.PackageExporter.VRMExportUnityPackage.ignoredFilesForGlob</definition>
+        <argsstring></argsstring>
+        <name>ignoredFilesForGlob</name>
+        <initializer>= new string[] {
+            &quot;.git&quot;,
+            &quot;.circleci&quot;,
+            &quot;DevOnly&quot;,
+            &quot;doc&quot;,
+            &quot;Profiling&quot;,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a219d3dc2af43e38d1640358d815fc5a8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.DevOnly.PackageExporter.VRMExportUnityPackage.GetProjectRoot</definition>
+        <argsstring>()</argsstring>
+        <name>GetProjectRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a24d2ea28570351c54206c6457fc4d0d9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.DevOnly.PackageExporter.VRMExportUnityPackage.System</definition>
+        <argsstring>(string workingDir, string fileName, string args)</argsstring>
+        <name>System</name>
+        <param>
+          <type>string</type>
+          <declname>workingDir</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="32" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1abee3cd830e0f2451b6ac5bde05640ed2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.DevOnly.PackageExporter.VRMExportUnityPackage.GetGitHash</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetGitHash</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1af8b697c4b516f91ab640b9647afd0510" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string VRM.DevOnly.PackageExporter.VRMExportUnityPackage.MakePackagePathName</definition>
+        <argsstring>(string folder, string prefix)</argsstring>
+        <name>MakePackagePathName</name>
+        <param>
+          <type>string</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="69" bodyend="81"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" compoundref="_v_r_m_version_8cs" startline="9">VRM.VRMVersion.VERSION</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ae92fcc0cecc3b6e2696040300393b643" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>static IEnumerable&lt;string&gt; VRM.DevOnly.PackageExporter.VRMExportUnityPackage.GlobFiles</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GlobFiles</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="91" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ae7807af9f4dd2262efff9db7e838194a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackageWithoutBuild</definition>
+        <argsstring>()</argsstring>
+        <name>CreateUnityPackageWithoutBuild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="126" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="126" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1aa6ed9faf37bd2033f1b2bccbdd36068e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackageWithBuild</definition>
+        <argsstring>()</argsstring>
+        <name>CreateUnityPackageWithBuild</name>
+        <briefdescription>
+<para>This is call from Jenkins build </para>        </briefdescription>
+        <detaileddescription>
+<para>-quit -batchMode -executeMethod <ref refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1aa6ed9faf37bd2033f1b2bccbdd36068e" kindref="member">VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackageWithBuild</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="141" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="141" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a79faa7c7d9d075d05341ecb5f000f973" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackages</definition>
+        <argsstring>(string outputDir)</argsstring>
+        <name>CreateUnityPackages</name>
+        <param>
+          <type>string</type>
+          <declname>outputDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="188" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a5ee5c34bda6126fced50a6aa050b668b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.DevOnly.PackageExporter.VRMExportUnityPackage.CreateUnityPackage</definition>
+        <argsstring>(string outputDir, PackageInfo package)</argsstring>
+        <name>CreateUnityPackage</name>
+        <param>
+          <type>string</type>
+          <declname>outputDir</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info" kindref="compound">PackageInfo</ref></type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="232" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="232" bodyend="244"/>
+        <references refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1_1_package_info_1a655a1d62263c29e3d0d81b7a4497a07d" compoundref="_v_r_m_export_unity_package_8cs" startline="179">VRM.DevOnly.PackageExporter.VRMExportUnityPackage.PackageInfo.Name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a3c07d3716e57e29330c66981353bd067" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.DevOnly.PackageExporter.VRMExportUnityPackage.BuildTestScene</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTestScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="246" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="246" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ac2829a9706f1f57de84ac8c03e2ce448" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.DevOnly.PackageExporter.VRMExportUnityPackage.Build</definition>
+        <argsstring>(string[] levels)</argsstring>
+        <name>Build</name>
+        <param>
+          <type>string[]</type>
+          <declname>levels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="252" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="252" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/VRMExportUnityPackage.cs" bodystart="25" bodyend="268"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ac2829a9706f1f57de84ac8c03e2ce448" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>Build</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a3c07d3716e57e29330c66981353bd067" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>BuildTestScene</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a5ee5c34bda6126fced50a6aa050b668b" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>CreateUnityPackage</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a79faa7c7d9d075d05341ecb5f000f973" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>CreateUnityPackages</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1aa6ed9faf37bd2033f1b2bccbdd36068e" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>CreateUnityPackageWithBuild</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ae7807af9f4dd2262efff9db7e838194a" prot="public" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>CreateUnityPackageWithoutBuild</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1abee3cd830e0f2451b6ac5bde05640ed2" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>GetGitHash</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a219d3dc2af43e38d1640358d815fc5a8" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>GetProjectRoot</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1ae92fcc0cecc3b6e2696040300393b643" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>GlobFiles</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a0b80d90387caebeb71af32534642ec84" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>ignoredFilesForGlob</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1af8b697c4b516f91ab640b9647afd0510" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>MakePackagePathName</name></member>
+      <member refid="class_v_r_m_1_1_dev_only_1_1_package_exporter_1_1_v_r_m_export_unity_package_1a24d2ea28570351c54206c6457fc4d0d9" prot="private" virt="non-virtual"><scope>VRM::DevOnly::PackageExporter::VRMExportUnityPackage</scope><name>System</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

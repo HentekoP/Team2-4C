@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job" kind="struct" prot="private">
+    <compoundname>VRM::FastSpringBones::Schedulers::PushTransformJobScheduler::Job</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJobParallelForTransform</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job_1ac6a2165ba933ff45555dbdb8876ccf7c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref> **</type>
+        <definition>BlittableTransform** VRM.FastSpringBones.Schedulers.PushTransformJobScheduler.Job.TransformPointers</definition>
+        <argsstring></argsstring>
+        <name>TransformPointers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" line="111" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job_1a7d3612277a9f221f1a83cff5c002512f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.PushTransformJobScheduler.Job.Execute</definition>
+        <argsstring>(int index, TransformAccess transform)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>TransformAccess</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1460">
+        <label>IJobParallelForTransform</label>
+      </node>
+      <node id="1459">
+        <label>VRM.FastSpringBones.Schedulers.PushTransformJobScheduler.Job</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job"/>
+        <childnode refid="1460" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1464">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="1465" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1464" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="1465">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="1462">
+        <label>IJobParallelForTransform</label>
+      </node>
+      <node id="1463">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="1464" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1461">
+        <label>VRM.FastSpringBones.Schedulers.PushTransformJobScheduler.Job</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job"/>
+        <childnode refid="1462" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>TransformPointers</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" line="110" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PushTransformJobScheduler.cs" bodystart="109" bodyend="117"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job_1a7d3612277a9f221f1a83cff5c002512f" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PushTransformJobScheduler::Job</scope><name>Execute</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_push_transform_job_scheduler_1_1_job_1ac6a2165ba933ff45555dbdb8876ccf7c" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PushTransformJobScheduler::Job</scope><name>TransformPointers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_blend_shape_clip" kind="class" prot="public">
+    <compoundname>VRM::BlendShapeClip</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1abbbafae70e25a3a3b12de3294f43d77f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string VRM.BlendShapeClip.BlendShapeName</definition>
+        <argsstring></argsstring>
+        <name>BlendShapeName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>BlendShapePresetがUnknown場合の識別子 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="112" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="112" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" compoundref="_blend_shape_key_8cs" startline="84" endline="92">VRM.BlendShapeKey.CreateFromClip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1a4e15509a9bb92f2e122f50be2e6bfecd" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_v_r_m_1af293ffdf9d384b4a20f5d6451372b02d" kindref="member">BlendShapePreset</ref></type>
+        <definition>BlendShapePreset VRM.BlendShapeClip.Preset</definition>
+        <argsstring></argsstring>
+        <name>Preset</name>
+        <briefdescription>
+<para>BlendShapePresetを識別する。Unknownの場合は、BlendShapeNameで識別する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="118" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="118" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" compoundref="_blend_shape_key_8cs" startline="84" endline="92">VRM.BlendShapeKey.CreateFromClip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1a17b3ff1ac7a56049f7ddb1901623744f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_key" kindref="compound">BlendShapeKey</ref></type>
+        <definition>BlendShapeKey VRM.BlendShapeClip.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <initializer>=&gt; <ref refid="struct_v_r_m_1_1_blend_shape_key_1a52b2e04bc505105d0c2ff863399fffc0" kindref="member">BlendShapeKey.CreateFromClip</ref>(this)</initializer>
+        <briefdescription>
+<para>BlendShapeClipに対応するBlendShapeKey </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="124" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1ae2667219f340f4806ffe86cc4f1cfadb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>[]</type>
+        <definition>BlendShapeBinding [] VRM.BlendShapeClip.Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <initializer>= new <ref refid="struct_v_r_m_1_1_blend_shape_binding" kindref="compound">BlendShapeBinding</ref>[] { }</initializer>
+        <briefdescription>
+<para>BlendShapeに対する参照(index ベース) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_blend_shape_clip_handler_1ad20945587e37d2722c6e6d5d3c01ca84" compoundref="_blend_shape_clip_handler_8cs" startline="22" endline="35">VRM.BlendShapeClipHandler.BlendShapeClipHandler</referencedby>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="90" endline="126">VRM.glTF_VRMExtensions.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1ae1142e74019dd9e098eaf08877e7c440" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_material_value_binding" kindref="compound">MaterialValueBinding</ref>[]</type>
+        <definition>MaterialValueBinding [] VRM.BlendShapeClip.MaterialValues</definition>
+        <argsstring></argsstring>
+        <name>MaterialValues</name>
+        <initializer>= new <ref refid="struct_v_r_m_1_1_material_value_binding" kindref="compound">MaterialValueBinding</ref>[] { }</initializer>
+        <briefdescription>
+<para>マテリアルに対する参照(名前ベース) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="138" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="90" endline="126">VRM.glTF_VRMExtensions.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_blend_shape_clip_1a9f699965e8e19bfdb06f100a36c90f5e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.BlendShapeClip.IsBinary</definition>
+        <argsstring></argsstring>
+        <name>IsBinary</name>
+        <briefdescription>
+<para>UniVRM-0.45: trueの場合、このBlendShapeClipは0と1の間の中間値を取らない。四捨五入する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="144" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>VRM.BlendShapeClip</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>IEquatable&lt; BlendShapeBinding &gt;</label>
+      </node>
+      <node id="141">
+        <label>UnityEngine.Vector4</label>
+        <link refid="struct_unity_engine_1_1_vector4"/>
+      </node>
+      <node id="146">
+        <label>IComparable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="137">
+        <label>VRM.BlendShapeClip</label>
+        <link refid="class_v_r_m_1_1_blend_shape_clip"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>MaterialValues</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>Values</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>Key</edgelabel>
+        </childnode>
+      </node>
+      <node id="142">
+        <label>VRM.BlendShapeBinding</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_binding"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>IEquatable&lt; MaterialValueBinding &gt;</label>
+      </node>
+      <node id="145">
+        <label>IEquatable&lt; BlendShapeKey &gt;</label>
+      </node>
+      <node id="138">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="144">
+        <label>VRM.BlendShapeKey</label>
+        <link refid="struct_v_r_m_1_1_blend_shape_key"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>VRM.MaterialValueBinding</label>
+        <link refid="struct_v_r_m_1_1_material_value_binding"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>TargetValue</edgelabel>
+          <edgelabel>BaseValue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/BlendShape/BlendShapeClip.cs" bodystart="75" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1abbbafae70e25a3a3b12de3294f43d77f" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>BlendShapeName</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1a9f699965e8e19bfdb06f100a36c90f5e" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>IsBinary</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1a17b3ff1ac7a56049f7ddb1901623744f" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>Key</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1ae1142e74019dd9e098eaf08877e7c440" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>MaterialValues</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1a4e15509a9bb92f2e122f50be2e6bfecd" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>Preset</name></member>
+      <member refid="class_v_r_m_1_1_blend_shape_clip_1ae2667219f340f4806ffe86cc4f1cfadb" prot="public" virt="non-virtual"><scope>VRM::BlendShapeClip</scope><name>Values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

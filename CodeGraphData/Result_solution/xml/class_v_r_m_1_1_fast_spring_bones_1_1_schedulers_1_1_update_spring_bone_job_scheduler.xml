@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1_1_job" prot="private">VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler::Job</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a9e114e8ccd6e321766cac4f337641dab" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_root_bone" kindref="compound">BlittableRootBone</ref> **</type>
+        <definition>BlittableRootBone** VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler._rootBonePointers</definition>
+        <argsstring></argsstring>
+        <name>_rootBonePointers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a0465af019ea142390c069b2a77c8bc2b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_root_bone_registry" kindref="compound">RootBoneRegistry</ref></type>
+        <definition>readonly RootBoneRegistry VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler._rootBoneRegistry</definition>
+        <argsstring></argsstring>
+        <name>_rootBoneRegistry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a09b7f3ef44002505d74002d63efd1c52" prot="private" static="no" mutable="no">
+        <type>readonly CustomSampler</type>
+        <definition>readonly CustomSampler VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler._sampler</definition>
+        <argsstring></argsstring>
+        <name>_sampler</name>
+        <initializer>= CustomSampler.Create(&quot;Schedule CopyFromTransformJob&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a2ed6f23b3c53a682bcf5e120c70bda65" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler._dirty</definition>
+        <argsstring></argsstring>
+        <name>_dirty</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1add7f6a3b9caae5ea55417f895e2a5418" prot="private" static="no" mutable="no">
+        <type>IReadOnlyList&lt; NativePointer&lt; <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_root_bone" kindref="compound">BlittableRootBone</ref> &gt; &gt;</type>
+        <definition>IReadOnlyList&lt;NativePointer&lt;BlittableRootBone&gt; &gt; VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.Targets</definition>
+        <argsstring></argsstring>
+        <name>Targets</name>
+        <initializer>=&gt; _rootBoneRegistry.Items</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a7acbfb67f4f363319d25d37323121f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.UpdateSpringBoneJobScheduler</definition>
+        <argsstring>(RootBoneRegistry rootBoneRegistry)</argsstring>
+        <name>UpdateSpringBoneJobScheduler</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_root_bone_registry" kindref="compound">RootBoneRegistry</ref></type>
+          <declname>rootBoneRegistry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a6bb7d3fdbd6c88712484581e1e115a27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1afe29390129060cecb0c5207963ea4bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JobHandle</type>
+        <definition>JobHandle VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.Schedule</definition>
+        <argsstring>(JobHandle dependOn=default(JobHandle))</argsstring>
+        <name>Schedule</name>
+        <param>
+          <type>JobHandle</type>
+          <declname>dependOn</declname>
+          <defval>default(JobHandle)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="49" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a79368c103f910733dce08ce8d56c7902" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.OnRootBoneChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnRootBoneChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a5634e16748e931d4a254c36487d270ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.ReconstructBuffers</definition>
+        <argsstring>()</argsstring>
+        <name>ReconstructBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a8d6c66243c5cf7053a3caee77afd3bb9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler.ReleaseBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>SpringBoneを更新する処理を行うクラス </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2513">
+        <label>IDisposable</label>
+      </node>
+      <node id="2512">
+        <label>VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler"/>
+        <childnode refid="2513" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2521">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2522" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2521" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2522">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2516">
+        <label>VRM.FastSpringBones.Registries.RootBoneRegistry</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_root_bone_registry"/>
+        <childnode refid="2517" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2524">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroups</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups"/>
+        <childnode refid="2525" relation="usage">
+          <edgelabel>_data</edgelabel>
+          <edgelabel>this[int i]</edgelabel>
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>IDisposable</label>
+      </node>
+      <node id="2514">
+        <label>VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler"/>
+        <childnode refid="2515" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2516" relation="usage">
+          <edgelabel>_rootBoneRegistry</edgelabel>
+        </childnode>
+        <childnode refid="2518" relation="usage">
+          <edgelabel>_rootBonePointers</edgelabel>
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>VRM.FastSpringBones.Blittables.BlittablePoints</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_points"/>
+        <childnode refid="2520" relation="usage">
+          <edgelabel>_points</edgelabel>
+        </childnode>
+      </node>
+      <node id="2517">
+        <label>Registry&lt; NativePointer&lt; BlittableRootBone &gt;&gt;</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_registry_3_01_t_01_4"/>
+      </node>
+      <node id="2520">
+        <label>VRM.FastSpringBones.Blittables.BlittablePoint</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_point"/>
+        <childnode refid="2521" relation="usage">
+          <edgelabel>_prevPosition</edgelabel>
+          <edgelabel>_boneAxis</edgelabel>
+        </childnode>
+        <childnode refid="2523" relation="usage">
+          <edgelabel>_center</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="2524" relation="usage">
+          <edgelabel>_blittableColliderGroups</edgelabel>
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>VRM.FastSpringBones.Blittables.BlittableRootBone</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_root_bone"/>
+        <childnode refid="2519" relation="usage">
+          <edgelabel>_blittablePoints</edgelabel>
+        </childnode>
+        <childnode refid="2521" relation="usage">
+          <edgelabel>_gravityDir</edgelabel>
+        </childnode>
+      </node>
+      <node id="2525">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroup</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group"/>
+      </node>
+      <node id="2523">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="2521" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="2523" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/UpdateSpringBoneJobScheduler.cs" bodystart="20" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a2ed6f23b3c53a682bcf5e120c70bda65" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>_dirty</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a9e114e8ccd6e321766cac4f337641dab" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>_rootBonePointers</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a0465af019ea142390c069b2a77c8bc2b" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>_rootBoneRegistry</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a09b7f3ef44002505d74002d63efd1c52" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>_sampler</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a6bb7d3fdbd6c88712484581e1e115a27" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a79368c103f910733dce08ce8d56c7902" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>OnRootBoneChanged</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a5634e16748e931d4a254c36487d270ab" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>ReconstructBuffers</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a8d6c66243c5cf7053a3caee77afd3bb9" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>ReleaseBuffer</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1afe29390129060cecb0c5207963ea4bc7" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>Schedule</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1add7f6a3b9caae5ea55417f895e2a5418" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>Targets</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_update_spring_bone_job_scheduler_1a7acbfb67f4f363319d25d37323121f2a" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::UpdateSpringBoneJobScheduler</scope><name>UpdateSpringBoneJobScheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

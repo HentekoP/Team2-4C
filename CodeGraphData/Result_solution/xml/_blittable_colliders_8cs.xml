@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_blittable_colliders_8cs" kind="file">
+    <compoundname>BlittableColliders.cs</compoundname>
+    <innerclass refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders" prot="public">VRM::FastSpringBones::Blittables::BlittableColliders</innerclass>
+    <innernamespace refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_blittables">VRM::FastSpringBones::Blittables</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM.FastSpringBones.Blittables</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>unsafe<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders" kindref="compound">BlittableColliders</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a413ca78c7e315f31c07b95e7c7d71230" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref>*<sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a413ca78c7e315f31c07b95e7c7d71230" kindref="member">_colliders</ref>;</highlight></codeline>
+<codeline lineno="9" refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a691117607a3945bd5a7709c795dfc47b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Count<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11" refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a223c1391b85bc15f057be7c6a08a1e27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">[</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i]<sp/>=&gt;<sp/>_colliders[i];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a1e6f5b7ddb33db4826a8fa829a996431" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a1e6f5b7ddb33db4826a8fa829a996431" kindref="member">BlittableColliders</ref>(<ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref>*<sp/>colliders,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_colliders<sp/>=<sp/>colliders;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Count<sp/>=<sp/>count;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs"/>
+  </compounddef>
+</doxygen>

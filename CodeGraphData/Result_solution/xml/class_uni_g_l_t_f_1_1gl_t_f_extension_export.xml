@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_extension_export" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFExtensionExport</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" prot="public" virt="non-virtual">UniGLTF.glTFExtension</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1adf25875b8cd3b81ae2cd2d546446e9fe" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; string, ArraySegment&lt; byte &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;string, ArraySegment&lt;byte&gt; &gt; UniGLTF.glTFExtensionExport.m_serialized</definition>
+        <argsstring></argsstring>
+        <name>m_serialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1aa93ed3408367a1812a064f1997097cd0" compoundref="gltf_extension_8cs" startline="60" endline="64">UniGLTF.glTFExtensionExport.Add</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a5a423c240ef18656c5624e0514c98a0b" compoundref="gltf_extension_8cs" startline="47" endline="50">UniGLTF.glTFExtensionExport.glTFExtensionExport</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a582570a9a7b35265e12ff7e1dd1f341e" compoundref="gltf_extension_8cs" startline="66" endline="78">UniGLTF.glTFExtensionExport.Serialize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a5a423c240ef18656c5624e0514c98a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.glTFExtensionExport.glTFExtensionExport</definition>
+        <argsstring>()</argsstring>
+        <name>glTFExtensionExport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1adf25875b8cd3b81ae2cd2d546446e9fe" compoundref="gltf_extension_8cs" startline="45">UniGLTF.glTFExtensionExport.m_serialized</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a157f0b05d762e88ce152a1f6cfa48ae1" compoundref="gltf_extension_8cs" startline="80" endline="98">UniGLTF.glTFExtensionExport.GetOrCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1ad49bd832591be28c892737daf8f75a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.glTFExtensionExport.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="52" bodyend="58"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a582570a9a7b35265e12ff7e1dd1f341e" compoundref="gltf_extension_8cs" startline="66" endline="78">UniGLTF.glTFExtensionExport.Serialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1aa93ed3408367a1812a064f1997097cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export" kindref="compound">glTFExtensionExport</ref></type>
+        <definition>glTFExtensionExport UniGLTF.glTFExtensionExport.Add</definition>
+        <argsstring>(string key, ArraySegment&lt; byte &gt; raw)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>raw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="60" bodyend="64"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1adf25875b8cd3b81ae2cd2d546446e9fe" compoundref="gltf_extension_8cs" startline="45">UniGLTF.glTFExtensionExport.m_serialized</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a582570a9a7b35265e12ff7e1dd1f341e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UniGLTF.glTFExtensionExport.Serialize</definition>
+        <argsstring>(JsonFormatter f)</argsstring>
+        <name>Serialize</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1gl_t_f_extension_1a0be3dc17317295cf62990767b598efd8">Serialize</reimplements>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="66" bodyend="78"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1adf25875b8cd3b81ae2cd2d546446e9fe" compoundref="gltf_extension_8cs" startline="45">UniGLTF.glTFExtensionExport.m_serialized</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1ad49bd832591be28c892737daf8f75a05" compoundref="gltf_extension_8cs" startline="52" endline="58">UniGLTF.glTFExtensionExport.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1abe5dc59646840c1f2cda546b6106549d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_import" kindref="compound">glTFExtensionImport</ref></type>
+        <definition>override glTFExtensionImport UniGLTF.glTFExtensionExport.Deserialize</definition>
+        <argsstring>()</argsstring>
+        <name>Deserialize</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1gl_t_f_extension_1a27ea2e4fee7051dd457bf0cb2452b46f">Deserialize</reimplements>
+        <briefdescription>
+<para>for unit test </para>        </briefdescription>
+        <detaileddescription>
+<para>parse exported value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="105" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a157f0b05d762e88ce152a1f6cfa48ae1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export" kindref="compound">glTFExtensionExport</ref></type>
+        <definition>static glTFExtensionExport UniGLTF.glTFExtensionExport.GetOrCreate</definition>
+        <argsstring>(ref glTFExtension extension)</argsstring>
+        <name>GetOrCreate</name>
+        <param>
+          <type>ref <ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="80" bodyend="98"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a5a423c240ef18656c5624e0514c98a0b" compoundref="gltf_extension_8cs" startline="47" endline="50">UniGLTF.glTFExtensionExport.glTFExtensionExport</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Export(Serialize)用 </para>    </briefdescription>
+    <detaileddescription>
+<para>実体は、</para><para>Dictionary&lt;string, ArraySegment&lt;byte&gt;&gt;</para><para>key: json object のキー名 value: utf8 エンコーディング済みのJSON</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1005">
+        <label>UniGLTF.glTFExtensionExport</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export"/>
+        <childnode refid="1006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1007">
+        <label>UniGLTF.glTFExtensionExport</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export"/>
+        <childnode refid="1008" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs" bodystart="43" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1aa93ed3408367a1812a064f1997097cd0" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>Add</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1abe5dc59646840c1f2cda546b6106549d" prot="public" virt="virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>Deserialize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a157f0b05d762e88ce152a1f6cfa48ae1" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>GetOrCreate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a5a423c240ef18656c5624e0514c98a0b" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>glTFExtensionExport</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1adf25875b8cd3b81ae2cd2d546446e9fe" prot="private" virt="non-virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>m_serialized</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1a582570a9a7b35265e12ff7e1dd1f341e" prot="public" virt="virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>Serialize</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_extension_export_1ad49bd832591be28c892737daf8f75a05" prot="public" virt="non-virtual"><scope>UniGLTF::glTFExtensionExport</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_point_light" kind="class" prot="public">
+    <compoundname>PointLight</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_point_light_1afee8a8e91a7fcf3a50edb80b1670b9c6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PointLight.maxIntensity</definition>
+        <argsstring></argsstring>
+        <name>maxIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_point_light_1a9927b1bebd949e2337437c5649f55c37" compoundref="_point_light_8cs" startline="20" endline="32">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_point_light_1ae1fbf6f11569a9a65fe8bcf7b6effc03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PointLight.blinkSpeed</definition>
+        <argsstring></argsstring>
+        <name>blinkSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_point_light_1a9927b1bebd949e2337437c5649f55c37" compoundref="_point_light_8cs" startline="20" endline="32">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_point_light_1abb331f33c6ca94749ec1d1dc93e88752" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light PointLight.blinkLight</definition>
+        <argsstring></argsstring>
+        <name>blinkLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_point_light_1a568ace635c34efd3e54d14b3dbe051bb" compoundref="_point_light_8cs" startline="15" endline="18">Start</referencedby>
+        <referencedby refid="class_point_light_1a9927b1bebd949e2337437c5649f55c37" compoundref="_point_light_8cs" startline="20" endline="32">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_point_light_1a5af05a2ab0688c136934502a3a77d038" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PointLight.flashAdjustValue</definition>
+        <argsstring></argsstring>
+        <name>flashAdjustValue</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_point_light_1a9927b1bebd949e2337437c5649f55c37" compoundref="_point_light_8cs" startline="20" endline="32">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_point_light_1a568ace635c34efd3e54d14b3dbe051bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PointLight.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_point_light_1abb331f33c6ca94749ec1d1dc93e88752" compoundref="_point_light_8cs" startline="11">blinkLight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_point_light_1a9927b1bebd949e2337437c5649f55c37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PointLight.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="20" bodyend="32"/>
+        <references refid="class_point_light_1abb331f33c6ca94749ec1d1dc93e88752" compoundref="_point_light_8cs" startline="11">blinkLight</references>
+        <references refid="class_point_light_1ae1fbf6f11569a9a65fe8bcf7b6effc03" compoundref="_point_light_8cs" startline="8">blinkSpeed</references>
+        <references refid="class_point_light_1a5af05a2ab0688c136934502a3a77d038" compoundref="_point_light_8cs" startline="13">flashAdjustValue</references>
+        <references refid="class_point_light_1afee8a8e91a7fcf3a50edb80b1670b9c6" compoundref="_point_light_8cs" startline="7">maxIntensity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1980">
+        <label>PointLight</label>
+        <link refid="class_point_light"/>
+        <childnode refid="1981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1981">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1982">
+        <label>PointLight</label>
+        <link refid="class_point_light"/>
+        <childnode refid="1983" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1983">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Light/PointLight.cs" bodystart="5" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_point_light_1abb331f33c6ca94749ec1d1dc93e88752" prot="private" virt="non-virtual"><scope>PointLight</scope><name>blinkLight</name></member>
+      <member refid="class_point_light_1ae1fbf6f11569a9a65fe8bcf7b6effc03" prot="private" virt="non-virtual"><scope>PointLight</scope><name>blinkSpeed</name></member>
+      <member refid="class_point_light_1a5af05a2ab0688c136934502a3a77d038" prot="private" virt="non-virtual"><scope>PointLight</scope><name>flashAdjustValue</name></member>
+      <member refid="class_point_light_1afee8a8e91a7fcf3a50edb80b1670b9c6" prot="private" virt="non-virtual"><scope>PointLight</scope><name>maxIntensity</name></member>
+      <member refid="class_point_light_1a568ace635c34efd3e54d14b3dbe051bb" prot="private" virt="non-virtual"><scope>PointLight</scope><name>Start</name></member>
+      <member refid="class_point_light_1a9927b1bebd949e2337437c5649f55c37" prot="private" virt="non-virtual"><scope>PointLight</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

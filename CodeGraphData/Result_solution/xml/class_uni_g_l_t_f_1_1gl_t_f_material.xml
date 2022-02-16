@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gl_t_f_material" kind="class" prot="public">
+    <compoundname>UniGLTF::glTFMaterial</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a3583e4d9aa72bb1ffbdc853f3253318e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.glTFMaterial.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1a62736a89c628744090b17caa31213701" compoundref="_gltf_material_descriptor_generator_8cs" startline="34" endline="41">UniGLTF.GltfMaterialDescriptorGenerator.GetMaterialName</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_urp_material_descriptor_generator_1a34191bb12a964844d8342a5bde8eb407" compoundref="_gltf_u_r_p_material_descriptor_generator_8cs" startline="35" endline="43">UniGLTF.GltfUrpMaterialDescriptorGenerator.GetMaterialName</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a0c08ba89f4e1897914b41104f7c19911" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness" kindref="compound">glTFPbrMetallicRoughness</ref></type>
+        <definition>glTFPbrMetallicRoughness UniGLTF.glTFMaterial.pbrMetallicRoughness</definition>
+        <argsstring></argsstring>
+        <name>pbrMetallicRoughness</name>
+        <initializer>= new <ref refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness" kindref="compound">glTFPbrMetallicRoughness</ref>
+        {
+            baseColorFactor = new float[] { 1.0f, 1.0f, 1.0f, 1.0f },
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1a37236ccb1d8a6c9b86b680921c46242b" compoundref="_material_exporter_8cs" startline="39" endline="62">UniGLTF.MaterialExporter.Export_Color</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1a31975e8fe8dbf16ecb2124a7eafeaed4" compoundref="_material_exporter_8cs" startline="70" endline="133">UniGLTF.MaterialExporter.Export_OcclusionMetallicRoughness</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" compoundref="gl_t_f_material_8cs" startline="100" endline="110">UniGLTF.glTFMaterial.GetTextures</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_pbr_texture_importer_1ad16b68ed7a237de58778cc6d3b14fb45" compoundref="_gltf_pbr_texture_importer_8cs" startline="60" endline="76">UniGLTF.GltfPbrTextureImporter.StandardTexture</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a0f3b5e792549fbe289ae570e0cae6875" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_normal_texture_info" kindref="compound">glTFMaterialNormalTextureInfo</ref></type>
+        <definition>glTFMaterialNormalTextureInfo UniGLTF.glTFMaterial.normalTexture</definition>
+        <argsstring></argsstring>
+        <name>normalTexture</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1a5576f18f63f97e2362c5d7809ca1e11c" compoundref="_material_exporter_8cs" startline="135" endline="155">UniGLTF.MaterialExporter.Export_Normal</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" compoundref="gl_t_f_material_8cs" startline="100" endline="110">UniGLTF.glTFMaterial.GetTextures</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a113742cbb92fd3e987c11358c7db5d51" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info" kindref="compound">glTFMaterialOcclusionTextureInfo</ref></type>
+        <definition>glTFMaterialOcclusionTextureInfo UniGLTF.glTFMaterial.occlusionTexture</definition>
+        <argsstring></argsstring>
+        <name>occlusionTexture</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1a31975e8fe8dbf16ecb2124a7eafeaed4" compoundref="_material_exporter_8cs" startline="70" endline="133">UniGLTF.MaterialExporter.Export_OcclusionMetallicRoughness</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" compoundref="gl_t_f_material_8cs" startline="100" endline="110">UniGLTF.glTFMaterial.GetTextures</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a8436f62324b16ae4b40d5b00aa0560be" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_material_emissive_texture_info" kindref="compound">glTFMaterialEmissiveTextureInfo</ref></type>
+        <definition>glTFMaterialEmissiveTextureInfo UniGLTF.glTFMaterial.emissiveTexture</definition>
+        <argsstring></argsstring>
+        <name>emissiveTexture</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_material_exporter_1a228c8711f153a5b3227ee30810351ff6" compoundref="_material_exporter_8cs" startline="157" endline="196">UniGLTF.MaterialExporter.Export_Emission</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" compoundref="gl_t_f_material_8cs" startline="100" endline="110">UniGLTF.glTFMaterial.GetTextures</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1ab6d8655d8fb9154690f95f42f16beedd" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] UniGLTF.glTFMaterial.emissiveFactor</definition>
+        <argsstring></argsstring>
+        <name>emissiveFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="86" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a003bc0a89e3563596dab45d414becc29" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniGLTF.glTFMaterial.alphaMode</definition>
+        <argsstring></argsstring>
+        <name>alphaMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a722984d4f166bb2f527306381a54f3da" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UniGLTF.glTFMaterial.alphaCutoff</definition>
+        <argsstring></argsstring>
+        <name>alphaCutoff</name>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="92" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="92" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a00df05b402340aea060bbade53484b68" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.glTFMaterial.doubleSided</definition>
+        <argsstring></argsstring>
+        <name>doubleSided</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1aae79c3654cc320df000fe374edd08265" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFMaterial.extensions</definition>
+        <argsstring></argsstring>
+        <name>extensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="97" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gl_t_f___k_h_r__materials__unlit_1af5b4669189bc85ac6eef75542006df6d" compoundref="_k_h_r__materials__unlit_8cs" startline="30" endline="44">UniGLTF.glTF_KHR_materials_unlit.IsEnable</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gl_t_f_material_1a44abff5e37f91039726219d4ec83348b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref></type>
+        <definition>glTFExtension UniGLTF.glTFMaterial.extras</definition>
+        <argsstring></argsstring>
+        <name>extras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="98" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_serializer_1a400d11a5ad6344f65010850ef5bde671" compoundref="_gltf_serializer_8g_8cs" startline="618" endline="679">UniGLTF.GltfSerializer.Serialize_gltf_materials_ITEM</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info" kindref="compound">glTFTextureInfo</ref>[]</type>
+        <definition>glTFTextureInfo [] UniGLTF.glTFMaterial.GetTextures</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="100" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="100" bodyend="110"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness_1ac39f1219a7e1d1893a9336291da763ae" compoundref="gl_t_f_material_8cs" startline="51">UniGLTF.glTFPbrMetallicRoughness.baseColorTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a8436f62324b16ae4b40d5b00aa0560be" compoundref="gl_t_f_material_8cs" startline="82">UniGLTF.glTFMaterial.emissiveTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0f3b5e792549fbe289ae570e0cae6875" compoundref="gl_t_f_material_8cs" startline="78">UniGLTF.glTFMaterial.normalTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a113742cbb92fd3e987c11358c7db5d51" compoundref="gl_t_f_material_8cs" startline="80">UniGLTF.glTFMaterial.occlusionTexture</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0c08ba89f4e1897914b41104f7c19911" compoundref="gl_t_f_material_8cs" startline="74">UniGLTF.glTFMaterial.pbrMetallicRoughness</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1033">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="1032">
+        <label>glTFTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_texture_info"/>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>UniGLTF.glTFMaterialEmissiveTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_emissive_texture_info"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>UniGLTF.glTFPbrMetallicRoughness</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_pbr_metallic_roughness"/>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>metallicRoughnessTexture</edgelabel>
+        </childnode>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="1036" relation="usage">
+          <edgelabel>baseColorTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>UniGLTF.glTFMaterial</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material"/>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>emissiveTexture</edgelabel>
+        </childnode>
+        <childnode refid="1034" relation="usage">
+          <edgelabel>pbrMetallicRoughness</edgelabel>
+        </childnode>
+        <childnode refid="1037" relation="usage">
+          <edgelabel>occlusionTexture</edgelabel>
+        </childnode>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="1038" relation="usage">
+          <edgelabel>normalTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>UniGLTF.glTFMaterialNormalTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_normal_texture_info"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1035">
+        <label>UniGLTF.glTFMaterialMetallicRoughnessTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_metallic_roughness_texture_info"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1036">
+        <label>UniGLTF.glTFMaterialBaseColorTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_base_color_texture_info"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>UniGLTF.glTFMaterialOcclusionTextureInfo</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_material_occlusion_texture_info"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFMaterial.cs" bodystart="71" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a722984d4f166bb2f527306381a54f3da" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>alphaCutoff</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a003bc0a89e3563596dab45d414becc29" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>alphaMode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a00df05b402340aea060bbade53484b68" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>doubleSided</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1ab6d8655d8fb9154690f95f42f16beedd" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>emissiveFactor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a8436f62324b16ae4b40d5b00aa0560be" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>emissiveTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1aae79c3654cc320df000fe374edd08265" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>extensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a44abff5e37f91039726219d4ec83348b" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>extras</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1af8a32287314b931259631006848bba64" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>GetTextures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a3583e4d9aa72bb1ffbdc853f3253318e" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>name</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0f3b5e792549fbe289ae570e0cae6875" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>normalTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a113742cbb92fd3e987c11358c7db5d51" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>occlusionTexture</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gl_t_f_material_1a0c08ba89f4e1897914b41104f7c19911" prot="public" virt="non-virtual"><scope>UniGLTF::glTFMaterial</scope><name>pbrMetallicRoughness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_file_system_accessor" kind="class" prot="public">
+    <compoundname>UniJSON::FileSystemAccessor</compoundname>
+    <basecompoundref refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor" prot="public" virt="non-virtual">UniJSON.IFileSystemAccessor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a4a97f6985070a16a410e396e9512cf0e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniJSON.FileSystemAccessor.m_path</definition>
+        <argsstring></argsstring>
+        <name>m_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8e6d5bdc07f28cc092508d54db4e4c1d" compoundref="_i_file_system_accessor_8cs" startline="18" endline="29">UniJSON.FileSystemAccessor.FileSystemAccessor</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1ab9e3d83d00e2cb665384d0d404a2d6d5" compoundref="_i_file_system_accessor_8cs" startline="36" endline="39">UniJSON.FileSystemAccessor.ReadAllText</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8b59159a3ffb563e8f945dfb0ce5f85e" compoundref="_i_file_system_accessor_8cs" startline="31" endline="34">UniJSON.FileSystemAccessor.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a0279d184a4fe4b8140a62ed9dde44687" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UniJSON.FileSystemAccessor.m_baseDir</definition>
+        <argsstring></argsstring>
+        <name>m_baseDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8e6d5bdc07f28cc092508d54db4e4c1d" compoundref="_i_file_system_accessor_8cs" startline="18" endline="29">UniJSON.FileSystemAccessor.FileSystemAccessor</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a2b463f49306f39820b461b970a425028" compoundref="_i_file_system_accessor_8cs" startline="47" endline="51">UniJSON.FileSystemAccessor.Get</referencedby>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a9a4517687f4847d01727cf88a259fd13" compoundref="_i_file_system_accessor_8cs" startline="41" endline="45">UniJSON.FileSystemAccessor.ReadAllText</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a8e6d5bdc07f28cc092508d54db4e4c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniJSON.FileSystemAccessor.FileSystemAccessor</definition>
+        <argsstring>(string path)</argsstring>
+        <name>FileSystemAccessor</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="18" bodyend="29"/>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a0279d184a4fe4b8140a62ed9dde44687" compoundref="_i_file_system_accessor_8cs" startline="17">UniJSON.FileSystemAccessor.m_baseDir</references>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a4a97f6985070a16a410e396e9512cf0e" compoundref="_i_file_system_accessor_8cs" startline="16">UniJSON.FileSystemAccessor.m_path</references>
+        <referencedby refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a2b463f49306f39820b461b970a425028" compoundref="_i_file_system_accessor_8cs" startline="47" endline="51">UniJSON.FileSystemAccessor.Get</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a8b59159a3ffb563e8f945dfb0ce5f85e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniJSON.FileSystemAccessor.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="31" bodyend="34"/>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a4a97f6985070a16a410e396e9512cf0e" compoundref="_i_file_system_accessor_8cs" startline="16">UniJSON.FileSystemAccessor.m_path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_file_system_accessor_1ab9e3d83d00e2cb665384d0d404a2d6d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniJSON.FileSystemAccessor.ReadAllText</definition>
+        <argsstring>()</argsstring>
+        <name>ReadAllText</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor_1af9b5f9d8f5eb5a081f95a30962f4e908">ReadAllText</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a4a97f6985070a16a410e396e9512cf0e" compoundref="_i_file_system_accessor_8cs" startline="16">UniJSON.FileSystemAccessor.m_path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a9a4517687f4847d01727cf88a259fd13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniJSON.FileSystemAccessor.ReadAllText</definition>
+        <argsstring>(string relativePath)</argsstring>
+        <name>ReadAllText</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor_1a0b44cb2fcefa9a7e04cb94d8c24ccfca">ReadAllText</reimplements>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="41" bodyend="45"/>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a0279d184a4fe4b8140a62ed9dde44687" compoundref="_i_file_system_accessor_8cs" startline="17">UniJSON.FileSystemAccessor.m_baseDir</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_file_system_accessor_1a2b463f49306f39820b461b970a425028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor" kindref="compound">IFileSystemAccessor</ref></type>
+        <definition>IFileSystemAccessor UniJSON.FileSystemAccessor.Get</definition>
+        <argsstring>(string relativePath)</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor_1a4ad5777ba2af5aaad140d65ded89c5e5">Get</reimplements>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="47" bodyend="51"/>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8e6d5bdc07f28cc092508d54db4e4c1d" compoundref="_i_file_system_accessor_8cs" startline="18" endline="29">UniJSON.FileSystemAccessor.FileSystemAccessor</references>
+        <references refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a0279d184a4fe4b8140a62ed9dde44687" compoundref="_i_file_system_accessor_8cs" startline="17">UniJSON.FileSystemAccessor.m_baseDir</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="748">
+        <label>IFileSystemAccessor</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor"/>
+      </node>
+      <node id="747">
+        <label>UniJSON.FileSystemAccessor</label>
+        <link refid="class_uni_j_s_o_n_1_1_file_system_accessor"/>
+        <childnode refid="748" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="750">
+        <label>IFileSystemAccessor</label>
+        <link refid="interface_uni_j_s_o_n_1_1_i_file_system_accessor"/>
+      </node>
+      <node id="749">
+        <label>UniJSON.FileSystemAccessor</label>
+        <link refid="class_uni_j_s_o_n_1_1_file_system_accessor"/>
+        <childnode refid="750" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFileSystemAccessor.cs" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8e6d5bdc07f28cc092508d54db4e4c1d" prot="public" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>FileSystemAccessor</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a2b463f49306f39820b461b970a425028" prot="public" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>Get</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a0279d184a4fe4b8140a62ed9dde44687" prot="private" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>m_baseDir</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a4a97f6985070a16a410e396e9512cf0e" prot="private" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>m_path</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1ab9e3d83d00e2cb665384d0d404a2d6d5" prot="public" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>ReadAllText</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a9a4517687f4847d01727cf88a259fd13" prot="public" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>ReadAllText</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_file_system_accessor_1a8b59159a3ffb563e8f945dfb0ce5f85e" prot="public" virt="non-virtual"><scope>UniJSON::FileSystemAccessor</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

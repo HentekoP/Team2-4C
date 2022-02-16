@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator" kind="class" prot="public">
+    <compoundname>VRM::VRMUrpMaterialDescriptorGenerator</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator" prot="public" virt="non-virtual">UniGLTF.IMaterialDescriptorGenerator</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a58b4cdf432716ca32c07d1e7f0702b27" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref></type>
+        <definition>readonly glTF_VRM_extensions VRM.VRMUrpMaterialDescriptorGenerator.m_vrm</definition>
+        <argsstring></argsstring>
+        <name>m_vrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a76f998f05a492e035088aef7dbc1cf2c" compoundref="_v_r_m_u_r_p_material_descriptor_generator_8cs" startline="12" endline="15">VRM.VRMUrpMaterialDescriptorGenerator.VRMUrpMaterialDescriptorGenerator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a76f998f05a492e035088aef7dbc1cf2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMUrpMaterialDescriptorGenerator.VRMUrpMaterialDescriptorGenerator</definition>
+        <argsstring>(glTF_VRM_extensions vrm)</argsstring>
+        <name>VRMUrpMaterialDescriptorGenerator</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">glTF_VRM_extensions</ref></type>
+          <declname>vrm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a58b4cdf432716ca32c07d1e7f0702b27" compoundref="_v_r_m_u_r_p_material_descriptor_generator_8cs" startline="11">VRM.VRMUrpMaterialDescriptorGenerator.m_vrm</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a2f9974805e43587a9ac76d71f1af54e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_v_r_m_shaders_1_1_material_descriptor" kindref="compound">MaterialDescriptor</ref></type>
+        <definition>MaterialDescriptor VRM.VRMUrpMaterialDescriptorGenerator.Get</definition>
+        <argsstring>(GltfData data, int i)</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator_1a7939fe8200bb3a82d62f0d84bb5aa71e">Get</reimplements>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" bodystart="17" bodyend="37"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_material_descriptor_generator_1a62736a89c628744090b17caa31213701" compoundref="_gltf_material_descriptor_generator_8cs" startline="34" endline="41">UniGLTF.GltfMaterialDescriptorGenerator.GetMaterialName</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_unlit_material_importer_1a54ee441729c7266a407dcb0321507c16" compoundref="_gltf_unlit_material_importer_8cs" startline="14" endline="106">UniGLTF.GltfUnlitMaterialImporter.TryCreateParam</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_urp_material_importer_1a2b5f44bee1a5a0d30a1f58ff3ebefaeb" compoundref="_gltf_pbr_u_r_p_material_importer_8cs" startline="30" endline="186">UniGLTF.GltfPbrUrpMaterialImporter.TryCreateParam</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2983">
+        <label>VRM.VRMUrpMaterialDescriptorGenerator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator"/>
+        <childnode refid="2984" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2984">
+        <label>IMaterialDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2994">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2995" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2994" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2995">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2997">
+        <label>VRM.glTF_VRM_BlendShapeMaster</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_master"/>
+      </node>
+      <node id="2988">
+        <label>UniJSON.Utf8String</label>
+        <link refid="struct_uni_j_s_o_n_1_1_utf8_string"/>
+        <childnode refid="2989" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2990" relation="usage">
+          <edgelabel>Encoding</edgelabel>
+        </childnode>
+      </node>
+      <node id="2989">
+        <label>IComparable&lt; Utf8String &gt;</label>
+      </node>
+      <node id="2987">
+        <label>VRM.glTF_VRM_extensions</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions"/>
+        <childnode refid="2988" relation="usage">
+          <edgelabel>ExtensionNameUtf8</edgelabel>
+        </childnode>
+        <childnode refid="2991" relation="usage">
+          <edgelabel>meta</edgelabel>
+        </childnode>
+        <childnode refid="2992" relation="usage">
+          <edgelabel>firstPerson</edgelabel>
+        </childnode>
+        <childnode refid="2996" relation="usage">
+          <edgelabel>secondaryAnimation</edgelabel>
+        </childnode>
+        <childnode refid="2997" relation="usage">
+          <edgelabel>blendShapeMaster</edgelabel>
+        </childnode>
+        <childnode refid="2998" relation="usage">
+          <edgelabel>humanoid</edgelabel>
+        </childnode>
+      </node>
+      <node id="2985">
+        <label>VRM.VRMUrpMaterialDescriptorGenerator</label>
+        <link refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator"/>
+        <childnode refid="2986" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2987" relation="usage">
+          <edgelabel>m_vrm</edgelabel>
+        </childnode>
+      </node>
+      <node id="2992">
+        <label>VRM.glTF_VRM_Firstperson</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___firstperson"/>
+        <childnode refid="2993" relation="usage">
+          <edgelabel>lookAtVerticalUp</edgelabel>
+          <edgelabel>lookAtVerticalDown</edgelabel>
+          <edgelabel>lookAtHorizontalInner</edgelabel>
+          <edgelabel>lookAtHorizontalOuter</edgelabel>
+        </childnode>
+        <childnode refid="2994" relation="usage">
+          <edgelabel>firstPersonBoneOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2991">
+        <label>VRM.glTF_VRM_Meta</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___meta"/>
+      </node>
+      <node id="2986">
+        <label>IMaterialDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator"/>
+      </node>
+      <node id="2990">
+        <label>System</label>
+      </node>
+      <node id="2998">
+        <label>VRM.glTF_VRM_Humanoid</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___humanoid"/>
+      </node>
+      <node id="2996">
+        <label>VRM.glTF_VRM_SecondaryAnimation</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___secondary_animation"/>
+      </node>
+      <node id="2993">
+        <label>VRM.glTF_VRM_DegreeMap</label>
+        <link refid="class_v_r_m_1_1gl_t_f___v_r_m___degree_map"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMURPMaterialDescriptorGenerator.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a2f9974805e43587a9ac76d71f1af54e2" prot="public" virt="non-virtual"><scope>VRM::VRMUrpMaterialDescriptorGenerator</scope><name>Get</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a58b4cdf432716ca32c07d1e7f0702b27" prot="private" virt="non-virtual"><scope>VRM::VRMUrpMaterialDescriptorGenerator</scope><name>m_vrm</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_urp_material_descriptor_generator_1a76f998f05a492e035088aef7dbc1cf2c" prot="public" virt="non-virtual"><scope>VRM::VRMUrpMaterialDescriptorGenerator</scope><name>VRMUrpMaterialDescriptorGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

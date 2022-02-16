@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_json_util" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfJsonUtil</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_json_util_1a81d3107e0853b751347391ef77deb6ea" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.GltfJsonUtil.EXTENSION_USED_KEY</definition>
+        <argsstring></argsstring>
+        <name>EXTENSION_USED_KEY</name>
+        <initializer>= &quot;extensionUsed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a56060d05a0096896f2b3d8be8fd18673" compoundref="_gltf_json_util_8cs" startline="99" endline="175">UniGLTF.GltfJsonUtil.CopyJson</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_json_util_1a2408f1394e06e7a2f88bff13d99dc0b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; object[]&gt;</type>
+        <definition>static IEnumerable&lt;object[]&gt; UniGLTF.GltfJsonUtil.TraverseJsonPath</definition>
+        <argsstring>(JsonNode node, List&lt; object &gt; path)</argsstring>
+        <name>TraverseJsonPath</name>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>JsonPath を 再帰的に列挙する object[] の中身は int(array index) or string(object key) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="21" bodyend="55"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a662653c6f48000974df61c469437bcee" compoundref="_gltf_json_util_8cs" startline="188" endline="210">UniGLTF.GltfJsonUtil.FindUsedExtensionsAndUpdateJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_json_util_1a662653c6f48000974df61c469437bcee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.GltfJsonUtil.FindUsedExtensionsAndUpdateJson</definition>
+        <argsstring>(string src)</argsstring>
+        <name>FindUsedExtensionsAndUpdateJson</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para><ulink url="https://github.com/KhronosGroup/glTF/blob/main/specification/2.0/schema/glTF.schema.json">https://github.com/KhronosGroup/glTF/blob/main/specification/2.0/schema/glTF.schema.json</ulink> </para>        </briefdescription>
+        <detaileddescription>
+<para>extensionUsed の更新を各拡張自身にやらせるのは無駄だし、手動でコントロールするのも間違いの元である。 完成品の JSON から後付けで作ることにした。</para><para><itemizedlist>
+<listitem><para>Exporter しか使わない処理なので、GC, 処理速度は気にしてない</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="188" bodyend="210"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a56060d05a0096896f2b3d8be8fd18673" compoundref="_gltf_json_util_8cs" startline="99" endline="175">UniGLTF.GltfJsonUtil.CopyJson</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a2408f1394e06e7a2f88bff13d99dc0b1" compoundref="_gltf_json_util_8cs" startline="21" endline="55">UniGLTF.GltfJsonUtil.TraverseJsonPath</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_json_util_1abfb0ed95ac4e6ac82ea5141583f0cd0d" compoundref="_gltf_json_util_8cs" startline="72" endline="97">UniGLTF.GltfJsonUtil.TryGetExtensionName</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_json_util_1a24d2b47d6a47f287b8622e4714f41228" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.GltfJsonUtil.DoubleQuote</definition>
+        <argsstring>(string src)</argsstring>
+        <name>DoubleQuote</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_json_util_1abfb0ed95ac4e6ac82ea5141583f0cd0d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.GltfJsonUtil.TryGetExtensionName</definition>
+        <argsstring>(object[] path, out string extensionName)</argsstring>
+        <name>TryGetExtensionName</name>
+        <param>
+          <type>object[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>extensionName</declname>
+        </param>
+        <briefdescription>
+<para>jsonPath が </para>        </briefdescription>
+        <detaileddescription>
+<para>[..., &quot;extensions&quot;, &quot;EXTENSION_NAME&quot;]</para><para>で有る場合に EXTENSION_NAME を返す。 </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jsonPath</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extensionName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="72" bodyend="97"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a662653c6f48000974df61c469437bcee" compoundref="_gltf_json_util_8cs" startline="188" endline="210">UniGLTF.GltfJsonUtil.FindUsedExtensionsAndUpdateJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_json_util_1a56060d05a0096896f2b3d8be8fd18673" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.GltfJsonUtil.CopyJson</definition>
+        <argsstring>(IReadOnlyList&lt; string &gt; extensionUsed, JsonFormatter dst, JsonNode src, int level)</argsstring>
+        <name>CopyJson</name>
+        <param>
+          <type>IReadOnlyList&lt; string &gt;</type>
+          <declname>extensionUsed</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref></type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_j_s_o_n_1_1_json_node" kindref="compound">JsonNode</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="99" bodyend="175"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a81d3107e0853b751347391ef77deb6ea" compoundref="_gltf_json_util_8cs" startline="12">UniGLTF.GltfJsonUtil.EXTENSION_USED_KEY</references>
+        <references refid="class_uni_j_s_o_n_1_1_json_formatter_1a1e74a0817da17468286f4c9c31ae9567" compoundref="_json_formatter_8cs" startline="180" endline="183">UniJSON.JsonFormatter.Value</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a662653c6f48000974df61c469437bcee" compoundref="_gltf_json_util_8cs" startline="188" endline="210">UniGLTF.GltfJsonUtil.FindUsedExtensionsAndUpdateJson</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/GltfJsonUtil.cs" bodystart="10" bodyend="211"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a56060d05a0096896f2b3d8be8fd18673" prot="private" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>CopyJson</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a24d2b47d6a47f287b8622e4714f41228" prot="private" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>DoubleQuote</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a81d3107e0853b751347391ef77deb6ea" prot="private" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>EXTENSION_USED_KEY</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a662653c6f48000974df61c469437bcee" prot="public" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>FindUsedExtensionsAndUpdateJson</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1a2408f1394e06e7a2f88bff13d99dc0b1" prot="public" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>TraverseJsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_json_util_1abfb0ed95ac4e6ac82ea5141583f0cd0d" prot="private" virt="non-virtual"><scope>UniGLTF::GltfJsonUtil</scope><name>TryGetExtensionName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

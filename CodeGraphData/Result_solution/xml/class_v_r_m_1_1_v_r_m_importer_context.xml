@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_importer_context" kind="class" prot="public">
+    <compoundname>VRM::VRMImporterContext</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_importer_context" prot="public" virt="non-virtual">UniGLTF.ImporterContext</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_importer_context_1ade68ccc966ca907a61f7499ca01748fb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_data" kindref="compound">VRMData</ref></type>
+        <definition>VRMData VRM.VRMImporterContext._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1aaa03677c5eb84a4438e9cb385536d151" compoundref="_v_r_m_importer_context_8cs" startline="24" endline="33">VRM.VRMImporterContext.VRMImporterContext</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_v_r_m_importer_context_1ad0b7c78f5763ea8a2b58151d7f94941d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m__extensions" kindref="compound">VRM.glTF_VRM_extensions</ref></type>
+        <definition>VRM.glTF_VRM_extensions VRM.VRMImporterContext.VRM</definition>
+        <argsstring></argsstring>
+        <name>VRM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_importer_context_1ac90bcc1baadf5d01d758b52c3a1cbc87" compoundref="_v_r_m_editor_importer_context_8cs" startline="73" endline="109">VRM.VRMEditorImporterContext.ConvertAndExtractImages</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1aaa03677c5eb84a4438e9cb385536d151" compoundref="_v_r_m_importer_context_8cs" startline="24" endline="33">VRM.VRMImporterContext.VRMImporterContext</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_importer_context_1ac6a9cb8f74660794b1eda75e0abc6b74" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">UniHumanoid.AvatarDescription</ref></type>
+        <definition>UniHumanoid.AvatarDescription VRM.VRMImporterContext.AvatarDescription</definition>
+        <argsstring></argsstring>
+        <name>AvatarDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="274" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="274" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" compoundref="_v_r_m_importer_context_8cs" startline="339" endline="364">VRM.VRMImporterContext.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a4c34145f56c6beb6fbbefcf7a576c6c5" compoundref="_v_r_m_importer_context_8cs" startline="241" endline="271">VRM.VRMImporterContext.LoadHumanoid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_importer_context_1a3090376af4d1cfb18fcd6ff52ebf3ca4" prot="public" static="no" mutable="no">
+        <type>Avatar</type>
+        <definition>Avatar VRM.VRMImporterContext.HumanoidAvatar</definition>
+        <argsstring></argsstring>
+        <name>HumanoidAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="275" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="275" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" compoundref="_v_r_m_importer_context_8cs" startline="339" endline="364">VRM.VRMImporterContext.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a4c34145f56c6beb6fbbefcf7a576c6c5" compoundref="_v_r_m_importer_context_8cs" startline="241" endline="271">VRM.VRMImporterContext.LoadHumanoid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_importer_context_1aa18e483aa6820566cc6f4fd80af9ae47" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_avatar" kindref="compound">BlendShapeAvatar</ref></type>
+        <definition>BlendShapeAvatar VRM.VRMImporterContext.BlendShapeAvatar</definition>
+        <argsstring></argsstring>
+        <name>BlendShapeAvatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="276" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="276" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" compoundref="_v_r_m_importer_context_8cs" startline="339" endline="364">VRM.VRMImporterContext.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a4b17cf017779cee2e5c2a25f53c10659" compoundref="_v_r_m_importer_context_8cs" startline="102" endline="128">VRM.VRMImporterContext.LoadBlendShapeMaster</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_importer_context_1aca27ee28201967e6118a87d6fc163a63" prot="public" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+        <definition>VRMMetaObject VRM.VRMImporterContext.Meta</definition>
+        <argsstring></argsstring>
+        <name>Meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="277" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="277" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" compoundref="_v_r_m_importer_context_8cs" startline="339" endline="364">VRM.VRMImporterContext.Dispose</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1ae7ed02baf2d916344f07cb70b6314560" compoundref="_v_r_m_importer_context_8cs" startline="71" endline="77">VRM.VRMImporterContext.LoadMetaAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1aaa03677c5eb84a4438e9cb385536d151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMImporterContext.VRMImporterContext</definition>
+        <argsstring>(VRMData data, IReadOnlyDictionary&lt; SubAssetKey, Object &gt; externalObjectMap=null, ITextureDeserializer textureDeserializer=null, IMaterialDescriptorGenerator materialGenerator=null)</argsstring>
+        <name>VRMImporterContext</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_data" kindref="compound">VRMData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="_v_r_m_importer_context_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">Object</ref> &gt;</type>
+          <declname>externalObjectMap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_deserializer" kindref="compound">ITextureDeserializer</ref></type>
+          <declname>textureDeserializer</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_material_descriptor_generator" kindref="compound">IMaterialDescriptorGenerator</ref></type>
+          <declname>materialGenerator</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="24" bodyend="33"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ade68ccc966ca907a61f7499ca01748fb" compoundref="_v_r_m_importer_context_8cs" startline="15">VRM.VRMImporterContext._data</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a76f583b1bf9bd27c8b8520970fc6775d" compoundref="_importer_context_8cs" startline="57">UniGLTF.ImporterContext.Data</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a8c127275b9574e5fd7e2d698462ffdb5" compoundref="_importer_context_8cs" startline="16">UniGLTF.ImporterContext.TextureDescriptorGenerator</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ad0b7c78f5763ea8a2b58151d7f94941d" compoundref="_v_r_m_importer_context_8cs" startline="17">VRM.VRMImporterContext.VRM</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1ac84b6c7db632781f12db7f0698522d5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref> &gt;</type>
+        <definition>async Task&lt;VRMMetaObject&gt; VRM.VRMImporterContext.ReadMetaAsync</definition>
+        <argsstring>(IAwaitCaller awaitCaller=null, bool createThumbnail=false)</argsstring>
+        <name>ReadMetaAsync</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>createThumbnail</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="279" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="279" bodyend="308"/>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a76f583b1bf9bd27c8b8520970fc6775d" compoundref="_importer_context_8cs" startline="57">UniGLTF.ImporterContext.Data</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1ae7ed02baf2d916344f07cb70b6314560" compoundref="_v_r_m_importer_context_8cs" startline="71" endline="77">VRM.VRMImporterContext.LoadMetaAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1acc89b6a6b69f35f0834021d0bb93e905" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMImporterContext.TransferOwnership</definition>
+        <argsstring>(TakeResponsibilityForDestroyObjectFunc take)</argsstring>
+        <name>TransferOwnership</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_importer_context_1a82a97e287aa8b1f816be486f26f91a68">TransferOwnership</reimplements>
+        <param>
+          <type>TakeResponsibilityForDestroyObjectFunc</type>
+          <declname>take</declname>
+        </param>
+        <briefdescription>
+<para>Root ヒエラルキーで使っているリソース </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="310" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="310" bodyend="337"/>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void VRM.VRMImporterContext.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_importer_context_1a7e24752b02f8a42eda6cf1b8f73916be">Dispose</reimplements>
+        <briefdescription>
+<para>ImporterContextが所有する UnityEngine.Object を破棄する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="339" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="339" bodyend="364"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ac6a9cb8f74660794b1eda75e0abc6b74" compoundref="_v_r_m_importer_context_8cs" startline="274">VRM.VRMImporterContext.AvatarDescription</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1aa18e483aa6820566cc6f4fd80af9ae47" compoundref="_v_r_m_importer_context_8cs" startline="276">VRM.VRMImporterContext.BlendShapeAvatar</references>
+        <references refid="class_v_r_m_1_1_blend_shape_avatar_1a3d7e41a57405a2f5859c3909d3850f4c" compoundref="_blend_shape_avatar_8cs" startline="17">VRM.BlendShapeAvatar.Clips</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1a3090376af4d1cfb18fcd6ff52ebf3ca4" compoundref="_v_r_m_importer_context_8cs" startline="275">VRM.VRMImporterContext.HumanoidAvatar</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1aca27ee28201967e6118a87d6fc163a63" compoundref="_v_r_m_importer_context_8cs" startline="277">VRM.VRMImporterContext.Meta</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override async Task</type>
+        <definition>override async Task VRM.VRMImporterContext.OnLoadHierarchy</definition>
+        <argsstring>(IAwaitCaller awaitCaller, Func&lt; string, IDisposable &gt; MeasureTime)</argsstring>
+        <name>OnLoadHierarchy</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_importer_context_1a33599d41862ab7067873140bd87f7747">OnLoadHierarchy</reimplements>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_await_caller" kindref="compound">IAwaitCaller</ref></type>
+          <declname>awaitCaller</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, IDisposable &gt;</type>
+          <declname>MeasureTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="36" bodyend="69"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1a4b17cf017779cee2e5c2a25f53c10659" compoundref="_v_r_m_importer_context_8cs" startline="102" endline="128">VRM.VRMImporterContext.LoadBlendShapeMaster</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1a72ff1e43fe3b6849bb34ab5d457269db" compoundref="_v_r_m_importer_context_8cs" startline="79" endline="100">VRM.VRMImporterContext.LoadFirstPerson</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1a4c34145f56c6beb6fbbefcf7a576c6c5" compoundref="_v_r_m_importer_context_8cs" startline="241" endline="271">VRM.VRMImporterContext.LoadHumanoid</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ae7ed02baf2d916344f07cb70b6314560" compoundref="_v_r_m_importer_context_8cs" startline="71" endline="77">VRM.VRMImporterContext.LoadMetaAsync</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a55a280080f7777dcaf548e9e1952af1e" compoundref="_importer_context_8cs" startline="314">UniGLTF.ImporterContext.Nodes</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1ae7ed02baf2d916344f07cb70b6314560" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task VRM.VRMImporterContext.LoadMetaAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoadMetaAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="71" bodyend="77"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1aca27ee28201967e6118a87d6fc163a63" compoundref="_v_r_m_importer_context_8cs" startline="277">VRM.VRMImporterContext.Meta</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ac84b6c7db632781f12db7f0698522d5b" compoundref="_v_r_m_importer_context_8cs" startline="279" endline="308">VRM.VRMImporterContext.ReadMetaAsync</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" compoundref="_v_r_m_importer_context_8cs" startline="36" endline="69">VRM.VRMImporterContext.OnLoadHierarchy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1a72ff1e43fe3b6849bb34ab5d457269db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMImporterContext.LoadFirstPerson</definition>
+        <argsstring>()</argsstring>
+        <name>LoadFirstPerson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="79" bodyend="100"/>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a55a280080f7777dcaf548e9e1952af1e" compoundref="_importer_context_8cs" startline="314">UniGLTF.ImporterContext.Nodes</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" compoundref="_v_r_m_importer_context_8cs" startline="36" endline="69">VRM.VRMImporterContext.OnLoadHierarchy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1a4b17cf017779cee2e5c2a25f53c10659" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMImporterContext.LoadBlendShapeMaster</definition>
+        <argsstring>()</argsstring>
+        <name>LoadBlendShapeMaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="102" bodyend="128"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1aa18e483aa6820566cc6f4fd80af9ae47" compoundref="_v_r_m_importer_context_8cs" startline="276">VRM.VRMImporterContext.BlendShapeAvatar</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1afa3cdcd55966f616a12a303967656ab5" compoundref="_v_r_m_importer_context_8cs" startline="130" endline="216">VRM.VRMImporterContext.LoadBlendShapeBind</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a6206dd7195dca79bc913fa62958985c8" compoundref="_importer_context_8cs" startline="313">UniGLTF.ImporterContext.Root</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" compoundref="_v_r_m_importer_context_8cs" startline="36" endline="69">VRM.VRMImporterContext.OnLoadHierarchy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1afa3cdcd55966f616a12a303967656ab5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_clip" kindref="compound">BlendShapeClip</ref></type>
+        <definition>BlendShapeClip VRM.VRMImporterContext.LoadBlendShapeBind</definition>
+        <argsstring>(glTF_VRM_BlendShapeGroup group, Dictionary&lt; Mesh, Transform &gt; transformMeshTable)</argsstring>
+        <name>LoadBlendShapeBind</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1gl_t_f___v_r_m___blend_shape_group" kindref="compound">glTF_VRM_BlendShapeGroup</ref></type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Mesh, Transform &gt;</type>
+          <declname>transformMeshTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="130" bodyend="216"/>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a73d514f1f11cd0576498ed7dd6cd6604" compoundref="_importer_context_8cs" startline="316">UniGLTF.ImporterContext.Meshes</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a4b17cf017779cee2e5c2a25f53c10659" compoundref="_v_r_m_importer_context_8cs" startline="102" endline="128">VRM.VRMImporterContext.LoadBlendShapeMaster</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1a4c34145f56c6beb6fbbefcf7a576c6c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMImporterContext.LoadHumanoid</definition>
+        <argsstring>()</argsstring>
+        <name>LoadHumanoid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="241" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="241" bodyend="271"/>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1ac6a9cb8f74660794b1eda75e0abc6b74" compoundref="_v_r_m_importer_context_8cs" startline="274">VRM.VRMImporterContext.AvatarDescription</references>
+        <references refid="namespace_v_r_m_1a280f1616c7da870d3d61096e06f47983a96e89a298e0a9f469b9ae458d6afae9f">VRM.head</references>
+        <references refid="class_v_r_m_1_1_v_r_m_importer_context_1a3090376af4d1cfb18fcd6ff52ebf3ca4" compoundref="_v_r_m_importer_context_8cs" startline="275">VRM.VRMImporterContext.HumanoidAvatar</references>
+        <references refid="class_uni_g_l_t_f_1_1_importer_context_1a55a280080f7777dcaf548e9e1952af1e" compoundref="_importer_context_8cs" startline="314">UniGLTF.ImporterContext.Nodes</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" compoundref="_v_r_m_importer_context_8cs" startline="36" endline="69">VRM.VRMImporterContext.OnLoadHierarchy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1af1d0fd7efd26afc6d83ccedbb02229e5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String VRM.VRMImporterContext.ToHumanBoneName</definition>
+        <argsstring>(HumanBodyBones b)</argsstring>
+        <name>ToHumanBoneName</name>
+        <param>
+          <type>HumanBodyBones</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="218" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="218" bodyend="229"/>
+        <references refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98">UniJSON.String</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_importer_context_1afca8728cdbb4786d16e6f33730425988" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SkeletonBone</type>
+        <definition>static SkeletonBone VRM.VRMImporterContext.ToSkeletonBone</definition>
+        <argsstring>(Transform t)</argsstring>
+        <name>ToSkeletonBone</name>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="231" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="231" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2767">
+        <label>ImporterContext</label>
+        <link refid="class_uni_g_l_t_f_1_1_importer_context"/>
+        <childnode refid="2768" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2769">
+        <label>IDisposable</label>
+      </node>
+      <node id="2768">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2769" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2766">
+        <label>VRM.VRMImporterContext</label>
+        <link refid="class_v_r_m_1_1_v_r_m_importer_context"/>
+        <childnode refid="2767" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2774">
+        <label>UniGLTF.glTF</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f"/>
+        <childnode refid="2775" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2776" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="2777" relation="usage">
+          <edgelabel>asset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2776">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="2775">
+        <label>IEquatable&lt; glTF &gt;</label>
+      </node>
+      <node id="2777">
+        <label>UniGLTF.glTFAssets</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_assets"/>
+        <childnode refid="2776" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="2771">
+        <label>ImporterContext</label>
+        <link refid="class_uni_g_l_t_f_1_1_importer_context"/>
+        <childnode refid="2772" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2774" relation="usage">
+          <edgelabel>GLTF</edgelabel>
+        </childnode>
+      </node>
+      <node id="2773">
+        <label>IDisposable</label>
+      </node>
+      <node id="2772">
+        <label>IResponsibilityForDestroyObjects</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_responsibility_for_destroy_objects"/>
+        <childnode refid="2773" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2782">
+        <label>VRM.VRMData</label>
+        <link refid="class_v_r_m_1_1_v_r_m_data"/>
+      </node>
+      <node id="2779">
+        <label>VRM.VRMMetaObject</label>
+        <link refid="class_v_r_m_1_1_v_r_m_meta_object"/>
+        <childnode refid="2780" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2780">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2778">
+        <label>UniHumanoid</label>
+      </node>
+      <node id="2770">
+        <label>VRM.VRMImporterContext</label>
+        <link refid="class_v_r_m_1_1_v_r_m_importer_context"/>
+        <childnode refid="2771" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2778" relation="usage">
+          <edgelabel>AvatarDescription</edgelabel>
+        </childnode>
+        <childnode refid="2779" relation="usage">
+          <edgelabel>Meta</edgelabel>
+        </childnode>
+        <childnode refid="2781" relation="usage">
+          <edgelabel>BlendShapeAvatar</edgelabel>
+        </childnode>
+        <childnode refid="2782" relation="usage">
+          <edgelabel>_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="2781">
+        <label>VRM.BlendShapeAvatar</label>
+        <link refid="class_v_r_m_1_1_blend_shape_avatar"/>
+        <childnode refid="2780" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IO/VRMImporterContext.cs" bodystart="13" bodyend="365"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1ade68ccc966ca907a61f7499ca01748fb" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>_data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1afdbf97448ff96b21e1f04d36c2e61e07" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>AnimationClipFactory</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1ac6a9cb8f74660794b1eda75e0abc6b74" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>AvatarDescription</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1aa18e483aa6820566cc6f4fd80af9ae47" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>BlendShapeAvatar</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a76f583b1bf9bd27c8b8520970fc6775d" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Data</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a6689fc2bd3c08aef95eb01e2ab455133" prot="public" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>Dispose</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a09375f4b01a77d472db92e70f16a900e" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>ExternalObjectMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a80122d17c34d57f6806c76abe89d3ef2" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>GLTF</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a3090376af4d1cfb18fcd6ff52ebf3ca4" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>HumanoidAvatar</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1aee0ae6f04f76b0210c01795183531a46" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>ImporterContext</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a638de0ae223e80e799f2669c32332380" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>InvertAxis</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1aeb95a24434ed0f62d2a9f162dfb25c64" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Json</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a738ccc9e5560f41013934ba8e5527699" prot="public" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>LoadAnimationAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1ac24f1db68f48b33df30dfa8b34a3e545" prot="public" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>LoadAsync</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1afa3cdcd55966f616a12a303967656ab5" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadBlendShapeBind</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a4b17cf017779cee2e5c2a25f53c10659" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadBlendShapeMaster</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a72ff1e43fe3b6849bb34ab5d457269db" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadFirstPerson</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a0a3d08e170f134d4ec78c0231e0f5c6b" prot="protected" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>LoadGeometryAsync</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a4c34145f56c6beb6fbbefcf7a576c6c5" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadHumanoid</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1ae96482c3de321a3417497a33898fe3c0" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadMaterialsAsync</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1ae7ed02baf2d916344f07cb70b6314560" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadMetaAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a6c3ac8451ea3576651f8d155f17b17b8" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>LoadTexturesAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a89f951b407280752e07689b2d6a5694f" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>MaterialDescriptorGenerator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a4e9d18531e20c83560b46b0fa374d17f" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>MaterialFactory</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a73d514f1f11cd0576498ed7dd6cd6604" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Meshes</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1aca27ee28201967e6118a87d6fc163a63" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Meta</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a55a280080f7777dcaf548e9e1952af1e" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Nodes</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1a969051af8feec88ac86ef4234d657b00" prot="protected" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>OnLoadHierarchy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1ac84b6c7db632781f12db7f0698522d5b" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>ReadMetaAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a6206dd7195dca79bc913fa62958985c8" prot="protected" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>Root</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a4ca216b0f69456c0e47ae751c65ae41a" prot="protected" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>SetupAnimationsAsync</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a8c127275b9574e5fd7e2d698462ffdb5" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>TextureDescriptorGenerator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1a9c8964a1e044d17c5116f51bfae51440" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>TextureFactory</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1af1d0fd7efd26afc6d83ccedbb02229e5" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>ToHumanBoneName</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1afca8728cdbb4786d16e6f33730425988" prot="private" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>ToSkeletonBone</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1acc89b6a6b69f35f0834021d0bb93e905" prot="public" virt="virtual"><scope>VRM::VRMImporterContext</scope><name>TransferOwnership</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_importer_context_1aef47d7f70c3cae2500105406829521b4" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>UnsupportedExtensions</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1ad0b7c78f5763ea8a2b58151d7f94941d" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>VRM</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_importer_context_1aaa03677c5eb84a4438e9cb385536d151" prot="public" virt="non-virtual"><scope>VRM::VRMImporterContext</scope><name>VRMImporterContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

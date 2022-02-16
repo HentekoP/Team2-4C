@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_utf8_string_builder_8cs" kind="file">
+    <compoundname>Utf8StringBuilder.cs</compoundname>
+    <innerclass refid="class_uni_j_s_o_n_1_1_utf8_string_builder" prot="public">UniJSON::Utf8StringBuilder</innerclass>
+    <innernamespace refid="namespace_uni_j_s_o_n">UniJSON</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniJSON</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_uni_j_s_o_n_1_1_utf8_string_builder" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder" kindref="compound">Utf8StringBuilder</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_j_s_o_n_1_1_byte_buffer" kindref="compound">ByteBuffer</ref><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" kindref="member">m_buffer</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_byte_buffer" kindref="compound">ByteBuffer</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" kindref="member">Ascii</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_buffer.Push((byte)c);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1ae8d55425c6d5b2863aacacb9dcfbb93d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Encoding<sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1ae8d55425c6d5b2863aacacb9dcfbb93d" kindref="member">s_utf8</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>UTF8Encoding(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a03b4b590f60370cd2e9c3858576df245" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a03b4b590f60370cd2e9c3858576df245" kindref="member">Quote</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>text)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" kindref="member">Ascii</ref>(</highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_buffer.Push(s_utf8.GetBytes(text));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1aac6b646c5e9105943dc8d41343eadc87" kindref="member">Ascii</ref>(</highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1af04fcfaf1e2107b741422844e6f6c747" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1af04fcfaf1e2107b741422844e6f6c747" kindref="member">Add</ref>(<ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref><sp/>str)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_buffer.Push(str.Bytes);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a8298c563dbd7a13733afe0b687eb4aae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref><sp/><ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1a8298c563dbd7a13733afe0b687eb4aae" kindref="member">ToUtf8String</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref>(<ref refid="class_uni_j_s_o_n_1_1_utf8_string_builder_1adc79c2cc28f507b25b15bb21ed2e0f7d" kindref="member">m_buffer</ref>.<ref refid="class_uni_j_s_o_n_1_1_byte_buffer_1a41390089c18284d160303f3471a3a27d" kindref="member">Bytes</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/Utf8String/Utf8StringBuilder.cs"/>
+  </compounddef>
+</doxygen>

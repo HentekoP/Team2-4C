@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_uni_humanoid_1_1_i_bone" kind="interface" prot="public">
+    <compoundname>UniHumanoid::IBone</compoundname>
+    <derivedcompoundref refid="class_uni_humanoid_1_1_bvh_bone" prot="public" virt="non-virtual">UniHumanoid.BvhBone</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_uni_humanoid_1_1_i_bone_1a7e55bdb88b44986499b4e9526855bea2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UniHumanoid.IBone.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_uni_humanoid_1_1_i_bone_1aac5111630b36c1a681d0ccaed90143fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 UniHumanoid.IBone.SkeletonLocalPosition</definition>
+        <argsstring></argsstring>
+        <name>SkeletonLocalPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_uni_humanoid_1_1_i_bone_1afd5853ed3874eafcde496404086f553a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref></type>
+        <definition>IBone UniHumanoid.IBone.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_uni_humanoid_1_1_i_bone_1a7adae9b68063858042323efc0b0f9ad6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IList&lt; <ref refid="interface_uni_humanoid_1_1_i_bone" kindref="compound">IBone</ref> &gt;</type>
+        <definition>IList&lt;IBone&gt; UniHumanoid.IBone.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1acea25601993bbd7a7983a396be2e4208" compoundref="_skeleton_estimator_8cs" startline="46" endline="52">UniHumanoid.BvhSkeletonEstimator.GetNeckAndArms</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_skeleton_estimator_1ae75db3b80f9837b25b4a9a375c677f64" compoundref="_skeleton_estimator_8cs" startline="38" endline="44">UniHumanoid.BvhSkeletonEstimator.GetSpineAndHips</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1248">
+        <label>UniHumanoid.IBone</label>
+        <link refid="interface_uni_humanoid_1_1_i_bone"/>
+      </node>
+      <node id="1249">
+        <label>UniHumanoid.BvhBone</label>
+        <link refid="class_uni_humanoid_1_1_bvh_bone"/>
+        <childnode refid="1248" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IBone.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_uni_humanoid_1_1_i_bone_1a7adae9b68063858042323efc0b0f9ad6" prot="public" virt="non-virtual"><scope>UniHumanoid::IBone</scope><name>Children</name></member>
+      <member refid="interface_uni_humanoid_1_1_i_bone_1a7e55bdb88b44986499b4e9526855bea2" prot="public" virt="non-virtual"><scope>UniHumanoid::IBone</scope><name>Name</name></member>
+      <member refid="interface_uni_humanoid_1_1_i_bone_1afd5853ed3874eafcde496404086f553a" prot="public" virt="non-virtual"><scope>UniHumanoid::IBone</scope><name>Parent</name></member>
+      <member refid="interface_uni_humanoid_1_1_i_bone_1aac5111630b36c1a681d0ccaed90143fa" prot="public" virt="non-virtual"><scope>UniHumanoid::IBone</scope><name>SkeletonLocalPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

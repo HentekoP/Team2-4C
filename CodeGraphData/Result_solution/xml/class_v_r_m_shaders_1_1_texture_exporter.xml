@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_texture_exporter" kind="class" prot="public">
+    <compoundname>VRMShaders::TextureExporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_texture_exporter" prot="public" virt="non-virtual">VRMShaders.ITextureExporter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_exporter_1a9959968e7e0a46ba8fdaf93047c690d1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+        <definition>readonly ITextureSerializer VRMShaders.TextureExporter._textureSerializer</definition>
+        <argsstring></argsstring>
+        <name>_textureSerializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1a05f05202bae96291ee6ced799ab63930" compoundref="_texture_exporter_8cs" startline="88" endline="115">VRMShaders.TextureExporter.RegisterExportingAsCombinedGltfPbrParameterTextureFromUnityStandardTextures</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1ae0cb274c7152fd057b38c1b79f1af656" compoundref="_texture_exporter_8cs" startline="16" endline="19">VRMShaders.TextureExporter.TextureExporter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_texture_exporter_1a891ec3d32eb544d49b60624787b45f64" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_v_r_m_shaders_1_1_texture_export_param" kindref="compound">TextureExportParam</ref> &gt;</type>
+        <definition>readonly List&lt;TextureExportParam&gt; VRMShaders.TextureExporter._exportingList</definition>
+        <argsstring></argsstring>
+        <name>_exportingList</name>
+        <initializer>= new List&lt;<ref refid="class_v_r_m_shaders_1_1_texture_export_param" kindref="compound">TextureExportParam</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1af9c06fee6f259fc256148c72d454aae7" compoundref="_texture_exporter_8cs" startline="28" endline="38">VRMShaders.TextureExporter.Export</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" compoundref="_texture_exporter_8cs" startline="50" endline="86">VRMShaders.TextureExporter.RegisterExportingSimple</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1ae0cb274c7152fd057b38c1b79f1af656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.TextureExporter.TextureExporter</definition>
+        <argsstring>(ITextureSerializer textureSerializer)</argsstring>
+        <name>TextureExporter</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a9959968e7e0a46ba8fdaf93047c690d1" compoundref="_texture_exporter_8cs" startline="13">VRMShaders.TextureExporter._textureSerializer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1a1f75bfc55f64749306981fd6d9138ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRMShaders.TextureExporter.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1af9c06fee6f259fc256148c72d454aae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;(Texture2D, <ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref>)&gt;</type>
+        <definition>List&lt;(Texture2D, ColorSpace)&gt; VRMShaders.TextureExporter.Export</definition>
+        <argsstring>()</argsstring>
+        <name>Export</name>
+        <briefdescription>
+<para>実際にテクスチャを変換する </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="28" bodyend="38"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a891ec3d32eb544d49b60624787b45f64" compoundref="_texture_exporter_8cs" startline="14">VRMShaders.TextureExporter._exportingList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1a4e29bf4c79e85a8588184f769b145222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRMShaders.TextureExporter.RegisterExportingAsSRgb</definition>
+        <argsstring>(Texture src, bool needsAlpha)</argsstring>
+        <name>RegisterExportingAsSRgb</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_exporter_1ab1ef1f07f5ee06bc78f2d4c742c9f258">RegisterExportingAsSRgb</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needsAlpha</declname>
+        </param>
+        <briefdescription>
+<para>指定の Texture を、 sRGB 色空間の値を持つ Texture に出力するように指示する。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="40" bodyend="43"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" compoundref="_texture_exporter_8cs" startline="50" endline="86">VRMShaders.TextureExporter.RegisterExportingSimple</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1aedfc425ae6506f96fec14576f62b23d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRMShaders.TextureExporter.RegisterExportingAsLinear</definition>
+        <argsstring>(Texture src, bool needsAlpha)</argsstring>
+        <name>RegisterExportingAsLinear</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_exporter_1a18f2d5200b453f0db7d1e96bc3492201">RegisterExportingAsLinear</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needsAlpha</declname>
+        </param>
+        <briefdescription>
+<para>指定の Texture を、 Linear の値を持つ Texture に出力するように指示する。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="45" bodyend="48"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" compoundref="_texture_exporter_8cs" startline="50" endline="86">VRMShaders.TextureExporter.RegisterExportingSimple</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1a05f05202bae96291ee6ced799ab63930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRMShaders.TextureExporter.RegisterExportingAsCombinedGltfPbrParameterTextureFromUnityStandardTextures</definition>
+        <argsstring>(Texture metallicSmoothTexture, float smoothness, Texture occlusionTexture)</argsstring>
+        <name>RegisterExportingAsCombinedGltfPbrParameterTextureFromUnityStandardTextures</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_exporter_1a1756cab06188294d087e741f450586cf">RegisterExportingAsCombinedGltfPbrParameterTextureFromUnityStandardTextures</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>metallicSmoothTexture</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>smoothness</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>occlusionTexture</declname>
+        </param>
+        <briefdescription>
+<para>Unity Standard Shader の Metallic, Roughness, Occlusion 情報を、 glTF 仕様に準拠した 1 枚の合成テクスチャとして出力するように指示する。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="88" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="88" bodyend="115"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a9959968e7e0a46ba8fdaf93047c690d1" compoundref="_texture_exporter_8cs" startline="13">VRMShaders.TextureExporter._textureSerializer</references>
+        <references refid="interface_v_r_m_shaders_1_1_i_texture_serializer_1ab1961c7598f42a3a596bc67830250387">VRMShaders.ITextureSerializer.ModifyTextureAssetBeforeExporting</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1abdee0690e9f765f0a555661d752faec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRMShaders.TextureExporter.RegisterExportingAsNormal</definition>
+        <argsstring>(Texture src)</argsstring>
+        <name>RegisterExportingAsNormal</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_texture_exporter_1a23a1323c89eae8486aa8975b614883b9">RegisterExportingAsNormal</reimplements>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>指定の Texture を、glTF 仕様に準拠した Normal Texture に出力するように指示する。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="117" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="117" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int VRMShaders.TextureExporter.RegisterExportingSimple</definition>
+        <argsstring>(Texture src, bool needsAlpha, bool isLinear)</argsstring>
+        <name>RegisterExportingSimple</name>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needsAlpha</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isLinear</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="50" bodyend="86"/>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a891ec3d32eb544d49b60624787b45f64" compoundref="_texture_exporter_8cs" startline="14">VRMShaders.TextureExporter._exportingList</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1a142b1a381734bef9a766f0caaa6d7daa" compoundref="_texture_exporter_8cs" startline="145" endline="161">VRMShaders.TextureExporter.ConvertTextureSimple</references>
+        <references refid="class_v_r_m_shaders_1_1_texture_exporter_1ad7f117e96a10779b422fb30cf753c49e" compoundref="_texture_exporter_8cs" startline="163" endline="167">VRMShaders.TextureExporter.TryGetExistsParam</references>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1aedfc425ae6506f96fec14576f62b23d5" compoundref="_texture_exporter_8cs" startline="45" endline="48">VRMShaders.TextureExporter.RegisterExportingAsLinear</referencedby>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1a4e29bf4c79e85a8588184f769b145222" compoundref="_texture_exporter_8cs" startline="40" endline="43">VRMShaders.TextureExporter.RegisterExportingAsSRgb</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1a142b1a381734bef9a766f0caaa6d7daa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D VRMShaders.TextureExporter.ConvertTextureSimple</definition>
+        <argsstring>(Texture src, bool needsAlpha, ColorSpace exportColorSpace)</argsstring>
+        <name>ConvertTextureSimple</name>
+        <param>
+          <type>Texture</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needsAlpha</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1a368230bb3e1dbcccc76ac2683faf2b2f" kindref="member">ColorSpace</ref></type>
+          <declname>exportColorSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="145" bodyend="161"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" compoundref="_texture_exporter_8cs" startline="50" endline="86">VRMShaders.TextureExporter.RegisterExportingSimple</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_texture_exporter_1ad7f117e96a10779b422fb30cf753c49e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VRMShaders.TextureExporter.TryGetExistsParam</definition>
+        <argsstring>(TextureExportParam param, out int existsIdx)</argsstring>
+        <name>TryGetExistsParam</name>
+        <param>
+          <type><ref refid="class_v_r_m_shaders_1_1_texture_export_param" kindref="compound">TextureExportParam</ref></type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>existsIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="163" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="163" bodyend="167"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" compoundref="_texture_exporter_8cs" startline="50" endline="86">VRMShaders.TextureExporter.RegisterExportingSimple</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>glTF にエクスポートする変換方式を蓄えて index を確定させる。 Exporter の最後で <ref refid="class_v_r_m_shaders_1_1_texture_exporter_1af9c06fee6f259fc256148c72d454aae7" kindref="member">Export()</ref> でまとめて変換する。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2335">
+        <label>VRMShaders.TextureExporter</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_exporter"/>
+        <childnode refid="2336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2336">
+        <label>IDisposable</label>
+      </node>
+      <node id="2337">
+        <label>ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2341">
+        <label>VRMShaders.ITextureSerializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_serializer"/>
+      </node>
+      <node id="2338">
+        <label>VRMShaders.TextureExporter</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_exporter"/>
+        <childnode refid="2339" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2340" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2341" relation="usage">
+          <edgelabel>_textureSerializer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2339">
+        <label>IDisposable</label>
+      </node>
+      <node id="2340">
+        <label>ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExporter.cs" bodystart="11" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a891ec3d32eb544d49b60624787b45f64" prot="private" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>_exportingList</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a9959968e7e0a46ba8fdaf93047c690d1" prot="private" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>_textureSerializer</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a142b1a381734bef9a766f0caaa6d7daa" prot="private" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>ConvertTextureSimple</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a1f75bfc55f64749306981fd6d9138ca3" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1af9c06fee6f259fc256148c72d454aae7" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>Export</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a05f05202bae96291ee6ced799ab63930" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>RegisterExportingAsCombinedGltfPbrParameterTextureFromUnityStandardTextures</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1aedfc425ae6506f96fec14576f62b23d5" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>RegisterExportingAsLinear</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1abdee0690e9f765f0a555661d752faec3" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>RegisterExportingAsNormal</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a4e29bf4c79e85a8588184f769b145222" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>RegisterExportingAsSRgb</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1a906b60c411c5606c54e40c33e72b10cc" prot="private" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>RegisterExportingSimple</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1ae0cb274c7152fd057b38c1b79f1af656" prot="public" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>TextureExporter</name></member>
+      <member refid="class_v_r_m_shaders_1_1_texture_exporter_1ad7f117e96a10779b422fb30cf753c49e" prot="private" virt="non-virtual"><scope>VRMShaders::TextureExporter</scope><name>TryGetExistsParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_human_builder_test" kind="class" prot="public">
+    <compoundname>UniHumanoid::HumanBuilderTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_uni_humanoid_1_1_human_builder_test_1_1_skeleton_builder" prot="private">UniHumanoid::HumanBuilderTest::SkeletonBuilder</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_human_builder_test_1a6da3c84c9858009bdaccb70fb260b822" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UniHumanoid.HumanBuilderTest.m_material</definition>
+        <argsstring></argsstring>
+        <name>m_material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_human_builder_test_1a436bee73adaefaca7ebf77ec13dc9995" compoundref="_human_builder_test_8cs" startline="104" endline="147">UniHumanoid.HumanBuilderTest.BuildSkeleton</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_builder_test_1a2ae5b99e323d896fd248a11a176d30a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanBuilderTest.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" line="99" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" bodystart="99" bodyend="102"/>
+        <references refid="class_uni_humanoid_1_1_human_builder_test_1a436bee73adaefaca7ebf77ec13dc9995" compoundref="_human_builder_test_8cs" startline="104" endline="147">UniHumanoid.HumanBuilderTest.BuildSkeleton</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_human_builder_test_1a436bee73adaefaca7ebf77ec13dc9995" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanBuilderTest.BuildSkeleton</definition>
+        <argsstring>(Transform root)</argsstring>
+        <name>BuildSkeleton</name>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" bodystart="104" bodyend="147"/>
+        <references refid="class_uni_humanoid_1_1_human_builder_test_1a6da3c84c9858009bdaccb70fb260b822" compoundref="_human_builder_test_8cs" startline="13">UniHumanoid.HumanBuilderTest.m_material</references>
+        <referencedby refid="class_uni_humanoid_1_1_human_builder_test_1a2ae5b99e323d896fd248a11a176d30a4" compoundref="_human_builder_test_8cs" startline="99" endline="102">UniHumanoid.HumanBuilderTest.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1200">
+        <label>UniHumanoid.HumanBuilderTest</label>
+        <link refid="class_uni_humanoid_1_1_human_builder_test"/>
+        <childnode refid="1201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1202">
+        <label>UniHumanoid.HumanBuilderTest</label>
+        <link refid="class_uni_humanoid_1_1_human_builder_test"/>
+        <childnode refid="1203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1203">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Samples/UniHumanoid/HumanBuilderTest.cs" bodystart="10" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_human_builder_test_1a436bee73adaefaca7ebf77ec13dc9995" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanBuilderTest</scope><name>BuildSkeleton</name></member>
+      <member refid="class_uni_humanoid_1_1_human_builder_test_1a6da3c84c9858009bdaccb70fb260b822" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanBuilderTest</scope><name>m_material</name></member>
+      <member refid="class_uni_humanoid_1_1_human_builder_test_1a2ae5b99e323d896fd248a11a176d30a4" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanBuilderTest</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

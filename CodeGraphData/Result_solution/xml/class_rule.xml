@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rule" kind="class" prot="public">
+    <compoundname>Rule</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rule_1aa5024a483820e9fc12dada83793af17f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Rule.RulePanel</definition>
+        <argsstring></argsstring>
+        <name>RulePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rule_1a8d431f5e7a0f00f54e3d1ade2b00f482" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Rule.getIbikiSE</definition>
+        <argsstring></argsstring>
+        <name>getIbikiSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_rule_1a9eefd910d801a1cb3bc210743a889994" compoundref="_rule_8cs" startline="22" endline="38">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rule_1a6e5f921b830f829c7a4aec8abe17ad4e" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Rule.getEnemySE</definition>
+        <argsstring></argsstring>
+        <name>getEnemySE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_rule_1a9eefd910d801a1cb3bc210743a889994" compoundref="_rule_8cs" startline="22" endline="38">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_rule_1ab74e26990da696f7aa3094cacad4e8f6" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Rule.Ruleflag</definition>
+        <argsstring></argsstring>
+        <name>Ruleflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_rule_1a185209cd1ca2a338f88d46ebcc3ba898" compoundref="_rule_8cs" startline="40" endline="43">GetRuleFlag</referencedby>
+        <referencedby refid="class_rule_1a2b890f8f44ddea4236552a631a48f017" compoundref="_rule_8cs" startline="15" endline="20">Start</referencedby>
+        <referencedby refid="class_rule_1a9eefd910d801a1cb3bc210743a889994" compoundref="_rule_8cs" startline="22" endline="38">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rule_1a2b890f8f44ddea4236552a631a48f017" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rule.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="15" bodyend="20"/>
+        <references refid="class_rule_1ab74e26990da696f7aa3094cacad4e8f6" compoundref="_rule_8cs" startline="11">Ruleflag</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rule_1a9eefd910d801a1cb3bc210743a889994" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rule.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="22" bodyend="38"/>
+        <references refid="class_rule_1a6e5f921b830f829c7a4aec8abe17ad4e" compoundref="_rule_8cs" startline="13">getEnemySE</references>
+        <references refid="class_rule_1a8d431f5e7a0f00f54e3d1ade2b00f482" compoundref="_rule_8cs" startline="12">getIbikiSE</references>
+        <references refid="class_rule_1ab74e26990da696f7aa3094cacad4e8f6" compoundref="_rule_8cs" startline="11">Ruleflag</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_rule_1a185209cd1ca2a338f88d46ebcc3ba898" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Rule.GetRuleFlag</definition>
+        <argsstring>()</argsstring>
+        <name>GetRuleFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="40" bodyend="43"/>
+        <references refid="class_rule_1ab74e26990da696f7aa3094cacad4e8f6" compoundref="_rule_8cs" startline="11">Ruleflag</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2129">
+        <label>Rule</label>
+        <link refid="class_rule"/>
+        <childnode refid="2130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2130">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2131">
+        <label>Rule</label>
+        <link refid="class_rule"/>
+        <childnode refid="2132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2132">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/Rule/Rule.cs" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_rule_1a6e5f921b830f829c7a4aec8abe17ad4e" prot="private" virt="non-virtual"><scope>Rule</scope><name>getEnemySE</name></member>
+      <member refid="class_rule_1a8d431f5e7a0f00f54e3d1ade2b00f482" prot="private" virt="non-virtual"><scope>Rule</scope><name>getIbikiSE</name></member>
+      <member refid="class_rule_1a185209cd1ca2a338f88d46ebcc3ba898" prot="public" virt="non-virtual"><scope>Rule</scope><name>GetRuleFlag</name></member>
+      <member refid="class_rule_1ab74e26990da696f7aa3094cacad4e8f6" prot="private" virt="non-virtual"><scope>Rule</scope><name>Ruleflag</name></member>
+      <member refid="class_rule_1aa5024a483820e9fc12dada83793af17f" prot="private" virt="non-virtual"><scope>Rule</scope><name>RulePanel</name></member>
+      <member refid="class_rule_1a2b890f8f44ddea4236552a631a48f017" prot="private" virt="non-virtual"><scope>Rule</scope><name>Start</name></member>
+      <member refid="class_rule_1a9eefd910d801a1cb3bc210743a889994" prot="private" virt="non-virtual"><scope>Rule</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

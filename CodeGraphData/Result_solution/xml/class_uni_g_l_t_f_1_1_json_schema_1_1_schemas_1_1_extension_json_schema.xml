@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base" prot="public" virt="non-virtual">UniGLTF.JsonSchema.Schemas.JsonSchemaBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1afec648e2a82ef0b429d4fc69a9cd47d2" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <initializer>=&gt; &quot;object&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a9330e40e042e0ef2683cf7387a1fe9a4" prot="public" static="no" mutable="no">
+        <type>override bool</type>
+        <definition>override bool UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.IsInline</definition>
+        <argsstring></argsstring>
+        <name>IsInline</name>
+        <initializer>=&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a4fde69bb694c5c90fc3255745205fa96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.ExtensionJsonSchema</definition>
+        <argsstring>(in JsonSchemaSource source)</argsstring>
+        <name>ExtensionJsonSchema</name>
+        <param>
+          <type>in <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a3be40ffae91b0591a1a75857de9370b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a9275feca30f8873f03f7ebeafb5a67c9">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Deserializer の呼び出し </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1ab11809cda693f6dbb68a090f3f6fc130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.CreateSerializationCondition</definition>
+        <argsstring>(string argName)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae980be2c581cea11f4ba5b112676cbfe">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Serialize 時に出力するか否か </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>null や -1 などの無効な値のキーをスキップするために使う</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a1c941328c6c25a284fb437578faa5e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema.GenerateSerializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateSerializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a724caebbf398fb10ff380e6ae5621ec6">GenerateSerializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Serializer の呼び出し </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> の extensions, extras を処理するための専用クラス </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="676">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="675">
+        <label>UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema"/>
+        <childnode refid="676" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="678">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="677">
+        <label>UniGLTF.JsonSchema.Schemas.ExtensionJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema"/>
+        <childnode refid="678" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/ExtensionJsonSchema.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae371895d6f5da5f37df231a5fd45e989" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>ClassName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1ab11809cda693f6dbb68a090f3f6fc130" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae6a36aea0812c5ce25d935c15275ca8a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>Description</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a4fde69bb694c5c90fc3255745205fa96" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>ExtensionJsonSchema</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ab947427d34881500663b2a6ab81b6932" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a3be40ffae91b0591a1a75857de9370b6" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a99f520c5c3bba44b81c277b40ac934f9" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a1c941328c6c25a284fb437578faa5e8c" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a87c381b488507578c2c14cbbda2e3e84" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>HardCode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1af35a09164875e7f2edd52c6f369772dd" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>IsArrayItem</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1a9330e40e042e0ef2683cf7387a1fe9a4" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a151f409bc8cd2bd8d6c0f653e75a8b26" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>JsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a89f5788f2c67f073663c50cb3dd9151b" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>JsonSchemaBase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a391c76e92546facc55f91e8f5ff4be8e" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>JsonSchemaType</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>Title</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a43366ed2910c2f0bb06575d2f642f306" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_extension_json_schema_1afec648e2a82ef0b429d4fc69a9cd47d2" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::ExtensionJsonSchema</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_humanoid_editor" kind="class" prot="public">
+    <compoundname>UniHumanoid::HumanoidEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <innerclass refid="struct_uni_humanoid_1_1_humanoid_editor_1_1_horizontal" prot="private">UniHumanoid::HumanoidEditor::Horizontal</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1af856c5ee5557c5521ee2e71faee2f56c" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int UniHumanoid.HumanoidEditor.LABEL_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>LABEL_WIDTH</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5c835e24d19fcfeb65da78ca5d89b499" compoundref="_humanoid_editor_8cs" startline="176" endline="194">UniHumanoid.HumanoidEditor.HorizontalFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a43fb779868d0ecf87cb329da8dc8de78" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_humanoid" kindref="compound">Humanoid</ref></type>
+        <definition>Humanoid UniHumanoid.HumanoidEditor.m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aedda48e9e32e4f7663e4fd393ba1b227" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Hips</definition>
+        <argsstring></argsstring>
+        <name>m_Hips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="18" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a3b817391d37453e3d618de3977cd708e" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>m_LeftUpperLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a654643b81073cd8b7f4ba86aee564ef0" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightUpperLeg</definition>
+        <argsstring></argsstring>
+        <name>m_RightUpperLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a79120d9a49bb49d92f3d51bcc4c2c818" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLowerLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ab535e8956461aae135c7c643a41c0865" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightLowerLeg</definition>
+        <argsstring></argsstring>
+        <name>m_RightLowerLeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a7dcefc3f3d8b0d4687058e5e18b790c6" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftFoot</definition>
+        <argsstring></argsstring>
+        <name>m_LeftFoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="24" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a6365b32d560ff7fed1c86ad53e3ebc2a" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightFoot</definition>
+        <argsstring></argsstring>
+        <name>m_RightFoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a53aa73dbc3b7113f5db60ba9f40ad322" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftToes</definition>
+        <argsstring></argsstring>
+        <name>m_LeftToes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a7495ff7755c74ee1e8c42f4a03c72910" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightToes</definition>
+        <argsstring></argsstring>
+        <name>m_RightToes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a1c2648532448c642ebd6f0b76e67b70d" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Spine</definition>
+        <argsstring></argsstring>
+        <name>m_Spine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ae45882fafbe0688dbc16c2325a73d497" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Chest</definition>
+        <argsstring></argsstring>
+        <name>m_Chest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a24fd21f8fed34f2c6ac2bafbc804322b" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_UpperChest</definition>
+        <argsstring></argsstring>
+        <name>m_UpperChest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="34" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a9e9ee843dac23b1bec597194a1cae9e9" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Neck</definition>
+        <argsstring></argsstring>
+        <name>m_Neck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a86a2faf0b92e95d231596298bed937ad" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Head</definition>
+        <argsstring></argsstring>
+        <name>m_Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a34e3c01b31b4f8add6dc886b08641c83" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftEye</definition>
+        <argsstring></argsstring>
+        <name>m_LeftEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a4c78449f05e40bfbce241c408b173957" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightEye</definition>
+        <argsstring></argsstring>
+        <name>m_RightEye</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aa4291a045894174fbb63823520cb19ad" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_Jaw</definition>
+        <argsstring></argsstring>
+        <name>m_Jaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a85b2d9b155b5bb9b87cb6f274b3157f0" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftShoulder</definition>
+        <argsstring></argsstring>
+        <name>m_LeftShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a07c451c99b7f00f11946a33e38e83783" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightShoulder</definition>
+        <argsstring></argsstring>
+        <name>m_RightShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ae9acd4edcc0c536d2d3e4a4a1989c7fe" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftUpperArm</definition>
+        <argsstring></argsstring>
+        <name>m_LeftUpperArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a87f6ea62c339d9bfdde719244b8e01f6" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightUpperArm</definition>
+        <argsstring></argsstring>
+        <name>m_RightUpperArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="47" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a47ee3d149148c7f521c8f24aadcfcc3c" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftLowerArm</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLowerArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a5e0e96eb8e37c6783149abd65b73a0a6" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightLowerArm</definition>
+        <argsstring></argsstring>
+        <name>m_RightLowerArm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ad77a1a5b23bae39cc9d71f0b45838918" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftHand</definition>
+        <argsstring></argsstring>
+        <name>m_LeftHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a66426fbfb1bb0d51b733289f686e7c9c" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightHand</definition>
+        <argsstring></argsstring>
+        <name>m_RightHand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aef12a682d2cd2f8672a615fbcdae0ee9" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a2e924c2ecb2308741d708d88abf0c7bc" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a32c098a3162cdd5462ad82cecc7c8979" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftThumbDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a10bbe2dc1c7ecb442f8b939ddb719ed2" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="59" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a815cd51b9690f96cca3d0b3de7189f96" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a24985473d0b3f74bfe25a367fe8ff1ed" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftIndexDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="61" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1af243d30c9ee48388fa6b6efe335c2b60" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a54fe9d03bcb791d60608126ce4a839f7" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="63" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ad2ffac04ee8525d5d8b34e46eb516a8b" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftMiddleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="64" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aa6695586d16cba4dfffc639a8f4cfdfe" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftRingProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a04ab86b9c4eec951f058c8e255d7d60d" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a9c494141c1ee88eac0324d80003fc4f7" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftRingDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftRingDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ac5a975ff4f644dc294157b5c255c4001" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="68" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aeb8fd79b6a50997ba6a4a603050a821d" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1acedeecc42e4d429fcff06a615cdc4f5f" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_LeftLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_LeftLittleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a01d5ba6fb1e3604401115df20c102976" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightThumbProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a1feb154432f97d925de018e058db8d1c" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightThumbIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="72" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a242d3d1dd7acb15895d4c29880c70129" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightThumbDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightThumbDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ac24b37134c3620891d26699ff95bbebe" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightIndexProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a92cb6ae3e4c903cb049cad05886500d6" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightIndexIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="75" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a54f525d77500b9628cd360823d8a1041" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightIndexDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightIndexDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a9fdfe12011b06e898eec31f725699fee" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightMiddleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="77" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ada271f782404816e6507d7f9d61f2b87" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightMiddleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a7001d3cb323f4042802aa9f02b350c32" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightMiddleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightMiddleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a74b1cb422fd59ed6dd0321370bb6ba28" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightRingProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1ade862dcf1882e8147a918caafd1106e3" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightRingIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="81" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a7ae0366e26b24c1498deb1d727594fc6" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightRingDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightRingDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a58011d8fb4030d083e5849ff8cc37cfe" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightLittleProximal</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleProximal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="83" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a2bae1fb7bb58935ee49483e87f9482bb" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightLittleIntermediate</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleIntermediate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1aa0c5093d266b7f176c4150fc81486945" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniHumanoid.HumanoidEditor.m_RightLittleDistal</definition>
+        <argsstring></argsstring>
+        <name>m_RightLittleDistal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="85" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" compoundref="_humanoid_editor_8cs" startline="89" endline="161">UniHumanoid.HumanoidEditor.OnEnable</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a5e4d4b04305f2841b6568672bb4a153d" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.HumanoidEditor.s_spineFold</definition>
+        <argsstring></argsstring>
+        <name>s_spineFold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="196" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="196" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a9ffebf6c5eeb885ac65623548bc54a1e" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.HumanoidEditor.s_legFold</definition>
+        <argsstring></argsstring>
+        <name>s_legFold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="197" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="197" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a95dda795559f297c189094a13eedeaa1" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.HumanoidEditor.s_armFold</definition>
+        <argsstring></argsstring>
+        <name>s_armFold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="198" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="198" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_editor_1a7a50fbfcdd1e430f179f81ff00989aaa" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.HumanoidEditor.s_fingerFold</definition>
+        <argsstring></argsstring>
+        <name>s_fingerFold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="199" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="199" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanoidEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="89" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="89" bodyend="161"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ae45882fafbe0688dbc16c2325a73d497" compoundref="_humanoid_editor_8cs" startline="33">UniHumanoid.HumanoidEditor.m_Chest</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a86a2faf0b92e95d231596298bed937ad" compoundref="_humanoid_editor_8cs" startline="36">UniHumanoid.HumanoidEditor.m_Head</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aedda48e9e32e4f7663e4fd393ba1b227" compoundref="_humanoid_editor_8cs" startline="18">UniHumanoid.HumanoidEditor.m_Hips</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa4291a045894174fbb63823520cb19ad" compoundref="_humanoid_editor_8cs" startline="39">UniHumanoid.HumanoidEditor.m_Jaw</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a34e3c01b31b4f8add6dc886b08641c83" compoundref="_humanoid_editor_8cs" startline="37">UniHumanoid.HumanoidEditor.m_LeftEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7dcefc3f3d8b0d4687058e5e18b790c6" compoundref="_humanoid_editor_8cs" startline="24">UniHumanoid.HumanoidEditor.m_LeftFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ad77a1a5b23bae39cc9d71f0b45838918" compoundref="_humanoid_editor_8cs" startline="50">UniHumanoid.HumanoidEditor.m_LeftHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a24985473d0b3f74bfe25a367fe8ff1ed" compoundref="_humanoid_editor_8cs" startline="61">UniHumanoid.HumanoidEditor.m_LeftIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a815cd51b9690f96cca3d0b3de7189f96" compoundref="_humanoid_editor_8cs" startline="60">UniHumanoid.HumanoidEditor.m_LeftIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a10bbe2dc1c7ecb442f8b939ddb719ed2" compoundref="_humanoid_editor_8cs" startline="59">UniHumanoid.HumanoidEditor.m_LeftIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1acedeecc42e4d429fcff06a615cdc4f5f" compoundref="_humanoid_editor_8cs" startline="70">UniHumanoid.HumanoidEditor.m_LeftLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aeb8fd79b6a50997ba6a4a603050a821d" compoundref="_humanoid_editor_8cs" startline="69">UniHumanoid.HumanoidEditor.m_LeftLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ac5a975ff4f644dc294157b5c255c4001" compoundref="_humanoid_editor_8cs" startline="68">UniHumanoid.HumanoidEditor.m_LeftLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a47ee3d149148c7f521c8f24aadcfcc3c" compoundref="_humanoid_editor_8cs" startline="48">UniHumanoid.HumanoidEditor.m_LeftLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a79120d9a49bb49d92f3d51bcc4c2c818" compoundref="_humanoid_editor_8cs" startline="22">UniHumanoid.HumanoidEditor.m_LeftLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ad2ffac04ee8525d5d8b34e46eb516a8b" compoundref="_humanoid_editor_8cs" startline="64">UniHumanoid.HumanoidEditor.m_LeftMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a54fe9d03bcb791d60608126ce4a839f7" compoundref="_humanoid_editor_8cs" startline="63">UniHumanoid.HumanoidEditor.m_LeftMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1af243d30c9ee48388fa6b6efe335c2b60" compoundref="_humanoid_editor_8cs" startline="62">UniHumanoid.HumanoidEditor.m_LeftMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9c494141c1ee88eac0324d80003fc4f7" compoundref="_humanoid_editor_8cs" startline="67">UniHumanoid.HumanoidEditor.m_LeftRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a04ab86b9c4eec951f058c8e255d7d60d" compoundref="_humanoid_editor_8cs" startline="66">UniHumanoid.HumanoidEditor.m_LeftRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa6695586d16cba4dfffc639a8f4cfdfe" compoundref="_humanoid_editor_8cs" startline="65">UniHumanoid.HumanoidEditor.m_LeftRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a85b2d9b155b5bb9b87cb6f274b3157f0" compoundref="_humanoid_editor_8cs" startline="44">UniHumanoid.HumanoidEditor.m_LeftShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a32c098a3162cdd5462ad82cecc7c8979" compoundref="_humanoid_editor_8cs" startline="58">UniHumanoid.HumanoidEditor.m_LeftThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a2e924c2ecb2308741d708d88abf0c7bc" compoundref="_humanoid_editor_8cs" startline="57">UniHumanoid.HumanoidEditor.m_LeftThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aef12a682d2cd2f8672a615fbcdae0ee9" compoundref="_humanoid_editor_8cs" startline="56">UniHumanoid.HumanoidEditor.m_LeftThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a53aa73dbc3b7113f5db60ba9f40ad322" compoundref="_humanoid_editor_8cs" startline="26">UniHumanoid.HumanoidEditor.m_LeftToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ae9acd4edcc0c536d2d3e4a4a1989c7fe" compoundref="_humanoid_editor_8cs" startline="46">UniHumanoid.HumanoidEditor.m_LeftUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a3b817391d37453e3d618de3977cd708e" compoundref="_humanoid_editor_8cs" startline="20">UniHumanoid.HumanoidEditor.m_LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9e9ee843dac23b1bec597194a1cae9e9" compoundref="_humanoid_editor_8cs" startline="35">UniHumanoid.HumanoidEditor.m_Neck</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a4c78449f05e40bfbce241c408b173957" compoundref="_humanoid_editor_8cs" startline="38">UniHumanoid.HumanoidEditor.m_RightEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a6365b32d560ff7fed1c86ad53e3ebc2a" compoundref="_humanoid_editor_8cs" startline="25">UniHumanoid.HumanoidEditor.m_RightFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a66426fbfb1bb0d51b733289f686e7c9c" compoundref="_humanoid_editor_8cs" startline="51">UniHumanoid.HumanoidEditor.m_RightHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a54f525d77500b9628cd360823d8a1041" compoundref="_humanoid_editor_8cs" startline="76">UniHumanoid.HumanoidEditor.m_RightIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a92cb6ae3e4c903cb049cad05886500d6" compoundref="_humanoid_editor_8cs" startline="75">UniHumanoid.HumanoidEditor.m_RightIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ac24b37134c3620891d26699ff95bbebe" compoundref="_humanoid_editor_8cs" startline="74">UniHumanoid.HumanoidEditor.m_RightIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa0c5093d266b7f176c4150fc81486945" compoundref="_humanoid_editor_8cs" startline="85">UniHumanoid.HumanoidEditor.m_RightLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a2bae1fb7bb58935ee49483e87f9482bb" compoundref="_humanoid_editor_8cs" startline="84">UniHumanoid.HumanoidEditor.m_RightLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a58011d8fb4030d083e5849ff8cc37cfe" compoundref="_humanoid_editor_8cs" startline="83">UniHumanoid.HumanoidEditor.m_RightLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a5e0e96eb8e37c6783149abd65b73a0a6" compoundref="_humanoid_editor_8cs" startline="49">UniHumanoid.HumanoidEditor.m_RightLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ab535e8956461aae135c7c643a41c0865" compoundref="_humanoid_editor_8cs" startline="23">UniHumanoid.HumanoidEditor.m_RightLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7001d3cb323f4042802aa9f02b350c32" compoundref="_humanoid_editor_8cs" startline="79">UniHumanoid.HumanoidEditor.m_RightMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ada271f782404816e6507d7f9d61f2b87" compoundref="_humanoid_editor_8cs" startline="78">UniHumanoid.HumanoidEditor.m_RightMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9fdfe12011b06e898eec31f725699fee" compoundref="_humanoid_editor_8cs" startline="77">UniHumanoid.HumanoidEditor.m_RightMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7ae0366e26b24c1498deb1d727594fc6" compoundref="_humanoid_editor_8cs" startline="82">UniHumanoid.HumanoidEditor.m_RightRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ade862dcf1882e8147a918caafd1106e3" compoundref="_humanoid_editor_8cs" startline="81">UniHumanoid.HumanoidEditor.m_RightRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a74b1cb422fd59ed6dd0321370bb6ba28" compoundref="_humanoid_editor_8cs" startline="80">UniHumanoid.HumanoidEditor.m_RightRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a07c451c99b7f00f11946a33e38e83783" compoundref="_humanoid_editor_8cs" startline="45">UniHumanoid.HumanoidEditor.m_RightShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a242d3d1dd7acb15895d4c29880c70129" compoundref="_humanoid_editor_8cs" startline="73">UniHumanoid.HumanoidEditor.m_RightThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a1feb154432f97d925de018e058db8d1c" compoundref="_humanoid_editor_8cs" startline="72">UniHumanoid.HumanoidEditor.m_RightThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a01d5ba6fb1e3604401115df20c102976" compoundref="_humanoid_editor_8cs" startline="71">UniHumanoid.HumanoidEditor.m_RightThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7495ff7755c74ee1e8c42f4a03c72910" compoundref="_humanoid_editor_8cs" startline="27">UniHumanoid.HumanoidEditor.m_RightToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a87f6ea62c339d9bfdde719244b8e01f6" compoundref="_humanoid_editor_8cs" startline="47">UniHumanoid.HumanoidEditor.m_RightUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a654643b81073cd8b7f4ba86aee564ef0" compoundref="_humanoid_editor_8cs" startline="21">UniHumanoid.HumanoidEditor.m_RightUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a1c2648532448c642ebd6f0b76e67b70d" compoundref="_humanoid_editor_8cs" startline="32">UniHumanoid.HumanoidEditor.m_Spine</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a43fb779868d0ecf87cb329da8dc8de78" compoundref="_humanoid_editor_8cs" startline="16">UniHumanoid.HumanoidEditor.m_target</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a24fd21f8fed34f2c6ac2bafbc804322b" compoundref="_humanoid_editor_8cs" startline="34">UniHumanoid.HumanoidEditor.m_UpperChest</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a55dff78438e33719db8a87d3e370ed03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.HumanoidEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="319" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="319" bodyend="339"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a5c835e24d19fcfeb65da78ca5d89b499" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniHumanoid.HumanoidEditor.HorizontalFields</definition>
+        <argsstring>(string label, params SerializedProperty[] props)</argsstring>
+        <name>HorizontalFields</name>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>params SerializedProperty[]</type>
+          <declname>props</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="176" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="176" bodyend="194"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1af856c5ee5557c5521ee2e71faee2f56c" compoundref="_humanoid_editor_8cs" startline="14">UniHumanoid.HumanoidEditor.LABEL_WIDTH</references>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a78cfb037a8e53fa4e9629cf0cba7c94a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniHumanoid.HumanoidEditor.GetDialogDir</definition>
+        <argsstring>(UnityEngine.Object obj)</argsstring>
+        <name>GetDialogDir</name>
+        <param>
+          <type><ref refid="_skinned_mesh_utility_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">UnityEngine.Object</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="200" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="200" bodyend="208"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a13a4955daee906ca2ec99ba4447d7ef7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniHumanoid.HumanoidEditor.TryGetAssetPath</definition>
+        <argsstring>(string fullpath, out string AssetPath)</argsstring>
+        <name>TryGetAssetPath</name>
+        <param>
+          <type>string</type>
+          <declname>fullpath</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>AssetPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="210" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="210" bodyend="222"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" compoundref="_humanoid_editor_8cs" startline="224" endline="317">UniHumanoid.HumanoidEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UniHumanoid.HumanoidEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="224" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="224" bodyend="317"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a78cfb037a8e53fa4e9629cf0cba7c94a" compoundref="_humanoid_editor_8cs" startline="200" endline="208">UniHumanoid.HumanoidEditor.GetDialogDir</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a5c835e24d19fcfeb65da78ca5d89b499" compoundref="_humanoid_editor_8cs" startline="176" endline="194">UniHumanoid.HumanoidEditor.HorizontalFields</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ae45882fafbe0688dbc16c2325a73d497" compoundref="_humanoid_editor_8cs" startline="33">UniHumanoid.HumanoidEditor.m_Chest</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a86a2faf0b92e95d231596298bed937ad" compoundref="_humanoid_editor_8cs" startline="36">UniHumanoid.HumanoidEditor.m_Head</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aedda48e9e32e4f7663e4fd393ba1b227" compoundref="_humanoid_editor_8cs" startline="18">UniHumanoid.HumanoidEditor.m_Hips</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa4291a045894174fbb63823520cb19ad" compoundref="_humanoid_editor_8cs" startline="39">UniHumanoid.HumanoidEditor.m_Jaw</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a34e3c01b31b4f8add6dc886b08641c83" compoundref="_humanoid_editor_8cs" startline="37">UniHumanoid.HumanoidEditor.m_LeftEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7dcefc3f3d8b0d4687058e5e18b790c6" compoundref="_humanoid_editor_8cs" startline="24">UniHumanoid.HumanoidEditor.m_LeftFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ad77a1a5b23bae39cc9d71f0b45838918" compoundref="_humanoid_editor_8cs" startline="50">UniHumanoid.HumanoidEditor.m_LeftHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a24985473d0b3f74bfe25a367fe8ff1ed" compoundref="_humanoid_editor_8cs" startline="61">UniHumanoid.HumanoidEditor.m_LeftIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a815cd51b9690f96cca3d0b3de7189f96" compoundref="_humanoid_editor_8cs" startline="60">UniHumanoid.HumanoidEditor.m_LeftIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a10bbe2dc1c7ecb442f8b939ddb719ed2" compoundref="_humanoid_editor_8cs" startline="59">UniHumanoid.HumanoidEditor.m_LeftIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1acedeecc42e4d429fcff06a615cdc4f5f" compoundref="_humanoid_editor_8cs" startline="70">UniHumanoid.HumanoidEditor.m_LeftLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aeb8fd79b6a50997ba6a4a603050a821d" compoundref="_humanoid_editor_8cs" startline="69">UniHumanoid.HumanoidEditor.m_LeftLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ac5a975ff4f644dc294157b5c255c4001" compoundref="_humanoid_editor_8cs" startline="68">UniHumanoid.HumanoidEditor.m_LeftLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a47ee3d149148c7f521c8f24aadcfcc3c" compoundref="_humanoid_editor_8cs" startline="48">UniHumanoid.HumanoidEditor.m_LeftLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a79120d9a49bb49d92f3d51bcc4c2c818" compoundref="_humanoid_editor_8cs" startline="22">UniHumanoid.HumanoidEditor.m_LeftLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ad2ffac04ee8525d5d8b34e46eb516a8b" compoundref="_humanoid_editor_8cs" startline="64">UniHumanoid.HumanoidEditor.m_LeftMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a54fe9d03bcb791d60608126ce4a839f7" compoundref="_humanoid_editor_8cs" startline="63">UniHumanoid.HumanoidEditor.m_LeftMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1af243d30c9ee48388fa6b6efe335c2b60" compoundref="_humanoid_editor_8cs" startline="62">UniHumanoid.HumanoidEditor.m_LeftMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9c494141c1ee88eac0324d80003fc4f7" compoundref="_humanoid_editor_8cs" startline="67">UniHumanoid.HumanoidEditor.m_LeftRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a04ab86b9c4eec951f058c8e255d7d60d" compoundref="_humanoid_editor_8cs" startline="66">UniHumanoid.HumanoidEditor.m_LeftRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa6695586d16cba4dfffc639a8f4cfdfe" compoundref="_humanoid_editor_8cs" startline="65">UniHumanoid.HumanoidEditor.m_LeftRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a85b2d9b155b5bb9b87cb6f274b3157f0" compoundref="_humanoid_editor_8cs" startline="44">UniHumanoid.HumanoidEditor.m_LeftShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a32c098a3162cdd5462ad82cecc7c8979" compoundref="_humanoid_editor_8cs" startline="58">UniHumanoid.HumanoidEditor.m_LeftThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a2e924c2ecb2308741d708d88abf0c7bc" compoundref="_humanoid_editor_8cs" startline="57">UniHumanoid.HumanoidEditor.m_LeftThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aef12a682d2cd2f8672a615fbcdae0ee9" compoundref="_humanoid_editor_8cs" startline="56">UniHumanoid.HumanoidEditor.m_LeftThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a53aa73dbc3b7113f5db60ba9f40ad322" compoundref="_humanoid_editor_8cs" startline="26">UniHumanoid.HumanoidEditor.m_LeftToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ae9acd4edcc0c536d2d3e4a4a1989c7fe" compoundref="_humanoid_editor_8cs" startline="46">UniHumanoid.HumanoidEditor.m_LeftUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a3b817391d37453e3d618de3977cd708e" compoundref="_humanoid_editor_8cs" startline="20">UniHumanoid.HumanoidEditor.m_LeftUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9e9ee843dac23b1bec597194a1cae9e9" compoundref="_humanoid_editor_8cs" startline="35">UniHumanoid.HumanoidEditor.m_Neck</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a4c78449f05e40bfbce241c408b173957" compoundref="_humanoid_editor_8cs" startline="38">UniHumanoid.HumanoidEditor.m_RightEye</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a6365b32d560ff7fed1c86ad53e3ebc2a" compoundref="_humanoid_editor_8cs" startline="25">UniHumanoid.HumanoidEditor.m_RightFoot</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a66426fbfb1bb0d51b733289f686e7c9c" compoundref="_humanoid_editor_8cs" startline="51">UniHumanoid.HumanoidEditor.m_RightHand</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a54f525d77500b9628cd360823d8a1041" compoundref="_humanoid_editor_8cs" startline="76">UniHumanoid.HumanoidEditor.m_RightIndexDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a92cb6ae3e4c903cb049cad05886500d6" compoundref="_humanoid_editor_8cs" startline="75">UniHumanoid.HumanoidEditor.m_RightIndexIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ac24b37134c3620891d26699ff95bbebe" compoundref="_humanoid_editor_8cs" startline="74">UniHumanoid.HumanoidEditor.m_RightIndexProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1aa0c5093d266b7f176c4150fc81486945" compoundref="_humanoid_editor_8cs" startline="85">UniHumanoid.HumanoidEditor.m_RightLittleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a2bae1fb7bb58935ee49483e87f9482bb" compoundref="_humanoid_editor_8cs" startline="84">UniHumanoid.HumanoidEditor.m_RightLittleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a58011d8fb4030d083e5849ff8cc37cfe" compoundref="_humanoid_editor_8cs" startline="83">UniHumanoid.HumanoidEditor.m_RightLittleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a5e0e96eb8e37c6783149abd65b73a0a6" compoundref="_humanoid_editor_8cs" startline="49">UniHumanoid.HumanoidEditor.m_RightLowerArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ab535e8956461aae135c7c643a41c0865" compoundref="_humanoid_editor_8cs" startline="23">UniHumanoid.HumanoidEditor.m_RightLowerLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7001d3cb323f4042802aa9f02b350c32" compoundref="_humanoid_editor_8cs" startline="79">UniHumanoid.HumanoidEditor.m_RightMiddleDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ada271f782404816e6507d7f9d61f2b87" compoundref="_humanoid_editor_8cs" startline="78">UniHumanoid.HumanoidEditor.m_RightMiddleIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9fdfe12011b06e898eec31f725699fee" compoundref="_humanoid_editor_8cs" startline="77">UniHumanoid.HumanoidEditor.m_RightMiddleProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7ae0366e26b24c1498deb1d727594fc6" compoundref="_humanoid_editor_8cs" startline="82">UniHumanoid.HumanoidEditor.m_RightRingDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1ade862dcf1882e8147a918caafd1106e3" compoundref="_humanoid_editor_8cs" startline="81">UniHumanoid.HumanoidEditor.m_RightRingIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a74b1cb422fd59ed6dd0321370bb6ba28" compoundref="_humanoid_editor_8cs" startline="80">UniHumanoid.HumanoidEditor.m_RightRingProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a07c451c99b7f00f11946a33e38e83783" compoundref="_humanoid_editor_8cs" startline="45">UniHumanoid.HumanoidEditor.m_RightShoulder</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a242d3d1dd7acb15895d4c29880c70129" compoundref="_humanoid_editor_8cs" startline="73">UniHumanoid.HumanoidEditor.m_RightThumbDistal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a1feb154432f97d925de018e058db8d1c" compoundref="_humanoid_editor_8cs" startline="72">UniHumanoid.HumanoidEditor.m_RightThumbIntermediate</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a01d5ba6fb1e3604401115df20c102976" compoundref="_humanoid_editor_8cs" startline="71">UniHumanoid.HumanoidEditor.m_RightThumbProximal</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7495ff7755c74ee1e8c42f4a03c72910" compoundref="_humanoid_editor_8cs" startline="27">UniHumanoid.HumanoidEditor.m_RightToes</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a87f6ea62c339d9bfdde719244b8e01f6" compoundref="_humanoid_editor_8cs" startline="47">UniHumanoid.HumanoidEditor.m_RightUpperArm</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a654643b81073cd8b7f4ba86aee564ef0" compoundref="_humanoid_editor_8cs" startline="21">UniHumanoid.HumanoidEditor.m_RightUpperLeg</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a1c2648532448c642ebd6f0b76e67b70d" compoundref="_humanoid_editor_8cs" startline="32">UniHumanoid.HumanoidEditor.m_Spine</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a43fb779868d0ecf87cb329da8dc8de78" compoundref="_humanoid_editor_8cs" startline="16">UniHumanoid.HumanoidEditor.m_target</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a24fd21f8fed34f2c6ac2bafbc804322b" compoundref="_humanoid_editor_8cs" startline="34">UniHumanoid.HumanoidEditor.m_UpperChest</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a95dda795559f297c189094a13eedeaa1" compoundref="_humanoid_editor_8cs" startline="198">UniHumanoid.HumanoidEditor.s_armFold</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a7a50fbfcdd1e430f179f81ff00989aaa" compoundref="_humanoid_editor_8cs" startline="199">UniHumanoid.HumanoidEditor.s_fingerFold</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a9ffebf6c5eeb885ac65623548bc54a1e" compoundref="_humanoid_editor_8cs" startline="197">UniHumanoid.HumanoidEditor.s_legFold</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a5e4d4b04305f2841b6568672bb4a153d" compoundref="_humanoid_editor_8cs" startline="196">UniHumanoid.HumanoidEditor.s_spineFold</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_editor_1a13a4955daee906ca2ec99ba4447d7ef7" compoundref="_humanoid_editor_8cs" startline="210" endline="222">UniHumanoid.HumanoidEditor.TryGetAssetPath</references>
+        <references refid="class_uni_humanoid_1_1_humanoid_1adce0ecfbec9a52f15a7f7eb310965363" compoundref="_humanoid_8cs" startline="132" endline="150">UniHumanoid.Humanoid.Validate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1209">
+        <label>Editor</label>
+      </node>
+      <node id="1208">
+        <label>UniHumanoid.HumanoidEditor</label>
+        <link refid="class_uni_humanoid_1_1_humanoid_editor"/>
+        <childnode refid="1209" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1211">
+        <label>Editor</label>
+      </node>
+      <node id="1212">
+        <label>UniHumanoid.Humanoid</label>
+        <link refid="class_uni_humanoid_1_1_humanoid"/>
+        <childnode refid="1213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>UniHumanoid.HumanoidEditor</label>
+        <link refid="class_uni_humanoid_1_1_humanoid_editor"/>
+        <childnode refid="1211" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1212" relation="usage">
+          <edgelabel>m_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniHumanoid/HumanoidEditor.cs" bodystart="12" bodyend="340"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a78cfb037a8e53fa4e9629cf0cba7c94a" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>GetDialogDir</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a5c835e24d19fcfeb65da78ca5d89b499" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>HorizontalFields</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1af856c5ee5557c5521ee2e71faee2f56c" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>LABEL_WIDTH</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ae45882fafbe0688dbc16c2325a73d497" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Chest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a86a2faf0b92e95d231596298bed937ad" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Head</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aedda48e9e32e4f7663e4fd393ba1b227" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Hips</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aa4291a045894174fbb63823520cb19ad" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Jaw</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a34e3c01b31b4f8add6dc886b08641c83" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a7dcefc3f3d8b0d4687058e5e18b790c6" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ad77a1a5b23bae39cc9d71f0b45838918" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a24985473d0b3f74bfe25a367fe8ff1ed" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a815cd51b9690f96cca3d0b3de7189f96" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a10bbe2dc1c7ecb442f8b939ddb719ed2" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1acedeecc42e4d429fcff06a615cdc4f5f" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aeb8fd79b6a50997ba6a4a603050a821d" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ac5a975ff4f644dc294157b5c255c4001" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a47ee3d149148c7f521c8f24aadcfcc3c" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a79120d9a49bb49d92f3d51bcc4c2c818" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ad2ffac04ee8525d5d8b34e46eb516a8b" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a54fe9d03bcb791d60608126ce4a839f7" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1af243d30c9ee48388fa6b6efe335c2b60" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a9c494141c1ee88eac0324d80003fc4f7" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a04ab86b9c4eec951f058c8e255d7d60d" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aa6695586d16cba4dfffc639a8f4cfdfe" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a85b2d9b155b5bb9b87cb6f274b3157f0" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a32c098a3162cdd5462ad82cecc7c8979" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a2e924c2ecb2308741d708d88abf0c7bc" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aef12a682d2cd2f8672a615fbcdae0ee9" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a53aa73dbc3b7113f5db60ba9f40ad322" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ae9acd4edcc0c536d2d3e4a4a1989c7fe" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a3b817391d37453e3d618de3977cd708e" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_LeftUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a9e9ee843dac23b1bec597194a1cae9e9" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Neck</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a4c78449f05e40bfbce241c408b173957" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightEye</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a6365b32d560ff7fed1c86ad53e3ebc2a" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightFoot</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a66426fbfb1bb0d51b733289f686e7c9c" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightHand</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a54f525d77500b9628cd360823d8a1041" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightIndexDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a92cb6ae3e4c903cb049cad05886500d6" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightIndexIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ac24b37134c3620891d26699ff95bbebe" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightIndexProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1aa0c5093d266b7f176c4150fc81486945" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightLittleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a2bae1fb7bb58935ee49483e87f9482bb" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightLittleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a58011d8fb4030d083e5849ff8cc37cfe" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightLittleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a5e0e96eb8e37c6783149abd65b73a0a6" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightLowerArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ab535e8956461aae135c7c643a41c0865" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightLowerLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a7001d3cb323f4042802aa9f02b350c32" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightMiddleDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ada271f782404816e6507d7f9d61f2b87" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightMiddleIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a9fdfe12011b06e898eec31f725699fee" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightMiddleProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a7ae0366e26b24c1498deb1d727594fc6" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightRingDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1ade862dcf1882e8147a918caafd1106e3" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightRingIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a74b1cb422fd59ed6dd0321370bb6ba28" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightRingProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a07c451c99b7f00f11946a33e38e83783" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightShoulder</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a242d3d1dd7acb15895d4c29880c70129" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightThumbDistal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a1feb154432f97d925de018e058db8d1c" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightThumbIntermediate</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a01d5ba6fb1e3604401115df20c102976" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightThumbProximal</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a7495ff7755c74ee1e8c42f4a03c72910" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightToes</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a87f6ea62c339d9bfdde719244b8e01f6" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightUpperArm</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a654643b81073cd8b7f4ba86aee564ef0" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_RightUpperLeg</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a1c2648532448c642ebd6f0b76e67b70d" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_Spine</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a43fb779868d0ecf87cb329da8dc8de78" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_target</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a24fd21f8fed34f2c6ac2bafbc804322b" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>m_UpperChest</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a5b6db5aa8eb9363202b4a0acf9e97627" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>OnEnable</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a26223b74a644a54aed7941959d614977" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a55dff78438e33719db8a87d3e370ed03" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a95dda795559f297c189094a13eedeaa1" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>s_armFold</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a7a50fbfcdd1e430f179f81ff00989aaa" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>s_fingerFold</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a9ffebf6c5eeb885ac65623548bc54a1e" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>s_legFold</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a5e4d4b04305f2841b6568672bb4a153d" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>s_spineFold</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_editor_1a13a4955daee906ca2ec99ba4447d7ef7" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidEditor</scope><name>TryGetAssetPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_animcontroller" kind="class" prot="public">
+    <compoundname>PlayerAnimcontroller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_player_animcontroller_1ae883e06fb1e512f526c1afadc08a9ada" prot="private" static="yes" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource PlayerAnimcontroller.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_player_animcontroller_1ac152c24f7cbc386490dc33c3953a3571" compoundref="_player_animcontroller_8cs" startline="87" endline="90">GetIbikiSE</referencedby>
+        <referencedby refid="class_player_animcontroller_1ad209215188c65eb2119c083aa7cc2e93" compoundref="_player_animcontroller_8cs" startline="17" endline="23">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_animcontroller_1a9b2a3becafd75253007766087b320fc3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerAnimcontroller.audioflag</definition>
+        <argsstring></argsstring>
+        <name>audioflag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" compoundref="_player_animcontroller_8cs" startline="26" endline="85">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_animcontroller_1a38a340267717b9053ba9a36bbc85b614" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator PlayerAnimcontroller.m_player</definition>
+        <argsstring></argsstring>
+        <name>m_player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_animcontroller_1a594b0024dcd3b0a7a62859d6e189848a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerAnimcontroller.getSEFlag</definition>
+        <argsstring></argsstring>
+        <name>getSEFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" compoundref="_player_animcontroller_8cs" startline="26" endline="85">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_animcontroller_1a8fb81d15d5765e7808f2d09d79c0cb54" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerAnimcontroller.getRuleflag</definition>
+        <argsstring></argsstring>
+        <name>getRuleflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" compoundref="_player_animcontroller_8cs" startline="26" endline="85">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_animcontroller_1a0e7e24cae77acdcb31225db9f575740d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerAnimcontroller.pauseflag</definition>
+        <argsstring></argsstring>
+        <name>pauseflag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" compoundref="_player_animcontroller_8cs" startline="26" endline="85">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_animcontroller_1ad209215188c65eb2119c083aa7cc2e93" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAnimcontroller.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_player_animcontroller_1ae883e06fb1e512f526c1afadc08a9ada" compoundref="_player_animcontroller_8cs" startline="6">audioSource</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerAnimcontroller.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="26" bodyend="85"/>
+        <references refid="class_player_animcontroller_1a9b2a3becafd75253007766087b320fc3" compoundref="_player_animcontroller_8cs" startline="8">audioflag</references>
+        <references refid="class_player_animcontroller_1a8fb81d15d5765e7808f2d09d79c0cb54" compoundref="_player_animcontroller_8cs" startline="13">getRuleflag</references>
+        <references refid="class_player_animcontroller_1a594b0024dcd3b0a7a62859d6e189848a" compoundref="_player_animcontroller_8cs" startline="12">getSEFlag</references>
+        <references refid="class_player_animcontroller_1a0e7e24cae77acdcb31225db9f575740d" compoundref="_player_animcontroller_8cs" startline="14">pauseflag</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_animcontroller_1ac152c24f7cbc386490dc33c3953a3571" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AudioSource</type>
+        <definition>static AudioSource PlayerAnimcontroller.GetIbikiSE</definition>
+        <argsstring>()</argsstring>
+        <name>GetIbikiSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="87" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="87" bodyend="90"/>
+        <references refid="class_player_animcontroller_1ae883e06fb1e512f526c1afadc08a9ada" compoundref="_player_animcontroller_8cs" startline="6">audioSource</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1971">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1970">
+        <label>PlayerAnimcontroller</label>
+        <link refid="class_player_animcontroller"/>
+        <childnode refid="1971" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1973">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1972">
+        <label>PlayerAnimcontroller</label>
+        <link refid="class_player_animcontroller"/>
+        <childnode refid="1973" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/PlayerAnimcontroller.cs" bodystart="3" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_player_animcontroller_1a9b2a3becafd75253007766087b320fc3" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>audioflag</name></member>
+      <member refid="class_player_animcontroller_1ae883e06fb1e512f526c1afadc08a9ada" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>audioSource</name></member>
+      <member refid="class_player_animcontroller_1ac152c24f7cbc386490dc33c3953a3571" prot="public" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>GetIbikiSE</name></member>
+      <member refid="class_player_animcontroller_1a8fb81d15d5765e7808f2d09d79c0cb54" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>getRuleflag</name></member>
+      <member refid="class_player_animcontroller_1a594b0024dcd3b0a7a62859d6e189848a" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>getSEFlag</name></member>
+      <member refid="class_player_animcontroller_1a38a340267717b9053ba9a36bbc85b614" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>m_player</name></member>
+      <member refid="class_player_animcontroller_1a0e7e24cae77acdcb31225db9f575740d" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>pauseflag</name></member>
+      <member refid="class_player_animcontroller_1ad209215188c65eb2119c083aa7cc2e93" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>Start</name></member>
+      <member refid="class_player_animcontroller_1a58608c459e8ac7fab357702b95cb3faf" prot="private" virt="non-virtual"><scope>PlayerAnimcontroller</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

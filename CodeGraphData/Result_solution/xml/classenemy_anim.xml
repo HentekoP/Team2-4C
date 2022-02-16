@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classenemy_anim" kind="class" prot="public">
+    <compoundname>enemyAnim</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classenemy_anim_1ab77eb8980b79eec99c480d3d440eb19e" prot="private" static="no" mutable="no">
+        <type>Animation</type>
+        <definition>Animation enemyAnim.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" line="6" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classenemy_anim_1a5b4997349fc97ce279d34d4b84966228" compoundref="enemy_anim_8cs" startline="9" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classenemy_anim_1a5b4997349fc97ce279d34d4b84966228" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyAnim.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" bodystart="9" bodyend="14"/>
+        <references refid="classenemy_anim_1ab77eb8980b79eec99c480d3d440eb19e" compoundref="enemy_anim_8cs" startline="6">anim</references>
+      </memberdef>
+      <memberdef kind="function" id="classenemy_anim_1afd1312ec5076cc4602dc483876dbea9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyAnim.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" bodystart="17" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="600">
+        <label>enemyAnim</label>
+        <link refid="classenemy_anim"/>
+        <childnode refid="601" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="601">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="604">
+        <label>Animation</label>
+      </node>
+      <node id="602">
+        <label>enemyAnim</label>
+        <link refid="classenemy_anim"/>
+        <childnode refid="603" relation="public-inheritance">
+        </childnode>
+        <childnode refid="604" relation="usage">
+          <edgelabel>anim</edgelabel>
+        </childnode>
+      </node>
+      <node id="603">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" line="4" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/Scripts/enemyAnim.cs" bodystart="3" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classenemy_anim_1ab77eb8980b79eec99c480d3d440eb19e" prot="private" virt="non-virtual"><scope>enemyAnim</scope><name>anim</name></member>
+      <member refid="classenemy_anim_1a5b4997349fc97ce279d34d4b84966228" prot="private" virt="non-virtual"><scope>enemyAnim</scope><name>Start</name></member>
+      <member refid="classenemy_anim_1afd1312ec5076cc4602dc483876dbea9e" prot="private" virt="non-virtual"><scope>enemyAnim</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>UniGLTF::Pin&lt; T &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1aa74d58b00f5012fd56e92c3b9c7d3796" prot="private" static="no" mutable="no">
+        <type>GCHandle</type>
+        <definition>GCHandle UniGLTF.Pin&lt; T &gt;.m_pinnedArray</definition>
+        <argsstring></argsstring>
+        <name>m_pinnedArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1acb46cef22bfcc509e7b15f510b6f9a28" prot="private" static="no" mutable="no">
+        <type>ArraySegment&lt; T &gt;</type>
+        <definition>ArraySegment&lt;T&gt; UniGLTF.Pin&lt; T &gt;.m_src</definition>
+        <argsstring></argsstring>
+        <name>m_src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a7baa6f7ed7ad063974947e63307727d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniGLTF.Pin&lt; T &gt;.disposedValue</definition>
+        <argsstring></argsstring>
+        <name>disposedValue</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="51" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a8da3b3a7e6c3230f0355d9d70c8826d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int UniGLTF.Pin&lt; T &gt;.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a85e22385df42c26d9146f3e85bbe8771" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr UniGLTF.Pin&lt; T &gt;.Ptr</definition>
+        <argsstring></argsstring>
+        <name>Ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a2396b0436458fb712f2edea119bdecbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.Pin&lt; T &gt;.Pin</definition>
+        <argsstring>(ArraySegment&lt; T &gt; src)</argsstring>
+        <name>Pin</name>
+        <param>
+          <type>ArraySegment&lt; T &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a588864a0ae64f12cb0711c39d526295e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.Pin&lt; T &gt;.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="80" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1af8fe18836d2c054d204c39eab5270ad4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.Pin&lt; T &gt;.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1967">
+        <label>IDisposable</label>
+      </node>
+      <node id="1966">
+        <label>UniGLTF.Pin&lt; T &gt;</label>
+        <link refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4"/>
+        <childnode refid="1967" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1969">
+        <label>IDisposable</label>
+      </node>
+      <node id="1968">
+        <label>UniGLTF.Pin&lt; T &gt;</label>
+        <link refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4"/>
+        <childnode refid="1969" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/Extensions/ArrayExtensions.cs" bodystart="20" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1af8fe18836d2c054d204c39eab5270ad4" prot="protected" virt="virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>Dispose</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a588864a0ae64f12cb0711c39d526295e" prot="public" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>Dispose</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a7baa6f7ed7ad063974947e63307727d2" prot="private" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>disposedValue</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a8da3b3a7e6c3230f0355d9d70c8826d9" prot="public" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>Length</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1aa74d58b00f5012fd56e92c3b9c7d3796" prot="private" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>m_pinnedArray</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1acb46cef22bfcc509e7b15f510b6f9a28" prot="private" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>m_src</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a2396b0436458fb712f2edea119bdecbf" prot="public" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>Pin</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_pin_3_01_t_01_4_1a85e22385df42c26d9146f3e85bbe8771" prot="public" virt="non-virtual"><scope>UniGLTF::Pin&lt; T &gt;</scope><name>Ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

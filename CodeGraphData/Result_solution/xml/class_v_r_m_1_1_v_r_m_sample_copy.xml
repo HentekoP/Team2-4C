@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_sample_copy" kind="class" prot="public">
+    <compoundname>VRM::VRMSampleCopy</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_sample_copy_1abb592cd87e947fcee7da3ec46f899e2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSampleCopy.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <briefdescription>
+<para>Assets/VRM_Samples を Assets/VRM/Samples~ にコピーする </para>        </briefdescription>
+        <detaileddescription>
+<para>Assets/VRM10_Samples を Assets/VRM10/Samples~ にコピーする</para><para>南無 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" bodystart="22" bodyend="26"/>
+        <references refid="class_v_r_m_1_1_v_r_m_sample_copy_1ac84021efefb5b3abd6dd056ca8f03b3f" compoundref="_v_r_m_sample_copy_8cs" startline="28" endline="37">VRM.VRMSampleCopy.Copy</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_sample_copy_1ac84021efefb5b3abd6dd056ca8f03b3f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSampleCopy.Copy</definition>
+        <argsstring>(string srcDir, string dstDir)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>string</type>
+          <declname>srcDir</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dstDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" bodystart="28" bodyend="37"/>
+        <references refid="class_v_r_m_1_1_v_r_m_sample_copy_1a4dae42ab1fb7a698dea309fb8fff2343" compoundref="_v_r_m_sample_copy_8cs" startline="39" endline="59">VRM.VRMSampleCopy._Copy</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_sample_copy_1abb592cd87e947fcee7da3ec46f899e2f" compoundref="_v_r_m_sample_copy_8cs" startline="22" endline="26">VRM.VRMSampleCopy.Execute</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_sample_copy_1a4dae42ab1fb7a698dea309fb8fff2343" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMSampleCopy._Copy</definition>
+        <argsstring>(string src, string dst)</argsstring>
+        <name>_Copy</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" bodystart="39" bodyend="59"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_sample_copy_1ac84021efefb5b3abd6dd056ca8f03b3f" compoundref="_v_r_m_sample_copy_8cs" startline="28" endline="37">VRM.VRMSampleCopy.Copy</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMSampleCopy.cs" bodystart="7" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_sample_copy_1a4dae42ab1fb7a698dea309fb8fff2343" prot="private" virt="non-virtual"><scope>VRM::VRMSampleCopy</scope><name>_Copy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_sample_copy_1ac84021efefb5b3abd6dd056ca8f03b3f" prot="private" virt="non-virtual"><scope>VRM::VRMSampleCopy</scope><name>Copy</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_sample_copy_1abb592cd87e947fcee7da3ec46f899e2f" prot="public" virt="non-virtual"><scope>VRM::VRMSampleCopy</scope><name>Execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

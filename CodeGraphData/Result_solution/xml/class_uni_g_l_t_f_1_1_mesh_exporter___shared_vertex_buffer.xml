@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshExporter_SharedVertexBuffer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a728ffdb3956d0c4ec58c560fa381073f" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>UniGLTF.MeshExporter_SharedVertexBuffer.glTFMesh</definition>
+        <argsstring></argsstring>
+        <name>glTFMesh</name>
+        <briefdescription>
+<para>primitive 間で vertex を共有する形で Export する。 UniVRM-0.71.0 以降は、MeshExporterDivided.Export もある。 </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>GLB/GLTF は shared(default) と divided を選択可能</para></listitem><listitem><para>VRM0 は shared 仕様</para></listitem><listitem><para>VRM1 は divided 仕様</para></listitem></itemizedlist>
+</para><para>/// </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gltf</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bufferIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unityMesh</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unityMaterials</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axisInverter</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a4fe280f615034108343b1e0520a5334b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, int &gt; blendShapeIndexMap</type>
+        <definition>static Dictionary&lt;int, int&gt; blendShapeIndexMap UniGLTF.MeshExporter_SharedVertexBuffer.Export</definition>
+        <argsstring>(ExportingGltfData data, MeshExportInfo unityMesh, List&lt; Material &gt; unityMaterials, IAxisInverter axisInverter, GltfExportSettings settings)</argsstring>
+        <name>Export</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_export_info" kindref="compound">MeshExportInfo</ref></type>
+          <declname>unityMesh</declname>
+        </param>
+        <param>
+          <type>List&lt; Material &gt;</type>
+          <declname>unityMaterials</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>axisInverter</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" bodystart="27" bodyend="188"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_tests_1ac1c0ce305b491244887443d81c72cddc" compoundref="_uni_g_l_t_f_2_tests_2_uni_g_l_t_f_2_mesh_tests_8cs" startline="167" endline="217">UniGLTF.MeshTests.DividedVertexBufferTest</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_mesh_tests_1aff8e334dc98d5901943c90794f5eacb6" compoundref="_uni_g_l_t_f_2_tests_2_uni_g_l_t_f_2_mesh_tests_8cs" startline="118" endline="164">UniGLTF.MeshTests.SharedVertexBufferTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1affc28340211fcd4a2ea7fdd6c03d40a1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshExporter_SharedVertexBuffer.UseSparse</definition>
+        <argsstring>(bool usePosition, Vector3 position, bool useNormal, Vector3 normal, bool useTangent, Vector3 tangent)</argsstring>
+        <name>UseSparse</name>
+        <param>
+          <type>bool</type>
+          <declname>usePosition</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useNormal</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useTangent</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>tangent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" bodystart="190" bodyend="202"/>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a3e2c518f716f9253b1e6fec78c22c45c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gltf_morph_target" kindref="compound">gltfMorphTarget</ref></type>
+        <definition>static gltfMorphTarget UniGLTF.MeshExporter_SharedVertexBuffer.ExportMorphTarget</definition>
+        <argsstring>(ExportingGltfData data, Mesh mesh, int blendShapeIndex, bool useSparseAccessorForMorphTarget, bool exportOnlyBlendShapePosition, IAxisInverter axisInverter)</argsstring>
+        <name>ExportMorphTarget</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blendShapeIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useSparseAccessorForMorphTarget</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>exportOnlyBlendShapePosition</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>axisInverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" line="204" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" bodystart="204" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshExporter_SharedVertexBuffer.cs" bodystart="9" bodyend="253"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a4fe280f615034108343b1e0520a5334b" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExporter_SharedVertexBuffer</scope><name>Export</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a3e2c518f716f9253b1e6fec78c22c45c" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExporter_SharedVertexBuffer</scope><name>ExportMorphTarget</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1a728ffdb3956d0c4ec58c560fa381073f" prot="public" virt="non-virtual"><scope>UniGLTF::MeshExporter_SharedVertexBuffer</scope><name>glTFMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_exporter___shared_vertex_buffer_1affc28340211fcd4a2ea7fdd6c03d40a1" prot="private" virt="non-virtual"><scope>UniGLTF::MeshExporter_SharedVertexBuffer</scope><name>UseSparse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_version_menu" kind="class" prot="public">
+    <compoundname>VRM::VRMVersionMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <innerclass refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" prot="private">VRM::VRMVersionMenu::UpmPackage</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string VRM.VRMVersionMenu.UniGltfVersionPath</definition>
+        <argsstring></argsstring>
+        <name>UniGltfVersionPath</name>
+        <initializer>= &quot;Assets/UniGLTF/Runtime/UniGLTF/UniGLTFVersion.cs&quot;</initializer>
+        <briefdescription>
+<para>UNIGLTF </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" compoundref="_v_r_m_version_menu_8cs" startline="280" endline="292">VRM.VRMVersionMenu.UpdateUniGLTFVersion</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersionMenu.UniGltfVersionTemplate</definition>
+        <argsstring></argsstring>
+        <name>UniGltfVersionTemplate</name>
+        <initializer>= @&quot;
+namespace UniGLTF
+{{
+    public static partial class <ref refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version" kindref="compound">UniGLTFVersion</ref>
+    {{
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> MAJOR = {0};
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> MINOR = {1};
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> PATCH = {2};
+        public const string VERSION = &quot;&quot;{0}.{1}.{2}&quot;&quot;;
+    }}
+}}
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="27" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" compoundref="_v_r_m_version_menu_8cs" startline="280" endline="292">VRM.VRMVersionMenu.UpdateUniGLTFVersion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersionMenu.VrmVersionPath</definition>
+        <argsstring></argsstring>
+        <name>VrmVersionPath</name>
+        <initializer>= &quot;Assets/VRM/Runtime/Format/VRMVersion.cs&quot;</initializer>
+        <briefdescription>
+<para><ref refid="namespace_v_r_m" kindref="compound">VRM</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" compoundref="_v_r_m_version_menu_8cs" startline="294" endline="310">VRM.VRMVersionMenu.UpdateVrmVersion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.VRMVersionMenu.VrmVersionTemplate</definition>
+        <argsstring></argsstring>
+        <name>VrmVersionTemplate</name>
+        <initializer>= @&quot;
+namespace VRM
+{{
+    public static partial class <ref refid="class_v_r_m_1_1_v_r_m_version" kindref="compound">VRMVersion</ref>
+    {{
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> MAJOR = {0};
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> MINOR = {1};
+        public const <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref> PATCH = {2};
+        public const string VERSION = &quot;&quot;{0}.{1}.{2}&quot;&quot;;
+    }}
+}}
+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" compoundref="_v_r_m_version_menu_8cs" startline="294" endline="310">VRM.VRMVersionMenu.UpdateVrmVersion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>[]</type>
+        <definition>UpmPackage [] VRM.VRMVersionMenu.Packages</definition>
+        <argsstring></argsstring>
+        <name>Packages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" compoundref="_v_r_m_version_menu_8cs" startline="294" endline="310">VRM.VRMVersionMenu.UpdateVrmVersion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a1ddb2125bd57919020e549de2bd87b39" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref></type>
+        <definition>UpmPackage VRM.VRMVersionMenu.UniGLTFPackage</definition>
+        <argsstring></argsstring>
+        <name>UniGLTFPackage</name>
+        <initializer>= new <ref refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package" kindref="compound">UpmPackage</ref>(&quot;Assets/UniGLTF/package.json&quot;,
+@&quot;{{
+  &quot;&quot;name&quot;&quot;: &quot;&quot;com.vrmc.gltf&quot;&quot;,
+  &quot;&quot;version&quot;&quot;: &quot;&quot;{0}&quot;&quot;,
+  &quot;&quot;displayName&quot;&quot;: &quot;&quot;UniGLTF&quot;&quot;,
+  &quot;&quot;description&quot;&quot;: &quot;&quot;GLTF importer and exporter&quot;&quot;,
+  &quot;&quot;unity&quot;&quot;: &quot;&quot;2019.4&quot;&quot;,
+  &quot;&quot;keywords&quot;&quot;: [
+    &quot;&quot;gltf&quot;&quot;
+  ],
+  &quot;&quot;author&quot;&quot;: {{
+    &quot;&quot;name&quot;&quot;: &quot;&quot;VRM Consortium&quot;&quot;
+  }},
+  &quot;&quot;dependencies&quot;&quot;: {{
+    &quot;&quot;com.vrmc.vrmshaders&quot;&quot;: &quot;&quot;{1}&quot;&quot;
+  }}
+}}&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="169" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string VRM.VRMVersionMenu.m_vrmVersion</definition>
+        <argsstring></argsstring>
+        <name>m_vrmVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="188" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="188" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" compoundref="_v_r_m_version_menu_8cs" startline="239" endline="278">VRM.VRMVersionMenu.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>VRM.VRMVersionMenu.int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref></type>
+        <definition>int VRM.VRMVersionMenu.m_uniGltfVersion</definition>
+        <argsstring></argsstring>
+        <name>m_uniGltfVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="190" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="191" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" compoundref="_v_r_m_version_menu_8cs" startline="239" endline="278">VRM.VRMVersionMenu.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMVersionMenu.TryGetVersion</definition>
+        <argsstring>(string src, out(int, int, int) version)</argsstring>
+        <name>TryGetVersion</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>out(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>)</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="205" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="205" bodyend="234"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" compoundref="_v_r_m_version_menu_8cs" startline="239" endline="278">VRM.VRMVersionMenu.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMVersionMenu.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+<para>バージョン管理ダイアログ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="239" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="239" bodyend="278"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" compoundref="_v_r_m_version_menu_8cs" startline="191">VRM.VRMVersionMenu.m_uniGltfVersion</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" compoundref="_v_r_m_version_menu_8cs" startline="188">VRM.VRMVersionMenu.m_vrmVersion</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" compoundref="_v_r_m_version_menu_8cs" startline="205" endline="234">VRM.VRMVersionMenu.TryGetVersion</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" compoundref="_v_r_m_version_menu_8cs" startline="280" endline="292">VRM.VRMVersionMenu.UpdateUniGLTFVersion</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" compoundref="_v_r_m_version_menu_8cs" startline="294" endline="310">VRM.VRMVersionMenu.UpdateVrmVersion</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMVersionMenu.UpdateUniGLTFVersion</definition>
+        <argsstring>((int, int, int) uniGltf,(int, int, int) vrm)</argsstring>
+        <name>UpdateUniGLTFVersion</name>
+        <param>
+          <type>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>)</type>
+          <declname>uniGltf</declname>
+        </param>
+        <param>
+          <type>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>)</type>
+          <declname>vrm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="280" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="280" bodyend="292"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" compoundref="_v_r_m_version_menu_8cs" startline="25">VRM.VRMVersionMenu.UniGltfVersionPath</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" compoundref="_v_r_m_version_menu_8cs" startline="27">VRM.VRMVersionMenu.UniGltfVersionTemplate</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" compoundref="_v_r_m_version_menu_8cs" startline="239" endline="278">VRM.VRMVersionMenu.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.VRMVersionMenu.UpdateVrmVersion</definition>
+        <argsstring>((int, int, int) vrm)</argsstring>
+        <name>UpdateVrmVersion</name>
+        <param>
+          <type>(<ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>, <ref refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" kindref="member">int</ref>)</type>
+          <declname>vrm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="294" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="294" bodyend="310"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" compoundref="_v_r_m_version_menu_8cs" startline="69">VRM.VRMVersionMenu.Packages</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" compoundref="_v_r_m_version_menu_8cs" startline="43">VRM.VRMVersionMenu.VrmVersionPath</references>
+        <references refid="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" compoundref="_v_r_m_version_menu_8cs" startline="44">VRM.VRMVersionMenu.VrmVersionTemplate</references>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" compoundref="_v_r_m_version_menu_8cs" startline="239" endline="278">VRM.VRMVersionMenu.OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_version_menu_1a90b0638557ce4025715b0fc2162f0fa8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMVersionMenu.ShowVersionDialog</definition>
+        <argsstring>()</argsstring>
+        <name>ShowVersionDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="312" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="312" bodyend="318"/>
+        <references refid="class_v_r_m_1_1_v_r_m_version_1ad6943e2dd048bf7de3f8ccb86a4bb0b3" compoundref="_v_r_m_version_8cs" startline="9">VRM.VRMVersion.VERSION</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>VersionDialog </para>    </briefdescription>
+    <detaileddescription>
+<para>v0.81.0: com.vrmc.unigltf to com.vrmc.gltf and same version with univrm.</para><para>Major = 2 Minor = <ref refid="class_v_r_m_1_1_v_r_m_version_1a0145043b27597bd6198027199353aa0d" kindref="member">VRMVersion.MINOR</ref> - 64 Patch = <ref refid="class_v_r_m_1_1_v_r_m_version_1ad6ed91644cc427cb2e2b6f9e0f0c4ea0" kindref="member">VRMVersion.PATCH</ref></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3002">
+        <label>EditorWindow</label>
+      </node>
+      <node id="3001">
+        <label>VRM.VRMVersionMenu</label>
+        <link refid="class_v_r_m_1_1_v_r_m_version_menu"/>
+        <childnode refid="3002" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3004">
+        <label>EditorWindow</label>
+      </node>
+      <node id="3005">
+        <label>VRM.VRMVersionMenu.UpmPackage</label>
+        <link refid="struct_v_r_m_1_1_v_r_m_version_menu_1_1_upm_package"/>
+      </node>
+      <node id="3003">
+        <label>VRM.VRMVersionMenu</label>
+        <link refid="class_v_r_m_1_1_v_r_m_version_menu"/>
+        <childnode refid="3004" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3005" relation="usage">
+          <edgelabel>UniGLTFPackage</edgelabel>
+          <edgelabel>Packages</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMVersionMenu.cs" bodystart="20" bodyend="319"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a4fbab5fa5475c44c53b033fe1fac4ce5" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>int</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a8f13267623940157a77220a72a5e7606" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>m_uniGltfVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a1798aabc46e3ca1d27e90b19eb1cb5ff" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>m_vrmVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a0f27c12541246fd0639126c783e67c9b" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>OnGUI</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1acd74dbaf9747c82f2bfc56bc78336dad" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>Packages</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a90b0638557ce4025715b0fc2162f0fa8" prot="public" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>ShowVersionDialog</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a99ea665ed6c363497fa375899510d3f5" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>TryGetVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a1ddb2125bd57919020e549de2bd87b39" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>UniGLTFPackage</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a228d6100dab0ab632b735099016254eb" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>UniGltfVersionPath</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a572b2201b605d5303cd5a51764f37e99" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>UniGltfVersionTemplate</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a991f5e87e27aa9bba09e04497beefccd" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>UpdateUniGLTFVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a100303165c3ce2bd075db7e3d7493ed0" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>UpdateVrmVersion</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a6058294739ce11a2649433a9b2b0b0bc" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>VrmVersionPath</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_version_menu_1a3fea0f6ef4cfc5e451d666cd781f97ea" prot="private" virt="non-virtual"><scope>VRM::VRMVersionMenu</scope><name>VrmVersionTemplate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

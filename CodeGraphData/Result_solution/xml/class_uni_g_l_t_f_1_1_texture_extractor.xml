@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_texture_extractor" kind="class" prot="public">
+    <compoundname>UniGLTF::TextureExtractor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1ac9430d6ad64b01326143fba137561fcd" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string UniGLTF.TextureExtractor.TextureDirName</definition>
+        <argsstring></argsstring>
+        <name>TextureDirName</name>
+        <initializer>= &quot;Textures&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1a4c7795c9b8d4e69eec756b7afc4dc345" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.TextureExtractor.m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" compoundref="_texture_extractor_8cs" startline="25" endline="31">UniGLTF.TextureExtractor.TextureExtractor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1acc39577a700e4bc119d60a683c3deb7d" prot="private" static="no" mutable="no">
+        <type>readonly IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+        <definition>readonly IReadOnlyDictionary&lt;SubAssetKey, Texture&gt; UniGLTF.TextureExtractor.m_subAssets</definition>
+        <argsstring></argsstring>
+        <name>m_subAssets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1af6a6d5564820e9ba1c1a0adcee1a0430" compoundref="_texture_extractor_8cs" startline="44" endline="64">UniGLTF.TextureExtractor.Extract</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" compoundref="_texture_extractor_8cs" startline="25" endline="31">UniGLTF.TextureExtractor.TextureExtractor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1a6624e2dfe78a7ff19bd7f588bbebc73c" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+        <definition>UnityPath UniGLTF.TextureExtractor.m_textureDirectory</definition>
+        <argsstring></argsstring>
+        <name>m_textureDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" compoundref="_texture_extractor_8cs" startline="25" endline="31">UniGLTF.TextureExtractor.TextureExtractor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1aa6ca3532a69bd05b5e25c7f34fcadf2d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.TextureExtractor.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_texture_extractor_1a4c7795c9b8d4e69eec756b7afc4dc345" kindref="member">m_data</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1a3f6b0812a00b27f9f8bb8dc51c23fd2d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+        <definition>glTF UniGLTF.TextureExtractor.GLTF</definition>
+        <argsstring></argsstring>
+        <name>GLTF</name>
+        <initializer>=&gt; m_data.GLTF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_texture_extractor_1a41ee66567eb3a1a4e8bc2e717f2c3fe3" prot="public" static="no" mutable="no">
+        <type>readonly Dictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;SubAssetKey, UnityPath&gt; UniGLTF.TextureExtractor.Textures</definition>
+        <argsstring></argsstring>
+        <name>Textures</name>
+        <initializer>= new Dictionary&lt;<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1af6a6d5564820e9ba1c1a0adcee1a0430" compoundref="_texture_extractor_8cs" startline="44" endline="64">UniGLTF.TextureExtractor.Extract</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.TextureExtractor.TextureExtractor</definition>
+        <argsstring>(GltfData data, UnityPath textureDirectory, IReadOnlyDictionary&lt; SubAssetKey, Texture &gt; subAssets)</argsstring>
+        <name>TextureExtractor</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>textureDirectory</declname>
+        </param>
+        <param>
+          <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+          <declname>subAssets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="25" bodyend="31"/>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1a4c7795c9b8d4e69eec756b7afc4dc345" compoundref="_texture_extractor_8cs" startline="16">UniGLTF.TextureExtractor.m_data</references>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1acc39577a700e4bc119d60a683c3deb7d" compoundref="_texture_extractor_8cs" startline="22">UniGLTF.TextureExtractor.m_subAssets</references>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1a6624e2dfe78a7ff19bd7f588bbebc73c" compoundref="_texture_extractor_8cs" startline="23">UniGLTF.TextureExtractor.m_textureDirectory</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_texture_extractor_1a335f302d66d5ec510b4dc25b86b061d8" compoundref="_texture_extractor_8cs" startline="76" endline="109">UniGLTF.TextureExtractor.ExtractTextures</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_texture_extractor_1af6a6d5564820e9ba1c1a0adcee1a0430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.TextureExtractor.Extract</definition>
+        <argsstring>(SubAssetKey key, TextureDescriptor texDesc)</argsstring>
+        <name>Extract</name>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref></type>
+          <declname>texDesc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="44" bodyend="64"/>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1acc39577a700e4bc119d60a683c3deb7d" compoundref="_texture_extractor_8cs" startline="22">UniGLTF.TextureExtractor.m_subAssets</references>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1a41ee66567eb3a1a4e8bc2e717f2c3fe3" compoundref="_texture_extractor_8cs" startline="21">UniGLTF.TextureExtractor.Textures</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_texture_extractor_1a4f508a8181c6e91e44d14c1b85339a0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.TextureExtractor.GetExt</definition>
+        <argsstring>(string mime, string uri)</argsstring>
+        <name>GetExt</name>
+        <param>
+          <type>string</type>
+          <declname>mime</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_texture_extractor_1a335f302d66d5ec510b4dc25b86b061d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.TextureExtractor.ExtractTextures</definition>
+        <argsstring>(GltfData data, UnityPath textureDirectory, ITextureDescriptorGenerator textureDescriptorGenerator, IReadOnlyDictionary&lt; SubAssetKey, Texture &gt; subAssets, Action&lt; SubAssetKey, Texture2D &gt; addRemap, Action&lt; IEnumerable&lt; UnityPath &gt;&gt; onCompleted=null)</argsstring>
+        <name>ExtractTextures</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>textureDirectory</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" kindref="compound">ITextureDescriptorGenerator</ref></type>
+          <declname>textureDescriptorGenerator</declname>
+        </param>
+        <param>
+          <type>IReadOnlyDictionary&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture &gt;</type>
+          <declname>subAssets</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, Texture2D &gt;</type>
+          <declname>addRemap</declname>
+        </param>
+        <param>
+          <type>Action&lt; IEnumerable&lt; <ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref> &gt;&gt;</type>
+          <declname>onCompleted</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Texture(.png etc...)をディスクに書き出す</para></listitem><listitem><para>EditorApplication.delayCall で処理を進めて 書き出した画像が Asset として成立するのを待つ</para></listitem><listitem><para>書き出した Asset から TextureImporter を取得して設定する</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>importer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onCompleted</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="76" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="76" bodyend="109"/>
+        <references refid="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" compoundref="_texture_extractor_8cs" startline="25" endline="31">UniGLTF.TextureExtractor.TextureExtractor</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2348">
+        <label>UniGLTF.glTF</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f"/>
+        <childnode refid="2349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2350" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="2351" relation="usage">
+          <edgelabel>asset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2350">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="2353">
+        <label>UnityEngine</label>
+      </node>
+      <node id="2349">
+        <label>IEquatable&lt; glTF &gt;</label>
+      </node>
+      <node id="2351">
+        <label>UniGLTF.glTFAssets</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_assets"/>
+        <childnode refid="2350" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="2352">
+        <label>UniGLTF.GltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_data"/>
+        <childnode refid="2353" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+        <childnode refid="2354" relation="usage">
+          <edgelabel>_storage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2355">
+        <label>UniGLTF.UnityPath</label>
+        <link refid="struct_uni_g_l_t_f_1_1_unity_path"/>
+      </node>
+      <node id="2347">
+        <label>UniGLTF.TextureExtractor</label>
+        <link refid="class_uni_g_l_t_f_1_1_texture_extractor"/>
+        <childnode refid="2348" relation="usage">
+          <edgelabel>GLTF</edgelabel>
+        </childnode>
+        <childnode refid="2352" relation="usage">
+          <edgelabel>Data</edgelabel>
+          <edgelabel>m_data</edgelabel>
+        </childnode>
+        <childnode refid="2355" relation="usage">
+          <edgelabel>m_textureDirectory</edgelabel>
+        </childnode>
+      </node>
+      <node id="2354">
+        <label>UniGLTF.IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/UniGLTF/ScriptedImporter/TextureExtractor.cs" bodystart="12" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1aa6ca3532a69bd05b5e25c7f34fcadf2d" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>Data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1af6a6d5564820e9ba1c1a0adcee1a0430" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>Extract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a335f302d66d5ec510b4dc25b86b061d8" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>ExtractTextures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a4f508a8181c6e91e44d14c1b85339a0a" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>GetExt</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a3f6b0812a00b27f9f8bb8dc51c23fd2d" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>GLTF</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a4c7795c9b8d4e69eec756b7afc4dc345" prot="private" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>m_data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1acc39577a700e4bc119d60a683c3deb7d" prot="private" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>m_subAssets</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a6624e2dfe78a7ff19bd7f588bbebc73c" prot="private" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>m_textureDirectory</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1ac9430d6ad64b01326143fba137561fcd" prot="private" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>TextureDirName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a39bba6a72c357ca01a0cf1577cc59051" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>TextureExtractor</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_texture_extractor_1a41ee66567eb3a1a4e8bc2e717f2c3fe3" prot="public" virt="non-virtual"><scope>UniGLTF::TextureExtractor</scope><name>Textures</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

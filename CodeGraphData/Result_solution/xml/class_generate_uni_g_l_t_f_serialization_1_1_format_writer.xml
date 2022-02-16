@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer" kind="class" prot="public">
+    <compoundname>GenerateUniGLTFSerialization::FormatWriter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a5e6c6c1358b9db95bdb341469d59614a" prot="private" static="no" mutable="no">
+        <type>TextWriter</type>
+        <definition>TextWriter GenerateUniGLTFSerialization.FormatWriter.m_w</definition>
+        <argsstring></argsstring>
+        <name>m_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1af9ab9fa6c7469a5513135b7e08877a51" compoundref="_format_writer_8cs" startline="16" endline="20">GenerateUniGLTFSerialization.FormatWriter.FormatWriter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8969e13fa6b3e559ff54469d83cfd567" prot="private" static="no" mutable="no">
+        <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+        <definition>string GenerateUniGLTFSerialization.FormatWriter.m_prefix</definition>
+        <argsstring></argsstring>
+        <name>m_prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1af9ab9fa6c7469a5513135b7e08877a51" compoundref="_format_writer_8cs" startline="16" endline="20">GenerateUniGLTFSerialization.FormatWriter.FormatWriter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a091c4f722883a1f0dc5d0154d4eebd90" prot="private" static="no" mutable="no">
+        <type>HashSet&lt; <ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref> &gt;</type>
+        <definition>HashSet&lt;string&gt; GenerateUniGLTFSerialization.FormatWriter.m_used</definition>
+        <argsstring></argsstring>
+        <name>m_used</name>
+        <initializer>= new HashSet&lt;<ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1aa1d030290e0757742952655cb2c787ab" compoundref="_format_writer_8cs" startline="91" endline="113">GenerateUniGLTFSerialization.FormatWriter.WriteEnumString</referencedby>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a1c270f2c38e9ddcb3cddfcde7e90a3c4" compoundref="_format_writer_8cs" startline="43" endline="89">GenerateUniGLTFSerialization.FormatWriter.WriteObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a33fa07bf9fa3788526732729a386c17e" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+        <definition>const string GenerateUniGLTFSerialization.FormatWriter.FieldIndent</definition>
+        <argsstring></argsstring>
+        <name>FieldIndent</name>
+        <initializer>= &quot;        &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>GenerateUniGLTFSerialization.FormatWriter.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1af9ab9fa6c7469a5513135b7e08877a51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GenerateUniGLTFSerialization.FormatWriter.FormatWriter</definition>
+        <argsstring>(TextWriter writer, string prefix)</argsstring>
+        <name>FormatWriter</name>
+        <param>
+          <type>TextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8969e13fa6b3e559ff54469d83cfd567" compoundref="_format_writer_8cs" startline="12">GenerateUniGLTFSerialization.FormatWriter.m_prefix</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a5e6c6c1358b9db95bdb341469d59614a" compoundref="_format_writer_8cs" startline="11">GenerateUniGLTFSerialization.FormatWriter.m_w</references>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7c6341a8e00a8ab2e47d4f91c49f8f35" compoundref="_format_writer_8cs" startline="156" endline="171">GenerateUniGLTFSerialization.FormatWriter.Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a1c270f2c38e9ddcb3cddfcde7e90a3c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenerateUniGLTFSerialization.FormatWriter.WriteObject</definition>
+        <argsstring>(ObjectJsonSchema schema, string rootName=default)</argsstring>
+        <name>WriteObject</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_object_json_schema" kindref="compound">ObjectJsonSchema</ref></type>
+          <declname>schema</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+          <declname>rootName</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="43" bodyend="89"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a091c4f722883a1f0dc5d0154d4eebd90" compoundref="_format_writer_8cs" startline="14">GenerateUniGLTFSerialization.FormatWriter.m_used</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8e172ab81967d797bf6faf1e12ec4797" compoundref="_format_writer_8cs" startline="22" endline="39">GenerateUniGLTFSerialization.FormatWriter.PropType</references>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" compoundref="_json_schema_base_8cs" startline="18">UniGLTF.JsonSchema.Schemas.JsonSchemaBase.Title</references>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a17a622102c33f4890722d86f5cbb40cb" compoundref="_format_writer_8cs" startline="115" endline="154">GenerateUniGLTFSerialization.FormatWriter.Traverse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1aa1d030290e0757742952655cb2c787ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenerateUniGLTFSerialization.FormatWriter.WriteEnumString</definition>
+        <argsstring>(EnumStringJsonSchema schema)</argsstring>
+        <name>WriteEnumString</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema" kindref="compound">EnumStringJsonSchema</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="91" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="91" bodyend="113"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a091c4f722883a1f0dc5d0154d4eebd90" compoundref="_format_writer_8cs" startline="14">GenerateUniGLTFSerialization.FormatWriter.m_used</references>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" compoundref="_json_schema_base_8cs" startline="18">UniGLTF.JsonSchema.Schemas.JsonSchemaBase.Title</references>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a17a622102c33f4890722d86f5cbb40cb" compoundref="_format_writer_8cs" startline="115" endline="154">GenerateUniGLTFSerialization.FormatWriter.Traverse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a17a622102c33f4890722d86f5cbb40cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenerateUniGLTFSerialization.FormatWriter.Traverse</definition>
+        <argsstring>(JsonSchemaSource source, string rootName=default)</argsstring>
+        <name>Traverse</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+          <declname>rootName</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="115" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="115" bodyend="154"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1aa1d030290e0757742952655cb2c787ab" compoundref="_format_writer_8cs" startline="91" endline="113">GenerateUniGLTFSerialization.FormatWriter.WriteEnumString</references>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a1c270f2c38e9ddcb3cddfcde7e90a3c4" compoundref="_format_writer_8cs" startline="43" endline="89">GenerateUniGLTFSerialization.FormatWriter.WriteObject</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8e172ab81967d797bf6faf1e12ec4797" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+        <definition>static string GenerateUniGLTFSerialization.FormatWriter.PropType</definition>
+        <argsstring>(JsonSchemaBase schema)</argsstring>
+        <name>PropType</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base" kindref="compound">JsonSchemaBase</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="22" bodyend="39"/>
+        <referencedby refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a1c270f2c38e9ddcb3cddfcde7e90a3c4" compoundref="_format_writer_8cs" startline="43" endline="89">GenerateUniGLTFSerialization.FormatWriter.WriteObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7c6341a8e00a8ab2e47d4f91c49f8f35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GenerateUniGLTFSerialization.FormatWriter.Write</definition>
+        <argsstring>(TextWriter w, JsonSchemaSource root, string rootName)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>TextWriter</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" kindref="member">string</ref></type>
+          <declname>rootName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="156" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="156" bodyend="171"/>
+        <references refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1af9ab9fa6c7469a5513135b7e08877a51" compoundref="_format_writer_8cs" startline="16" endline="20">GenerateUniGLTFSerialization.FormatWriter.FormatWriter</references>
+        <references refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source_1a4a5ec939f024e213c1c63f0e485c57d0" compoundref="_json_schema_source_8cs" startline="53">UniGLTF.JsonSchema.JsonSchemaSource.title</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/Generator/FormatWriter.cs" bodystart="9" bodyend="172"/>
+    <listofallmembers>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a33fa07bf9fa3788526732729a386c17e" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>FieldIndent</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1af9ab9fa6c7469a5513135b7e08877a51" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>FormatWriter</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8969e13fa6b3e559ff54469d83cfd567" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>m_prefix</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a091c4f722883a1f0dc5d0154d4eebd90" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>m_used</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a5e6c6c1358b9db95bdb341469d59614a" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>m_w</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a8e172ab81967d797bf6faf1e12ec4797" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>PropType</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7890631fbd335a34149ea7c8281d5269" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>string</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a17a622102c33f4890722d86f5cbb40cb" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>Traverse</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a7c6341a8e00a8ab2e47d4f91c49f8f35" prot="public" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>Write</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1aa1d030290e0757742952655cb2c787ab" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>WriteEnumString</name></member>
+      <member refid="class_generate_uni_g_l_t_f_serialization_1_1_format_writer_1a1c270f2c38e9ddcb3cddfcde7e90a3c4" prot="private" virt="non-virtual"><scope>GenerateUniGLTFSerialization::FormatWriter</scope><name>WriteObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

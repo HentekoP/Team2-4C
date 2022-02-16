@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_native_collider_group_8cs" kind="file">
+    <compoundname>NativeColliderGroup.cs</compoundname>
+    <innerclass refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group" prot="public">VRM::FastSpringBones::NativeWrappers::NativeColliderGroup</innerclass>
+    <innernamespace refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers">VRM::FastSpringBones::NativeWrappers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Unity.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>VRM.FastSpringBones.Blittables;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VRM.FastSpringBones.NativeWrappers</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/>unsafe<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group" kindref="compound">NativeColliderGroup</ref><sp/>:<sp/>IDisposable</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1a41ebe0bd090f0f4ffec65d069ce4520f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>NativePointer&lt;BlittableColliderGroup&gt;<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1a41ebe0bd090f0f4ffec65d069ce4520f" kindref="member">_nativePointer</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1a5f343a4f86cea55a85728b6069cc7bd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>NativeArray&lt;BlittableCollider&gt;<sp/>Colliders<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref>*<sp/>GetUnsafePtr()<sp/>=&gt;<sp/>_nativePointer.GetUnsafePtr();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1ae67e594b7d7d4658756ba65048bd5ff6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1ae67e594b7d7d4658756ba65048bd5ff6" kindref="member">NativeColliderGroup</ref>(<ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref>[]<sp/>colliders,<sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref><sp/>nativeTransform)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Colliders<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NativeArray&lt;BlittableCollider&gt;(colliders,<sp/>Allocator.Persistent);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nativePointer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NativePointer&lt;BlittableColliderGroup&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref>(Colliders,<sp/>nativeTransform.<ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform_1a92cd8bbd6e83de2ca949d02cacc86d5c" kindref="member">GetUnsafePtr</ref>()));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1a6ffeb3c3e4b3c1f08ff4d82ac25b23cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_collider_group_1a6ffeb3c3e4b3c1f08ff4d82ac25b23cb" kindref="member">Dispose</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Colliders.IsCreated)<sp/>Colliders.Dispose();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nativePointer.Dispose();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/NativeWrappers/NativeColliderGroup.cs"/>
+  </compounddef>
+</doxygen>

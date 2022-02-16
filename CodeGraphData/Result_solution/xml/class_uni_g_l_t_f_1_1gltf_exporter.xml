@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1gltf_exporter" kind="class" prot="public">
+    <compoundname>UniGLTF::gltfExporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_exporter" prot="public" virt="non-virtual">VRM.VRMExporter</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a363e90d3558c7f49e06496054263357a" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+        <definition>ExportingGltfData UniGLTF.gltfExporter._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" compoundref="gltf_exporter_8cs" startline="82" endline="100">UniGLTF.gltfExporter.gltfExporter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a4e715055393b56c6a79472abe0001914" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+        <definition>glTF UniGLTF.gltfExporter._gltf</definition>
+        <argsstring></argsstring>
+        <name>_gltf</name>
+        <initializer>=&gt; _data.GLTF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a6b475f5c3a379ec790c154a2e5e844b1" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_exporter" kindref="compound">ITextureExporter</ref></type>
+        <definition>ITextureExporter UniGLTF.gltfExporter.TextureExporter</definition>
+        <argsstring></argsstring>
+        <name>TextureExporter</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1gltf_exporter_1a2839bae83df650880359a6169be97ed2" kindref="member">_textureExporter</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" compoundref="_v_r_m_exporter_8cs" startline="43" endline="217">VRM.VRMExporter.ExportExtensions</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.gltfExporter.Copy</definition>
+        <argsstring></argsstring>
+        <name>Copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="17" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ae4200a52f12491488ff8bda739506d9a" compoundref="gltf_exporter_8cs" startline="131" endline="156">UniGLTF.gltfExporter.Dispose</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" compoundref="gltf_exporter_8cs" startline="104" endline="129">UniGLTF.gltfExporter.Prepare</referencedby>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a6e24463db82bcec937507176b3e79c87" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="90" endline="126">VRM.glTF_VRMExtensions.Serialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1af156d33ce44923d09ce98d7c9713d7aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; Mesh &gt;</type>
+        <definition>List&lt;Mesh&gt; UniGLTF.gltfExporter.Meshes</definition>
+        <argsstring></argsstring>
+        <name>Meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1a64bb6e7c492d75fae88124de14dd83ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; Mesh, Dictionary&lt; int, int &gt; &gt;</type>
+        <definition>Dictionary&lt;Mesh, Dictionary&lt;int, int&gt; &gt; UniGLTF.gltfExporter.MeshBlendShapeIndexMap</definition>
+        <argsstring></argsstring>
+        <name>MeshBlendShapeIndexMap</name>
+        <initializer>= new List&lt;Mesh&gt;()</initializer>
+        <briefdescription>
+<para>Mesh毎に、元のBlendShapeIndex =&gt; ExportされたBlendShapeIndex の対応を記録する </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_uni_g_l_t_f_1_1_blend_shape" kindref="compound">BlendShape</ref> が空の場合にスキップするので </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_1_1gl_t_f___v_r_m_extensions_1a4c450f88843d6744cff3beaeb66aab71" compoundref="gl_t_f___v_r_m_extensions_8cs" startline="19" endline="82">VRM.glTF_VRMExtensions.Create</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1af1872393355e674e639cc5bfc0179ade" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; UniGLTF.gltfExporter.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" compoundref="_v_r_m_exporter_8cs" startline="43" endline="217">VRM.VRMExporter.ExportExtensions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1ad49e4f87a0bb069eda7f5f5ea7a89fac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; Material &gt;</type>
+        <definition>List&lt;Material&gt; UniGLTF.gltfExporter.Materials</definition>
+        <argsstring></argsstring>
+        <name>Materials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60" compoundref="_v_r_m_exporter_8cs" startline="43" endline="217">VRM.VRMExporter.ExportExtensions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1gltf_exporter_1af64fee939a742c7cb94929e2ea321365" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>virtual IEnumerable&lt;string&gt; UniGLTF.gltfExporter.ExtensionUsed</definition>
+        <argsstring></argsstring>
+        <name>ExtensionUsed</name>
+        <briefdescription>
+<para>このエクスポーターがサポートするExtension </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" compoundref="gltf_exporter_8cs" startline="82" endline="100">UniGLTF.gltfExporter.gltfExporter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a2839bae83df650880359a6169be97ed2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_shaders_1_1_texture_exporter" kindref="compound">TextureExporter</ref></type>
+        <definition>TextureExporter UniGLTF.gltfExporter._textureExporter</definition>
+        <argsstring></argsstring>
+        <name>_textureExporter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a8730a321df0e26d05640a86a0cfc0db4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+        <definition>GltfExportSettings UniGLTF.gltfExporter.m_settings</definition>
+        <argsstring></argsstring>
+        <name>m_settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" compoundref="gltf_exporter_8cs" startline="82" endline="100">UniGLTF.gltfExporter.gltfExporter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1ab2c5a10cacd2d449978787f481271af8" prot="private" static="no" mutable="no">
+        <type>IProgress&lt; <ref refid="struct_uni_g_l_t_f_1_1_export_progress" kindref="compound">ExportProgress</ref> &gt;</type>
+        <definition>IProgress&lt;ExportProgress&gt; UniGLTF.gltfExporter.m_progress</definition>
+        <argsstring></argsstring>
+        <name>m_progress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="71" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad60ea4b8e92adb90b76e21e55c2959cb" compoundref="gltf_exporter_8cs" startline="73" endline="80">UniGLTF.gltfExporter.ReportProgress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1gltf_exporter_1a7a37dd1bbcfe6c9686cde0de46035747" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniGLTF.gltfExporter.m_tmpParent</definition>
+        <argsstring></argsstring>
+        <name>m_tmpParent</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="102" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="102" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ae4200a52f12491488ff8bda739506d9a" compoundref="gltf_exporter_8cs" startline="131" endline="156">UniGLTF.gltfExporter.Dispose</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" compoundref="gltf_exporter_8cs" startline="104" endline="129">UniGLTF.gltfExporter.Prepare</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1a221a1f0c5b2e8ddac4ca50378b166932" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="interface_uni_g_l_t_f_1_1_i_material_exporter" kindref="compound">IMaterialExporter</ref></type>
+        <definition>virtual IMaterialExporter UniGLTF.gltfExporter.CreateMaterialExporter</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMaterialExporter</name>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_1adbd855936f2de521ff26885f252dc563">CreateMaterialExporter</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="49" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="49" bodyend="52"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1ad60ea4b8e92adb90b76e21e55c2959cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.gltfExporter.ReportProgress</definition>
+        <argsstring>(string msg, float progress)</argsstring>
+        <name>ReportProgress</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="73" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="73" bodyend="80"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab2c5a10cacd2d449978787f481271af8" compoundref="gltf_exporter_8cs" startline="71">UniGLTF.gltfExporter.m_progress</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" compoundref="gltf_exporter_8cs" startline="104" endline="129">UniGLTF.gltfExporter.Prepare</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.gltfExporter.gltfExporter</definition>
+        <argsstring>(ExportingGltfData data, GltfExportSettings settings, IProgress&lt; ExportProgress &gt; progress=null)</argsstring>
+        <name>gltfExporter</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_exporting_gltf_data" kindref="compound">ExportingGltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_export_settings" kindref="compound">GltfExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>IProgress&lt; <ref refid="struct_uni_g_l_t_f_1_1_export_progress" kindref="compound">ExportProgress</ref> &gt;</type>
+          <declname>progress</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="82" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="82" bodyend="100"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a363e90d3558c7f49e06496054263357a" compoundref="gltf_exporter_8cs" startline="13">UniGLTF.gltfExporter._data</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1af64fee939a742c7cb94929e2ea321365" compoundref="gltf_exporter_8cs" startline="58">UniGLTF.gltfExporter.ExtensionUsed</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a8730a321df0e26d05640a86a0cfc0db4" compoundref="gltf_exporter_8cs" startline="69">UniGLTF.gltfExporter.m_settings</references>
+        <references refid="class_uni_g_l_t_f_1_1_uni_g_l_t_f_version_1a301c453db7826f5bb99bb0c4df0b05cb" compoundref="_uni_g_l_t_f_version_8cs" startline="9">UniGLTF.UniGLTFVersion.VERSION</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.gltfExporter.Prepare</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>Prepare</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="104" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="104" bodyend="129"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" compoundref="gltf_exporter_8cs" startline="18">UniGLTF.gltfExporter.Copy</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a7a37dd1bbcfe6c9686cde0de46035747" compoundref="gltf_exporter_8cs" startline="102">UniGLTF.gltfExporter.m_tmpParent</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad60ea4b8e92adb90b76e21e55c2959cb" compoundref="gltf_exporter_8cs" startline="73" endline="80">UniGLTF.gltfExporter.ReportProgress</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1ae4200a52f12491488ff8bda739506d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.gltfExporter.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="131" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="131" bodyend="156"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" compoundref="gltf_exporter_8cs" startline="18">UniGLTF.gltfExporter.Copy</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a7a37dd1bbcfe6c9686cde0de46035747" compoundref="gltf_exporter_8cs" startline="102">UniGLTF.gltfExporter.m_tmpParent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1acee5bf36dafd30a174ceac6fdb2cd9fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.gltfExporter.ExportExtensions</definition>
+        <argsstring>(ITextureSerializer textureSerializer)</argsstring>
+        <name>ExportExtensions</name>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_exporter_1a9e44afb0908453a2c23e75037f717d60">ExportExtensions</reimplementedby>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="234" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="234" bodyend="237"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.gltfExporter.Export</definition>
+        <argsstring>(ITextureSerializer textureSerializer)</argsstring>
+        <name>Export</name>
+        <param>
+          <type><ref refid="interface_v_r_m_shaders_1_1_i_texture_serializer" kindref="compound">ITextureSerializer</ref></type>
+          <declname>textureSerializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="239" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="239" bodyend="405"/>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a363e90d3558c7f49e06496054263357a" compoundref="gltf_exporter_8cs" startline="13">UniGLTF.gltfExporter._data</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a4e715055393b56c6a79472abe0001914" compoundref="gltf_exporter_8cs" startline="15">UniGLTF.gltfExporter._gltf</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a2839bae83df650880359a6169be97ed2" compoundref="gltf_exporter_8cs" startline="67">UniGLTF.gltfExporter._textureExporter</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a221a1f0c5b2e8ddac4ca50378b166932" compoundref="gltf_exporter_8cs" startline="49" endline="52">UniGLTF.gltfExporter.CreateMaterialExporter</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1acee5bf36dafd30a174ceac6fdb2cd9fe" compoundref="gltf_exporter_8cs" startline="234" endline="237">UniGLTF.gltfExporter.ExportExtensions</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1aeebefa8b7ee1f9bddff32a05f668b609" compoundref="gltf_exporter_8cs" startline="159" endline="232">UniGLTF.gltfExporter.ExportNode</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ac64c4237bfa5b79ae551bc941dc623a6" compoundref="gltf_exporter_8cs" startline="410" endline="434">UniGLTF.gltfExporter.FixName</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_animation_target_1a3494f721ceaa3d4ac6228f93e6aeabac" compoundref="gl_t_f_animation_8cs" startline="111" endline="114">UniGLTF.glTFAnimationTarget.GetElementCount</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_export_settings_1a7be97fc090608d0d61449d1fb96e23b3" compoundref="_gltf_export_settings_8cs" startline="10">UniGLTF.GltfExportSettings.InverseAxis</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a8730a321df0e26d05640a86a0cfc0db4" compoundref="gltf_exporter_8cs" startline="69">UniGLTF.gltfExporter.m_settings</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad49e4f87a0bb069eda7f5f5ea7a89fac" compoundref="gltf_exporter_8cs" startline="44">UniGLTF.gltfExporter.Materials</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a64bb6e7c492d75fae88124de14dd83ca" compoundref="gltf_exporter_8cs" startline="32">UniGLTF.gltfExporter.MeshBlendShapeIndexMap</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1af1872393355e674e639cc5bfc0179ade" compoundref="gltf_exporter_8cs" startline="38">UniGLTF.gltfExporter.Nodes</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad60ea4b8e92adb90b76e21e55c2959cb" compoundref="gltf_exporter_8cs" startline="73" endline="80">UniGLTF.gltfExporter.ReportProgress</references>
+        <references refid="class_uni_g_l_t_f_1_1gltf_exporter_1a6b475f5c3a379ec790c154a2e5e844b1" compoundref="gltf_exporter_8cs" startline="66">UniGLTF.gltfExporter.TextureExporter</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1aeebefa8b7ee1f9bddff32a05f668b609" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+        <definition>static glTFNode UniGLTF.gltfExporter.ExportNode</definition>
+        <argsstring>(Transform x, List&lt; Transform &gt; nodes, IReadOnlyList&lt; MeshExportInfo &gt; meshWithRenderers, List&lt; SkinnedMeshRenderer &gt; skins)</argsstring>
+        <name>ExportNode</name>
+        <param>
+          <type>Transform</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>List&lt; Transform &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_export_info" kindref="compound">MeshExportInfo</ref> &gt;</type>
+          <declname>meshWithRenderers</declname>
+        </param>
+        <param>
+          <type>List&lt; SkinnedMeshRenderer &gt;</type>
+          <declname>skins</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="159" bodyend="232"/>
+        <references refid="class_uni_g_l_t_f_1_1_mesh_export_info_1ab8b4d6cea3bebe3383e3ef539eb98e5b" compoundref="_mesh_export_info_8cs" startline="54" endline="67">UniGLTF.MeshExportInfo.TryGetSameMeshIndex</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1gltf_exporter_1ac64c4237bfa5b79ae551bc941dc623a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.gltfExporter.FixName</definition>
+        <argsstring>(glTF gltf)</argsstring>
+        <name>FixName</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>gltf</declname>
+        </param>
+        <briefdescription>
+<para>GlbLowPevelParser.FixNameUnique で付与した Suffix を remove </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="410" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="410" bodyend="434"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" compoundref="gltf_exporter_8cs" startline="239" endline="405">UniGLTF.gltfExporter.Export</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="968">
+        <label>VRM.VRMExporter</label>
+        <link refid="class_v_r_m_1_1_v_r_m_exporter"/>
+        <childnode refid="966" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="967">
+        <label>IDisposable</label>
+      </node>
+      <node id="966">
+        <label>UniGLTF.gltfExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1gltf_exporter"/>
+        <childnode refid="967" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="973">
+        <label>UniGLTF.glTF</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f"/>
+        <childnode refid="974" relation="public-inheritance">
+        </childnode>
+        <childnode refid="975" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="976" relation="usage">
+          <edgelabel>asset</edgelabel>
+        </childnode>
+      </node>
+      <node id="975">
+        <label>UniGLTF.glTFExtension</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_extension"/>
+      </node>
+      <node id="972">
+        <label>VRMShaders.ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+      <node id="974">
+        <label>IEquatable&lt; glTF &gt;</label>
+      </node>
+      <node id="976">
+        <label>UniGLTF.glTFAssets</label>
+        <link refid="class_uni_g_l_t_f_1_1gl_t_f_assets"/>
+        <childnode refid="975" relation="usage">
+          <edgelabel>extensions</edgelabel>
+          <edgelabel>extras</edgelabel>
+        </childnode>
+      </node>
+      <node id="981">
+        <label>VRMShaders.ITextureSerializer</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_serializer"/>
+      </node>
+      <node id="979">
+        <label>VRMShaders.TextureExporter</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_exporter"/>
+        <childnode refid="970" relation="public-inheritance">
+        </childnode>
+        <childnode refid="980" relation="public-inheritance">
+        </childnode>
+        <childnode refid="981" relation="usage">
+          <edgelabel>_textureSerializer</edgelabel>
+        </childnode>
+      </node>
+      <node id="970">
+        <label>IDisposable</label>
+      </node>
+      <node id="969">
+        <label>UniGLTF.gltfExporter</label>
+        <link refid="class_uni_g_l_t_f_1_1gltf_exporter"/>
+        <childnode refid="970" relation="public-inheritance">
+        </childnode>
+        <childnode refid="971" relation="usage">
+          <edgelabel>m_settings</edgelabel>
+        </childnode>
+        <childnode refid="972" relation="usage">
+          <edgelabel>TextureExporter</edgelabel>
+        </childnode>
+        <childnode refid="973" relation="usage">
+          <edgelabel>_gltf</edgelabel>
+        </childnode>
+        <childnode refid="977" relation="usage">
+          <edgelabel>_data</edgelabel>
+        </childnode>
+        <childnode refid="979" relation="usage">
+          <edgelabel>_textureExporter</edgelabel>
+        </childnode>
+      </node>
+      <node id="977">
+        <label>UniGLTF.ExportingGltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_exporting_gltf_data"/>
+        <childnode refid="978" relation="usage">
+          <edgelabel>_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="978">
+        <label>UniGLTF.IBytesBuffer</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_bytes_buffer"/>
+      </node>
+      <node id="980">
+        <label>ITextureExporter</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_texture_exporter"/>
+      </node>
+      <node id="971">
+        <label>UniGLTF.GltfExportSettings</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_export_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/gltfExporter.cs" bodystart="11" bodyend="436"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a363e90d3558c7f49e06496054263357a" prot="protected" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>_data</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a4e715055393b56c6a79472abe0001914" prot="protected" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>_gltf</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a2839bae83df650880359a6169be97ed2" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>_textureExporter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a982dbf98a5d3d3dfe5986d23d33d8b05" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>Copy</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a221a1f0c5b2e8ddac4ca50378b166932" prot="protected" virt="virtual"><scope>UniGLTF::gltfExporter</scope><name>CreateMaterialExporter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ae4200a52f12491488ff8bda739506d9a" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>Dispose</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab5a1edf31df73a30ed3c985bc9be407b" prot="public" virt="virtual"><scope>UniGLTF::gltfExporter</scope><name>Export</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1acee5bf36dafd30a174ceac6fdb2cd9fe" prot="public" virt="virtual"><scope>UniGLTF::gltfExporter</scope><name>ExportExtensions</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1aeebefa8b7ee1f9bddff32a05f668b609" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>ExportNode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af64fee939a742c7cb94929e2ea321365" prot="protected" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>ExtensionUsed</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ac64c4237bfa5b79ae551bc941dc623a6" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>FixName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a5f49b1a3395f46e769e0c31738a21719" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>gltfExporter</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ab2c5a10cacd2d449978787f481271af8" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>m_progress</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a8730a321df0e26d05640a86a0cfc0db4" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>m_settings</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a7a37dd1bbcfe6c9686cde0de46035747" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>m_tmpParent</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad49e4f87a0bb069eda7f5f5ea7a89fac" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>Materials</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a64bb6e7c492d75fae88124de14dd83ca" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>MeshBlendShapeIndexMap</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af156d33ce44923d09ce98d7c9713d7aa" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>Meshes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1af1872393355e674e639cc5bfc0179ade" prot="public" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>Nodes</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a77c84cede03e2aef874568649396de7d" prot="public" virt="virtual"><scope>UniGLTF::gltfExporter</scope><name>Prepare</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1ad60ea4b8e92adb90b76e21e55c2959cb" prot="private" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>ReportProgress</name></member>
+      <member refid="class_uni_g_l_t_f_1_1gltf_exporter_1a6b475f5c3a379ec790c154a2e5e844b1" prot="protected" virt="non-virtual"><scope>UniGLTF::gltfExporter</scope><name>TextureExporter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

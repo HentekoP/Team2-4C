@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_formatter_8cs" kind="file">
+    <compoundname>IFormatter.cs</compoundname>
+    <innerclass refid="interface_uni_j_s_o_n_1_1_i_formatter" prot="public">UniJSON::IFormatter</innerclass>
+    <innernamespace refid="namespace_uni_j_s_o_n">UniJSON</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniJSON</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_uni_j_s_o_n_1_1_i_formatter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_uni_j_s_o_n_1_1_i_formatter" kindref="compound">IFormatter</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_store" kindref="compound">IStore</ref><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a57fef74788a6f6fea5bd4ff83f1cf8ed" kindref="member">GetStore</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a19a3deafaa51c6d82774a68933d8403b" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a34deea15b5d07df8631a9a7fa135b80e" kindref="member">BeginList</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1aaf03e9d4b3dd0b8a9a54560ea973811a" kindref="member">EndList</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a8151ae476713418314654a2eaf2a901e" kindref="member">BeginMap</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a638f0486d829a74d701063ed95b65651" kindref="member">EndMap</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a1bcd5cc22955d25c8b70be7c29eb77c4" kindref="member">Key</ref>(<ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref><sp/>x);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a32364b56b42ecde87544ff7918ea1d98" kindref="member">Null</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(<ref refid="struct_uni_j_s_o_n_1_1_utf8_string" kindref="compound">Utf8String</ref><sp/>x);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(<ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27118326006d3829667a400ad23d5d98" kindref="member">String</ref><sp/>x);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(ArraySegment&lt;Byte&gt;<sp/>bytes);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(<ref refid="namespace_uni_j_s_o_n_1ab8499234666511d68f6a55dae865ab82a27226c864bac7454a8504f8edb15d95b" kindref="member">Boolean</ref><sp/>x);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Byte<sp/>x);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(UInt16<sp/>x);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(UInt32<sp/>x);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(UInt64<sp/>x);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(SByte<sp/>x);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Int16<sp/>x);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Int32<sp/>x);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Int64<sp/>x);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Single<sp/>x);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(Double<sp/>x);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_uni_j_s_o_n_1_1_i_formatter_1a6a7f095861b09f314461d5546973b368" kindref="member">Value</ref>(DateTimeOffset<sp/>x);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniJSON/IFormatter.cs"/>
+  </compounddef>
+</doxygen>

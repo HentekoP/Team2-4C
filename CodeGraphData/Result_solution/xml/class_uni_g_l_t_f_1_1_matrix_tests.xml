@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_matrix_tests" kind="class" prot="public">
+    <compoundname>UniGLTF::MatrixTests</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1a191f7634fd3b4dd8d443cc8a94faea49" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MatrixTests.AssertFloat</definition>
+        <argsstring>(float expected, float value, string template, float epsilon=1e-5f)</argsstring>
+        <name>AssertFloat</name>
+        <param>
+          <type>float</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>template</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>epsilon</declname>
+          <defval>1e-5f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="8" bodyend="11"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1a352a61e2414fe70bef1a60c9887c3c22" compoundref="_matrix_tests_8cs" startline="13" endline="19">UniGLTF.MatrixTests.AssertQuaternion</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1a1c1c821e6033e1aab1b5d5fbf1909f10" compoundref="_matrix_tests_8cs" startline="21" endline="26">UniGLTF.MatrixTests.AssertVec3</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1a352a61e2414fe70bef1a60c9887c3c22" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MatrixTests.AssertQuaternion</definition>
+        <argsstring>(in Quaternion expected, in Quaternion value, string message)</argsstring>
+        <name>AssertQuaternion</name>
+        <param>
+          <type>in Quaternion</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>in Quaternion</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="13" bodyend="19"/>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1a191f7634fd3b4dd8d443cc8a94faea49" compoundref="_matrix_tests_8cs" startline="8" endline="11">UniGLTF.MatrixTests.AssertFloat</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" compoundref="_matrix_tests_8cs" startline="28" endline="35">UniGLTF.MatrixTests.AssertExtract</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1a1c1c821e6033e1aab1b5d5fbf1909f10" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MatrixTests.AssertVec3</definition>
+        <argsstring>(in Vector3 expected, in Vector3 value, string message)</argsstring>
+        <name>AssertVec3</name>
+        <param>
+          <type>in <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>in <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="21" bodyend="26"/>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1a191f7634fd3b4dd8d443cc8a94faea49" compoundref="_matrix_tests_8cs" startline="8" endline="11">UniGLTF.MatrixTests.AssertFloat</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" compoundref="_matrix_tests_8cs" startline="28" endline="35">UniGLTF.MatrixTests.AssertExtract</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MatrixTests.AssertExtract</definition>
+        <argsstring>(in Vector3 t, in Quaternion r, in Vector3 s)</argsstring>
+        <name>AssertExtract</name>
+        <param>
+          <type>in <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>in Quaternion</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>in <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="28" bodyend="35"/>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1a352a61e2414fe70bef1a60c9887c3c22" compoundref="_matrix_tests_8cs" startline="13" endline="19">UniGLTF.MatrixTests.AssertQuaternion</references>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1a1c1c821e6033e1aab1b5d5fbf1909f10" compoundref="_matrix_tests_8cs" startline="21" endline="26">UniGLTF.MatrixTests.AssertVec3</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1a6fa35d4f49c26a5b0010f506eb0151b2" compoundref="_matrix_tests_8cs" startline="44" endline="47">UniGLTF.MatrixTests.ExtractMirror_MinusX</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_matrix_tests_1aec50d10acf2dea0f3362402a404b8385" compoundref="_matrix_tests_8cs" startline="38" endline="41">UniGLTF.MatrixTests.ExtractTest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1aec50d10acf2dea0f3362402a404b8385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MatrixTests.ExtractTest</definition>
+        <argsstring>()</argsstring>
+        <name>ExtractTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="38" bodyend="41"/>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" compoundref="_matrix_tests_8cs" startline="28" endline="35">UniGLTF.MatrixTests.AssertExtract</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_matrix_tests_1a6fa35d4f49c26a5b0010f506eb0151b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.MatrixTests.ExtractMirror_MinusX</definition>
+        <argsstring>()</argsstring>
+        <name>ExtractMirror_MinusX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="44" bodyend="47"/>
+        <references refid="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" compoundref="_matrix_tests_8cs" startline="28" endline="35">UniGLTF.MatrixTests.AssertExtract</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniGLTF/MatrixTests.cs" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1ac54f8a3d1cc81bca4c5281a03a54026d" prot="private" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>AssertExtract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1a191f7634fd3b4dd8d443cc8a94faea49" prot="private" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>AssertFloat</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1a352a61e2414fe70bef1a60c9887c3c22" prot="private" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>AssertQuaternion</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1a1c1c821e6033e1aab1b5d5fbf1909f10" prot="private" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>AssertVec3</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1a6fa35d4f49c26a5b0010f506eb0151b2" prot="public" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>ExtractMirror_MinusX</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_matrix_tests_1aec50d10acf2dea0f3362402a404b8385" prot="public" virt="non-virtual"><scope>UniGLTF::MatrixTests</scope><name>ExtractTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

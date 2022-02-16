@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_serialized_property_editor" kind="class" prot="public">
+    <compoundname>UniGLTF::SerializedPropertyEditor</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1add4620b37fea89abe788b97f726e8ee8" prot="protected" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject UniGLTF.SerializedPropertyEditor.m_serializedObject</definition>
+        <argsstring></argsstring>
+        <name>m_serializedObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a004eff3a624c92f09a02e539fb2a0251" compoundref="_serialized_property_editor_8cs" startline="14" endline="18">UniGLTF.SerializedPropertyEditor.SerializedPropertyEditor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1a122bc7a109adbe21ed9d996da6d2c548" prot="protected" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UniGLTF.SerializedPropertyEditor.m_rootProperty</definition>
+        <argsstring></argsstring>
+        <name>m_rootProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1af836458ae3cfc77f6032d8a7946cb475" compoundref="_serialized_property_editor_8cs" startline="30" endline="41">UniGLTF.SerializedPropertyEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a004eff3a624c92f09a02e539fb2a0251" compoundref="_serialized_property_editor_8cs" startline="14" endline="18">UniGLTF.SerializedPropertyEditor.SerializedPropertyEditor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1a004eff3a624c92f09a02e539fb2a0251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.SerializedPropertyEditor.SerializedPropertyEditor</definition>
+        <argsstring>(SerializedObject serializedObject, SerializedProperty property)</argsstring>
+        <name>SerializedPropertyEditor</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObject</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="14" bodyend="18"/>
+        <references refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a122bc7a109adbe21ed9d996da6d2c548" compoundref="_serialized_property_editor_8cs" startline="12">UniGLTF.SerializedPropertyEditor.m_rootProperty</references>
+        <references refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1add4620b37fea89abe788b97f726e8ee8" compoundref="_serialized_property_editor_8cs" startline="11">UniGLTF.SerializedPropertyEditor.m_serializedObject</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a876907c13ca6e0f877867eb8a9321327" compoundref="_serialized_property_editor_8cs" startline="20" endline="28">UniGLTF.SerializedPropertyEditor.Create</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1af836458ae3cfc77f6032d8a7946cb475" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniGLTF.SerializedPropertyEditor.OnInspectorGUI</definition>
+        <argsstring>(bool updateApply=true)</argsstring>
+        <name>OnInspectorGUI</name>
+        <param>
+          <type>bool</type>
+          <declname>updateApply</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="30" bodyend="41"/>
+        <references refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a122bc7a109adbe21ed9d996da6d2c548" compoundref="_serialized_property_editor_8cs" startline="12">UniGLTF.SerializedPropertyEditor.m_rootProperty</references>
+        <references refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a79ba6cf417ce86c3c25794a729d5162f" compoundref="_serialized_property_editor_8cs" startline="43" endline="61">UniGLTF.SerializedPropertyEditor.RecursiveProperty</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1a876907c13ca6e0f877867eb8a9321327" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_serialized_property_editor" kindref="compound">SerializedPropertyEditor</ref></type>
+        <definition>static SerializedPropertyEditor UniGLTF.SerializedPropertyEditor.Create</definition>
+        <argsstring>(SerializedObject serializedObject, string name)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="20" bodyend="28"/>
+        <references refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a004eff3a624c92f09a02e539fb2a0251" compoundref="_serialized_property_editor_8cs" startline="14" endline="18">UniGLTF.SerializedPropertyEditor.SerializedPropertyEditor</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_serialized_property_editor_1a79ba6cf417ce86c3c25794a729d5162f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UniGLTF.SerializedPropertyEditor.RecursiveProperty</definition>
+        <argsstring>(SerializedProperty root)</argsstring>
+        <name>RecursiveProperty</name>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="43" bodyend="61"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1af836458ae3cfc77f6032d8a7946cb475" compoundref="_serialized_property_editor_8cs" startline="30" endline="41">UniGLTF.SerializedPropertyEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ScriptableObject や MonoBehaviour の部分の Editor を表示する。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/SerializedPropertyEditor.cs" bodystart="9" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a876907c13ca6e0f877867eb8a9321327" prot="public" virt="non-virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>Create</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a122bc7a109adbe21ed9d996da6d2c548" prot="protected" virt="non-virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>m_rootProperty</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1add4620b37fea89abe788b97f726e8ee8" prot="protected" virt="non-virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>m_serializedObject</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1af836458ae3cfc77f6032d8a7946cb475" prot="public" virt="non-virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a79ba6cf417ce86c3c25794a729d5162f" prot="protected" virt="virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>RecursiveProperty</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_serialized_property_editor_1a004eff3a624c92f09a02e539fb2a0251" prot="public" virt="non-virtual"><scope>UniGLTF::SerializedPropertyEditor</scope><name>SerializedPropertyEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

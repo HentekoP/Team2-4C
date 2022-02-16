@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bone_gizmo_drawer" kind="class" prot="public">
+    <compoundname>UniHumanoid::BoneGizmoDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_gizmo_drawer_1a4706f61867a736d4348c1031ac090230" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float UniHumanoid.BoneGizmoDrawer.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <initializer>= 0.03f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_gizmo_drawer_1ad15d2d022996b2bf650667ea30b94cdb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>readonly Vector3 UniHumanoid.BoneGizmoDrawer.SIZE</definition>
+        <argsstring></argsstring>
+        <name>SIZE</name>
+        <initializer>= new <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref>(<ref refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a4706f61867a736d4348c1031ac090230" kindref="member">size</ref>, <ref refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a4706f61867a736d4348c1031ac090230" kindref="member">size</ref>, <ref refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a4706f61867a736d4348c1031ac090230" kindref="member">size</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a59cf93d84c9c9ac56a979c42f9124894" compoundref="_bone_gizmo_drawer_8cs" startline="14" endline="26">UniHumanoid.BoneGizmoDrawer.OnDrawGizmos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bone_gizmo_drawer_1a712e749c1ed1906b12d602c8c8746c7f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UniHumanoid.BoneGizmoDrawer.Draw</definition>
+        <argsstring></argsstring>
+        <name>Draw</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a59cf93d84c9c9ac56a979c42f9124894" compoundref="_bone_gizmo_drawer_8cs" startline="14" endline="26">UniHumanoid.BoneGizmoDrawer.OnDrawGizmos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bone_gizmo_drawer_1a59cf93d84c9c9ac56a979c42f9124894" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BoneGizmoDrawer.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" bodystart="14" bodyend="26"/>
+        <references refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a712e749c1ed1906b12d602c8c8746c7f" compoundref="_bone_gizmo_drawer_8cs" startline="12">UniHumanoid.BoneGizmoDrawer.Draw</references>
+        <references refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1ad15d2d022996b2bf650667ea30b94cdb" compoundref="_bone_gizmo_drawer_8cs" startline="9">UniHumanoid.BoneGizmoDrawer.SIZE</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="293">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="292">
+        <label>UniHumanoid.BoneGizmoDrawer</label>
+        <link refid="class_uni_humanoid_1_1_bone_gizmo_drawer"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="296">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="297">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="295">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="294">
+        <label>UniHumanoid.BoneGizmoDrawer</label>
+        <link refid="class_uni_humanoid_1_1_bone_gizmo_drawer"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>SIZE</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/BoneGizmoDrawer.cs" bodystart="6" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a712e749c1ed1906b12d602c8c8746c7f" prot="public" virt="non-virtual"><scope>UniHumanoid::BoneGizmoDrawer</scope><name>Draw</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a59cf93d84c9c9ac56a979c42f9124894" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneGizmoDrawer</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1a4706f61867a736d4348c1031ac090230" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneGizmoDrawer</scope><name>size</name></member>
+      <member refid="class_uni_humanoid_1_1_bone_gizmo_drawer_1ad15d2d022996b2bf650667ea30b94cdb" prot="private" virt="non-virtual"><scope>UniHumanoid::BoneGizmoDrawer</scope><name>SIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

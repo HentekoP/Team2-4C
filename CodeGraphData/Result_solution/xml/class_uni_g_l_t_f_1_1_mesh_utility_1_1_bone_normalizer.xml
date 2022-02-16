@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer" kind="class" prot="public">
+    <compoundname>UniGLTF::MeshUtility::BoneNormalizer</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1_1_blend_shape_report" prot="private">UniGLTF::MeshUtility::BoneNormalizer::BlendShapeReport</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static UniGLTF.MeshUtility.BoneNormalizer::GameObject</definition>
+        <argsstring></argsstring>
+        <name>GameObject</name>
+        <briefdescription>
+<para>回転とスケールを除去したヒエラルキーのコピーを作成する(MeshをBakeする) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>go</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>対象のヒエラルキーのルート</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bakeCurrentBlendShape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>BlendShapeを0クリアするか否か。false の場合 <ref refid="class_uni_g_l_t_f_1_1_blend_shape" kindref="compound">BlendShape</ref> の現状を Bake する</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>createAvatar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Avatarを作る関数</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a53dcde77e040ab83158a1739c7879b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate Avatar</type>
+        <definition>delegate Avatar UniGLTF.MeshUtility.BoneNormalizer.CreateAvatarFunc</definition>
+        <argsstring>(GameObject original, GameObject normalized, Dictionary&lt; Transform, Transform &gt; boneMap)</argsstring>
+        <name>CreateAvatarFunc</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" kindref="member">GameObject</ref></type>
+          <declname>original</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" kindref="member">GameObject</ref></type>
+          <declname>normalized</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Transform, Transform &gt;</type>
+          <declname>boneMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1ade5ff0951447588f1a007eb841a5d784" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; Transform, Transform &gt;</type>
+        <definition>static Dictionary&lt;Transform, Transform&gt; UniGLTF.MeshUtility.BoneNormalizer.NormalizeHierarchy</definition>
+        <argsstring>(GameObject go, CreateAvatarFunc createAvatar)</argsstring>
+        <name>NormalizeHierarchy</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" kindref="member">GameObject</ref></type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a53dcde77e040ab83158a1739c7879b64" kindref="member">CreateAvatarFunc</ref></type>
+          <declname>createAvatar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="13" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a7cd01092701a491a2d768912aecb77ff" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MeshUtility.BoneNormalizer.CopyAndBuild</definition>
+        <argsstring>(Transform src, Transform dst, Dictionary&lt; Transform, Transform &gt; boneMap)</argsstring>
+        <name>CopyAndBuild</name>
+        <param>
+          <type>Transform</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Transform, Transform &gt;</type>
+          <declname>boneMap</declname>
+        </param>
+        <briefdescription>
+<para>回転とスケールを除去したヒエラルキーをコピーする。 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="42" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a8ea4b4094dadce07463eaeb37c55f017" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UniGLTF.MeshUtility.BoneNormalizer.CopyOrDropWeight</definition>
+        <argsstring>(int[] indexMap, int srcIndex, float weight, Action&lt; int, float &gt; setter)</argsstring>
+        <name>CopyOrDropWeight</name>
+        <param>
+          <type>int[]</type>
+          <declname>indexMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcIndex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>Action&lt; int, float &gt;</type>
+          <declname>setter</declname>
+        </param>
+        <briefdescription>
+<para>index が 有効であれば、setter に weight を渡す。無効であれば setter に 0 を渡す。 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>indexMap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>srcIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>weight</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>setter</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="113" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1acfd856fbb9736fc801b25f794fa685b5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MeshUtility.BoneNormalizer.NormalizeSkinnedMesh</definition>
+        <argsstring>(Transform src, Transform dst, Dictionary&lt; Transform, Transform &gt; boneMap)</argsstring>
+        <name>NormalizeSkinnedMesh</name>
+        <param>
+          <type>Transform</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Transform, Transform &gt;</type>
+          <declname>boneMap</declname>
+        </param>
+        <briefdescription>
+<para>srcのSkinnedMeshRendererを正規化して、dstにアタッチする </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>正規化前のSkinnedMeshRendererのTransform</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>正規化後のSkinnedMeshRendererのTransform</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boneMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>正規化前のボーンから正規化後のボーンを得る</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="225" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="225" bodyend="443"/>
+        <references refid="struct_unity_engine_1_1_vector3_1a47765d86bc421030637957c6cb3aaac3" compoundref="_unity_engine_compatibility_8cs" startline="23">UnityEngine.Vector3.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a792ff96f0296f5542f11d19af85973f1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.MeshUtility.BoneNormalizer.NormalizeNoneSkinnedMesh</definition>
+        <argsstring>(Transform src, Transform dst)</argsstring>
+        <name>NormalizeNoneSkinnedMesh</name>
+        <param>
+          <type>Transform</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="450" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="450" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a73e6915214f55d0f68e5feedc0fcb5e7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; Transform, Transform &gt;</type>
+        <definition>static Dictionary&lt;Transform, Transform&gt; UniGLTF.MeshUtility.BoneNormalizer.Execute</definition>
+        <argsstring>(GameObject go, CreateAvatarFunc createAvatar)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" kindref="member">GameObject</ref></type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a53dcde77e040ab83158a1739c7879b64" kindref="member">CreateAvatarFunc</ref></type>
+          <declname>createAvatar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="485" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="485" bodyend="509"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1acf9a4bef033c8ccbe4073fb301ca8667" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BoneWeight[]</type>
+        <definition>static BoneWeight [] UniGLTF.MeshUtility.BoneNormalizer.MapBoneWeight</definition>
+        <argsstring>(BoneWeight[] src, Dictionary&lt; Transform, Transform &gt; boneMap, Transform[] srcBones, Transform[] dstBones)</argsstring>
+        <name>MapBoneWeight</name>
+        <param>
+          <type>BoneWeight[]</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Transform, Transform &gt;</type>
+          <declname>boneMap</declname>
+        </param>
+        <param>
+          <type>Transform[]</type>
+          <declname>srcBones</declname>
+        </param>
+        <param>
+          <type>Transform[]</type>
+          <declname>dstBones</declname>
+        </param>
+        <briefdescription>
+<para>BoneWeight[] src から新しいボーンウェイトを作成する。 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>変更前のBoneWeight[]</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boneMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>新旧のボーンの対応表。新しい方は無効なボーンが除去されてnullの部分がある</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>srcBones</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>変更前のボーン配列</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dstBones</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>変更後のボーン配列。除去されたボーンがある場合、変更前より短い</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="145" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="145" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/MeshUtility/BoneNormalizer.cs" bodystart="9" bodyend="510"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a7cd01092701a491a2d768912aecb77ff" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>CopyAndBuild</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a8ea4b4094dadce07463eaeb37c55f017" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>CopyOrDropWeight</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a53dcde77e040ab83158a1739c7879b64" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>CreateAvatarFunc</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a73e6915214f55d0f68e5feedc0fcb5e7" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>Execute</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a36c7b1d7b2eccb060247bb44471ce432" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>GameObject</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1acf9a4bef033c8ccbe4073fb301ca8667" prot="public" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>MapBoneWeight</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1ade5ff0951447588f1a007eb841a5d784" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>NormalizeHierarchy</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1a792ff96f0296f5542f11d19af85973f1" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>NormalizeNoneSkinnedMesh</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_mesh_utility_1_1_bone_normalizer_1acfd856fbb9736fc801b25f794fa685b5" prot="private" virt="non-virtual"><scope>UniGLTF::MeshUtility::BoneNormalizer</scope><name>NormalizeSkinnedMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

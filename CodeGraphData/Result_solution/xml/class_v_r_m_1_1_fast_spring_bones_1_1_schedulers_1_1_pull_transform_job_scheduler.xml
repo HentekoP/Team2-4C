@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler" kind="class" prot="public">
+    <compoundname>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="struct_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1_1_job" prot="private">VRM::FastSpringBones::Schedulers::PullTransformJobScheduler::Job</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a11d5955464d145a254f4ec24967da231" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform" kindref="compound">BlittableTransform</ref> **</type>
+        <definition>BlittableTransform** VRM.FastSpringBones.Schedulers.PullTransformJobScheduler._transformPointers</definition>
+        <argsstring></argsstring>
+        <name>_transformPointers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a70b95d75ec2f38ae1c2e157d527de131" prot="private" static="no" mutable="no">
+        <type>TransformAccessArray</type>
+        <definition>TransformAccessArray VRM.FastSpringBones.Schedulers.PullTransformJobScheduler._transformAccessArray</definition>
+        <argsstring></argsstring>
+        <name>_transformAccessArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1ac49575624dfec7ca1fb8f806ab8ad2aa" prot="private" static="no" mutable="no">
+        <type>readonly CustomSampler</type>
+        <definition>readonly CustomSampler VRM.FastSpringBones.Schedulers.PullTransformJobScheduler._sampler</definition>
+        <argsstring></argsstring>
+        <name>_sampler</name>
+        <initializer>= CustomSampler.Create(&quot;Schedule CopyFromTransformJob&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a4d2bcd17ade1d145d2e3545bdd1f1268" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref></type>
+        <definition>readonly TransformRegistry VRM.FastSpringBones.Schedulers.PullTransformJobScheduler._transformRegistry</definition>
+        <argsstring></argsstring>
+        <name>_transformRegistry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a814ad17bc9ecf467988005084a57fb3f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VRM.FastSpringBones.Schedulers.PullTransformJobScheduler._dirty</definition>
+        <argsstring></argsstring>
+        <name>_dirty</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1acba7cd94b95157cae9c06d23fc71b74d" prot="private" static="no" mutable="no">
+        <type>IReadOnlyList&lt; <ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_native_wrappers_1_1_native_transform" kindref="compound">NativeTransform</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;NativeTransform&gt; VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.Targets</definition>
+        <argsstring></argsstring>
+        <name>Targets</name>
+        <initializer>=&gt; _transformRegistry.PullTargets</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a2212cbbd45e40ea3d8ee666ad802b64a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.PullTransformJobScheduler</definition>
+        <argsstring>(TransformRegistry transformRegistry)</argsstring>
+        <name>PullTransformJobScheduler</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry" kindref="compound">TransformRegistry</ref></type>
+          <declname>transformRegistry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a6d3300b4f5a77c26a6d8bedd5d76a488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JobHandle</type>
+        <definition>JobHandle VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.Schedule</definition>
+        <argsstring>(JobHandle dependOn=default(JobHandle))</argsstring>
+        <name>Schedule</name>
+        <param>
+          <type>JobHandle</type>
+          <declname>dependOn</declname>
+          <defval>default(JobHandle)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="44" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="44" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a06dcf13be38987c06340804312ed31b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="90" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="90" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a6a34106e6969947a0ac459f69aa4b68c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.OnTransformChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnTransformChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a5de75e986d3a5fffda40effe0930efcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.ReconstructBuffers</definition>
+        <argsstring>()</argsstring>
+        <name>ReconstructBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="70" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a2e1976617978606081131439c4235ebc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Schedulers.PullTransformJobScheduler.ReleaseBuffers</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="96" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="96" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>GameObjectの世界からBlittableな世界へTransformを複製する処理を行うクラス </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2049">
+        <label>VRM.FastSpringBones.Schedulers.PullTransformJobScheduler</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler"/>
+        <childnode refid="2050" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2050">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2055">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2056" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2055" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2056">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2051">
+        <label>VRM.FastSpringBones.Schedulers.PullTransformJobScheduler</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler"/>
+        <childnode refid="2052" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2053" relation="usage">
+          <edgelabel>_transformRegistry</edgelabel>
+        </childnode>
+        <childnode refid="2054" relation="usage">
+          <edgelabel>_transformPointers</edgelabel>
+        </childnode>
+      </node>
+      <node id="2052">
+        <label>IDisposable</label>
+      </node>
+      <node id="2053">
+        <label>VRM.FastSpringBones.Registries.TransformRegistry</label>
+        <link refid="class_v_r_m_1_1_fast_spring_bones_1_1_registries_1_1_transform_registry"/>
+      </node>
+      <node id="2054">
+        <label>VRM.FastSpringBones.Blittables.BlittableTransform</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_transform"/>
+        <childnode refid="2055" relation="usage">
+          <edgelabel>_localPosition</edgelabel>
+          <edgelabel>_localScale</edgelabel>
+        </childnode>
+        <childnode refid="2054" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" line="21" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs" bodystart="20" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a814ad17bc9ecf467988005084a57fb3f" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>_dirty</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1ac49575624dfec7ca1fb8f806ab8ad2aa" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>_sampler</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a70b95d75ec2f38ae1c2e157d527de131" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>_transformAccessArray</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a11d5955464d145a254f4ec24967da231" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>_transformPointers</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a4d2bcd17ade1d145d2e3545bdd1f1268" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>_transformRegistry</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a06dcf13be38987c06340804312ed31b0" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>Dispose</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a6a34106e6969947a0ac459f69aa4b68c" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>OnTransformChanged</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a2212cbbd45e40ea3d8ee666ad802b64a" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>PullTransformJobScheduler</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a5de75e986d3a5fffda40effe0930efcf" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>ReconstructBuffers</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a2e1976617978606081131439c4235ebc" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>ReleaseBuffers</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1a6d3300b4f5a77c26a6d8bedd5d76a488" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>Schedule</name></member>
+      <member refid="class_v_r_m_1_1_fast_spring_bones_1_1_schedulers_1_1_pull_transform_job_scheduler_1acba7cd94b95157cae9c06d23fc71b74d" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Schedulers::PullTransformJobScheduler</scope><name>Targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

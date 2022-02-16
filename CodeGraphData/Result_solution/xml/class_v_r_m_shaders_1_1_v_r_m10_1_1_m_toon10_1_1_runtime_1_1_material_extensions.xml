@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions" kind="class" prot="public">
+    <compoundname>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a96aa8af944741aa0514568168918725e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.SetKeyword</definition>
+        <argsstring>(this Material mat, string keyword, bool isEnabled)</argsstring>
+        <name>SetKeyword</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>keyword</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="8" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a3308d45d1f0504f78942865f8806b2f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetInt</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetInt</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a3c1dc06cb8557d5cce65e39c70171c25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.SetInt</definition>
+        <argsstring>(this Material mat, MToon10Prop prop, int val)</argsstring>
+        <name>SetInt</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="25" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1abf4e34372b1d6179121453e9700a477a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>static Texture VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetTexture</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetTexture</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a8452fc63c239913283dcf69f64e683b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+        <definition>static Vector2 VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetTextureScale</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetTextureScale</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1afcb42490d194a3388113fa5dfb94d9c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector2" kindref="compound">Vector2</ref></type>
+        <definition>static Vector2 VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetTextureOffset</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetTextureOffset</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1ae0e21e4410925953fd1ba12f29583aa3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetFloat</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetFloat</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a69c04f4dbf720853b5365b7ed98aaab6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color VRMShaders.VRM10.MToon10.Runtime.MaterialExtensions.GetColor</definition>
+        <argsstring>(this Material mat, MToon10Prop prop)</argsstring>
+        <name>GetColor</name>
+        <param>
+          <type>this Material</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1a5e5c497fd36260cac78779a28141b9a5" kindref="member">MToon10Prop</ref></type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="50" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM10/MToon10/Runtime/Extensions/MaterialExtensions.cs" bodystart="6" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a69c04f4dbf720853b5365b7ed98aaab6" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetColor</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1ae0e21e4410925953fd1ba12f29583aa3" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetFloat</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a3308d45d1f0504f78942865f8806b2f4" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetInt</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1abf4e34372b1d6179121453e9700a477a" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetTexture</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1afcb42490d194a3388113fa5dfb94d9c7" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetTextureOffset</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a8452fc63c239913283dcf69f64e683b6" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>GetTextureScale</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a3c1dc06cb8557d5cce65e39c70171c25" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>SetInt</name></member>
+      <member refid="class_v_r_m_shaders_1_1_v_r_m10_1_1_m_toon10_1_1_runtime_1_1_material_extensions_1a96aa8af944741aa0514568168918725e" prot="public" virt="non-virtual"><scope>VRMShaders::VRM10::MToon10::Runtime::MaterialExtensions</scope><name>SetKeyword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

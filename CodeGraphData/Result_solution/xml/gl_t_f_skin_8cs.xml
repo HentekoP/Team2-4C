@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="gl_t_f_skin_8cs" kind="file">
+    <compoundname>glTFSkin.cs</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1gl_t_f_skin" prot="public">UniGLTF::glTFSkin</innerclass>
+    <innernamespace refid="namespace_uni_g_l_t_f">UniGLTF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UniJSON;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UniGLTF</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="7" refid="class_uni_g_l_t_f_1_1gl_t_f_skin" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin" kindref="compound">glTFSkin</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonSchema(Minimum<sp/>=<sp/>0,<sp/>ExplicitIgnorableValue<sp/>=<sp/>-1)]</highlight></codeline>
+<codeline lineno="10" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aff7407c291b553ed3cad267f1041f688" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aff7407c291b553ed3cad267f1041f688" kindref="member">inverseBindMatrices</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonSchema(Required<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>MinItems<sp/>=<sp/>1)]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[ItemJsonSchema(Minimum<sp/>=<sp/>0)]</highlight></codeline>
+<codeline lineno="14" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aa2f3356b449e15eea7f14e5211187562" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">[]<sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1aa2f3356b449e15eea7f14e5211187562" kindref="member">joints</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonSchema(Minimum<sp/>=<sp/>0,<sp/>ExplicitIgnorableValue<sp/>=<sp/>-1)]</highlight></codeline>
+<codeline lineno="17" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac30ee5c127211e3c4614086d177999a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac30ee5c127211e3c4614086d177999a4" kindref="member">skeleton</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>empty<sp/>schemas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac612baca2db663e650b6bd6da1334c14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ac612baca2db663e650b6bd6da1334c14" kindref="member">extensions</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1a2f1eb5e585e3108a298ab50325e6c40e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_extension" kindref="compound">glTFExtension</ref><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1a2f1eb5e585e3108a298ab50325e6c40e" kindref="member">extras</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ab8bc3d064f022d455d46778c66dcd8da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_uni_g_l_t_f_1_1gl_t_f_skin_1ab8bc3d064f022d455d46778c66dcd8da" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glTFSkin.cs"/>
+  </compounddef>
+</doxygen>

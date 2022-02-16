@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator" kind="class" prot="public">
+    <compoundname>UniGLTF::GltfTextureDescriptorGenerator</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator" prot="public" virt="non-virtual">UniGLTF.ITextureDescriptorGenerator</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1af15af61ae6ced903bbd71a2a801f77cd" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>readonly GltfData UniGLTF.GltfTextureDescriptorGenerator.m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="30" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620" compoundref="_gltf_texture_descriptor_generator_8cs" startline="38" endline="49">UniGLTF.GltfTextureDescriptorGenerator.Get</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a6f5111a06047b213c3f442f37897e401" compoundref="_gltf_texture_descriptor_generator_8cs" startline="33" endline="36">UniGLTF.GltfTextureDescriptorGenerator.GltfTextureDescriptorGenerator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a1a0990612683294c408df96818f39fe8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_v_r_m_shaders_1_1_texture_descriptor_set" kindref="compound">TextureDescriptorSet</ref></type>
+        <definition>TextureDescriptorSet UniGLTF.GltfTextureDescriptorGenerator._textureDescriptorSet</definition>
+        <argsstring></argsstring>
+        <name>_textureDescriptorSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620" compoundref="_gltf_texture_descriptor_generator_8cs" startline="38" endline="49">UniGLTF.GltfTextureDescriptorGenerator.Get</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a6f5111a06047b213c3f442f37897e401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.GltfTextureDescriptorGenerator.GltfTextureDescriptorGenerator</definition>
+        <argsstring>(GltfData data)</argsstring>
+        <name>GltfTextureDescriptorGenerator</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="33" bodyend="36"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1af15af61ae6ced903bbd71a2a801f77cd" compoundref="_gltf_texture_descriptor_generator_8cs" startline="30">UniGLTF.GltfTextureDescriptorGenerator.m_data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_shaders_1_1_texture_descriptor_set" kindref="compound">TextureDescriptorSet</ref></type>
+        <definition>TextureDescriptorSet UniGLTF.GltfTextureDescriptorGenerator.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator_1a5adb6f2d0edbc2b043e5cc5fcace6c59">Get</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="38" bodyend="49"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a1a0990612683294c408df96818f39fe8" compoundref="_gltf_texture_descriptor_generator_8cs" startline="31">UniGLTF.GltfTextureDescriptorGenerator._textureDescriptorSet</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a2eab387d156db2ab2159b2e2ee75909a" compoundref="_gltf_texture_descriptor_generator_8cs" startline="54" endline="63">UniGLTF.GltfTextureDescriptorGenerator.EnumerateAllTextures</references>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1af15af61ae6ced903bbd71a2a801f77cd" compoundref="_gltf_texture_descriptor_generator_8cs" startline="30">UniGLTF.GltfTextureDescriptorGenerator.m_data</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a2eab387d156db2ab2159b2e2ee75909a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt;(<ref refid="struct_v_r_m_shaders_1_1_sub_asset_key" kindref="compound">SubAssetKey</ref>, <ref refid="struct_v_r_m_shaders_1_1_texture_descriptor" kindref="compound">TextureDescriptor</ref>)&gt;</type>
+        <definition>static IEnumerable&lt;(SubAssetKey, TextureDescriptor)&gt; UniGLTF.GltfTextureDescriptorGenerator.EnumerateAllTextures</definition>
+        <argsstring>(GltfData data)</argsstring>
+        <name>EnumerateAllTextures</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> 全体で使うテクスチャーを列挙。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="54" bodyend="63"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_pbr_texture_importer_1a5c8f9fee818410a2d99665b71955039b" compoundref="_gltf_pbr_texture_importer_8cs" startline="8" endline="52">UniGLTF.GltfPbrTextureImporter.EnumerateAllTextures</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620" compoundref="_gltf_texture_descriptor_generator_8cs" startline="38" endline="49">UniGLTF.GltfTextureDescriptorGenerator.Get</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Texture 生成に関して Runtimeは LoadImage するだけだが、Editor時には Asset 化するにあたって続きの処理がある。 </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>(gltf/glb/vrm-1): AssetImporterContext.AddObjectToAsset(SubAsset)</para></listitem><listitem><para>(gltf/glb/vrm-1): ScriptedImporter.GetExternalObjectMap(Extracted)</para></listitem><listitem><para>(vrm-0): (Extracted) ScriptedImporter では無いので ScriptedImporter.AddRemap, GetExternalObjectMap が無い</para></listitem></itemizedlist>
+</para><para>AddRemap, GetExternalObjectMap は Dictionary[SourceAssetIdentifier, UnityEngine.Object] に対する API で SourceAssetIdentifier 型がリソースを識別するキーとなる。</para><para>gltfTexture から SourceAssetIdentifier を作り出すことで、GetExternalObjectMap との対応関係を作る。</para><para>[例外] <ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref> で外部ファイルを uri 参照する場合<itemizedlist>
+<listitem><para>sRGB 外部ファイルをそのまま使うので SubAsset にしない</para></listitem><listitem><para>normal 外部ライルをそのまま使うので SubAsset にしない(normalとしてロードするためにAssetImporterの設定は必用)</para></listitem><listitem><para>metallicRoughnessOcclusion 変換結果を SubAsset 化する </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1149">
+        <label>UniGLTF.GltfTextureDescriptorGenerator</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator"/>
+        <childnode refid="1150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1150">
+        <label>ITextureDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1154">
+        <label>UnityEngine</label>
+      </node>
+      <node id="1151">
+        <label>UniGLTF.GltfTextureDescriptorGenerator</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator"/>
+        <childnode refid="1152" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1153" relation="usage">
+          <edgelabel>m_data</edgelabel>
+        </childnode>
+        <childnode refid="1156" relation="usage">
+          <edgelabel>_textureDescriptorSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>UniGLTF.GltfData</label>
+        <link refid="class_uni_g_l_t_f_1_1_gltf_data"/>
+        <childnode refid="1154" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+        <childnode refid="1155" relation="usage">
+          <edgelabel>_storage</edgelabel>
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>VRMShaders.TextureDescriptorSet</label>
+        <link refid="class_v_r_m_shaders_1_1_texture_descriptor_set"/>
+      </node>
+      <node id="1155">
+        <label>UniGLTF.IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+      <node id="1152">
+        <label>ITextureDescriptorGenerator</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_texture_descriptor_generator"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" line="29" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/TextureIO/GltfTextureDescriptorGenerator.cs" bodystart="28" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a1a0990612683294c408df96818f39fe8" prot="private" virt="non-virtual"><scope>UniGLTF::GltfTextureDescriptorGenerator</scope><name>_textureDescriptorSet</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a2eab387d156db2ab2159b2e2ee75909a" prot="private" virt="non-virtual"><scope>UniGLTF::GltfTextureDescriptorGenerator</scope><name>EnumerateAllTextures</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a9434db7caf1a311f498994dee0901620" prot="public" virt="non-virtual"><scope>UniGLTF::GltfTextureDescriptorGenerator</scope><name>Get</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1a6f5111a06047b213c3f442f37897e401" prot="public" virt="non-virtual"><scope>UniGLTF::GltfTextureDescriptorGenerator</scope><name>GltfTextureDescriptorGenerator</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_gltf_texture_descriptor_generator_1af15af61ae6ced903bbd71a2a801f77cd" prot="private" virt="non-virtual"><scope>UniGLTF::GltfTextureDescriptorGenerator</scope><name>m_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

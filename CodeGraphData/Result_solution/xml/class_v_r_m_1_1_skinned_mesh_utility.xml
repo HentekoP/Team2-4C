@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_skinned_mesh_utility" kind="class" prot="public">
+    <compoundname>VRM::SkinnedMeshUtility</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_r_m_1_1_skinned_mesh_utility_1a4c9f916265a06e4973df8aa5882607da" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string VRM.SkinnedMeshUtility.MENU_KEY</definition>
+        <argsstring></argsstring>
+        <name>MENU_KEY</name>
+        <initializer>= &quot;GameObject/UnityEditorScripts/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_r_m_1_1_skinned_mesh_utility_1a8a97e49175cbfce26aceff49b66f7d77" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int VRM.SkinnedMeshUtility.MENU_PRIORITY</definition>
+        <argsstring></argsstring>
+        <name>MENU_PRIORITY</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_skinned_mesh_utility_1a547517b3268337517f620b23edc151ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_v_r_m_importer_context_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">Object</ref></type>
+        <definition>static Object VRM.SkinnedMeshUtility.GetPrefab</definition>
+        <argsstring>(GameObject instance)</argsstring>
+        <name>GetPrefab</name>
+        <param>
+          <type>GameObject</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="13" bodyend="20"/>
+        <referencedby refid="class_v_r_m_1_1_skinned_mesh_utility_1ab5c81597fb2d7dae5939432980690720" compoundref="_skinned_mesh_utility_8cs" startline="35" endline="50">VRM.SkinnedMeshUtility.ApplyChangesToPrefab</referencedby>
+        <referencedby refid="class_v_r_m_1_1_mesh_integrator_editor_1a7bb28b0ddbda4a1e61ac0d0fbebbcfed" compoundref="_mesh_integrator_editor_8cs" startline="130" endline="145">VRM.MeshIntegratorEditor.GetRootPrefabPath</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_skinned_mesh_utility_1a67ff83a64cb10545553f02ae4bd3ff70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.SkinnedMeshUtility.IsPrefab</definition>
+        <argsstring>(Object instance)</argsstring>
+        <name>IsPrefab</name>
+        <param>
+          <type><ref refid="_v_r_m_importer_context_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">Object</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="22" bodyend="33"/>
+        <referencedby refid="class_v_r_m_1_1_skinned_mesh_utility_1a584912c142c1fda8a4baa5e5b65d9516" compoundref="_skinned_mesh_utility_8cs" startline="52" endline="57">VRM.SkinnedMeshUtility.InstantiatePrefab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_skinned_mesh_utility_1ab5c81597fb2d7dae5939432980690720" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.SkinnedMeshUtility.ApplyChangesToPrefab</definition>
+        <argsstring>(GameObject instance)</argsstring>
+        <name>ApplyChangesToPrefab</name>
+        <param>
+          <type>GameObject</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="35" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="35" bodyend="50"/>
+        <references refid="class_v_r_m_1_1_skinned_mesh_utility_1a547517b3268337517f620b23edc151ec" compoundref="_skinned_mesh_utility_8cs" startline="13" endline="20">VRM.SkinnedMeshUtility.GetPrefab</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_skinned_mesh_utility_1a584912c142c1fda8a4baa5e5b65d9516" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject VRM.SkinnedMeshUtility.InstantiatePrefab</definition>
+        <argsstring>(GameObject prefab)</argsstring>
+        <name>InstantiatePrefab</name>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="52" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="52" bodyend="57"/>
+        <references refid="class_v_r_m_1_1_skinned_mesh_utility_1a67ff83a64cb10545553f02ae4bd3ff70" compoundref="_skinned_mesh_utility_8cs" startline="22" endline="33">VRM.SkinnedMeshUtility.IsPrefab</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/SkinnedMeshUtility/SkinnedMeshUtility.cs" bodystart="8" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1ab5c81597fb2d7dae5939432980690720" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>ApplyChangesToPrefab</name></member>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1a547517b3268337517f620b23edc151ec" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>GetPrefab</name></member>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1a584912c142c1fda8a4baa5e5b65d9516" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>InstantiatePrefab</name></member>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1a67ff83a64cb10545553f02ae4bd3ff70" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>IsPrefab</name></member>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1a4c9f916265a06e4973df8aa5882607da" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>MENU_KEY</name></member>
+      <member refid="class_v_r_m_1_1_skinned_mesh_utility_1a8a97e49175cbfce26aceff49b66f7d77" prot="public" virt="non-virtual"><scope>VRM::SkinnedMeshUtility</scope><name>MENU_PRIORITY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1_v_r_m_editor_exporter" kind="class" prot="public">
+    <compoundname>VRM::VRMEditorExporter</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1a758d05e7d6af20900ed2a07639a9d37d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] VRM.VRMEditorExporter.Export</definition>
+        <argsstring>(GameObject exportRoot, VRMMetaObject meta, VRMExportSettings settings)</argsstring>
+        <name>Export</name>
+        <param>
+          <type>GameObject</type>
+          <declname>exportRoot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+          <declname>meta</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_export_settings" kindref="compound">VRMExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Editor向けのエクスポート処理 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>出力先</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>エクスポート設定</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="19" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1a58deaab6d6752a31eb8a2be6501625cf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VRM.VRMEditorExporter.IsPrefab</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>IsPrefab</name>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="36" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1a6e5a68273e5bc4aa2f556333ae44e47e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_v_r_m_1_1_blend_shape_avatar" kindref="compound">BlendShapeAvatar</ref></type>
+        <definition>static BlendShapeAvatar VRM.VRMEditorExporter.CopyBlendShapeAvatar</definition>
+        <argsstring>(BlendShapeAvatar src, bool removeUnknown)</argsstring>
+        <name>CopyBlendShapeAvatar</name>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_avatar" kindref="compound">BlendShapeAvatar</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>removeUnknown</declname>
+        </param>
+        <briefdescription>
+<para>DeepCopy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="46" bodyend="59"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a02fdeecb78f54a5ce4bca1087095b846" compoundref="_v_r_m_editor_exporter_8cs" startline="139" endline="234">VRM.VRMEditorExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1a45d07774f94a0b815f555f6ee09d5f97" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMEditorExporter.ReplaceMesh</definition>
+        <argsstring>(GameObject target, SkinnedMeshRenderer smr, BlendShapeAvatar copyBlendShapeAvatar)</argsstring>
+        <name>ReplaceMesh</name>
+        <param>
+          <type>GameObject</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>SkinnedMeshRenderer</type>
+          <declname>smr</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_blend_shape_avatar" kindref="compound">BlendShapeAvatar</ref></type>
+          <declname>copyBlendShapeAvatar</declname>
+        </param>
+        <briefdescription>
+<para>使用されない BlendShape を間引いた Mesh を作成して置き換える </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="66" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="66" bodyend="111"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a02fdeecb78f54a5ce4bca1087095b846" compoundref="_v_r_m_editor_exporter_8cs" startline="139" endline="234">VRM.VRMEditorExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1ad0c22c44800d18958fabb2d5904cbabd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.VRMEditorExporter.ForceUniqueName</definition>
+        <argsstring>(Transform transform, Dictionary&lt; string, int &gt; nameCount)</argsstring>
+        <name>ForceUniqueName</name>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, int &gt;</type>
+          <declname>nameCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="113" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="113" bodyend="131"/>
+        <referencedby refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a02fdeecb78f54a5ce4bca1087095b846" compoundref="_v_r_m_editor_exporter_8cs" startline="139" endline="234">VRM.VRMEditorExporter.Export</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1_v_r_m_editor_exporter_1a02fdeecb78f54a5ce4bca1087095b846" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] VRM.VRMEditorExporter.Export</definition>
+        <argsstring>(GameObject exportRoot, VRMMetaObject meta, VRMExportSettings settings, List&lt; GameObject &gt; destroy)</argsstring>
+        <name>Export</name>
+        <param>
+          <type>GameObject</type>
+          <declname>exportRoot</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_meta_object" kindref="compound">VRMMetaObject</ref></type>
+          <declname>meta</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_export_settings" kindref="compound">VRMExportSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>List&lt; GameObject &gt;</type>
+          <declname>destroy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destroy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>作業が終わったらDestoryするべき一時オブジェクト</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="139" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="139" bodyend="234"/>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a6e5a68273e5bc4aa2f556333ae44e47e" compoundref="_v_r_m_editor_exporter_8cs" startline="46" endline="59">VRM.VRMEditorExporter.CopyBlendShapeAvatar</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_exporter_1ad0c22c44800d18958fabb2d5904cbabd" compoundref="_v_r_m_editor_exporter_8cs" startline="113" endline="131">VRM.VRMEditorExporter.ForceUniqueName</references>
+        <references refid="class_v_r_m_1_1_v_r_m_export_settings_1a5db6f476fc32b90c55614d6149473270" compoundref="_v_r_m_export_settings_8cs" startline="58">VRM.VRMExportSettings.MeshExportSettings</references>
+        <references refid="class_v_r_m_1_1_v_r_m_export_settings_1a587efb893931a2afff461b955933dc60" compoundref="_v_r_m_export_settings_8cs" startline="20">VRM.VRMExportSettings.PoseFreeze</references>
+        <references refid="class_v_r_m_1_1_v_r_m_export_settings_1aab290cc18ff9603a05959071bbbb0a8e" compoundref="_v_r_m_export_settings_8cs" startline="38">VRM.VRMExportSettings.ReduceBlendshape</references>
+        <references refid="class_v_r_m_1_1_v_r_m_export_settings_1a45f475d2f2cc32695dff6c26beb0205d" compoundref="_v_r_m_export_settings_8cs" startline="44">VRM.VRMExportSettings.ReduceBlendshapeClip</references>
+        <references refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a45d07774f94a0b815f555f6ee09d5f97" compoundref="_v_r_m_editor_exporter_8cs" startline="66" endline="111">VRM.VRMEditorExporter.ReplaceMesh</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/VRMEditorExporter.cs" bodystart="12" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a6e5a68273e5bc4aa2f556333ae44e47e" prot="private" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>CopyBlendShapeAvatar</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a758d05e7d6af20900ed2a07639a9d37d" prot="public" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>Export</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a02fdeecb78f54a5ce4bca1087095b846" prot="private" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>Export</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1ad0c22c44800d18958fabb2d5904cbabd" prot="private" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>ForceUniqueName</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a58deaab6d6752a31eb8a2be6501625cf" prot="private" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>IsPrefab</name></member>
+      <member refid="class_v_r_m_1_1_v_r_m_editor_exporter_1a45d07774f94a0b815f555f6ee09d5f97" prot="private" virt="non-virtual"><scope>VRM::VRMEditorExporter</scope><name>ReplaceMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

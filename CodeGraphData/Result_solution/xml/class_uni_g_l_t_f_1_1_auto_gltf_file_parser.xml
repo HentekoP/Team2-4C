@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_auto_gltf_file_parser" kind="class" prot="public">
+    <compoundname>UniGLTF::AutoGltfFileParser</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a8d47049089d44dd88781bdfd8ecd677f" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string UniGLTF.AutoGltfFileParser._path</definition>
+        <argsstring></argsstring>
+        <name>_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1ac030bbe1d0e51a46822312b2ebe30d50" compoundref="_auto_gltf_file_parser_8cs" startline="14" endline="17">UniGLTF.AutoGltfFileParser.AutoGltfFileParser</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a812576707a51c4b59a30dc89acf23274" compoundref="_auto_gltf_file_parser_8cs" startline="19" endline="33">UniGLTF.AutoGltfFileParser.Parse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1ac030bbe1d0e51a46822312b2ebe30d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.AutoGltfFileParser.AutoGltfFileParser</definition>
+        <argsstring>(string path)</argsstring>
+        <name>AutoGltfFileParser</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a8d47049089d44dd88781bdfd8ecd677f" compoundref="_auto_gltf_file_parser_8cs" startline="12">UniGLTF.AutoGltfFileParser._path</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a812576707a51c4b59a30dc89acf23274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+        <definition>GltfData UniGLTF.AutoGltfFileParser.Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" bodystart="19" bodyend="33"/>
+        <references refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a8d47049089d44dd88781bdfd8ecd677f" compoundref="_auto_gltf_file_parser_8cs" startline="12">UniGLTF.AutoGltfFileParser._path</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Auto detection file parser. Determine parsing method from the file extension. Detects <computeroutput>gltf</computeroutput><computeroutput>zip</computeroutput>, others as<computeroutput>glb</computeroutput> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/Parser/AutoGltfFileParser.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a8d47049089d44dd88781bdfd8ecd677f" prot="private" virt="non-virtual"><scope>UniGLTF::AutoGltfFileParser</scope><name>_path</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1ac030bbe1d0e51a46822312b2ebe30d50" prot="public" virt="non-virtual"><scope>UniGLTF::AutoGltfFileParser</scope><name>AutoGltfFileParser</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_auto_gltf_file_parser_1a812576707a51c4b59a30dc89acf23274" prot="public" virt="non-virtual"><scope>UniGLTF::AutoGltfFileParser</scope><name>Parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage" kind="class" prot="public">
+    <compoundname>UniGLTF::Zip::ZipArchiveStorage</compoundname>
+    <basecompoundref refid="interface_uni_g_l_t_f_1_1_i_storage" prot="public" virt="non-virtual">UniGLTF.IStorage</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a6f6c9f5f3df0cc3928f1c3fbfca5b6e8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" kindref="compound">CentralDirectoryFileHeader</ref> &gt;</type>
+        <definition>List&lt;CentralDirectoryFileHeader&gt; UniGLTF.Zip.ZipArchiveStorage.Entries</definition>
+        <argsstring></argsstring>
+        <name>Entries</name>
+        <initializer>= new List&lt;<ref refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" kindref="compound">CentralDirectoryFileHeader</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="305" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a363a7339aa9116367e3091156b8d402e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.Zip.ZipArchiveStorage.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="300" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a6217124b89dc407fe834a93aa64cae97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Byte[]</type>
+        <definition>Byte [] UniGLTF.Zip.ZipArchiveStorage.Extract</definition>
+        <argsstring>(CentralDirectoryFileHeader header)</argsstring>
+        <name>Extract</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" kindref="compound">CentralDirectoryFileHeader</ref></type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="323" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="323" bodyend="348"/>
+        <references refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aee397e165d0d4790b6921c7114785471" compoundref="_zip_archive_storage_8cs" startline="100">UniGLTF.Zip.CommonHeader.Bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header_1af80d2be092690ad0ecc6d08cd2aa80e9" compoundref="_zip_archive_storage_8cs" startline="213">UniGLTF.Zip.CentralDirectoryFileHeader.RelativeOffsetOfLocalFileHeader</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a46013e815b6993e7f0647e0b8dae5f62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UniGLTF.Zip.ZipArchiveStorage.ExtractToString</definition>
+        <argsstring>(CentralDirectoryFileHeader header, Encoding encoding)</argsstring>
+        <name>ExtractToString</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header" kindref="compound">CentralDirectoryFileHeader</ref></type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>Encoding</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="350" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="350" bodyend="361"/>
+        <references refid="class_uni_g_l_t_f_1_1_zip_1_1_common_header_1aee397e165d0d4790b6921c7114785471" compoundref="_zip_archive_storage_8cs" startline="100">UniGLTF.Zip.CommonHeader.Bytes</references>
+        <references refid="class_uni_g_l_t_f_1_1_zip_1_1_central_directory_file_header_1af80d2be092690ad0ecc6d08cd2aa80e9" compoundref="_zip_archive_storage_8cs" startline="213">UniGLTF.Zip.CentralDirectoryFileHeader.RelativeOffsetOfLocalFileHeader</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a09cb5f462b6919dd34c6c625cfe360cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArraySegment&lt; byte &gt;</type>
+        <definition>ArraySegment&lt;byte&gt; UniGLTF.Zip.ZipArchiveStorage.Get</definition>
+        <argsstring>(string url)</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_uni_g_l_t_f_1_1_i_storage_1a430b3d6dfb436d4aa8b49cd75acf163b">Get</reimplements>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>gltf の buffer の バイト列アクセス を実装する。 </para>        </briefdescription>
+        <detaileddescription>
+<para><orderedlist>
+<listitem><para>url による相対パス</para></listitem><listitem><para>url によるbase64 encoding</para></listitem><listitem><para>url がnullのときに bin chunk(buffers[0]) にアクセスする </para></listitem></orderedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="363" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="363" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1afcd69d3e49c13209b35fc843c72df1d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage" kindref="compound">ZipArchiveStorage</ref></type>
+        <definition>static ZipArchiveStorage UniGLTF.Zip.ZipArchiveStorage.Parse</definition>
+        <argsstring>(byte[] bytes)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="307" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="307" bodyend="321"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implement url that reference zip archive </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3033">
+        <label>IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+      <node id="3032">
+        <label>UniGLTF.Zip.ZipArchiveStorage</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage"/>
+        <childnode refid="3033" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3035">
+        <label>IStorage</label>
+        <link refid="interface_uni_g_l_t_f_1_1_i_storage"/>
+      </node>
+      <node id="3034">
+        <label>UniGLTF.Zip.ZipArchiveStorage</label>
+        <link refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage"/>
+        <childnode refid="3035" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" line="299" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/ZipArchiveStorage.cs" bodystart="298" bodyend="384"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a6f6c9f5f3df0cc3928f1c3fbfca5b6e8" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>Entries</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a6217124b89dc407fe834a93aa64cae97" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>Extract</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a46013e815b6993e7f0647e0b8dae5f62" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>ExtractToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a09cb5f462b6919dd34c6c625cfe360cb" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>Get</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1afcd69d3e49c13209b35fc843c72df1d1" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>Parse</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_zip_1_1_zip_archive_storage_1a363a7339aa9116367e3091156b8d402e" prot="public" virt="non-virtual"><scope>UniGLTF::Zip::ZipArchiveStorage</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

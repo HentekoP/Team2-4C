@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_humanoid_loader" kind="class" prot="public">
+    <compoundname>UniHumanoid::HumanoidLoader</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_humanoid_loader_1ae5849cd3e248bfff152f9e6f7bcab489" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; HumanBodyBones, string &gt;</type>
+        <definition>readonly Dictionary&lt;HumanBodyBones, string&gt; UniHumanoid.HumanoidLoader.s_humanTranitBoneNameMap</definition>
+        <argsstring></argsstring>
+        <name>s_humanTranitBoneNameMap</name>
+        <initializer>=
+        HumanTrait.BoneName.ToDictionary(
+            x =&gt; <ref refid="class_uni_humanoid_1_1_humanoid_loader_1a9a1ba80fd7e4618cdb6d3760d71f1177" kindref="member">TraitToHumanBone</ref>(x),
+            x =&gt; x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_humanoid_loader_1a93c33f27bd5fc2ee9d5d2e2d6854ae5c" compoundref="_humanoid_loader_8cs" startline="10" endline="38">UniHumanoid.HumanoidLoader.LoadHumanoidAvatar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_loader_1a93c33f27bd5fc2ee9d5d2e2d6854ae5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Avatar</type>
+        <definition>static Avatar UniHumanoid.HumanoidLoader.LoadHumanoidAvatar</definition>
+        <argsstring>(Transform root, IEnumerable&lt;(Transform, HumanBodyBones)&gt; boneMap)</argsstring>
+        <name>LoadHumanoidAvatar</name>
+        <param>
+          <type>Transform</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt;(Transform, HumanBodyBones)&gt;</type>
+          <declname>boneMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" bodystart="10" bodyend="38"/>
+        <references refid="class_uni_humanoid_1_1_humanoid_loader_1ae5849cd3e248bfff152f9e6f7bcab489" compoundref="_humanoid_loader_8cs" startline="45">UniHumanoid.HumanoidLoader.s_humanTranitBoneNameMap</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_humanoid_loader_1a9a1ba80fd7e4618cdb6d3760d71f1177" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HumanBodyBones</type>
+        <definition>static HumanBodyBones UniHumanoid.HumanoidLoader.TraitToHumanBone</definition>
+        <argsstring>(string x)</argsstring>
+        <name>TraitToHumanBone</name>
+        <param>
+          <type>string</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/HumanoidLoader.cs" bodystart="8" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_humanoid_loader_1a93c33f27bd5fc2ee9d5d2e2d6854ae5c" prot="public" virt="non-virtual"><scope>UniHumanoid::HumanoidLoader</scope><name>LoadHumanoidAvatar</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_loader_1ae5849cd3e248bfff152f9e6f7bcab489" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidLoader</scope><name>s_humanTranitBoneNameMap</name></member>
+      <member refid="class_uni_humanoid_1_1_humanoid_loader_1a9a1ba80fd7e4618cdb6d3760d71f1177" prot="private" virt="non-virtual"><scope>UniHumanoid::HumanoidLoader</scope><name>TraitToHumanBone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

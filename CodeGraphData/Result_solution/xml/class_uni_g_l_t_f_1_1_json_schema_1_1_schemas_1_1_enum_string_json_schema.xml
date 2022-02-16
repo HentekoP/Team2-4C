@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema" kind="class" prot="public">
+    <compoundname>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</compoundname>
+    <basecompoundref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base" prot="public" virt="non-virtual">UniGLTF.JsonSchema.Schemas.JsonSchemaBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a01524a8600f7671e7dd75274d858c604" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_uni_g_l_t_f_1_1_json_schema_1aecd828f444f27bbd4e33958edcfac82ea27118326006d3829667a400ad23d5d98" kindref="member">String</ref>[]</type>
+        <definition>readonly String [] UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a88b6c68b85d251902404e38ca7dc5cc0" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <initializer>=&gt; <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" kindref="member">Title</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a4c438e28e264d4a5cc0fb5eed1b467d4" prot="public" static="no" mutable="no">
+        <type>override bool</type>
+        <definition>override bool UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.IsInline</definition>
+        <argsstring></argsstring>
+        <name>IsInline</name>
+        <initializer>=&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="67" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a051f321cdf1555b01dc98aa6b2df6ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.EnumStringJsonSchema</definition>
+        <argsstring>(in JsonSchemaSource source)</argsstring>
+        <name>EnumStringJsonSchema</name>
+        <param>
+          <type>in <ref refid="class_uni_g_l_t_f_1_1_json_schema_1_1_json_schema_source" kindref="compound">JsonSchemaSource</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="60" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a7590c4d1a6f6425d94e345e25fca3ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.GenerateDeserializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateDeserializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a9275feca30f8873f03f7ebeafb5a67c9">GenerateDeserializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Deserializer の呼び出し </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="69" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a85e2d0bd8c233c711880ca2b7d4b8e95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.CreateSerializationCondition</definition>
+        <argsstring>(string argName)</argsstring>
+        <name>CreateSerializationCondition</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae980be2c581cea11f4ba5b112676cbfe">CreateSerializationCondition</reimplements>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Serialize 時に出力するか否か </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>null や -1 などの無効な値のキーをスキップするために使う</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="74" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a5043d51bac68d83e5c3caeab15871ab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.GenerateSerializerCall</definition>
+        <argsstring>(string callName, string argName)</argsstring>
+        <name>GenerateSerializerCall</name>
+        <reimplements refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a724caebbf398fb10ff380e6ae5621ec6">GenerateSerializerCall</reimplements>
+        <param>
+          <type>string</type>
+          <declname>callName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+<para>Serializer の呼び出し </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="79" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a4a5af710777740361c8d2ec1859926c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="84" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="84" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="636">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="635">
+        <label>UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema"/>
+        <childnode refid="636" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="638">
+        <label>JsonSchemaBase</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base"/>
+      </node>
+      <node id="637">
+        <label>UniGLTF.JsonSchema.Schemas.EnumStringJsonSchema</label>
+        <link refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema"/>
+        <childnode refid="638" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" line="57" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Editor/JsonSchema/Schemas/EnumJsonSchema.cs" bodystart="56" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae371895d6f5da5f37df231a5fd45e989" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>ClassName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a85e2d0bd8c233c711880ca2b7d4b8e95" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>CreateSerializationCondition</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ae6a36aea0812c5ce25d935c15275ca8a" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>Description</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a051f321cdf1555b01dc98aa6b2df6ca3" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>EnumStringJsonSchema</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1ab947427d34881500663b2a6ab81b6932" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>GenerateDeserializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a7590c4d1a6f6425d94e345e25fca3ee1" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>GenerateDeserializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a99f520c5c3bba44b81c277b40ac934f9" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>GenerateSerializer</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a5043d51bac68d83e5c3caeab15871ab5" prot="public" virt="virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>GenerateSerializerCall</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a87c381b488507578c2c14cbbda2e3e84" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>HardCode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1af35a09164875e7f2edd52c6f369772dd" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>IsArrayItem</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a4c438e28e264d4a5cc0fb5eed1b467d4" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>IsInline</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a151f409bc8cd2bd8d6c0f653e75a8b26" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>JsonPath</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a89f5788f2c67f073663c50cb3dd9151b" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>JsonSchemaBase</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1a391c76e92546facc55f91e8f5ff4be8e" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>JsonSchemaType</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_json_schema_base_1afa9be637459cdbdc3a2171aaea29ff07" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>Title</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a4a5af710777740361c8d2ec1859926c7" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>ToString</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a01524a8600f7671e7dd75274d858c604" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>Values</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_json_schema_1_1_schemas_1_1_enum_string_json_schema_1a88b6c68b85d251902404e38ca7dc5cc0" prot="public" virt="non-virtual"><scope>UniGLTF::JsonSchema::Schemas::EnumStringJsonSchema</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

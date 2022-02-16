@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_node_importer" kind="class" prot="public">
+    <compoundname>UniGLTF::NodeImporter</compoundname>
+    <innerclass refid="class_uni_g_l_t_f_1_1_node_importer_1_1_transform_with_skin" prot="public">UniGLTF::NodeImporter::TransformWithSkin</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_node_importer_1a7b56c4d3158460944e8480bd6e17292d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject UniGLTF.NodeImporter.ImportNode</definition>
+        <argsstring>(glTFNode node, int nodeIndex)</argsstring>
+        <name>ImportNode</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f_node" kindref="compound">glTFNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" bodystart="11" bodyend="56"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1ac82e8bcdc7641c2e4b111176d96d242f" compoundref="gl_t_f_node_8cs" startline="18">UniGLTF.glTFNode.matrix</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1a27f9cbff47a4207cf40f197c881d712b" compoundref="gl_t_f_node_8cs" startline="25">UniGLTF.glTFNode.rotation</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1ad814e1e7418eb9709dd8790165777c15" compoundref="gl_t_f_node_8cs" startline="28">UniGLTF.glTFNode.scale</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_node_1a68e8b6a447111f9417a8c8b6ffce6e39" compoundref="gl_t_f_node_8cs" startline="21">UniGLTF.glTFNode.translation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_node_importer_1ada53706216f9d90b9565a40f5cacede0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_uni_g_l_t_f_1_1_node_importer_1_1_transform_with_skin" kindref="compound">TransformWithSkin</ref></type>
+        <definition>static TransformWithSkin UniGLTF.NodeImporter.BuildHierarchy</definition>
+        <argsstring>(glTF gltf, int i, List&lt; Transform &gt; nodes, List&lt; MeshWithMaterials &gt; meshes)</argsstring>
+        <name>BuildHierarchy</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>gltf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>List&lt; Transform &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_mesh_with_materials" kindref="compound">MeshWithMaterials</ref> &gt;</type>
+          <declname>meshes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" bodystart="65" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_node_importer_1a1cf70f6cbf98744c7baacfb24b9db0db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.NodeImporter.FixCoordinate</definition>
+        <argsstring>(glTF gltf, List&lt; TransformWithSkin &gt; nodes, IAxisInverter inverter)</argsstring>
+        <name>FixCoordinate</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1gl_t_f" kindref="compound">glTF</ref></type>
+          <declname>gltf</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_node_importer_1_1_transform_with_skin" kindref="compound">TransformWithSkin</ref> &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>inverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" line="132" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" bodystart="132" bodyend="157"/>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1a5616215916d51cf415b2b7e09aa9ed6e" compoundref="gl_t_f_8cs" startline="99">UniGLTF.glTF.rootnodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_node_importer_1a688ca6a6bef9e0f338cd980aa90ba667" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.NodeImporter.SetupSkinning</definition>
+        <argsstring>(GltfData data, List&lt; TransformWithSkin &gt; nodes, int i, IAxisInverter inverter)</argsstring>
+        <name>SetupSkinning</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_gltf_data" kindref="compound">GltfData</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_uni_g_l_t_f_1_1_node_importer_1_1_transform_with_skin" kindref="compound">TransformWithSkin</ref> &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_uni_g_l_t_f_1_1_i_axis_inverter" kindref="compound">IAxisInverter</ref></type>
+          <declname>inverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" line="159" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" bodystart="159" bodyend="215"/>
+        <references refid="class_uni_g_l_t_f_1_1_gltf_data_1ac72961bc6d7297b1a15a707cc553b1eb" compoundref="_gltf_data_8cs" startline="39">UniGLTF.GltfData.GLTF</references>
+        <references refid="interface_uni_g_l_t_f_1_1_i_axis_inverter_1a4f80d245682f261b1f4b161e9268e960">UniGLTF.IAxisInverter.InvertMat4</references>
+        <references refid="class_uni_g_l_t_f_1_1gl_t_f_1acc13a4bd443c0a165a8d448c35189e34" compoundref="gl_t_f_8cs" startline="91">UniGLTF.glTF.skins</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/IO/NodeImporter.cs" bodystart="9" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_node_importer_1ada53706216f9d90b9565a40f5cacede0" prot="public" virt="non-virtual"><scope>UniGLTF::NodeImporter</scope><name>BuildHierarchy</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_node_importer_1a1cf70f6cbf98744c7baacfb24b9db0db" prot="public" virt="non-virtual"><scope>UniGLTF::NodeImporter</scope><name>FixCoordinate</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_node_importer_1a7b56c4d3158460944e8480bd6e17292d" prot="public" virt="non-virtual"><scope>UniGLTF::NodeImporter</scope><name>ImportNode</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_node_importer_1a688ca6a6bef9e0f338cd980aa90ba667" prot="public" virt="non-virtual"><scope>UniGLTF::NodeImporter</scope><name>SetupSkinning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

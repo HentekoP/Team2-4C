@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider" kind="struct" prot="public">
+    <compoundname>VRM::VRMSpringBone::SphereCollider</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1ab15dd6d58de199b2a18f14542813858c" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="struct_unity_engine_1_1_vector3" kindref="compound">Vector3</ref></type>
+        <definition>readonly Vector3 VRM.VRMSpringBone.SphereCollider.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="271" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="271" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1a690f2d1c84afbe840ad7e97e328b0aaf" compoundref="_v_r_m_spring_bone_8cs" startline="274" endline="280">VRM.VRMSpringBone.SphereCollider.SphereCollider</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1aa35e804778fd4233939646dbe084b855" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float VRM.VRMSpringBone.SphereCollider.Radius</definition>
+        <argsstring></argsstring>
+        <name>Radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="272" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="272" bodyend="-1"/>
+        <referencedby refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1a690f2d1c84afbe840ad7e97e328b0aaf" compoundref="_v_r_m_spring_bone_8cs" startline="274" endline="280">VRM.VRMSpringBone.SphereCollider.SphereCollider</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1a690f2d1c84afbe840ad7e97e328b0aaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.VRMSpringBone.SphereCollider.SphereCollider</definition>
+        <argsstring>(Transform transform, VRMSpringBoneColliderGroup.SphereCollider collider)</argsstring>
+        <name>SphereCollider</name>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_spring_bone_collider_group_1_1_sphere_collider" kindref="compound">VRMSpringBoneColliderGroup.SphereCollider</ref></type>
+          <declname>collider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="274" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="274" bodyend="280"/>
+        <references refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1ab15dd6d58de199b2a18f14542813858c" compoundref="_v_r_m_spring_bone_8cs" startline="271">VRM.VRMSpringBone.SphereCollider.Position</references>
+        <references refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1aa35e804778fd4233939646dbe084b855" compoundref="_v_r_m_spring_bone_8cs" startline="272">VRM.VRMSpringBone.SphereCollider.Radius</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2255">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="2256" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2255" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="2256">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="2254">
+        <label>VRM.VRMSpringBone.SphereCollider</label>
+        <link refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider"/>
+        <childnode refid="2255" relation="usage">
+          <edgelabel>Position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" line="269" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/SpringBone/VRMSpringBone.cs" bodystart="268" bodyend="281"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1ab15dd6d58de199b2a18f14542813858c" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone::SphereCollider</scope><name>Position</name></member>
+      <member refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1aa35e804778fd4233939646dbe084b855" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone::SphereCollider</scope><name>Radius</name></member>
+      <member refid="struct_v_r_m_1_1_v_r_m_spring_bone_1_1_sphere_collider_1a690f2d1c84afbe840ad7e97e328b0aaf" prot="public" virt="non-virtual"><scope>VRM::VRMSpringBone::SphereCollider</scope><name>SphereCollider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

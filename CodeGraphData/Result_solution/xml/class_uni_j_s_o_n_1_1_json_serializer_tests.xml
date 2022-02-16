@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_j_s_o_n_1_1_json_serializer_tests" kind="class" prot="public">
+    <compoundname>UniJSON::JsonSerializerTests</compoundname>
+    <innerclass refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1_1_dictionary_value" prot="private">UniJSON::JsonSerializerTests::DictionaryValue</innerclass>
+    <innerclass refid="struct_uni_j_s_o_n_1_1_json_serializer_tests_1_1_enum_test" prot="private">UniJSON::JsonSerializerTests::EnumTest</innerclass>
+    <innerclass refid="struct_uni_j_s_o_n_1_1_json_serializer_tests_1_1_point" prot="private">UniJSON::JsonSerializerTests::Point</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a3b169098ff9daef051affdd14e695b45" prot="private" static="no">
+        <name>HogeFuga</name>
+        <enumvalue id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a3b169098ff9daef051affdd14e695b45aa4b1b42ffe743732a437b6c1e2a16106" prot="public">
+          <name>Hoge</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a3b169098ff9daef051affdd14e695b45ab5c66285f04ff96c0457b4f82c6e9c13" prot="public">
+          <name>Fuga</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1aad1ffdf5ad8fa2d8394a18bf0141c03f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonSerializerTests.SerializeValue</definition>
+        <argsstring>(float value, string json)</argsstring>
+        <name>SerializeValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="46" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="46" bodyend="53"/>
+        <referencedby refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1acbcffa8945a22d917469a5ac092b8d82" compoundref="_json_serializer_tests_8cs" startline="94" endline="127">UniJSON.JsonSerializerTests.JsonSerializerTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a81fdae1ba356f6310060e7391d01a833" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonSerializerTests.SerializeValue</definition>
+        <argsstring>(double value, string json)</argsstring>
+        <name>SerializeValue</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="54" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a8189b77f75ae60dfffa184e6d6647027" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonSerializerTests.SerializeValue</definition>
+        <argsstring>(bool value, string json)</argsstring>
+        <name>SerializeValue</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="62" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a94f359a73cf18b9b66844f245b834fd9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonSerializerTests.SerializeValue</definition>
+        <argsstring>(string value, string json)</argsstring>
+        <name>SerializeValue</name>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="70" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="70" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1a767d0f835207e37d0743b99a691e2d4d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniJSON.JsonSerializerTests.SerializeList&lt; T &gt;</definition>
+        <argsstring>(IEnumerable&lt; T &gt; values, string json, Action&lt; JsonFormatter, T &gt; seri)</argsstring>
+        <name>SerializeList&lt; T &gt;</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="class_uni_j_s_o_n_1_1_json_formatter" kindref="compound">JsonFormatter</ref>, T &gt;</type>
+          <declname>seri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="78" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="78" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1acbcffa8945a22d917469a5ac092b8d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonSerializerTests.JsonSerializerTest</definition>
+        <argsstring>()</argsstring>
+        <name>JsonSerializerTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="94" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="94" bodyend="127"/>
+        <references refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1aad1ffdf5ad8fa2d8394a18bf0141c03f" compoundref="_json_serializer_tests_8cs" startline="46" endline="53">UniJSON.JsonSerializerTests.SerializeValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_j_s_o_n_1_1_json_serializer_tests_1ab228afac43a6bd900ac16ce17599f6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniJSON.JsonSerializerTests.KeyValue</definition>
+        <argsstring>()</argsstring>
+        <name>KeyValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="130" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="130" bodyend="152"/>
+        <references refid="namespace_uni_g_l_t_f_1abff7ade7f317593c978f4e6d39d505dfa02129bb861061d1a052c592e2dc6b383">UniGLTF.X</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Tests/UniJSON/Json/JsonSerializerTests.cs" bodystart="10" bodyend="244"/>
+    <listofallmembers>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1a3b169098ff9daef051affdd14e695b45" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>HogeFuga</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1acbcffa8945a22d917469a5ac092b8d82" prot="public" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>JsonSerializerTest</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1ab228afac43a6bd900ac16ce17599f6a7" prot="public" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>KeyValue</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1a767d0f835207e37d0743b99a691e2d4d" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>SerializeList&lt; T &gt;</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1aad1ffdf5ad8fa2d8394a18bf0141c03f" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>SerializeValue</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1a81fdae1ba356f6310060e7391d01a833" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>SerializeValue</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1a8189b77f75ae60dfffa184e6d6647027" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>SerializeValue</name></member>
+      <member refid="class_uni_j_s_o_n_1_1_json_serializer_tests_1a94f359a73cf18b9b66844f245b834fd9" prot="private" virt="non-virtual"><scope>UniJSON::JsonSerializerTests</scope><name>SerializeValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

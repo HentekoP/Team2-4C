@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_g_l_t_f_1_1_shader_prop_menu" kind="class" prot="public">
+    <compoundname>UniGLTF::ShaderPropMenu</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_g_l_t_f_1_1_shader_prop_menu_1a1158ad3a5eb8aaeb5ab9fbfbc20c8231" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string UniGLTF.ShaderPropMenu.ExportDir</definition>
+        <argsstring></argsstring>
+        <name>ExportDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a4af38400e33ebe53f84b31458cca0f03" compoundref="_shader_prop_menu_8cs" startline="45" endline="54">UniGLTF.ShaderPropMenu.PreExport</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_shader_prop_menu_1ad60737d40c8f01fa42cf92168bcf4e6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.ShaderPropMenu.PreExport</definition>
+        <argsstring>()</argsstring>
+        <name>PreExport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="13" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_shader_prop_menu_1a433c4187eeedd2f2bc397d8242563a33" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.ShaderPropMenu.EscapeShaderName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>EscapeShaderName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="32" bodyend="35"/>
+        <referencedby refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a4af38400e33ebe53f84b31458cca0f03" compoundref="_shader_prop_menu_8cs" startline="45" endline="54">UniGLTF.ShaderPropMenu.PreExport</referencedby>
+        <referencedby refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a3f77595bfb8954d16821e55ed31a9524" compoundref="_shader_prop_menu_8cs" startline="56" endline="93">UniGLTF.ShaderPropMenu.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_shader_prop_menu_1a4af38400e33ebe53f84b31458cca0f03" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UniGLTF.ShaderPropMenu.PreExport</definition>
+        <argsstring>(SupportedShader supportedShader)</argsstring>
+        <name>PreExport</name>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader" kindref="compound">SupportedShader</ref></type>
+          <declname>supportedShader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="45" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="45" bodyend="54"/>
+        <references refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a433c4187eeedd2f2bc397d8242563a33" compoundref="_shader_prop_menu_8cs" startline="32" endline="35">UniGLTF.ShaderPropMenu.EscapeShaderName</references>
+        <references refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a1158ad3a5eb8aaeb5ab9fbfbc20c8231" compoundref="_shader_prop_menu_8cs" startline="38">UniGLTF.ShaderPropMenu.ExportDir</references>
+        <references refid="struct_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_supported_shader_1adabd86184e7659de550500d53f66d787" compoundref="_pre_shader_prop_exporter_8cs" startline="19">UniGLTF.ShaderPropExporter.SupportedShader.ShaderName</references>
+        <references refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a3f77595bfb8954d16821e55ed31a9524" compoundref="_shader_prop_menu_8cs" startline="56" endline="93">UniGLTF.ShaderPropMenu.ToString</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_g_l_t_f_1_1_shader_prop_menu_1a3f77595bfb8954d16821e55ed31a9524" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string UniGLTF.ShaderPropMenu.ToString</definition>
+        <argsstring>(ShaderProps props, string shaderName)</argsstring>
+        <name>ToString</name>
+        <param>
+          <type><ref refid="class_uni_g_l_t_f_1_1_shader_prop_exporter_1_1_shader_props" kindref="compound">ShaderProps</ref></type>
+          <declname>props</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="56" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="56" bodyend="93"/>
+        <references refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a433c4187eeedd2f2bc397d8242563a33" compoundref="_shader_prop_menu_8cs" startline="32" endline="35">UniGLTF.ShaderPropMenu.EscapeShaderName</references>
+        <referencedby refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a4af38400e33ebe53f84b31458cca0f03" compoundref="_shader_prop_menu_8cs" startline="45" endline="54">UniGLTF.ShaderPropMenu.PreExport</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/VRM/IO/Editor/ShaderPropMenu.cs" bodystart="11" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a433c4187eeedd2f2bc397d8242563a33" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropMenu</scope><name>EscapeShaderName</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a1158ad3a5eb8aaeb5ab9fbfbc20c8231" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropMenu</scope><name>ExportDir</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1ad60737d40c8f01fa42cf92168bcf4e6a" prot="public" virt="non-virtual"><scope>UniGLTF::ShaderPropMenu</scope><name>PreExport</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a4af38400e33ebe53f84b31458cca0f03" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropMenu</scope><name>PreExport</name></member>
+      <member refid="class_uni_g_l_t_f_1_1_shader_prop_menu_1a3f77595bfb8954d16821e55ed31a9524" prot="private" virt="non-virtual"><scope>UniGLTF::ShaderPropMenu</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups" kind="struct" prot="public">
+    <compoundname>VRM::FastSpringBones::Blittables::BlittableColliderGroups</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a95c09292a2fccbc567f66e689da47f39" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref> *</type>
+        <definition>readonly BlittableColliderGroup* VRM.FastSpringBones.Blittables.BlittableColliderGroups._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="10" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a3e0eceb1d4b6a49635f8641b8e2f8856" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int VRM.FastSpringBones.Blittables.BlittableColliderGroups.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a02cbfe0156143ec60ea5f1f180752b16" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref></type>
+        <definition>BlittableColliderGroup VRM.FastSpringBones.Blittables.BlittableColliderGroups.this[int i]</definition>
+        <argsstring></argsstring>
+        <name>this[int i]</name>
+        <initializer>=&gt; <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a95c09292a2fccbc567f66e689da47f39" kindref="member">_data</ref>[i]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a0cbef06da97f76da7a0497dd61df1faa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.FastSpringBones.Blittables.BlittableColliderGroups.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="15" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a50411f92bafeaf976df13ba0e26217d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.FastSpringBones.Blittables.BlittableColliderGroups.BlittableColliderGroups</definition>
+        <argsstring>(BlittableColliderGroup *data, int length)</argsstring>
+        <name>BlittableColliderGroups</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group" kindref="compound">BlittableColliderGroup</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="28" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BlittableColliderGroupのポインタの配列 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="255">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroups</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups"/>
+        <childnode refid="256" relation="usage">
+          <edgelabel>_data</edgelabel>
+          <edgelabel>this[int i]</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliderGroup</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_group"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliderGroups.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a95c09292a2fccbc567f66e689da47f39" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliderGroups</scope><name>_data</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a50411f92bafeaf976df13ba0e26217d0" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliderGroups</scope><name>BlittableColliderGroups</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a0cbef06da97f76da7a0497dd61df1faa" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliderGroups</scope><name>DrawGizmos</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a3e0eceb1d4b6a49635f8641b8e2f8856" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliderGroups</scope><name>Length</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider_groups_1a02cbfe0156143ec60ea5f1f180752b16" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliderGroups</scope><name>this[int i]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

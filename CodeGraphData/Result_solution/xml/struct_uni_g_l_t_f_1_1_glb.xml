@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_uni_g_l_t_f_1_1_glb" kind="struct" prot="public">
+    <compoundname>UniGLTF::Glb</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_glb_1a84a9c2fd23a2d19e722c8c0fd5a8727b" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref></type>
+        <definition>readonly GlbChunk UniGLTF.Glb.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="137" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="137" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" compoundref="glb_types_8cs" startline="140" endline="146">UniGLTF.Glb.Glb</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_uni_g_l_t_f_1_1_glb_1af1e17239c4b3c42541bbcd7f7852134f" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref></type>
+        <definition>readonly GlbChunk UniGLTF.Glb.Binary</definition>
+        <argsstring></argsstring>
+        <name>Binary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="138" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="138" bodyend="-1"/>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" compoundref="glb_types_8cs" startline="140" endline="146">UniGLTF.Glb.Glb</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UniGLTF.Glb.Glb</definition>
+        <argsstring>(GlbChunk json, GlbChunk binary)</argsstring>
+        <name>Glb</name>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref></type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_glb_chunk" kindref="compound">GlbChunk</ref></type>
+          <declname>binary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="140" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="140" bodyend="146"/>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_1af1e17239c4b3c42541bbcd7f7852134f" compoundref="glb_types_8cs" startline="138">UniGLTF.Glb.Binary</references>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_chunk_1a3e1a8a4ddeb39ff9ee4060bbf3472b24" compoundref="glb_types_8cs" startline="31">UniGLTF.GlbChunk.ChunkType</references>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_1a84a9c2fd23a2d19e722c8c0fd5a8727b" compoundref="glb_types_8cs" startline="137">UniGLTF.Glb.Json</references>
+        <referencedby refid="struct_uni_g_l_t_f_1_1_glb_1a4e28c7255b425bd985e667f1da650941" compoundref="glb_types_8cs" startline="148" endline="151">UniGLTF.Glb.Create</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_1a2f71ee18263be39280a0fd4d46bee2dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] UniGLTF.Glb.ToBytes</definition>
+        <argsstring>()</argsstring>
+        <name>ToBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="158" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="158" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_1a4e28c7255b425bd985e667f1da650941" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_glb" kindref="compound">Glb</ref></type>
+        <definition>static Glb UniGLTF.Glb.Create</definition>
+        <argsstring>(ArraySegment&lt; byte &gt; json, ArraySegment&lt; byte &gt; bin)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="148" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="148" bodyend="151"/>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_chunk_1a5b911777e896691f88d197236dcd488f" compoundref="glb_types_8cs" startline="56" endline="59">UniGLTF.GlbChunk.CreateJson</references>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" compoundref="glb_types_8cs" startline="140" endline="146">UniGLTF.Glb.Glb</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_1aef0a255e5e677c7fee5be078fc0e8b88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_uni_g_l_t_f_1_1_glb" kindref="compound">Glb</ref></type>
+        <definition>static Glb UniGLTF.Glb.Create</definition>
+        <argsstring>(string json, ArraySegment&lt; byte &gt; bin)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>ArraySegment&lt; byte &gt;</type>
+          <declname>bin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="153" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="153" bodyend="156"/>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_chunk_1a5b911777e896691f88d197236dcd488f" compoundref="glb_types_8cs" startline="56" endline="59">UniGLTF.GlbChunk.CreateJson</references>
+        <references refid="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" compoundref="glb_types_8cs" startline="140" endline="146">UniGLTF.Glb.Glb</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_uni_g_l_t_f_1_1_glb_1aa8fe19b9a39d86104c777895b8745f22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_uni_g_l_t_f_1a0c7b14d73205c7af0d8ad736fa2f9d07" kindref="member">GlbChunkType</ref></type>
+        <definition>static GlbChunkType UniGLTF.Glb.ToChunkType</definition>
+        <argsstring>(string src)</argsstring>
+        <name>ToChunkType</name>
+        <param>
+          <type>string</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="184" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="184" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ulink url="https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification">https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification</ulink> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="791">
+        <label>UniGLTF.Glb</label>
+        <link refid="struct_uni_g_l_t_f_1_1_glb"/>
+        <childnode refid="792" relation="usage">
+          <edgelabel>Json</edgelabel>
+          <edgelabel>Binary</edgelabel>
+        </childnode>
+      </node>
+      <node id="792">
+        <label>UniGLTF.GlbChunk</label>
+        <link refid="struct_uni_g_l_t_f_1_1_glb_chunk"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" line="136" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs" bodystart="135" bodyend="198"/>
+    <listofallmembers>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1af1e17239c4b3c42541bbcd7f7852134f" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>Binary</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1a4e28c7255b425bd985e667f1da650941" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>Create</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1aef0a255e5e677c7fee5be078fc0e8b88" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>Create</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1a1e5314be4edec83020a6bc13c64e8e3e" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>Glb</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1a84a9c2fd23a2d19e722c8c0fd5a8727b" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>Json</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1a2f71ee18263be39280a0fd4d46bee2dd" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>ToBytes</name></member>
+      <member refid="struct_uni_g_l_t_f_1_1_glb_1aa8fe19b9a39d86104c777895b8745f22" prot="public" virt="non-virtual"><scope>UniGLTF::Glb</scope><name>ToChunkType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

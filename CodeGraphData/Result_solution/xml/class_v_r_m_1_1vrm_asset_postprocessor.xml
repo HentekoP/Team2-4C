@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_1_1vrm_asset_postprocessor" kind="class" prot="public">
+    <compoundname>VRM::vrmAssetPostprocessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AssetPostprocessor</basecompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_v_r_m_1_1vrm_asset_postprocessor_1a8f6c868f183b0ca103ef83b6195deb26" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.vrmAssetPostprocessor.OnPostprocessAllAssets</definition>
+        <argsstring>(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)</argsstring>
+        <name>OnPostprocessAllAssets</name>
+        <param>
+          <type>string[]</type>
+          <declname>importedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>deletedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>movedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>movedFromAssetPaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" line="16" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" bodystart="16" bodyend="39"/>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1ac0595b2b34a145a260a3c41b5d2747f1" compoundref="_unity_path_8cs" startline="202" endline="212">UniGLTF.UnityPath.FromUnityPath</references>
+        <references refid="class_v_r_m_1_1vrm_asset_postprocessor_1aaa9a15c3eb05af830d83e15e4f598d19" compoundref="vrm_asset_postprocessor_8cs" startline="41" endline="77">VRM.vrmAssetPostprocessor.ImportVrm</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_1_1vrm_asset_postprocessor_1aaa9a15c3eb05af830d83e15e4f598d19" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VRM.vrmAssetPostprocessor.ImportVrm</definition>
+        <argsstring>(UnityPath vrmPath)</argsstring>
+        <name>ImportVrm</name>
+        <param>
+          <type><ref refid="struct_uni_g_l_t_f_1_1_unity_path" kindref="compound">UnityPath</ref></type>
+          <declname>vrmPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" bodystart="41" bodyend="77"/>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1a91e202d43b67bb191e8ea340ea013504" compoundref="_unity_path_8cs" startline="238">UniGLTF.UnityPath.FullPath</references>
+        <references refid="struct_uni_g_l_t_f_1_1_unity_path_1ac57264ade28e28a6342c74f912e5e5e7" compoundref="_unity_path_8cs" startline="36">UniGLTF.UnityPath.IsUnderAssetsFolder</references>
+        <referencedby refid="class_v_r_m_1_1vrm_asset_postprocessor_1a8f6c868f183b0ca103ef83b6195deb26" compoundref="vrm_asset_postprocessor_8cs" startline="16" endline="39">VRM.vrmAssetPostprocessor.OnPostprocessAllAssets</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2593">
+        <label>VRM.vrmAssetPostprocessor</label>
+        <link refid="class_v_r_m_1_1vrm_asset_postprocessor"/>
+        <childnode refid="2594" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2594">
+        <label>AssetPostprocessor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2595">
+        <label>VRM.vrmAssetPostprocessor</label>
+        <link refid="class_v_r_m_1_1vrm_asset_postprocessor"/>
+        <childnode refid="2596" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2596">
+        <label>AssetPostprocessor</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" line="15" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Editor/Format/vrmAssetPostprocessor.cs" bodystart="14" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_1_1vrm_asset_postprocessor_1aaa9a15c3eb05af830d83e15e4f598d19" prot="private" virt="non-virtual"><scope>VRM::vrmAssetPostprocessor</scope><name>ImportVrm</name></member>
+      <member refid="class_v_r_m_1_1vrm_asset_postprocessor_1a8f6c868f183b0ca103ef83b6195deb26" prot="private" virt="non-virtual"><scope>VRM::vrmAssetPostprocessor</scope><name>OnPostprocessAllAssets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_v_r_m_1_1_i_v_r_m_component" kind="interface" prot="public">
+    <compoundname>VRM::IVRMComponent</compoundname>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy" prot="public" virt="non-virtual">VRM.VRMBlendShapeProxy</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer" prot="public" virt="non-virtual">VRM.VRMLookAtBlendShapeApplyer</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer" prot="public" virt="non-virtual">VRM.VRMLookAtBoneApplyer</derivedcompoundref>
+    <derivedcompoundref refid="class_v_r_m_1_1_v_r_m_look_at_head" prot="public" virt="non-virtual">VRM.VRMLookAtHead</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_v_r_m_1_1_i_v_r_m_component_1a7953a45813e1a5eb4f81135cea68dd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VRM.IVRMComponent.OnImported</definition>
+        <argsstring>(VRMImporterContext context)</argsstring>
+        <name>OnImported</name>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy_1a876169e6d2abe68467f86f146b886976">OnImported</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer_1a4001f6d23a33fc5dd5f733755300b555">OnImported</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer_1a258de88acb37edfe762391e6f83733d6">OnImported</reimplementedby>
+        <reimplementedby refid="class_v_r_m_1_1_v_r_m_look_at_head_1aabbdc3f893e351fe1c2d8d41da111d22">OnImported</reimplementedby>
+        <param>
+          <type><ref refid="class_v_r_m_1_1_v_r_m_importer_context" kindref="compound">VRMImporterContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Serializableな値を初期化する </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imported</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IVRMComponent.cs" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>OnImported(Serializableなメンバの初期化)とStart(ランタイムのメンバ初期化)で セットアップが終わるように注意する。</para></listitem><listitem><para>Reset, Awake, OnEnableには注意する(Editor時はAddComponentで呼ばれ、Runtimeでは開始時に呼ばれる)</para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1449">
+        <label>VRM.VRMLookAtBoneApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_bone_applyer"/>
+        <childnode refid="1446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1450">
+        <label>VRM.VRMLookAtHead</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_head"/>
+        <childnode refid="1446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1448">
+        <label>VRM.VRMLookAtBlendShapeApplyer</label>
+        <link refid="class_v_r_m_1_1_v_r_m_look_at_blend_shape_applyer"/>
+        <childnode refid="1446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1447">
+        <label>VRM.VRMBlendShapeProxy</label>
+        <link refid="class_v_r_m_1_1_v_r_m_blend_shape_proxy"/>
+        <childnode refid="1446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1446">
+        <label>VRM.IVRMComponent</label>
+        <link refid="interface_v_r_m_1_1_i_v_r_m_component"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IVRMComponent.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/IVRMComponent.cs" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="interface_v_r_m_1_1_i_v_r_m_component_1a7953a45813e1a5eb4f81135cea68dd26" prot="public" virt="non-virtual"><scope>VRM::IVRMComponent</scope><name>OnImported</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

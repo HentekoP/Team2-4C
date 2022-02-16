@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_uni_humanoid_1_1_bvh_importer_context" kind="class" prot="public">
+    <compoundname>UniHumanoid::BvhImporterContext</compoundname>
+    <derivedcompoundref refid="class_uni_humanoid_1_1_importer_context" prot="public" virt="non-virtual">UniHumanoid.ImporterContext</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a3885d245e71813b533f052f3dc5bd139" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String UniHumanoid.BvhImporterContext.m_path</definition>
+        <argsstring></argsstring>
+        <name>m_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="22" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String UniHumanoid.BvhImporterContext.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="23" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1aaee915d37bf1b4af31583b2c77e839bd" compoundref="_bvh_importer_context_8cs" startline="48" endline="51">UniHumanoid.BvhImporterContext.Parse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a2d4a00ae2d51282804b06638f148063a" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String UniHumanoid.BvhImporterContext.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="32" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a1ccdb3fba8135bbd8ec2e219400f0e5e" compoundref="_bvh_importer_context_8cs" startline="58" endline="63">UniHumanoid.BvhImporterContext.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a8fd3021ccccc21977b316872fa5ba176" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_bvh" kindref="compound">Bvh</ref></type>
+        <definition>Bvh UniHumanoid.BvhImporterContext.Bvh</definition>
+        <argsstring></argsstring>
+        <name>Bvh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="33" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a8033ac17ce60d421bf40009e8603fe67" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UniHumanoid.BvhImporterContext.Root</definition>
+        <argsstring></argsstring>
+        <name>Root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="37" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a2c222172e1e199bd85256c5c64fa0aae" compoundref="_bvh_importer_context_8cs" startline="226" endline="238">UniHumanoid.BvhImporterContext.Destroy</referencedby>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a55c97897625b4acc1f78a5ef90240be9" prot="public" static="no" mutable="no">
+        <type>List&lt; Transform &gt;</type>
+        <definition>List&lt;Transform&gt; UniHumanoid.BvhImporterContext.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <initializer>= new List&lt;Transform&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="38" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1ae02d96aa2c8fd1ee17a598c3ed84f855" prot="public" static="no" mutable="no">
+        <type>AnimationClip</type>
+        <definition>AnimationClip UniHumanoid.BvhImporterContext.Animation</definition>
+        <argsstring></argsstring>
+        <name>Animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="39" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a2f304a904507a410284f97438c9a62a8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_uni_humanoid_1_1_avatar_description" kindref="compound">AvatarDescription</ref></type>
+        <definition>AvatarDescription UniHumanoid.BvhImporterContext.AvatarDescription</definition>
+        <argsstring></argsstring>
+        <name>AvatarDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="40" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1a52660b2a65e28dc2709edd300457550a" prot="public" static="no" mutable="no">
+        <type>Avatar</type>
+        <definition>Avatar UniHumanoid.BvhImporterContext.Avatar</definition>
+        <argsstring></argsstring>
+        <name>Avatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="41" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1ae019a15c41e6f7f275fdca35b5a6eb37" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh UniHumanoid.BvhImporterContext.Mesh</definition>
+        <argsstring></argsstring>
+        <name>Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="42" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_uni_humanoid_1_1_bvh_importer_context_1aadba0ec8c971aae2dd0557e5442dad1e" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material UniHumanoid.BvhImporterContext.Material</definition>
+        <argsstring></argsstring>
+        <name>Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="43" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1aaee915d37bf1b4af31583b2c77e839bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhImporterContext.Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="48" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="48" bodyend="51"/>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" compoundref="_bvh_importer_context_8cs" startline="24">UniHumanoid.BvhImporterContext.Path</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a349e548188289b46df62dd52e5aadcc1" compoundref="_bvh_importer_context_8cs" startline="53" endline="56">UniHumanoid.BvhImporterContext.Parse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1a349e548188289b46df62dd52e5aadcc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhImporterContext.Parse</definition>
+        <argsstring>(string path)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="53" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="53" bodyend="56"/>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1aaee915d37bf1b4af31583b2c77e839bd" compoundref="_bvh_importer_context_8cs" startline="48" endline="51">UniHumanoid.BvhImporterContext.Parse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1a1ccdb3fba8135bbd8ec2e219400f0e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhImporterContext.Parse</definition>
+        <argsstring>(string path, string source)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="58" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="58" bodyend="63"/>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" compoundref="_bvh_importer_context_8cs" startline="24">UniHumanoid.BvhImporterContext.Path</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a2d4a00ae2d51282804b06638f148063a" compoundref="_bvh_importer_context_8cs" startline="32">UniHumanoid.BvhImporterContext.Source</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhImporterContext.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="65" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="65" bodyend="125"/>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1ae02d96aa2c8fd1ee17a598c3ed84f855" compoundref="_bvh_importer_context_8cs" startline="39">UniHumanoid.BvhImporterContext.Animation</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a52660b2a65e28dc2709edd300457550a" compoundref="_bvh_importer_context_8cs" startline="41">UniHumanoid.BvhImporterContext.Avatar</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1ab19877f0482c239ca6844022ad9ec2f3" compoundref="_bvh_importer_context_8cs" startline="127" endline="142">UniHumanoid.BvhImporterContext.BuildHierarchy</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a8fd3021ccccc21977b316872fa5ba176" compoundref="_bvh_importer_context_8cs" startline="33">UniHumanoid.BvhImporterContext.Bvh</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1aadba0ec8c971aae2dd0557e5442dad1e" compoundref="_bvh_importer_context_8cs" startline="43">UniHumanoid.BvhImporterContext.Material</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1ae019a15c41e6f7f275fdca35b5a6eb37" compoundref="_bvh_importer_context_8cs" startline="42">UniHumanoid.BvhImporterContext.Mesh</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" compoundref="_bvh_importer_context_8cs" startline="24">UniHumanoid.BvhImporterContext.Path</references>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a8033ac17ce60d421bf40009e8603fe67" compoundref="_bvh_importer_context_8cs" startline="37">UniHumanoid.BvhImporterContext.Root</references>
+        <references refid="class_uni_humanoid_1_1_bvh_1a4b97da0162723da30d433eb1e92cd05d" compoundref="_bvh_8cs" startline="184">UniHumanoid.Bvh.Root</references>
+      </memberdef>
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1a2c222172e1e199bd85256c5c64fa0aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UniHumanoid.BvhImporterContext.Destroy</definition>
+        <argsstring>(bool destroySubAssets)</argsstring>
+        <name>Destroy</name>
+        <param>
+          <type>bool</type>
+          <declname>destroySubAssets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="226" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="226" bodyend="238"/>
+        <references refid="class_uni_humanoid_1_1_bvh_importer_context_1a8033ac17ce60d421bf40009e8603fe67" compoundref="_bvh_importer_context_8cs" startline="37">UniHumanoid.BvhImporterContext.Root</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_uni_humanoid_1_1_bvh_importer_context_1ab19877f0482c239ca6844022ad9ec2f3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform</type>
+        <definition>static Transform UniHumanoid.BvhImporterContext.BuildHierarchy</definition>
+        <argsstring>(Transform parent, BvhNode node, float toMeter)</argsstring>
+        <name>BuildHierarchy</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_uni_humanoid_1_1_bvh_node" kindref="compound">BvhNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toMeter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="127" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="127" bodyend="142"/>
+        <references refid="class_uni_humanoid_1_1_bvh_node_1a668b510ac8efc33842707eb2583e783b" compoundref="_bvh_8cs" startline="73">UniHumanoid.BvhNode.Name</references>
+        <referencedby refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" compoundref="_bvh_importer_context_8cs" startline="65" endline="125">UniHumanoid.BvhImporterContext.Load</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="403">
+        <label>UniHumanoid.BvhImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_bvh_importer_context"/>
+      </node>
+      <node id="404">
+        <label>UniHumanoid.ImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_importer_context"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="409">
+        <label>UnityEngine.Vector3</label>
+        <link refid="struct_unity_engine_1_1_vector3"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+        <childnode refid="409" relation="usage">
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="410">
+        <label>IEquatable&lt; Vector3 &gt;</label>
+      </node>
+      <node id="405">
+        <label>UniHumanoid.BvhImporterContext</label>
+        <link refid="class_uni_humanoid_1_1_bvh_importer_context"/>
+        <childnode refid="406" relation="usage">
+          <edgelabel>AvatarDescription</edgelabel>
+        </childnode>
+        <childnode refid="411" relation="usage">
+          <edgelabel>Bvh</edgelabel>
+        </childnode>
+      </node>
+      <node id="408">
+        <label>UniHumanoid.BoneLimit</label>
+        <link refid="struct_uni_humanoid_1_1_bone_limit"/>
+        <childnode refid="409" relation="usage">
+          <edgelabel>center</edgelabel>
+          <edgelabel>min</edgelabel>
+          <edgelabel>max</edgelabel>
+        </childnode>
+      </node>
+      <node id="406">
+        <label>UniHumanoid.AvatarDescription</label>
+        <link refid="class_uni_humanoid_1_1_avatar_description"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>human</edgelabel>
+        </childnode>
+      </node>
+      <node id="407">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="411">
+        <label>UniHumanoid.Bvh</label>
+        <link refid="class_uni_humanoid_1_1_bvh"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" line="20" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/UniGLTF/Runtime/UniHumanoid/IO/BvhImporterContext.cs" bodystart="19" bodyend="239"/>
+    <listofallmembers>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1ae02d96aa2c8fd1ee17a598c3ed84f855" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Animation</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a52660b2a65e28dc2709edd300457550a" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Avatar</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2f304a904507a410284f97438c9a62a8" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>AvatarDescription</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1ab19877f0482c239ca6844022ad9ec2f3" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>BuildHierarchy</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a8fd3021ccccc21977b316872fa5ba176" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Bvh</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2c222172e1e199bd85256c5c64fa0aae" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Destroy</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a49a17149e55f14210e5affaf125a3c5a" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Load</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a3885d245e71813b533f052f3dc5bd139" prot="private" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>m_path</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1aadba0ec8c971aae2dd0557e5442dad1e" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Material</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1ae019a15c41e6f7f275fdca35b5a6eb37" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Mesh</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a55c97897625b4acc1f78a5ef90240be9" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Nodes</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1aaee915d37bf1b4af31583b2c77e839bd" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a349e548188289b46df62dd52e5aadcc1" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a1ccdb3fba8135bbd8ec2e219400f0e5e" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Parse</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a3a1f71334bc0680df7640f435b5d3e18" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Path</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a8033ac17ce60d421bf40009e8603fe67" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Root</name></member>
+      <member refid="class_uni_humanoid_1_1_bvh_importer_context_1a2d4a00ae2d51282804b06638f148063a" prot="public" virt="non-virtual"><scope>UniHumanoid::BvhImporterContext</scope><name>Source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_v_r_m_shaders_1_1_runtime_only_await_caller" kind="class" prot="public">
+    <compoundname>VRMShaders::RuntimeOnlyAwaitCaller</compoundname>
+    <basecompoundref refid="interface_v_r_m_shaders_1_1_i_await_caller" prot="public" virt="non-virtual">VRMShaders.IAwaitCaller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_v_r_m_shaders_1_1_runtime_only_await_caller_1aeba31e55f8353b027d9c6c2ac754a349" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler" kindref="compound">NextFrameTaskScheduler</ref></type>
+        <definition>readonly NextFrameTaskScheduler VRMShaders.RuntimeOnlyAwaitCaller._scheduler</definition>
+        <argsstring></argsstring>
+        <name>_scheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="12" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a208d6016fe1994147f28d06edcd303d4" compoundref="_runtime_only_await_caller_8cs" startline="14" endline="17">VRMShaders.RuntimeOnlyAwaitCaller.RuntimeOnlyAwaitCaller</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a208d6016fe1994147f28d06edcd303d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRMShaders.RuntimeOnlyAwaitCaller.RuntimeOnlyAwaitCaller</definition>
+        <argsstring>()</argsstring>
+        <name>RuntimeOnlyAwaitCaller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="14" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1aeba31e55f8353b027d9c6c2ac754a349" compoundref="_runtime_only_await_caller_8cs" startline="12">VRMShaders.RuntimeOnlyAwaitCaller._scheduler</references>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a07ff59411014b6ad8697698acb9d4b96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task VRMShaders.RuntimeOnlyAwaitCaller.NextFrame</definition>
+        <argsstring>()</argsstring>
+        <name>NextFrame</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1a7142ea2566964c6bdc118cb8de5ba741">NextFrame</reimplements>
+        <briefdescription>
+<para>フレームレートを維持するために１フレーム待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="19" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_runtime_only_await_caller_1acb157f67587d13b37e7a886c5562df57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task VRMShaders.RuntimeOnlyAwaitCaller.Run</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>Run</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1a9f2343d8aedbab0280dce09597da9503">Run</reimplements>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>非同期に実行して、終了を待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="26" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a3d8e7b66908e713926469fb1654518c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; VRMShaders.RuntimeOnlyAwaitCaller.Run&lt; T &gt;</definition>
+        <argsstring>(Func&lt; T &gt; action)</argsstring>
+        <name>Run&lt; T &gt;</name>
+        <reimplements refid="interface_v_r_m_shaders_1_1_i_await_caller_1ab23412ff0964c8a29c5d085e16bb1e9c">Run&lt; T &gt;</reimplements>
+        <param>
+          <type>Func&lt; T &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>非同期に実行して、終了を待つ </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="31" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Runtime (Build 後と、Editor Playing) での非同期ロードを実現する AwaitCaller. NOTE: 簡便に実装されたものなので、最適化の余地はある. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2155">
+        <label>IAwaitCaller</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_await_caller"/>
+      </node>
+      <node id="2154">
+        <label>VRMShaders.RuntimeOnlyAwaitCaller</label>
+        <link refid="class_v_r_m_shaders_1_1_runtime_only_await_caller"/>
+        <childnode refid="2155" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2158">
+        <label>VRMShaders.NextFrameTaskScheduler</label>
+        <link refid="class_v_r_m_shaders_1_1_next_frame_task_scheduler"/>
+      </node>
+      <node id="2157">
+        <label>IAwaitCaller</label>
+        <link refid="interface_v_r_m_shaders_1_1_i_await_caller"/>
+      </node>
+      <node id="2156">
+        <label>VRMShaders.RuntimeOnlyAwaitCaller</label>
+        <link refid="class_v_r_m_shaders_1_1_runtime_only_await_caller"/>
+        <childnode refid="2157" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2158" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyAwaitCaller.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1aeba31e55f8353b027d9c6c2ac754a349" prot="private" virt="non-virtual"><scope>VRMShaders::RuntimeOnlyAwaitCaller</scope><name>_scheduler</name></member>
+      <member refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a07ff59411014b6ad8697698acb9d4b96" prot="public" virt="non-virtual"><scope>VRMShaders::RuntimeOnlyAwaitCaller</scope><name>NextFrame</name></member>
+      <member refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1acb157f67587d13b37e7a886c5562df57" prot="public" virt="non-virtual"><scope>VRMShaders::RuntimeOnlyAwaitCaller</scope><name>Run</name></member>
+      <member refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a3d8e7b66908e713926469fb1654518c6" prot="public" virt="non-virtual"><scope>VRMShaders::RuntimeOnlyAwaitCaller</scope><name>Run&lt; T &gt;</name></member>
+      <member refid="class_v_r_m_shaders_1_1_runtime_only_await_caller_1a208d6016fe1994147f28d06edcd303d4" prot="public" virt="non-virtual"><scope>VRMShaders::RuntimeOnlyAwaitCaller</scope><name>RuntimeOnlyAwaitCaller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders" kind="struct" prot="public">
+    <compoundname>VRM::FastSpringBones::Blittables::BlittableColliders</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a413ca78c7e315f31c07b95e7c7d71230" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref> *</type>
+        <definition>readonly BlittableCollider* VRM.FastSpringBones.Blittables.BlittableColliders._colliders</definition>
+        <argsstring></argsstring>
+        <name>_colliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" line="8" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a691117607a3945bd5a7709c795dfc47b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int VRM.FastSpringBones.Blittables.BlittableColliders.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" line="9" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a223c1391b85bc15f057be7c6a08a1e27" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref></type>
+        <definition>BlittableCollider VRM.FastSpringBones.Blittables.BlittableColliders.this[int i]</definition>
+        <argsstring></argsstring>
+        <name>this[int i]</name>
+        <initializer>=&gt; <ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a413ca78c7e315f31c07b95e7c7d71230" kindref="member">_colliders</ref>[i]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" line="11" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a1e6f5b7ddb33db4826a8fa829a996431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VRM.FastSpringBones.Blittables.BlittableColliders.BlittableColliders</definition>
+        <argsstring>(BlittableCollider *colliders, int count)</argsstring>
+        <name>BlittableColliders</name>
+        <param>
+          <type><ref refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider" kindref="compound">BlittableCollider</ref> *</type>
+          <declname>colliders</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" line="13" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BlittableColliderのポインタの配列 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="258">
+        <label>VRM.FastSpringBones.Blittables.BlittableColliders</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders"/>
+        <childnode refid="259" relation="usage">
+          <edgelabel>_colliders</edgelabel>
+          <edgelabel>this[int i]</edgelabel>
+        </childnode>
+      </node>
+      <node id="259">
+        <label>VRM.FastSpringBones.Blittables.BlittableCollider</label>
+        <link refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_collider"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" line="7" column="1" bodyfile="C:/Users/Noguc/Documents/Team2-4C/Assets/player/VRM/Runtime/FastSpringBone/Blittables/BlittableColliders.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a413ca78c7e315f31c07b95e7c7d71230" prot="private" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliders</scope><name>_colliders</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a1e6f5b7ddb33db4826a8fa829a996431" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliders</scope><name>BlittableColliders</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a691117607a3945bd5a7709c795dfc47b" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliders</scope><name>Count</name></member>
+      <member refid="struct_v_r_m_1_1_fast_spring_bones_1_1_blittables_1_1_blittable_colliders_1a223c1391b85bc15f057be7c6a08a1e27" prot="public" virt="non-virtual"><scope>VRM::FastSpringBones::Blittables::BlittableColliders</scope><name>this[int i]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
