@@ -30,17 +30,11 @@ public class EnemyView : MonoBehaviour
                 if (hit.collider.CompareTag("Player"))
                 {
                     Debug.Log("プレイヤー発見");
+                    SceneManager.LoadScene("Result");
                 }
-                //else if (hit.collider.CompareTag("Wall"))
-                //{
-
-                //    Debug.Log("壁がある");
-                //}
                 else
                 {
                     Debug.Log("プレイヤーとの間に壁がある");
-
-                    SceneManager.LoadScene("Result");
                 }
             }
         }
